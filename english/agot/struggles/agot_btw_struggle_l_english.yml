@@ -1,0 +1,40 @@
+﻿l_english:
+ btw_struggle:0 "Walka Za Murem"
+ btw_struggle_desc:1 "$game_concept_btw_struggle$"
+
+ game_concept_btw_struggle:1 "Walka Za Murem"
+ game_concept_btw_struggle_desc:2 "Walka za Murem przedstawia tysiące lat burzliwych relacji poza Murem. Choć zrodziła się z budowy Muru osiem tysięcy lat temu, po zakończeniu Długiej Nocy, [struggle|E] zmienia się pomiędzy [struggle_phase_phases|E] pełnymi przemocy napędzanej nienawiścią, ostrożnymi rozejmami i pragmatyczną współpracą. Niewielu sojuszników jest stałych w tej sytuacji, a [rulers|E] powinni być ostrożni, polegając tylko na wspólnej [faith|E] lub [culture|E]."
+
+ struggle_btw_phase_opportunity:0 "Okazja"
+ struggle_btw_phase_opportunity_desc:0 "$game_concept_struggle_phase_btw_opportunity_desc$"
+ struggle_btw_phase_hostility:0 "Wrogość"
+ struggle_btw_phase_hostility_desc:0 "$game_concept_struggle_phase_btw_hostility_desc$"
+ #struggle_btw_phase_tension:0 "Napięcie"
+ struggle_btw_phase_compromise:0 "Komprois"
+ struggle_btw_phase_compromise_desc:0 "$game_concept_struggle_phase_btw_compromise_desc$"
+ struggle_btw_phase_conciliation:0 "Pojednanie"
+ struggle_btw_phase_conciliation_desc:0 "$game_concept_struggle_phase_btw_conciliation_desc$"
+
+ found_empire_decision_not_part_of_btw_struggle:0 "Nie bierzesz udziału w $btw_struggle$"
+
+ FORM_BTW_MUST_END_STRUGGLE_TRIGGER:0 "Nie można stworzyć $e_beyond_the_wall$ dopóki [btw_struggle|E] nie zostanie rozwiązana"
+
+ game_concept_struggle_phase_btw_opportunity:1 "Faza Okazji"
+ game_concept_struggle_phase_btw_opportunity_desc:2 "Po długim okresie względnie spokojnej koegzystencji podczas [struggle_phase_btw_conciliation|E] zaczyna wkradać się zadowolenie. Wszyscy są przekonani, że wszystko po prostu #EMP działa#!, pozwalając bardziej przebiegłym [characters|E] wykorzystać ich naiwność.\n\nOstatecznie, świeże nadużycia spowodują eskalację w stronę [struggle_phase_btw_hostility|E], lub też sprytna polityka doprowadzi do niestabilnej równowagi przez [struggle_phase_btw_conciliation|E]."
+
+ game_concept_struggle_phase_btw_hostility:1 "Faza Wrogości"
+ game_concept_struggle_phase_btw_hostility_desc:2 "Napięcia się nasilają, a temperamenty się zaostrzają w tej fazie $game_concept_struggle_phase_phase$. Powtarzające się akty wrogości i eskalujące nieporozumienia w trakcie [struggle_phase_btw_opportunity|E] prowadzą do narastającej nienawiści do [characters|E] z różnymi [cultures|E].\n\nTego rodzaju rozlew krwi nie może trwać wiecznie. W końcu, albo chłodniejsze głowy, albo proste wyczerpanie doprowadzą do [struggle_phase_btw_compromise|E]."
+
+ game_concept_struggle_phase_btw_compromise:1 "Faza Kompromisu"
+ game_concept_struggle_phase_btw_compromise_desc:2 "Czy to przez znużenie walką w [struggle_phase_btw_hostility|E], czy przez zręczne eskalowanie w trakcie [struggle_phase_btw_conciliation|E], $game_concept_struggle_phase_btw_compromise$ przedstawia rosnącą zgodę pomiędzy Dzikimi Ludźmi. Różnice schodzą na drugi plan, a wspólna historia i dziedzictwo łączą byłych wrogów.\n\nZiemie poza murem stoją na rozdrożu: jeżeli konflikty znów się pojawią, [struggle_phase_btw_opportunity|E] czeka."
+
+ game_concept_struggle_phase_btw_conciliation: "Faza Pojednania"
+ game_concept_struggle_phase_btw_conciliation_desc: "Efekt [struggle_phase_btw_compromise|E], podczas tej fazy $game_concept_struggle_phase_phase$, relacje między Dzikimi Ludźmi stają się tak serdeczne, że zewnętrzni obserwatorzy mają trudność w zrozumieniu ich otwartości.\n\nTo jednak nie potrwa wiecznie i nadużycia zaufania w końcu przywrócą [btw_struggle|E] do [struggle_phase_btw_compromise|E]."
+
+ game_concept_btw_reclamation:0 "Reklamacja Za Murem"
+ game_concept_btw_reclaiming: "Reklamacja Za Murem"
+ game_concept_btw_reclamations: "Reklamacje Za Murem"
+ game_concept_btw_reclamation_desc: "Jest to specjalny typ [war|E] dostępny dla [struggle_involved|E] [rulers|E] w ramach [btw_struggle|E].\n\nAtakujący dąży do podbicia [duchy|E], który zawiera jakiekolwiek [struggle_involved|E] [counties|E] trzymane przez [struggle_interloper|E] lub [struggle_uninvolved|E] [ruler|E], lub do ich wasalizacji, jeśli nie trzymają ziemi poza tym duchem."
+
+ game_concept_secure_btw_foothold_decision: "$secure_btw_foothold_decision_title$"
+ game_concept_secure_btw_foothold_decision_desc: "Decyzja, która pozwala niezaangażowanemu w [struggle_involved|E] [ruler|E] zakończyć [btw_struggle|E]."

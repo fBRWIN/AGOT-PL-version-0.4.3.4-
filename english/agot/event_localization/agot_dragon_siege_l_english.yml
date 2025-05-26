@@ -1,0 +1,126 @@
+﻿l_english:
+ DRAGON_IN_SIEGE:0 "Użyj smoka"
+ agot_dragon_siege.gui_tt:0 "[commander.GetNameOrMe|U] zdecyduje, jak wykorzystać [sieging_dragon.GetName] podczas oblężenia."
+ agot_dragon_siege.gui_anti_dragon_tt:0 "@warning_icon!#warning Obrońcy mają [anti_dragon_maa|E] [men_at_arms|E] na tej pozycji, co zwiększa ryzyko tej akcji.#!"
+ agot_dragon_siege.gui_scorpion_1_tt:0 "@warning_icon!#warning Obrońcy mają stanowiska Skorpionów, co zwiększa ryzyko tej akcji.#!"
+ agot_dragon_siege.gui_scorpion_2_tt:0 "@warning_icon!#warning Obrońcy mają ciężkie stanowiska Skorpionów, co znacznie zwiększa ryzyko tej akcji.#!"
+ agot_dragon_siege.gui_tt_check:0 "Możesz użyć swojego smoka do oblężenia tylko raz dziennie."
+ agot_dragon_siege.gui_tt_commander_check:0 "Możesz zmusić dowódców do użycia smoka tylko raz na trzy miesiące."
+ agot_dragon_siege.gui_tt_cant_damage:0 "Twój smok nie jest wystarczająco duży, by zadać temu miejscu dalsze obrażenia."
+ agot_dragon_siege.title:0 "Oblężenie [sieging_location.GetNameNoTooltip]:"
+ agot_dragon_siege.scorpion_1_warning:0 "@warning_icon!#warning [sieging_location.GetName] ma stanowiska Skorpionów, co zwiększa ryzyko użycia [sieging_dragon.GetFirstName] podczas oblężenia.#!"
+ agot_dragon_siege.scorpion_2_warning:0 "@warning_icon!#warning [sieging_location.GetName] ma ciężkie stanowiska Skorpionów, co znacznie zwiększa ryzyko użycia [sieging_dragon.GetFirstName] podczas oblężenia.#!"
+ agot_dragon_siege.ineffective:0 "Atak twojego smoka był nieskuteczny."
+
+ agot_dragon_siege.0001.t:0 "$agot_dragon_siege.title$ Podejście smoka"
+ agot_dragon_siege.0001.desc_opening:0 "Stoję przed murami [sieging_location.GetName], mój smok [sieging_dragon.GetName] u mego boku. Nasi ludzie otaczają posiadłość, obrońcy uwięzieni w środku, chowają się za murami.\n\n"
+ agot_dragon_siege.0001.desc_none:0 "Choć z czasem na pewno zmusilibyśmy ich do kapitulacji, żadne mury nie uchronią ich przed smoczym ogniem. Nie jest to wolne od ryzyka, ale mógłbym dosiąść [sieging_dragon.GetNameNoTooltip] i wypuścić jego płomienie na zamek, szybko kończąc to oblężenie."
+ agot_dragon_siege.0001.desc_defender:0 "Choć z czasem na pewno zmusilibyśmy ich do kapitulacji, żadne mury nie uchronią ich przed smoczym ogniem. Niestety, na miejscu są [defending_dragonrider.GetTitledFirstName] i jego smok [defending_dragon.GetName], którzy na pewno będą próbowali nas powstrzymać. Jeśli chcę zaatakować, najpierw muszę się z nimi zmierzyć."
+ agot_dragon_siege.0001.desc_defenders:0 "Choć z czasem na pewno zmusilibyśmy ich do kapitulacji, żadne mury nie uchronią ich przed smoczym ogniem. Niestety, na miejscu są [defending_dragonrider.GetTitledFirstName] i jego smok [defending_dragon.GetName] — a nie są jedyni. Jeśli chcę zaatakować, muszę najpierw pokonać wszystkie inne smoki na niebie."
+ agot_dragon_siege.0001.desc_owned:0 "Choć za murami są inne smoki, to nie mają jeźdźców, więc raczej nie będą z nami walczyć. Nie jest to wolne od ryzyka, ale mógłbym dosiąść [sieging_dragon.GetNameNoTooltip] i wypuścić jego płomienie na zamek, szybko kończąc to oblężenie."
+ agot_dragon_siege.0001.desc_owned_single:0 "Choć wewnątrz jest [owned_dragon_present.GetName], nieposiadający jeźdźca, raczej nie będzie w stanie skutecznie się bronić. Nie jest to wolne od ryzyka, ale mógłbym dosiąść [sieging_dragon.GetNameNoTooltip] i wypuścić [sieging_dragon.Custom('GetDragonSheHe')] płomienie na zamek, szybko kończąc to oblężenie."
+
+ agot_dragon_siege.0001.a:0 "Najpierw zaatakujemy łatwe cele, by osłabić obronę."
+ agot_dragon_siege.0001.a.f:0 "Najmniejsze ryzyko: dosiadasz [sieging_dragon.GetNameNoTooltip] i atakujesz najsłabsze punkty, osłabiając obronę."
+ agot_dragon_siege.0001.b:0 "Te mury nie ochronią ich przed smoczym ogniem."
+ agot_dragon_siege.0001.b.f:0 "Dosiadasz [sieging_dragon.GetNameNoTooltip], by wypuścić [sieging_dragon.Custom('GetDragonHerHis')] płomienie na obronę, próbując zakończyć oblężenie w ogniu chwały."
+ agot_dragon_siege.0001.c:0 "Bez litości — warownia #N spłonie#!."
+ agot_dragon_siege.0001.c.f:0 "Wypuścisz [sieging_dragon.GetNameNoTooltip] na obronę i wnętrze zamku, mocno uszkadzając posiadłość i jej obrońców."
+ agot_dragon_siege.0001.c.tt:0 "#N Wielu wewnątrz [sieging_location.GetNameNoTooltip] zginie w płomieniach.#!"
+ agot_dragon_siege.0001.d:0 "#N;bold Nic nie zostanie oprócz popiołu i ruin!#!"
+ agot_dragon_siege.0001.d.f:0 "Spalisz posiadłość do gołej ziemi, zostawiając tylko popiół i zgliszcza."
+ agot_dragon_siege.0001.d.tt:0 "#N Wszyscy wewnątrz [sieging_location.GetNameNoTooltip] zginą.#!"
+ agot_dragon_siege.0001.e:0 "[defending_dragonrider.GetFirstName]! Wyjdź i giń!"
+ agot_dragon_siege.0001.e.f:0 "Zmusisz [defending_dragonrider.GetTitledFirstNameNoTooltip] i [defending_dragon.GetFirstNameNoTooltip] do walki z tobą."
+ agot_dragon_siege.0001.f:0 "Nie, będziemy prowadzić oblężenie po staremu."
+ agot_dragon_siege.0001.f.f:0 "Kontynuujesz oblężenie."
+
+ # Perspective of besieged below
+ # Burned in dragon siege
+ agot_dragon_siege.0002.t:0 "$agot_dragon_siege.title$ Smoczy ogień!"
+ agot_dragon_siege.0002.intro:0 "Przechadzając się po blankach [location.GetName], nie mogę ignorować niepewności mojej sytuacji — wrogie wojska otoczyły moją twierdzę i wszystko wskazuje na długie oblężenie.\n\n"
+ agot_dragon_siege.0002.bigboi:0 "Słońce wisi wysoko na niebie, gdy słyszę to: Przeszywający ryk, potem szum powietrza... Furia jak potężna burza uderza w [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')], wstrząsając [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] wokół zamku. Ogromny cień przysłania jasne słońce... Wpatruję się w tę ciemność, która na mnie opada: [sieging_dragon.GetFirstNameNicknamed], #XB wielki behemot wśród smoków#!\n\n"
+ agot_dragon_siege.0002.option1:0 "Gęsta warstwa chmur zalega wysoko nad głową. Spoglądam na [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] wokół zamku, słysząc przenikliwy ryk i widząc sylwetkę wzbijającą się nad [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')]. Skrzydła rozpostarte, bestia wzlatuje w niebo, a ja z bólem serca obserwuję nadchodzącą zagładę. Nadciąga [sieging_dragon.GetFirstNameNicknamed], #X budzący grozę smok#! mojego wroga!\n\n"
+ agot_dragon_siege.0002.option2:0 "Słońce zaczyna zachodzić, gdy to słyszę: Grzmiący ryk w oddali, ponad [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')], które otaczają mój zamek. Smok unosi się w górę, tnąc powietrze jak miecz, a z paszczy tryskają smocze płomienie. Niebo staje się krwawe, gdy staję naprzeciw losu: [sieging_dragon.GetFirstNameNicknamed|U] i #X [sieging_dragon.Custom('GetDragonHerHis')] płomienie#! nadciągają z oblężeniem.\n\n"
+ agot_dragon_siege.0002.option3:0 "Przeszywający wrzask rozcina napiętą ciszę, a za [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] widzę wyraźnie swojego nemezis: [sieging_dragon.GetFirstNameNicknamed], #X odrażający smok#!, wzbija się w niebo, gotowy zrzucić smoczy ogień na moich ludzi i mnie.\n\n"
+ agot_dragon_siege.0002.option4:0 "Cisza wisi w powietrzu niczym śmierć. W oddali głębokie dudnienie dzięcioła w [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] wyznacza rytm pod napiętym oddechem mojej załogi. Spokój zostaje rozbity niczym szkło, gdy [sieging_dragon.GetFirstNameNicknamed] wystrzeliwuje w górę, wir płomieni i rozpaczy, przybywa, by #X przynieść mi kres#!.\n\n"
+ agot_dragon_siege.0002.outro:0 "Mam czas jedynie na szeptaną modlitwę, zanim żar rozwija się wokół mnie niczym ognista tkanina. Moi ludzie topnieją wokół mnie, natychmiast zamieniając się w popiół i sadzę, a smoczy ogień zbliża się coraz bardziej."
+ agot_dragon_siege.0002.a:0 "[ROOT.Char.Custom('Scream')]"
+ agot_dragon_siege.0002.a.f:0 "Zostajesz spalony przez [sieging_dragon.GetNameNoTooltip]."
+
+ # Dying in dragon siege
+ agot_dragon_siege.0003.t:0 "$agot_dragon_siege.title$ Zguba przez smoczy ogień!"
+ agot_dragon_siege.0003.outro:0 "Mam czas jedynie na szeptaną modlitwę, zanim żar rozwija się wokół mnie niczym ognista tkanina. Moi ludzie topnieją wokół mnie, natychmiast zamieniając się w popiół i sadzę, a ja kurczowo trzymam się ostatniego tchnienia."
+ agot_dragon_siege.0003.a:0 "[ROOT.Char.Custom('Scream')]"
+ agot_dragon_siege.0003.a.f:0 "Zostajesz spalony na śmierć przez [sieging_dragon.GetNameNoTooltip]."
+
+
+
+  # Dragon siege consequences for attacker below
+ # Rider struck with arrow
+ agot_dragon_siege.0004.t:0 "$agot_dragon_siege.title$ Szczęśliwy strzał"
+ agot_dragon_siege.0004.desc.minor:0 "[sieging_dragon.GetName] i ja lecimy w stronę [sieging_location.GetName], krajobraz przesuwa się pod nami, gdy nasz pierwszy cel — wóz zaopatrzeniowy, który obrońcy lekkomyślnie zostawili poza murami — zbliża się coraz bardziej. Wypuszczam [sieging_dragon.Custom('GetDragonHerHis')] płomienie, a wóz szybko staje w ogniu, zapasy obrońców płoną. To dopiero początek naszych ataków!\n\nWieża, posterunek i zewnętrzna stajnia również padają ofiarą płomieni [sieging_dragon.GetFirstNamePossessiveNoTooltip], lecz gdy wznosimy się znad płonącej stajni, czuję nagłe uderzenie i ostry ból w boku.\n\nKrzyczę z bólu, spoglądam w dół i widzę strzałę wbity w brzuch, czerwona plama rozlewa się na torsie. Z rykiem [sieging_dragon.GetNameNoTooltip] zawraca do naszych linii, a ja ledwo dostrzegam szczęśliwego łucznika, który mnie trafił, uciekającego z powrotem do twierdzy, gdy odlatujemy."
+ agot_dragon_siege.0004.desc:0 "Płonące popioły [sieging_location.GetName] wirują wokół rozpostartych skrzydeł [sieging_dragon.GetName], niczym demon z legend sunący, niosąc śmierć.\n\nPod nami dziedziniec, gdzie obrońcy próbują się zebrać — naiwna próba powstrzymania zniszczenia, jakie niesiemy. Obracam się w siodle i kieruję [sieging_dragon.GetFirstNameNoTooltip] nad dziedziniec, spuszczając smoczy ogień na bezbronnych nieszczęśników.\n\nAle gdy palimy ludzi pod naszą potężną obecnością, czuję nagłe gorąco w boku i krzyczę, gdy ból się nasila. Spoglądam w dół na strzałę wbity w brzuch, a potem na szczęśliwego łucznika, który mnie trafił z murów. Z rykiem palimy go również na popiół, ale nie mogę tu zostać i zawracam [sieging_dragon.GetFirstNameNoTooltip] do naszych linii."
+ agot_dragon_siege.0004.a:0 "Przynajmniej zadaliśmy jakieś straty!"
+ agot_dragon_siege.0004.a.f:0 "Zostałeś zmuszony do odwrotu, ale nie przed zadaniem oczekiwanych szkód."
+
+ # Dragon hit with spear
+ agot_dragon_siege.0005.t:0 "$agot_dragon_siege.title$ Ofiarny oszczep"
+ agot_dragon_siege.0005.desc.minor:0 "Nasze rozpoznawcze ataki na [sieging_location.GetName] były skuteczne, a obrońcy — tam, gdzie dostępni — albo płoną, albo są rozproszeni. Ostatnim celem jest wieża, więc kieruję [sieging_dragon.GetName], by wypuścił [sieging_dragon.Custom('GetDragonHerHis')] płomienie.\n\nLecz gdy tylko [sieging_dragon.GetName] to robi, żar wygina kamień, widzę samotnego człowieka ciskającego oszczepem z czubka wieży, gdy ta wali się pod nim.\n\nChoć z pewnością ginie, jego oszczep trafia w cel. Mimo naszych starań, oszczep wbija się w bok [sieging_dragon.GetNameNoTooltip], a ja czuję potężny ból [sieging_dragon.Custom('GetDragonHerHis')], gdy [sieging_dragon.Custom('GetDragonSheHe')] zrywa się wściekle, rycząc z bólu i gniewu."
+ agot_dragon_siege.0005.desc:0 "Ulica [sieging_location.GetName] to rzeka ognia, a obrońcy uciekają przed naszym wylądowanym smokiem. Kolejny budynek staje w płomieniach, a gdy obrońcy uciekają, kieruję [sieging_dragon.GetName], by ścigał łuczników, zanim się przegrupują.\n\n[sieging_dragon.Custom('GetDragonHerHis')|U] potężne ciało sunie ulicą z zaskakującą szybkością za uciekającymi, ale gdy mijamy kolejną uliczkę, [sieging_dragon.Custom('GetDragonSheHe')] ryczy z bólu! Spoglądam w dół i widzę oszczep wbity w bok [sieging_dragon.Custom('GetDragonHerHis')], samotny obrońca musiał czaić się w zaułku, zebrał odwagę i zaatakował!\n\nBez rozkazu [sieging_dragon.GetFirstNameNoTooltip] obraca się i spopiela tego człowieka, ale czuję ból [sieging_dragon.Custom('GetDragonHerHis')] i każę [sieging_dragon.Custom('GetDragonHerHim')] wzbić się w powietrze."
+ agot_dragon_siege.0005.a:0 "Wracaj [sieging_dragon.GetFirstNameNoTooltip]! Musimy zająć się twoimi ranami!"
+ agot_dragon_siege.0005.a.f:0 "Zostałeś zmuszony do odwrotu, ale nie przed zadaniem oczekiwanych szkód."
+
+ # Dragon attacked in concert by defenders
+ agot_dragon_siege.0006.t:0 "$agot_dragon_siege.title$ Straceńcza odwaga"
+ agot_dragon_siege.0006.desc:0 "Obrońcy [sieging_location.GetName] nękają nas strzałami i oszczepami, kryjąc się w mocniejszych fortyfikacjach, by uniknąć płomieni. W końcu widzę okazję: grupa łuczników zebrała się razem pod niewielkim łukiem, więc kieruję [sieging_dragon.GetName], by zaatakować!\n\nRobiąc to, dostrzegam pułapkę zbyt późno. Nad łukiem grupa obrońców czekała na sąsiednim dachu i gdy nurkujemy, oni #italic skaczą#! na [sieging_dragon.GetFirstNameNoTooltip]!\n\nWielu roztrzaskuje się na kamieniach poniżej, ale część z nich trafia, wbijając się włóczniami i mieczami w [sieging_dragon.GetFirstNameNoTooltip]. [sieging_dragon.GetFirstNameNoTooltip] ryczy z bólu, wzbija się, zrzucając wielu napastników i unosi się w niebo, reszta ginie spadając."
+ agot_dragon_siege.0006.a:0 "Co za odważni szaleńcy!"
+ agot_dragon_siege.0006.a.f:0 "[sieging_dragon.GetFirstNameNoTooltip] jest ciężko ranny, zostałeś zmuszony do odwrotu, choć zadane szkody były znaczne."
+
+ # I am struck by many arrows
+ agot_dragon_siege.0007.t:0 "$agot_dragon_siege.title$ Tysiąc ran"
+ agot_dragon_siege.0007.desc:0 "Atak na [sieging_location.GetName] przebiega dobrze, wiele umocnień pada z łatwością lub bez większego oporu. Myślałem, że ta prowincja jest dobrze broniona, lecz obrońcy nie okazali się tak odważni, jakby chcieli.\n\nGdy atakujemy kolejny kluczowy cel — wielkie koszary — widzę, gdzie kryli się zaginieni obrońcy. Strzały lecą z każdego okna, wszystkie wymierzone prosto we mnie!\n\nChociaż [sieging_dragon.GetFirstName] unosi skrzydła, by mnie osłonić, wiele strzał trafia i czuję ich ból głęboko w ciele. Krzyczę z bólu, wydając ostatni niemy rozkaz, gdy wznosimy się w niebo, a chmury bledną, gdy krew spływa mi po piersi."
+ agot_dragon_siege.0007.a:0 "Potrzebuję medyka!"
+ agot_dragon_siege.0007.a.f:0 "Zostałeś ciężko ranny i musiałeś się wycofać, ale nie przed zadaniem szkód."
+ agot_dragon_siege.0007.b:0 "Ja... ja nie... ja..."
+ agot_dragon_siege.0007.b.f:0 "Umierasz z wykrwawienia na grzbiecie [sieging_dragon.GetNameNoTooltip], a twoje ciało wraca do twoich ludzi. Zadałeś szkody, ale zapłaciłeś za to najwyższą cenę."
+
+ # I was struck by a lucky spear throw
+ agot_dragon_siege.0008.t:0 "$agot_dragon_siege.title$ Oszczep Nieznajomego"
+ agot_dragon_siege.0008.desc:0 "Obrońcy [sieging_location.GetName] walczą dzielnie, ale nikt nie może się równać z [sieging_dragon.GetName] i mną. Spalamy ich obronę od jednej strony zamku do drugiej, skupiając się na miejscach, gdzie mogą być ludzie i broń, zanim przejdziemy do tych blokujących wejście naszym ludziom.\n\nKiedy zostaje ostatni cel, widzę samotnego jeźdźca — jakoś uciekł z płomieni — jedzie w naszym kierunku z oszczepem jakby chciał nas zaszarżować! Odwaga czy szaleństwo, nie wiem, ale każę [sieging_dragon.GetNameNoTooltip] się odwrócić, by mu stawić czoła. Jestem zaskoczony, gdy jego oszczep leci prosto we mnie i wbija się w moją pierś! Powietrze ucieka mi z płuc, nie mogę nawet zawyć z [sieging_dragon.GetFirstNameNoTooltip].\n\nZamglonym wzrokiem widzę, jak [sieging_dragon.GetNameNoTooltip] wzbija się w niebo, moje bezwładne ciało przypięte do siodła, głowa opada w tył. Wznoszący się dym i żar są takie... takie..."
+ agot_dragon_siege.0008.a:0 "Jakie to piękne..."
+ agot_dragon_siege.0008.a.f:0 "Twoje ciało, przypięte do [sieging_dragon.GetNameNoTooltip], wraca do twoich ludzi, szkody zadane, lecz za wielką cenę."
+
+ # Scorpion wounded my dragon
+ agot_dragon_siege.0009.t:0 "$agot_dragon_siege.title$ Uderzenie Skorpiona"
+ agot_dragon_siege.0009.desc:0 "Rzadko kiedy można poczuć się upokorzonym na grzbiecie smoka. Mało kto tego doświadczył. W teorii wiedziałem, że użycie [sieging_dragon.GetName] w oblężeniu niesie ryzyko, ale sądziłem, że obrońcy nie zdołają nas dosięgnąć swoimi słabymi machinami. Myliłem się.\n\nGdy nurkujemy, by spalić kolejną fortyfikację, dostrzegam błysk metalu i bełt leci z murów, trafiając [sieging_dragon.GetNameNoTooltip] w bok. [sieging_dragon.GetFirstNameNoTooltip] ryczy z bólu, rzuca się w tył i niemal mnie zrzuca z grzbietu."
+ agot_dragon_siege.0009.a:0 "Musimy się wycofać!"
+ agot_dragon_siege.0009.a.f:0 "Zostałeś zmuszony do odwrotu, twój atak był nieskuteczny, a [sieging_dragon.GetFirstNameNoTooltip] ciężko ranny."
+
+ # Scorpion killed us both!
+ agot_dragon_siege.0010.t:0 "$agot_dragon_siege.title$ Żądło Skorpiona"
+ agot_dragon_siege.0010.desc:0 "Starzy Valyrianie nadawali smokom imiona bogów i łatwo zrozumieć dlaczego. [sieging_dragon.GetName] jest bogiem ognia i śmierci, a ja jestem jego wybrańcem. Lecz tak jak bogowie dawnych czasów upadli przez wiarę nowych, tak największa broń może paść od najmniejszej rzeczy.\n\nDeszcz metalu z murów nadchodzi niczym burza. Widzę, jak [sieging_dragon.GetNameNoTooltip] zostaje trafiony bełtem ze skorpiona w staw skrzydła, a bolesny ryk przerywa drugi bełt, który wbija się w szyję. Krew płynie z ran [sieging_dragon.Custom('GetDragonHerHis')] — i tam, gdzie lecieliśmy, teraz spadamy, ziemia zbliża się w zawrotnym tempie."
+ agot_dragon_siege.0010.a:0 "Nie, [sieging_dragon.GetFirstNameNoTooltip]! Lataj!"
+ agot_dragon_siege.0010.a.f:0 "Ty i [sieging_dragon.GetNameNoTooltip] giniecie, a wasze ciała zostają odnalezione wśród wraku [sieging_dragon.GetFirstNamePossessiveNoTooltip]."
+
+ # I am dragonrider and I am defending from siege
+ agot_dragon_siege.0011.t:0 "$agot_dragon_siege.title$ Obrona Smoka"
+ agot_dragon_siege.0011.desc:0 "Lojalni obrońcy [sieging_location.GetName] ledwo powstrzymują naszych napastników, a wydaje się, że frustracja w końcu sięgnęła zenitu. Widzę, jak [sieging_dragonrider.GetTitledFirstName] i [sieging_dragon.GetName] wzbijają się ponad szeregi i wiem, co nadchodzi. Nie mam wyboru — czas działać!\n\nMuszę albo dosiąść [defending_dragon.GetName] i stawić im czoła w powietrzu, albo uciec i zostawić obrońców własnemu losowi."
+ agot_dragon_siege.0011.a:0 "Stawię im czoła!"
+ agot_dragon_siege.0011.a.f:0 "Dosiodłasz [defending_dragon.GetNameNoTooltip] i zmierzysz się z napastnikami w powietrzu."
+ agot_dragon_siege.0011.b:0 "Lecimy [defending_dragon.GetFirstNameNoTooltip]! Musimy uciekać!"
+ agot_dragon_siege.0011.b.f:0 "Uciekasz z pola bitwy, zostawiając obrońców własnemu losowi."
+ agot_dragon_siege.notify_sieger_of_fleeing.t:0 "[defending_dragonrider.GetTitledFirstNameNoTooltip] ucieka!"
+ agot_dragon_siege.notify_sieger_of_fleeing.tt:0 "[defending_dragonrider.GetTitledFirstName] uciekł na grzbiecie [defending_dragon.GetFirstName] zamiast stanąć do walki z tobą."
+
+ # My owned dragon has fled due to the events of a siege
+ agot_dragon_siege.0013.t:0 "$agot_dragon_siege.title$ Ucieczka Smoka"
+ agot_dragon_siege.0013.desc:0 "[sieging_rider.GetTitledFirstName] i [sieging_dragon.GetFirstName] dokonali zniszczenia, ale teraz dowiaduję się, że koszt był jeszcze większy, niż wcześniej sądzono.\n\nMój smok [fleeing_dragon.GetName], czy to przestraszony hałasem oblężenia, czy obecnością [sieging_dragon.GetNameNoTooltip], uciekł z pola bitwy!\n\nPodobno [fleeing_dragon.Custom('GetDragonSheHe')] został zauważony, jak zakłada legowisko w [new_location.GetBaseName]."
+ agot_dragon_siege.0013.a:0 "To dla nas wielka strata..."
+ agot_dragon_siege.0013.a.f:0 "Twój smok zdziczał. Możesz jeszcze odzyskać [fleeing_dragon.GetFirstNameNoTooltip], ale może to być trudniejsze, gdy [fleeing_dragon.Custom('GetDragonSheHe')] nie jest już twój."
+
+ # A wild dragon has arrived from the events of a siege
+ agot_dragon_siege.0014.t:0 "$agot_dragon_siege.title$ Przybycie Smoka"
+ agot_dragon_siege.0014.desc:0 "Słyszę, że niedaleko wydarzenia oblężenia [sieging_location.GetName] stały się miejscem wielkiego nieszczęścia. [sieging_rider.GetTitledFirstName] i [sieging_dragon.GetName] sprowadzili zniszczenie na obrońców, ale jeszcze ważniejsze jest dla mnie pojawienie się [fleeing_dragon.GetFirstName]!\n\nDotychczas trzymany w tym samym miejscu, wygląda na to, że [fleeing_dragon.Custom('GetDragonSheHe')] uciekł podczas oblężenia z własnej woli, a moi zwiadowcy donoszą, że bestia widziana była, jak zakłada legowisko w [new_location.GetBaseName]."
+ agot_dragon_siege.0014.a:0 "Szansa, czy zagrożenie?"
+ agot_dragon_siege.0014.a.f:0 "Dziki smok pojawił się w [new_location.GetBaseName] i możesz spróbować go posiąść. Oczywiście dzikie smoki to niebezpieczni sąsiedzi..."

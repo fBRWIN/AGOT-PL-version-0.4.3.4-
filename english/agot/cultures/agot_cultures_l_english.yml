@@ -1,0 +1,406 @@
+﻿l_english:
+ andal:0 "Andalowie"
+ andal_prefix:0 "Andalo"
+ andal_collective_noun:0 "Andalowie"
+
+ crownlander:0 "Koroniarze"
+ crownlander_prefix:0 "Korona"
+ crownlander_collective_noun:0 "Koroniarze"
+
+ fingerman:0 "Mieszkaniec Palca"
+ fingerman_prefix:0 "Palec"
+ fingerman_collective_noun:0 "Mieszkańcy Palca"
+
+ harborman:0 "Mieszkaniec Portu"
+ harborman_prefix:0 "Port"
+ harborman_collective_noun:0 "Mieszkańcy Portu"
+
+ honeywiner:0 "Mieszkaniec Honeywine"
+ honeywiner_prefix:0 "Honeywine"
+ honeywiner_collective_noun:0 "Mieszkańcy Honeywine"
+
+ marcher:0 "Mieszkaniec Marchi"
+ marcher_prefix:0 "March"
+ marcher_collective_noun:0 "Marcherzy"
+
+ moonman:0 "Mieszkaniec Gór Górnych"
+ moonman_prefix:0 "Górny"
+ moonman_collective_noun:0 "Mieszkańcy Gór Górnych"
+
+ reachman:0 "Mieszkaniec Reach"
+ reachman_prefix:0 "Reach"
+ reachman_collective_noun:0 "Mieszkańcy Reach"
+
+ riverlander:0 "Mieszkaniec Nadbrzeża"
+ riverlander_prefix:0 "Trident"
+ riverlander_collective_noun:0 "Mieszkańcy Nadbrzeża"
+ riverlander_desc:0 "Mieszkańcy Nadbrzeża to ludzie żyjący nad Tridentem."
+
+ shieldman:0 "Mieszkaniec Tarczy"
+ shieldman_prefix:0 "Shield"
+ shieldman_collective_noun:0 "Mieszkańcy Tarczy"
+
+ stone_dornish:0 "Kamienni Dornijczycy"
+ stone_dornish_prefix:0 "Kamienny"
+ stone_dornish_collective_noun:0 "Kamienni Dornijczycy"
+
+ stormlander:0 "Mieszkaniec Burzy"
+ stormlander_prefix:0 "Burza"
+ stormlander_collective_noun:0 "Mieszkańcy Burzy"
+
+ valeman:0 "Mieszkaniec Dolnego Palca"
+ valeman_prefix:0 "Dolny"
+ valeman_collective_noun:0 "Mieszkańcy Dolnego Palca"
+
+ vineman:0 "Winiarz"
+ vineman_prefix:0 "Wino"
+ vineman_collective_noun:0 "Winiarze"
+
+ westerman:0 "Mieszkaniec Zachodnich Krain"
+ westerman_prefix:0 "Zachodnia"
+ westerman_collective_noun:0 "Mieszkańcy Zachodnich Krain"
+
+ barrowman:0 "Mieszkaniec Kurhanów"
+ barrowman_prefix:0 "Kurhan"
+ barrowman_collective_noun:0 "Mieszkańcy Kurhanów"
+
+ bearman:0 "Mieszkaniec Niedźwiedzi"
+ bearman_prefix:0 "Niedźwiedź"
+ bearman_collective_noun:0 "Mieszkańcy Niedźwiedzi"
+
+ clawman:0 "Mieszkaniec Crackclaw"
+ clawman_prefix:0 "Claw"
+ clawman_collective_noun:0 "Mieszkańcy Crackclaw"
+
+ crannogman:0 "Mieszkaniec Crannog"
+ crannogman_prefix:0 "Crannog"
+ crannogman_collective_noun:0 "Mieszkańcy Crannog"
+
+ fangman:0 "Mieszkaniec Fang"
+ fangman_prefix:0 "Fang"
+ fangman_collective_noun:0 "Mieszkańcy Fang"
+
+ first_man:0 "Pierwszy Człowiek"
+ first_man_prefix:0 "Pierwszy"
+ first_man_collective_noun:0 "Pierwsi Ludzie"
+
+ forestman:0 "Mieszkaniec Lasu"
+ forestman_prefix:0 "Las"
+ forestman_collective_noun:0 "Mieszkańcy Lasu"
+
+ frozen_shoreman:0 "Mieszkaniec Zamrożonego Wybrzeża"
+ frozen_shoreman_prefix:0 "Zamrożony"
+ frozen_shoreman_collective_noun:0 "Mieszkańcy Zamrożonego Wybrzeża"
+
+ hill_clansman:0 "Północny Klanu"
+ hill_clansman_prefix:0 "Klan"
+ hill_clansman_collective_noun:0 "Północni Klany"
+
+ hornfoot:0 "Mieszkaniec Rogu"
+ hornfoot_prefix:0 "Róg"
+ hornfoot_collective_noun:0 "Mieszkańcy Rogu"
+
+ ice_riverman:0 "Mieszkaniec Lodowatej Rzeki"
+ ice_riverman_prefix:0 "Lodowy"
+ ice_riverman_collective_noun:0 "Mieszkańcy Lodowatej Rzeki"
+
+ krakenman:0 "Mieszkaniec Krakenów"
+ krakenman_prefix:0 "Kraken"
+ krakenman_collective_noun:0 "Mieszkańcy Krakenów"
+
+ lakeman:0 "Mieszkaniec Jeziora"
+ lakeman_prefix:0 "Jezioro"
+ lakeman_collective_noun:0 "Mieszkańcy Jeziora"
+
+ mountain_clansman:0 "Mieszkaniec Gór Księżyca"
+ mountain_clansman_prefix:0 "Księżyc"
+ mountain_clansman_collective_noun:0 "Mieszkańcy Gór Księżyca"
+
+ nightrunner:0 "Mieszkaniec Nocy"
+ nightrunner_prefix:0 "Noc"
+ nightrunner_collective_noun:0 "Mieszkańcy Nocy"
+
+ northman:0 "Północny Człowiek"
+ northman_prefix:0 "Północ"
+ northman_collective_noun:0 "Północni Ludzie"
+
+ sisterman:0 "Sistersman"
+ sisterman_prefix:0 "Sister"
+ sisterman_collective_noun:0 "Sisters"
+
+ skagosi:0 "Skagosi"
+ skagosi_prefix:0 "Kamienny"
+ skagosi_collective_noun:0 "Skagosi"
+
+ thenn:0 "Thenn"
+ thenn_prefix:0 "Brązowy"
+ thenn_collective_noun:0 "Thennowie"
+
+
+ wolfswood_clansman:0 "Mieszkaniec Lasów Wilków"
+ wolfswood_clansman_prefix:0 "Wolfswood"
+ wolfswood_clansman_collective_noun:0 "Mieszkańcy Lasów Wilków"
+
+ ironborn:0 "Ironborn"
+ ironborn_prefix:0 "Żelazni"
+ ironborn_collective_noun:0 "Żelazni"
+
+ greenborn:0 "Zielonorzeczni"
+ greenborn_prefix:0 "Zielony"
+ greenborn_collective_noun:0 "Zielonorzeczni"
+
+ rhoynish:0 "Rhoynish"
+ rhoynish_prefix:0 "Rhoyno"
+ rhoynish_collective_noun:0 "Rhoynish"
+
+ greenblood:0 "Zielonokrwiści"
+ greenblood_prefix:0 "Planky"
+ greenblood_collective_noun:0 "Zielonokrwiści"
+
+ somberysh:0 "Somberysh"
+ somberysh_prefix:0 "Somberysh"
+ somberysh_collective_noun:0 "Somberysh"
+
+ salt_dornish:0 "Słonowodni Dornijczycy"
+ salt_dornish_prefix:0 "Sól"
+ salt_dornish_collective_noun:0 "Słonowodni Dornijczycy"
+
+ sand_dornish:0 "Piaszczani Dornijczycy"
+ sand_dornish_prefix:0 "Piasek"
+ sand_dornish_collective_noun:0 "Piaszczani Dornijczycy"
+
+ high_valyrian:0 "Wysoki Valyriański"
+ high_valyrian_prefix:0 "Wysoki Valyro"
+ high_valyrian_collective_noun:0 "Wysocy Valyrianie"
+
+ westerosi_valyrian:0 "Westerosi Valyriański"
+ westerosi_valyrian_prefix:0 "Valyro"
+ westerosi_valyrian_collective_noun:0 "Westerosi Valyrianie"
+
+ andalosi:0 "Andalozi"
+ andalosi_prefix:0 "Andali"
+ andalosi_collective_noun:0 "Andalozi"
+
+ axeman:0 "Mieszkaniec Topora"
+ axeman_prefix:0 "Topór"
+ axeman_collective_noun:0 "Mieszkańcy Topora"
+
+ selhori:0 "Selhori"
+ selhori_prefix:0 "Selhoro"
+ selhori_collective_noun:0 "Selhori"
+
+ summer_rhoynish:0 "Letni Rhoynish"
+ summer_rhoynish_prefix:0 "Lato"
+ summer_rhoynish_collective_noun:0 "Letni Rhoynish"
+
+ astapori:0 "Astapori"
+ astapori_prefix:0 "Asto"
+ astapori_collective_noun:0 "Astapori"
+
+ ghardaqese:0 "Ghardaqi"
+ ghardaqese_prefix:0 "Ghardo"
+ ghardaqese_collective_noun:0 "Ghardaqi"
+
+ ghiscari:0 "Ghiscari"
+ ghiscari_prefix:0 "Ghiso"
+ ghiscari_collective_noun:0 "Ghiscari"
+
+ hazdahni:0 "Hazdahni"
+ hazdahni_prefix:0 "Hazdo"
+ hazdahni_collective_noun:0 "Hazdahni"
+
+ meereenese:0 "Meereenese"
+ meereenese_prefix:0 "Meero"
+ meereenese_collective_noun:0 "Meereenese"
+
+ shuzduni:0 "Shuzduni"
+ shuzduni_prefix:0 "Shuzdo"
+ shuzduni_collective_noun:0 "Shuzduni"
+
+ yunkish:0 "Yunkai'i"
+ yunkish_prefix:0 "Yunko"
+ yunkish_collective_noun:0 "Yunkai'i"
+
+ essosi_valyrian:0 "Essosi Valyrian"
+ essosi_valyrian_prefix:0 "Valyro"
+ essosi_valyrian_collective_noun:0 "Essosi Valyrianie"
+
+ braavosi:0 "Braavosi"
+ braavosi_prefix:0 "Braavo"
+ braavosi_collective_noun:0 "Braavosi"
+
+ gogossosi:0 "Gogossite"
+ gogossosi_prefix:0 "Gogosso"
+ gogossosi_collective_noun:0 "Gogossici"
+
+ mantaryan:0 "Mantaryan"
+ mantaryan_prefix:0 "Mantaryan"
+ mantaryan_collective_noun:0 "Mantaryanie"
+
+ tolosi:0 "Tolosi"
+ tolosi_prefix:0 "Toloso"
+ tolosi_collective_noun:0 "Tolosi"
+
+ elyrian:0 "Elyrian"
+ elyrian_prefix:0 "Elyro"
+ elyrian_collective_noun:0 "Elyrianie"
+
+ volantene:0 "Volantene"
+ volantene_prefix:0 "Volanto"
+ volantene_collective_noun:0 "Volanteni"
+
+ painted_clansman:0 "Senrillian"
+ painted_clansman_prefix:0 "Senrillo"
+ painted_clansman_collective_noun:0 "Senrillians"
+
+ essarian:0 "Essarian"
+ essarian_prefix:0 "Essaro"
+ essarian_collective_noun:0 "Essarianie"
+
+ lorathi:0 "Lorathi"
+ lorathi_prefix:0 "Loro"
+ lorathi_collective_noun:0 "Lorathi"
+
+ lyseni:0 "Lyseni"
+ lyseni_prefix:0 "Lyseno"
+ lyseni_collective_noun:0 "Lyseni"
+
+ myrish:0 "Myrish"
+ myrish_prefix:0 "Myro"
+ myrish_collective_noun:0 "Myrish"
+
+ hartalari:0 "Hartalari"
+ hartalari_prefix:0 "Haro"
+ hartalari_collective_noun:0 "Hartalari"
+
+ norvoshi:0 "Norvoshi"
+ norvoshi_prefix:0 "Norvo"
+ norvoshi_collective_noun:0 "Norvoshi"
+
+ pentoshi:0 "Pentoshi"
+ pentoshi_prefix:0 "Pento"
+ pentoshi_collective_noun:0 "Pentoshi"
+
+ qohorik:0 "Qohorik"
+ qohorik_prefix:0 "Qohoro"
+ qohorik_collective_noun:0 "Qohorik"
+
+ tyroshi:0 "Tyroshi"
+ tyroshi_prefix:0 "Tyro"
+ tyroshi_collective_noun:0 "Tyroshi"
+
+ tall_man:0 "Tageaz Fen"
+ tall_man_prefix:0 "Tagaez"
+ tall_man_collective_noun:0 "Tageaz Fen"
+
+ omberi:0 "Omberi"
+ omberi_prefix:0 "Ombero"
+ omberi_collective_noun:0 "Omberi"
+
+ cymmeri:0 "Cymmeri"
+ cymmeri_prefix:0 "Cymmero"
+ cymmeri_collective_noun:0 "Cymmeri"
+
+ zoqora:0 "Zoqora"
+ zoqora_prefix:0 "Zoqoro"
+ zoqora_collective_noun:0 "Zoqoras"
+
+ gipps:0 "Gipps"
+ gipps_prefix:0 "Gippo"
+ gipps_collective_noun:0 "Gipps"
+
+ dothraki:0 "Dothraki"
+ dothraki_prefix:0 "Dothraki"
+ dothraki_collective_noun:0 "Dothraki"
+
+ jhalani:0 "Jhalani"
+ jhalani_prefix:0 "Jhalano"
+ jhalani_collective_noun:0 "Jhalani"
+
+ moluuni:0 "Moluuni"
+ moluuni_prefix:0 "Moluuno"
+ moluuni_collective_noun:0 "Moluuni"
+
+ naathi:0 "Naathi"
+ naathi_prefix:0 "Naatho"
+ naathi_collective_noun:0 "Naathi"
+
+ omboruni:0 "Omborui"
+ omboruni_prefix:0 "Omboro"
+ omboruni_collective_noun:0 "Omborui"
+
+ walani:0 "Walanoi"
+ walani_prefix:0 "Walano"
+ walani_collective_noun:0 "Walanoi"
+
+ lhazareen:0 "Lhazareen"
+ lhazareen_prefix:0 "Lhazaro"
+ lhazareen_collective_noun:0 "Lhazareen"
+
+ asabhadi:0 "Shan Ren"
+ asabhadi_prefix:0 "Shan"
+ asabhadi_collective_noun:0 "Shan Ren"
+
+ bayasabhadi:0 "Bayasabhadan"
+ bayasabhadi_prefix:0 "Bayaso"
+ bayasabhadi_collective_noun:0 "Bayasabhadans"
+
+ kayakayanayi:0 "Kayakayanayan"
+ kayakayanayi_prefix:0 "Kayakayo"
+ kayakayanayi_collective_noun:0 "Kayakayanayans"
+
+ samyriani:0 "Shamyrianan"
+ samyriani_prefix:0 "Shamyro"
+ samyriani_collective_noun:0 "Shamyrianans"
+
+ yinishari:0 "Yinisharan"
+ yinishari_prefix:0 "Yino"
+ yinishari_collective_noun:0 "Yinisharans"
+
+ zabhadi:0 "Zabhadi"
+ zabhadi_prefix:0 "Zabhadi"
+ zabhadi_collective_noun:0 "Zabhadi"
+
+ ibbenese:0 "Ibbenese"
+ ibbenese_prefix:0 "Ibbeno"
+ ibbenese_collective_noun:0 "Ibbenese"
+
+ ib_sarese:0 "Sarese"
+ ib_sarese_prefix:0 "Saro"
+ ib_sarese_collective_noun:0 "Sarese"
+
+ ibatese:0 "Ibatese"
+ ibatese_prefix:0 "Ibbato"
+ ibatese_collective_noun:0 "Ibatese"
+
+ qartheen:0 "Qartheen"
+ qartheen_prefix:0 "Qartho"
+ qartheen_collective_noun:0 "Qartheen"
+
+ mazemaker:0 "Mazemaker"
+ mazemaker_prefix:0 "Maze"
+ mazemaker_collective_noun:0 "Mazemaker"
+
+ children_culture:0 "Ci, którzy śpiewają Pieśń Ziemi"
+ children_culture_prefix:0 "Śpiewający"
+ children_culture_collective_noun:0 "Śpiewacy"
+
+ jhogwin:0 "Jhogwin"
+ jhogwin_prefix:0 "Kamienny"
+ jhogwin_collective_noun:0 "Jhogwin"
+
+ giant_culture:0 "Giant"
+ giant_culture_prefix:0 "Giant"
+ giant_culture_collective_noun:0 "Giganci"
+
+ others_culture:0 "Inni"
+ others_culture_prefix:0 "Lód"
+ others_culture_collective_noun:0 "Inni"
+
+ dragon_culture:0 "Smok"
+ dragon_culture_prefix:0 "Draco"
+ dragon_culture_collective_noun:0 "Smoki"
+
+ ifequevron:0 "Ifequevron"
+ ifequevron_prefix:0 "Drewno"
+ ifequevron_collective_noun:0 "Wędrowcy Drewna"

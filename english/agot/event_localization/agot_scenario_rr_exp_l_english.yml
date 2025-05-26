@@ -1,0 +1,34 @@
+﻿l_english:
+ #ROBERT'S REBELLION
+ agot_scenario_events_rr.loyalists.t:0 "Wojna Uzurpatora"
+ agot_scenario_events_rr.rebels.t:0 "Bunt Roberta"
+ #Rhaegar Targaryen
+ agot_events_scenario_rr_exp.1.desc:0 "Miłość, która zapłonęła między mną a Lyanną Stark, paliła się głęboko w naszych sercach od pierwszego spotkania. Moja Królowa Miłości i Piękna, z koroną zimowych róż, niebieskich jak szron. Nasza miłość rozzłościła wielu, a najbardziej jej narzeczonego, Roberta Baratheona. Jego gniew rzuca czarny cień na Królestwa, ale nie mógł nas powstrzymać przed ucieczką do Dorne i potajemnym ślubem, z dala od oceniających oczu naszych rodzin. Moja miłość jest bezpieczna w Wieży Radości i nie ma armii wystarczająco silnej, by nas rozdzielić. Nasze przeznaczenie zostało przepowiedziane; nasza jest pieśń Lodu i Ognia..."
+ agot_events_scenario_rr_exp.1.a:0 "Smok tak łatwo się nie łamie."
+ #Aerys II Targaryen
+ agot_events_scenario_rr_exp.2.desc:0 "Zdrajcy! Wszyscy są zdrajcami! Kim jest Jon Arryn, by odmawiać mi prawa do sprawiedliwości, by łamać pokój króla? Starkowie, tak bezczelnie żądający życia mojego syna, tylko dlatego, że bronił wilczej dziewczyny przed tym lubieżnym paniczem ze Storm's End! Tully również, którzy zawdzięczają wszystko mojemu domowi, teraz otwarcie buntują się przeciwko swojemu królowi! Tymczasem niewdzięczny Tywin Lannister chowa się pod Casterly Rock, niech go Inni zabiorą! Zapłacą! #bold Zapłacą ogniem i krwią! #"
+ agot_events_scenario_rr_exp.2.a:0 "#bold Spalić ich! Spalić ich wszystkich!#!"
+ #Mace Tyrell
+ agot_events_scenario_rr_exp.3.desc:0 "Robert Baratheon i jego zwolennicy powstali przeciwko naszemu prawowitemu władcy, królowi Aerysowi. Targaryenowie są prawowitymi Władcami Siedmiu Królestw, a my, Tyrellowie, zawdzięczamy im nasze miejsce w królestwie. Nie doszliśmy tam, gdzie jesteśmy, podejmując pochopne decyzje — osiągnęliśmy to, starannie wybierając bitwy i wypełniając obowiązek. Teraz będziemy bronić korony przed buntownikami, jak przystało na lojalnego wasala."
+ agot_events_scenario_rr_exp.3.a:0 "A dzięki temu staniemy się jeszcze silniejsi."
+ #Doran Martell
+ agot_events_scenario_rr_exp.4.desc:0 "Król Aerys jest naszym sojusznikiem z krwi dzięki małżeństwu mojej siostry Elii z następcą tronu Rhaegarem. Lord Robert Baratheon powstał przeciwko tyranii okrutnego króla po egzekucji ojca i brata Eddarda Starka oraz porwaniu Lyanny Stark przez księcia Rhaegara. Jego sprawa może być słuszna, ale z moimi bratankami pod bezpośrednią opieką króla w stolicy mamy niewielki wybór — musimy wyruszyć na poparcie korony."
+ agot_events_scenario_rr_exp.4.a:0 "Lordowie Dorne wyruszą."
+ #Robert Baratheon
+ agot_events_scenario_rr_exp.5.desc:0 "Moja ukochana Lyanna została porwana przez nikczemnego księcia Rhaegara. Po zaprotestowaniu przeciwko temu okrutnemu czynowi u króla Aerysa, Rickard Stark został okrutnie spalony żywcem, podczas gdy jego syn Brandon patrzył. Teraz Eddard Stark i ja, wraz z naszymi sojusznikami, stoimy przeciwko tyranii Szalonego Króla. Może jeszcze nie wiemy, kto powinien zostać jego następcą, ale jedno jest pewne: panowanie smoka dobiegło końca!"
+ agot_events_scenario_rr_exp.5.a:0 "Targaryenowie upadną z mojej ręki..."
+ #Eddard Stark
+ agot_events_scenario_rr_exp.6.desc:0 "Moja siostra jest w rękach księcia Rhaegara, a szalony król Aerys spalił mojego ojca żywcem, podczas gdy Brandon, mój najstarszy brat, patrzył w rozpaczy. Narzeczony Lyanny, Robert Baratheon, powstał przeciwko tyranii króla, a ja dołożę wszelkich starań, by pomóc mojemu przyjacielowi w przywróceniu sprawiedliwości."
+ agot_events_scenario_rr_exp.6.a:0 "Lyanna znów będzie bezpieczna..."
+ #Jon Arryn
+ agot_events_scenario_rr_exp.7.desc:0 "Moi byli podopieczni, Eddard Stark i Robert Baratheon, powstali przeciwko tyranii króla Aerysa. Szalony Król spalił Rickarda Starka i pozwolił porwać Lyannę Stark, narzeczoną Roberta. Nie pozwolę, by moi towarzysze stanęli sami. Rycerze z Doliny są gotowi, a Dom Arryn pomoże w przywróceniu sprawiedliwości w królestwie."
+ agot_events_scenario_rr_exp.7.a:0 "Zwyciężymy"
+ #Hoster Tully
+ agot_events_scenario_rr_exp.8.desc:0 "Król Aerys, w kolejnym napadzie szaleństwa, okrutnie zgładził Rickarda i Brandona Starków. Książę Rhaegar również porwał Lyannę Stark. Jesteśmy związani krwią ze Starkami, moja córka Catelyn została poślubiona lordowi Eddardowi. Jasne jest, że panowanie Szalonego Króla trwa zbyt długo i porządek musi zostać przywrócony w królestwie za wszelką cenę."
+ agot_events_scenario_rr_exp.8.a:0 "Lordowie Rzek są gotowi"
+ #Tywin Lannister
+ agot_events_scenario_rr_exp.9.desc:0 "Mój stary przyjaciel, król Aerys, sprowokował Eddarda Starka, Roberta Baratheona i ich sojuszników do buntu przez swoje pochopne działania. Król wielokrotnie mnie znieważał, mimo mojej lojalnej służby jako Namiestnik Króla. Jeśli myśli, że znajdzie chętnego sojusznika w Westerlandach, to jest w poważnym błędzie. Na razie siedzę, czekam i obserwuję."
+ agot_events_scenario_rr_exp.9.a:0 "Lew śpi... na razie..."
+ #Quellon Greyjoy
+ agot_events_scenario_rr_exp.10.desc:0 "Wojna znów zawitała do Westeros. Moi synowie, owładnięci nieustanną żądzą chwały i łupów, próbowali mnie przekonać, bym chwycił za miecz. Ale jestem starym człowiekiem, schorowanym człowiekiem. Zdobyłem swoją chwałę w bitwach sprzed dekad. Jestem zmęczony wojną, rozlewem krwi, i obawiam się, że moje starania, by mój lud porzucił drogi grabieży i podbojów, zostałyby zaprzepaszczone w chwili, gdy tylko jeden długi statek odpłynąłby z naszych skalistych brzegów. Nie zapłacimy żelaznej ceny; przynajmniej na razie..."
+ agot_events_scenario_rr_exp.10.a:0 "Przynajmniej na razie..."

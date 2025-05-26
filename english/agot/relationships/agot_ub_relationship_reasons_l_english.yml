@@ -1,0 +1,7 @@
+﻿l_english:
+### ub
+ ub_inherited_friendship:0 "[TARGET_CHARACTER_2.GetShortUINamePossessive] spadkobierca, [TARGET_CHARACTER.GetShortUIName|U], postanowił utrzymać bliską przyjaźń [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojego', TARGET_CHARACTER.GetHerHis )] poprzednika z [CHARACTER.GetShortUIName|U]."
+ ub_inherited_friendship_corresponding:0 "[TARGET_CHARACTER_2.GetShortUINamePossessive] spadkobierca, [CHARACTER.GetShortUIName|U], postanowił utrzymać bliską przyjaźń [Select_CString(CHARACTER.IsLocalPlayer, 'twojego', CHARACTER.GetHerHis )] poprzednika z [TARGET_CHARACTER.GetShortUIName|U]."
+
+ ub_inherited_rivalry:0 "[TARGET_CHARACTER_2.GetShortUINamePossessive] spadkobierca, [TARGET_CHARACTER.GetShortUIName|U], nie mógł pozwolić, by uraza między [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoim', TARGET_CHARACTER.GetHerHis )] poprzednikiem a [CHARACTER.GetShortUIName|U] pozostała nierozwiązana."
+ ub_inherited_rivalry_corresponding:0 "[TARGET_CHARACTER_2.GetShortUINamePossessive] spadkobierca, [CHARACTER.GetShortUIName|U], nie mógł pozwolić, by uraza między [Select_CString(CHARACTER.IsLocalPlayer, 'twoim', CHARACTER.GetHerHis )] poprzednikiem a [TARGET_CHARACTER.GetShortUIName|U] pozostała nierozwiązana."

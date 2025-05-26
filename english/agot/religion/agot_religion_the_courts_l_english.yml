@@ -1,0 +1,43 @@
+﻿l_english:
+### RELIGIA ###
+ the_courts_religion:0 "Dwory Świtu"
+ the_courts_religion_adj:0 "Dwory"
+ the_courts_religion_adherent:0 "Oddani"
+ the_courts_religion_adherent_plural:0 "Oddani"
+ the_courts_religion_desc:0 "Yi Ti to kraina tysiąca bogów i setek książąt, a sfera boska jest zorganizowana podobnie do tej ziemskiej. Choć wszyscy bogowie są uznawani i wierzy się w nich, poszczególne Dwory to konkretni bogowie, którym grupy lub jednostki oddają swoje życie."
+
+### Wiary ###
+#Dwór Niebios
+ yt_court_celestial:0 "Niebiański Dwór Niebios"
+ yt_court_celestial_adj:0 "Niebiański Dwór"
+ yt_court_celestial_adherent:0 "Oddany"
+ yt_court_celestial_adherent_plural:0 "Oddani"
+ yt_court_celestial_desc:0 "Wszystko pod Niebem rodzi się z Woli Niebios, a tak jak cesarze rządzą Złotym Imperium, tak samo Bóg na Ziemi rządzi Niebiańskim Dworem. Wśród dworu znajdują się inne boskie istoty, w tym Dziewica-Od-Swiatła i Lew Nocy, którzy służą jako główni doradcy Boga na Ziemi. Kiedy jest to potrzebne, Lew Nocy pełni rolę katów i strażników porządku."
+
+#Dwór Klejnotów
+ yt_court_jewel:0 "Dwór Klejnotów Świtu"
+ yt_court_jewel_adj:0 "Dwór Klejnotów"
+ yt_court_jewel_adherent:0 "Oddany"
+ yt_court_jewel_adherent_plural:0 "Oddani"
+ yt_court_jewel_desc:0 "Bezpośrednia linia od Boga na Ziemi, Cesarzy Perłowych, Jadeitowych, Turmalinowych, Onyksowych, Topazowych, Opalowych oraz Cesarzowej Ametystowej, nie byli ludźmi takimi jak my, ale sami byli boskimi istotami. Nawet jeśli ten boski błysk z czasem przygasł, dzisiaj nadal oferują wskazówki i drogowskazy dla tych, którzy się do nich modlą."
+
+#Dwór Przodków
+ yt_court_ancestor:0 "Dwór Przodków Yi Ti"
+ yt_court_ancestor_adj:0 "Dwór Przodków"
+ yt_court_ancestor_adherent:0 "Oddany"
+ yt_court_ancestor_adherent_plural:0 "Oddani"
+ yt_court_ancestor_desc:0 "Poza wielkimi dworami bogów i cesarzy świtu, własna rodzina i przodkowie tworzą własne dwory, które prowadzą i chronią żyjących potomków. Od najwyższych książęcych rodów po najniższe rody sług, wszyscy składają hołd swoim przodkom."
+
+#Dwór Kamienia Krwi
+ yt_court_bloodstone:0 "Dwór Kamienia Krwi Nocy"
+ yt_court_bloodstone_adj:0 "Dwór Kamienia Krwi"
+ yt_court_bloodstone_adherent:0 "Oddany"
+ yt_court_bloodstone_adherent_plural:0 "Oddani"
+ yt_court_bloodstone_desc:0 "Cesarz Kamienia Krwi prowadził swój własny dwór, odrzucając prawa i pobożne drogi swoich przodków i bogów. Pojął za żonę Kobietę-Tigra i zwrócił się ku czczeniu oleistego czarnego kamienia, który spadł z nieba w Krwawej Zdradzie. Dziś, rebelianci, dysydenci, czarnoksiężnicy i inni niepobożni ludzie czczą Cesarza Kamienia Krwi i starają się przywrócić świat do jego sposobów rządzenia."
+
+#Święty Dwór
+ yt_court_leng:0 "Święty Dwór Leng"
+ yt_court_leng_adj:0 "Święty Dwór"
+ yt_court_leng_adherent:0 "Oddany"
+ yt_court_leng_adherent_plural:0 "Oddani"
+ yt_court_leng_desc:0 "Od czasów Khiary Wielkiej, Bogini-Cesarzowej, była czczona zarówno jako władczyni, jak i głowa wiary Leng. Jest ucieleśnieniem ducha Lengu, odzwierciedlającym skład narodu Lengii."

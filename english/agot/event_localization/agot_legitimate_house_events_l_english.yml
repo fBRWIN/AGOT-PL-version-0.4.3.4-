@@ -1,0 +1,28 @@
+﻿l_english:
+ # New Legitimate House Announcement
+ agot_legitimate_house.0001.t:0 "Nowy prawowity ród [changed_legitimate_title.GetNameNoTooltip]"
+ agot_legitimate_house.0001.desc:0 "Przez pokolenia ród [new_legitimate_house.GetName] rządził [changed_legitimate_title.GetName]. W tym czasie wielu kwestionowało legitymację rządów [new_legitimate_house.GetNameNoTooltip], niektórzy wręcz otwarcie wyrażali tęsknotę za dawną władzą rodu [old_legitimate_house.GetName].\n\n"
+ agot_legitimate_house.0001.desc_extinct:0 "Jednak bez żyjących członków rodu [old_legitimate_house.GetNameNoTooltip] i po pokoleniach rządów rodu [new_legitimate_house.GetNameNoTooltip], zarówno lordowie, jak i prostaczkowie zaakceptowali [new_legitimate_house.GetNameNoTooltip] jako prawowitych władców [changed_legitimate_title.GetNameNoTooltip]."
+ agot_legitimate_house.0001.desc_supplanted:0 "Choć ród [old_legitimate_house.GetNameNoTooltip] był niegdyś dominujący w swojej dynastii, to właśnie [new_legitimate_house.GetNameNoTooltip] przez pokolenia sprawiedliwych rządów wyparł ich jako prawdziwych władców [changed_legitimate_title.GetNameNoTooltip]."
+ agot_legitimate_house.0001.desc_default:0 "Już nie. Choć ocalali członkowie rodu [old_legitimate_house.GetNameNoTooltip] mogą wściekać się na nieuniknione, to pokolenia rządów rodu [new_legitimate_house.GetNameNoTooltip] uczyniły z nich prawdziwych władców [changed_legitimate_title.GetNameNoTooltip] w oczach wszystkich."
+ agot_legitimate_house.0001.desc_end:0 "\n\nPodczas wielkiej procesji [new_legitimate_holder.GetName] ogłosił to, co wszyscy już wiedzieli — że potomkowie rodu [new_legitimate_house.GetNameNoTooltip] są prawdziwymi władcami [changed_legitimate_title.GetNameNoTooltip], teraz i na zawsze."
+ agot_legitimate_house.0001.desc_end_me:0 "\n\nOznajmiłem to, co cały świat już wiedział — że potomkowie rodu [new_legitimate_house.GetNameNoTooltip] są prawdziwymi władcami [changed_legitimate_title.GetNameNoTooltip], teraz i na zawsze."
+ agot_legitimate_house.0001.a:0 "Niech ród [new_legitimate_house.GetNameNoTooltip] prowadzi królestwo ku lepszej przyszłości."
+ agot_legitimate_house.0001.a.flavor:0 "Za sprawą uznanego rodu panującego, [changed_legitimate_title.GetNameNoTooltip] będzie prosperować przez pokolenia."
+ agot_legitimate_house.0001.b:0 "Co za farsa! To [old_legitimate_house.GetNameNoTooltip] są prawdziwymi władcami [changed_legitimate_title.GetNameNoTooltip]!"
+ agot_legitimate_house.0001.b.flavor:0 "Los odwrócił się od twojego rodu, lecz fortuna może się jeszcze odmienić..."
+
+ # You get a claim as another house has taken over the legitimate house title
+ agot_legitimate_house.0002.t:0 "Prawdziwi władcy [legitimate_house_title_for_maintenance.GetNameNoTooltip]"
+ agot_legitimate_house.0002.desc:0 "Przez pokolenia twoi przodkowie rządzili [legitimate_house_title_for_maintenance.GetName]. Dokonano wielkich czynów i poniesiono wielkie ofiary, by zapewnić pokój i stabilność pod rządami [legitimate_house.GetNameNoTooltip].\n\nJuż nie.\n\nRód [new_house.GetNameNoTooltip] wyparł ród [legitimate_house.GetNameNoTooltip] i teraz włada ziemiami, które powinny należeć do twojej rodziny! Twoje własne pragnienia nie mają znaczenia, bo dopóki żyjesz, wielu uważa cię za prawowitego dziedzica, bardziej niż [title_holder.GetName]. Jesteś zagrożeniem dla potężnego [title_holder.GetWomanMan], i [title_holder.GetSheHe] dobrze o tym wie."
+ agot_legitimate_house.0002.a:0 "To zagrożenie stanie się rzeczywistością! Ród [legitimate_house.GetNameNoTooltip] znów będzie rządzić!"
+ agot_legitimate_house.0002.a.flavor:0 "Nadszedł czas, by odzyskać to, co ci się należy — władzę nad [legitimate_house_title_for_maintenance.GetNameNoTooltip]."
+ agot_legitimate_house.0002.b:0 "Nie dbam o to, co robili moi przodkowie. Zadowalam się swoim losem."
+ agot_legitimate_house.0002.b.flavor:0 "Przeszłość to przeszłość, nie zamierzasz jej zmieniać."
+
+ # A Legitimate House has lost their title
+ agot_legitimate_house.0003.t:0 "[legitimate_house.GetNameNoTooltip] traci [changed_legitimate_title.GetNameNoTooltip]"
+ agot_legitimate_house.0003.desc:0 "Katastrofa dla rodu [legitimate_house.GetName]! "
+ agot_legitimate_house.0003.desc_extinct:0 "Po pokoleniach rządów [previous_holder.GetTitledFirstName] wydał ostatnie tchnienie, a wraz z jego śmiercią linia rodu [legitimate_house.GetNameNoTooltip] dobiegła końca. Ziemie [changed_legitimate_title.GetName] przechodzą teraz w ręce [new_holder.GetTitledFirstName] z rodu [new_holder.GetHouse.GetName], a imię rodu [legitimate_house.GetNameNoTooltip] zostanie już tylko na kartach historii."
+ agot_legitimate_house.0003.desc_supplanted:0 "[new_holder.GetTitledFirstName] z rodu [new_holder.GetHouse.GetName] zajął nasze prawowite ziemie i teraz rządzi [changed_legitimate_title.GetName]. To mroczny dzień dla rodu [legitimate_house.GetNameNoTooltip], lecz żyjemy nadal i nie zapomnimy tej zniewagi! Tak długo, jak w naszych żyłach płynie ta krew, jesteśmy prawdziwymi władcami [changed_legitimate_title.GetNameNoTooltip]!"
+ agot_legitimate_house.0003.desc_default:0 "[new_holder.GetTitledFirstName] z rodu [new_holder.GetHouse.GetName] stoi jako nowy władca [changed_legitimate_title.GetName], a ród [legitimate_house.GetNameNoTooltip] został zrzucony z dawnego miejsca. To mroczny dzień dla wszystkich, którzy wspierają sprawę rodu [legitimate_house.GetNameNoTooltip]."

@@ -1,0 +1,15 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_flocks_religion:0 "Trzody Lhazaru"
+ the_flocks_religion_adj:0 "Trzody"
+ the_flocks_religion_adherent:0 "Jagnię"
+ the_flocks_religion_adherent_plural:0 "Jagnięta"
+ the_flocks_religion_desc:0 "Wszyscy jesteśmy owcami Wielkiego Pasterza, nawet ci z nas, którzy nie są tego świadomi — tak wierzą ludzie z Lhazaru."
+
+ ### Wiary ###
+ # Wielki Pasterz
+ shepherd_faith:0 "Trzoda Wielkiego Pasterza"
+ shepherd_faith_adj:0 "Wielki Pasterz"
+ shepherd_faith_adherent:0 "Jagnię"
+ shepherd_faith_adherent_plural:0 "Jagnięta"
+ shepherd_faith_desc:0 "Wielki Pasterz czuwa nad całą swoją trzodą, nad tymi, którzy w jego imię oddają się pokojowi i miłości."

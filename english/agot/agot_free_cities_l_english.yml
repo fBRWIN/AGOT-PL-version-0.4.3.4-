@@ -1,0 +1,139 @@
+﻿ ### Wydarzenia ###
+ free_city_events.9999.t:0 "Wybory w [term_limit_country.GetAdjective]"
+ free_city_events.9999.desc_old_holder:0 "Więc to już koniec. Zostałem zastąpiony. \n\n[magister_winner.GetFullName] jest nowym Pierwszym Magistrem, a ja — cóż, na razie się wycofuję. Magistrowie i Gonfaloniere złożyli przysięgę wierności nowemu przywódcy, ich głosy niosą się echem po sali z obietnicami, które kiedyś ja dyktowałem. \n\nTrudno to przełknąć, ale znam to już dobrze. Władza wymyka się jak piasek między palcami, ale wiem, że gra jeszcze się nie skończyła. Nie zostanę zapomniany. Nie mogę zostać."
+
+ free_city_events.9999.desc_magister_winner:0 "Wybrali mnie. Konklawe mianowało mnie nowym Pierwszym Magistrem. [old_holder.GetTitledFirstName] został odwołany ze stanowiska, a ja stoję tam, gdzie stał wcześniej..\n\nMagistrowie i Gonfaloniere złożyli przysięgę lojalności przede mną, umacniając moją władzę. A co teraz? Jak będę rządzić? Niektórzy magistrowie już otwarcie knują, inni szepczą mi słodkie słówka prosto w twarz, jednocześnie próbując okraść mnie z majątku. Muszę być czujny i gotowy na wszystko."
+
+ free_city_events.9999.desc_vassal:0 "Wybrano nowego Pierwszego Magistra, a [old_holder.GetFirstName] został zwolniony ze swojego stanowiska. \n\nKiedy kończy się jego panowanie, zaczyna się kolejne, ponieważ [magister_winner.GetFullName] został wybrany przez Konklawe. Z wielką ceremonią magistrowie i gonfaloniere składają przysięgę lojalności nowemu Pierwszemu Magistrowi, a jego władza jest oficjalnie uznawana przez lud. \n\nJak będzie rządzić [magister_winner.GetFullNameNoTooltip] pozostaje niepewne, a magistrowie już knują, jak zdobyć jego przychylność."
+ free_city_events.9999.a:0 "Niech żyje Pierwszy Magister! Niech żyje [term_limit_country.GetName]!"
+ free_city_events.9999.b:0 "Ciekawe, jakim władcą będzie [magister_winner.GetFirstName]..."
+
+ free_city_events.1001.t:0 "Wybory odłożone"
+ free_city_events.1001.desc_elector:0 "W obliczu wojny z [war_enemy.GetPrimaryTitle.GetName], Konklawe uznało, że niebezpieczne jest kontynuowanie wyborów nowego Pierwszego Magistra.\n\nZamiast tego, [current_ruler.GetFullNameNicknamed] tymczasowo przejął nowe uprawnienia, by utrzymać porządek i stabilność do końca wojny.\n\nKonklawe i Gonfaloniere ogłaszają publicznie, że uznają władzę Pierwszego Magistra w tym okresie kryzysu, zdając sobie sprawę, że przyszłość miasta jest zagrożona. Mieszkańcy czekają na zakończenie konfliktu, podzieleni między entuzjazmem a niepewnością o to, co nastąpi po przywróceniu pokoju."
+ free_city_events.1001.desc_liege:0 "W obliczu wojny z [war_enemy.GetPrimaryTitle.GetName], Konklawe uznało, że niebezpieczne jest kontynuowanie wyborów nowego Pierwszego Magistra, zachowując na razie moje stanowisko.\n\nZamiast tego, Konklawe ogłosiło, że tymczasowo przejmuję nowe uprawnienia, by utrzymać porządek i stabilność do końca wojny.\n\nKonklawe i Gonfaloniere ogłaszają publicznie, że uznają moją władzę w tym okresie kryzysu, zdając sobie sprawę, że przyszłość miasta jest zagrożona. Moi poddani czekają na zakończenie konfliktu, podzieleni między entuzjazmem a niepewnością o to, co nastąpi po przywróceniu pokoju."
+ free_city_events.1001.a:0 "Czy tak umiera wolność?... przy burzliwych oklaskach?"
+ free_city_events.1001.a_liege:0 "Oklaskują mnie..."
+ free_city_events.1001.a.tt:0 "Konklawe odkłada wybory do zakończenia wojny."
+ free_city_events.1001.war_delayed_due_to_war_tt:0 "Wybory zostały odłożone z powodu trwającej wojny."
+
+ free_city_events.1002.t:0 "Koniec wojny"
+ free_city_events.1002.desc_elector:0 "Wojna wreszcie się skończyła, a miasto przygotowuje się do wznowienia wyborów nowego Pierwszego Magistra. \n\nPo zakończeniu konfliktu Konklawe zbiera się, aby wybrać przywódcę, który poprowadzi miasto ku odbudowie i pomyślnej przyszłości. \n\nWstępne wskazania sugerują, że [magister_winner.GetFullName] może mieć potrzebne poparcie. Kiedy magistrowie i gonfaloniere zbierają się, obywatele pełni są nadziei i oczekiwania stabilności oraz powrotu do normalności."
+
+ free_city_events.1002.desc_liege:0 "Po zakończeniu wojny pojawia się pytanie o rezygnację z uprawnień nadzwyczajnych przejętych w trakcie konfliktu. \n\nKonklawe przygotowuje się do wznowienia wyborów nowego Pierwszego Magistra, choć proces ten jest niepewny. [magister_winner.GetFullName] wydaje się być prawdopodobnym kandydatem, lecz ostateczna decyzja jeszcze nie zapadła. \n\nJako Magister, który utrzymał stabilność w czasie wojny, zastanawiasz się, czy naprawdę warto ustąpić, czy może dalsze przewodzenie będzie korzystne dla miasta w tych niepewnych czasach."
+ free_city_events.1002.a:0 "Niech żyje [current_ruler.GetPrimaryTitle.GetName]! Niech rozpoczną się wybory!"
+
+ free_city_events.1002.a_liege:0 "Dla dobra [current_ruler.GetPrimaryTitle.GetName] postępuję zgodnie z procedurą!"
+ free_city_events.1002.a.tt:0 "Konklawe wznawia wybory nowego Pierwszego Magistra."
+
+ free_city_events.1002.b_liege:0 "Miasto potrzebuje silnego przywódcy, a ja nim będę!"
+ free_city_events.1002.b.tt:0 "Staram się utrzymać stanowisko Pierwszego Magistra, przemieniając państwo w dyktaturę."
+
+ free_city_events.1003.t:0 "Koniec kadencji"
+ free_city_events.1003.desc:0 "Wybrano nowego Pierwszego Magistra, a [current_ruler.GetTitledFirstName] zwolniono ze stanowiska. Gdy kończy się jego panowanie, zaczyna się kolejne, bo [magister_winner.GetFullName] został wybrany przez Konklawe. Z wielką ceremonią magistrowie i gonfaloniere składają przysięgę lojalności nowemu Pierwszemu Magistrowi, a jego władza jest oficjalnie uznawana przez lud. Jak będzie rządzić [magister_winner.GetFullNameNoTooltip] pozostaje niepewne, a magistrowie już knują, jak zdobyć jego przychylność."
+ free_city_events.1003.a:0 "Niech żyje Pierwszy Magister! Niech żyje [magister_winner.GetPrimaryTitle.GetName]!"
+
+ free_city_events.1004.t:0 "Mroczny zwrot"
+ free_city_events.1004.desc:0 "W szokującym zwrocie wydarzeń [current_ruler.GetFullName] ogłosił, że nie zrezygnuje z nadzwyczajnych uprawnień. Zamiast tego zamierza utrzymać kontrolę i przekształcić miasto w dyktaturę. To ogłoszenie wywołało wstrząs wśród Konklawe i mieszkańców, którzy liczyli na powrót demokratycznych rządów. Wraz z narastającymi napięciami przyszłość królestwa wisi na włosku, a niepewność i strach rozprzestrzeniają się wśród obywateli."
+ free_city_events.1004.a:0 "Co stanie się z naszym królestwem?"
+
+ free_city_events.0001.t:0 "List z propozycją sojuszu"
+ free_city_events.0001.desc:0 "List z herbem [request_sender.GetTitledFirstName] został dostarczony przez kapitana do naszego dworu, a zawarta w nim wiadomość mówiła o doniosłej decyzji.\n\n[request_sender.GetTitledFirstNameNoTooltip] wyciąga gałązkę oliwną, proponując odnowienie starożytnego sojuszu, który kiedyś tworzył potężną Triarchię. Wspomnienie tych dni, gdy nasze miasta były zjednoczone i silne, powraca do naszych serc.\n\n[request_sender.GetSheHe|U] znów pragnie podnieść sztandar Królestwa Trzech Córek, jednocząc Myr, Lys i Tyrosh w celu i potędze.\n\nCzy my, jako dumne i suwerenne miasta, odrzucimy wrogość przeszłości i odnowimy wieczny sojusz sprzed dawna minionych czasów? Czy staniemy razem, ramię w ramię, i stawimy czoła nadchodzącym burzom jako zjednoczona Triarchia — czy wybierzemy własny los jak osobne okręty, które będą stawiały czoła burzom samotnie?"
+ free_city_events.0001.a:0 "Niech Triarchia znów żegluje razem po morzach!"
+ free_city_events.0001.b:0 "To zostało rozstrzygnięte dawno temu i nie wróci, przynajmniej na razie..."
+
+ free_city_events.0003.t:0 "Ponowne zjednoczenie Trzech Córek"
+ free_city_events.0003.desc:0 "Trzy Córki znów są zjednoczone. Myr, Lys i Tyrosh ponownie złożyły wieczny sojusz Triarchii. Narodziny nowego Królestwa Trzech Córek zostały ogłoszone wszędzie, zarówno w Essos, jak i Westeros.\n\nRazem, ramię w ramię, przysięgliśmy odzyskać każdy cal naszej należnej ziemi i odpierać naszych wrogów z dalekich krańców, z których przybyli.\n\nŚwiat wie, że nadszedł świt nowej ery, w której Królestwo Trzech Córek powstanie silne i zjednoczone, by nieść naszą wspólną potęgę!\n\n[request_sender.GetFirstName] [request_sender.GetHouse.GetName] został zaprzysiężony jako Triarch."
+ free_city_events.0003.a:0 "Niech nasz sojusz będzie wieczny, teraz i zawsze!"
+
+ free_city_events.0004.t:0 "Sen w popiele"
+ free_city_events.0004.desc:0 "Z ciężkim sercem musimy zaakceptować niepowodzenie [request_sender.GetTitledFirstNamePossessive] próby odnowienia sojuszu Trzech Córek. Pomimo szlachetnej sprawy, Triarchia nie zostanie podniesiona na tym etapie historii. Jednak pewnego dnia idea może powstać z popiołów.\n\nMarzenie o zjednoczonym królestwie, gdzie Myr, Lys i Tyrosh stoją ramię w ramię, odzyskując należne ziemie i odpierając wrogów, pozostaje odległe. Na razie te trzy miasta stoją osobno, każda podąża własną drogą.\n\nGdyby tylko gwiazdy ułożyły się inaczej, znany świat by ugiął się pod naszą siłą..."
+ free_city_events.0004.a:0 "Gdyby gwiazdy ułożyły się inaczej..."
+ free_city_events.0004.b:0 "Niech to będzie zapisane na kartach historii!"
+
+ free_city_events.0005.t:0 "Deklaracja wojny"
+ free_city_events.0005.desc:0 "[actor.GetTitledFirstName] zwołał Wysoką Radę Triarchii, aby zagłosować nad możliwością wypowiedzenia wojny [recipient.GetTitledFirstName]. Z ciężkimi sercami i umysłami skupionymi na dobru Trzech Córek i ich królestwa, członkowie Rady zbierają się w Wielkiej Sali, aby oddać swoje głosy.\n\nNadszedł moment, gdy oczy Rady zwracają się na mnie, jednego z jej członków, a ja zostaję poproszony o oddanie głosu.\n\nWspólna decyzja Rady ukształtuje przyszłość Trzech Córek i królestwa, które wszyscy kochamy — więc oczyszczam gardło i głosuję..."
+ free_city_events.0005.a:0 "Powinniśmy wypowiedzieć wojnę!"
+ free_city_events.0005.b:0 "Nie powinniśmy #bold wypowiadać wojny#!..."
+
+ free_city_events.1000.t:0 "Wyzwól Wolne Miasta"
+ free_city_events.1000.desc:0 "\"Myślałeś, że tyrania [dead_ruler.GetNamePossessive] potrwa wiecznie? Teraz, gdy [free_city.GetName] zostało wyzwolone spod jej plamy, wznowiono wybory, a ty nie jesteś tym, którego wybieramy.\""
+ free_city_events.1000.a:0 "O nie..."
+
+ free_city_events.2000.t:0 "Cena Księcia"
+ free_city_events.2000.desc:0 "Stoję przed tłumem, związany, ciężar moich porażek jest większy niż jakiekolwiek łańcuchy. Za moją przegraną w wojnie mój lud teraz poświęci mnie, by przebłagać bogów.\n\nZimny miecz spoczywa na mojej szyi. Słyszę szept tłumu, ale nic już się nie liczy; mój los jest przesądzony.\n\nMyślę o tym, co mogło być, o ambicjach, które kiedyś miałem, i o ludziach, którzy za mną szli. Teraz wszystko wydaje się tak odległe.\n\nOstatnim tchem miecz przerywa ciszę, i już mnie nie ma."
+ free_city_events.2000.a:0 "..."
+
+ ### Decyzje/Interakcje ###
+ agot_attempt_triarchy:0 "Próba utworzenia Triarchii"
+ agot_attempt_triarchy_desc:0 "Nawiąż kontakt z pozostałymi Trzema Córkami, aby utworzyć Triarchię"
+ agot_attempt_triarchy_tooltip:0 "Skontaktuj się ze swoimi współwładcami, aby utworzyć triarchię"
+ agot_attempt_triarchy_confirm:0 "Przynieś mi moją pieczęć"
+ request_war_interaction:0 "Poproś o pozwolenie na wojnę"
+ request_war_desc:0 "Poproś Wysoką Radę o zgodę na wypowiedzenie wojny"
+ request_war_effect_tt:0 "Wysoka Rada zbierze się i zagłosuje nad twoim wnioskiem o wypowiedzenie wojny [recipient.GetName]."
+
+ agot_create_three_daughters:0 "Utwórz Królestwo Trzech Córek"
+ agot_create_three_daughters_desc:0 "Teraz, gdy kontroluję wszystkie trzy córki dawnej Valyrii, czas skonsolidować moją władzę."
+ agot_create_three_daughters_tooltip:0 "Utwórz królestwo Trzech Córek"
+ agot_create_three_daughters_confirm:0 "Przynieś mi moją pieczęć"
+
+
+ agot_stepstones_rhoynish_culture:0 "Nowa tożsamość"
+ agot_stepstones_rhoynish_culture_desc:0 "Od dawna tkwimy na tych wyspach, trzymając się naszych korzeni z Rhoyne i Starych Księstw. Ale czy naprawdę chcemy tak pozostać?"
+ agot_stepstones_rhoynish_culture_tooltip:0 "Nowa, odrębna kultura wyłoni się z $rhoynish$, z własnym zestawem tradycji."
+ agot_stepstones_rhoynish_culture_confirm:0 "Ku nowym początkom."
+
+ agot_seize_control:0 "Przejmij władzę"
+ agot_seize_control_desc:0 "Dyktatura nie może trwać wiecznie; jeśli chcę zabezpieczyć sukcesję mojej dynastii, muszę porzucić wszelkie pozory demokracji."
+ agot_seize_control_tooltip:0 "Na zawsze zakończ wybory, przekształcając rząd na feudalny"
+ agot_seize_control_confirm:0 "Przynieś mi moją pieczęć"
+ agot_seize_control_full_county_control_tt:0 "Masz maksymalną kontrolę nad [county_control|E] w swoim [capital|E]"
+ strong_hook_on_all_powerful_vassals_tt:0 "Masz [strong_hook|E] na wszystkich swoich [powerful_vassals|E]"
+
+ agot_form_undisputed_lands:0 "Ustal sporne ziemie"
+ agot_form_undisputed_lands_decision_desc:0 "Te ziemie są sporne od czasów Zagłady Valyrii, ale w końcu je zjednoczyłem."
+ agot_form_undisputed_lands_decision_tooltip:0 "Utwórz królestwo z tych dawnych spornych ziem"
+ agot_form_undisputed_lands_confirm:0 "Ku niesławie i nieśmiertelności!"
+
+ agot_break_braavos_pentos_treaty:0 "Złam traktat Braavos-Pentos"
+ agot_break_braavos_pentos_treaty_desc:0 "Od roku 209 Braavosi narzucają dumnej Pentos surowy traktat. Nadszedł czas, by Pentos rozerwało ten traktat i rządziło się swobodnie!"
+ agot_break_braavos_pentos_treaty_effect_tt:0 "Traktat Braavos-Pentos zostanie zerwany. Pentos znów będzie mogło #bold rozwijać swoją armię, zatrudniać najemników i uczestniczyć w handlu niewolnikami#!."
+ agot_break_braavos_pentos_treaty_effect_2_tt:0 "Braavos uzyska casus belli na #bold 15 lat#!, który pozwoli im spróbować narzucić traktat na nowo."
+ agot_break_braavos_pentos_treaty_tooltip:0 "Złam traktat Braavos-Pentos"
+ agot_break_braavos_pentos_treaty_confirm:0 "Za Pentos!"
+ agot_create_braavos_pentos_treaty_effect_tt:0 "[GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] zostanie trwale dodany wszystkim postaciom pod panowaniem Pentos. Może zostać usunięty tylko wtedy, gdy Pentos wyzwoli się wojną."
+ agot_break_braavos_pentos_treaty_as_braavos:0 "$agot_break_braavos_pentos_treaty$"
+ agot_break_braavos_pentos_treaty_as_braavos_desc:0 "Sumiennie przestrzegaliśmy granic Pentos, zgodnie z traktatem Braavos-Pentos z 209 roku. Ale nadszedł czas ekspansji; co to jest kawałek papieru wobec podboju?"
+ agot_break_braavos_pentos_treaty_as_braavos_effect_tt:0 "Ty i twoi wasale z Braavos będziecie mogli wypowiedzieć wojnę Pentos i jej wasalom."
+ agot_break_braavos_pentos_treaty_as_braavos_confirm:0 "Za Braavos!"
+ agot_braavos_pentos_treaty_is_active:0 "Nie możesz wypowiedzieć wojny, gdy aktywny jest [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip]."
+ agot_break_braavos_pentos_treaty_as_braavos_tooltip:0 "$agot_break_braavos_pentos_treaty_tooltip$"
+
+ ### Różne ###
+ THREE_DAUGHTERS:0 "Wysoka Rada Triarchii"
+ HIGH_COUNCIL_TRIARCHY:0 "Wysoka Rada"
+ tooltip_magisterial_wealth:0 "Majątek osobisty: [GetPlayer.GetGold|0]"
+ year_till_election:0 "Rok do wyborów"
+ year_till_election_desc:0 "Za rok odbędą się wybory na stanowisko Pierwszego Magistra [election_title.GetName]. Może warto zacząć oszczędzać złoto na ten czas."
+ gonfaloniere_diarchy_type:1 "Gonfalon"
+ gonfaloniere_diarch_title:0 "Gonfaloniere"
+ second_magister_diarchy_type:1 "Konklawa Magisterska"
+ second_magister_diarch_title:0 "Drugi Magister"
+ high_councilor_diarchy_type:1 "Rada Magisterska"
+ high_councilor_diarch_title:0 "Wysoki Radny"
+ tyniate_diarchy_type:1 "Konklawa Magisterska"
+ tyniate_diarch_title:0 "Tyniate"
+ MYR:0 "#bold #high MYR#!#!"
+ LYS:0 "#bold #high LYS#!#!"
+ TYROSH:0 "#bold #high TYROSH#!#!"
+ high_council_description:0 "#italic Wysoka Rada Triarchii składa się z jedenastu Magistrów z każdego wolnego miasta.\n\nRazem głosują nad wszystkimi ważnymi decyzjami Trzech Córek, a najważniejsi wybierają kolejnego Triarcha.#!"
+ war_approved:0 "Wojna zatwierdzona"
+ war_denied:0 "Wojna odrzucona"
+
+ c_tyroshi_landing:0 "Lądowanie w Tyrosh"
+
+ election_aristocratic_support_desc: "Wsparcie arystokratyczne"
+ election_mercantile_support_desc: "Wsparcie kupieckie"
+ election_populist_support_desc: "Wsparcie ludowe"
+ election_priestly_support_desc: "Wsparcie duchowieństwa"
+ election_military_support_desc: "Wsparcie militarne"

@@ -1,0 +1,761 @@
+﻿l_english:
+ ##############################################################
+ ## 0001-0010 WYDARZENIA „ŚMIEJĄCEJ SIĘ BURZY” – scenariusz kanoniczny ##
+ ##############################################################
+
+ #Furia Lyonela
+ ### Punkt widzenia: Lyonel Baratheon
+ ### Wydarzenie początkowe zakładki
+ agot_laughing_storm_rebellion.0001.t:0 "Śmiejąca Się Burza Nadchodzi"
+ agot_laughing_storm_rebellion.0001.desc:0 "To zdrada gorsza niż cios miecza. [duncansmall.GetTitledFirstNameNicknamed], niegdyś zaręczony z moją ukochaną córką [cassandra.GetFirstName], porzucił swe śluby i związał się z tą tajemniczą dziewczyną, [jenny.GetNameNicknamed]. To zniewaga, której ród [lyonel.GetHouse.GetBaseName] nie zniesie.\n\nHonor mojej rodziny legł w gruzach, podeptany przez kaprysy Żelaznego Tronu. Ród [lyonel.GetHouse.GetBaseNameNoTooltip] nie zniesie takiej obrazy. Niepodległość to mój ratunek, a jeśli to oznacza wojnę – niech tak będzie.\n\nBurzowe Ziemie staną samodzielnie, a ja odzyskam honor mojej rodziny całą potęgą, jaką zdołamy zebrać."
+ agot_laughing_storm_rebellion.0001.a:0 "Nasza jest Furia!"
+
+ #Kłopot Króla
+ ### Punkt widzenia: Aegon V
+ ### Wydarzenie początkowe zakładki
+ #### Uruchamia: 0003
+ agot_laughing_storm_rebellion.0002.t:0 "Burza na Horyzoncie"
+ agot_laughing_storm_rebellion.0002.desc:0 "Ciężar korony nigdy nie wydawał się większy. Mój syn, [duncansmall.GetTitledFirstNameNicknamed], zerwał zaręczyny, porzucając [cassandra.GetFullName] dla [jenny.GetFirstNameNicknamed].\n\nFuria [lyonel.GetFullNameNicknamed] teraz zagraża królestwu. Zażądał niepodległości od Żelaznego Tronu, gotów pogrążyć królestwo w wojnie, by odzyskać honor swej rodziny. Jako król muszę działać szybko, by uniknąć katastrofy.\n\nPropozycja sądu bożego pomiędzy [lyonel.GetTitledFirstNameNoTooltip] a [duncantall.GetTitledFirstName] „Wysokim” może być drogą do pokoju. To ryzyko, ale może ocalić królestwo przed niepotrzebnym rozlewem krwi."
+ agot_laughing_storm_rebellion.0002.a:0 "Niech Lord Dowódca rozstrzygnie to starcie."
+
+ #Propozycja Króla
+ ### Punkt widzenia: Lyonel
+ ### Przedwydarzenie przed pojedynkiem Lyonela z Duncanem Wysokim
+ #### Opcja A: prowadzi do pojedynku (Uruchamia: 0004)
+ #### Opcja B: może prowadzić do natychmiastowej wojny o niepodległość (Uruchamia: 0025)
+ agot_laughing_storm_rebellion.0003.t:0 "Pojedynek Honoru"
+ agot_laughing_storm_rebellion.0003.desc:0 "Przylatuje kruk z propozycją króla – oferta rozstrzygnięcia konfliktu pojedynkiem, sądem bożym przeciwko [duncantall.GetTitledFirstName] „Wysokiemu”. Pamiętam, jak walczyliśmy ramię w ramię w dawnych bitwach – kiedyś towarzysze, dziś potencjalni wrogowie. Ten pojedynek to coś więcej niż starcie stali; to walka o honor, o duszę rodu [lyonel.GetHouse.GetBaseName].\n\nOdmowa oznacza niepodległość, ale jakim kosztem? Nadszedł czas, by zdecydować o naszym losie."
+ agot_laughing_storm_rebellion.0003.a:0 "Niech bogowie zdecydują; rozstrzygniemy to w #bold sądzie bożym#!."
+ agot_laughing_storm_rebellion.0003.b:0 "Nie ugnę się przed żądaniami fałszywego króla."
+
+ #Sąd
+ ### Punkt widzenia: Lyonel
+ ### Wydarzenie pojedynku
+ #### Jeśli Lyonel wygra uruchamia 0020
+ #### Jeśli wygra Duncan i Lyonel żyje uruchamia 0007 i 0008
+ #### Jeśli wygra Duncan i Lyonel zginie uruchamia 0009
+ agot_laughing_storm_rebellion.0004.t:0 "Starcie Burzy i Stali"
+ agot_laughing_storm_rebellion.0004.desc:0 "Podróż do Królewskiej Przystani była długa i pełna napięcia. Teraz stoję przed Czerwoną Twierdzą, naprzeciw [duncantall.GetFirstName] „Wysokiego”, Lorda Dowódcy Królewskiej Gwardii. Przed oczami przemykają wspomnienia dawnych bitew, ale dziś towarzysze zostają odsunięci na bok.\n\nTo walka o honor, o imię rodu [lyonel.GetHouse.GetBaseName]. Oczy całego królestwa są zwrócone na nas, a zwycięski wyjdzie tylko jeden.\n\nNiech szczęk stali zagłuszy mój śmiech – a lepszy wojownik niech wygra ten losowy pojedynek."
+ agot_laughing_storm_rebellion.0004.a:0 "#bold Ha ha ha!#!"
+
+ #Podpowiedzi pojedynku
+ agot_laughing_storm_rebellion.t:0 "Sąd Boży"
+ agot_laughing_storm_rebellion.duncan_won:0 "[duncantall.GetTitledFirstNameNoTooltip] wygrał pojedynek przeciwko [lyonel.GetTitledFirstNameNoTooltip]."
+ agot_laughing_storm_rebellion.lyonel_won:0 "[lyonel.GetTitledFirstNameNoTooltip] wygrał pojedynek przeciwko [duncantall.GetTitledFirstNameNoTooltip]."
+
+ #Lyonel przegrał
+ ### Punkt widzenia: Lyonel
+ ### Wydarzenie po pojedynku
+ agot_laughing_storm_rebellion.0007.t:0 "Upadek Burzy"
+ agot_laughing_storm_rebellion.0007.desc:0 "Pojedynek dobiegł końca, a szczęk mieczy ucichł, pozostając tylko wspomnieniem. Pomimo moich umiejętności, [duncantall.GetTitledFirstName] wyszedł zwycięsko. Porażka jest gorzką pigułką, a ciężar przegranej osiada mi na barkach.\n\nHonor rodu [lyonel.GetHouse.GetBaseName], posiniaczony i poobijany, teraz leży w rękach [aegonv.GetTitledFirstNameRegnal]. Klęczę przed Żelaznym Tronem, czekając na wyrok króla, a przyszłość Burzowych Ziem wisi na włosku. Jaki los wyznaczy nam król?"
+ agot_laughing_storm_rebellion.0007.a:0 "Przyjmę mój los z honorem."
+
+ #Lyonel przegrał
+ ### Punkt widzenia: Aegon V
+ ### Wydarzenie po pojedynku
+ #### Uruchamia: 0010 (niezależnie od wybranej opcji)
+ agot_laughing_storm_rebellion.0008.t:0 "Łaska Króla"
+ agot_laughing_storm_rebellion.0008.desc:0 "[lyonel.GetFullNameNicknamed] stoi przede mną, pokonany, ale nie złamany. Mimo porażki z rąk [duncantall.GetTitledFirstName], napięcie w królestwie nie słabnie. Jako król rozumiem potrzebę pokoju i stabilności. Surowa kara mogłaby rozniecić płomienie buntu, ale łaska może zagoić rany.\n\nBy zachować kruchą harmonię, rozważam ofertę sojuszu małżeńskiego, który związałby Baratheonów bliżej tronu.\n\nCzy powinienem zaoferować rękę mojej córki jego synowi, czy też po prostu zażądać jego odnowionej lojalności bez dalszych gestów?"
+ agot_laughing_storm_rebellion.0008.a:0 "Oferuję rękę Rhaelle jego synowi."
+ agot_laughing_storm_rebellion.0008.b:0 "Oferuję rękę Vaelli jego synowi."
+ agot_laughing_storm_rebellion.0008.c:0 "Nie oferuję niczego."
+
+ #Lyonel przegrał – Lyonel zginął
+ ### Punkt widzenia: Aegon V
+ ### Wydarzenie po pojedynku
+ #### Uruchamia: 0031
+ agot_laughing_storm_rebellion.0009.t:0 "Kres Burzy"
+ agot_laughing_storm_rebellion.0009.desc:0 "[lyonel.GetFullNameNicknamed] zakończył życie w sądzie bożym przeciwko [duncantall.GetTitledFirstName]. Jego opór i męstwo, niegdyś groźne, teraz ucichły. Rebelia, która groziła rozerwaniem królestwa, została przerwana wraz z upadkiem jej przywódcy.\n\nCena pokoju była wysoka, a echo tego konfliktu będzie rozbrzmiewać w annałach historii. Z Burzowymi Ziemiami poskromionymi, królestwo może zacząć się leczyć, choć cień tych wydarzeń długo będzie wisiał nad Żelaznym Tronem."
+ agot_laughing_storm_rebellion.0009.a:0 "Walczył, przegrał, a teraz spoczywa."
+
+ #Nowe zaręczyny
+ ### Punkt widzenia: Lyonel
+ ### Oferta zaręczyn od Egga
+ #### Opcja A: Prowadzi do zaręczyn (Uruchamia: 0028)
+ #### Opcja B: Prowadzi do końca historii (Uruchamia: 0030)
+ #### Opcja C: Prowadzi do końca historii (Uruchamia: 0030)
+ agot_laughing_storm_rebellion.0010.t:0 "Następstwa Burzy"
+ agot_laughing_storm_rebellion.0010.betrothal.desc:0 "W następstwie mojej porażki w sądzie bożym, [aegonv.GetTitledFirstNameRegnal] wyciąga gałązkę oliwną, oferując rękę swojej córki, [targ_betrothed.GetTitledFirstNamePossessive], dla mojego syna, [bara_betrothed.GetTitledFirstName]. Ten gest, mający na celu zaleczenie rozłamu między rodem [lyonel.GetHouse.GetBaseName] a Żelaznym Tronem, niesie ciężar potencjalnego pokoju i jedności.\n\nHonor mojego rodu może zostać przywrócony przez to przymierze, tworząc więź, która może zabezpieczyć przyszłość Burzowych Ziem."
+ agot_laughing_storm_rebellion.0010.nobetrothal.desc:0 "W następstwie mojej porażki w sądzie bożym, cisza ze strony Żelaznego Tronu jest ogłuszająca. [aegonv.GetTitledFirstNameRegnal] nie oferuje ręki w małżeństwie, nie składa gestu pokoju – tylko zimną rzeczywistość mojej przegranej.\n\nHonor rodu [lyonel.GetHouse.GetBaseName] pozostaje splamiony, a przyszłość Burzowych Ziem jest niepewna. Stoję samotnie, rozważając kolejne kroki dla mojego rodu, wiedząc, że droga przed nami jest pełna wyzwań, a cień tej porażki wisi nad nami."
+ agot_laughing_storm_rebellion.0010.a:0 "Akceptuję propozycję króla."
+ agot_laughing_storm_rebellion.0010.b:0 "Muszę odrzucić tę propozycję."
+ agot_laughing_storm_rebellion.0010.c:0 "Akceptuję mój los."
+
+ ##############################################################
+ ## 0011-0018 WYDARZENIA „ŚMIEJĄCEJ SIĘ BURZY” – kanoniczne zerwania ##
+ ##############################################################
+
+ #Jaehaerys i Shaera
+ ### Punkt widzenia: Jaehaerys Targaryen
+ ### Zerwanie zaręczyn między Jaeharysem + Celią Tully a Shaerą + Luthorem Tyrellem
+ #### Opcja A: Rodzice powiadomieni o zerwaniu (Uruchamia: 0013)
+ #### Opcja B: Koniec historii
+ agot_laughing_storm_rebellion.0011.t:0 "Dylemat Serca"
+ agot_laughing_storm_rebellion.0011.desc:0 "Czyny mojego starszego brata [duncansmall.GetFirstName] poruszyły coś głęboko we mnie. Jego wybór, by porzucić [cassandra.GetTitledFirstName] dla [jenny.GetFirstNameNicknamed], podążając za głosem prawdziwej miłości, sprawił, że zacząłem kwestionować własną ścieżkę. Uwięziony w małżeństwie z [celia.GetTitledFirstName], moje serce tęskni za [shaera.GetFirstName], moją prawdziwą miłością.\n\nCiężar obowiązku i pociąg serca toczą we mnie zaciekłą walkę. Czy powinienem pójść śladami brata i podążyć za głosem serca, czy pozostać wierny ślubom, które złożyłem?"
+ agot_laughing_storm_rebellion.0011.a:0 "Tak, powinienem podążyć za sercem."
+ agot_laughing_storm_rebellion.0011.b:0 "Nie, obowiązek musi zwyciężyć."
+
+ #Daeron
+ ### Punkt widzenia: Daeron Targaryen
+ ### Zerwanie zaręczyn między Daeronem a Olenną Redwyne
+ #### Opcja A: Rodzice powiadomieni o zerwaniu (Uruchamia: 0014)
+ #### Opcja B: Koniec historii
+ agot_laughing_storm_rebellion.0012.t:0 "Kwestionowanie Przyszłości"
+ agot_laughing_storm_rebellion.0012.desc:0 "Obserwując wybory moich starszych braci, którzy poszli za głosem serca i rozwiedli się, by poślubić z miłości, sam znalazłem się w rozterce. Związany nadchodzącym małżeństwem z [olenna.GetTitledFirstName], dziewczyną, której ledwo znam, wątpliwości przysłaniają moje myśli. [olenna.GetTitledFirstName] może wydawać się miła, ale moje serce i umysł są gdzie indziej.\n\nOczekiwania związane z obowiązkiem ciążą mocno, a jednak pragnienie prawdziwego szczęścia kusi. Czy powinienem wytyczyć własną ścieżkę i szukać miłości, czy trzymać się nałożonych na mnie obowiązków?"
+ agot_laughing_storm_rebellion.0012.a:0 "Tak, powinienem podążyć za swoim sercem."
+ agot_laughing_storm_rebellion.0012.b:0 "Nie, obowiązek musi mnie prowadzić."
+
+ #Jaehaerys i Shaera – powiadomienie
+ ## Może być uruchamiane przez wydarzenie 0021 (lub z czasem w historycznej rozgrywce władcy)
+ ### Punkt widzenia: Egg, Steffon Tully, Garlan Tyrell
+ ### Jaeharys + Celia Tully oraz Shaera + Luthor Tyrell zerwali zaręczyny
+ #### Opcja A: Koniec historii
+ #### Opcja B (tylko dla Egga): Koniec historii + Jaehaerys i Shaera zostają wydziedziczeni
+ agot_laughing_storm_rebellion.0013.t:0 "Zerwane Związki"
+ agot_laughing_storm_rebellion.0013.desc:0 "Rozegrał się bolesny obrót wydarzeń. [jaehaerys.GetTitledFirstName] zerwał zaręczyny z [celia.GetTitledFirstName], a [shaera.GetTitledFirstName] zerwała swoje zaręczyny z [luthor.GetTitledFirstName]. Ignorując tradycję i obowiązek, twierdzą teraz, że są małżeństwem.\n\nTen lekkomyślny akt zasiał niezgodę i rozczarowanie, wstrząsając fundamentami sojuszy i oczekiwań. Konsekwencje ich związku będą rozbrzmiewać po całym królestwie, zmuszając głowy rodów do zmierzenia się z reperkusjami tych niespodziewanych i niefortunnych decyzji."
+ agot_laughing_storm_rebellion.0013.a:0 "To poważny błąd."
+ agot_laughing_storm_rebellion.0013.b:0 "Muszą zostać ukarani."
+
+ #Daeron – powiadomienie
+ ## Może być uruchamiane przez wydarzenie 0021 (lub z czasem w historycznej rozgrywce władcy)
+ ### Punkt widzenia: Egg, Runceford Redwyne
+ ### Daeron + Olenna Redwyne zerwali zaręczyny
+ #### Opcja A (tylko dla Egga): Koniec historii
+ #### Opcja B (tylko dla Runceforda, jeśli Luthor Tyrell NIE jest zaręczony): Możliwe zaręczyny Luthora i Olenny (Uruchamia: 0015)
+ #### Opcja C (tylko dla Runceforda, jeśli Luthor Tyrell jest zaręczony): Koniec historii
+ agot_laughing_storm_rebellion.0014.t:0 "Zerwane Zaręczyny"
+ agot_laughing_storm_rebellion.0014.desc:0 "Wiadomość dociera z ciężkim sercem. [daeron.GetTitledFirstName] zerwał zaręczyny z [olenna.GetTitledFirstName], odrzucając starannie zaplanowany związek. Ten nieoczekiwany obrót wydarzeń jest bardzo niefortunny, przynosząc rozczarowanie i niepewność.\n\nKonsekwencje tego złamanego przyrzeczenia z pewnością odbiją się echem w obu rodach, wystawiając na próbę sojusze i oczekiwania."
+ agot_laughing_storm_rebellion.0014.aegonv.a:0 "To poważne rozczarowanie."
+ agot_laughing_storm_rebellion.0014.runceford.a:0 "Być może czas skontaktować się z Garlanem z ofertą zaręczyn."
+ agot_laughing_storm_rebellion.0014.runceford.a.tt:0 "Zostanie zaproponowane zaręczenie między [olenna.GetTitledFirstName] a [luthor.GetTitledFirstName]"
+ agot_laughing_storm_rebellion.0014.runcefordx.a:0 "To poważne rozczarowanie."
+
+ #Luthor + Olenna = ?
+ ### Punkt widzenia: Garlan Tyrell
+ ### Oferta zaręczyn od Runceforda Redwyne
+ #### Opcja A: Zgadza się na zaręczyny (Uruchamia: 0016)
+ #### Opcja B: Odrzuca zaręczyny (Uruchamia: 0018)
+ agot_laughing_storm_rebellion.0015.t:0 "Nowa Propozycja"
+ agot_laughing_storm_rebellion.0015.desc:0 "Po zerwaniu zaręczyn przez [daeron.GetTitledFirstName] z [olenna.GetTitledFirstName], jej ojciec, [runceford.GetTitledFirstName], zwrócił się do mnie z nową propozycją. Sugeruje zaręczyny między [olenna.GetTitledFirstName] a moim synem, [luthor.GetTitledFirstName].\n\nTen sojusz może okazać się bardzo wartościowy, wzmacniając więzi i umacniając przyszłość rodu [garlan.GetHouse.GetBaseName]. To okazja, którą trzeba rozważyć z rozwagą."
+ agot_laughing_storm_rebellion.0015.a:0 "To przymierze przyniesie korzyści naszemu rodowi."
+ agot_laughing_storm_rebellion.0015.b:0 "Muszę odrzucić tę propozycję."
+
+ #Luthor + Olenna = zaręczyny
+ ### Punkt widzenia: Runceford Redwyne
+ ### Zaręczyny między Olenną a Luthorem
+ #### Opcja A: Ostateczne potwierdzenie zaręczyn (Uruchamia: 0017)
+ #### Opcja B: Odrzuca zaręczyny (Uruchamia: 0018)
+ agot_laughing_storm_rebellion.0016.t:0 "Decyzja Ojca"
+ agot_laughing_storm_rebellion.0016.desc:0 "[garlan.GetTitledFirstName] zaakceptował ofertę zaręczyn między [olenna.GetTitledFirstName] a [luthor.GetTitledFirstName]. Ten sojusz niesie obietnicę wielkiej wartości i wzmocnionych więzi między naszymi rodami. Jednak jako ojciec [olenna.GetFirstNamePossessiveNoTooltip] mam obowiązek upewnić się, że to przymierze będzie również korzystne dla niej.\n\nOstateczna decyzja należy do mnie i muszę starannie rozważyć zalety dla naszej rodziny w zestawieniu ze szczęściem mojej córki."
+ agot_laughing_storm_rebellion.0016.a:0 "Przejdźmy do zaręczyn."
+ agot_laughing_storm_rebellion.0016.b:0 "Muszę odmówić dla dobra Olenny."
+
+ #Luthor + Olenna = potwierdzenie zaręczyn
+ ### Punkt widzenia: Garlan Tyrell
+ ### Olenna i Luthor zaręczeni, sojusz zawarty
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0017.t:0 "Przymierze Zawarte"
+ agot_laughing_storm_rebellion.0017.desc:0 "Wreszcie zaręczyny między [olenna.GetTitledFirstName] a [luthor.GetTitledFirstName] zostały sfinalizowane. To przymierze obiecuje wzmocnić więzi między naszymi rodami, przynosząc wzajemne korzyści i umacniając przyszłe sojusze.\n\nDzięki temu partnerstwu obie rodziny zyskują na władzy i wpływach, torując drogę ku pomyślnej przyszłości."
+ agot_laughing_storm_rebellion.0017.a:0 "To okazja do świętowania."
+
+ #Luthor + Olenna = odrzucone
+ ### Punkt widzenia: Garlan Tyrell LUB Runceford Redwyne (w zależności kto odmówił)
+ ### Negocjacje zaręczyn między Olenną a Luthorem nie powiodły się
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0018.t:0 "Stracona Okazja"
+ agot_laughing_storm_rebellion.0018.desc:0 "Zaręczyny między [olenna.GetTitledFirstName] a [luthor.GetTitledFirstName] zostały odrzucone. To szkoda, ponieważ ten związek mógł przynieść wielkie korzyści obu naszym rodom, wzmacniając więzi i zabezpieczając naszą przyszłość.\n\nPomimo niepowodzenia musimy patrzeć w przyszłość i rozważyć inne ścieżki umocnienia naszych sojuszy i dobrobytu naszej rodziny."
+ agot_laughing_storm_rebellion.0018.a:0 "Moje dziecko znajdzie [my_child.GetHerHis] miłość gdzie indziej."
+
+
+ ##############################################################
+ ## 0020-0035 WYDARZENIA ŚMIEJĄCEJ SIĘ BURZY – Scenariusze Niekanoniczne ##
+ ##############################################################
+
+ #Lyonel Wygrał
+ ### Punkt widzenia: Lyonel
+ ### Lyonel pokonuje Duncana Wysokiego w pojedynku
+ #### Opcja A: Lyonel pozostaje wasalem, jeśli Egg zgodzi się na zesłanie Duncana Targaryena na Mur i małżeństwo Rhaelli z Ormundem Baratheonem (lub Herbertem, jeśli Ormund nie żyje) (Uruchamia: 0021)
+ #### Opcja B: Ogłasza niepodległość (Uruchamia: 0026)
+ agot_laughing_storm_rebellion.0020.t:0 "Zwycięstwo Burzy"
+ agot_laughing_storm_rebellion.0020.desc:0 "Pojedynek na śmierć i życie dobiegł końca, a [duncantall.GetTitledFirstName] leży pokonany moją ręką. Honor rodu [lyonel.GetHouse.GetBaseName] został przywrócony, a dreszcz zwycięstwa pulsuje w moich żyłach. Teraz stoję na rozdrożu.\n\n"
+ agot_laughing_storm_rebellion.0020.desc.both:0 "Mogę wybrać pozostanie niezależnym, torując własną drogę wolną od Żelaznego Tronu. Alternatywnie mogę ponownie złożyć hołd, ale tylko pod warunkiem nowego zaręczenia od [aegonv.GetTitledFirstNameRegnal] oraz zesłania [duncansmall.GetTitledFirstNameNicknamed] na Mur."
+ agot_laughing_storm_rebellion.0020.desc.only_banishment:0 "Mogę wybrać pozostanie niezależnym, torując własną drogę wolną od Żelaznego Tronu. Alternatywnie mogę ponownie złożyć hołd, ale tylko pod warunkiem zesłania [duncansmall.GetTitledFirstNameNicknamed] na Mur."
+ agot_laughing_storm_rebellion.0020.desc.only_betrothal:0 "Mogę wybrać pozostanie niezależnym, torując własną drogę wolną od Żelaznego Tronu. Alternatywnie mogę ponownie złożyć hołd, ale tylko pod warunkiem nowego zaręczenia od [aegonv.GetTitledFirstNameRegnal]."
+ agot_laughing_storm_rebellion.0020.desc.none:0 "Mogę wybrać pozostanie niezależnym, torując własną drogę wolną od Żelaznego Tronu. Alternatywnie mogę ponownie złożyć hołd, ale nie uczynię tego ślepo."
+ agot_laughing_storm_rebellion.0020.a:0 "Złożę hołd, ale żądam sprawiedliwości."
+ agot_laughing_storm_rebellion.0020.a.simple:0 "Nie potrzeba dalszych sporów — składam mój hołd."
+ agot_laughing_storm_rebellion.0020.b:0 "Kraina Burzy będzie stać samodzielnie."
+
+ #Lyonel Wygrał
+ ### Punkt widzenia: Aegon V
+ ### Lyonel zażądał zesłania księcia Duncana na Mur i małżeństwa Rhaelli z Ormundem Baratheonem, aby pozostać lojalnym
+ #### Opcja A: Żądanie odrzucone – może prowadzić do zerwania zaręczyn (Uruchamia: 0013, 0014, 0023, 0024 i 0032)
+ #### Opcja B: Żądanie zaakceptowane (Uruchamia: 0028)
+ agot_laughing_storm_rebellion.0021.t:0 "Żądania Burzy"
+ agot_laughing_storm_rebellion.0021.no_demand.t:0 "Zwycięstwo Burzy"
+ agot_laughing_storm_rebellion.0021.desc:0 "[lyonel.GetFullNameNicknamed] wyszedł zwycięsko z pojedynku, pokonując [duncantall.GetTitledFirstName].\n\n"
+ agot_laughing_storm_rebellion.0021.desc.both:0 "Teraz oferuje ponowne złożenie hołdu, ale jego lojalność ma swoją cenę: nowe zaręczyny od Korony i zesłanie mojego syna, [duncansmall.GetTitledFirstNameNicknamed], na Mur. Decyzja jest doniosła, wyważając honor królestwa i żądania potężnego wasala.\n\nMuszę ostrożnie rozważyć konsekwencje przyjęcia lub odrzucenia jego warunków."
+ agot_laughing_storm_rebellion.0021.desc.only_banishment:0 "Teraz oferuje ponowne złożenie hołdu, ale jego lojalność ma swoją cenę: zesłanie mojego syna, [duncansmall.GetTitledFirstNameNicknamed], na Mur. Decyzja jest doniosła, wyważając honor królestwa i żądania potężnego wasala.\n\nMuszę ostrożnie rozważyć konsekwencje przyjęcia lub odrzucenia jego warunków."
+ agot_laughing_storm_rebellion.0021.desc.only_betrothal:0 "Teraz oferuje ponowne złożenie hołdu, ale jego lojalność ma swoją cenę: nowe zaręczyny od Korony. Decyzja jest doniosła, wyważając honor królestwa i żądania potężnego wasala.\n\nMuszę ostrożnie rozważyć konsekwencje przyjęcia lub odrzucenia jego warunków."
+ agot_laughing_storm_rebellion.0021.desc.none:0 "Teraz oferuje ponowne złożenie hołdu, bez żądania czy warunku. Jego przysięga przywraca pewien stopień pokoju w królestwie, choć dawne konflikty nie tak łatwo zapomnieć.\n\nNa razie królestwo znów jest całe."
+ agot_laughing_storm_rebellion.0021.a:0 "Odrzucam to zuchwałe żądanie."
+ agot_laughing_storm_rebellion.0021.a.no_demand:0 "Niech pokój trwa."
+ agot_laughing_storm_rebellion.0021.b:0 "Ta oferta może przywrócić pokój."
+
+ #Lyonel Odrzucił małżeństwo
+ ### Punkt widzenia: Aegon V
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0022.t:0 "Opór Jelenia"
+ agot_laughing_storm_rebellion.0022.desc:0 "Odpowiedź [lyonel.GetTitledFirstNamePossessive] nadeszła szybko i dobitnie — odrzuca to małżeństwo. Bez przeprosin, bez uprzejmości, tylko żelazna wola człowieka, który nie pozwoli, by jego ród został związany z moim, nawet w pokoju.\n\nPrzegrał pojedynek, a mimo to w tej sprawie pozostaje nieugięty. Burzy nie da się tak łatwo poskromić."
+ agot_laughing_storm_rebellion.0022.a:0 "Niech tak będzie."
+ agot_laughing_storm_rebellion.0022.a.tt:0 "Niech tak będzie."
+
+ #tworzenie sojuszu
+ ### Punkt widzenia: Runceford Redwyne, Steffon Tully, Garlan Tyrell (tylko jeśli ich dzieci są zaangażowane w zerwane zaręczyny z Targaryenami)
+ ### Lyonel oferuje sojusz na nadchodzącą wojnę
+ #### Opcja A: Sojusz z Lyonelem
+ #### Opcja B: Koniec historii
+ agot_laughing_storm_rebellion.0023.t:0 "Wezwanie do Buntu"
+ agot_laughing_storm_rebellion.0023.desc:0 "Hańba sprowadzona na ród [lyonel.GetHouse.GetBaseName] przez zerwane zaręczyny [duncansmall.GetTitledFirstNameNicknamedPossessive] teraz napędza bunt [lyonel.GetTitledFirstNameNicknamedPossessive] przeciwko Żelaznemu Tronowi. [lyonel.GetTitledFirstNameNoTooltip] gromadzi sojuszników, pragnąc walczyć o niepodległość.\n\nMoje dziecko również ucierpiało z rąk Targaryenów, co sprawia, że przyłączenie się do walki [lyonel.GetFirstNameNoTooltip] wydaje się słuszne. Jednak zawsze byłem lojalny wobec Żelaznego Tronu, a konsekwencje buntu są poważne. To doniosła decyzja, która ukształtuje przyszłość naszego rodu."
+ agot_laughing_storm_rebellion.0023.a:0 "Stoimy po stronie 'Śmiejącej się Burzy'."
+ agot_laughing_storm_rebellion.0023.b:0 "Pozostajemy lojalni wobec Żelaznego Tronu."
+
+ #WOJNA
+ ### Punkt widzenia: Lyonel
+ ### Wydarzenie wojenne (opis zależny od tego, kto przyjął wezwanie)
+ #### Opcja A: Rozpoczęcie wojny
+ agot_laughing_storm_rebellion.0024.t:0 "Burza się Rozpoczyna"
+ agot_laughing_storm_rebellion.0024.garlan_steffon_runceford.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [runceford.GetTitledFirstName], [garlan.GetTitledFirstName] i [steffon.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.steffon_runceford.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [steffon.GetTitledFirstName] i [runceford.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.garlan_runceford.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [garlan.GetTitledFirstName] i [runceford.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.garlan_steffon.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [garlan.GetTitledFirstName] i [steffon.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.garlan.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [garlan.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.steffon.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [steffon.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.runceford.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U boku mam [runceford.GetTitledFirstName], a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.none.desc:0 "Nadszedł czas. Moja armia jest gotowa, sztandary powiewają wysoko, a serca są utwardzone na bitwę. U mego boku stoją lojalni sojusznicy, a wezwanie do wojny rozbrzmiewa w całej Krainie Burzy. Hańba zadana rodowi [lyonel.GetHouse.GetBaseName] zostanie odpłacona furią burzy.\n\nWyruszamy, aby odzyskać honor i niepodległość, gotowi stawić czoła wszelkim wyzwaniom. Niech Żelazny Tron zadrży, bo gniew burzy jest nad nim."
+ agot_laughing_storm_rebellion.0024.a:0 "Do wojny!"
+
+ #Lyonel odmówił pojedynku
+ ### Punkt widzenia: Aegon V
+ ### Lyonel odmówił pojedynku
+ #### Opcja A: Prowadzi do wojny (Wyzwala: 0027)
+ #### Opcja B: Przyznać mu niepodległość (Wyzwala: 0026)
+ agot_laughing_storm_rebellion.0025.t:0 "Dylemat Króla"
+ agot_laughing_storm_rebellion.0025.desc:0 "[lyonel.GetTitledFirstName] odmówił pojedynku z [duncantall.GetTitledFirstName], czego się nie spodziewałem. Ten nieoczekiwany obrót wydarzeń stawia mnie przed trudną decyzją.\n\nCzy mam przyznać mu żądaną niepodległość, ryzykując precedens dla innych lordów, czy wymusić konsekwencje jego buntu, potencjalnie pogrążając królestwo w dalszym konflikcie? Los Krain Burzy i stabilność Żelaznego Tronu wiszą na włosku."
+ agot_laughing_storm_rebellion.0025.a:0 "Musi ponieść konsekwencje."
+ agot_laughing_storm_rebellion.0025.b:0 "Powinienem przyznać mu niepodległość."
+
+ #Król Burzy
+ ### Punkt widzenia: Lyonel
+ ### Krainy Burzy stają się niepodległe
+ #### Opcja A: Prowadzi do zakończenia historii (Wyzwala: 0029)
+ agot_laughing_storm_rebellion.0026.t:0 "Król Burzy"
+ agot_laughing_storm_rebellion.0026.desc:0 "Zwycięstwo jest nasze. Zdobyłem niepodległość i Krainy Burzy będą znów rządzić autonomicznie, tak jak niegdyś Durrandonowie. Nasze sztandary powiewają wysoko, ogłaszając naszą suwerenność i przywrócenie starożytnych praw.\n\nHonor rodu [lyonel.GetHouse.GetBaseName] został przywrócony, a my jesteśmy gotowi kształtować własny los, wolni od jarzma Żelaznego Tronu. Niech wszyscy wiedzą, że Król Burzy rządzi niepodzielnie."
+ agot_laughing_storm_rebellion.0026.a:0 "Chwała Krainom Burzy!"
+
+ #Wczesna wojna
+ ### Punkt widzenia: Lyonel
+ ### Wydarzenie przedwojenne
+ #### Opcja A: Prowadzi do wojny (Wyzwala: 0024)
+ agot_laughing_storm_rebellion.0027.t:0 "Nadciągająca Burza"
+ agot_laughing_storm_rebellion.0027.desc:0 "Odrzuciwszy pojedynek, stoję teraz na krawędzi wojny. Napięcie jest wyczuwalne, a Krainy Burzy przygotowują się na nieuchronny konflikt. Aby zapewnić naszą niepodległość i obronić honor, muszę poszukać sojuszników, którzy staną u mego boku wobec gniewu Żelaznego Tronu.\n\nPrzed nami niebezpieczna droga, ale z lojalnymi sprzymierzeńcami przetrwamy każdą burzę."
+ agot_laughing_storm_rebellion.0027.a:0 "Zbierzmy sojuszników."
+
+ #Koniec
+ ### Punkt widzenia: Lyonel
+ ### Wszystko wraca do normy (kanoniczna linia czasu)
+ #### Opcja A: Prowadzi do zakończenia historii (Wyzwala: 0030)
+ agot_laughing_storm_rebellion.0028.t:0 "Przywrócony Pokój"
+ agot_laughing_storm_rebellion.0028.desc:0 "Po okresie zmagań nowe zaręczyny od króla zostały zaaranżowane i pokój znów jest w zasięgu ręki. Krainy Burzy mogą teraz patrzeć w przyszłość z nadzieją, nasz honor został ocalony, a więzi z Żelaznym Tronem naprawione.\n\nTen sojusz obiecuje stabilność i odnowione poczucie jedności, pozwalając nam skupić się na dobrobycie i pomyślności naszego ludu."
+ agot_laughing_storm_rebellion.0028.desc.no_betrothal:0 "Po okresie zmagań pokój znów jest w zasięgu ręki. Krainy Burzy mogą teraz patrzeć w przyszłość z nadzieją, nasz honor został ocalony, a więzi z Żelaznym Tronem naprawione.\n\nTen sojusz obiecuje stabilność i odnowione poczucie jedności, pozwalając nam skupić się na dobrobycie i pomyślności naszego ludu."
+ agot_laughing_storm_rebellion.0028.a:0 "Przyjmijmy ten nowy pokój."
+
+ #Król Burzy
+ ### Punkt widzenia: wszyscy
+ ### Krainy Burzy stają się niepodległe
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0029.t:0 "Król Burzy"
+ agot_laughing_storm_rebellion.0029.desc:0 "Zwycięstwo zostało odniesione przez ród [lyonel.GetHouse.GetBaseName] w ich walce o niepodległość. Krainy Burzy będą znów rządzić autonomicznie, tak jak niegdyś Durrandonowie. Ich sztandary powiewają wysoko, ogłaszając suwerenność i przywrócenie starożytnych praw.\n\nHonor rodu [lyonel.GetHouse.GetBaseName] został przywrócony, a oni są gotowi kształtować własny los, wolni od Żelaznego Tronu."
+ agot_laughing_storm_rebellion.0029.a:0 "Śmiejąca się Burza śmieje się ostatnia?"
+
+ #Koniec
+ ### Punkt widzenia: wszyscy
+ ### Wszystko wraca do normy (kanoniczna linia czasu)
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0030.t:0 "Przywrócony Pokój"
+ agot_laughing_storm_rebellion.0030.desc:0 "Po okresie zmagań osiągnięto porozumienie, które przywraca stabilność królestwu. Krainy Burzy muszą teraz patrzeć w przyszłość, pamiętając o wysokiej cenie konfliktu.\n\nGdy pokój powraca, królestwo może rozpocząć proces leczenia ran. Teraz pora skupić się na odbudowie i zapewnieniu dobrobytu wszystkim jego mieszkańcom.\n\nNiech ten moment będzie lekcją znaczenia jedności i kruchej natury pokoju."
+ agot_laughing_storm_rebellion.0030.a:0 "Miejmy nadzieję, że pokój przetrwa."
+
+ #Lyonel zginął
+ ### Punkt widzenia: wszyscy
+ ### Lyonel zginął w pojedynku
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0031.t:0 "Koniec Burzy"
+ agot_laughing_storm_rebellion.0031.desc:0 "[lyonel.GetFullNameNicknamed] zginął w pojedynku z [duncantall.GetTitledFirstName]. Jego opór i odwaga, niegdyś stanowiące poważne zagrożenie, zostały uciszone. Bunt, który groził rozdarciem królestwa, został przerwany wraz z upadkiem jego przywódcy.\n\nCena pokoju była wysoka, a echo tego konfliktu będzie rozbrzmiewać w annałach historii. Gdy Krainy Burzy zostały spacyfikowane, królestwo może zacząć się leczyć, lecz cień tego wydarzenia będzie się unosił nad Żelaznym Tronem przez długie lata."
+ agot_laughing_storm_rebellion.0031.a:0 "Walczył, przegrał, teraz spoczywa."
+
+ #Odmowa Lyonela
+ ### Punkt widzenia: Lyonel
+ ### Aegon odmówił żądania Lyonela dotyczącego nowych zaręczyn i wysłania Duncana Small na Mur
+ #### Opcja A: Eskalacja sytuacji
+ agot_laughing_storm_rebellion.0032.t:0 "Furia Burzy"
+ agot_laughing_storm_rebellion.0032.desc:0 "Po pokonaniu [duncantall.GetTitledFirstName] w pojedynku domagam się sprawiedliwości od króla: jego syn, [duncansmall.GetTitledFirstNameNicknamed], wysłany na Mur, oraz nowe zaręczyny, aby związać nasze rody. Jednak król odmówił moich słusznych żądań!\n\nTo afront nie do zniesienia. Teraz nie pozostaje nic innego, jak chwycić za broń i walczyć o naszą niepodległość.\n\nKrainy Burzy nie będą już klękać przed Żelaznym Tronem. Wojna jest przed nami i odzyskamy honor przez zwycięstwo."
+ agot_laughing_storm_rebellion.0032.a:0 "Pożałuje dnia, w którym mnie zlekceważył."
+ agot_laughing_storm_rebellion.0032.b:0 "Być może mądrze byłoby szukać pokoju."
+
+ #Odbicie
+ ### Punkt widzenia: Jaehaerys, Daeron lub Duncan Targaryen
+ ### Wyzwalane w przyszłości, jeśli któryś z nich odziedziczy tron, a Krainy Burzy są niepodległe
+ #### Opcja A: Ogłoszenie wojny o odbicie Krain Burzy
+ #### Opcja B: Bez odbicia
+ agot_laughing_storm_rebellion.0034.t:0 "Smocza Odpłata"
+ agot_laughing_storm_rebellion.0034.desc:0 "Krainy Burzy, niegdyś związane z Żelaznym Tronem, teraz stoją osobno, królestwo wykute w buncie pod sztandarem [lyonel.GetNamePossessive].\n\nRządy mojego ojca podzieliły królestwo, błąd, którego nie mogę zaakceptować. Potęga Targaryenów nie jest tak łatwa do złamania, a Krainy Burzy należą do nas z prawa. Wojna ma swoją cenę. Krew, złoto i życie — decyzja, którą teraz podejmę, odbije się echem przez wieki."
+ agot_laughing_storm_rebellion.0034.a:0 "Zdobędę Krainy Burzy ogniem i krwią."
+ agot_laughing_storm_rebellion.0034.b:0 "Niech na razie mają swoją wolność."
+
+ #Odbicie Królestwa
+ ### Punkt widzenia: Jaehaerys, Daeron lub Duncan Targaryen
+ ### Wyzwalane w przyszłości, jeśli któryś z nich odziedziczy tron, a inne główne tytuły są niepodległe
+ #### Opcja A: Ogłoszenie wojny o odbicie następnego niepodległego królestwa
+ #### Opcja B: Bez odbicia
+ agot_laughing_storm_rebellion.0037.t:0 "Podzielony Tron"
+ agot_laughing_storm_rebellion.0037.desc:0 "[reconquest_target_title.GetName], niegdyś związane z Żelaznym Tronem, teraz stoją jako buntownicze królestwo, którego niepodległość jest gorzkim przypomnieniem o porażce mojego ojca. Każdego dnia stają się odważniejsze, ich bogactwo rośnie, a władza pozostaje bez kontroli. Królestwo wydaje się rozdarte, a tron umniejszony przez ich brak.\n\nCiężar ich buntu mnie gnębi i nie mogę tego dłużej znosić. Żelazny Tron musi być całością, jego panowanie niepodważalne. Pozostawić [reconquest_target_title.GetNameNoTooltip] wolne to jak zostawić broń w rękach wrogów."
+ agot_laughing_storm_rebellion.0037.a:0 "Żelazny Tron musi być całością. Szykujcie się do wojny."
+ agot_laughing_storm_rebellion.0037.b:0 "Być może teraz nie jest czas na wojnę."
+
+ #Niepodległość Redwyne
+ ### Punkt widzenia: Redwyne
+ agot_laughing_storm_rebellion.0038.t:0 "Korona Winorośli"
+ agot_laughing_storm_rebellion.0038.desc:0 "Przez pokolenia Arbor klękało przed lordami większymi z imienia, choć nigdy z wartości. Nasze statki napełniały ich skarbce, nasze wino zdobiło ich stoły, a mimo to byliśmy tylko kolejną gałęzią na ich drzewie. Już nie.\n\n[stormlands.GetNameNoTier] stanęły wolne spod władzy smoka, a teraz i [arbor.GetNameNoTier] czyni to samo. Niech świat wie — nie jestem tylko lordem winnic i flot, ale królem z własnego prawa. Arbor nie klęka przed nikim."
+ agot_laughing_storm_rebellion.0038.a:0 "Niech Arbor rządzi sobą, jak zawsze powinno."
+
+ #Reach informowane o PK Arbor
+ ### Punkt widzenia: Reach
+ #Opcja A: Akceptacja
+ #Opcja B: Poinformowanie Redwyne, że Olenna zostanie stracona, jeśli Redwyne nie złoży hołdu (aktywny tylko, jeśli Olenna jest na dworze Reach)
+ agot_laughing_storm_rebellion.0039.t:0 "Winorośl Uwolniona"
+ agot_laughing_storm_rebellion.0039.desc:0 "Tak długo, jak ludzie pamiętają, bogactwo i floty [arbor.GetNameNoTierPossessive] służyły [reach.GetNameNoTier], jego lordom jako lojalnym wasalom.\n\nTeraz jednak, gdy smok został odrzucony, a nasze rządy zabezpieczone, ogłaszają własną koronę. [k_arbor_holder.GetTitledFirstNameNicknamed] tytułuje się [Select_CString(k_arbor_holder.IsFemale,'królową','królem')], a jego sztandary nie są już nasze do przywołania."
+ agot_laughing_storm_rebellion.0039.desc.olenna:0 "\n\n[olenna.GetTitledFirstName] przebywa w moich salach, z nazwy gość, w rzeczywistości zakładniczka. [k_arbor_holder.GetTitledFirstNameNoTooltip] może się nazywać [Select_CString(k_arbor_holder.IsFemale,'królową','królem')], może twierdzić, że Arbor stoi osobno od Reach, ale krew to silniejsze więzy niż duma."
+ agot_laughing_storm_rebellion.0039.a:0 "Reach stoi samotnie."
+ agot_laughing_storm_rebellion.0039.b:0 "Wyślij wiadomość do Arbor — [k_arbor_holder.GetHerHis] korona za jej życie."
+
+ #Arbor: groźba Reach
+ ### Punkt widzenia: Redwyne
+ #Opcja A: Złożyć hołd — Wyzwala 0041
+ #Opcja B: Nie składać hołdu — Wyzwala 0042
+ agot_laughing_storm_rebellion.0040.t:0 "Cena Korony"
+ agot_laughing_storm_rebellion.0040.desc:0 "Przychodzi wiadomość, ciężka jak miecz przy gardle. [olenna.GetTitledFirstName] jest w lochach [e_reach_holder.GetTitledFirstName], pionkiem w próbie [e_reach_holder.GetHerHis], by złamać moją koronę, zanim zapuści korzenie. [e_reach_holder.GetSheHe|U] oferuje prosty wybór — złóż hołd, ukłoń się jak [arbor.GetNameNoTier] zawsze się kłaniało, albo patrz, jak [olenna.GetTitledFirstNameNoTooltip] cierpi za mój opór.\n\nKlęknąć to cofnąć wszystko, co wywalczyliśmy. Odrzucić to skazać własną krew. Nie ma właściwego wyboru, jest tylko ten, z którym będę musiał żyć."
+ agot_laughing_storm_rebellion.0040.a:0 "Arbor się ugina — Olenna musi żyć."
+ agot_laughing_storm_rebellion.0040.b:0 "Przykro mi, Olenna."
+
+ #Początkowe wydarzenie dla wszystkich
+ ### Punkt widzenia: każdy władca Siedmiu Królestw (poza Lyonelem i Aegonem, bo mają własne wydarzenia startowe)
+ ### Wydarzenie startowe zakładki
+ agot_laughing_storm_rebellion.0050.t:0 "Bunt Śmiejącej się Burzy"
+ agot_laughing_storm_rebellion.0050.desc:0 "Królestwo pogrążone jest w chaosie. [lyonel.GetTitledFirstNameNicknamed] podniósł sztandary w otwartym buncie przeciwko Żelaznemu Tronowi. Jego furia zapłonęła, gdy [duncansmall.GetTitledFirstNameNicknamed], następca tronu, porzucił córkę Lyonela, by poślubić niskourodzoną dziewczynę z miłości — skandal, który upokorzył ród Baratheonów i rozbił sojusz między Końcem Burzy a Królewską Przystanią.\n\nŚmiejąca się Burza nie pozwoli się wyszydzać. Jego opór rozbrzmiewa w całych Krainach Burzy, stanowiąc wyzwanie dla rządów Targaryenów i grożąc pogrążeniem królestwa w wojnie. Gdy Lyonel rusza w gniewie, Żelazny Tron musi przygotować się na rozrachunek. Wiatr wojny wyje, a każdy ród musi teraz zdecydować, gdzie leży jego lojalność."
+ agot_laughing_storm_rebellion.0050.a:0 "Nadchodzi burza."
+
+ ##############################################################
+ ## 0100-0104 WYDARZENIA MAELYSA BLACKFYRE                  ##
+ ##############################################################
+
+ #Maelys rzuca wyzwanie Daemonowi
+ ### Punkt widzenia: Maelys Potworny
+ ### Wyzwalane w przyszłości. Rzucenie wyzwania przywódcy Złotej Kompanii
+ #### Opcja A: Rozpocząć pojedynek z przywódcą (Wyzwala: 0101 lub 0102)
+ #### Opcja B: Koniec historii
+ agot_laughing_storm_rebellion.0100.t:0 "Wyzwanie o Przywództwo"
+ agot_laughing_storm_rebellion.0100.desc:0 "Zbyt długo patrzyłem, jak [daemonbf_lsr.GetTitledFirstNameNicknamed] zmaga się z przywództwem. Czas wziąć sprawy w swoje ręce. Rzucę Daemonowi wyzwanie w pojedynku o prawo do dowodzenia.\n\nTylko poprzez siłę i determinację możemy zapewnić sobie przyszłość i odzyskać to, co nam się należy."
+ agot_laughing_storm_rebellion.0100.a:0 "Przywództwo będzie moje."
+ agot_laughing_storm_rebellion.0100.b:0 "Pozostawię [daemonbf_lsr.GetFirstNameNoTooltip] na czele."
+
+ #pojedynkowanie się
+ ### Punkt widzenia: przywódca Złotej Kompanii
+ ### Pojedynek na śmierć i życie (jeśli przywódca jest dorosły)
+ #### Opcja A: Rozpocząć pojedynek (Wyzwala: 0104)
+ agot_laughing_storm_rebellion.0101.t:0 "Pojedynek o Dominację"
+ agot_laughing_storm_rebellion.0101.desc:0 "[maelysbf_lsr.GetTitledFirstNameNicknamed] rzucił mi wyzwanie, chcąc przejąć dowodzenie. Odrzucenie tego pojedynku oznaczałoby utratę szacunku i lojalności moich ludzi. Nadszedł czas, by bronić swojego prawa do władzy i udowodnić swoją siłę.\n\nMuszę przyjąć to wyzwanie i stanąć do walki z [maelysbf_lsr.GetFirstNameNoTooltip], aby zabezpieczyć swoje stanowisko i przyszłość naszej sprawy."
+ agot_laughing_storm_rebellion.0101.a:0 "Niech rozpocznie się pojedynek."
+
+ #uzurpacja
+ ### Punkt widzenia: przywódca Złotej Kompanii
+ ### Maelys przejmuje dowodzenie (jeśli przywódca jest dzieckiem)
+ #### Opcja A: Grać dalej jako Maelys
+ #### Opcja B: Grać dalej jako losowy władca Targaryenów (jeśli jacyś żyją)
+ #### Opcja C: Grać dalej jako król Żelaznego Tronu (jeśli Targaryen)
+ agot_laughing_storm_rebellion.0102.t:0 "Cień Blackfyre’ów"
+ agot_laughing_storm_rebellion.0102.desc:0 "[maelysbf_lsr.GetFirstNameNicknamed] wtargnął na mój dwór ze swoją bandą najemników, jego oczy płoną ambicją i okrucieństwem. Czuję, jak strach ściska mi serce, gdy góruje nade mną, a jego potworna obecność rzuca ciemny cień na mój los.\n\nTytuły, z którymi się urodziłem, wszystko, co kiedykolwiek znałem, wymyka się z rąk, a co gorsza, jego spojrzenie obiecuje więcej niż tylko kradzież. On zamierza mnie zgładzić, zakończyć moje życie i mój roszczenie. Stoję samotnie przed bestią, a moja przyszłość gaśnie."
+ agot_laughing_storm_rebellion.0102.a:0 "Nie ma ucieczki przed potworem."
+ agot_laughing_storm_rebellion.0102.b:0 "To nie może być koniec."
+ agot_laughing_storm_rebellion.0102.c:0 "[king_house_member.GetTitledFirstName] musi się o tym dowiedzieć."
+
+ #Maelys Potworny
+ ### Punkt widzenia: dawny przywódca Złotej Kompanii LUB Maelys
+ ### Zakończenie pojedynku/uzurpacji (tytuł i opis zależą od tego, kto wygrał)
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0104.maelys.t:0 "Wzlot Potwornego"
+ agot_laughing_storm_rebellion.0104.notmaelys.t:0 "Upadek Potwornego"
+ agot_laughing_storm_rebellion.0104.maelys.desc:0 "Przywództwo jest teraz moje. Z siłą i determinacją poprowadzę mój lud ku chwale i odzyskam to, co nam się należy. Przyszłość naszej sprawy jest w moich rękach i nie cofnę się przed niczym, aby zapewnić nam triumf.\n\nNiech wszyscy, którzy nam się sprzeciwiają, drżą, bo Maelys 'Potworny' teraz dowodzi."
+ agot_laughing_storm_rebellion.0104.notmaelys.desc:0 "Maelys upadł, a moje przywództwo jest teraz zabezpieczone. Z siłą i determinacją poprowadzę mój lud ku chwale."
+ agot_laughing_storm_rebellion.0104.notmaelys.a:0 "Naprzód!"
+ agot_laughing_storm_rebellion.0104.maelys.a:0 "A teraz rozpoczyna się moje panowanie."
+
+ #Wydarzenie startowe Aegora Bittersteela
+ agot_laughing_storm_rebellion.0105.t:0 "Popioły i Przysięgi"
+ agot_laughing_storm_rebellion.0105.desc:0 "Trzy lata, a smak porażki wciąż zalega jak żółć na moim języku. Czwarta Rebelia Blackfyre’ów rozbiła się o zimną stal i zdrajców, nasze sztandary rozdarte, nasi bliscy zabici lub rozproszeni.\n\nKrzyczałem za [daemon_blackfyre.GetFirstName], za jego synów, za sen, który przysięgliśmy wyrzeźbić z ruin gasnącej dynastii. A jednak to nie wystarczyło. Ale Złota Kompania wciąż trwa.\n\nWygnani, złamani, miecze, które znają tylko wojnę. Blackfyre’owie nie skończyli, a ja tym bardziej. Pewnego dnia znów przekroczymy Wąskie Morze. Pewnego dnia smok dostanie, co mu się należy."
+ agot_laughing_storm_rebellion.0105.a:0 "Żaden król nie trwa wiecznie."
+
+ ##############################################################
+ ## 0200 - 0201 WYDARZENIA SCALY                            ##
+ ##############################################################
+
+ #Łuskowate Dziecko
+ ### Punkt widzenia: losowy władca Krain Burzy
+ ### Narodziny Łuskowatego Allarda
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0201.t:0 "Łuskowaty Znalezieniec"
+ agot_laughing_storm_rebellion.0201.desc:0 "Dworzanie wpadają do moich komnat, zdyszani wieściami o odkryciu na dziedzińcu. Znaleziono niemowlę, porzucone i samotne. Gdy podchodzę do dziecka, zauważam coś niezwykłego. Skóra [allard.GetHerHis|U] ma osobliwą fakturę, przypominającą łuski.\n\nZaintrygowany i poruszony losem dziecka, decyduję się wziąć [allard.GetHerHim] pod swoje skrzydła, ślubując, że [allard.GetSheHe] będzie wychowywany w bezpieczeństwie i pod moim przewodnictwem."
+ agot_laughing_storm_rebellion.0201.a:0 "Witaj, małe łuskowate dziecię."
+
+ ##############################################################
+ ## 0300 - 0311 WYDARZENIA TYTOSA I ELLYN                  ##
+ ##############################################################
+
+ #Uwiedzenie Ellyn
+ ### Punkt widzenia: Ellyn Reyne
+ ### Próba uwiedzenia Tytosa Lannistera
+ #### Opcja A: Próba uwiedzenia
+ agot_laughing_storm_rebellion.0300.t:0 "Czarodziejka z Casterly Rock"
+ agot_laughing_storm_rebellion.0300.desc:0 "Upadek w niełaskę jest gorzki, ale nie tak gorzki, by nie można go było odwrócić. [tytos.GetTitledFirstName] jest miękki, człowiekiem podatnym na delikatny dotyk, a ja wciąż wiem, jak sprawić, by mężczyźni zapomnieli o swoich żonach.\n\n[jeyne.GetTitledFirstName]? Cień, przelotny szept w salach Casterly Rock, ale sprawię, że znów będą śpiewać moje imię.\n\nByłam lekceważona już wystarczająco długo. Muszę wytyczyć własną ścieżkę, a jeśli prowadzi przez serce [tytos.GetTitledFirstNameNoTooltip], niech tak będzie."
+ agot_laughing_storm_rebellion.0300.a:0 "Serce lwa wkrótce zabije dla mnie."
+
+ #Tytos: Wynik uwiedzenia
+ ### Punkt widzenia: Tytos Lannister
+ ### Próba uwiedzenia przez Ellyn
+ #### Opcja A: Pozostać lojalnym wobec żony (Wyzwala: 0302)
+ #### Opcja B: Ellyn zostaje kochanką (Wyzwala: 0303)
+ agot_laughing_storm_rebellion.0301.t:0 "Pokusa Lwa"
+ agot_laughing_storm_rebellion.0301.desc:0 "[ellyn.GetFirstName] stoi blisko, jej słowa słodkie jak miód, oczy pełne obietnic tego, co było i co może znów być. Powietrze między nami gęstnieje, jej dłoń muska moją, dotyk palący przez zimne kamienne ściany Casterly Rock.\n\n[jeyne.GetFirstName]... moja żona, mój obowiązek. Ale Ellyn, ze swoim ogniem, swoją ambicją. Budzi we mnie coś niebezpiecznego. Czy odwrócę się, czy pozwolę, by płomień nas pochłonął?"
+ agot_laughing_storm_rebellion.0301.a:0 "Jeyne jest moją żoną, mój honor jest przy niej."
+ agot_laughing_storm_rebellion.0301.b:0 "Może ten ogień jest wart ryzyka."
+
+ #Ellyn: Tytos mnie odrzucił
+ ### Punkt widzenia: Ellyn Reyne
+ ### Tytos mnie odrzucił
+ #### Opcja A: Pogodzić się z odrzuceniem
+ #### Opcja B: Pogodzić się z odrzuceniem + Jeyne staje się moją rywalką
+ agot_laughing_storm_rebellion.0302.t:0 "Odrzucona przez Lwa"
+ agot_laughing_storm_rebellion.0302.desc:0 "Tytos się odwrócił. Ten słaby, miauczący lew wybrał [jeyne.GetFirstName] zamiast mnie. Nudną, bezbarwną kobietę, która nie daje mu nic poza zimnym obowiązkiem. Ja oferowałam mu władzę, chwałę, panowanie królowej, a on nadal trzyma się jej.\n\nGłupcy często podejmują takie decyzje, ale błędu głupca nie można pozostawić bez odpowiedzi. Mogę zaakceptować tę zniewagę i pozwolić jej odejść, albo mogę upewnić się, że [jeyne.GetFirstNamePossessiveNoTooltip] panowanie jako pani Casterly Rock będzie znacznie krótsze, niż sobie wyobraża."
+ agot_laughing_storm_rebellion.0302.a:0 "Poczekam na swoją kolej... na razie."
+ agot_laughing_storm_rebellion.0302.b:0 "Jeyne pożałuje, że kiedykolwiek stanęła mi na drodze."
+
+ #Ellyn: Tytos został moim kochankiem
+ ### Punkt widzenia: Ellyn Reyne
+ ### Tytos zostaje moim kochankiem
+ #### Opcja A: Zasugerować Tytosowi rozwód z Jeyne i ślub ze mną (Wyzwala: 0304)
+ agot_laughing_storm_rebellion.0303.t:0 "Prawdziwa Partnerka Lwa"
+ agot_laughing_storm_rebellion.0303.desc:0 "[tytos.GetFirstName] przyszedł do mnie, w końcu dostrzegając to, co zawsze wiedziałam — że to ja jestem jego prawdziwą królową, tą, która może poprowadzić go ku większym wyżynom niż [jeyne.GetFirstName] kiedykolwiek mogła. Ale między nami wciąż stoi jedna przeszkoda. Jeyne.\n\nNie możemy naprawdę rządzić razem, dopóki pozostaje jego żoną. Muszę przekonać Tytosa, by ją odsunął i uczynił mnie panią Casterly Rock raz jeszcze. Razem będziemy rządzić tak, jak było nam pisane."
+ agot_laughing_storm_rebellion.0303.a:0 "Musimy to oficjalnie przypieczętować, mój ukochany."
+
+ #Tytos: Utrzymać to w tajemnicy czy prosić o rozwód
+ ### Punkt widzenia: Tytos Lannister
+ ### Ellyn zasugerowała, że powinniśmy się pobrać
+ #### Opcja A: Związek pozostaje sekretem (Wyzwala: 0311)
+ #### Opcja B: Proszę ojca o rozwód (Wyzwala: 0305)
+ #### Opcja C: Proszę o rozwód Wielkiego Septona (Wyzwala: 0306) (tylko jeśli Tytos został już Lordem Paramountem)
+ agot_laughing_storm_rebellion.0304.t:0 "Dylemat Lwa"
+ agot_laughing_storm_rebellion.0304.desc:0 "Pragnienie [ellyn.GetFirstNamePossessive] płonie jasno, ale droga przed nami jest pełna niebezpieczeństw. [jeyne.GetFirstName] wciąż jest moją żoną i choć moglibyśmy utrzymać nasz romans w tajemnicy, sekrety mają tendencję do wychodzenia na jaw w salach Casterly Rock.\n\nJedynie Wielki Septon ma moc, by rozwiązać moje więzy z Jeyne i dać mi wolność, by poślubić Ellyn, ale taka prośba nie jest składana lekkomyślnie. Czy mam dalej działać w cieniu, czy podjąć śmiały krok ku nowej przyszłości, niezależnie od kosztów?"
+ agot_laughing_storm_rebellion.0304.a:0 "Niech to pozostanie ukryte... na razie."
+ agot_laughing_storm_rebellion.0304.b:0 "Poproszę ojca o błogosławieństwo."
+ agot_laughing_storm_rebellion.0304.c:0 "Poproszę o błogosławieństwo Wielkiego Septona."
+
+ #Gerold: Prosi o rozwód u Wielkiego Septona
+ ### Punkt widzenia: Gerold Lannister
+ ### Tytos prosił mnie o rozwód
+ #### Opcja A: Proszę Wielkiego Septona o zgodę (Wyzwala: 0306)
+ agot_laughing_storm_rebellion.0305.t:0 "Brzemień Ojca"
+ agot_laughing_storm_rebellion.0305.desc:0 "[tytos.GetFirstName], mój syn, stoi przede mną, mówiąc o miłości i [ellyn.GetFirstName]. Pragnie odrzucić [jeyne.GetFirstName], swoją żonę, i poślubić wdowę po swoim zmarłym bracie. To sprzeczne z naszymi tradycjami, z porządkiem, który Lannisterowie podtrzymują od pokoleń. A jednak jego serce jest zdecydowane, a może jest na to sposób.\n\nByć może Wielki Septon da się przekonać, jeśli nacisnę na sprawę z wagą naszego rodu."
+ agot_laughing_storm_rebellion.0305.a:0 "Napiszę do Wielkiego Septona."
+
+ #Gerold: Wielki Septon prosi o pieniądze za rozwód -> Zapłacić czy odmówić
+ ### Punkt widzenia: Gerold Lannister LUB Tytos Lannister
+ ### Odpowiedź Wielkiego Septona. Opis zależy, czy Septon jest chciwy.
+ #### Opcja A: Brak rozwodu (Wyzwala: 0308) (Tylko jeśli Septon nie jest chciwy)
+ #### Opcja B: Przekupić Wielkiego Septona (Wyzwala: 0310)
+ #### Opcja C: Nie stać na rozwód (Wyzwala: 0307)
+ agot_laughing_storm_rebellion.0306.t:0 "Wyrok Wielkiego Septona"
+ agot_laughing_storm_rebellion.0306.desc:0 "Odpowiedź Wielkiego Septona nadchodzi, pełna ciężaru tradycji i praw bogów oraz ludzi. Pisze, że ten rozwód byłby poważnym naruszeniem świętych więzów małżeństwa."
+ agot_laughing_storm_rebellion.0306.greedy.desc:0 "\n\nJednak pod koniec listu ton łagodnieje. Szept między wierszami. Być może, przy odpowiednim okazaniu wdzięczności, jego serce mogłoby zostać przekonane. Szybko rozchodzą się wieści, że nie jest odporny na złoto, jeśli zostanie mu ono przedstawione z odpowiednią troską.\n\nWybór teraz należy do mnie. Opuścić tę sprawę czy zapłacić cenę za jego błogosławieństwo."
+ agot_laughing_storm_rebellion.0306.a:0 "To koniec. Musimy iść dalej."
+ agot_laughing_storm_rebellion.0306.b:0 "Być może hojna ofiara zmieni jego zdanie."
+ agot_laughing_storm_rebellion.0306.c:0 "Nie mogę sobie pozwolić, by kalać honor łapówką."
+ agot_laughing_storm_rebellion.0306.c.tt:0 "Brat Ellyn, Roger, może również spróbować przekupić Wielkiego Septona"
+
+ #Roger: Jeśli Gerold odmówił zapłaty -> Zapłacić czy odmówić
+ ### Punkt widzenia: Roger Reyne
+ ### Gerold/Tytos nie mogli pozwolić sobie na łapówkę, więc ja mogę ją zapłacić
+ #### Opcja A: Nie przekupuję Wielkiego Septona (Wyzwala: 0308)
+ #### Opcja B: Przekupuję Wielkiego Septona (Wyzwala: 0310)
+ agot_laughing_storm_rebellion.0307.t:0 "Dylemat Brata"
+ agot_laughing_storm_rebellion.0307.desc:0 "[gerold.GetFirstName] próbował zdobyć błogosławieństwo Wielkiego Septona, by [tytos.GetFirstName] mógł rozwieść się z [jeyne.GetFirstName] i poślubić [ellyn.GetFirstName], ale błogosławieństwo zostało odmówione, chyba że — oczywiście — złoto mogłoby zmienić zdanie Wielkiego Septona.\n\nCo dziwne, mimo bogactwa Lannisterów, Tytos nie zapłacił łapówki. Teraz nadzieje [ellyn.GetFirstNamePossessiveNoTooltip] wiszą na włosku, a ona zwraca się do mnie, swojego brata, o pomoc.\n\nChciałbym zobaczyć ją znowu u władzy, ale cena jest wysoka, nawet dla Castamere."
+ agot_laughing_storm_rebellion.0307.a:0 "Cena jest zbyt wysoka, nawet dla Ellyn."
+ agot_laughing_storm_rebellion.0307.b:0 "Dla mojej siostry zapłacę, ile trzeba."
+
+ #Tytos i Ellyn: Nikt nie sfinansował rozwodu -> Ukrywać, czy uciec
+ ### Punkt widzenia: Tytos Lannister
+ ### Nikt nie dał nam rozwodu
+ #### Opcja A: Koniec historii (Wyzwala: 0311)
+ #### Opcja B: Pobraliśmy się mimo wszystko (Wyzwala: 0309 i 0310)
+ agot_laughing_storm_rebellion.0308.t:0 "Spętani Prawem, Rozdarci Pragnieniem"
+ agot_laughing_storm_rebellion.0308.desc:0 "Wydaje się, że nie ma legalnej drogi do mojego rozwodu, żadnego błogosławieństwa Wielkiego Septona, by uwolnić mnie z przysięgi wobec [jeyne.GetFirstName]. Bogowie i ludzie stoją nam na drodze, a jednak moje serce wciąż tęskni za [ellyn.GetFirstName].\n\nTradycja może trzymać nas w kajdanach, ale miłość tak łatwo się nie poddaje."
+ agot_laughing_storm_rebellion.0308.a:0 "Możemy się kochać mimo prawa."
+ agot_laughing_storm_rebellion.0308.b:0 "Do Siedmiu Piekieł z tradycją, poślubię Ellyn!"
+ agot_laughing_storm_rebellion.0308.b.tt:0 "Mój ojciec może mnie wydziedziczyć za to"
+
+ #Decyzja Gerolda
+ ### Punkt widzenia: Gerold Lannister
+ ### Tytos zignorował słowo Wielkiego Septona i poślubił Ellyn mimo wszystko.
+ #### Opcja A: Koniec historii
+ #### Opcja B: Koniec historii + Wydziedziczenie Tytosa
+ agot_laughing_storm_rebellion.0309.t:0 "Zdrada Syna"
+ agot_laughing_storm_rebellion.0309.desc:0 "Tytos zlekceważył prawo i honor naszej rodziny, odrzucając [jeyne.GetFirstName], by poślubić dziewczynę z rodu Reyne. Wybrał serce ponad tradycję, i po co? Dla przelotnej namiętności, która może przynieść hańbę rodowi Lannisterów.\n\nOstrzegałem go, a mimo to działał wbrew porządkowi, który trzyma nasz świat razem."
+ agot_laughing_storm_rebellion.0309.a:0 "Niech bogowie ci wybaczą... i obyś tego nie pożałował."
+ agot_laughing_storm_rebellion.0309.b:0 "Nie jesteś już moim synem, uważaj się za wydziedziczonego."
+
+ #Tytos i Ellyn: Pobraliśmy się!
+ ### Punkt widzenia: Tytos/Ellyn
+ ### Ślub (3 opisy: "desc" dla Tytosa, "ellyn.desc" dla Ellyn, "ellyn_anyway.desc" dla Ellyn, jeśli wyszła za niego mimo decyzji Wielkiego Septona)
+ #### Opcja A: Koniec historii
+ agot_laughing_storm_rebellion.0310.t:0 "Połączeni Przeznaczeniem"
+ agot_laughing_storm_rebellion.0310.desc:0 "Wreszcie Wielki Septon wyraził zgodę. Droga do mojego uwolnienia od [jeyne.GetFirstName] jest wolna, a [ellyn.GetFirstName] stanie u mego boku jako moja prawdziwa żona.\n\nSiedmiu uśmiechnęło się do nas, a teraz nic już nam nie stoi na drodze. Razem z Ellyn ukształtujemy naszą przyszłość na nowo, a być może nawet los rodu Lannisterów. Niech świat szepcze i plotkuje — to początek czegoś wielkiego."
+ agot_laughing_storm_rebellion.0310.ellyn.desc:0 "Droga do uwolnienia [tytos.GetTitledFirstNamePossessive] od [jeyne.GetFirstName] jest wolna, a teraz zajmę należne mi miejsce u jego boku jako jego prawdziwa żona.\n\nSiedmiu uśmiechnęło się do nas i nic już nie stoi między mną a władzą, do której zawsze byłam stworzona. Razem z Tytosem ukształtujemy naszą przyszłość na nowo, a być może nawet los rodu Reyne. Niech sobie szepczą i plotkują — to dopiero początek."
+ agot_laughing_storm_rebellion.0310.ellyn_anyway.desc:0 "Udało się. Wbrew życzeniom królestwa, wbrew szeptom dworu i ciężarowi tradycji, teraz stoję jako żona [tytos.GetFirstName]. Siedmiu może i nie pobłogosławiło tego związku, ale władza nie pochodzi z pobożności, lecz z ambicji, a tej mam pod dostatkiem.\n\nNiech możni rwą włosy z głowy, niech septonowie grzmią z ambon — teraz jestem tam, gdzie zawsze powinnam być. Razem będziemy rządzić, a ci, którzy się nam sprzeciwią, poznają cenę buntu."
+ agot_laughing_storm_rebellion.0310.a:0 "Nasze nowe życie zaczyna się teraz."
+
+ #Ellyn: Brak ślubu
+ ### Punkt widzenia: Ellyn Reyne
+ ### Brak ślubu
+ #### Opcja A: Koniec historii + rywalizacja z Jeyne
+ agot_laughing_storm_rebellion.0311.t:0 "Zdrada Kochanka"
+ agot_laughing_storm_rebellion.0311.desc:0 "Myślałam, że [tytos.GetFirstName] będzie w pełni mój, że odrzuci [jeyne.GetFirstName] dla mnie. A jednak teraz, po wszystkim, co razem przeszliśmy, waha się. Woli pozostać u boku tej bojaźliwej kobiety niż zdobyć władzę, którą moglibyśmy dzierżyć razem.\n\nJakże jest słaby, jak łatwo poddaje się obowiązkowi i strachowi. Spodziewałam się po nim więcej, ale teraz wydaje się, że muszę przemyśleć swoje plany. Jeśli nie chce wznieść się do wielkości ze mną, być może inna ścieżka czeka."
+ agot_laughing_storm_rebellion.0311.a:0 "Nie dam się tak łatwo odepchnąć."
+
+ ##############################################################
+ ## 0400-0469 WYDARZENIA BLOODRAVENA                        ##
+ ##############################################################
+
+ #Bloodraven wybrany
+ ### Punkt widzenia: Bloodraven
+ ### Wydarzenie startowe zakładki
+ agot_laughing_storm_rebellion.0400.t:0 "Nowy Lord Dowódca na Murze"
+ agot_laughing_storm_rebellion.0400.desc:0 "Po niedawnym odejściu [jack.GetTitledFirstName], Bracia Przysięgli Nocnej Straży wybrali mnie na swojego nowego dowódcę. Teraz moim obowiązkiem jest nadzorować bractwo i strzec królestwa przed niebezpieczeństwami czającymi się za Murem...\n\n#weak Nadchodzi noc i zaczyna się moja straż. Nie skończy się ona aż po mojej śmierci. Nie wezmę żony, nie będę miał ziem, nie spłodzę dzieci. Nie założę korony i nie zdobędę chwały. Będę żył i umrę na posterunku. Jestem mieczem w ciemności. Jestem strażnikiem na murach. Jestem ogniem, który płonie przeciwko zimnu, światłem, które niesie świt, rogiem, który budzi śpiących, tarczą, która strzeże królestw ludzi. Ślubuję swoje życie i honor Nocnej Straży, na tę noc i wszystkie, które nadejdą.#!"
+ agot_laughing_storm_rebellion.0400.a:0 "A teraz zaczyna się moja straż."
+
+ #Aegon V: Dark Sister
+ ### Punkt widzenia: Aegon V
+ ### Wyzwala się w przyszłości. Prośba do Bloodravena o zwrot Mrocznej Siostry.
+ #### Opcja A: Poproś o miecz (Wyzwala: 0402)
+ #### Opcja B: Nie proś o miecz
+ agot_laughing_storm_rebellion.0401.t:0 "Mroczna Siostra"
+ agot_laughing_storm_rebellion.0401.desc:0 "Minęły lata, odkąd wysłałem [bloodraven.GetTitledFirstName] na Mur, a wraz z nim zniknął miecz z valyriańskiej stali, [dark_sister_sword.GetName]. Miecz tak starożytny i potężny jak Mroczna Siostra należy do tronu, nie na Mur.\n\nMogę wysłać list do Bryndena, oferując mu fortunę w złocie w zamian za zwrot miecza na jego prawowite miejsce — na Żelazny Tron."
+ agot_laughing_storm_rebellion.0401.a:0 "Mroczna Siostra należy do Żelaznego Tronu."
+ agot_laughing_storm_rebellion.0401.b:0 "Miecz nic dla mnie nie znaczy."
+
+ #Bloodraven: Aegon V chce Mrocznej Siostry — LIST
+ ### Punkt widzenia: Bloodraven
+ ### Egg poprosił o Mroczną Siostrę.
+ #### Opcja A: Nie oddawaj miecza Eggowi (Wyzwala: 0404)
+ #### Opcja B: Oddaj miecz Eggowi (Wyzwala: 0403)
+ agot_laughing_storm_rebellion.0402.opening:0 "Do [bloodraven.GetTitledFirstNameNoTooltip]"
+ agot_laughing_storm_rebellion.0402.desc:0 "Piszę do Ciebie nie jako Twój król, ale jako potomek krwi Starej Valyrii, prosząc Cię o zwrot tego, co słusznie należy do tronu. [dark_sister_sword.GetName], miecz legend, ostrze, które widziało zarówno krew, jak i chwałę w rękach naszych przodków, należy do Żelaznego Tronu, a nie w zamarznięte pustkowia Muru.\n\nOferuję Ci sumę złota godną jego wagi i wartości, by mógł znowu spocząć tam, gdzie jego miejsce. Co powiesz, Bryndenie? Uhonorujesz nasz ród i zwrócisz Mroczną Siostrę, czy pozostanie ona zagubiona wśród śniegów?"
+ agot_laughing_storm_rebellion.0402.a:0 "Mroczna Siostra pozostanie ze mną."
+ agot_laughing_storm_rebellion.0402.b:0 "Zwrócę Mroczną Siostrę na jej prawowite miejsce."
+
+ #Aegon V: Bloodraven oddał mi Mroczną Siostrę — LIST
+ ### Punkt widzenia: Aegon V
+ ### Bloodraven oddał mi Mroczną Siostrę.
+ #### Opcja A: Koniec historii miecza.
+ agot_laughing_storm_rebellion.0403.opening:0 "Do [aegonv.GetTitledFirstNameNoTooltip]"
+ agot_laughing_storm_rebellion.0403.desc:0 "Twój list dotarł do mnie tutaj na Murze i dokładnie przemyślałem Twoją prośbę. [dark_sister_sword.GetName] był lojalnym towarzyszem, tak jak był nim dla wielkich Targaryenów dawnych czasów. Jej ostrze skosztowało krwi naszych wrogów i broniło królestwa w mojej dłoni. Ale nie jestem już tym człowiekiem, którym byłem, a mój czas z mieczem dobiegł końca.\n\nDla dobra królestwa i by uhonorować nasz ród, zwrócę Ci Mroczną Siostrę, by znów mogła służyć Żelaznemu Tronowi, jak została do tego stworzona. Obyś znalazł dla niej godną dłoń."
+ agot_laughing_storm_rebellion.0403.a:0 "Mroczna Siostra wraca do swojego domu."
+
+ #Aegon V: Odmowa zwrotu miecza — LIST
+ ### Punkt widzenia: Aegon V
+ ### Bloodraven nie oddał mi Mrocznej Siostry.
+ #### Opcja A: Koniec historii miecza.
+ agot_laughing_storm_rebellion.0404.opening:0 "Do [aegonv.GetTitledFirstNameNoTooltip]"
+ agot_laughing_storm_rebellion.0404.desc:0 "Twoje słowa do mnie dotarły, ale muszę odmówić Twojej oferty. [dark_sister_sword.GetName] była u mojego boku w niezliczonych bitwach, jej stal zbrukana krwią zdrajców i wrogów królestwa. Należy teraz do mnie, tutaj, na Murze, gdzie wciąż służy królestwu. Północ jest surowa i bezlitosna, ale tu odbywam swoją pokutę i tutaj Mroczna Siostra spełnia swój cel.\n\nZłoto, które oferujesz, nie ma dla mnie wartości w tej zamarzniętej dziczy, i nie rozstanę się z nią. Niektórych więzi, raz zawiązanych, nie da się złamać."
+ agot_laughing_storm_rebellion.0404.a:0 "Tego się nie zapomni."
+
+ #Bloodraven: Podążam za snami
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/sen/retrospekcja.
+ #### Opcja A: Podróżuj na północ (prowadzi do końca historii. Wyzwala: 0421).
+ #### Opcja B: Koniec historii wizji.
+ agot_laughing_storm_rebellion.0420.t:0 "Zew zza Muru"
+ agot_laughing_storm_rebellion.0420.desc:0 "Wizje stają się coraz silniejsze — drzewa, chłód, dziwne szepty, które zdają się wołać zza Muru. Czuję to teraz wyraźniej niż kiedykolwiek — coś tam, w zamarzniętej dziczy, przyciąga mnie. Wiatr, który wyje nocą, brzmi jak głos, wzywający mnie na północ, zapraszający, bym odkrył, co kryje się poza granicą znanego świata.\n\nKażdy instynkt mówi mi, że to niebezpieczne, może nawet pułapka, ale przyciąganie jest nie do odparcia. Mur stoi między mną a tym, co czeka dalej, ale nie mogę zignorować wrażenia, że mój los znajduje się tam, w lodzie i cieniach."
+ agot_laughing_storm_rebellion.0420.a:0 "Odpowiedzi leżą poza Murem, muszę je odnaleźć."
+ agot_laughing_storm_rebellion.0420.a.tt:0 "Zaczynasz podróż na północ"
+ agot_laughing_storm_rebellion.0420.b:0 "Moim obowiązkiem jest pozostać tutaj."
+
+#Bloodraven: Podążając za swoimi snami
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja. Historia o zniknięciu podczas zwiadu. (Staje się Trójoką Wroną)
+ #### Opcja A: Koniec historii wizji.
+ agot_laughing_storm_rebellion.0421.t:0 "Ostatni Lot Bloodravena"
+ agot_laughing_storm_rebellion.0421.desc:0 "Tam, pod starożytnym drzewem, widzę ich — zielonoskóre dzieci z moich snów. Stoją w milczeniu, ich oczy wpatrzone we mnie, jakby czekały od zawsze. Powietrze wokół nich wydaje się inne, naładowane czymś starym i potężnym. Czuję to również głęboko w sobie, zmianę, jakby część mnie już się zmieniła, jakbym nie był już tym człowiekiem, którym byłem wcześniej.\n\nPodchodzę bliżej, a sam las zdaje się oddychać, liście szepczą sekrety, które prawie rozumiem. Dzieci nie mówią, ale czuję ich zaproszenie, ich wołanie, wciągające mnie w ich świat, w coś znacznie starszego, niż mogłem sobie wyobrazić."
+ agot_laughing_storm_rebellion.0421.a:0 "Muszę zobaczyć, dokąd prowadzi ta ścieżka."
+ agot_laughing_storm_rebellion.0421.a.tt:0 "...i mogę nigdy nie wrócić."
+
+ ### Bloodraven — wydarzenia uzupełniające
+
+ #Sen: Drzewo
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0451.t:0 "Drzewo"
+ agot_laughing_storm_rebellion.0451.desc:0 "Gdy sen mnie ogarnia, odnajduję się w znajomym śnie, który przechodziłem już wiele razy, a jednak niepokój nie maleje. Świat wokół mnie znika, a ja nie jestem już Lordem Dowódcą Nocnej Straży, tylko samotną postacią w dziwnej, zimnej krainie. Przede mną, na wzgórzu, stoi drzewo, ogromne i starożytne, jego blada kora lśni w świetle księżyca jak kość. U jego podstawy zieje jaskinia, jak otwarta paszcza.\n\nCzuję jego przyciąganie, wzywa mnie bliżej. Stawiam krok naprzód, ale ziemia pod moimi stopami zaczyna zamarzać, lodowe palce wspinają się w górę, próbując mnie zatrzymać. Walczę, by iść dalej, ale mróz staje się coraz silniejszy.\n\nTuż przed tym, jak dotrę do drzewa, zimno mnie ogarnia i budzę się z szarpnięciem, a wizja wciąż jest żywa w moim umyśle."
+ agot_laughing_storm_rebellion.0451.a:0 "Co naprawdę oznacza ten sen?"
+ agot_laughing_storm_rebellion.0451.a.tt:0 "...czy jestem lodem, jaskinią czy może samym drzewem?"
+
+ #Sen: Ciemny Wilk
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0452.t:0 "Czarny Wilk"
+ agot_laughing_storm_rebellion.0452.desc:0 "Gdy sen mnie pochłania, odnajduję się w kolejnym śnie. Świat jest jałowy, pokryty śniegiem, a wiatr tnie mnie niczym nóż. W oddali widzę go: wilka, większego niż jakikolwiek, jakiego kiedykolwiek widziałem, jego futro ciemne jak nocne niebo, zlewające się z cieniami krajobrazu. Jego oczy, czerwone, jak krew na białym śniegu, świecą dziko, budząc niepokój. Wilk patrzy na mnie tymi płonącymi oczami, jego spojrzenie przeszywa zimno, jakby wiedział coś, czego ja nie wiem.\n\nPróbuję podejść bliżej, ale z każdym krokiem wilk cofa się w mgłę, zawsze tuż poza moim zasięgiem. Ostatnią rzeczą, jaką widzę, są czerwone oczy, zanim znika w śniegu.\n\nBudząc się z nagłym wstrząsem, serce bije mi szybko, a obraz czarnego wilka wypala się w moim umyśle."
+ agot_laughing_storm_rebellion.0452.a:0 "Czego chce ode mnie ten wilk?"
+ agot_laughing_storm_rebellion.0452.a.tt:0 "...i czemu jego oczy wyglądają tak bardzo jak moje?"
+
+ #Sen: Wrona z trzema oczami
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0453.t:0 "Dziwna Wrona"
+ agot_laughing_storm_rebellion.0453.desc:0 "Gdy zapadam w sen, zostaję wciągnięty w kolejny dziwny sen. Stoję na opustoszałym polu, ciemne i ciężkie niebo nade mną. Z oddali zbliża się wrona, jej czarne skrzydła tną powietrze bezszelestnie. Gdy podlatuje bliżej, zauważam coś niezwykłego — to nie jest zwykła wrona. Trzecie oko, umieszczone na jej czole, patrzy na mnie nieprzerwanie, wszystko widzące. Wrona krąży nade mną, jej spojrzenie niepokojące, jakby widziała znacznie więcej, niż mogę pojąć.\n\nKracze raz, jej okrzyk rozbrzmiewa przez puste pola, a ja czuję, jakby patrzyło na mnie coś daleko poza samym ptakiem.\n\nBudząc się, serce mam ciężkie od ciężaru tego spojrzenia, a obraz trójokiej wrony wciąż czai się w mroku moich myśli."
+ agot_laughing_storm_rebellion.0453.a:0 "Jakie sekrety widzi wrona swoim trzecim okiem?"
+ agot_laughing_storm_rebellion.0453.a.tt:0 "...co widzi we mnie?"
+
+ #Sen: Wspinający się chłopiec
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0454.t:0 "Wspinający się Dzieciak"
+ agot_laughing_storm_rebellion.0454.desc:0 "Sen znów mnie ogarnia, wciągając w wizję, która jest dziwna, a zarazem znajoma. Stoję w cieniu wielkiego zamku, którego mury wznoszą się wysoko w niebo. Kątem oka dostrzegam chłopca, małego i zwinnego, wspinającego się po murach z łatwością, jego ręce i stopy znajdują niemożliwe chwyty w kamieniach. Porusza się jak cień, nieustraszony i szybki, wspinając się coraz wyżej. Dziecko nie ogląda się za siebie, jakby nie znało strachu przed upadkiem.\n\nWołam do niego, ale mój głos ginie w wietrze. On wspina się dalej, wyżej, niż jakikolwiek śmiertelnik powinien, aż znika w mgle na szczycie wieży.\n\nBudząc się, obraz dziecka wciąż jest świeży w mojej pamięci, jego niemożliwa wspinaczka pozostaje w tle moich myśli."
+ agot_laughing_storm_rebellion.0454.a:0 "Kim jest to dziecko i dokąd się wspina?"
+ agot_laughing_storm_rebellion.0454.a.tt:0 "...i jak zejdzie na dół?"
+
+  #Sen: Drzewo, część 2
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0455.t:0 "Drzewo Wzywa Ponownie"
+ agot_laughing_storm_rebellion.0455.desc:0 "Znów sen ciągnie mnie z powrotem do tej samej wizji. Wielkie drzewo wciąż stoi na wzgórzu, górując nad krajobrazem, z bladą korą, której gałęzie wyciągają się ku niebu jak pokręcone palce. Jaskinia pod nim zieje szeroko, ciemniejsza niż pamiętam, jakby czekała na coś albo na kogoś. Mróz pod moimi stopami wraca, wspina się w górę, ale tym razem chłód nie powstrzymuje moich kroków.\n\nIdę naprzód, każdy krok jest wolniejszy, cięższy, ale wołanie drzewa jest teraz wyraźniejsze, bardziej naglące. Kiedy zbliżam się do podnóża wzgórza, wiatr zawodzi, a ziemia drży pod moimi stopami. Gałęzie drzewa kołyszą się, jakby żyły, wabiąc mnie jeszcze bliżej.\n\nBudząc się nagle, czuję w powietrzu chłód snu, a przyciąganie drzewa jest silniejsze niż kiedykolwiek."
+ agot_laughing_storm_rebellion.0455.a:0 "Co kryje się pod drzewem?"
+ agot_laughing_storm_rebellion.0455.a.tt:0 "...i czemu ono mnie wzywa?"
+
+ #Sen: Biały Wilk, część 2
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0456.t:0 "Wilk na Śniegu"
+ agot_laughing_storm_rebellion.0456.desc:0 "Jeszcze raz zostaję wciągnięty w sen, zamarznięty krajobraz rozciąga się przede mną. Wiatr kąsa moją skórę, ale to nie zimno mnie niepokoi — to oczy patrzące na mnie z oddali. Ciemny wilk jest tam znowu, większy niż wcześniej, jego futro zlewa się z cieniami na śniegu. Jego czerwone oczy lśnią w ciemności, patrząc, czekając.\n\nTym razem nie cofa się, gdy się zbliżam. Zamiast tego stoi niewzruszenie, jego spojrzenie wbite we mnie. Stawiam krok naprzód, a wilk wydaje niski pomruk, dźwięk, który rozbrzmiewa w mroźnym powietrzu. Czuję, jakby próbował się ze mną porozumieć, ostrzec mnie albo wystawić na próbę. Podchodzę bliżej, ale wilk szczerzy zęby, a jego czerwone oczy świecą jeszcze jaśniej. Zastygam w miejscu, rozdarty między pójściem naprzód a wycofaniem się.\n\nChwila się przeciąga, a potem budzę się, z obrazem spojrzenia wilka wciąż płonącego w moim umyśle."
+ agot_laughing_storm_rebellion.0456.a:0 "Czego chce ode mnie wilk?"
+ agot_laughing_storm_rebellion.0456.a.tt:0 "...i na co on czeka?"
+
+ #Sen: Wrona z trzema oczami, część 2
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0457.t:0 "Cichy Strażnik"
+ agot_laughing_storm_rebellion.0457.desc:0 "Sen wciąga mnie ponownie w dziwną wizję, która nawiedza moje noce. To samo opustoszałe pole rozciąga się przede mną, jałowe i martwe. Tym razem wrona pojawia się niemal natychmiast, zniżając się z ciemnego nieba na cichych skrzydłach. Jej trzy oczy świecą w słabym świetle, ich spojrzenie jest bardziej intensywne, bardziej przeszywające niż wcześniej. Trzecie oko, w szczególności, zdaje się patrzeć w samą moją duszę, jakby widziało nie tylko to, kim jestem, ale kim mogę się stać.\n\nWrona siada na pokręconej gałęzi w pobliżu, obserwując mnie w milczeniu. Czuję jej obecność, jej moc, siłę wykraczającą poza moje zrozumienie. Kracze raz, głośniej niż wcześniej, i przez moment cały świat drży od tego dźwięku. Wrona nadal na mnie patrzy, jakby czekała, aż zrozumiem coś, czego jeszcze nie pojmuję.\n\nBudząc się w ciemności, czuję, że oczy wrony wciąż mnie śledzą, jakby podążyły za mną do świata jawy."
+ agot_laughing_storm_rebellion.0457.a:0 "Jaką wiedzę skrywa wrona?"
+ agot_laughing_storm_rebellion.0457.a.tt:0 "...i czemu mnie szuka?"
+
+ #Sen: Wspinający się, część 2
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0458.t:0 "Ogień na Niebie"
+ agot_laughing_storm_rebellion.0458.desc:0 "Znów zostaję wciągnięty w sen. Dziecko jest tam, wspinając się po niemożliwie wysokich murach starożytnego zamku z tą samą bezwysiłkową gracją. Tym razem podchodzę bliżej, kierując się ku podstawie wieży, zimne kamienie pod moimi stopami. Gdy się zbliżam, niebo nad głową ciemnieje, a czerwony kometa przecina je jak płonący miecz. Jego ognisty ogon oświetla wspinaczkę chłopca, rzucając długie, upiorne cienie. Zastygam, oszołomiony blaskiem komety, czując ciężar czegoś większego, co budzi się w powietrzu.\n\nGdy znowu patrzę na chłopca, już go nie ma. W jego miejscu na murze siedzi pojedyncza czarna wrona. Patrzy na mnie przez chwilę, po czym rozpościera skrzydła i odlatuje w niebo, znikając w oddali.\n\nBudząc się, obraz czerwonej komety i znikającego chłopca jest wyryty w moim umyśle."
+ agot_laughing_storm_rebellion.0458.a:0 "Jakie nieszczęście przynosi kometa?"
+ agot_laughing_storm_rebellion.0458.a.tt:0 "...i co stało się z tym dzieckiem?"
+
+ #Sen: Noc
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0459.t:0 "Cienie Nocy"
+ agot_laughing_storm_rebellion.0459.desc:0 "Sen mnie ogarnia, a ja zostaję wrzucony w ciemność, noc bez gwiazd, zimno przenikające mnie do szpiku kości. Świat wokół mnie jest zamarznięty, pokryty kocem śniegu i lodu. Wiatr wyje niczym tysiąc głosów, niosąc szepty strachu i zagłady. W oddali widzę słaby migot płomienia, walczącego o przetrwanie w obliczu nieustającego chłodu. Próbuję do niego podejść, ale z każdym krokiem ciemność gęstnieje, pochłaniając światło.\n\nCienie przesuwają się i skręcają w śniegu, i uświadamiam sobie, że coś się w nich porusza, coś starożytnego, coś złego. Patrzę w górę, a niebo nad głową jest puste, bez księżyca, bez gwiazd, tylko bezkresna otchłań.\n\nZimno chwyta mnie mocniej, a płomień gaśnie. Gdy ciemność naciera, budzę się, a chłód wciąż czepia się mojej skóry."
+ agot_laughing_storm_rebellion.0459.a:0 "Co budzi się w cieniach nocy?"
+ agot_laughing_storm_rebellion.0459.a.tt:0 "...i dlaczego jest tak zimno?"
+
+
+ #Sen: Umarli
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0460.t:0 "Znowu Chodzący"
+ agot_laughing_storm_rebellion.0460.desc:0 "Kiedy sen mnie pochłania, zostaję wrzucony w świat, który wydaje się niepokojąco znajomy. Powietrze jest zimne, przesycone zapachem rozkładu. Stoję na opustoszałym polu, ziemia pod moimi stopami jest spękana i jałowa. W oddali widzę postacie poruszające się powoli, nienaturalnie. Na początku wyglądają jak cienie, ale gdy się zbliżają, widzę je wyraźnie.\n\nTo nie są ludzie, to trupy. Twarze zastygłe w śmierci, puste oczy, szara i gnijąca skóra, a jednak poruszają się, jakby życie wciąż płynęło w ich żyłach. Umarli powstali, idą w moją stronę w upiornej ciszy. Ich oczy zdają się nie widzieć niczego i wszystkiego naraz. Próbuję mówić, zawołać, ale mój głos zawodzi. Nagle jeden z martwych odwraca głowę, wbija we mnie bez życia spojrzenie.\n\nBudzę się zlany zimnym potem, z obrazem tych chodzących trupów wciąż w mojej głowie."
+ agot_laughing_storm_rebellion.0460.a:0 "Dlaczego umarli powstają?"
+ agot_laughing_storm_rebellion.0460.a.tt:0 "...i czego szukają?"
+
+ #Aemon: Smok o trzech głowach
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0461.t:0 "Sen Smoka"
+ agot_laughing_storm_rebellion.0461.desc:0 "Cicho wchodzę do komnaty maestera Aemona, zamierzając zadać mu drobne pytanie. Ale zanim zdążę się odezwać, widzę, jak porusza się w śnie, z marszczonym czołem. Jego oczy nagle się otwierają, a przez chwilę wydaje się zagubiony, zawieszony między snem a jawą. Siada, mrugając, jakby resztki wizji wciąż się go trzymały.\n\n#italic „Smok ma trzy głowy,”#! mamrocze prawie do siebie, jego głos jest cichy i niepewny. #italic „Zawsze miał... zawsze będzie miał. Trzy głowy, jedno ciało. Bez nich smok... smok jest złamany.”#! Przeciera oczy, patrząc na mnie, jakby dopiero teraz zdał sobie sprawę z mojej obecności. #italic „Rozumiesz? Jedna głowa to za mało. Pozostałe muszą powstać.”#!\n\nKręci głową, jakby próbując rozproszyć mgłę snu, a jego słowa wciąż wiszą w powietrzu. Patrzę na niego, niepewny, czy mówi z wiedzy, czy z resztek snu, ciężar jego słów ciąży w powietrzu."
+ agot_laughing_storm_rebellion.0461.a:0 "Co ujrzał w tym śnie?"
+
+ #Aemon: Targaryen w odległej krainie
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0462.t:0 "Odległy Smok"
+ agot_laughing_storm_rebellion.0462.desc:0 "Późną nocą wchodzę do komnaty maestera Aemona. Jest przytomny, ale jego spojrzenie wydaje się odległe, jakby patrzył daleko poza pokój, widząc coś, czego ja nie widzę. Jego oczy spotykają się z moimi, ale wyczuwam w nich zagubienie, jakby nadal tkwił między snem a jawą.\n\n#italic „Jest Targaryen... w odległej krainie,”#! mówi cicho, jego głos drży z niepewności. #italic „Nie wiem, gdzie, ale widziałem... kogoś z naszą krwią, daleko stąd, zagubionego i błądzącego.”#! Jego dłonie lekko drżą, gdy przykłada je do czoła, próbując zrozumieć wizję. #italic „Nie rozumiem... ale wiem, że są ważni. W jakiś sposób są z nami powiązani.”#!\n\nMilknie, wpatrując się w pustkę, jakby nadal widział przebłyski wizji. Jego słowa wiszą w powietrzu, zostawiając mnie z pytaniem o tego odległego, nieznanego Targaryena."
+ agot_laughing_storm_rebellion.0462.a:0 "Czy mówi o mnie?"
+
+ #Wyprawa: Dziecko
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0463.t:0 "Dziecko"
+ agot_laughing_storm_rebellion.0463.desc:0 "Wróciłem z krótkiej wyprawy, ale coś z tej podróży wciąż nie daje mi spokoju, jak cień, który nie chce zniknąć. Tam, na dziczy, pośród śniegu i pustki, wydawało mi się, że coś zobaczyłem, kogoś.\n\nDziecko, małe i szybkie, przemykające między drzewami. Przez chwilę jego skóra wyglądała dziwnie... zielona, jakby sama lasem była. To był tylko ułamek sekundy, a kiedy spojrzałem ponownie, już go nie było. Nikt inny z grupy niczego nie widział. Pytałem, ale spojrzenia, które mi rzucili, sprawiły, że zacząłem wątpić w swoje oczy.\n\nCzy to był tylko figiel światła, czy coś więcej? Obraz tego zielonoskórego dziecka nawiedza mnie nawet teraz. Nie mogę się otrząsnąć z poczucia, że to, co widziałem, było prawdziwe — ale nie wiem, co to było ani co znaczyło."
+ agot_laughing_storm_rebellion.0463.a:0 "Czy to był tylko figiel umysłu?"
+
+ #Wyprawa: Dzieci Lasu
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0464.t:0 "Dzieci Lasu"
+ agot_laughing_storm_rebellion.0464.desc:0 "Podczas wyprawy oddaliłem się na chwilę od grupy, zaintrygowany ciszą dziczy. To wtedy ich zobaczyłem, troje dzieci, stojących tuż poza drzewami. Ich skóra miała dziwny odcień, niemal zielony, zlewający się z lasem, jakby były jego częścią. Nie mówiły, ale ich oczy zdawały się przywoływać mnie bliżej, zapraszać mnie cicho do swojego świata. Zrobiłem krok w ich stronę, czując dziwne przyciąganie, ale wtedy przypomniałem sobie o reszcie.\n\nPobiegłem z powrotem, by zebrać grupę, podekscytowany, że pokażę im to, co widziałem. Ale kiedy wróciłem z nimi, dzieci już nie było, zniknęły, jakby nigdy ich tam nie było. Inni spojrzeli na mnie z powątpiewaniem, a ja sam zacząłem się zastanawiać, czy sobie tego nie wyobraziłem. Ale uczucie ich obecności wciąż we mnie tkwi, jakby patrzyły z ukrycia."
+ agot_laughing_storm_rebellion.0464.a:0 "Czy las płata mi figle?"
+
+ #Bloodraven: Bracia
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0465.t:0 "Bracia"
+ agot_laughing_storm_rebellion.0465.desc:0 "Lodowaty wiatr Północy omiata Czarny Zamek, będąc nieustannym przypomnieniem o twardym obowiązku, jaki teraz noszę. Gdy patrzę przez Mur, moje myśli niespodziewanie wędrują w przeszłość, do twarzy, które pozostały wyryte w mojej pamięci jak blizny na duszy. Dwóch braci wyłania się najjaśniej w moich wspomnieniach: jeden, szlachetny i dumny, którego niegdyś kochałem, zanim ambicja mi go odebrała; drugi, postać w cieniu, pełna zemsty i goryczy, którego wrogość zawsze była tak zimna jak lód pod moimi stopami.\n\nTe myśli gryzą mnie, powracając mimo upływu lat. Więzy krwi i zdrady ukształtowały mnie w człowieka, którym teraz jestem, strażnika stojącego na krańcu świata. To obowiązek, który nie daje ani ukojenia, ani ucieczki od echa przeszłości. Być może to właśnie tutaj, pośród bezkresnego śniegu i starożytnych drzew, mam znaleźć pokój — lub nieść te duchy ze sobą aż do końca."
+ agot_laughing_storm_rebellion.0465.a:0 "Przeszłość nigdy naprawdę nas nie opuszcza."
+
+ #Czerwony Sen: Dziewczyna w płomieniach
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0466.t:0 "Powstająca z Płomieni"
+ agot_laughing_storm_rebellion.0466.desc:0 "Sen wciąga mnie w kolejną wizję, która pali tak jasno jak słońce. Przede mną stoi postać, otoczona płomieniami, jej sylwetka zniekształcona przez palące gorąco, gdy ogień ją pochłania. Żar jest nie do zniesienia, płomienie wznoszą się coraz wyżej, pochłaniając postać całkowicie.\n\nPróbuję do niej dotrzeć, ale ogień mnie odpycha. Gdy znika w ogniu, spoglądam w górę i widzę, jak samo nocne niebo staje w płomieniach, jakby gwiazdy płonęły, a niebiosa zapłonęły ogniem. Ziemia drży pod moimi stopami, a z serca płomieni porusza się cień. Smok, wielki i przerażający, wychodzi z ognia, jego łuski błyszczą jak roztopiona stal. Jego oczy spotykają się z moimi i czuję jego obecność, starożytną i potężną.\n\nBudzę się zlany zimnym potem, z obrazem smoka i postaci wypalonym w moim umyśle, ich losy splecione z ognistym niebem nad nami."
+ agot_laughing_storm_rebellion.0466.a:0 "Smok się przebudził... ale jakim kosztem?"
+
+ #Czerwony Sen: Dziki ogień
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0467.t:0 "Tron w Płomieniach"
+ agot_laughing_storm_rebellion.0467.desc:0 "Gdy sen mnie pochłania, zostaję wciągnięty w wizję ognia i zniszczenia. Przede mną rozciąga się wielkie miasto, ale coś jest strasznie nie tak. Płomienie, które je pochłaniają, nie są zwykłym ogniem, ale dziwnym, nienaturalnym zielonym światłem, świecącym złowieszczo i złowrogo, skręcającym samo powietrze wokół. Dziki ogień.\n\nBudynki trzaskają i syczą, gdy zielone płomienie pożerają ich krawędzie, topiąc kamień i drewno w groteskowe kształty. Ogień wydaje się żywy, głodny, pochłania nie tylko konstrukcje miasta, ale i samą ziemię pod nimi.\n\nZapach palonego kamienia i popiołu wypełnia powietrze, a ja patrzę, bezsilny, jak serce miasta redukuje się do ruin. Budzę się nagle, z obrazem płonącego miasta wyrytym w moich myślach, zielony dziki ogień wciąż płonie w moim umyśle."
+ agot_laughing_storm_rebellion.0467.a:0 "Czy to wypaczona pamięć o Aerionie?"
+ agot_laughing_storm_rebellion.0467.a.tt:0 "...czy coś jeszcze bardziej złowieszczego?"
+
+ #Bloodraven: Szepty Smoka
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0468.t:0 "Szepty Smoka"
+ agot_laughing_storm_rebellion.0468.desc:0 "Stojąc na szczycie Muru, patrzę na zamarznięte pustkowia rozciągające się w nieskończoność przede mną, a wiatr szepcze przez lodowate powietrze niczym głos sprzed wieków. Chłód gryzie moją skórę, ale ciężar przeszłości chłodzi mnie jeszcze bardziej. Moje myśli zwracają się ku opowieściom dawnych czasów, Targaryenów, którzy widzieli wizje przyszłości, sny nawiedzone tym, co miało nadejść.\n\nDługo przed Podbojem mówiono, że smoki widziały poza teraźniejszość, a ich sny były zarówno błogosławieństwem, jak i przekleństwem. Proroctwa o ogniu, krwi i zagładzie, dostrzegane w migoczących płomieniach, miały swoją cenę — wpędzały śniących w szaleństwo lub rozpacz.\n\nGdy wpatruję się w dal, pokryty śniegiem świat zdaje się przesuwać. Ciężar tych snów przytłacza mnie. Czy dzielę to dziedzictwo? Czy cienie przyszłości wołają do mnie, ukazując, co może nadejść za straszliwą cenę? Mur nie daje odpowiedzi, tylko zimno i ciszę."
+ agot_laughing_storm_rebellion.0468.a:0 "Czy te sny są darem?"
+ agot_laughing_storm_rebellion.0468.a.tt:0 "...czy przekleństwem czekającym na spełnienie?"
+
+ #Bloodraven: Zimna Ciemna Noc
+ ### Punkt widzenia: Bloodraven
+ ### Wizja/Sen/Retrospekcja.
+ agot_laughing_storm_rebellion.0469.t:0 "Zimna Ciemna Noc"
+ agot_laughing_storm_rebellion.0469.desc:0 "Zimny wiatr wyje na zewnątrz, niosąc ze sobą niekończący się chłód Północy. W moich komnatach migoczący płomień samotnej świecy rzuca cienie na kamienne ściany. Siedzę w ciszy, owinięty w czarny płaszcz Nocnej Straży. To w takie noce wspomnienia dawnych zdrad wkradają się do mojego umysłu.\n\nMoje oko wędruje w daleki kąt, gdzie w milczeniu siedzi kruk, obserwując. Mamroczę do siebie, przypominając sobie dawno minioną rozmowę: #italic „Zdrada nie jest mniej podła tylko dlatego, że zdrajca okazuje się tchórzem.”#! Butterwell nauczył się tej lekcji, a teraz ci bracia również stąpają ostrożnie w moim cieniu.\n\nNoc pogłębia się, zimno napiera na mury Czarnego Zamku. Gdzieś tam, w ciemności, budzą się sekrety, ale na razie wszystko jest nieruchome. Czuwam, moja warta nie ma końca."
+ agot_laughing_storm_rebellion.0469.a:0 "Noc jest długa, ale przetrwam."
+ agot_laughing_storm_rebellion.0469.a.tt:0 "Ogień trzaska cicho, oferując niewiele ciepła wobec nieugiętego chłodu Północy"
+ agot_laughing_storm_rebellion.0469.b:0 "Zdrada zostawia ślad, ale czujność jest moją tarczą."
+ agot_laughing_storm_rebellion.0469.b.tt:0 "Oko kruka błyszczy w świetle świecy, przypominając, że żaden sekret nie jest bezpieczny przed moim spojrzeniem"
+ agot_laughing_storm_rebellion.0469.c:0 "Chłód może kąsać, ale moja warta trwa."
+ agot_laughing_storm_rebellion.0469.c.tt:0 "Na zewnątrz wiatr wyje przez noc. Wewnątrz siedzę w ciszy, zawsze czujny"

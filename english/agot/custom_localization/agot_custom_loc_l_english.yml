@@ -1,0 +1,120 @@
+﻿l_english:
+  #Barony stolicy
+ capitalbaronycl:0 "[Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ capitalbaronycl_spouse:0 "[Character.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ SECOND_TITLE_LINE_1:0 ""
+
+ #Wojny Mega
+ mw_punishment:0 "Ukarać\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
+ mw_show_mercy:0 "Okazać Litość dla\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
+ mw_rebels:0 "Buntownicy"
+ mw_loyalists:0 "Lojaliści"
+
+ #Smoki
+ set_relation_agot_dragon:0 "Staje się twoim smokiem"
+
+ #Zamiana liczby na tekst
+ number_to_string:0 "[SCOPE.GetValue('number')|0]"
+
+ #Wysłanie do Essos
+ agot_banish_to_essos:0 "[banish|E] do Essos"
+
+ #Wybrano nowego LC
+ agot_a_new_lord_commander_is_elected_tt:0 "Nowy #E [Concept('nw_govt', 'Lord Commander')]#! został wybrany"
+
+ #Wprowadzenie mojej postaci
+ AGOT_MyCharacterIntroductionNoComma_firstname:0 "moje [ROOT.Char.GetCouncilTitle][ROOT.Char.GetFirstNameNicknamedNoTooltip]"
+
+ #Krzyki AGOT
+ agot_scream_wets_self:0 "#flatulence *moczę się*#!"
+ agot_scream_whimper:0 "*stęka*"
+ agot_scream_aaargh:0 "AAARGH!"
+ agot_scream_ahhh:0 "Ahhhhh!"
+ agot_scream_eeek:0 "Eeeeek!"
+ agot_scream_nooo:0 "Nooooo!"
+ agot_scream_gahhh:0 "GAHHH!"
+ agot_scream_wahhh:0 "Wahhh!"
+ agot_scream_ack:0 "Ack!"
+ agot_scream_by_the_gods:0 "PRZEZ BOGÓW!"
+ agot_scream_fuuu:0 "Fuuuu-"
+ agot_scream_oh:0 "Och."
+
+ #Aktywności bezczynne AGOT
+ # wszystkie są w formie gerundium, np. czytanie książki
+ agot_idle_activity_journal:0 "pisanie w moim dzienniku"
+ agot_idle_activity_ledgers:0 "przeglądanie ksiąg rachunkowych"
+ agot_idle_activity_letters:0 "pisanie kolejnego listu"
+ agot_idle_activity_reading:0 "czytanie ciężkiej księgi"
+ agot_idle_activity_regimen:0 "przeglądanie nadchodzącego planu treningowego"
+ agot_idle_activity_reports:0 "przewracanie stosu raportów"
+ agot_idle_activity_scheming:0 "knucie i planowanie"
+ agot_idle_activity_sipping:0 "popijanie mocnego napoju"
+ agot_idle_activity_snacking:0 "przekąski na kilka wybranych smakołyków"
+ agot_idle_activity_whores:0 "wyobrażanie sobie obfitych prostytutek w moim umyśle"
+ agot_idle_activity_doing_nothing:0 "robienie niczego szczególnego"
+
+ #Zastąpienie UI imionami AGOT
+ agot_landed_name_short:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_unlanded_name_short:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal]"
+ agot_knight_name_short:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.GetHouse.GetNameNoTooltip]"
+ agot_bastard_name_short:0 "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_knight_bastard_name_short:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.Custom('SurnameSwitch')]"
+ agot_maester_name_short:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_silent_sister_name_short:0 "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_high_septon_name_short:0 "[ROOT.Char.GetNickname]"
+ agot_regular_short_name:0 "[ROOT.Char.GetShortUIName]"
+
+ agot_me_name_short:0 "ty"
+ agot_landed_name_short_me:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_unlanded_name_short_me:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal]"
+ agot_knight_name_short_me:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.GetHouse.GetNameNoTooltip]"
+ agot_bastard_name_short_me:0 "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_knight_bastard_name_short_me:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.Custom('SurnameSwitch')]"
+ agot_maester_name_short_me:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_silent_sister_name_short_me:0 "Cisza Siostra [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_high_septon_name_short_me:0 "[ROOT.Char.GetNickname]"
+
+ #Długie imiona AGOT
+ agot_me_name_long:0 "ty"
+ agot_landed_name_long_me:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')][ROOT.Char.Custom('TitleSuffix')]"
+ agot_unlanded_name_long_me:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal][ROOT.Char.Custom('TitleSuffix')]"
+ agot_knight_name_long_me:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.GetHouse.GetNameNoTooltip][ROOT.Char.Custom('TitleSuffix')]"
+ agot_bastard_name_long_me:0 "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')][ROOT.Char.Custom('TitleSuffix')]"
+ agot_knight_bastard_name_long_me:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.Custom('SurnameSwitch')][ROOT.Char.Custom('TitleSuffix')]"
+ agot_maester_name_long_me:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_silent_sister_name_long_me:0 "Cisza Siostra [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip]"
+ agot_high_septon_name_long_me:0 "[ROOT.Char.GetNickname]"
+ agot_regular_long_name:0 "[ROOT.Char.GetUIName]"
+
+ #Pozostałe imiona AGOT
+ agot_landed_titled_full_name:0 "[ROOT.Char.GetCharacterViewNameNoTooltipRegnal][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_unlanded_titled_full_name:0 "[ROOT.Char.GetCharacterViewNameNoTooltipRegnal]"
+ agot_knight_titled_full_name:0 "Ser [ROOT.Char.GetTitledFirstNameNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.GetHouse.GetNameNoTooltip]"
+ agot_bastard_titled_full_name:0 "[ROOT.Char.GetTitledFirstNameNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_knight_bastard_titled_full_name:0 "Ser [ROOT.Char.GetTitledFirstNameNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
+ agot_maester_titled_full_name:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_silent_sister_titled_full_name:0 "Cisza Siostra [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_high_septon_titled_full_name:0 "[ROOT.Char.GetNickname]"
+ agot_regular_titled_full_name:0 "[ROOT.Char.GetShortUINameNoTooltip]"
+
+ #Imiona posiadaczy tytuli AGOT
+ agot_landed_titled_first_name_possessive:0 "[ROOT.Char.GetCharacterViewNamePossessiveNoTooltipRegnal]"
+ agot_unlanded_titled_first_name_possessive:0 "[ROOT.Char.GetCharacterViewNamePossessiveNoTooltipRegnal]"
+ agot_knight_titled_first_name_possessive:0 "Ser [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ agot_bastard_titled_first_name_possessive:0 "[ROOT.Char.GetTitledFirstNameNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitchPossessive')]"
+ agot_knight_bastard_titled_first_name_possessive:0 "Ser [ROOT.Char.GetTitledFirstNameNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitchPossessive')]"
+ agot_maester_titled_first_name_possessive:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ agot_silent_sister_titled_first_name_possessive:0 "Cisza Siostra [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ agot_high_septon_titled_first_name_possessive:0 "[ROOT.Char.GetNickname]'s"
+ agot_regular_titled_first_name_possessive:0 "[ROOT.Char.GetShortUINamePossessiveNoTooltip]"
+
+ #Imiona posiadaczy tytuli długie AGOT
+ agot_landed_titled_first_name:0 "[ROOT.Char.GetCharacterViewNameNoTooltipRegnal]"
+ agot_unlanded_titled_first_name:0 "[ROOT.Char.GetCharacterViewNameNoTooltipRegnal]"
+ agot_knight_titled_first_name:0 "Ser [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_bastard_titled_first_name:0 "[ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_knight_bastard_titled_first_name:0 "Ser [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_maester_titled_first_name:0 "[ROOT.Char.Custom('MaesterCheck')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_silent_sister_titled_first_name:0 "Cisza Siostra [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ agot_high_septon_titled_first_name:0 "[ROOT.Char.GetNickname]"
+

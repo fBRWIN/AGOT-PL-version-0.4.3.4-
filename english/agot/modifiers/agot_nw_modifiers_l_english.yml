@@ -1,0 +1,32 @@
+﻿l_english:
+ nw_castle:0 "Zamek Straży Nocnej"
+ nw_castle_desc:0 ""
+
+ nw_warden:0 "Strażnik na Murze"
+ nw_warden_desc:0 ""
+
+ full_maintenance_level:0 "Pełna Konserwacja Muru"
+ full_maintenance_level_desc:0 "Z powodu poziomu organizacji Straży Nocnej, rozkazu dowódcy i umowy właściciela, ten mur jest w pełni utrzymany i niemal nie do pokonania."
+
+ high_maintenance_level:0 "Wysoka Konserwacja Muru"
+ high_maintenance_level_desc:0 "Z powodu poziomu organizacji Straży Nocnej, rozkazu dowódcy i umowy właściciela, ten mur jest w wysokiej konserwacji i nieznacznie penetracyjny."
+
+ low_maintenance_level:0 "Częściowa Konserwacja Muru"
+ low_maintenance_level_desc:0 "Z powodu poziomu organizacji Straży Nocnej, rozkazu dowódcy i umowy właściciela, ten mur jest częściowo utrzymany i może zostać pokonany."
+
+ no_maintenance_level:0 "Brak Konserwacji Muru"
+ no_maintenance_level_desc:0 "Z powodu poziomu organizacji Straży Nocnej, rozkazu dowódcy i umowy właściciela, ten mur nie jest utrzymany i łatwo go pokonać."
+
+ nw_castle_raided:0 "Zamek Zaatakowany"
+ nw_castle_raided_desc:0 "Ten obiekt został niedawno zaatakowany przez Dzikich."
+
+ nw_city_raided:0 "Miasto Zaatakowane"
+ nw_city_raided_desc:0 "Ten obiekt został niedawno zaatakowany przez Dzikich."
+
+ nw_successful_great_ranging_1:0 "Plemiona Dzikich Zakłócone"
+ nw_successful_great_ranging_1_desc:0 "Wiadomość o naszej Wielkiej Wędrówce za Mur przekonała ludność do szukania chwały w Straży Nocnej."
+
+ nw_successful_ranging:0 "Oboz Dzikich Zakłócony"
+
+ btw_wildlings_resistance:0 "Opór Dzikich"
+ btw_wildlings_resistance_desc:0 "Mieszkańcy tego hrabstwa aktywnie opierają się okupacji przez południowego lorda."

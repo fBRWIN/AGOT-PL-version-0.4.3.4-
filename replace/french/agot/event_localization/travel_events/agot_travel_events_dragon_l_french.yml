@@ -1,0 +1,5 @@
+﻿l_french:
+ agot_travel_events_dragon.9000.t:0 "Sur le départ"
+ agot_travel_events_dragon.9000.desc:0 "[awkward_entourage_member.GetName] s'approche de moi, nerveu[ROOT.Char.Custom('FR_XSe')], alors que j'enfourche [dragon.GetFirstName] en prévision du voyage qui m'attends.\n« Malheureusement, puisque vous avez choisi de prendre [dragon.GetFirstNameNoTooltip] pour voyager, ceux d'entre nous qui ne sommes pas dragonniers ne pourront pas se joindre à vous. Nous attendrons donc votre retour à la Cour avec grande impatience. »"
+ agot_travel_events_dragon.9000.a:0 "C’est regrettable."
+ agot_travel_events_dragon.9000.tt:0 "[entourage_member.GetFirstName] quitte la suite"

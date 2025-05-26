@@ -1,0 +1,36 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_songs_religion:0 "Pieśni Nhai"
+ the_songs_religion_adj:0 "Pieśni"
+ the_songs_religion_adherent:0 "Nhai"
+ the_songs_religion_adherent_plural:0 "Nhai"
+ the_songs_desc:0 "Gdy przemawia się do bogów, jak należy okazać im należyty szacunek? Dla tych z północy Yi Ti odpowiedzią jest pieśń. Tylko poprzez pieśń bogowie mogą usłyszeć ludzi i w zamian odpowiedzieć."
+
+### Faiths ###
+#Jogos Moonsingers
+ song_moon:0 "Pieśni Księżyca"
+ song_moon_adj:0 "Pieśni Księżyca"
+ song_moon_adherent:0 "Nhai"
+ song_moon_adherent_plural:0 "Nhai"
+ song_moon_desc:0 "Jogos Nhai od najdawniejszych czasów stanowili postrach równin na północ od Yi Ti. Przez cały ten czas ich duchowymi przewodnikami byli Śpiewacy Księżyca. Słuchają Pieśni Księżyca i oferują duchowe przewodnictwo, podczas gdy Jhatsi sprawują władzę doczesną."
+
+#Braavosi Moonsingers
+ fc_pan_moon:0 "Uczniowie Śpiewaków Księżyca"
+ fc_pan_moon_adj:0 "Śpiewacy Księżyca"
+ fc_pan_moon_adherent:0 "Audytor"
+ fc_pan_moon_adherent_plural:0 "Audytorzy"
+ fc_pan_moon_desc:0 "Niewolnicy Wolnego Dominium pochodzili z niezliczonych ludów – zarówno podbitych, jak i spoza granic Dominium, z którymi nigdy nie mieli bezpośredniego kontaktu. Jedną z takich grup byli Śpiewacy Księżyca z ludu Jogos Nhai, którzy poprowadzili grupę zbiegłych niewolników do laguny, która później stała się Braavos. Od tamtej pory Śpiewacy Księżyca pozostają szanowaną i wpływową – choć niewielką – wiarą w sekretnym mieście."
+
+#Nefer
+ song_nefer:0 "Pieśni Głębi"
+ song_nefer_adj:0 "Pieśni Głębi"
+ song_nefer_adherent:0 "Osadnik"
+ song_nefer_adherent_plural:0 "Osadnicy"
+ song_nefer_desc:0 "Nefer, ostatni z N’Ghai, zdołał powstrzymać hordy Jogos Nhai, wycofując się do wnętrza ziemi, gdzie Pieśni Głębi ogrzewają i chronią mieszkańców. Słuchając rytmu i bicia otaczających ich ziemnych ścian, rozwinęli się głęboko pod ziemią."
+
+#Mossovy
+ song_mossovy:0 "Pieśni Śniegu"
+ song_mossovy_adj:0 "Pieśni Śniegu"
+ song_mossovy_adherent:0 "Monomach"
+ song_mossovy_adherent_plural:0 "Monomachowie"
+ song_mossovy_desc:0 "Odległa kraina Mossovy uznawana jest za miejsce dziwne i osobliwe. Ziemie te pogrążone są w zimnie i śniegu, lecz w przeciwieństwie do niegościnnych Krain Wiecznej Zimy, Mossovici przyjmują chłód z otwartymi ramionami i roz

@@ -1,0 +1,110 @@
+﻿l_english:
+ agot_offer_knighthood_interaction:0 "Zaproś do Rycerstwa"
+ agot_offer_knighthood_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] nie jest jeszcze rycerzem, ale może nim zostać. Jako każdy rycerz może uczynić rycerza, jestem w stanie nadać mu ten tytuł."
+
+ offer_of_knighthood:0 "Propozycja Rycerstwa"
+ OFFER_KNIGHTHOOD_NOTIFICATION:0 "Mówi się, że każdy rycerz może uczynić innego człowieka rycerzem. Zauważyłem, że jeszcze nie jesteś rycerzem. Chętnie naprawię ten błąd i nadaję ci tytuł rycerski."
+
+ agot_educate_squire_interaction:0 "Wychowaj Giermka"
+ agot_educate_squire_interaction_desc:0 "Powóź [squire|E] i [agot_knight|E] w twoim [court|E]"
+ agot_educate_squire_interaction_extra_icon:0 "$hook_extra_icon$"
+ actor_secondary_agot_educate_squire_interaction:0 "[agot_knight|E]"
+ recipient_secondary_agot_educate_squire_interaction:0 "[squire|E]"
+ agot_educate_squire_interaction_notification:0 "Wychowaj Giermka"
+
+ agot_offer_squire_interaction:0 "Zaproś Giermka"
+ agot_offer_squire_interaction_desc:0 "Zaproś [recipient.GetShortUIName] na [squire|E], czyniąc kogoś w [recipient.GetHerHis] [court|E] [agot_knight|E] wybranego bohatera"
+ agot_offer_squire_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ agot_offer_knight_education_interaction:0 "Zaproś do Nauki Rycerskiej"
+ agot_offer_knight_education_interaction_desc:0 "Zaproś [recipient.GetShortUIName] na [agot_knight|E], czyniąc kogoś w [recipient.GetHerHis] [court|E] [squire|E] wybranego dorosłego"
+ agot_oagot_offer_knight_education_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ actor_secondary_agot_offer_squire_interaction:0 "Giermek"
+ recipient_secondary_agot_offer_squire_interaction:0 "Rycerz"
+
+ actor_secondary_agot_offer_knight_education_interaction:0 "Rycerz"
+ recipient_secondary_agot_offer_knight_education_interaction:0 "Giermek"
+
+ EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT:0 "#I Wybierz [squire|E] lub [agot_knight|E] z twojego [court|E]#!"
+ EDUCATE_SELECT_THEIR_KNIGHT:0 "#I Wybierz [agot_knight|E] z ich [court|E]#!"
+ EDUCATE_SELECT_THEIR_SQUIRE:0 "#I Wybierz [squire|E] z ich [court|E]#!"
+ EDUCATE_SELECT_YOUR_KNIGHT:0 "#I Wybierz [agot_knight|E] z twojego [court|E]#!"
+ EDUCATE_SELECT_YOUR_SQUIRE:0 "#I Wybierz [squire|E] z twojego [court|E]#!"
+
+ SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "Bardzo by mi zależało, gdybyś osobiście wziął(a) [secondary_actor.GetShortUIName] na swojego giermka."
+ SQUIRE_ACTOR_PERSONALLY_REQUEST:0 "Byłoby to zaszczytem, gdybyś osobiście przyjął(a) mnie na swojego giermka."
+ SQUIRE_ACTOR_CHILD_REQUEST:0 "Bardzo by mi zależało, gdybyś pozwolił(a) [secondary_actor.GetShortUIName] zostać [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] giermkiem."
+ SQUIRE_ACTOR_REQUEST:0 "Bardzo by mi zależało, gdybyś pozwolił(a) swojemu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] przyjąć mnie na swojego giermka."
+
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "Chciałbym zostać twoim [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] rycerzem osobiście, jeśli to ci odpowiada."
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "Aby zapewnić ci najlepsze szkolenie rycerskie, zająłbym się twoim treningiem osobiście — jeśli pozwolisz mi."
+ EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "Chciałbym, aby twój [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] został giermkiem [secondary_actor.GetShortUIName] — najbardziej umiejętnego rycerza!"
+ EDUCATE_SQUIRE_REQUEST:0 "Aby upewnić się, że pewnego dnia zostaniesz rycerzem, chciałbym, abyś został giermkiem [secondary_actor.GetShortUIName] — najbardziej umiejętnego rycerza!"
+
+ offer_of_squirehood:0 "Propozycja Giermka"
+ OFFER_SQUIREHOOD_NOTIFICATION:0 "Droga do rycerstwa zaczyna się od giermka. Zostań moim giermkiem, a ja zapewnię ci, że jeśli będziesz godnym uczniem, pewnego dnia zostaniesz rycerzem z mojej ręki!"
+
+ agot_remove_my_squire_interaction:0 "Usuń Giermka"
+ agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] jest twoim giermkiem, ale jednym słowem możesz go usunąć z tej pozycji."
+
+ squirehood_removal:0 "Usunięty z Giermka"
+ REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "W moich oczach nie jesteś już godny bycia giermkiem! Będziesz musiał znaleźć innego rycerza, by kontynuować swoje rycerskie szkolenie!"
+
+ agot_train_squire_interaction:0 "Trenuj Giermka"
+ agot_train_squire_interaction_desc:0 "Trenuj [recipient.GetFirstNameNicknamedNoTooltipRegnal] w sztukach rycerskich."
+
+ remove_knight_interaction:0 "Usuń Rycerza Dziecka"
+ remove_knight_interaction_desc:0 "Usuń rycerza [recipient.GetNamePossessive] z tytułu."
+ REMOVE_CHILDS_KNIGHT_INTERACTION:0 "Niestety, ten układ nauki rycerskiej już nie działa. W związku z tym muszę go zakończyć przedwcześnie, dla dobra wszystkich zaangażowanych."
+
+ squire_training:0 "Trenuj Giermka"
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Giermek! Po raz kolejny nadszedł czas, by trenować w sztukach rycerskich. Przygotuj się, ponieważ jutro będziemy trenować jak nigdy wcześniej."
+
+ agot_train_squire_actor.tt:0 "Zostaniesz poproszony o wybór, jakiego rodzaju trening [recipient.GetName] otrzyma."
+ agot_train_squire_recipient.tt:0 "Otrzyma trening w zależności od wyboru [actor.GetName]."
+
+ is_squire_or_prev_squire:0 "Jest obecnie [squire|e], lub nie jest rycerzem-giermkiem."
+
+ agot_can_become_a_knight_trigger_age_tt:0 "Nie ma 16 lat lub nie ma co najmniej 12 lat z wyjątkowo wysoką [prowess|E]."
+ agot_knighthood_was_revoked_tt:0 "Kiedyś miał(a) odebrany tytuł rycerski."
+
+ agot_char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
+ agot_char_interaction.0010.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
+ agot_char_interaction.0080.desc:0 "Cieszymy się, że przyjmujesz naszą propozycję układu giermka — szlacheckie wychowanie dla szlachetnego ducha!"
+ agot_char_interaction.0081.desc:0 "Niestety, nie podoba nam się twój zaproponowany układ giermka."
+ agot_char_interaction.0081.a:0 "Jaka szkoda."
+
+agot_view_squire_progress_interaction:0 "Zobacz Postępy Giermka"
+agot_view_squire_progress_interaction_desc:0 "Zobacz postępy swojego giermka w drodze do rycerstwa."
+
+view_progress_very_bad_ptk_tt:0 "Ten giermek ma #N bardzo złe czasy#! w nauce sztuk rycerskich. Jego obecna forma nie inspiruje nikogo."
+
+view_progress_bad_ptk_tt:0 "Ten [squire|E] ma pewne drobne trudności w nauce sztuk rycerskich."
+
+view_progress_zero_ptk_tt:0 "Ten [squire|E] albo dopiero zaczyna swoją podróż giermka, albo zrobił neutralne postępy."
+
+view_progress_basic_good_ptk_tt:0 "Ten [squire|E] pokazuje podstawowe zrozumienie rycerstwa. Nadal ma długą drogę do przejścia."
+
+view_progress_decent_ptk_tt:0 "Ten [squire|E] pokazuje przyzwoite zrozumienie rycerstwa. Poprawia się, ale wciąż ma sporo do zrobienia."
+
+view_progress_good_ptk_tt:0 "Ten [squire|E] radzi sobie dobrze i wkrótce będzie gotowy na rycerstwo!"
+
+view_progress_very_good_ptk_tt:0 "Ten [squire|E] prawie gotowy na rycerstwo. Po kilku miesiącach treningu będzie gotowy do nadania tytułu rycerskiego."
+
+view_progress_knight_this_char_now_ptk_tt:0 "Ten [squire|E] jest gotowy na bycie [agot_knight|E], gdy osiągnie odpowiedni wiek!"
+
+OFFER_SQUIRE:0 "Zaproś Giermka"
+OFFER_KNIGHT_TUTELAGE:0 "Zaproś do Nauki Rycerskiej"
+OFFER_EDUCATE_SQUIRE:0 "Wychowaj Giermka"
+
+ACTOR_IS_MY_AGOT_KNIGHT_REASON:0 "[recipient.GetShortUIName|U] jest [actor.GetShortUINamePossessive] giermkiem: $VALUE|=+0$"
+
+LOWBORN_DESIRES_KNIGHTHOOD_REASON:0 "Jako [lowborn|E], bardziej skłaniam się do przyjęcia wyższego statusu społecznego: $VALUE|=+0$"
+
+HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER:0 "Rycerzowanie przez [lowborn|E] byłoby nieodpowiednie: $VALUE|=+0$"
+
+HIGHBORN_IS_HUMBLE:0 "[actor.GetShortUIName|U] jest [lowborn|E], ale nie przeszkadza mi to, ponieważ jestem pokorny: $VALUE|=+0$"
+
+KNIGHTHOOD_LOW_BOLDNESS_REASON:0 "[personality|E] — #italic Rycerstwo brzmi przerażająco:#! $VALUE|=+0$"
+KNIGHTHOOD_HIGH_BOLDNESS_REASON:0 "[personality|E] — #italic Cieszę się na możliwość udowodnienia swojej wartości poprzez rycerstwo!:#! $VALUE|=+0$"

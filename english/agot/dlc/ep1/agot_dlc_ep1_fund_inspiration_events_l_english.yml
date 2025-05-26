@@ -1,0 +1,129 @@
+﻿l_english:
+ fund_inspiration.0051.vale:0 "Podróżuj do Doliny!"
+ fund_inspiration.0051.reach:0 "Zobacz, co Reach ma do zaoferowania!"
+ fund_inspiration.0051.iron_isles:0 "Na Żelazne Wyspy!"
+ fund_inspiration.0051.stormlands:0 "Wyrusz do Krain Burzy!"
+ fund_inspiration.0051.dorne:0 "Podróżuj do Dorne!"
+ fund_inspiration.0051.dragonstone:0 "Wypraw się na wyspę Smocza Skała!"
+ fund_inspiration.0051.north:0 "Będziesz odkrywać Północ!"
+ fund_inspiration.0051.westerlands:0 "Odkrywaj Zachodnie Krainy!"
+ fund_inspiration.0051.riverlands:0 "Wyrusz do Dorzecza!"
+ fund_inspiration.0051.crownlands:0 "Chcę, żebyś udał się do Koronnych Ziem!"
+ fund_inspiration.0051.btw:0 "Odkrywaj ziemie za Murem!"
+ fund_inspiration.0051.andalos:0 "Wypraw się do Andalos!"
+ fund_inspiration.0051.pentos:0 "Wyrusz do Pentos!"
+ fund_inspiration.0051.myr:0 "Podróżuj do Myr!"
+ fund_inspiration.0051.tyrosh:0 "Idź do Tyrosh!"
+ fund_inspiration.0051.lys:0 "Wypraw się do Lys!"
+ fund_inspiration.0051.stepstones:0 "Odkrywaj Stopnie!"
+ fund_inspiration.0051.disputed_lands:0 "Zobacz, co Sporne Ziemie mają do zaoferowania!"
+#  fund_inspiration.0051.desc:0 "Nie martw się, mój wielki [ROOT.Char.GetTitleTierName]," [inspiration_owner.GetTitledFirstName] kłania się z teatralnym rozmachem i [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('inspiration_owner'))].\n\n"Wyruszę i będę odkrywać świat w twoim imieniu, podczas gdy ty będziesz nadal rządzić swoim królestwem. To, co przyniosę, będzie takiej jakości, że poczujesz, jak moje osiągnięcia #EMP przenikają#! przez pamiątkę mojej przygody!"\n\nNastępuje krótka pauza, zanim [inspiration_owner.GetSheHe] kontynuuje. "A tak przy okazji, jest jakiś obszar świata, który cię interesuje, mój [ROOT.Char.GetLadyLord]?""
+#  #AGOT Modified
+#  fund_inspiration.0051.africa:0 "Podróżuj do Spornych Ziem!"
+#  #AGOT Modified
+#  fund_inspiration.0051.africa_west:0 "Chcę, żebyś odkrył Tyrosh!"
+#  #AGOT Modified
+#  fund_inspiration.0051.africa_north:0 "Odkrywaj wyspę Lys!"
+#  #AGOT Modified
+#  fund_inspiration.0051.africa_east:0 "Odkrywaj Myr w moim imieniu!"
+#  #AGOT Modified
+#  fund_inspiration.0051.europe:0 "Idź do Wolnych Miast!"
+#  #AGOT Modified
+#  fund_inspiration.0051.europe_north:0 "Podróżuj do Braavos!"
+#  #AGOT Modified
+#  fund_inspiration.0051.europe_south:0 "Zobacz, co Lorath ma do zaoferowania!"
+#  #AGOT Modified
+#  fund_inspiration.0051.europe_west:0 "Wypraw się do Norvos!"
+#  #AGOT Modified
+#  fund_inspiration.0051.europe_east:0 "Odkrywaj port w Pentos!"
+#  #AGOT Modified
+#  fund_inspiration.0051.middle_east:0 "Wypraw się do Zatoki Niewolniczej!"
+#  #AGOT Modified
+#  fund_inspiration.0051.middle_east_jerusalem:0 "Chcę, żebyś udał się do Meereen!"
+#  #AGOT Modified
+#  fund_inspiration.0051.middle_east_arabia:0 "Chcę, żebyś podróżował do Yunkai!"
+#  #AGOT Modified
+#  fund_inspiration.0051.middle_east_persia:0 "Astapor to godny cel!"
+#  #AGOT Modified
+#  fund_inspiration.0051.india:0 "Podróżuj wzdłuż potężnej Rhoyne!"
+#  #AGOT Modified
+#  fund_inspiration.0051.india_deccan:0 "Powinieneś odwiedzić dumne miasto Volantis!"
+#  #AGOT Modified
+#  fund_inspiration.0051.india_bengal:0 "Powinieneś odkryć ruiny Sar Mell!"
+#  #AGOT Modified
+#  fund_inspiration.0051.india_rajastan:0 "W górę rzeki do Sorrows!"
+#  #AGOT Modified
+#  fund_inspiration.0051.steppe:0 "Będziesz odkrywać Morze Dothraków!"
+#  #AGOT Modified
+#  fund_inspiration.0051.steppe_west:0 "Odszukaj Vaes Dothrak!"
+#  #AGOT Modified
+#  fund_inspiration.0051.steppe_east:0 "Wspinaj się na Matkę Gór!"
+#  #AGOT Modified
+#  fund_inspiration.0051.steppe_tarim:0 "Być może dotrzesz nawet do Lhazar!"
+#  #AGOT Modified
+#  fund_inspiration.0051.asia_minor:0 "Wypraw się do Jadeitowego Morza!"
+#  #AGOT Modified
+#  fund_inspiration.0051.burma:0 "Być może odwiedzisz Qarth!"
+#  #AGOT Modified
+#  fund_inspiration.0051.tibet:0 "Podróżuj aż do Yi Ti!"
+
+# #Steppe
+
+#  #AGOT Modified
+#  fund_inspiration.6001.t:0 "Morze Dothraków i siodłowy galop w moim sercu,"
+#  #AGOT Modified
+#  fund_inspiration.6001.desc:1 "Jeżdżę bez przerwy od miesięcy. Moje siedzenie nigdy się nie zregeneruje! Nabrałem wielkiego smaku do sfermentowanego kobylego mleka i nocy pod gołym niebem.\n\nZ tym posłańcem przesyłam prezent od khalasaru — ozdobną końską głowę do umieszczenia na instrumentach. Być może znajdziesz dla niej zastosowanie."
+#  fund_inspiration.6001.a:0 "Zachowam to!"
+#  fund_inspiration.6001.b:0 "Wyślij to do Nadwornego Muzyka."
+
+# #India
+
+#  #AGOT Modified
+#  fund_inspiration.6002.t:0 "Moja wędrówka wzdłuż Rhoyne trwa,"
+#  #AGOT Modified
+#  fund_inspiration.6002.desc:0 "Jestem niemal oślepiony przez wszystkie klejnoty, jakie pokazują mi odwiedzane dwory. Tęsknię za brudem otwartej rzeki.\n\nWysłałem posłańca z wyjątkowo kiczowatym prezentem, który mi wręczono — ozdobą w kształcie głowy tygrysa na pierścieniu, z klejnotami zamiast oczu. Czy kiedykolwiek widziałeś coś tak krzykliwego?"
+#  fund_inspiration.6002.a:0 "Podoba mi się, jego strata."
+#  fund_inspiration.6002.b:0 "Okropne! Rozbierz to i sprzedaj klejnoty."
+
+# #Africa
+
+#  #AGOT Modified
+#  fund_inspiration.6003.t:0 "Śnię o Córkach,"
+#  #AGOT Modified
+#  fund_inspiration.6003.desc:0 "Mój panie, moja podróż do Spornych Ziem trwa, a ja dołączyłem do kompanii przemierzającej ich szerokość.\n\nPrzesyłam ci biżuterię, którą jeden z moich towarzyszy podróży mi podarował — bardzo delikatny naszyjnik pokryty koralikami z muszli strusia. Podejrzewam, że nie widziałeś strusia."
+#  fund_inspiration.6003.a:0 "Znakomite znalezisko! Założę go sam."
+#  fund_inspiration.6003.b:1 "Dam go [event_spouse.GetTitledFirstNameNoTooltip]."
+
+# #Middle East
+
+#  #AGOT Modified
+#  fund_inspiration.6004.t:0 "Ach, stare Imperium Ghis,"
+#  #AGOT Modified
+#  fund_inspiration.6004.desc:0 "Moja podróż przez Zatokę Niewolniczą polegała głównie na odpieraniu hord handlarzy na ulicach.\n\nCzęsto, aby nie opóźniać za bardzo mojej misji, poddaję się i kupuję jeden z ich drobiazgów. Wysłałem posłańca niosącego te błyskotki w twoją stronę. Być może dostarczą ci trochę rozrywki."
+#  fund_inspiration.6004.a:0 "Jaki pożytek z podróżnika, który wybiera zwyczajną ścieżkę?"
+#  fund_inspiration.6004.b:0 "To całkiem ładne błyskotki..."
+
+# #Europe
+
+#  fund_inspiration.6005.t:0 "Moje przygody są przemoknięte,"
+#  #AGOT Modified
+#  fund_inspiration.6005.desc:0 "Mój panie, znalazłem kilka banalnych relikwii w moich przygodach, które wysłałem z tym posłańcem, ale nie wiem, co odkryję dalej.\n\nWolne Miasta są domem najbardziej śmierdzących stworzeń, jakie spotkałem. Jako dziecko marzyłem o zielonych i przyjemnych łąkach, ale jestem przekonany, że połowa tego świata jest z błota. Jeśli jesteś łaskawym panem, wyślij wiadomość, aby mnie odwołać."
+#  fund_inspiration.6005.a:0 "To nie wakacje! Kontynuuj misję!"
+#  fund_inspiration.6005.b:0 "Biedna dusza, chyba te nagrody wystarczą."
+#  fund_inspiration.6005.b.tt:0 "Pozwalasz [inspiration_owner.GetTitledFirstName] wrócić do domu"
+
+# #Asia minor
+
+#  #AGOT Modified
+#  fund_inspiration.6006.t:0 "Pozdrowienia znad Jadeitowego Morza,"
+#  #AGOT Modified
+#  fund_inspiration.6006.desc:0 "Moje podróże na daleki kraniec znanego świata rozbudziły we mnie wielki smak na jagnięcinę, jogurt i bakłażany, a wraz z tym posłańcem przesyłam kilka przepisów.\n\nOtrzymałem złotą broszę ozdobioną konikiem morskim od jednego z moich gospodarzy, którą także ci przesyłam. Jestem pewien, że moje podróże wkrótce przyniosą kolejne cuda."
+#  fund_inspiration.6006.a:0 "Rozkaż kucharzom przygotować te dania natychmiast!"
+#  fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] chyba bawi się za dobrze na tej wyprawie..."
+
+#Artifact Descriptions
+ fund_inspiration.1051.desc.epic.valyrian_steel:0 "leży ostrze z valyriańskiej stali — zarówno relikt dawno minionego imperium, jak i niezwykle zabójcza broń najwyższej jakości.\n\nMówi się, że wykuta w smoczym ogniu, faluje wzorami na ciemnym ostrzu, jakby uwięzionymi przez starożytną magię.\n\nZastanawiam się, do kogo mogła kiedyś należeć, ale to bez znaczenia — tak bezcenna własność przyniesie chwałę dynastii [ROOT.Char.GetDynasty.GetNameNoTooltip] na zawsze!"
+ fund_inspiration.1051.desc.epic.dragon_egg:0 "spoczywa smocze jajo. Czy to możliwe?\n\n[inspiration_owner.GetFirstNameNoTooltip] uśmiecha się dumnie: "[epic.GetDesc]""
+ fund_inspiration.1051.desc.epic.redbeard_axe:0 "leży topór Raymuna Redbearda, Króla zza Muru, który poprowadził swoją dziką armię na południe i stanął naprzeciw lordom Północy w bitwie nad Długim Jeziorem.\n\nNie wiadomo, czy to właśnie topór Redbearda ściął głowę Williamowi Starkowi, ale oglądając to ciężkie, a jednocześnie doskonale wyważone ostrze, znacznie ostrzejsze, niż sądziłem, że to możliwe w brązowej broni, nie mam wątpliwości, że było odpowiednim narzędziem do tego zadania."
+ fund_inspiration.1051.desc.epic.skinchangers_second_pelt:0 "Widzę skórę futrzastego drapieżnika, nie wyróżniającą się niczym poza niezwykłą liczbą przekłuć i cięć, sugerujących znacznie bardziej mozolne polowanie, niż oczekiwałoby się po doświadczonym łowcy.\n\nMimo to, przesuwając ręką po futrze, odczuwam tak silne uczucie niepokojącego podniecenia, że wydaje się ono namacalne nawet bez świadomości, że ta skóra została zdjęta z człowieka."
+ fund_inspiration.1051.desc.epic.giants_tooth:0 "znajduje się gargantuiczny ząb. To niemal komiczne, jak natychmiast ten jeden element o ogromnym rozmiarze wyróżnia znalezisko jako coś wyjątkowego.\n\nOlbrzymi ząb to, w istocie, ząb olbrzyma, nie ma co do tego wątpliwości."

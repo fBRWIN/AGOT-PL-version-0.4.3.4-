@@ -1,0 +1,25 @@
+﻿l_english:
+ agot_bm_group_8106:0 "106 A.C."
+ agot_bm_8106:0 "Zbuntowany książę"
+ agot_bm_8106_desc:0 "W początkowej części panowania króla Viserysa I Targaryena, jego głównym zmartwieniem był jego własny brat: książę Daemon Targaryen. Daemon był kapryśny i łatwo obrażający się, ale był także odważny, przystojny i niebezpieczny. Był jednym z najgłośniejszych zwolenników swojego brata na Wielkiej Radzie — choć niektórzy mówią, że motywowało go przekonanie, że zostanie nazwany dziedzicem. Jednak to bratanica Daemona, Rhaenyra, została mianowana dziedzicem, a teraz król po raz kolejny ożenił się z młodą Alicent Hightower.\n\nZ pozoru zmęczony czekaniem na koronę, Daemon postanowił teraz wykuć swoje własne królestwo. W tym celu połączył siły z lordem Corlysem Velaryonem, dzięki zagrożeniu ze strony Triarchii Trzech Cór. Ta nowo powstała alians Trójmiasta Lys, Myr i Tyrosh grozi handlem płynącym przez Stepstony, a #bold Zbuntowany książę zobowiązał się powstrzymać ich#!."
+
+ bookmark_106_daemon_targaryen:0 "Książę Daemon"
+ bookmark_106_daemon_targaryen_desc:0 "[Concept( 'story_content_daemon_targaryen_109', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_daemon_targaryen_109', '$bm_story_content_available_copy|q$' )|E]\nZbuntowany książę zmęczył się czekaniem na koronę. Wierząc, że zostanie dziedzicem, był jednym z najgłośniejszych zwolenników swojego brata, króla Viserysa I, na Wielkiej Radzie — nawet podnosząc armię w imieniu swojego brata. Jednak po tym, jak Rhaenyra została mianowana dziedzicem, a Viserys ożenił się ponownie, Daemon widzi, jak jego szanse na tron kruszeją. Teraz postanowił stworzyć swoje własne królestwo, a na smoku Caraxesie leci obok floty Velaryonów, by zniszczyć kontrolę Triarchii nad Stepstonami.\n\n#bold Czy ten zbuntowany książę zdobędzie swoje królestwo, czy też ogień i śmierć, które przynosi, wrócą do niego?#!"
+
+ bookmark_106_rhea_royce:0 "Lady Rhea"
+ bookmark_106_mysaria:0 "Mysaria"
+
+ bookmark_106_viserys_targaryen:0 "Król Viserys I"
+ bookmark_106_viserys_targaryen_desc:0 "[Concept( 'story_content_viserys_targaryen_109', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_viserys_targaryen_109', '$bm_story_content_available_copy|q$' )|E]\nKochany, choć nie zawsze szanowany, król Viserys I Targaryen rządzi Siedmioma Królestwami od nieco ponad trzech lat, a w tym czasie jednym stałym cierniem w jego boku był jego brat, książę Daemon. Jego odmowa mianowania Daemona dziedzicem doprowadziła do tego, że jego brat sprzymierzył się z lordem Corlysem Velaryonem, by stworzyć swoje własne królestwo na Stepstonach. Choć zerwanie kontroli Triarchii nad tymi szlakami handlowymi byłoby pożytkiem dla Westeros, Viserys musi wyważyć swoją miłość do brata — i pragnienie, by widzieć go w sukcesji — z zagrożeniem, jakie drugi władca Targaryen może stanowić.\n\n#bold Czy Viserys zdoła przejść przez ambicje brata i ciasne uchwycenie Trzech Córek?#!"
+
+ bookmark_106_rhaenyra_targaryen:0 "Księżniczka Rhaenys"
+ bookmark_106_alicent_hightower:0 "Królowa Alicent"
+
+ bookmark_106_corlys_velaryon:0 "Lord Corlys"
+ bookmark_106_corlys_velaryon_desc:0 "[Concept( 'story_content_corlys_velaryon_109', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_corlys_velaryon_109', '$bm_story_content_available_copy|q$' )|E]\nWielki Wąż z Driftmark to dumny człowiek, który samodzielnie wykuł drogę do świata, budując bogactwo swojej rodziny na jedno z najbogatszych w królestwie. Bogactwo, które Corlys zbudował przez całe swoje życie, jest teraz zagrożone przez ograniczenia handlowe Triarchii. Sprzymierzył się z księciem Daemonem Targaryenem, a razem są zdeterminowani, by przełamać Triarchię i przywrócić szlaki handlowe przez Stepstony pod nowym królem.\n\n#bold Ta najnowsza podróż Wielkiego Węża może okazać się najniebezpieczniejsza — gdyż sprzeciwia się swojemu królowi, sprzymierza z dragonem i żegluje przeciwko imperium.#!"
+
+ bookmark_106_rhaenys_targaryen:0 "Księżniczka Rhaenys"
+ bookmark_106_laenor_velaryon:0 "Laenor"
+
+ bookmark_106_craghas_drahar:0 "Admiral Craghas"
+ bookmark_106_craghas_drahar_desc:0 "[Concept( 'story_content_craghas_drahar_109', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_craghas_drahar_109', '$bm_story_content_available_copy|q$' )|E]\nDoświadczony dowódca w wojnach o Ziemie Sporne, Craghas ‘Krabojad’ ponownie powstał, by wspierać sprawę Triarchii w ich podboju piratów z Stepstonów. Craghas odniósł sukces brutalną metodą karmienia pirackich lordów krabami wyspy, a teraz zyskuje bogactwo z wysokich opłat nakładanych na przepływające statki. Jednak nowy przeciwnik żegluje — i lata — z północy, aby zaburzyć tę równowagę. Krabojad staje w obliczu największego wroga swojej kariery, a los Triarchii może spoczywać na jego barkach.\n\n#bold Jak Krabojad pokona największą flotę Wąskiego Morza, wraz z ambicjami, jakich nie widziano od czasów Aegona ‘Podbijającego’, który przepisał świat?#!"

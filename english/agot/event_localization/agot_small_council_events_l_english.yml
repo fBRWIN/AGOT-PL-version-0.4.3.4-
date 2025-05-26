@@ -1,0 +1,29 @@
+﻿l_english:
+ agot_small_council.1.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+
+ agot_small_council.0001.t:0 "Służba w Małej Radzie"
+ agot_small_council.0001.desc:0 "Na jakim stanowisku [secondary_recipient.GetSheHe] będzie służyć królestwu w Małej Radzie?"
+
+ agot_small_council.0001.a:0 "[secondary_recipient.GetSheHe|U] będzie moją Prawą Ręką."
+ agot_small_council.0001.b:0 "[secondary_recipient.GetSheHe|U] będzie moim Kanclerzem."
+ agot_small_council.0001.c:0 "[secondary_recipient.GetSheHe|U] będzie moim Podskarbim."
+ agot_small_council.0001.d:0 "[secondary_recipient.GetSheHe|U] będzie moim Marszałkiem."
+ agot_small_council.0001.e:0 "[secondary_recipient.GetSheHe|U] będzie moim Admirałem."
+ agot_small_council.0001.f:0 "[secondary_recipient.GetSheHe|U] będzie moim Mistrzem Szeptów."
+ agot_small_council.0001.g:0 "Ta osoba ledwo nadaje się do sprzątania mojej stajni."
+
+ agot_small_council.0003.desc:0 "Mój panie, chyba nie spodziewasz się, że oddam ci usługi mojego drogiego wasala, skoro jego własne umiejętności są tak niezbędne do zarządzania moimi ziemiami. Nie wspominając już o dochodach, które straciłbym, gdyby miał ci bezpośrednio służyć..."
+ agot_small_council.0003.a:0 "Pozwól, że rozwieję twoje obawy."
+ agot_small_council.0003.a.tt:0 "[secondary_recipient.GetName] dołącza do twojej Rady"
+ agot_small_council.0003.b:0 "Nie będę płacić za prawa do własnych wasali!"
+ agot_small_council.0003.c:0 "Zrobisz to za coś znacznie cenniejszego niż złoto"
+
+ agot_small_council.0004.desc:0 "Rozumiem, że królestwo potrzebuje lojalnych i utalentowanych lordów, którzy mu służą, ale ja również.\n\nByć może gdybyś obiecał wesprzeć mnie w czymkolwiek będę potrzebować, byłoby mi łatwiej pozwolić ci zatrzymać usługę mojego prawowitego wasala."
+ agot_small_council.0004.a:0 "Zgadzam się, dla dobra królestwa."
+ agot_small_council.0004.a.tt:0 "[secondary_recipient.GetName] dołącza do twojej Rady"
+ agot_small_council.0004.b:0 "Nie będę z tobą targować!"
+ agot_small_council.0004.c:0 "Najpierw musisz spłacić inne swoje długi wobec mnie"
+
+ agot_small_council.0005.desc:0 "Nie mam zamiaru rezygnować ze swoich praw jako pana [secondary_recipient.GetNamePossessive], więc musisz znaleźć innego [secondary_recipient.GetLadyLord], który wypełni twoje puste miejsce."
+ agot_small_council.0005.a:0 "Więc nie zawracaj mi więcej głowy, głupcze."
+

@@ -1,0 +1,32 @@
+﻿ agot_bm_group_8233:0 "233 A.C."
+ agot_bm_8233:0 "Powstanie Peake"
+ agot_bm_8233_desc:0 "Po stu latach upadku i trzech nieudanych próbach posadzenia pretendentów Blackfyre na Żelaznym Tronie, Dom Peake ponownie wznosi się w rebelię przeciwko linii Daerona ‘Dobrego.’\n\nMimo swojego wieku, Król Maekar I Targaryen wciąż pozostaje potężnym wojownikiem i osobiście prowadzi wojsko Crownlanders i Westermenów, aby stłamsić drobną, skazaną na zagładę rebelię. Po każdym innym wyzwaniu, które Maekar stawił w ciągu niemal sześćdziesięciu lat, z pewnością #italic to#! będzie najłatwiejsze.\n\n#bold Czy Peake’owie odniosą sukces mimo przeciwności, czy też kiedyś dumny ród zatonie w niepamięci?#!"
+
+ peake_uprising_name:0 "Powstanie Peake"
+
+ bookmark_233_maekar_targaryen:0 "Król Maekar I"
+ bookmark_233_maekar_targaryen_desc:0 "[Concept( 'story_content_maekar_targaryen_233', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_maekar_targaryen_233', '$bm_story_content_available_copy|q$' )|E]\nOstatni syn Króla Daerona II, Maekar I Targaryen spędził większą część swojego życia, tłumiąc zdrady wobec coraz bardziej kruchego panowania Domu Smoka. Od Drugiego Buntu Blackfyre, nigdy nie było buntu tak słabego jak bezwładne powstanie Lorda Estyna Peake’a. Choć krewni, którzy kiedyś mu pomogli, są teraz straceni przez czas, nie powinno sprawić problemu ‘Kuźni’ stłamszenie tych wrogów.\n\n#bold Czy Maekar, stary i zmęczony, wypełni swoją misję i zabezpieczy przyszłość Domu Targaryen na ostatni raz?#!"
+
+ bookmark_233_brynden_bloodraven:0 "Brynden"
+ bookmark_233_aemon_targaryen:0 "Maester Aemon"
+
+ bookmark_233_aegon_targaryen:0 "Książę Aegon"
+ bookmark_233_aegon_targaryen_desc:0 "Czwarty syn czwartego syna, przez większość swojego życia wydawało się, że ten niepozorny Egg nie będzie miał większego udziału w przyszłości dynastii Targaryen, bo wujowie i kuzyni od starszych synów byli liczni. Jednak choroba i zamieszki pochłonęły wszystkich. Po brawurowej śmierci starszego brata Aegiona, Aeriona, Król Maekar I nie wyznaczył nowego Księcia Dragonstone — ani dziedzica. Jednak już teraz szeptają, że to właśnie ten syn zasiądzie na tronie, kiedy dni jego ojca miną.\n\n#bold Jak Aegon poradzi sobie z życiem jako ostatni niezamężny dorosły mężczyzna z Domu Smoka oprócz samego króla?#!"
+
+ bookmark_233_betha_blackwood:0 "‘Czarna’ Betha"
+ bookmark_233_duncan_tall:0 "Ser Duncan"
+
+ bookmark_233_estyn_peake:0 "Lord Estyn"
+ bookmark_233_estyn_peake_desc:0 "Sto lat temu, Peake pełnił funkcję Lorda Regent, Handa Króla i Protektora Królestwa; jego córka niemal została królową. Ale jakże upadli wielcy. Dom Peake doznał tragedii po tragedii od czasów, gdy Lord Unwin rządził w Królewskiej Przystani. Trzykrotnie Peake’owie powstali z Czarnego Smoka, a trzykrotnie zostali obaleni przez Daerona Fałszywego i jego synów. Lojalność kosztowała ich wiele.\n\n#bold Czy Estyn przywróci swój Dom na szczyty, które widział pod rządami swoich przodków, czy też Dom Peake jest skazany na jeszcze głębszy upadek?#!"
+
+ bookmark_233_gerold_lannister:0 "Lord Gerold ‘Złoty’"
+ bookmark_233_gerold_lannister_desc:0 "Gerold Lannister, Lord Casterly Rock i Warden of the West, przez większość swojego życia był osaczany przez tragedie i plotki. Od śmierci swojego brata i bratanicy po zniknięcie żony, niektórzy szepczą, że to Gerold ponosi winę. Jego wasal, Lord Robert Reyne, zgromadził armię, by stłumić rebeliantów Peake, a jego synowie idą na południe u boku Lorda Reyne.\n\n#bold Gdy mężczyźni jego królestwa ruszają na wojnę, jak Gerold i zachodnie ziemie poradzą sobie, gdy niektórzy nie wrócą do domu?#!"
+
+ bookmark_233_tywald_lannister:0 "Tywald"
+ bookmark_233_tion_lannister:0 "Ser Tion"
+
+ bookmark_233_robert_reyne:0 "Lord Robert"
+ bookmark_233_robert_reyne_desc:0 "Lord Robert Reyne podniósł swoje sztandary i wezwał swoich ludzi — nawet bez wezwania do broni od króla, czy swojego liege lorda. Ale Robert i tak pomoże stłumić Powstanie Peake, czy to z zaproszeniem, czy bez. Na szczęście dla wszystkich, Król Maekar I przyjął pomoc, niezależnie od jakichkolwiek złych intencji.\n\n#bold Czy ambitny lord lew zaspokoi swój głód chwały, czy też ta południowa wyprawa zmieni losy Domu Reyne na zawsze?#!"
+
+ bookmark_233_roger_reyne:0 "Ser Roger"
+ bookmark_233_ellyn_reyne:0 "Ellyn"

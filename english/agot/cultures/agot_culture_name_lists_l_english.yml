@@ -1,0 +1,65 @@
+﻿l_english:
+ #Cultures
+name_list_crownlander:0 "Koronny"
+name_list_andal:0 "Andal"
+name_list_marcher:0 "Marcher"
+name_list_reachman:0 "Reachman"
+name_list_riverlander:0 "Rzeki"
+name_list_shieldman:0 "Wojownik"
+name_list_stone_dornish:0 "Kamienni Dornijczycy"
+name_list_stormlander:0 "Burzowy"
+name_list_valeman:0 "Valemen"
+name_list_westerman:0 "Zachodni"
+name_list_harborman:0 "Portowy"
+
+name_list_dothraki:0 "Dothraki"
+
+name_list_northman:0 "Północny"
+name_list_crannogman:0 "Crannogman"
+name_list_wolfswood_clansman:0 "Klan Wolfswood"
+name_list_hill_clansman:0 "Północny Klan"
+name_list_wildling:0 "Dzikus"
+name_list_thenn:0 "Thenn"
+name_list_frozen_shore:0 "Zamarznięte Wybrzeże"
+name_list_mountain_clansman:0 "Klan Księżyca"
+name_list_skagosi:0 "Kamienni"
+name_list_first_man:0 "Pierwszy Człowiek"
+name_list_clawman:0 "Clawman"
+name_list_sisterman:0 "Sisterman"
+
+name_list_ghiscari:0 "Ghiscari"
+
+name_list_ironborn:0 "Żelazny Człowiek"
+
+name_list_salt_dornish:0 "Słony Dornijczyk"
+name_list_sand_dornish:0 "Piaskowy Dornijczyk"
+name_list_rhoynish:0 "Rhoynish"
+
+name_list_jhalan:0 "Jhalani"
+name_list_ombori:0 "Ombori"
+name_list_walanoan:0 "Walanoi"
+
+name_list_eastern_valyrian:0 "Wschodni Valyrian"
+name_list_elyrian:0 "Elyrian"
+name_list_essarian:0 "Essarian"
+name_list_high_valyrian:0 "Wysoki Valyrian"
+name_list_gogossosi:0 "Gogossosi"
+name_list_mantaryan:0 "Mantaryan"
+name_list_tolosi:0 "Tolosi"
+name_list_valyrian_gogossosi:0 "Gogossosi"
+name_list_velosi:0 "Velosi"
+name_list_westerosi_valyrian:0 "Westerosi Valyrian"
+
+name_list_placeholder_culture:0 "Zastępca"
+
+name_list_volantene:0 "Volantene"
+name_list_lysene:0 "Lyseni"
+name_list_myrman:0 "Myrish"
+name_list_tyroshi:0 "Tyroshi"
+name_list_norvoshi:0 "Norvoshi"
+name_list_qohorik:0 "Qohorik"
+name_list_pentoshi:0 "Pentoshi"
+name_list_braavosi:0 "Braavosi"
+name_list_lorathi:0 "Lorathi"
+
+name_list_dragon:0 "Smok"

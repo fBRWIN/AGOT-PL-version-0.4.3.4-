@@ -1,0 +1,102 @@
+﻿l_english:
+ ### war related
+ esr_declared_war_on_family:0 "Wypowiedział wojnę [family_member|E]"
+ esr_declared_war_on_close_family:0 "Wypowiedział wojnę [close_family_member|E]"
+ esr_joined_war_on_family:0 "Dołączył do wojny z [family_member|E]"
+ esr_joined_war_on_me:0 "Dołączył do wojny przeciwko mnie"
+ esr_declared_war_on_friend:0 "Wypowiedział wojnę [friend|E]"
+ esr_declared_war_on_best_friend:0 "Wypowiedział wojnę [best_friend|E]"
+ esr_declared_war_on_lover:0 "Wypowiedział wojnę [lover|E]"
+ esr_declared_war_on_soulmate:0 "Wypowiedział wojnę [soulmate|E]"
+ esr_declared_war_on_rival:0 "Wypowiedział wojnę [rival|E]"
+ esr_declared_war_on_nemesis:0 "Wypowiedział wojnę [nemesis|E]"
+
+ ### relation related
+ esr_common_friend:0 "Mamy wspólnego [friend|E]"
+ esr_rival_friend:0 "Jesteś [rival|E]'s [friend|E]"
+ esr_nemesis_friend:0 "Jesteś [nemesis|E]'s [friend|E]"
+ esr_rival_best_friend:0 "Jesteś [rival|E]'s [best_friend|E]"
+ esr_nemesis_best_friend:0 "Jesteś [nemesis|E]'s [best_friend|E]"
+ esr_common_rival:0 "Mamy wspólnego [rival|E]"
+ esr_friend_rival:0 "Jesteś [friend|E]'s [rival|E]"
+ esr_best_friend_rival:0 "Jesteś [best_friend|E]'s [rival|E]"
+ esr_friend_nemesis:0 "Jesteś [friend|E]'s [nemesis|E]"
+ esr_best_friend_nemesis:0 "Jesteś [best_friend|E]'s [nemesis|E]"
+
+
+ ### Murder / Execution related
+ esr_murdered_best_friend:0 "Wykonał egzekucję [best_friend|E]"
+ esr_murdered_soulmate:0 "Wykonał egzekucję [soulmate|E]"
+ esr_murdered_rival:0 "Wykonał egzekucję [rival|E]"
+ esr_murdered_nemesis:0 "Wykonał egzekucję [nemesis|E]"
+ esr_murdered_extended_family:0 "Wykonał egzekucję [extended_family_members|E]"
+ esr_hate_by_association_murder:0 "Rodzina Mordercy"
+
+
+ ### Attempted Murder related modifiers
+ esr_attempted_murder_extended_family:0 "Próbował zabić [extended_family_members|E]"
+ esr_attempted_murder_close_relation_opinion:0 "Próbował zabić Bliską Osobę"
+ esr_attempted_murder_best_friend:0 "Próbował zabić [best_friend|E]"
+ esr_attempted_murder_soulmate:0 "Próbował zabić [soulmate|E]"
+ esr_attempted_murder_rival:0 "Próbował zabić [rival|E]"
+ esr_attempted_murder_nemesis:0 "Próbował zabić [nemesis|E]"
+
+
+ ### Execution modifiers
+ esr_hate_by_association_execution:0 "Rodzina Egzekutora"
+
+ ### Imprison modifiers
+ esr_imprisoned_close_family:0 "Uwięził [close_family_member|E]"
+ esr_imprisoned_extended_family:0 "Uwięził [extended_family_members|E]"
+ esr_imprisoned_close_relation_opinion:0 "Uwięził Bliską Osobę"
+ esr_imprisoned_rival:0 "Uwięził mojego [rival|E]"
+ esr_imprisoned_best_friend:0 "Uwięził mojego [best_friend|E]"
+ esr_imprisoned_soulmate:0 "Uwięził mojego [soulmate|E]"
+ esr_imprisoned_nemesis:0 "Uwięził mojego [nemesis|E]"
+ esr_threw_family_in_dungeon:0 "Wrzucił [family_member|E] do lochu"
+ esr_threw_close_relation_in_dungeon:0 "Wrzucił Bliską Osobę do lochu"
+ esr_threw_very_close_in_dungeon:0 "Wrzucił [best_friend|E] lub [soulmate|E] do lochu"
+ esr_threw_nemesis_in_dungeon:0 "Wrzucił [nemesis|E] do lochu"
+ esr_move_family_to_house_arrest:0 "Przeniósł [family_member|E] do aresztu domowego"
+ esr_move_close_relation_to_house_arrest:0 "Przeniósł Bliską Osobę do aresztu domowego"
+ esr_move_very_close_to_house_arrest:0 "Przeniósł [best_friend|E] lub [soulmate|E] do aresztu domowego"
+ esr_move_nemesis_to_house_arrest:0 "Przeniósł [nemesis|E] do aresztu domowego"
+
+
+ ### Revoke title modifiers
+ esr_revoked_close_family:0 "Odebrał tytuł [close_family_member|E]"
+ esr_revoked_extended_family:0 "Odebrał tytuł [extended_family_members|E]"
+ esr_revoked_close_relation_opinion:0 "Odebrał tytuł Bliskiej Osobie"
+ esr_revoked_best_friend:0 "Odebrał tytuł [best_friend|E]"
+ esr_revoked_soulmate:0 "Odebrał tytuł [soulmate|E]"
+ esr_revoked_rival:0 "Odebrał tytuł [rival|E]"
+ esr_revoked_nemesis:0 "Odebrał tytuł [nemesis|E]"
+
+ ### Retracted vassal modifiers
+ esr_retracted_close_family:0 "Zredukował [close_family_member|E]'s [vassal|E]"
+ esr_retracted_extended_family:0 "Zredukował [extended_family_members|E]'s [vassal|E]"
+ esr_retracted_close_relation_opinion:0 "Zredukował [vassal|E] Bliskiej Osobie"
+ esr_retracted_best_friend:0 "Zredukował [best_friend|E]'s [vassal|E]"
+ esr_retracted_soulmate:0 "Zredukował [soulmate|E]'s [vassal|E]"
+ esr_retracted_rival:0 "Zredukował [rival|E]'s [vassal|E]"
+ esr_retracted_nemesis:0 "Zredukował [nemesis|E]'s [vassal|E]"
+
+
+ ### Grant title / [vassal|E] modifiers
+ esr_grant_family_county:0 "Przyznał [close_family_member|E] hrabstwo"
+ esr_grant_family_duchy:0 "Przyznał [close_family_member|E] księstwo"
+ esr_grant_family_kingdom:0 "Przyznał [close_family_member|E] królestwo"
+ esr_grant_family_empire:0 "Przyznał [close_family_member|E] cesarstwo"
+ esr_grant_family_vassal:0 "Przyznał [close_family_member|E] [vassal|E]"
+ esr_grant_close_relation_opinion:0 "Przyznał tytuł lub [vassal|E] Bliskiej Osobie"
+ esr_grant_best_friend:0 "Przyznał tytuł lub [vassal|E] [best_friend|E]"
+ esr_grant_soulmate:0 "Przyznał tytuł lub [vassal|E] [soulmate|E]"
+ esr_grant_rival:0 "Przyznał tytuł lub [vassal|E] [rival|E]"
+ esr_grant_nemesis:0 "Przyznał tytuł lub [vassal|E] [nemesis|E]"
+
+
+ ### Grant Independance
+ esr_grant_independence_family:0 "Przyznał niepodległość [close_family_member|E]"
+
+ ### Family friend
+ esr_family_friend:0 "[family_friends|E]"

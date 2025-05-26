@@ -1,0 +1,322 @@
+﻿l_english:
+
+ #####################
+ # Na Rozdrożu #
+ #####################
+ agot_travel_events.0001.t:0 "Podróż: Na Rozdrożu"
+ agot_travel_events.0001.desc:0 "Gdy przemierzamy Dorzecze, z oddali wyłania się trzy piętra wysoka gospoda, dokładnie na rozdrożu.\n\nWkrótce powietrze wypełniają głośne głosy, a także zapach pieczonych ciast... zapach tak słodki, że niemal czuję ich smak.\n\nNie ma wątpliwości, że moi towarzysze nie mieliby nic przeciwko dobremu odpoczynkowi."
+ agot_travel_events.0001.a:0 "Dobre miejsce, by odpocząć tej nocy."
+ agot_travel_events.0001.a.tt:0 "Zatrzymujesz się w gospodzie."
+ agot_travel_events.0001.b:0 "Odpoczniemy, gdy dotrzemy do celu."
+ agot_travel_events.0001.b.tt:0 "Kontynuujesz podróż."
+
+ agot_travel_events.0002.t:0 "Podróż: Gospoda"
+ agot_travel_events.0002.desc:0 "Docieramy w najbardziej odpowiednim momencie, gospoda tętni życiem i rozbrzmiewa śmiechem.\n\nW tyle dostrzegam grupę rycerzy pijących, a po ich minach sądząc, musieli przybyć tu długo przed nami... Może mógłbym się do nich przyłączyć?\n\nU mego boku [fellow_traveler.GetName] zaprasza mnie do podzielenia się miodem, może mógłbym wykorzystać okazję, by spędzić z [fellow_traveler.GetHerHim] trochę czasu na świeżym powietrzu?"
+ agot_travel_events.0002.a:0 "Pozostanę przy swoich."
+ agot_travel_events.0002.gregarious:0 "Karczmarzu! Poproszę wasze najlepsze trunki!"
+ agot_travel_events.0002.gregarious.tt:0 "Członkowie twojej świty zyskują #P 20#! [opinion|E] względem ciebie"
+ agot_travel_events.0002.b:0 "Podejdź do rycerzy."
+ agot_travel_events.0002.b.tt:0 "Wyglądają przyjaźnie?"
+ agot_travel_events.0002.c:0 "Dołączę do [fellow_traveler.GetName] na zewnątrz."
+ agot_travel_events.0002.c.tt:0 "Idziesz na spacer."
+ agot_travel_events.0002.gluttonous:0 "Podają tu może ciastka cytrynowe?"
+ agot_travel_events.0002.gluttonous.tt:0 "Cytrynowe, cytrynowe cytrynowe ciastka..."
+
+ agot_travel_events.0003.t:0 "Na Rozdrożu: Zniechęcony najemnik"
+ agot_travel_events.0003.desc:0 "Wśród hałaśliwej grupy spotykam [sellsword.GetFullName], który wydaje się być przywódcą bandy. [sellsword.GetHerHis|U] ponura twarz szybko zdradza [sellsword.GetHerHis] zmartwienia.\n\n„Prawda jest taka, mój [ROOT.Char.GetTitleAsNameNoTooltip], że odnieśliśmy mniej sukcesów, niż się spodziewałem. Większość moich ludzi zginęła albo zdezerterowała. Jeśli wkrótce nie znajdę kontraktu, który zajmie resztę, obawiam się, że wszyscy odejdą... albo gorzej.”\n\nPo opróżnieniu kolejnego kufla, [sellsword.GetSheHe] dodaje: „Może to życie nie jest dla mnie odpowiednie i lepiej by było, gdybym wrócił do domu.” Mimo goryczy widzę jednak w jego oczach przebłysk determinacji..."
+ agot_travel_events.0003.a:0 "Nie rozpaczaj, mam właśnie dla ciebie zadanie."
+ agot_travel_events.0003.b:0 "Wynajmę twoich ludzi, idź i bądź wolny."
+ agot_travel_events.0003.c:0 "Najemnicy nie są godni zaufania."
+
+ agot_travel_events.0004.t:0 "Na Rozdrożu: Pijany rycerz"
+ agot_travel_events.0004.desc:0 "Gdy podchodzę do stołu, twarz największego rycerza całkiem czerwienieje, nagle [drunk_knight.GetSheHe] zrywa się z miejsca i krzyczy: „No proszę! Kogo ja widzę! [ROOT.Char.GetName] [ROOT.Char.GetHerselfHimself]!”\n\nChoć [drunk_knight.GetSheHe] zdaje się mnie znać, ja nie rozpoznaję [drunk_knight.GetHerHim]. Zanim zdołam odpowiedzieć, rycerz dobywa miecza i wyzywa mnie: „Ciekawe, czy to prawda, że jesteś tak dobry, jak mówią? A może jesteś tylko tchórzem w ozdobnej zbroi?”\n\nGospoda powoli cichnie, a ja czuję na sobie spojrzenia wszystkich."
+ agot_travel_events.0004.a:0 "Jeśli szukasz walki, to ją dostaniesz!"
+ agot_travel_events.0004.a.success:0 "Pokonujesz rycerza!"
+ agot_travel_events.0004.a.failure:0 "Rycerz cię upokarza."
+ agot_travel_events.0004.b:0 "Chcesz się wykazać? Dołącz do mnie."
+ agot_travel_events.0004.b.success:0 "Przekonujesz rycerza!"
+ agot_travel_events.0004.b.failure:0 "Rycerz cię wyśmiewa."
+ agot_travel_events.0004.c:0 "[ROOT.Char.GetFirstNameNoTooltip]? Musisz mnie z kimś mylić..."
+ agot_travel_events.0004.c.success:0 "Przekonujesz rycerza!"
+ agot_travel_events.0004.c.success.tt:0 "Rycerz zostawia cię w spokoju."
+ agot_travel_events.0004.c.failure:0 "Upokarzasz się."
+
+ agot_travel_events.0005.t:0 "Na Rozdrożu: Taniec Palców"
+ agot_travel_events.0005.desc:0 "Wracając do gospody po spacerze, słyszę głośny huk; dwaj mężczyźni rzucają w siebie toporami! Gdy zatrzymuję się, by obserwować ich akrobacje, jeden z nich dostrzega mnie i woła: „Chcesz dołączyć?”\n\n„Taniec palców, tak to nazywamy,” tłumaczy [drunk_ironborn.GetFirstName]. „Wszystko, co musisz zrobić, to złapać topór lub przeskoczyć nad nim bez potknięcia.”\n\n„Och, założę się, że taki świetny wojownik jak ty poradzi sobie bez problemu!” dodaje śmiejąc się [drunk_ironborn.GetSheHe|l]."
+ agot_travel_events.0005.a:0 "Brzmi łatwo!"
+ agot_travel_events.0005.b:0 "Jeśli wygram, wezmę twój topór!"
+ agot_travel_events.0005.success:0 "Udaje ci się wygrać."
+ ironborn_axe:0 "Topór Żelaznych Ludzi"
+ ironborn_axe_description:0 "Zwyczajowy topór z Żelaznych Wysp wykonany z dobrej stali. Należał niegdyś do [drunk_ironborn.GetFullName] — podróżującego Żelaznego Człowieka. Wygrany w tańcu palców przez [ROOT.Char.GetFullName]."
+ agot_travel_events.0005.failure:0 "Topór cię dosięga"
+ agot_travel_events.0005.c:0 "HA! Rzucanie toporami? Byłbyś świetnym błaznem!"
+ agot_travel_events.0005.c.success:0 "[drunk_ironborn.GetSheHe|U]... właściwie się zgadza..."
+ agot_travel_events.0005.c.failure:0 "Obrażasz Żelaznego Człowieka."
+ cultural_acceptance_mocked_customs:0 "Wyśmiane zwyczaje"
+ agot_travel_events.0005.d:0 "Rozdroża rzeczywiście przyciągają dziwne towarzystwo..."
+ agot_travel_events.0005.d.tt:0 "Zostawiasz Żelaznych Ludzi przy ich grach."
+
+
+
+ #########################
+ # Podróż: Kłopoty w gospodzie #
+ #########################
+ agot_travel_events.0006.t:0 "Podróż: Kłopoty w gospodzie"
+ agot_travel_events.0006.desc:0 "Gdy się zbliżamy, atmosfera staje się niepokojąca. Gdy popycham drzwi, wita nas widok przewróconych stołów i rozbitego szkła.\n\nKarczmarz wita nas z zaniepokojonym wyrazem twarzy: „Przepraszam, podróżnicy, obawiam się, że nie znajdziecie tu ciepłego przyjęcia, którego szukacie. Niedawno grupa bandytów zaatakowała gospodę, udało nam się ich odeprzeć, ale obawiam się, że wkrótce wrócą po zemstę.”\n\n„Przydałyby się nam zdolne ręce.”"
+ agot_travel_events.0006.a:0 "Zostaniemy i pomożemy."
+ agot_travel_events.0006.a.brave:0 "Chronić potrzebujących to moja święta przysięga."
+ agot_travel_events.0006.a.tt:0 "Zgadzasz się stawić czoła bandytom."
+ agot_travel_events.0006.b:0 "Mógłbym pomóc... za odpowiednią zapłatą."
+ agot_travel_events.0006.b.success:0 "Karczmarz płaci za twoją ochronę."
+ agot_travel_events.0006.b.failure:0 "Rozzłościłeś karczmarza i [innkeeper.GetSheHe] odmawia ci noclegu."
+ agot_travel_events.0006.c:0 "Właściwie... Tylko przejeżdżamy."
+
+ #########################
+ # Na Rozdrożu: Zasadzka #
+ #########################
+ agot_travel_events.0007.t:0 "Na Rozdrożu: Zasadzka"
+ agot_travel_events.0007.desc:0 "Gdy czynimy przygotowania, [fellow_knight.GetName] podchodzi do mnie i sugeruje: „Mój [ROOT.Char.GetTitleAsNameNoTooltip], siedzenie tutaj i czekanie, podczas gdy moglibyśmy uderzyć pierwsi, byłoby błędem. Zebrałem kilku ludzi z gospody, którzy znają te tereny lepiej niż ktokolwiek, pozwól mi pójść z nimi i zajść bandytów od flanki, zanim do nas dotrą.”"
+ agot_travel_events.0007.a:0 "Nie będę ryzykować waszymi życiami, stawimy czoła wrogowi razem."
+ agot_travel_events.0007.a.tt:0 "Czekasz, aż bandyci przybędą."
+ agot_travel_events.0007.b:0 "Dobrze, będę czekał na wasz powrót."
+ agot_travel_events.0007.b.tt:0 "[fellow_knight.GetSheHe|U] może mieć rację..."
+ agot_travel_events.0007.b.success:0 "Zasadzka się udaje."
+ agot_travel_events.0007.b.fail:0 "Twój rycerz nie wraca."
+
+ #############################
+ # Na Rozdrożu: Fałszywy rycerz #
+ #############################
+ agot_travel_events.0008.t:0 "Na Rozdrożu: Fałszywy rycerz"
+ agot_travel_events.0008.desc:0 "Nie musimy długo czekać, wkrótce bandyci pod wodzą ser [evil_bandit.GetFullNameNicknamed] wracają po łup po raz kolejny.\n\nMoi ludzie stojący obok mnie odwracają się w moją stronę, z niecierpliwością oczekując rozkazu. Jak powinienem podejść do tej sytuacji?"
+ agot_travel_events.0008.a:0 "Sam stanę do walki z dowódcą."
+ agot_travel_events.0008.a.tt:0 "Rozpoczynasz pojedynek z [evil_bandit.GetFirstName]."
+ agot_travel_events.0008.b:0 "Zaatakować z resztą moich sił."
+ agot_travel_events.0008.b.success:0 "Pokonujesz bandytów."
+ agot_travel_events.0008.b.failure:0 "Zostajesz odparty i zmuszony do szybkiego odwrotu."
+ agot_travel_events.0008.c:0 "UCIEKAĆ! UCIEKAĆ!!"
+ agot_travel_events.0008.c.escape:0 "Udaje ci się uciec, ledwo..."
+ agot_travel_events.0008.c.wounded:0 "Dostajesz strzałą!"
+
+ #############################
+ # Na Rozdrożu: Odejście #
+ #############################
+ agot_travel_events.0010.t:0 "Na Rozdrożu: Odejście"
+ agot_travel_events.0010.desc:0 "Gdy przygotowujemy się do wyjazdu, [innkeeper.GetFirstName] podchodzi do mnie z małym drewnianym pudełkiem w rękach.\n\n„Wiem, że to niewiele, ale to wszystko, co nam zostało po niedawnym ataku. Proszę, przyjmij to jako wyraz naszej wdzięczności. Bez twojej pomocy, kto wie, co by się tu wydarzyło...”"
+ agot_travel_events.0010.greed_desc:0 "Gdy przygotowujemy się do wyjazdu, [innkeeper.GetFirstName] podchodzi, by wyrazić [innkeeper.GetHerHis] wdzięczność.\n\n„Bez twojej pomocy, kto wie, co by się tu wydarzyło... Niech twoje podróże będą bezpieczne, upewnię się, że inni usłyszą o twojej odwadze.”"
+ agot_travel_events.0010.a:0 "Żegnajcie."
+ agot_travel_events.0010.aa:0 "Najbardziej mile widziana nagroda."
+ agot_travel_events.0010.b:0 "Nie trzeba. To było tylko słuszne."
+ agot_travel_events.0010.b.tt:0 "Twoja świta zauważa twoje rycerskie postępowanie i zyskuje #P 10#! [opinion|E] względem ciebie."
+
+ #####################################
+ # Na Rozdrożu: Stracony czas #
+ #####################################
+ agot_travel_events.0011.t:0 "Na Rozdrożu: Stracony czas"
+ agot_travel_events.0011.desc.intro:0 "Mija kilka dni, ale tylko garstka pijaków zagląda do gospody, w okolicy nie widać żadnych bandytów. Czy obawy karczmarza były nieuzasadnione? A może nasza obecność ich odstraszyła? Nie sposób stwierdzić...\n\n"
+ agot_travel_events.0011.wasgreedy:0 "Gdy przygotowujemy konie, [innkeeper.GetFirstName] podchodzi do mnie z małym drewnianym pudełkiem w rękach.\n\n„To niewiele, ale to wszystko, co nam zostało po niedawnym ataku. Proszę, za twój trud.”"
+ agot_travel_events.0011.a:0 "Żegnajcie."
+ agot_travel_events.0011.b:0 "Żegnajcie."
+
+ ###################################
+ # Winterfell: Przybycie #
+ ###################################
+ agot_travel_events.1000.t:0 "Winterfell: Przybycie"
+ agot_travel_events.1000.desc:0 "Winterfell — siedziba rodu [winterfell_lord.GetHouse.GetName] i serce Północy, stojące dumnie i wysoko pośród ogromu tego regionu.\n\nGdy zbliżam się do zamku od strony Traktu Królewskiego, przejeżdżam przez Zimowe Miasteczko, przestronną, a w tej chwili w dużej mierze pustą osadę poza murami. Posuwając się dalej na wschód, mury zaczynają dominować nad linią horyzontu. Zewnętrzny mur sięga osiemdziesięciu stóp, a wewnętrzny o kolejne dwadzieścia wyżej. Są ciemne i szare; zwietrzały kamień świadczy o wielkim wieku zamku.\n\nWschodnia Brama stoi otwarta i gościnna, a wewnątrz znajduje się [winterfell_lord.GetFullName], czekający z solą i chlebem. Po nadaniu prawa gościa, [winterfell_lord.GetSheHe] pozwala ci swobodnie zwiedzać zamek."
+ agot_travel_events.1000.godswood:0 "Odwiedzę słynny #bold gaj bogów#!, siedzibę Starych Bogów."
+ agot_travel_events.1000.tombs:0 "Odwiedzę znane #bold krypty#!, gdzie historia stoi na wiecznej straży."
+ agot_travel_events.1000.glass_gardens:0 "Przejdę się po słynnych #bold szklarniach#!, bijącym sercu zamku."
+ agot_travel_events.1000.wintertown:0 "Właściwie wolałbym przejrzeć Zimowe Miasteczko i jego bardziej... #italic cielesne#! atrakcje."
+ agot_travel_events.1000.opt_out:0 "Nie mam czasu na zwiedzanie."
+
+ #########################
+ # Winterfell: Gaj bogów #
+ #########################
+ agot_travel_events.1001.t:0 "Winterfell: Gaj bogów"
+ agot_travel_events.1001.intro_old_gods:0 "Spacerując po gaju bogów, nie mogę oprzeć się wrażeniu, że wróciłem do domu, ciemne i pierwotne piękno gaju przyciąga mnie w tajemniczy sposób.\n\n"
+ agot_travel_events.1001.intro_other:0 "Spacerując po gaju bogów, nie mogę oprzeć się wrażeniu, że wtargnąłem na cudzy teren, a jednak ciemne i pierwotne piękno gaju wciąż mnie przyciąga.\n\n"
+ agot_travel_events.1001.desc:0 "Idąc wśród drzew, znajduję się przed małą polaną otaczającą gorące źródła, obok których rośnie wielkie serce-drzewo wierzbowe. Podchodząc bliżej do sadzawki i drzewa, czuję się zmuszony."
+ agot_travel_events.1001.a:0 "#bold Serce-drzewo#!, sami Starzy Bogowie mnie wzywają."
+ agot_travel_events.1001.b:0 "Ciepło i odmłodzenie #bold gorących źródeł#! nie może zostać zignorowane."
+
+
+ agot_travel_events.1002.t:0 "Winterfell: Gaj bogów"
+ agot_travel_events.1002.desc:0 "Klęcząc przed serce-drzewem, czuję spokój.\n\nSłyszę wszystko w lesie znacznie wyraźniej: szum wiatru w gałęziach, wodę na kamieniach, tupot zwierząt w lesie, a przez to wszystko, #italic tak#!, Starzy Bogowie, #bold prawdziwi#! bogowie, przemawiają do mnie."
+ agot_travel_events.1002.a:0 "Czuję się odrodzony, jako wyznawca [GetReligionByKey('the_pact_religion').GetName]."
+ agot_travel_events.1002.b:0 "Czuję się nowo zestrojony z [GetReligionByKey('the_pact_religion').GetName]."
+
+ agot_travel_events.1003.t:0 "Winterfell: Gaj bogów"
+ agot_travel_events.1003.desc:0 "Leżąc w sadzawce, czuję, jak cały stres i zmartwienia, które mnie dręczyły, zmywają się w ciepłych wodach. W kontraście do rześkiego powietrza powyżej, objęcia gorących źródeł zapewniają komfort, jakiego nie czułem od lat. Mógłbym tu dryfować bez końca, choć teraz, gdy już się odprężyłem, muszę znów wrócić do spraw."
+ agot_travel_events.1003.a:0 "Czuję nowy spokój względem przyszłości."
+
+ agot_travel_events.1004.t:0 "Winterfell: Krypty"
+ agot_travel_events.1004.desc:0 "Przechodzę obok starożytnej Pierwszej Wieży, spacerując wśród porośniętych porostami nagrobków na cmentarzu, gdzie leżą słudzy dawnych Królów Zimy.\n\nPrzede mną stoi stare drzwi z żelaznego drzewa: wejście do labiryntowych krypt. Każdy krok w dół oznacza nowy dreszcz, gdy schodzę ze świata żywych do katakumb umarłych.\n\nIdąc wśród krypt, odkrywam, że ciemne korytarze to labirynt. Słabe światło pochodni daje niewiele wskazówek. Gdy dochodzę do rozwidlenia, muszę wybrać #bold w prawo#! albo #bold w lewo#!."
+ agot_travel_events.1004.a:0 "Pójdę w prawo, chyba coś tam widzę."
+ agot_travel_events.1004.b:0 "Jest pochodnia w lewo; to musi być właściwa droga!"
+
+ agot_travel_events.1005.t:0 "Winterfell: Krypty"
+ agot_travel_events.1005.intro:0 "Idąc dalej korytarzem, staję twarzą w twarz z posągiem mężczyzny, ukoronowanego króla. Po obu stronach jego tronu stoją kamienne wilkory, a na jego kolanach spoczywa miecz, dawno zardzewiały. Kilka słów wyrytych na boku jest nieco starte, ale nadal czytelne:\n\n"
+ agot_travel_events.1005.jon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! Nie mogę powstrzymać się od spojrzenia na posąg z większym szacunkiem. Oto Król, który wypędził najeźdźców i handlarzy niewolników ze wschodu i zbudował Wilcze Gniazdo, starożytną zapowiedź Białego Portu. Był groźnym wojownikiem i silnym królem."
+ agot_travel_events.1005.brandon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! Nie mogę powstrzymać się od spojrzenia na posąg z większym szacunkiem. To był słynny król, który zjednoczył się z Joramunem, Królem zza Muru, by położyć kres Nocnemu Królowi i jego Narzeczonej Trupów. Razem bronili krain ludzi przed horrorami, jakie Nocny Król z pewnością by sprowadził."
+ agot_travel_events.1005.theon:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! Nie mogę powstrzymać się od spojrzenia na posąg z większym szacunkiem. Głodny Wilk jest znany nawet poza Północą, słynny z tego, że zjednoczył Północ przed przybyciem Andalów, a potem pokonał tych najeźdźców — a następnie zaatakował nawet Andalos w Essos. Walczył z każdym i wszędzie, od Andala po Żelaznych Ludzi i więcej; był prawdziwym panem wojny."
+ agot_travel_events.1005.rodrik:0 "#bold [stark_ancestor.GetFullNameNicknamed].#! Nie mogę powstrzymać się od spojrzenia na posąg z większym szacunkiem. O Rodriku Starku śpiewa się do dziś, zwłaszcza gdy pojawiają się kłopoty z Żelaznymi Ludźmi. Mówi się, że wygrał Wyspę Niedźwiedzi w siłowaniu na rękę i podarował ją Rodowi Mormont."
+ agot_travel_events.1005.a:0 "Historia tutaj jest namacalna."
+
+ agot_travel_events.1006.t:0 "Winterfell: Krypty"
+ agot_travel_events.1006.desc:0 "Wkrótce pazik znajduje mnie w głębi krypt i oznajmia, że wkrótce będzie podany obiad. Na szczęście pazik zna drogę i prowadzi mnie z powrotem na powierzchnię."
+ agot_travel_events.1006.a:0 "Nie zapomnę tego dnia."
+
+ agot_travel_events.1007.t:0 "Winterfell: Krypty"
+ agot_travel_events.1007.desc:0 "Ewidentnie wybrałem złą drogę, bo teraz jestem jeszcze bardziej zagubiony w tych korytarzach. Pochodnie są rozmieszczone losowo, tylko wiodąc mnie coraz głębiej. #italic Każdy krok w głąb przynosi większy chłód.#!\n\nCzuję dziwne ciepło emanujące ze ścian i sufitu, przyciągające mnie dalej w głąb. Skręcając za róg, widzę ostatnią rzecz, jakiej spodziewałbym się znaleźć w kryptach pod Winterfell...\n\nPrzede mną jest #bold smocze jajo#!! Umieszczone w jakimś rodzaju uchwytu, wyraźnie zostało tu pozostawione w jakimś celu, ale jaki mógłby to być cel, nawet nie potrafię sobie wyobrazić."
+ agot_travel_events.1007.a:0 "Z pewnością jego przeznaczeniem jest pozostać w tym miejscu."
+ agot_travel_events.1007.b:0 "W końcu, czemu nie? Czemu nie miałbym go zabrać?"
+
+ agot_travel_events.1008.t:0 "Winterfell: Szklarnie"
+ agot_travel_events.1008.desc:0 "Wchodząc do szklarni, nagle czuję się zbyt grubo ubrany. Futra i płaszcze, które nosiłem, by zwalczyć chłód zamku, teraz wydają się zbyt gorące w tych szklanych domach.\n\nWszędzie wokół miedziane rury wypuszczają parę i gorące powietrze, które zostało sprowadzone z głębi ziemi. Rząd za rzędem rosną warzywa i inne rośliny, nawet w najzimniejsze dni zimy. A gdy idę dalej na tył, widzę słynne #bold;color:{0.52,0.65,0.86} zimowe róże#!. Ich bladoniebieskie płatki są bardziej uderzające w wyglądzie niż jakakolwiek inna róża, jaką kiedykolwiek widziałem."
+ agot_travel_events.1008.a:0 "Powinienem przestudiować inżynierię i zobaczyć, czy można to odtworzyć."
+ agot_travel_events.1008.b:0 "Może poproszę, by pozwolili mi zabrać jeden kwiat do domu..."
+ agot_travel_events.1008.c:0 "Szklarnie są naprawdę cudem do podziwiania."
+ agot_travel_events_unlocked_glass_garden:0 "Odblokowujesz budowlę księstwa: Szklarnia."
+
+ agot_travel_events.1009.t:0 "Winterfell: Zimowe Miasteczko"
+ agot_travel_events.1009.desc:0 "Opuszczając starożytny zamek, kieruję się do Zimowego Miasteczka. Nawet jeśli jest dalekie od pełnego, wciąż jest tu wielu ludzi: Rolnicy prezentujący swoje plony, rzemieślnicy zachwalający swoje towary, okazjonalny grajek wyśpiewujący melodię...\n\nZadając dyskretne pytania, wkrótce znajduję miejsce, którego szukałem: #bold Róże#!. Miejscowi zapewniali mnie, że będę się tam dobrze bawić, a z moją sakiewką jestem pewien, że tak będzie."
+ agot_travel_events.1009.a:0 "Czas wydać trochę monet..."
+ agot_travel_events.1009.b:0 "Może zamiast tego tylko drink w karczmie..."
+
+
+  # A Dragon, I saw a dragon!
+ agot_travel_events.0012.t:0 "Smok, widziałam smoka!"
+ agot_travel_events.0012.desc:0 "Gdy przechodzę przez [location.GetName], podsłuchuję rozmowę starszej kobiety i młodego mężczyzny.\n\n\"Smok, widziałam smoka!\" wykrzykuje starsza kobieta. \"Co? Co znowu, matko?\" \"Był wielki jak góra i czarny jak noc. Przeleciał prosto przez niebo!\" kontynuuje w panice.\n\n\"Smoki, tak?\" odpowiada jej syn, przewracając oczami. \"Proszę cię, matko. Jeśli będziesz tak gadać, wszyscy w mieście pomyślą, że jesteś szalona, a ja mam lepsze rzeczy do roboty niż słuchanie kolejnych twoich fantazji.\" mówi z pogardą, odwracając się, by odejść.\n\n\"Zobaczysz! To był smok!\" woła za nim. \"Zabije nas wszystkich, a wtedy mi uwierzysz!\""
+ agot_travel_events.0012.a:0 "Smok?! Musimy go natychmiast szukać!"
+ agot_travel_events.0012.a.f:0 "Prowadzisz poszukiwania smoka przez następny tydzień."
+ agot_travel_events.0012.a.toast.title:0 "Nie ma tu smoków"
+ agot_travel_events.0012.a.toast.desc:0 "Szukano smoka, ale nic nie znaleziono."
+ agot_travel_events.0012.b:0 "Och, biedna staruszko, zapłacę za pomoc dla ciebie."
+ agot_travel_events.0012.b.f:0 "Płacisz za pomoc psychologiczną dla starej kobiety."
+ agot_travel_events.0012.c:0 "Co za dziwna rozmowa."
+ agot_travel_events.0012.c.f:0 "Kontynuujesz swoją drogę."
+ agot_travel_events.0012.d:0 "Nie, ona ma rację! Ja też to widziałem!"
+ agot_travel_events.0012.d.f:0 "Dodajesz swój głos do wywodów starej kobiety."
+
+ # Podróż do Myr, do Gildii Uczonych
+ agot_travel_events.0013.t: "Myr: Gildie Uczonych"
+ agot_travel_events.0013.desc: "Gdy przechodzę przez miasto, natrafiam na grupę uczonych i studentów, wszyscy pogrążeni są w dyskusji. Są członkami Gildii Uczonych i debatują nad szczegółami ostatniego odkrycia. Słuchając, zdaję sobie sprawę, że mam wyjątkową okazję, aby się od nich czegoś nauczyć."
+ agot_travel_events.0013.a: "Mógłbym zaprosić kilku uczonych do mojego miasta."
+ agot_travel_events_unlocked_observatory: "Odblokowujesz budowlę księstwa: Obserwatorium."
+ agot_travel_events.0013.b: "Zatrzymam się, by przedyskutować to z nimi."
+ agot_travel_events.0013.c: "Wolę kontynuować swoją drogę."
+
+ # Opcja pozycji dworskiej: maester
+ maester_option_tt: "Musisz zatrudniać [GetCourtPositionType('maester_court_position').GetName] zdolnego do podróży"
+
+ agot_travel_events.2000.t:0 "Zagrożenie [wild_dragon.GetNameNoTooltip]: Zasadzka"
+ agot_travel_events.2000.desc:0 "Podróż przez [location.GetNameNoTooltip] była dotąd spokojna, bez kłopotów. Jednak konie są wyraźnie niespokojne. Dopiero za późno odkrywam powód...\n\nUnosząc się nad nami, smok [wild_dragon.GetNameNicknamed] dumnie przecina niebo. Co gorsza, sądząc po jego ruchach, zostaliśmy zauważeni."
+ agot_travel_events.2000.fight:0 "Za późno, szykujcie się do walki."
+ agot_travel_events.2000.fight.tt:0 "Rozpoczniesz walkę z [wild_dragon.GetNameNoTooltip]"
+ agot_travel_events.2000.run:0 "UCIEKAĆ!"
+
+ # Próby drużyn wojennych
+
+ agot_travel_events.3000.t:0 "Próby Drużyny Wojennej"
+ agot_travel_events.3000.desc:0 "Gdy moja świta podróżuje przez ziemie [3000_county_liege.GetTitledFirstName], słyszymy odległe łomotanie i brzęk prymitywnych broni odbijający się echem za pobliskim zakrętem. Kiedy skręcamy, widzę [3000_county_liege.GetTitledFirstNameNoTooltip] [3000_county_liege.GetHerselfHimself], stojącego stoicko na małym wzgórzu, obserwującego grupę wolnych ludzi rywalizujących w różnych wyzwaniach fizycznych. Każdy z nich walczy z zadaniem, czerwone twarze i spocone czoła pokrywają nieumytą gromadę przyszłych wojowników. Wygląda na to, że trafiliśmy na pole prób [3000_county_liege.GetTitledFirstNameNoTooltip] dla świeżej drużyny wojennej."
+ agot_travel_events.3000.kneeler.desc:0 "Przechadzając się przez niegościnne dzikie ziemie, każdy krok jest bardziej zdradliwy dla mnie i mojej grupy niż poprzedni, słyszymy łomot i szczęk prymitywnych broni oraz nieomylny jęk wysiłku tuż za pobliskim zakrętem. Dobierając miecze, pędzimy za róg, ostrza w dłoniach. Zamiast jednak spodziewanej bitwy, znajdujemy bardziej królewsko wyglądającego dzikiego, stojącego ponad tłumem pozornych dzikusów. [3000_county_liege.GetSheHe|U] wydaje się obserwować próbę sprawności, uważnie przyglądając się, jak dzicy czerwienieją na twarzy, próbując udowodnić swoją siłę."
+ agot_travel_events.3000.a:0 "Wezmę jednego!"
+ agot_travel_events.3000.a.tt:0 "Wykorzystasz swój prestiż, aby wybrać jednego z uczestników."
+ agot_travel_events.3000.b:0 "Powiedz, [3000_county_liege.GetFirstNameNoTooltip], czyż nie byłby to dla ciebie zaszczyt, gdybym..."
+ agot_travel_events.3000.b.tt:0 "Spróbujesz przekonać [3000_county_liege.GetFirstNameNoTooltip], by pozwolił ci zrekrutować uczestnika"
+ agot_travel_events.3000.b.success.tt:0 "[3000_county_liege.GetNameNoTooltip] zgadza się"
+ agot_travel_events.3000.b.failure.tt:0 "[3000_county_liege.GetNameNoTooltip] czuje się obrażony propozycją"
+ agot_travel_events.3000.c:0 "Chcesz zobaczyć, kto tu jest najlepszym wojownikiem? Pozwól, że ci pokażę."
+ agot_travel_events.3000.c.tt:0 "Weźmiesz udział w pojedynku"
+ agot_travel_events.3000.d:0 "Po prostu ich zostawmy."
+ agot_travel_events.3000.d.tt:0 "Kontynuujesz swoją podróż"
+
+ agot_travel_events.3001.t:0 "$agot_travel_events.3000.t$: Szeregi"
+ agot_travel_events.3001.desc:0 "Gdy zbliżam się do uczestników, wielu z nich cofa się z żałosnym respektem, ale widzę trzech, którzy wykazują się potencjałem, wskazując każdego z osobna. [3000_county_liege.GetName] woła ich do przodu, a oni przedstawiają się jako [skilled_fighter.GetName], niebezpieczny wojownik znany ze swojego kunsztu; [fit_fighter.GetName], znany ze swojej surowej atletyki; oraz górujący wojownik imieniem [big_fighter.GetName]."
+ agot_travel_events.3001.a:0 "No dalej, wezmę oczywiście zwycięzcę."
+ agot_travel_events.3001.a.tt:0 "Zwycięzca prób dołączy do ciebie"
+ agot_travel_events.3001.b:0 "Los w konkursach bywa kapryśny, ja już wiem, kto tu jest najlepszy."
+ agot_travel_events.3001.b.tt:0 "Wybierzesz jednego z faworytów konkursu"
+
+ agot_travel_events.3002.t:0 "$agot_travel_events.3000.t$: Zwycięzca"
+ agot_travel_events.3002.desc:0 "Po wyczerpujących godzinach wysiłku i trudności — każdej spędzonej na zmaganiach z ciężkimi ciężarami, długimi biegami i próbami stali — finaliści są przyprowadzani do pojedynku. Dwaj wojownicy przyjmują swoje postawy, powietrze staje się rzadkie od napięcia. Ostrza wyskakują, i taniec się zaczyna. Po chwili, która wydaje się wiecznością, [tryouts_winner.GetName] zostawia [tryouts_winner.GetHerHis] przeciwnika samego w kurzu."
+ agot_travel_events.3002.a:0 "Oto mój mistrz."
+
+ agot_travel_events.3003.t:0 "$agot_travel_events.3000.t$: Wybór"
+ agot_travel_events.3003.desc:0 "Kieruję wzrok na trzech faworytów. Nie ma wątpliwości, że to najlepsi z [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Teraz muszę wybrać swojego faworyta."
+ agot_travel_events.3003.a:0 "Nic nie przebije mistrzostwa walki, biorę [skilled_fighter.GetFirstNameNoTooltip]."
+ agot_travel_events.3003.b:0 "Atletyzm [fit_fighter.GetNamePossessive] jest niezrównany, biorę [fit_fighter.GetHerHim]."
+ agot_travel_events.3003.c:0 "Przy kimś takim rozmiarów, może nawet nie będę musiał walczyć. Biorę [big_fighter.GetFirstNameNoTooltip]!"
+
+ agot_travel_events.3010.t:0 "$agot_travel_events.3000.t$: Dołączając do zawodów"
+ agot_travel_events.3010.desc:0 "Przebijając się na front grupy, zaczynam przygotowywać się do wyzwań fizycznych, które widziałem po przybyciu. Zanim jednak mogę zacząć, [3000_county_liege.GetName] podnosi rękę, ogłaszając, że ze względu na mój status, przejdę od razu do etapu pojedynku, stając naprzeciw jednego z najlepszych wojowników wśród kandydatów. Przeciwnik, który wychodzi naprzeciw, to imponujący wojownik imieniem [first_duelist.GetName]."
+ agot_travel_events.3010.a:0 "Ha! Zobaczmy, z czego są zrobieni ludzie z [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]."
+ agot_travel_events.3010.a.tt:0 "Rozpocznie się pojedynek z [first_duelist.GetNameNoTooltip]"
+ agot_travel_events.3010.b:0 "Po namyśle, niegrzecznie było mi się wtrącać."
+ agot_travel_events.3010.b.tt:0 "Wycofujesz się z pojedynku"
+
+
+  agot_travel_events.3012.t:0 "$agot_travel_events.3000.t$: Triumf"
+ agot_travel_events.3012.desc:0 "Dźwięk uderzającego metalu rozbrzmiewa w powietrzu, gdy nasze ostrza się zderzają. Tam i z powrotem, miecze tańczą między nami jak zamazane smugi, aż w chwili pełnej klarowności dostrzegam lukę. Moja broń trafia tam, gdzie trzeba, i pojedynek jest skończony. Stojąc jako zwycięzca, rozglądam się, a po twarzy [3000_county_liege.GetNamePossessive] widzę, że nie takiego wyniku [3000_county_liege.GetSheHe] się spodziewał. Mimo to byłoby marnotrawstwem nie wykorzystać tego zwycięstwa na swoją korzyść."
+ agot_travel_events.3012.a:0 "To był najlepszy wojownik, jakiego mają [first_duelist.GetCulture.GetCollectiveNounNoTooltip]? Żałosne."
+ agot_travel_events.3012.a.tt:0 "Twoja obelga zostanie zapamiętana na długo"
+ agot_travel_events.3012.b:0 "Słaby wódz, słaba drużyna, [3000_county_liege.GetFirstNameNoTooltip]."
+ agot_travel_events.3012.b.tt:0 "[3000_county_liege.GetNameNoTooltip] nie łatwo wybaczy tę zniewagę"
+ agot_travel_events.3012.c:0 "Jestem tu najlepszy, to teraz moja drużyna."
+ agot_travel_events.3012.c.tt:0 "Weźmiesz najlepszych uczestników ze sobą"
+ agot_travel_events.3012.d:0 "Dobra walka, [first_duelist.GetFirstNameNoTooltip], będziesz dobrze służył [3000_county_liege.GetNameNoTooltip]."
+ agot_travel_events.3012.d.tt:0 "[first_duelist.GetNameNoTooltip] dołączy do [3000_county_liege.GetNameNoTooltip]"
+
+ agot_travel_events.3013.t:0 "$agot_travel_events.3000.t$: Wyeliminowany"
+ agot_travel_events.3013.desc:0 "Mój miecz spada na ziemię, a ja jestem zmuszony się poddać. Moje policzki czerwienieją ze świeżego wstydu pod osądzającymi spojrzeniami i śmiechem zgromadzonych wojowników. Po takiej kompromitacji naprawdę jest tylko jedna opcja."
+ agot_travel_events.3013.a:0 "Ehm, powodzenia w pracy tutaj, my już sobie pójdziemy."
+ agot_travel_events.3013.a.tt:0 "Odchodzisz, upokorzony"
+
+ agot_travel_events.3014.t:0 "$agot_travel_events.3000.t$: Pojedynek unieważniony" # Nikt nie powinien tego widzieć
+ agot_travel_events.3014.desc:0 "Coś poszło nie tak i pojedynek został przerwany."
+ agot_travel_events.3014.a:0 "No to w drogę."
+ agot_travel_events.3014.a.tt:0 "Twoja podróż trwa dalej"
+
+ # Śmiech w drzewach
+
+ agot_travel_events.4000.t:0 "Śmiech w drzewach"
+ agot_travel_events.4000.desc:0 "Gdy przedzieramy się przez gęsty las, ogarnia mnie uczucie, że ktoś nas obserwuje. Z każdą chwilą szelest drzew brzmi coraz bardziej jak szepty — a niespokojne wyrazy twarzy moich towarzyszy wskazują, że oni też to czują. Wtem dociera do nas niezaprzeczalny dźwięk śmiechu, wysoki, jakby należący do dziecka, dobiegający z głębi lasu. Wkrótce inne, podobnie dziecięce głosy dołączają do chórku rozbrzmiewającego wokół nas w niepokojącym chichocie."
+ agot_travel_events.4000.unknownchildren.desc:0 "Próbuję wypatrzyć jakieś sylwetki między drzewami, ale las jest zbyt gęsty. Źródło śmiechu pozostaje tajemnicze i niepokojące."
+ agot_travel_events.4000.knownchildren.desc:0 "Biorąc pod uwagę, gdzie jesteśmy, jest tylko jedno wytłumaczenie: obserwują nas nieuchwytni sąsiedzi, Dzieci Lasu."
+ agot_travel_events.4000.a:0 "Ośmielacie się śmiać z [ROOT.Char.GetTitleAsNameNoTooltip|U]? Pokażę wam!"
+ agot_travel_events.4000.a.first_ranger:0 "Ośmielacie się śmiać z $first_ranger_landless_male$? Pokażę wam!"
+ agot_travel_events.4000.a.tt:0 "Rzucasz się za głosami, by ukarać tę zuchwałość"
+ agot_travel_events.4000.b:0 "Dzieci nie stanowią zagrożenia, możemy rozbić tu obóz."
+ agot_travel_events.4000.b.tt:0 "Rozbijasz obóz na noc i pozwalasz obserwatorom nasycić ciekawość"
+ agot_travel_events.4000.c.knownchildren:0 "Tym małym dziwakom nie można ufać, ruszajmy szybko."
+ agot_travel_events.4000.c.unknownchildren:0 "Musimy opuścić te przeklęte lasy."
+ agot_travel_events.4000.c.tt:0 "Rozkazujesz przyspieszyć i kontynuować podróż"
+
+ agot_travel_events.4001.t:0 "$agot_travel_events.4000.t$: Gonitwa za cieniem"
+ agot_travel_events.4001.desc:0 "Ogarniając mnie gniew, rzucam się między drzewa z żądzą odwetu. Chichoty nie ustają, a niezależnie jak szybko biegnę, są zbyt odległe, by dostrzec sprawców. Frustracja podsyca moją złość, ale w końcu potrzeba złapania oddechu bierze górę i uświadamiam sobie, że zostawiłem moją grupę daleko w tyle. Jestem sam, otoczony wyraźnie mniej rozbawionym, a bardziej pogardliwym śmiechem."
+ agot_travel_events.4001.a:0 "Pokażcie się, albo każę spalić ten cały las!"
+ agot_travel_events.4001.a.tt:0 "Próbujesz wywabić głosy z ukrycia"
+ agot_travel_events.4001.b:0 "Ja... nie powinienem się w to pakować."
+ agot_travel_events.4001.b.tt:0 "Próbujesz wrócić, zawstydzony"
+
+ agot_travel_events.4002.t:0 "$agot_travel_events.4000.t$: To już nie śmieszne"
+ agot_travel_events.4002.desc:0 "Śmiech nagle cichnie. Chwilę później słyszę stłumione szepty, a potem niezaprzeczalny dźwięk drewna skrzypiącego i przesuwającego się o drewno w unisonie."
+ agot_travel_events.4002.a:0 "Och, myślicie, że mo-#XB AHH!#!"
+ agot_travel_events.4002.a.tt:0 "Gdy las wokół ciebie pogrąża się w ciemności, słyszysz ostatni wybuch śmiechu"
+
+ agot_travel_events.4003.t:0 "$agot_travel_events.4000.t$: Wieczór przy pieśni"
+ agot_travel_events.4003.desc:0 "Szepty i chichoty towarzyszą nam, gdy zmierzamy do pierwszej polany nadającej się na obozowisko. Nasze przygotowania do zmierzchu są wyraźnie źródłem rozbawienia dla Dzieci, bo śmiech nasila się za każdym razem, gdy zaczynamy nowe zadanie, ale gdy w końcu się osiedlamy, milknie i ustępuje miejsca nieco bardziej odległemu dźwiękowi śpiewu. Nasyciwszy ciekawość, Dzieci Lasu postanowiły spędzić wieczór, dzieląc się pieśnią, tak jak my często to robimy. Ale nie śmiemy konkurować, bo ich śpiew jest piękniejszy niż cokolwiek, co kiedykolwiek słyszeliśmy. Siedząc przy ognisku, słyszę, jak rozmarzony [other_traveller.GetName] szepcze: \"Oddałbym wszystko, by móc tego słuchać bez końca.\""
+ agot_travel_events.4003.a:0 "W takim razie powinniśmy zostawić prezent."
+ agot_travel_events.4003.a.tt:0 "Zostawisz trochę zapasów podróżnych dla Dzieci"
+ agot_travel_events.4003.b:0 "Minstrele tej klasy zasługują na specjalny dar."
+ agot_travel_events.4003.b.tt:0 "Podarujesz Dzieciom Lasu swój [artifact_gift.GetName]"
+ agot_travel_events.4003.c:0 "Cii... po prostu słuchajmy."
+ agot_travel_events.4003.c.tt:0 "Pozwolisz, by pieśń ukołysała cię do snu"
+
+ agot_travel_events.4004.t:0 "$agot_travel_events.4000.t$: Przyjemne przebudzenie"
+ agot_travel_events.4004.desc:0 "Nowy dzień świta, a ćwierkanie porannych ptaków budzi mnie z rozkosznego snu. Uśmiecham się, zanim jeszcze otworzę oczy. Oglądając obozowisko, widzę, że moja świta jest w podobnym nastroju. Dzieci Lasu nigdzie nie widać ani nie słychać, ale wspomnienie wczorajszego wieczoru wciąż trwa."
+ agot_travel_events.4004.gotreward.desc:0 "\n\n Zauważasz, że prezent, który zostawiłeś na płaskim kamieniu na skraju obozu, zniknął, a w jego miejsce pojawił się skórzany pakunek. Rozwijając go, odkrywasz [reward_artifact.GetName]."
+ agot_travel_events.4004.a.gotreward:0 "Jakże hojnie z ich strony."
+ agot_travel_events.4004.a.noreward:0 "To było miłe."
+ agot_travel_events.4004.a.tt:0 "Twoja podróż trwa dalej"
+
+ travel_events.4012.desc_alt:0 "Podróżując przez dzikie ziemie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], mam wyraźne wrażenie, że ktoś nas obserwuje. Chowając się, choć nieudolnie, widzę wątłego, brudnego [feral_child_scope.Custom('GirlBoy')], przyglądającego się naszej świcie.\n\nCzłonek naszego karawanu informuje mnie, że miejscowi mówią, iż te ziemie są nawiedzane przez kogoś, kogo nazywają [feral_child_scope.GetFirstNameNoTooltip], który podobno został wychowany z dala od ludzkiego społeczeństwa przez [feral_child_scope.Custom('GetAnimalType')].\n\nNajwyraźniej biedne stworzenie zafascynowało się nami i nawet zaczęło mówić trochę w Wspólnym, choć niezbyt płynnie."

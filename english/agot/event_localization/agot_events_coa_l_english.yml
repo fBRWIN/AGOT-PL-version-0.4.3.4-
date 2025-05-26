@@ -1,0 +1,6 @@
+﻿l_english:
+ agot_coa_events.0002.t:0 "Przyjęcie nowego sztandaru"
+ agot_coa_events.0002.desc:0 "Gdy bębny wojny dudnią przez ziemię, stoisz na czele swoich sił, dzierżąc sztandar, który odzwierciedla Twoją osobistą odwagę i ambicję.\n\nNadszedł czas, aby zdecydować, czy wyróżnisz się spośród swojej rodziny, przyjmując własny herb dla ziem będących pod Twoją kontrolą. Ten śmiały krok byłby symbolem Twojego wyjątkowego przywództwa i nowej ery, którą zamierzasz zapoczątkować.\n\nCzy wzbijesz się ponad cienie swego rodu, czy też nadal będziesz honorować dziedzictwo swojego Domu?"
+ agot_coa_events.0002.a:0 "Mój sztandar powiewać będzie dumnie."
+ agot_coa_events.0002.a.tt:0 "Twój [agot_personal_coa|e] będzie używany dla twoich tytułów ziemskich."
+ agot_coa_events.0002.b:0 "  Zachowam sztandar mojej rodziny."

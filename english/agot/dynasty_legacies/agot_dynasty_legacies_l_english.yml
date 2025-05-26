@@ -1,0 +1,168 @@
+﻿l_english:
+
+#Dragonrider
+
+ dragonrider_dynasty_legacy_track_name: "Władcy Smoków"
+ dragonrider_dynasty_legacy_track_desc: "Panowanie nad ognistymi bestiami nieba czyni nas bliższymi bogom niż ludziom"
+ dragonrider_dynasty_legacy_1_name: "Od kołyski po grób"
+ dragonrider_dynasty_legacy_2_name: "Spleciona krew"
+ dragonrider_dynasty_legacy_3_name: "Bez batów, tylko słowa"
+ dragonrider_dynasty_legacy_4_name: "Władcy przestworzy"
+ dragonrider_dynasty_legacy_5_name: "Bliżej bogów"
+
+ DRAGONRIDER_LEGACY_1_DESCRIPTION:0 "$EFFECT_LIST_BULLET$[dynasty|E] członkowie mają większe szanse wpływać na osobowość związanych młodych smoków\n$EFFECT_LIST_BULLET$[dynasty|E] członkowie otrzymują premię do #V doświadczenia więzi#! podczas oswajania związanego młodego smoka#!"
+ DRAGONRIDER_LEGACY_2_DESCRIPTION:0 "$EFFECT_LIST_BULLET$Schemat więzi [success_chance|E]: #P +20%#!\n$EFFECT_LIST_BULLET$[dynasty|E] członkowie otrzymują zwiększone doświadczenie za udane #V pogłębienie więzi#! [schemes|E]"
+ DRAGONRIDER_LEGACY_3_DESCRIPTION:0 "$EFFECT_LIST_BULLET$[dynasty|E] członkowie rzadziej zostają zranieni lub zabici podczas nieudanego próbowania oswojenia smoka#!"
+ DRAGONRIDER_LEGACY_4_DESCRIPTION:0 "$EFFECT_LIST_BULLET$[dynasty|E] członkowie otrzymują zwiększone #V doświadczenie treningowe#!\n$EFFECT_LIST_BULLET$Odblokowuje możliwość ćwiczenia treningu bojowego podczas #V jazdy na smoku#! [decision|E], niezależnie od edukacji#!"
+ DRAGONRIDER_LEGACY_5_DESCRIPTION:0 "$EFFECT_LIST_BULLET$Brak limitu liczby Draconicznych Podbojów [casus_bellis|E], które może użyć jeden jeździec smoka#!"
+
+#Generic North - Warfare / Law Mix
+
+ north_legacy_track_name: "Północnik"
+ north_legacy_track_desc: "Północ pamięta"
+ north_legacy_1_name: "Zimowe skóry"
+ north_legacy_2_name: "Strażnicy na Murze"
+ north_legacy_3_name: "Niepokonani"
+ north_legacy_4_name: "Krew Budowniczego"
+ north_legacy_5_name: "Głodne wilki"
+
+ LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH:0 "[dynast_interaction|E]: #V Wyślij do Nocnej Straży#!\n#weak [dynast] zyskuje możliwość zapłaty [prestige] [prestige_i], aby odesłać nielennych dorosłych członków [dynasty] do służby w Nocnej Straży.\nCzłonkowie dynastii mają większe szanse zostać wybrani na Lorda Dowódcę."
+
+#Generic Reachman
+
+ reachman_legacy_track_name: "Reachman"
+ reachman_legacy_track_desc: "Kwiaty rycerskości"
+ reachman_legacy_1_name: "Zielona i przyjemna ziemia"
+ reachman_legacy_2_name: "Nasiona Ogrodnika"
+ reachman_legacy_3_name: "Brzemię wiedzy"
+ reachman_legacy_4_name: "Zielone pola"
+ reachman_legacy_5_name: "Zakon Zielonej Ręki"
+
+#Generic Ironborn
+
+ ironborn_legacy_track_name: "Żelazny Lud"
+ ironborn_legacy_track_desc: "Co jest martwe, nigdy nie umrze"
+ ironborn_legacy_1_name: "Solone nogi"
+ ironborn_legacy_2_name: "Żelazna cena"
+ ironborn_legacy_3_name: "Żelazna flota"
+ ironborn_legacy_4_name: "Pancerz Krakena"
+ ironborn_legacy_5_name: "Czarna krew"
+
+#Great Reaving Disabled
+#LEGACY_IRONBORN_CALL_GREAT_REAVING:0 "Odblokowuje możliwość zorganizowania Wielkiego Najazdu"
+ LEGACY_IRONBORN_CALL_GREAT_REAVING:0 "[dynasty|E] członkowie mogą [imprison|E] więcej osób po [siege|E] lub [raid|E]"
+
+ MORE_PRESTIGE_FROM_REAVING_LEGACY:0 "Więcej [piety|E] i [prestige|E] z [reaving|E]: [piety_i]#P +30%#! [prestige_i]#P +30%#!"
+
+#Generic Riverlander
+
+ riverlander_legacy_track_name: "Rzeczniacy"
+ riverlander_legacy_track_desc: "Od Oka Bogów po Czerwoną Odnogę"
+ riverlander_legacy_1_name: "Życie wspólnotowe"
+ riverlander_legacy_2_name: "Łodzie rzeczne"
+ riverlander_legacy_3_name: "Zżyci"
+ riverlander_legacy_4_name: "Ludzie rzek"
+ riverlander_legacy_5_name: "Święte wody"
+
+ LEGACY_RIVERLANDER_SAIL_RIVER: "Odblokowuje możliwość żeglowania po głównych rzekach"
+
+#Generic Valeman
+
+ valeman_legacy_track_name: "Valeman"
+ valeman_legacy_track_desc: "Dotknąć nieba"
+ valeman_legacy_1_name: "Góry Księżycowe"
+ valeman_legacy_2_name: "Lądowanie Andala"
+ valeman_legacy_3_name: "Rycerze Sokoła"
+ valeman_legacy_4_name: "Stalowe rumaki"
+ valeman_legacy_5_name: "Dogmat Hugora"
+
+#Generic Westerman
+
+ westerman_legacy_track_name: "Zachodniak"
+ westerman_legacy_track_desc: "Wszystko, co się świeci"
+ westerman_legacy_1_name: "Złoty stołek"
+ westerman_legacy_2_name: "Salwy kuszników"
+ westerman_legacy_3_name: "Srebrny język, złote kieszenie"
+ westerman_legacy_4_name: "Cegła i zaprawa"
+ westerman_legacy_5_name: "Niezłomni jak skała"
+
+#Generic Dorne
+
+ dornish_legacy_track_name: "Dornijczyk"
+ dornish_legacy_track_desc: "Piaszczyste ziemie"
+ dornish_legacy_1_name: "Ruchome piaski"
+ dornish_legacy_2_name: "Miraż"
+ dornish_legacy_3_name: "Niezachwiane włócznie"
+ dornish_legacy_4_name: "Żona Dornijczyka"
+ dornish_legacy_5_name: "Gniazdo żmij"
+
+ LEGACY_DORNISH_SIEGE_EVASION:0 "[dynasty|E] członkowie mają większe szanse uciec przed uwięzieniem po [siege|E] lub [raid|E]"
+
+#Generic Stormlanders
+
+ stormlander_legacy_track_name: "Burzowiec"
+ stormlander_legacy_track_desc: "Burzowe wybrzeża"
+ stormlander_legacy_1_name: "Przetrwać burzę"
+ stormlander_legacy_2_name: "Zawaleni"
+ stormlander_legacy_3_name: "Furia gromu"
+ stormlander_legacy_4_name: "Porywiste wiatry"
+ stormlander_legacy_5_name: "Opór Boga Burz"
+
+#Dynastic Specific
+
+#Northern Dynasties
+
+ stark_legacy_track_name: "Stark"
+ stark_legacy_track_desc: "Nadchodzi zima"
+ stark_legacy_1_name: "Zimowi królowie"
+ stark_legacy_2_name: "Wilcza krew"
+ stark_legacy_3_name: "Krew Budowniczego"
+
+ umber_legacy_track_name: "Umber"
+ umber_legacy_track_desc: "Związani lojalnością, uwolnieni gniewem"
+ umber_legacy_1_name: "Ostatnie Ognisko, pierwszy bastion"
+ umber_legacy_2_name: "Uwolnieni"
+ umber_legacy_3_name: "Nasiono olbrzyma"
+ umber_legacy_4_name: "Krew Pierwszych Ludzi"
+ umber_legacy_5_name: "Rośnij w opowieściach"
+
+ UMBER_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Dzicy i potężni jak ich symbol; Umberowie są uosobieniem ostatniego ogniska Północy i jej pierwszej linii obrony.\nKrew Pierwszych Ludzi płynie gęsto w żyłach Umberów, przez co mają predyspozycje do dużych [congenital|E] cech."
+
+ forrester_legacy_track_name: "Forrester"
+ forrester_legacy_track_desc: "Żelazo z lodu"
+ forrester_legacy_1_name: "Opiekunowie żelaznego drzewa"
+
+#Westerlands Dynasties
+
+ sarsfield_legacy_track_name: "Sarsfield"
+ sarsfield_legacy_track_desc: "Wierni znakowi"
+ sarsfield_legacy_1_name: "Urodzeni do łuku, wytrenowani w siodle"
+
+ SARSFIELD_UNLOCK_DESCRIPTION:0 "Można rekrutować [GetMaA('sarsfield_horse_archers').GetName] jako [men_at_arms|E]"
+ SARSFIELD_DESCRIPTION:1 "#weak Można zrekrutować tylko jeden regiment Łuczników Sarsfield (do rozmiaru 5)#!"
+
+#Valeman Legacies
+
+ borrell_legacy_track_name: "Borrell"
+ borrell_legacy_track_desc: "Oznaczeni na wielkość"
+ borrell_legacy_1_name: "Synowie Siostry"
+
+ BORRELL_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Borrellowie ze Sweetsister przez pięć tysięcy lat nosili w dłoniach błogosławieństwo Pani Fal. Oznaczeni jej łaską, ci dawni królowie-piraci są słusznie szanowani i budzą strach wśród swoich siostrzanych pobratymców."
+
+#Dornish Legacies
+
+ dayne_legacy_track_name: "Dayne"
+ dayne_legacy_track_desc: "Świt niesie światło!"
+ dayne_legacy_1_name: "Wyścig po poranek"
+
+ LEGACY_DAYNE_PROWESS:0 "W murach Starfall rycerze z rodu Dayne rywalizują o to, kto przejmie płaszcz kolejnego Miecza Poranka i władać będzie legendarnym mieczem Świtem.\nTa rywalizacja, zaszczepiana im od narodzin, sprawiła, że ród Dayne wydał jednych z największych rycerzy, jakich kiedykolwiek znało Westeros, a członkowie tej [dynasty|E] otrzymują lepsze $trait_education_martial_prowess$ [traits|E]."
+
+#Crownlander Legacies
+
+ velaryon_legacy_track_name: "Velaryon"
+ velaryon_legacy_track_desc: "Starzy, prawdziwi, odważni"
+ velaryon_legacy_1_name: "Zew morza"
+
+ VELARYON_LEGACY_SEA_SNAKES:0 "Można rekrutować [GetMaA('sea_snakes').GetName] jako [men_at_arms|E]"
+ VELARYON_LEGACY_TRADE:0 "Można użyć [decision|E], aby sfinansować wyprawy handlowe"
+ VELARYON_LEGACY_TRADE_PRESTIGE:0 "Zdobywasz [prestige|E] za sfinansowanie wyprawy handlowej"

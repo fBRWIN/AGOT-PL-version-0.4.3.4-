@@ -1,0 +1,33 @@
+﻿l_english:
+ agot_proclamation_events.0001.t:0 "Proklamacja Potężnego Królestwa"
+ agot_proclamation_events.0001.desc:0 "Potęga [ROOT.Char.GetPrimaryTitle.GetName] rośnie coraz bardziej, a teraz nadszedł czas, by ją utrwalić — siłę zdolną przetrwać wieki, wznieść się ponad innych.\n\nOd dziś to nowe, potężne królestwo będzie stać samodzielnie."
+ agot_proclamation_events.0001.a:0 "Wszyscy poznają potęgę [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ agot_proclamation_events.0002.t:0 "Nowe Królestwo"
+ agot_proclamation_events.0002.desc:0 "Ja, [new_king.GetFirstNameNoTooltip] [new_king.GetHouse.GetNameNoTooltip], niniejszym ogłaszam się [new_king.GetTitleTierName] — wszyscy uznają moją wolną i niezależną władzę."
+ agot_proclamation_events.0002.a:0 "Niech bogowie mają nas w opiece."
+
+ agot_proclamation_events.0003.t:0 "Nowe Królestwo"
+ agot_proclamation_events.0003.desc:0 "Stworzenie nowego królestwa oznacza ustanowienie nowego prawa i sformalizowanie niezależności moich ziem. To nie jest błaha sprawa, ale taka, którą trzeba podjąć."
+ agot_proclamation_events.0003.a:0 "Tak, trzeba to zrobić."
+ agot_proclamation_events.0003.b:0 "Niech się stanie."
+
+ #New Iron Throne ruler global event
+ agot_proclamation_events.9901.t:0 "Sukcesja na Żelaznym Tronie"
+ agot_proclamation_events.9901.intro:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; kruki rozniosły po całym królestwie wieści pełne smutku." Posłaniec składa szybki ukłon i wręcza mi list do przeczytania."
+ agot_proclamation_events.9901.inheritance:0 "\n\n[previous_holder.GetTitledFirstName|U] [previous_holder.GetDeathReason] — niech [previous_holder.GetSheHe] spoczywa w pokoju. Zgodnie z prawem dziedziczenia, [new_holder.GetFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony prawowitym następcą [new_holder.GetPrimaryTitle.GetNameNoTooltip].\n\nPodczas gdy jedni opłakują śmierć [previous_holder.GetHerHis|U] Mości, słychać już szepty niezadowolenia poza spojrzeniami tłumu..."
+ agot_proclamation_events.9901.conquest:0 "\n\nSiły prowadzone przez [previous_holder.GetFirstName] [previous_holder.GetHouse.GetBaseName] zostały pokonane, a [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] zasiadł na Żelaznym Tronie z prawa podboju.\n\nPodczas gdy zwycięzcy ucztują, inni przyjmują wieści z mniejszym entuzjazmem i wyrażają swoje niezadowolenie..."
+ agot_proclamation_events.9901.abdication:0 "\n\nW niespodziewanym zwrocie wydarzeń, [previous_holder.GetHerHis|U] Mość [previous_holder.GetFirstNameRegnal] [new_holder.GetHouse.GetBaseName] zrzekł się prawa do tronu. W związku z tym, [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony następcą i wstąpi na Żelazny Tron, by rządzić Siedmioma Królestwami."
+ agot_proclamation_events.9901.usurped:0 "\n\n[new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] odebrał Żelazny Tron [previous_holder.GetFirstName] [previous_holder.GetHouse.GetBaseName] i został ogłoszony nowym monarchą Siedmiu Królestw.\n\nChoć niektórzy mogą szeptem nazywać [new_holder.GetHerHim] uzurpatorem, nie da się zaprzeczyć, że Żelazny Tron znajduje się już pewnie w [new_holder.GetHerHis] dłoniach."
+ agot_proclamation_events.9901.fallback:0 "\n\n[new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony nowym władcą Siedmiu Królestw."
+ agot_proclamation_events.9901.outro:0 "\n\nZanim wrócę do swoich zajęć, przez chwilę zastanawiam się — czym okażą się rządy [new_holder.GetHerHis]?"
+ agot_proclamation_events.9901.a:0 "Czas pokaże..."
+ agot_proclamation_events.9901.rival:0 "Przeklęty niech będzie [new_holder.GetHerHis] ród!"
+ agot_proclamation_events.9901.friend:0 "Niech [new_holder.GetSheHe|U] panuje długo!"
+
+ agot_proclamation_it_succession_msg_inheritance:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; [previous_holder.GetTitledFirstName|U] [previous_holder.GetDeathReason] — niech [previous_holder.GetSheHe] spoczywa w pokoju.\n\n[new_holder.GetFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony prawowitym następcą [new_holder.GetPrimaryTitle.GetNameNoTooltip].""
+ agot_proclamation_it_succession_msg_conquest:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; Siły prowadzone przez [previous_holder.GetFirstName] [previous_holder.GetHouse.GetBaseName] zostały pokonane, a [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] zasiadł na Żelaznym Tronie z prawa podboju.""
+ agot_proclamation_it_succession_msg_abdication:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; W niespodziewanym zwrocie wydarzeń, [previous_holder.GetHerHis|U] Mość [previous_holder.GetFirstNameRegnal] [new_holder.GetHouse.GetBaseName] zrzekł się prawa do tronu. W związku z tym, [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony następcą i wstąpi na Żelazny Tron, by rządzić Siedmioma Królestwami.""
+ agot_proclamation_it_succession_msg_usurped:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] odebrał Żelazny Tron [previous_holder.GetFirstName] [previous_holder.GetHouse.GetBaseName] i został ogłoszony nowym monarchą Siedmiu Królestw.\n\nChoć niektórzy mogą szeptem nazywać [new_holder.GetHerHim] uzurpatorem, nie da się zaprzeczyć, że Żelazny Tron znajduje się już pewnie w [new_holder.GetHerHis] dłoniach.""
+ agot_proclamation_it_succession_msg_fallback:0 ""Mój [ROOT.Char.GetLadyLord|U], dotarł do mnie list opieczętowany herbem rodu [new_holder.GetHouse.GetBaseName] z [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; [new_holder.GetTitledFirstName] [new_holder.GetHouse.GetBaseName] został ogłoszony nowym władcą Siedmiu Królestw.""
+

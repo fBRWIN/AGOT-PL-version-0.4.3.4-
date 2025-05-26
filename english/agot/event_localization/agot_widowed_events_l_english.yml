@@ -1,0 +1,59 @@
+﻿l_english:
+
+
+################################
+# Wydarzenia wdowieństwa
+# 1000 - 1999
+# by Badger
+################################
+
+ agot_widowed_events.0001.t:0 "Słodkie wspomnienie miłości"
+ agot_widowed_events.0001.desc:0 "Mój drogi [dead_lover.GetFirstNameNicknamedNoTooltip], odszedł z tego świata. #italic Co bym dał, by móc spędzić z [dead_lover.GetHerHim] jeszcze jeden dzień...#!\n\nMoje hale wydają się puste — a jednak muszę tu pozostać. Być może ten smutek z czasem się stępi."
+ agot_widowed_events.0001.a:0 "Muszę iść dalej bez [dead_lover.GetHerHim]."
+
+ agot_widowed_events.0002.t:0 "Gorzki żal miłości"
+ agot_widowed_events.0002.desc:0 "Czuję, jakby to było wczoraj, gdy mój drogi [widowed_memory.GetFirstNameNicknamedNoTooltip] chodził jeszcze po tej ziemi, zawsze [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] i sprawiał, że tęskniłem za [widowed_memory.GetHerHis] dotykiem. Gdybym tylko mógł mieć jeszcze jeden dzień z [widowed_memory.GetHerHim]...\n\nMoje myśli błądzą, gdy uświadamiam sobie, że stoję tu samotnie, zanurzony w smutku mojego żalu."
+ agot_widowed_events.0002.a:0 "Czy to wszystko, co mi zostało w życiu?"
+
+ agot_widowed_events.0003.t:0 "Miłość... za cenę"
+ agot_widowed_events.0003.desc:0 "Nic na tym świecie nie zastąpi [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic a przynajmniej tak myślałem.#!\n\nPóźna noc spędzona na błąkaniu się po bardziej szemranych zakątkach [location.GetName] prowadzi mnie do przybytku, w którym można znaleźć miłość, #bold za cenę#!. [succubus.GetFirstName] wita mnie [succubus.Custom('quirk_pos_adjective')] uśmiechem, a ja czuję bicie w piersi, którego nie doświadczałem od śmierci mojego drogiego [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip]."
+ agot_widowed_events.0003.a:0 "Moneta jest warta dotyku [succubus.GetWomanMan]."
+ agot_widowed_events.0003.b:0 "Nie, to nie jest właściwe..."
+
+ agot_widowed_events.0004.t:0 "Miłość to głupota"
+ agot_widowed_events.0004.desc:0 "Minęło trochę czasu, a jednak wciąż czuję ukłucie, myśląc o moim drogim [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Kiedy ten ból się skończy?#!\n\n#bold Nie.#! To nonsens. Miłość to strata mojego wysiłku i nie poświęcę jej ani minuty więcej."
+ agot_widowed_events.0004.a:0 "Nic już nie czuję."
+ agot_widowed_events.0004.b:0 "Nie, to nie jest właściwe..."
+
+ agot_widowed_events.0005.t:0 "Miłość... do książek"
+ agot_widowed_events.0005.desc:0 "Minęło trochę czasu, a jednak wciąż czuję ukłucie, myśląc o moim drogim [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Jak mogę przejść ponad tę miłość?#!\n\nGdy zmagam się z własnymi myślami, do mojej sali tronowej wchodzi [learned_courtier.GetFirstNameNicknamed], uczony z mojego dworu. [learned_courtier.GetSheHe|U] patrzy na mnie [learned_courtier.Custom('quirk_pos_adverb')], zanim oznajmi: \"Mój [ROOT.Char.GetLadyLord|l], wiesz, że jedynym prawdziwym lekarstwem na złamane serce jest... #bold nauka!#\"\n\nPatrzę na [learned_courtier.GetFirstNameNoTooltip] z pewnym powątpiewaniem, ale może [learned_courtier.GetSheHe] ma rację? Czy powinienem poświęcić się nauce?"
+ agot_widowed_events.0005.a:0 "Muszę!" #Krótkie, bo obok są ikony cech.
+ agot_widowed_events.0005.b:0 "Książki są dla słabych."
+
+ agot_widowed_events.0005.maester.tt:0 "Oddajesz wszystkie swoje ziemskie dobra, by zostać maestrem."
+
+ agot_widowed_events.0006.t:0 "Miłość... do trunku"
+ agot_widowed_events.0006.desc:0 "Nic na tym świecie nie zastąpi [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic a przynajmniej tak myślałem.#!\n\nPóźna noc spędzona na błąkaniu się po bardziej szemranych zakątkach [location.GetName] prowadzi mnie do gwarnej tawerny z [party_friend.GetFirstName]. \"Mój [ROOT.Char.GetLadyLord|l], pokażę ci, jak się dobrze bawić — #bold i zapomnieć o całym smutku,#!\" oznajmia [party_friend.GetSheHe].\n\nDźwięki grzechów wokół mnie zalewają moje zmysły. Biorę łyk, wznosząc kielich, by wznieść toast za tłum."
+ agot_widowed_events.0006.a:0 "To będzie noc, by... #bold zapomnieć!#!"
+ agot_widowed_events.0006.a.tt:0 "Twoje rozpusty mogą mieć konsekwencje."
+ agot_widowed_events.0006.b:0 "Toast za [widowed_memory.GetFirstName], mojego ukochanego!"
+
+ agot_widowed_events.0007.t:0 "Miłość... do ogrodnictwa"
+ agot_widowed_events.0007.desc:0 "Minęło trochę czasu, a jednak wciąż czuję ukłucie, myśląc o moim drogim [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Jak mogę przejść ponad tę miłość?#!\n\nSporą część mojego nowo uwolnionego czasu spędziłem na dworze, pozwalając, by natura stała się moim towarzyszem. Może zasadzę drzewo na cześć mojej miłości, które będzie rosło?"
+ agot_widowed_events.0007.a:0 "Będzie stało jako pomnik naszej miłości."
+ agot_widowed_events.0007.b:0 "To wszystko bzdury..."
+
+ agot_widowed_events.0008.t:0 "Nowa miłość: szczeniak"
+ agot_widowed_events.0008.desc:0 "Nic na tym świecie nie zastąpi [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic a przynajmniej tak myślałem.#!\n\nMój [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] przychodzi do mnie, trzymając szczeniaka za kark w [pet_giver.GetHerHis] ręce. \"Mój [ROOT.Char.GetLadyLord|l], ten młody psiak jest idealnym lekarstwem na smutek, który czujesz,\" mówi [pet_giver.GetFirstNameNoTooltip]. \"Czy dasz mu dom?\""
+ agot_widowed_events.0008.a:0 "Nowy pupil może wypełnić pustkę w moim życiu..."
+ agot_widowed_events.0008.b:0 "Jestem bardziej kociarzem."
+
+ agot_widowed_events.0009.t:0 "Nowa miłość: kociak"
+ agot_widowed_events.0009.desc:0 "Nic na tym świecie nie zastąpi [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic a przynajmniej tak myślałem.#!\n\nMój [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] przychodzi do mnie, trzymając kociaka za kark w [pet_giver.GetHerHis] ręce. \"Mój [ROOT.Char.GetLadyLord|l], ten młody kociak jest idealnym lekarstwem na smutek, który czujesz,\" mówi [pet_giver.GetFirstNameNoTooltip]. \"Czy dasz mu dom?\""
+ agot_widowed_events.0009.a:0 "Nowy pupil może wypełnić pustkę w moim życiu..."
+ agot_widowed_events.0009.b:0 "Jestem bardziej psiarzem."
+
+ agot_widowed_events.0010.t:0 "Zamrożona miłość"
+ agot_widowed_events.0010.desc:0 "Czuję, jakby to było wczoraj, gdy mój drogi [widowed_memory.GetFirstNameNicknamedNoTooltip] chodził jeszcze po tej ziemi, zawsze [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] i sprawiał, że tęskniłem za [widowed_memory.GetHerHis] dotykiem. Gdybym tylko mógł mieć jeszcze jeden dzień z [widowed_memory.GetHerHim]...\n\nChoć czas płynie dalej, nie sądzę, bym kiedykolwiek znów się ożenił."
+ agot_widowed_events.0010.a:0 "Będę nosił [widowed_memory.GetHerHim] w sercu."
+ agot_widowed_events.0010.b:0 "Może po prostu potrzebuję więcej czasu."

@@ -1,0 +1,93 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_cults_religion:0 "Kulty Bogów"
+ the_cults_religion_adj:0 "Kulty"
+ the_cults_religion_adherent:0 "Uczeń"
+ the_cults_religion_adherent_plural:0 "Uczniowie"
+ the_cults_religion_desc:0 "Niezliczeni bogowie czczeni przez kulty Wolnych Miast w Essos są tak różnorodni jak ludzie tam żyjący. Każde z miast ma swoich głównych bogów, ale większość przyjmuje również inne bóstwa."
+
+ ### Wiary ###
+ # Panteon Braavos
+ fc_pan_braavos:0 "Vhugyahar"
+ fc_pan_braavos_adj:0 "Vhugyahar"
+ fc_pan_braavos_adherent:0 "Uczeń"
+ fc_pan_braavos_adherent_plural:0 "Uczniowie"
+ fc_pan_braavos_desc:0 "Wyznawcy wierzą w pełną chwałę Vhugyahar, „Panteonu Panteonów”. Wszystkie bóstwa i wiary świata są mile widziane i cenione, pod warunkiem, że są czczone w sposób, który nie ogranicza wrodzonej wolności człowieka."
+
+ # Ludzie Bez Twarzy Braavos
+ fc_pan_faceless:0 "Uczniowie Boga o Wielu Twarzach"
+ fc_pan_faceless_adj:0 "Bóg o Wielu Twarzach"
+ fc_pan_faceless_adherent:0 "Człowiek Bez Twarzy"
+ fc_pan_faceless_adherent_plural:0 "Ludzie Bez Twarzy"
+ fc_pan_faceless_desc:0 "Bóg o Wielu Twarzach jest Bogiem Wszystkich Śmierci, a wszelkie inne bóstwa śmierci czczone na świecie są tak naprawdę jego „twarzami” lub wcieleniami. Życie to cierpienie, a Ten o Wielu Twarzach oferuje miłosierny kres temu cierpieniu."
+
+ # Panteon Tyrosh
+ fc_pan_tyrosh:0 "Barwy Triosa"
+ fc_pan_tyrosh_adj:0 "Barwy Triosa"
+ fc_pan_tyrosh_adherent:0 "Uczeń"
+ fc_pan_tyrosh_adherent_plural:0 "Uczniowie"
+ fc_pan_tyrosh_desc:0 "Dawno temu wyznawcy niezliczonych bogów współpracowali zarówno pod sztandarami wojny, jak i handlu. W tej współpracy zaczęli faworyzować i wychwalać Triosa jako zasłużonego władcę swego panteonu."
+
+ # Panteon Lys
+ fc_pan_lys:0 "Perłowe Bóstwa"
+ fc_pan_lys_adj:0 "Perłowe Bóstwa"
+ fc_pan_lys_adherent:0 "Uczeń"
+ fc_pan_lys_adherent_plural:0 "Uczniowie"
+ fc_pan_lys_desc:0 "Wyznawcy Perłowych Bóstw — panteonu bogiń i bogów z przewodnictwem Płaczącej Damy, Pantery, Yyndrosa, Bakkalona i Saagaela — cenią piękno i wywyższają bardziej kobiece aspekty potęgi."
+
+ # Panteon Myr
+ fc_pan_myr:0 "Złote Ogrody"
+ fc_pan_myr_adj:0 "Złote Ogrody"
+ fc_pan_myr_adherent:0 "Uczeń"
+ fc_pan_myr_adherent_plural:0 "Uczniowie"
+ fc_pan_myr_desc:0 "Ci, którzy wierzą w świętość Złotych Ogrodów, pilnie strzegą ich domniemanego piękna. Gelenei i jej zgromadzenie są wychwalani poprzez tajemne rytuały i mistyczne pisma."
+
+ # Panteon Pentos
+ fc_pan_pentos:0 "Łaski Księcia"
+ fc_pan_pentos_adj:0 "Łaski Księcia"
+ fc_pan_pentos_adherent:0 "Uczeń"
+ fc_pan_pentos_adherent_plural:0 "Uczniowie"
+ fc_pan_pentos_desc:0 "Dla dobra swego ludu Wielki Książę oferuje pomyślność i przewodnictwo poprzez wybranego naczelnika. Łaski, panteon nad którym przewodzi, mogą w końcu zażądać życia owego naczelnika jako daniny, gdy jego błogosławieństwa się wyczerpią."
+
+ # Panteon Lorath
+ fc_pan_lorath:0 "Wzór"
+ fc_pan_lorath_adj:0 "Wzór"
+ fc_pan_lorath_adherent:0 "Uczeń"
+ fc_pan_lorath_adherent_plural:0 "Uczniowie"
+ fc_pan_lorath_desc:0 "Nauki Twórcy Wzorów głoszą, że prawda leży w sercu wielkiego labiryntu — nie zawsze wyznaczonego murami czy zakrętami, ale wyborami, sprzecznościami i objawieniami. Wszyscy mogą kroczyć jego krętymi ścieżkami, lecz tylko ci, którzy mają pokorę i cierpliwość, mogą odnaleźć mądrość w zmiennych drogach życia."
+
+ # Panteon Volantis
+ fc_pan_volantis:0 "Dziedzictwo"
+ fc_pan_volantis_adj:0 "Dziedzictwo"
+ fc_pan_volantis_adherent:0 "Uczeń"
+ fc_pan_volantis_adherent_plural:0 "Uczniowie"
+ fc_pan_volantis_desc:0 "Dziedzictwo głosi, że bogowie Valyrii umarli wraz z Zagładą, a ich moc i trony przeszły na tych, którzy byli wystarczająco godni, by je przejąć. Ci bogowie i ich wyznawcy — dzicy, jaśniejący i nieustępliwi — są postrzegani nie jako wytwory przeszłości, lecz jako jej prawowici spadkobiercy. Cześć oddaje się nie pochodzeniu, lecz sukcesji."
+
+ # Panteon Essarii
+ fc_pan_essaria:0 "Uczniowie Josimakazmy"
+ fc_pan_essaria_adj:0 "Josimakazma"
+ fc_pan_essaria_adherent:0 "Uczeń"
+ fc_pan_essaria_adherent_plural:0 "Uczniowie"
+ fc_pan_essaria_desc:0 "Josimakazma, Wielki, Który Wciąż Powstaje, poprowadził swych wyznawców na północ od politeistycznego Wolnego Imperium, rzucając gwiazdę ze swego własnego ciała. Tam, w miejscu upadku gwiazdy na wzgórzach Wielkiego Pustkowia, mogli czcić Boga Słońca w całej jego czystości, z dala od tych, których grzechy pewnego dnia ściemnią niebo."
+
+ # Panteon Boasha
+ fc_pan_boash:0 "Uczniowie Boasha"
+ fc_pan_boash_adj:0 "Boash"
+ fc_pan_boash_adherent:0 "Uczeń"
+ fc_pan_boash_adherent_plural:0 "Uczniowie"
+ fc_pan_boash_desc:0 "Boash, Ślepy Bóg, był czczony przez tysiące lat. Jego wyznawcy trzymają się surowego kodeksu, nie spożywając mięsa ani wina, wierząc, że wyższe prawdy można ujrzeć tylko Trzecim Okiem, które może się otworzyć dopiero wtedy, gdy pozostałe dwa widzą tylko ciemność."
+
+ # Panteon Qohoru
+ fc_pan_blackgoat:0 "Uczniowie Czarnego Kozła"
+ fc_pan_blackgoat_adj:0 "Czarny Kozioł"
+ fc_pan_blackgoat_adherent:0 "Uczeń"
+ fc_pan_blackgoat_adherent_plural:0 "Uczniowie"
+ fc_pan_blackgoat_desc:0 "Ciemny bóg czczony w Qohorze, uznawany za demona przez wiele innych wiar, Czarny Kozioł znany jest z codziennych krwawych ofiar wymaganych, by go przebłagać."
+
+ # Panteon Norvos
+ fc_pan_bearded:0 "Uczniowie Brodatego Boga"
+ fc_pan_bearded_adj:0 "Brodaty Bóg"
+ fc_pan_bearded_adherent:0 "Uczeń"
+ fc_pan_bearded_adherent_plural:0 "Uczniowie"
+ fc_pan_bearded_desc:0 "W przeciwieństwie do wielu innych kultów Wolnych Miast, Uczniowie Brodatego Boga uznają i czczą tylko swego własnego boga. Imię tego boga znane jest tylko najwyższym kapłanom, ale że tylko kapłanom wolno nosić brody, obcy zwykli nazywać go Brodatym Bogiem. Dopuszczenie włosów wydaje się mieć znaczenie: tylko mężczyznom wolno mieć włosy na głowie, tylko kapłanom brody, a kobiety muszą golić głowy na łyso."
+

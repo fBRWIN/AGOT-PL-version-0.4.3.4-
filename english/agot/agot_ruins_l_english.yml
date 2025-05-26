@@ -1,0 +1,162 @@
+﻿l_english:
+### Posiadłość
+ building_type_ruin_01:0 "Ruin"
+ building_ruin_01:0 "Zniszczona Ruina"
+ building_ruin_01_desc:0 "To miejsce jest w ruinie."
+
+### Rodzaje Ruin Bazowych
+ building_type_small_ruin_01:0 "Małe Ruiny"
+ building_small_ruin_01:0 "Porzucone Małe Ruiny"
+ building_small_ruin_01_desc:0 "Mała ruina, która została pozostawiona na pastwę losu w dziczy."
+ building_small_ruin_02:0 "Ocalone Małe Ruiny"
+ building_small_ruin_02_desc:0 "Mała ruina, w której rozpoczęto wysiłki rekonstrukcyjne, aby przywrócić jej dawną chwałę."
+ building_small_ruin_03:0 "Odzyskujące Małe Ruiny"
+ building_small_ruin_03_desc:0 "Mała ruina, w której wysiłki rekonstrukcyjne przywróciły większość jej dawnej świetności."
+ building_small_ruin_04:0 "Odbudowane Małe Ruiny"
+ building_small_ruin_04_desc:0 "Niegdyś mała ruina, zapomniana przez historię, została całkowicie odbudowana, a może nawet przewyższyła to, czym była wcześniej."
+ building_type_medium_ruin_01:0 "Średnie Ruiny"
+ building_medium_ruin_01:0 "Porzucone Średnie Ruiny"
+ building_medium_ruin_01_desc:0 "Średniej wielkości ruina, która została pozostawiona na pastwę losu w dziczy."
+ building_medium_ruin_02:0 "Ocalone Średnie Ruiny"
+ building_medium_ruin_02_desc:0 "Średniej wielkości ruina, w której rozpoczęto wysiłki rekonstrukcyjne, aby przywrócić jej dawną chwałę."
+ building_medium_ruin_03:0 "Odzyskujące Średnie Ruiny"
+ building_medium_ruin_03_desc:0 "Średniej wielkości ruina, w której wysiłki rekonstrukcyjne przywróciły większość jej dawnej świetności."
+ building_medium_ruin_04:0 "Odbudowane Średnie Ruiny"
+ building_medium_ruin_04_desc:0 "Niegdyś średniej wielkości ruina, zapomniana przez historię, została całkowicie odbudowana, a może nawet przewyższyła to, czym była wcześniej."
+ building_type_large_ruin_01:0 "Duże Ruiny"
+ building_large_ruin_01:0 "Porzucone Duże Ruiny"
+ building_large_ruin_01_desc:0 "Duża ruina, która została pozostawiona na pastwę losu w dziczy."
+ building_large_ruin_02:0 "Ocalone Duże Ruiny"
+ building_large_ruin_02_desc:0 "Duża ruina, w której rozpoczęto wysiłki rekonstrukcyjne, aby przywrócić jej dawną chwałę."
+ building_large_ruin_03:0 "Odzyskujące Duże Ruiny"
+ building_large_ruin_03_desc:0 "Duża ruina, w której wysiłki rekonstrukcyjne przywróciły większość jej dawnej świetności."
+ building_large_ruin_04:0 "Odbudowane Duże Ruiny"
+ building_large_ruin_04_desc:0 "Niegdyś duża ruina, zapomniana przez historię, została całkowicie odbudowana, a może nawet przewyższyła to, czym była wcześniej."
+
+### Niedogodności Ruin
+# Zasolone Ziemie
+ building_type_ruin_salted_earth_01:0 "Zasolone Ziemie"
+ building_ruin_salted_earth_01:0 "Zasolone Ziemie"
+ building_ruin_salted_earth_01_desc:0 "Ziemia wokół ruin została zasolona, pozostawiając glebę nieurodzajną i nieproduktywną, z jedynie chwastami i odpornymi kwiatami rosnącymi przez wiele lat."
+# Wyludnione
+ building_type_ruin_desolate_01:0 "Wyludnione"
+ building_ruin_desolate_01:0 "Wyludnione Miejsce"
+ building_ruin_desolate_01_desc:0 "Ziemia wokół ruin została porzucona na taką odległość, jaką może zobaczyć ptak, pierwotni mieszkańcy zniknęli."
+ building_ruin_desolate_02:0 "Ożywiona Populacja"
+ building_ruin_desolate_02_desc:0 "Dzięki przymusowi, zachęcie lub obowiązkowi, nowa społeczność została ustanowiona, aby wspierać wysiłki rekonstrukcyjne."
+
+# Zalane
+ building_type_ruin_flooded_01:0 "Zalane"
+ building_ruin_flooded_01:0 "Zalane Ruiny"
+ building_ruin_flooded_01_desc:0 "Woda zalewa wnętrze ruin, niemal całkowicie zatrzymując postępy rekonstrukcji, utrudniając każdą czynność."
+ building_ruin_flooded_02:0 "Odpompowane Ruiny"
+ building_ruin_flooded_02_desc:0 "Po przeprowadzeniu niezbędnych prac, woda, która przez cały czas utrudniała rekonstrukcję, została w większości, jeśli nie całkowicie, odpompowana."
+
+# Słynne
+ building_type_ruin_renowned_01:0 "Słynna Ruina"
+ building_ruin_renowned_01:0 "Słynna Ruina"
+ building_ruin_renowned_01_desc:0 "To, co teraz jest tylko gruzem i zniszczonymi ścianami, kiedyś było cenione i podziwiane, lub być może to jego upadek nadał mu sławę jako tragedię. Ludzie wydają się być bardziej skłonni wspierać wysiłki rekonstrukcyjne."
+
+# Niesławne
+ building_type_ruin_infamous_01:0 "Niesławna Ruina"
+ building_ruin_infamous_01:0 "Niesławna Ruina"
+ building_ruin_infamous_01_desc:0 "Ruiny, które zdobią te ziemie, uważa się za pełne klątw i złych omenów. Ludzie unikają wysiłków rekonstrukcyjnych, a same ruiny, w obawie przed tym, co może się z nimi stać."
+
+# Wybuch Wildfire
+ building_type_ruin_wildfire_01:0 "Wybuch Wildfire"
+ building_ruin_wildfire_01:0 "Wybuch Wildfire"
+ building_ruin_wildfire_01_desc:0 "Wildfire przetacza się przez ruiny, zadając śmiertelne szkody każdemu, kto nie potrafi poradzić sobie z zielonymi płomieniami."
+ building_ruin_wildfire_02:0 "Stłumiony Wybuch"
+ building_ruin_wildfire_02_desc:0 "Teraz, gdy wildfire zostało opanowane, proces rekonstrukcji stał się łatwiejszy, ponieważ nie ma już niebezpieczeństwa, że cały postęp zostanie spopielony. Jednak ziemie i ludzie wokół tych spalonych ruin poniosły straty."
+
+### Interakcja
+ agot_ruin_begin_reconstruction:0 "Odbuduj Ruiny"
+ agot_ruin_begin_reconstruction_desc:0 "Podejmij kontrolę nad wysiłkiem rekonstrukcyjnym, aby przywrócić dawną chwałę tego miejsca."
+ agot_ruin_reconstruction:0 "Ruina w Rekonstrukcji"
+ agot_ruin_reconstruction_desc:0 "Ta ruina zaczęła być odnawiana."
+ RUIN_MUST_BEGIN_CONSTRUCTION:0 "Musisz najpierw rozpocząć wysiłek [rekonstrukcji|E]."
+ agot_ruin_disease_modifier:0 "Modyfikator Choroby Ruin"
+ agot_ruin_disease_modifier_desc:0 "Jest to modyfikator używany do ochrony ruin przed chorobą."
+
+
+### Interakcja
+ agot_ruin_begin_reconstruction:0 "Odbuduj Ruiny"
+ agot_ruin_begin_reconstruction_desc:0 "Przejmij kontrolę nad wysiłkiem rekonstrukcyjnym, aby przywrócić dawną chwałę tego miejsca."
+ agot_ruin_reconstruction:0 "Ruina w Rekonstrukcji"
+ agot_ruin_reconstruction_desc:0 "Ta ruina zaczęła być odnawiana."
+ RUIN_MUST_BEGIN_CONSTRUCTION:0 "Musisz najpierw rozpocząć wysiłek [rekonstrukcji|E]."
+ agot_ruin_disease_modifier:0 "Modyfikator Choroby Ruin"
+ agot_ruin_disease_modifier_desc:0 "Jest to modyfikator używany do ochrony ruin przed chorobą."
+
+### GUI
+ABANDON_RUIN_BUTTON:0 "Porzuć Ruinę"
+ABANDON_RUINS_TOOLTIP:0 "Porzuć ruiny i zostaw je na pastwę dziczy."
+ agot_ruins_character_desc:0 "[CHARACTER.Custom('RuinsHistory')]"
+ ruin_history_castamere:0 "Tysiące lat sojuszu i poddaństwa między Domami Lannisterów i Reyne przepadły pod rządami Tytosa Lannistera, lwa, który nigdy nie miał rządzić. Nikt nie mógł winić jego wasali za wykorzystanie jego słabości, niechęci do zaciągania pożyczek, dobrego serca, które nie chciało widzieć urazów. Najwięcej skorzystał Roger Reyne, którego rodzina i szwagier cieszyli się z nieudolności lwa bez zębów. Castamere rosło kosztem The Rock i było chwalebne. Kiedy lwy w końcu dorosły i zaczęły gryźć w miejsce ojca, dlaczego Roger miałby zwracać na nie uwagę? Już udowodnił, że jego pazury były ostrzejsze niż jakikolwiek złoty lew. Ta pycha doprowadziła do zniszczenia zarówno rodziny, jak i domu, ponieważ tym młodym lwem był nie kto inny jak przyszły Lord Tywin Lannister. W kampanii, która ujawniła człowieka, którym miał się stać, Tywin odzyskał długi, które jego ojcowscy wasale winni, przynosząc ruinę i śmierć tym, którzy się opierali. Tarbeckom i Reyne. Kiedy armie Lannisterów dotarły do Castamere, Tarbeckowie zostali zniszczeni, a Lord Roger był obłąkany z raną od strzały z kuszy. Jego brat Reynard schronił wszystkich ich ludzi pod ziemią, gdzie Lannisterowie, wezwani do negocjacji, znaleźli ich już straconych. Tywin miał wszystkie wejścia do kopalni Reyne zablokować, a pobliski strumień skierować, by płynął w ich kierunku. Żadne obrony nie powstrzymałyby płynącej wody. Strażnicy Lannisterów słyszeli ponoć panikę i krzyki przez całą noc, ale to był ostatni szept oporu z rąk Domu Reyne.\n\nTak oto Castamere pozostało od tego czasu: wodną mogiłą dla niegdyś wielkiej rodziny. Dopóki ktoś nie odważy się odkopać tej grobowca..."
+ ruin_history_hellgate:0 "Kiedyś siedziba Domu Dryland, teraz Hellgate Hall leży w ruinach. Z tego dawnego, starożytnego bastionu Dom Dryland panował jako Królowie Brzegu Ognia, nie klękając przed nikim, aż do przybycia Nymerii i Rhoynarów, którzy jako pierwsi z domów Dorne mieli wystarczającą moc i siłę, by zburzyć jego mury."
+ruin_history_woodfoot:0 "Kiedy Theon Stark po raz pierwszy wygnał Żelaznych Ludzi z Wyspy Niedźwiedziej, przekazał te ziemie Domowi Woodfoot. Woodfootowie przez niemal piętnaście stuleci chronili wyspę przed wszelkimi zagrożeniami. Dopiero za panowania Lorona Greyjoya Żelazni Ludzie ponownie zakończyli Dom Woodfoot i przejęli Wyspę Niedźwiedzią. A jednak, nawet po ich upadku, ruiny Woodfoot Watch, ich starożytnego zamku, wciąż pozostają."
+ ruin_history_skane:0 "Uczta Skane; Kto na Północy i poza nią nie zna Skagosi i ich słynnej Uczty Skane? Kiedy Skagi wciąż miały swoje statki, docierały do pobliskiej Skane, gdzie pojmały wszystkich jej mieszkańców. Szczęściarze stali się thrallami lub żonami, ci mniej szczęśliwi zostali podani na wielką ucztę dla raiderów Skagów. Uczta była pełna, a Skane leży puste do dziś."
+ ruin_history_oldstones:0 "Lista Królów Rzeki jest gorąco dyskutowana, zarówno przez Maestrów, jak i przez lordów i damy Rzek. Jednak pierwszym dużym Domem, który był znany jako Królowie Rzek i Wzgórz, którego wszyscy się zgadzają, jest Dom Mudd, ostatni z Pierwszych Ludzi, którzy nosili ten tytuł. To z zamku znanego dzisiaj jako Oldstones, Królowie Mudd panowali, i przez większość swojego panowania walczyli z Inwazją Andali. Zamek został zniszczony po klęsce Tristifera IV i końcu Królestwa Mudda."
+ruin_history_summerhall:0 "Kiedy Król Daeron II przyłączył Dorne do królestwa, okazał swoje przekonanie do pokoju, budując letnią rezydencję w Marchiach, słynne Summerhall. To miało służyć jako regularne miejsce wypoczynku dla dworu, by uciec od zapachów King's Landing podczas Letnich Księżyców, a w końcu zostało przekazane jego najmłodszemu synowi, przyszłemu Maekarowi I. Maekar trzymał tę siedzibę przez panowanie swoich braci i własne rządy, aż po jego śmierci trafiła do ostatniego właściciela, Króla Aegona V Niezwykłego. To właśnie za jego panowania Summerhall doświadczyło swojej wielkiej tragedii, kiedy Król wezwał swoją rodzinę w nadziei na ponowne wyklucie smoków, zamek i większość rodziny królewskiej zginęła w ogniu. Do dziś Summerhall leży puste i zrujnowane, z tylko pieśniami, które trzymają je przy życiu."
+ ruin_history_morne:0 "Kiedyś królewska siedziba Tarthu, to tutaj Evenstary z Domu Tarth panowały jako Królowie Sapphira, kiedy andalski Dom po raz pierwszy zajął wyspę. Z czasem, a Tarthowie poślubili zarówno Dom Durrandon, jak i ich królestwo, siedziba straciła na znaczeniu, aż do punktu, gdzie pozostają tylko ruiny."
+ ruin_history_landless:0 ""
+ ruin_history_generic:0 "Świat sam w sobie jest usiany ruinami, od Westeros po Essos, od Sothoryos po Ulthos; rozprzestrzeniają się po każdej ziemi i każdym klimacie, bez żadnego względu. Niektóre były kiedyś wielkimi fortecami i zamkami, stającymi w obronie przed wrogami przez tysiące lat, tylko po to, by zostać zniszczonymi przez niepokonanych wrogów, inne były wieżami obserwacyjnymi i małymi twierdzami, które zostały zniszczone przez minorne najazdy, zapomniane przez czas. Niektóre są tak starożytne, że zostały zniszczone przed pierwszymi zapisami w Citadeli lub Yi Ti, jak Yeen w Sothoryos, czy Strygai w Cieniu. Inne upadki były bardziej współczesne i udokumentowane przez uczonych zarówno Ziem Zachodnich, jak i Wschodnich. Wiele z nich ma legendy, opowieści lub pieśni dotyczące ich ostatnich dni, a inne leżą zapomniane i odrzucone przez wszystkich śpiewaków.\n\nAby przejąć zniszczoną prowincję i rozpocząć odbudowę, przejdź do widoku osady i wybierz „Odbuduj Ruiny”. Kiedy posiadasz baronię ruin, możesz zaktualizować główny budynek ruin, aby rozpocząć rekonstrukcję."
+ reconstruct_ruin_confirm_title:0 "Rozpocząć Odbudowę?"
+ reconstruct_small_ruin_confirm_desc:0 "Odbudowa ruin to ciężka, kosztowna i czasem niebezpieczna praca. Czy na pewno chcesz podjąć się odbudowy?\n\nTwoja początkowa inwestycja wyniesie #N 200#! złota."
+ reconstruct_med_ruin_confirm_desc:0 "Odbudowa ruin to ciężka, kosztowna i czasem niebezpieczna praca. Czy na pewno chcesz podjąć się odbudowy?\n\nTwoja początkowa inwestycja wyniesie #N 400#! złota."
+ reconstruct_large_ruin_confirm_desc:0 "Odbudowa ruin to ciężka, kosztowna i czasem niebezpieczna praca. Czy na pewno chcesz podjąć się odbudowy?\n\nTwoja początkowa inwestycja wyniesie #N 600#! złota."
+ reconstruct_small_ruin_tooltip:0 "Musisz mieć co najmniej 200 złota i być prawowitym władcą lub graniczyć z ruiną, aby rozpocząć odbudowę."
+ reconstruct_med_ruin_tooltip:0 "Musisz mieć co najmniej 400 złota i być prawowitym władcą lub graniczyć z ruiną, aby rozpocząć odbudowę."
+ reconstruct_large_ruin_tooltip:0 "Musisz mieć co najmniej 600 złota i być prawowitym władcą lub graniczyć z ruiną, aby rozpocząć odbudowę."
+ reconstruct_summerhall_tooltip:0 "Nawet robotnicy odmawiają pracy w tym miejscu. Nie będziesz mógł odbudować Summerhall."
+ reconstruct_ruin_confirm_button:0 "Potwierdź"
+
+### Wydarzenia
+ agot_ruins.1000.t:0 "Ruina Już Nie"
+ agot_ruins.1000.d:0 "Gruz po gruźle, cegła po cegle, przed sobą widzę to, co zostało pozostawione na pastwę zapomnienia i prochu, teraz całkowicie odnowione. Z pomocą maestrów i murarzy, ruiny zostały odbudowane, jak najbardziej podobnie do oryginalnego projektu.\n\nJednak jedno pytanie pozostaje nieodpowiedziane: #italic Jakie będą jej dalsze losy?#!\n\nMocne, niezłomne mury mogą sprawić, że stanie się ona zamkiem, który będzie siłą do obawiania się, budowa pobliskich domów i rynków może sprawić, że miasto się rozwinie, lub przekształcenie wnętrza i ścian w bardziej święte miejsce może sprawić, że stanie się to szanowanym miejscem kultu.\n\nAnalizuję opcje i postanawiam zaplanować..."
+ agot_ruins.1000.a:0 "Wielki zamek."
+ agot_ruins.1000.b:0 "Wspaniałe miasto."
+ agot_ruins.1000.c:0 "Świątynia dla pobożnych."
+
+ agot_ruins.2000.t:0 "Skarby z Tragedii"
+ agot_ruins.2000.d:0 "Tragedia Summerhall rzuciła cień na ten projekt od samego początku. Większość przesądnych robotników szeptała, że to miejsce jest przeklęte i że duchy Targaryenów, którzy zginęli tamtego dnia, nadal nawiedzają same kamienie. Nawet ci bardziej cyniczni wydawali się nerwowi, gdy narzędzia były zagubione lub zdarzył się drobny wypadek.\n\nDziś jednak, zamiast klątwy, znalazłem błogosławieństwo. Blisko finalnych etapów odbudowy, odkryto ukrytą komnatę pod ruinami! Doprowadzono mnie do niej i gdy wchodzę, nie mogę powstrzymać się od radości. Na środku pokoju leży mały stolik z poduszką, a na tej poduszce leży nienaruszone jajo smoka!"
+ agot_ruins.2000.a:0 "Wspaniałe odkrycie!"
+
+ agot_ruins.3000.t:0 "Rozpoczęcie Budowy"
+ agot_ruins.3000.d:0 "Rozkaz został wydany. Murarze już pracują, a ja mam nadzieję zobaczyć ten monument dla północy odbudowany.\n\nTylko trzy wieże pozostały z wielkiego bastionu Necku, pokryte białą skórą duchów, bladym echem dawnej potęgi twierdzy. Z czasem przywrócę wszystkie dwadzieścia i uczynię to miejsce fortecą, której nikt się nie ośmieli zaatakować.\n\nKiedy prace się skończą, nikt nie przejdzie tutaj bez zaproszenia!"
+ agot_ruins.3000.a:0 "Stary bastion crannogmenów zostanie odbudowany!"
+
+ agot_ruins.3001.t:0 "Wieże Odbudowane"
+ agot_ruins.3001.d:0 "Rekonstrukcja Moat Cailin postępuje szybko. Gdzie wcześniej stały tylko trzy wieże, teraz stoją dwadzieścia, z solidnymi umocnieniami z tej samej czarnej skały, z której pierwotnie zbudowano twierdzę.\n\nTeraz to miejsce przypomina bardziej fortecę z dawnych dni, a życie zaczyna wracać do tej budowli.\n\nWieża Dzieci — gdzie niektórzy wierzą, że dzieci przyzwały młot wód — ma już odnowiony dach, a przesądni robotnicy mówią, że słyszeli dziecięce szepty w nocy."
+ agot_ruins.3001.a:0 "Ten zamek emanuje... nadprzyrodzoną mocą."
+ agot_ruins.3001.b:0 "Pozwól im wrócić do pracy, jest jeszcze wiele do zrobienia!"
+
+ agot_ruins.3002.t:0 "Ostatni Etap"
+ agot_ruins.3002.d:0 "Murarze kontynuują pracę, kończąc ostatnią część kamieni do mojego wielkiego projektu. Kiedyś Moat Cailin była ruiną, pochłoniętą przez ciemne i wijące się mgły bagna, porzuconą w zgniłych wodach Necku.\n\nTeraz jest niemal odbudowana. Wkrótce uczynię jej mury znów mocnymi, odbuduję jej potężne wieże i obsadzę ją wystarczającą liczbą ludzi, aby ją utrzymać.\n\nKto by podjął wyzwanie przeciwko Północy, mając to miejsce do przejścia?"
+ agot_ruins.3002.a:0 "Znowu będzie bronić Północy!"
+
+ agot_ruins.3003.t:0 "Moat Cailin Odbudowany"
+ agot_ruins.3003.d:0 "Odbudowa Moat Cailin została zakończona. Już nigdy ci, którzy bronią Necku, nie będą ukrywać się w bagnach, czołgając się przed najeźdźcami; teraz staną tak samo wysoko, jak to miejsce.\n\nPatrzę na zamek, otoczony zdradzieckimi bagnami pełnymi niebezpiecznych bestii, a sam zamek również potężny. Wszystkie dwadzieścia wież rzucają długie cienie na gęste bagna. To tam, gdzie Andalowie zawiedli, rozbijając się o tę twierdzę jak fale o wielką skałę."
+ agot_ruins.3003.a:0 "Dom [ROOT.Char.GetHouse.GetName] może też budować."
+ agot_ruins.3003.a_stark:0 "Mam nadzieję uhonorować twoje imię, drogi przodku."
+ agot_ruins.3003.b:0 "Niech wszyscy będą świadkami mojej pracy!"
+
+ agot_ruins.9999.t:0 "Wstrzymanie budowy"
+ agot_ruins.9999.opening:0 "Odbudowa tych ruin to nie lada wyzwanie, muszę być odpowiednio przygotowany. Może warto odłożyć to na później.\n\nChoć wciąż jest wiele do zrobienia,"
+ agot_ruins.9999.no_stress:0 "i mimo że moja głowa nie jest jeszcze obciążona żadnymi ciemnymi myślami,"
+ agot_ruins.9999.one_stress:0 "czuję, jak zaczynam odczuwać ciężar stresu wpływający na moje nastroje;"
+ agot_ruins.9999.two_stress:0 "a mój umysł zaciska się, jakby w imadle;"
+ agot_ruins.9999.three_stress:0 "i czuję, że jestem na skraju załamania;"
+ agot_ruins.9999.recent_loss:0 "strata [deceased_character.GetName] jest wciąż zbyt świeża, bym mógł myśleć o czymkolwiek innym;"
+ agot_ruins.9999.at_war:0 "wojna zajmuje moje myśli i wpływa na gospodarkę królestwa,"
+ agot_ruins.9999.poor:0 "skarbiec jest prawie pusty, a wiem, jak dużym obciążeniem finansowym to może być,"
+ agot_ruins.9999.bankrupt:0 "skarbiec jest pusty, a kontynuowanie prac w moim zadłużeniu byłoby błędem,"
+ agot_ruins.9999.lazy:0 "kto wie, co przyniesie przyszłość. A przecież nigdy nie lubiłem pracy w żadnej formie,"
+ agot_ruins.9999.greedy:0 "kto wie, co przyniesie przyszłość. Wolę odzyskać zainwestowane złoto, by wiedzieć, że jest bezpieczne,"
+ agot_ruins.9999.fickle:0 "kto wie, co przyniesie przyszłość. Tak czy inaczej, już od początku wiedziałem, że to nie był dobry pomysł,"
+ agot_ruins.9999.paranoid:0 "kto wie, co przyniesie przyszłość. A kiedy myślę o tych wszystkich ludziach zebranych w jednym miejscu, by \"pracować\", kto wie, co mogą knuć,"
+ agot_ruins.9999.impatient:0 "kto wie, co przyniesie przyszłość. Nie chcę czekać latami na owoce tej pracy,"
+ agot_ruins.9999.someone_else:0 "a w każdym razie to nie ja rozpocząłem ten projekt,"
+ agot_ruins.9999.relation:0 "a nawet jeśli [restoration_constructor.GetName] był zdeterminowany, by zobaczyć ten projekt do końca, mam inne priorytety w najbliższej przyszłości,"
+ agot_ruins.9999.outro:0 "dlatego lepiej odłożyć pomysł kontynuowania tej niekończącej się pracy."
+ agot_ruins.9999.a:0 "Niech ta praca teraz się zakończy."

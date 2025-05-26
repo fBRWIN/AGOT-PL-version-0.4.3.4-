@@ -1,0 +1,506 @@
+﻿l_english:
+ #Vanilla Add-ons
+ agot_trait_adventurer_former_Golden_Company_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] spędził trochę czasu w [GetTitleByKey('d_laamp_merc_golden_company').GetNameNoTier] jako najemnik."
+ agot_trait_adventurer_former_Second_Sons_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] spędził trochę czasu w [GetTitleByKey('d_laamp_merc_second_sons').GetNameNoTier] jako najemnik."
+ agot_trait_adventurer_former_Windblown_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] spędził trochę czasu w [GetTitleByKey('d_laamp_merc_windblown').GetNameNoTier] jako najemnik."
+
+ #Trait Groups
+ trait_citadel:0 "Członkowie Cytadeli"
+
+ #Health traits
+ trait_aged:0 "Wiek"
+ trait_aged_desc:0 "Starość sprawiła, że ta postać jest niewidoma."
+ trait_aged_character_desc:0 "Starość sprawiła, że [ROOT.GetCharacter.GetFirstNameNoTooltip] jest niewidoma."
+
+ trait_declared_incapable:0 "Uznał za Niezdolnego"
+ trait_declared_incapable_desc:0 "Uznany za niezdolnego do rządzenia przez radę, ta postać zależy od regenta, aby rządził w jej imieniu."
+ trait_declared_incapable_character_desc:0 "Uznany za niezdolnego do rządzenia przez radę [ROOT.GetCharacter.GetHerHis], [ROOT.GetCharacter.GetFirstNameNoTooltip] zależy od regenta, aby rządził."
+
+ trait_mute:0 "Niemy"
+ trait_mute_desc:0 "Ta postać nie jest w stanie wyrazić swojego zdania — ani w ogóle."
+ trait_mute_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nie jest w stanie wyrazić swojego zdania — ani w ogóle."
+
+ #Faith of the Seven traits
+ trait_devoted_faith_of_the_seven_male:0 "Święty Brat"
+ trait_devoted_faith_of_the_seven_female:0 "Święta Siostra"
+ trait_devoted_faith_of_the_seven_male_desc:0 "Ten mężczyzna złożył ślub ubóstwa i poświęcił swoje życie służbie Siedmiu."
+ trait_devoted_faith_of_the_seven_female_desc:0 "Ta kobieta złożyła ślub ubóstwa i poświęciła swoje życie służbie Siedmiu."
+ trait_devoted_faith_of_the_seven_child:0 "Obiecany dla Wiary"
+ trait_devoted_faith_of_the_seven_child_desc:0 "To dziecko jest obiecane dla Wiary i ostatecznie poświęci swoje życie służbie wyższej mocy."
+
+ trait_septon_male:0 "Septon"
+ trait_septon_male_desc:0 "Ta postać złożyła śluby septona i porzuciła nazwisko swojego rodu."
+ trait_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożył śluby septona i porzucił nazwisko swojego rodu."
+
+ trait_septon_female:0 "Septa"
+ trait_septon_female_desc:0 "Ta postać złożyła śluby septa i porzuciła nazwisko swojego rodu."
+ trait_septon_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożyła śluby septa i porzuciła nazwisko swojego rodu."
+
+ trait_silent_sister:0 "Cisza Siostra"
+ trait_silent_sister_temp:0 "Cisza Siostra"
+ trait_silent_sister_desc:0 "Ta postać złożyła śluby cichej siostry, porzucając nazwisko swojego rodu i własny głos w imię pobożności."
+ trait_silent_sister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożyła śluby cichej siostry, porzucając nazwisko swojego rodu i własny głos w imię pobożności."
+
+ trait_septon:0 "Septon"
+ trait_septon_desc:0 "Ta postać złożyła śluby septona i porzuciła swoje nazwisko rodu."
+
+ trait_high_septon_male:0 "Wysoki Septon"
+ trait_high_septon_male_desc:0 "Ta postać złożyła śluby septona, porzuciła nazwisko swojego rodu, a także stała się liderem Wyznawców."
+ trait_high_septon_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożył śluby septona, porzucił nazwisko swojego rodu, a także stał się liderem Wyznawców."
+
+ trait_high_septon_female:0 "Wysoka Septa"
+ trait_high_septon_female_desc:0 "Ta postać złożyła śluby septa, porzuciła nazwisko swojego rodu, a także stała się liderem Wyznawców."
+ trait_high_septon_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożyła śluby septa, porzuciła nazwisko swojego rodu, a także stała się liderem Wyznawców."
+
+ trait_high_septon:0 "Wysoki Septon"
+ trait_high_septon_desc:0 "Ta postać złożyła śluby septona, porzuciła swoje nazwisko rodu, a także stała się liderem Wyznawców."
+
+ trait_most_devout_member:0 "Najbardziej Pobożny Członek"
+ trait_most_devout_member_desc:0 "Ta postać została przyjęta do Najbardziej Pobożnych, najwyższego ciała religijnego Wiary Siedmiu, i jest elektorem Wysokiego Septona."
+ trait_most_devout_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] został przyjęty do Najbardziej Pobożnych, najwyższego ciała religijnego Wiary Siedmiu, i jest elektorem Wysokiego Septona."
+
+ #Nightswatch traits
+ trait_nightswatch:0 "Nocna Straż"
+ trait_track_nightswatch:0 "Szkolenie Nocnej Straży"
+ trait_track_nightswatch_desc:0 "Szkolenie Nocnej Straży"
+
+ trait_flappers:0 "Rekrut"
+ trait_flappers_desc:0 "Ta postać służy jako rekrut w Nocnej Straży."
+ trait_flappers_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] służy jako rekrut w Nocnej Straży."
+
+ trait_nightswatch_sworn:0 "Czarny Brat"
+ trait_nightswatch_desc:0 "Ta postać złożyła ślub czerni i dołączyła do Nocnej Straży."
+ trait_nightswatch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] złożył ślub czerni i dołączył do Nocnej Straży."
+
+ trait_nw_builder:0 "Budowniczy"
+ trait_nw_builder_1:0 "Nowicjusz Budowniczy"
+ trait_track_lifestyle_nw_builder:0 "Budowniczy"
+ trait_track_lifestyle_nw_builder_desc:0 "Budowniczy Nocnej Straży są odpowiedzialni za utrzymanie Muru i jego obrony."
+ trait_nw_builder_1_desc:0 "Ta postać dołączyła do orderu budowniczych Nocnej Straży, odpowiedzialnego za utrzymanie Muru i jego obrony."
+ trait_nw_builder_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] brakuje doświadczenia w [ROOT.GetCharacter.GetHerHis] roli w orderze budowniczych Nocnej Straży."
+ trait_nw_builder_2:0 "Czeladnik Budowniczy"
+ trait_nw_builder_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znany z [ROOT.GetCharacter.GetHerHis] umiejętności i jest doświadczonym członkiem orderu budowniczych Nocnej Straży."
+ trait_nw_builder_3:0 "Mistrz Budowniczy"
+ trait_nw_builder_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest mistrzem [ROOT.GetCharacter.GetHerHis] rzemiosła i jest dobrze znany ze swoich umiejętności w orderze budowniczych Nocnej Straży."
+
+ trait_nw_ranger:0 "Strażnik"
+ trait_nw_ranger_1:0 "Nowicjusz Strażnik"
+ trait_track_lifestyle_nw_ranger:0 "Strażnik"
+ trait_track_lifestyle_nw_ranger_desc:0 "Strażnicy Nocnej Straży mają za zadanie patrolowanie poza Murem, śledzenie ruchów dzikich i czasami rozpędzanie plemion dzikich."
+ trait_nw_ranger_1_desc:0 "Ta postać dołączyła do orderu strażników Nocnej Straży, odpowiedzialnego za śledzenie ruchów dzikich poza Murem."
+ trait_nw_ranger_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nadal uczy się [ROOT.GetCharacter.GetHerHis] roli w orderze strażników Nocnej Straży."
+ trait_nw_ranger_2:0 "Czeladnik Strażnik"
+ trait_nw_ranger_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znany z [ROOT.GetCharacter.GetHerHis] umiejętności i jest doświadczonym członkiem orderu strażników Nocnej Straży."
+ trait_nw_ranger_3:0 "Mistrz Strażnik"
+ trait_nw_ranger_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest mistrzem w tropieniu dzikich i jest dobrze znany z [ROOT.GetCharacter.GetHerHis] legendarnej działalności poza Murem."
+
+ trait_nw_steward:0 "Gospodarz"
+ trait_nw_steward_1:0 "Nowicjusz Gospodarz"
+ trait_track_lifestyle_nw_steward:0 "Gospodarz"
+ trait_track_lifestyle_nw_steward_desc:0 "Gospodarze Nocnej Straży są odpowiedzialni za zaopatrzenie Straży w odzież, jedzenie i wszystkie inne potrzeby."
+ trait_nw_steward_1_desc:0 "Ta postać dołączyła do orderu gospodarzy Nocnej Straży, odpowiedzialnego za organizowanie zapasów dla Straży."
+ trait_nw_steward_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nadal uczy się [ROOT.GetCharacter.GetHerHis] roli w orderze gospodarzy Nocnej Straży."
+ trait_nw_steward_2:0 "Czeladnik Gospodarz"
+ trait_nw_steward_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znany ze swojej zdolności organizacyjnej i jest doświadczonym członkiem orderu gospodarzy Nocnej Straży."
+ trait_nw_steward_3:0 "Mistrz Gospodarz"
+ trait_nw_steward_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest mistrzem organizacji i jest dobrze znany ze swoich umiejętności w zaopatrywaniu Nocnej Straży."
+
+ trait_deserter:0 "Deserter"
+ trait_deserter_desc:0 "Ta postać porzuciła Nocną Straż i zbiegła."
+ trait_deserter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] porzucił Nocną Straż i zbiegł."
+
+ #Marriage traits
+ trait_widowed:0 "Wdowa"
+ trait_widowed_desc:0 "Małżonek tej postaci zmarł, pozostawiając ją w żałobie."
+ trait_widowed_character_desc:0 "Światło w życiu [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] zgasło, pozostawiając [ROOT.GetCharacter.GetHerHim] do dalszego życia w samotności."
+
+ trait_refusing_marriage:0 "Odmowa Małżeństwa"
+ trait_refusing_marriage_desc:0 "Ta postać odmawia zawarcia małżeństwa."
+ trait_refusing_marriage_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] odmawia zawarcia małżeństwa."
+
+ #KG traits
+ trait_kingsguard:0 "Kingsguard"
+ trait_kingsguard_desc:0 "Ta postać przywdziała białą pelerynę i służy w Kingsguard."
+ trait_kingsguard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] przywdziała białą pelerynę i służy w Kingsguard."
+
+ trait_rainbow_guard:0 "Rainbow Guard"
+ trait_rainbow_guard_desc:0 "Ta postać przywdziała tęczową pelerynę i służy w Rainbow Guard."
+ trait_rainbow_guard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] przywdziała tęczową pelerynę i służy w Rainbow Guard."
+
+ #Citadel/Maester traits
+ trait_novice:0 "Nowicjusz"
+ trait_novice_desc:0 "Ta postać niedawno rozpoczęła naukę w Cytadeli."
+ trait_novice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] niedawno rozpoczęła naukę w Cytadeli."
+
+ trait_acolyte:0 "Akolita"
+ trait_acolyte_desc:0 "Ta postać zdobyła pierwszy ogniwo w Cytadeli i stała się akolitą."
+ trait_acolyte_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zdobyła pierwszy ogniwo w Cytadeli i stała się akolitą."
+
+ trait_maester:0 "Maester"
+ trait_maester_desc:0 "Ta postać ukończyła swoje szkolenie w Cytadeli i stała się maestrem."
+ trait_maester_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ukończyła swoje szkolenie w Cytadeli i stała się maestrem."
+
+ trait_track_maester:0 "Szkolenie Maestra"
+ trait_track_maester_desc:0 "Aby się uczyć, należy się doskonalić, a maester jest jednym z najbardziej uczonych."
+
+ trait_disgraced_maester:0 "Zhańbiony Maester"
+ trait_disgraced_maester_desc:0 "Ta postać została pozbawiona łańcucha maestra przez Kolegium w Cytadeli."
+ trait_disgraced_maester_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została pozbawiona łańcucha maestra przez Kolegium w Cytadeli."
+
+ archmaester:0 "Archmaester"
+ trait_archmaester:0 "$archmaester$"
+ trait_archmaester_typed:0 "$archmaester$: [SelectLocalization(ROOT.GetCharacter.IsValid, ROOT.GetCharacter.Custom('GetSpecialtyField'),'')|U]"
+ trait_archmaester_desc:0 "Mistrz w swojej dziedzinie, ta postać jest teraz archmaestrem w Cytadeli."
+ trait_archmaester_character_desc:0 "Mistrz [ROOT.GetCharacter.GetHerHis] dziedziny, [ROOT.GetCharacter.GetFirstNameNoTooltip] jest teraz archmaestrem w Cytadeli."
+ trait_archmaester_typed_desc:0 "Mistrz [ROOT.GetCharacter.Custom('GetSpecialtyFieldLower')|l], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest teraz archmaestrem w Cytadeli."
+ trait_archmaester_typed_character_desc:0 "Mistrz [ROOT.GetCharacter.Custom('GetSpecialtyFieldLower')], [ROOT.GetCharacter.GetFirstNameNoTooltip] jest teraz archmaestrem w Cytadeli."
+
+ trait_citadel_desc:0 "Ta postać studiowała, aby stać się maestrem w Cytadeli."
+
+ #Knighthood traits
+ trait_knighthood:0 "Rycerstwo"
+ trait_knight:0 "Rycerz"
+ trait_knight_questionable:0 "Rycerz?"
+
+ trait_knight_desc:0 "Ta postać została pasowana na rycerza i złożyła przysięgę przed oczami bogów i ludzi, by bronić tych, którzy nie mogą się bronić, chronić wszystkie kobiety i dzieci, słuchać swoich dowódców, pana, króla, walczyć dzielnie i wykonywać wszystkie inne zadania, jakie są na nich nałożone, bez względu na to, jak trudne, skromne czy niebezpieczne mogą być."
+ trait_knight_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została pasowana na rycerza i złożyła przysięgę przed oczami bogów i ludzi, by bronić tych, którzy nie mogą się bronić, chronić wszystkie kobiety i dzieci, słuchać swoich dowódców, pana, króla, walczyć dzielnie i wykonywać wszystkie inne zadania, jakie są na nich nałożone, bez względu na to, jak trudne, skromne czy niebezpieczne mogą być."
+
+ trait_squire:0 "Giermek"
+ trait_squire_desc:0 "Giermek jest [agot_knight|E] w szkoleniu. Służy jako pomocnik rycerza, pomagając mu we wszystkich jego obowiązkach."
+ trait_squire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] służy jako pomocnik rycerza, mając nadzieję, że pewnego dnia stanie się rycerzem na własnych prawach."
+ trait_squire_no_knight_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest rycerzem w szkoleniu, jednak ich rycerz #N zginął, wstrzymując ich postęp#!."
+ trait_prefers_being_a_squire_desc:0 "Zamiast dążyć do rycerstwa, [ROOT.GetCharacter.GetFirstNameNoTooltip] zadeklarował, że będzie służył jako giermek bezterminowo."
+ trait_squire_unique_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest rycerzem w szkoleniu, jednak ich rycerz #N zginął, wstrzymując ich postęp#!."
+
+ trait_track_knight:0 "Rycerstwo"
+ trait_track_knight_desc:0 "Rycerskość. Honor. Chwała. Bycie rycerzem to bycie wywyższonym wojownikiem."
+
+ #Personality Traits
+ trait_fool:0 "Głupiec"
+ trait_fool_desc:0 "Ta postać służy jako głupiec pana."
+ trait_fool_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] służy jako głupiec pana."
+
+ trait_authoritative:0 "Autorytatywny"
+ trait_authoritative_desc:0 "Głos tej postaci ma wagę, budząc strach u wielu, a inspirując innych."
+ trait_authoritative_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ma głos, który ma wagę, budząc strach u wielu, a inspirując innych."
+
+ trait_inquisitive:0 "Dociekliwy"
+ trait_inquisitive_desc:0 "Ta postać jest zafascynowana tajemnicami świata."
+ trait_inquisitive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest zafascynowana tajemnicami świata."
+
+ TRAIT_FLAG_DESC_more_xp_from_points_of_interest:0 "Zyskuje 50% więcej doświadczenia życiowego z odwiedzania [point_of_interest|E]."
+
+ trait_rude:0 "Prostacki"
+ trait_rude_desc:0 "Ta postać jest bezceremonialna w swoich słowach, ignorując uczucia innych na rzecz mówienia tego, co im się podoba."
+ trait_rude_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest bezceremonialny w swoich słowach, ignorując uczucia innych na rzecz mówienia tego, co [ROOT.GetCharacter.GetSheHe] chce."
+
+ trait_selfish:0 "Samolubny"
+ trait_selfish_desc:0 "Ta postać mało troszczy się o potrzeby innych, stawiając siebie na pierwszym miejscu."
+ trait_selfish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] mało troszczy się o potrzeby innych, stawiając [ROOT.GetCharacter.GetHerselfHimself] na pierwszym miejscu."
+
+ trait_fire_obsessed:0 "Zafascynowany Ogniem"
+ trait_fire_obsessed_desc:0 "Moc ognia urzekła tę postać, przyciągając ją ku niemu — niezależnie od powodów duchowych lub mniej szlachetnych..."
+ trait_fire_obsessed_character_desc:0 "Moc ognia urzekła [ROOT.GetCharacter.GetFirstNameNoTooltip], przyciągając [ROOT.GetCharacter.GetHerHim] ku niemu — niezależnie od powodów duchowych lub mniej szlachetnych..."
+
+ trait_fashionable:0 "Modny"
+ trait_fashionable_desc:0 "Dobrze dopasowane ubrania i elegancki styl przyciągają uwagę tej postaci — i jej portfela."
+ trait_fashionable_character_desc:0 "Dobrze dopasowane ubrania i elegancki styl przyciągają uwagę [ROOT.GetCharacter.GetFirstNameNoTooltip] — i jej portfela."
+
+ trait_uncouth:0 "Nieuprzedzony"
+ trait_uncouth_desc:0 "Ta postać nie troszczy się o swój wygląd, nie spełniając standardów innych ludzi."
+ trait_uncouth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nie troszczy się o swój wygląd, nie spełniając standardów innych ludzi."
+
+ trait_two_headed:0 "Dwugłowy"
+ trait_two_headed_desc:0 "Ta postać urodziła się z martwą głową swojego nienarodzonego bliźniaka przyczepioną do ramienia, przez co wygląda dość groteskowo."
+ trait_two_headed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] urodziła się z martwą głową swojego nienarodzonego bliźniaka przyczepioną do ramienia, przez co wygląda dość groteskowo."
+
+ #Others
+ trait_white_walker:0 "Biały Wędrowiec"
+ trait_white_walker_desc:0 "Ta postać jest nieustraszonym Białym Wędrowcem legend."
+ trait_white_walker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest nieustraszonym Białym Wędrowcem legend."
+
+ trait_undead:0 "Nieumarły"
+ trait_undead_desc:0 "Wskrzeszona z martwych, ta postać chodzi pośród żywych ponownie."
+ trait_undead_character_desc:0 "Wskrzeszona z martwych, [ROOT.GetCharacter.GetFirstNameNoTooltip] chodzi pośród żywych ponownie."
+
+ #In hiding
+ trait_in_hiding:0 "W Ukryciu"
+ trait_in_hiding_desc:0 "Ta postać ukryła się, aby chronić siebie przed potencjalnymi spiskami lub oblężeniami."
+ trait_in_hiding_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ukryła się, aby chronić [ROOT.GetCharacter.GetHerselfHimself] przed potencjalnymi spiskami lub oblężeniami."
+
+ trait_is_missing:0 "Zaginiony"
+ trait_is_missing_desc:0 "Ta postać zaginęła, a jej miejsce pobytu stało się tajemnicą."
+ trait_is_missing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zaginęła, a jej miejsce pobytu stało się tajemnicą."
+
+ #Genetic traits
+ trait_the_mark:0 "Znak"
+ trait_the_mark_desc:0 "Ta postać nosi Znak, jej dłonie są spłaszczone jak u żaby."
+ trait_the_mark_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nosi Znak, [ROOT.GetCharacter.GetHerHis] dłonie są spłaszczone jak u żaby."
+
+ #Slave traits
+ trait_slave:0 "Niewolnik"
+ trait_slave_desc:0 "Ta postać została zniewolona i teraz jest własnością innej osoby."
+ trait_slave_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została zniewolona i teraz jest własnością innej osoby."
+
+ trait_slave_trader:0 "Handlarz Niewolnikami"
+ trait_slave_trader_desc:0 "Ta postać zajmuje się handlem niewolnikami, kupując i sprzedając ludzi jak towary."
+ trait_slave_trader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zajmuje się handlem niewolnikami, kupując i sprzedając ludzi jak towary."
+
+ trait_slave_owner:0 "Właściciel Niewolników"
+ trait_slave_owner_desc:0 "Ta postać posiada niewolników — kupionych na rynku, odziedziczonych lub podarowanych."
+ trait_slave_owner_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posiada niewolników, kupionych na rynku, odziedziczonych lub podarowanych [ROOT.GetCharacter.GetHerHim]."
+
+ trait_liberator:0 "Wyzwoliciel"
+ trait_liberator_desc:0 "Ta postać poświęciła się eliminowaniu niewolnictwa i stanowczo sprzeciwia się tej praktyce."
+ trait_liberator_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] poświęciła się eliminowaniu niewolnictwa i stanowczo sprzeciwia się tej praktyce."
+
+ trait_freedman:0 "Wyzwolony"
+ trait_freedman_desc:0 "Ta postać była kiedyś niewolnikiem, ale zyskała swoją wolność."
+ trait_freedman_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] była kiedyś niewolnikiem, ale zyskała swoją wolność."
+
+ #Supernatural dream traits
+ trait_greensight:0 "Zielona Wizja"
+ trait_greensight_desc:0 "Ta postać doświadcza proroczych 'zielonych snów', które dają jej wgląd w przyszłość — czy to na dobre, czy na złe."
+ trait_greensight_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] doświadcza proroczych 'zielonych snów', które dają [ROOT.GetCharacter.GetHerHim] wgląd w przyszłość — czy to na dobre, czy na złe."
+
+ trait_dragon_dreams:0 "Smocze Sny"
+ trait_dragon_dreams_desc:0 "Ta postać jest nawiedzana przez przeczucia i wizje możliwych przyszłości."
+ trait_dragon_dreams_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest nawiedzana przez przeczucia i wizje możliwych przyszłości."
+
+ #Negative physical condition traits
+ trait_one_handed:0 "Jednoręki"
+ trait_one_handed_desc:0 "Ta postać ma tylko jedną rękę."
+ trait_one_handed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ma tylko jedną rękę."
+
+ trait_crippled:0 "Sparaliżowany"
+ trait_crippled_desc:0 "Ta postać została sparaliżowana i nie może już poruszać większości swojego ciała."
+ trait_crippled_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została sparaliżowana i nie może już poruszać większości [ROOT.GetCharacter.GetHerHis] ciała."
+
+ #Plague, diseases, and maladies
+ trait_dancing_plague:0 "Plaga Tańca"
+ trait_dancing_plague_desc:0 "Ta postać jest opętana przez gwałtowne, niekontrolowane drgawki, jakby złapana w przeklęty taniec."
+ trait_dancing_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ciało drga gwałtownie i niekontrolowanie, poruszając się jakby w rytm niewidzialnej melodii."
+
+ trait_greyscale_1:0 "Szarość Skóry"
+ trait_greyscale_1_desc:0 "Na ciele tej postaci pojawiły się sztywne, martwe plamy skóry, szorstkie i zimne w dotyku."
+ trait_greyscale_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] skóra jest naznaczona szorstkimi, szarymi plamami, które czują się jak kamień."
+
+ trait_greyscale:0 "Szarość Skóry"
+ trait_greyscale_desc:0 "Popękana i łuszcząca się skóra rozprzestrzeniła się na dużej części ciała tej postaci, wyraźny znak szarości skóry."
+ trait_greyscale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest dotknięta szarością skóry, skóra twardnieje i łuszczy się jak kruche kamienie."
+
+ trait_greyscale_2:0 "Postępująca Szarość"
+ trait_greyscale_2.desc:0 "Szarość skóry postąpiła, pozostawiając skórę suchą, popękaną i kamienistą na większości ciała."
+ trait_greyscale_2_character.desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest zdeformowana przez rozprzestrzeniającą się szarość skóry, skóra jest sucha i pęka."
+
+ trait_greyscale_3:0 "Szarość Szaleństwa"
+ trait_greyscale_3_desc:0 "Choroba opanowała umysł tej postaci. Ta osoba już nie jest tym, kim była kiedyś."
+ trait_greyscale_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została opanowana przez szaleństwo. Szarość skóry uczyniła [ROOT.GetCharacter.GetHerHim] niebezpieczną i złamaną."
+
+ trait_greyscale_scarred:0 "Blizny po Szarości"
+ trait_greyscale_scarred_desc:0 "Infekcja ustała, ale jej ślady pozostały. Blizny biegną głęboko, zarówno w ciele, jak i w pamięci."
+ trait_greyscale_scarred_character_desc:0 "Choć [ROOT.GetCharacter.GetFirstNameNoTooltip] przeżyła szarość skóry, blizny pozostają trwałym przypomnieniem o tej chorobie."
+
+ trait_bloody_flux:0 "Krwawa Czerwonka"
+ trait_bloody_flux_desc:0 "Gorączka, osłabienie i wewnętrzne krwawienie dręczą tę postać, pozostawiając ją bladą i leżącą w łóżku."
+ trait_bloody_flux_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] cierpi z powodu krwawej czerwonki, niezdolna do utrzymania siły, gdy gorączka i utrata krwi zbierają swoje żniwo."
+
+ trait_red_death:0 "Czerwona Śmierć"
+ trait_red_death_desc:0 "Ta postać została przeklęta przez czerwoną śmierć. Krew wypływa obficie z każdego otworu ciała, a jej skóra strzępi się jak mokry papier; jej ostatnie dni na tym świecie będą bolesne."
+ trait_red_death_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została przeklęta przez czerwoną śmierć. Krew wypływa obficie z każdego otworu ciała, a [ROOT.GetCharacter.GetHerHis] skóra strzępi się jak mokry papier; [ROOT.GetCharacter.GetHerHis] ostatnie dni na tym świecie będą bolesne."
+
+ trait_butterfly_fever:0 "Gorączka Motyli"
+ trait_butterfly_fever_desc:0 "Zniszczona przez gorączkę motyli, ta postać przeżywa gwałtowne skurcze i pocenie się krwią. Wraz z pogłębianiem się choroby jej ciało zaczyna marnieć."
+ trait_butterfly_fever_character_desc:0 "Zniszczona przez gorączkę motyli, [ROOT.GetCharacter.GetFirstNameNoTooltip] przeżywa gwałtowne skurcze i pocenie się krwią. Wraz z pogłębianiem się choroby, [ROOT.GetCharacter.GetHerHis] ciało zaczyna marnieć."
+
+ trait_food_poisoning:0 "Zatrucie Pokarmowe"
+ trait_food_poisoning_desc:0 "Ta postać spożyła zepsute jedzenie i teraz cierpi z powodu silnych bólów brzucha, nudności i ataków wymiotów."
+ trait_food_poisoning_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] spożyła zepsute jedzenie i teraz cierpi z powodu silnych bólów brzucha, nudności i ataków wymiotów."
+
+ trait_spring_sickness:0 "Wiosenna Choroba"
+ trait_spring_sickness_desc:0 "Ta postać jest dręczona przez czarne plamy na skórze i liczne bąble; nie będzie długo w tym świecie."
+ trait_spring_sickness_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest dręczona przez czarne plamy na skórze i liczne bąble; [ROOT.GetCharacter.GetSheHe] nie będzie długo w tym świecie."
+
+ trait_shivers:0 "Dreszcze"
+ trait_shivers_desc:0 "To, co zaczęło się jako dreszcze, teraz trzyma tę postać w ciągłym drżeniu, kaszlu z krwią i niebieskich ustach."
+ trait_shivers_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] drży gwałtownie, kaszląc krew, podczas gdy [ROOT.GetCharacter.GetHerHis] usta stają się niebieskie."
+
+ trait_winter_fever:0 "Zimowa Gorączka"
+ trait_winter_fever_desc:0 "Ta postać płonie gorączką i drży niekontrolowanie, pogrążona w pocie i majaczeniach."
+ trait_winter_fever_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest rozpalona gorączką, drżąca z zimna, a jej stan pogarsza się z każdą chwilą."
+
+ trait_scurvy:0 "Skrzypienie"
+ trait_scurvy_desc:0 "Ta postać cierpi na osłabienie, krwawiące dziąsła i plamy skórne z powodu długo zaniedbywanej diety."
+ trait_scurvy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest osłabiona przez skórwienie, [ROOT.GetCharacter.GetHerHis] ciało naznaczone owrzodzeniami i krwawiącymi ranami."
+
+ trait_burned:0 "Poparzenia"
+ trait_burned_2:0 "Ciężko Poparzony"
+ trait_burned_3:0 "Ciężko Poparzony"
+ trait_burned_desc:0 "Ta postać została poparzona, i teraz nosi blizny przez całe życie na swojej spalonej skórze."
+ trait_burned_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] została poparzona, i teraz nosi blizny przez całe życie na swojej spalonej skórze."
+ trait_track_burned:0 "Poparzenia"
+ trait_track_burned_desc:0 "Poparzenie to straszna rzecz do oglądania. Oczywiście, nie zawsze musi to być na twoją niekorzyść..."
+
+ #House customizer traits
+ trait_house_customizer:0 "Dostosowanie Rodziny"
+ trait_house_customizer_desc:0 "Możesz użyć tej cechy, aby pozwolić swojej stworzonej postaci przyjąć nazwisko i herb dowolnego istniejącego rodu, lub wybranego z wymarłych rodów."
+ trait_house_customizer_character_desc:0 "Możesz użyć tej cechy, aby pozwolić swojej stworzonej postaci przyjąć nazwisko i herb dowolnego istniejącego rodu, lub wybranego z wymarłych rodów."
+
+ trait_heterochromia_customizer:0 "Dostosowanie Heterochromii"
+ trait_heterochromia_customizer_desc:0 "Możesz użyć tej cechy, aby pozwolić swojej stworzonej postaci mieć heterochromię oczu wybraną przez ciebie."
+ trait_heterochromia_customizer_character_desc:0 "Możesz użyć tej cechy, aby pozwolić swojej stworzonej postaci mieć heterochromię oczu wybraną przez ciebie."
+
+ #"Line of/Occluded" Character Trait
+ trait_line_of_char:0 "Linia..."
+ trait_line_of_char_desc:0 "Ta postać reprezentuje wielu przodków, którzy zostali zapomniani przez zapiski czasu."
+ trait_line_of_char_character_desc:0 "Ta postać reprezentuje wielu przodków, którzy zostali zapomniani przez zapiski czasu."
+
+ #Ruin Character Trait
+ trait_ruin:0 "Zniszczenie"
+ trait_ruin_desc:0 "Czy to przez zaniedbanie, pogodę, czy nieustanną grabież, ta posiadłość jest w ruinie."
+ trait_ruin_character_desc:0 "[ROOT.GetCharacter.GetPrimaryTitle] uległo zniszczeniu przez upływ czasu. To, co stało tu wcześniej, teraz jest nie do poznania."
+
+ #Dummy Trait
+ trait_agot_dummy_trait:0 ""
+ trait_agot_dummy_trait_desc:0 ""
+ trait_agot_dummy_trait_character_desc:0 ""
+
+ #Misc
+ trait_shade_of_the_evening:0 "Cień Wieczoru"
+ trait_shade_of_the_evening_desc:0 "Ta postać regularnie pije cień wieczoru, barwiąc swoje usta na niebiesko."
+ trait_shade_of_the_evening_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] regularnie pije cień wieczoru, barwiąc [ROOT.GetCharacter.GetHerHis] usta na niebiesko."
+
+ #Ironborn priests
+ trait_drowned_man:0 "Utopiony Mężczyzna"
+ trait_drowned_man_desc:0 "Utopieni Mężczyźni to akolici kapłanów Boga Utopionego. Noszą proste szaty w kolorach zieleni, szarości i niebieskiego, czyli kolory Boga Utopionego. Niosą kije z drewna dryfującego, aby pokazać swoje oddanie w walce, i skóry wody morskiej do wykonywania rytualnych namaszczeń i gaszenia pragnienia."
+ trait_drowned_man_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest akolitą kapłana Boga Utopionego."
+
+ #Rahloo priests
+ trait_red_priest:0 "Czerwony Kapłan"
+ trait_red_priest_desc:0 "Ta postać jest kapłanem religii R'hllor."
+ trait_red_priest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest kapłanem religii R'hllor."
+
+ trait_red_priest_female:0 "Czerwona Kapłanka"
+ trait_red_priest_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest kapłanką R'hllora."
+
+ #Bearded priests
+ trait_bearded_priest:0 "Kapłan z Brodą"
+ trait_bearded_priest_desc:0 "Ta postać jest kapłanem Boga z Brodą."
+ trait_bearded_priest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest kapłanem Boga z Brodą."
+
+ #Heterochromia Eye
+ trait_heterochromia_eyes:0 "Różne Oczy"
+ trait_heterochromia_desc:0 "Ta postać urodziła się z jednym okiem wyraźnie różnym kolorystycznie od drugiego."
+ trait_heterochromia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] urodziła się z jednym okiem wyraźnie różnym kolorystycznie od drugiego."
+ trait_name_heterochromia_eyes:0 "Różne Oczy"
+
+ trait_half_blind:0 "Pół-Ślepy"
+ trait_half_blind_desc:0 "Ta postać jest ślepa na jedno oko."
+ trait_half_blind_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest ślepa na jedno oko."
+
+ #Replaced Eyes
+ trait_one_eyed_sapphire:0 "Szafirowe Oko"
+ trait_one_eyed_sapphire_desc:0 "Ta postać zastąpiła brakujące oko kawałkiem błyszczącego szafiru."
+ trait_one_eyed_sapphire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko kawałkiem błyszczącego szafiru."
+
+ trait_one_eyed_red:0 "Rubinowe Oko"
+ trait_one_eyed_red_desc:0 "Ta postać zastąpiła brakujące oko płonącym rubinem."
+ trait_one_eyed_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko płonącym rubinem."
+
+ trait_one_eyed_white:0 "Białe Oko"
+ trait_one_eyed_white_desc:0 "Ta postać zastąpiła brakujące oko błyszczącym diamentem."
+ trait_one_eyed_white_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko błyszczącym diamentem."
+
+ trait_one_eyed_green:0 "Szmaragdowe Oko"
+ trait_one_eyed_green_desc:0 "Ta postać zastąpiła brakujące oko bogatym szmaragdem."
+ trait_one_eyed_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko bogatym szmaragdem."
+
+ trait_one_eyed_black:0 "Oko z Dragonglassu"
+ trait_one_eyed_black_desc:0 "Kawałek dragonglassu znajduje się tam, gdzie to oko tej postaci zostało."
+ trait_one_eyed_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko kawałkiem dragonglassu."
+
+ trait_one_eyed_yellow:0 "Topazowe Oko"
+ trait_one_eyed_yellow_desc:0 "Ta postać zastąpiła brakujące oko złocistym topazem."
+ trait_one_eyed_yellow_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko złocistym topazem."
+
+ trait_one_eyed_orange:0 "Bursztynowe Oko"
+ trait_one_eyed_orange_desc:0 "Ta postać zastąpiła brakujące oko lśniącym bursztynem."
+ trait_one_eyed_orange_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko lśniącym bursztynem."
+
+ trait_one_eyed_blue:0 "Lapisowe Oko"
+ trait_one_eyed_blue_desc:0 "Ta postać zastąpiła brakujące oko gwiezdnym lapisem."
+ trait_one_eyed_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko gwiezdnym lapisem."
+
+ trait_one_eyed_purple:0 "Ametystowe Oko"
+ trait_one_eyed_purple_desc:0 "Ta postać zastąpiła brakujące oko ciemnym ametystem."
+ trait_one_eyed_purple_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] zastąpiła brakujące oko ciemnym ametystem."
+
+ trait_paramour:0 "Kochanek"
+ trait_paramour_desc:0 "Ta postać jest znana z bycia kochankiem szlachetnych."
+ trait_paramour_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest znana z bycia kochankiem szlachetnych."
+
+ agot_fated_pregnancy_months:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest w ciąży od [ROOT.Var('agot_fated_pregnancy_months').GetValue] miesięcy."
+ agot_pregnancy_months_scripted_lyanna:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest w ciąży od [ROOT.Var('agot_rr_months_of_pregnancy_lyanna').GetValue] miesięcy."
+ agot_pregnancy_months_scripted_rhaella:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest w ciąży od [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] miesięcy."
+ agot_pregnancy_months_vanilla:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest w ciąży od [SCOPE.ScriptValue('pregnancy_month')] miesięcy."
+
+ #Perk traits
+ trait_spider:0 "Pająk"
+ trait_spider_desc:0 "Ta postać jest mistrzem w organizowaniu szpiegów."
+ trait_spider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] jest mistrzem w organizowaniu szpiegów."
+
+ #Strong Seed
+ trait_scripted_appearance:0 ""
+ trait_smol_tol:0 ""
+ trait_tol:0 ""
+ trait_dumbo_ears:0 ""
+ trait_cool_silver_hair:0 ""
+ trait_cool_neutral_silver_hair:0 ""
+ trait_neutral_silver_hair:0 ""
+ trait_silver_blonde_hair:0 ""
+ trait_silver_gold_hair:0 ""
+ trait_black_hair:0 ""
+ trait_light_blonde_hair:0 ""
+ trait_gold_hair:0 ""
+ trait_bronze_hair:0 ""
+ trait_light_red_hair:0 ""
+ trait_red_hair:0 ""
+ trait_auburn_hair:0 ""
+ trait_kissed_by_fire_hair:0 ""
+ trait_brown_hair:0 ""
+ trait_dark_brown_hair:0 ""
+ trait_no_hair:0 ""
+ trait_light_blue_eyes:0 ""
+ trait_blue_eyes:0 ""
+ trait_midnight_eyes:0 ""
+ trait_seaglass_eyes:0 ""
+ trait_seafoam_eyes:0 ""
+ trait_emerald_eyes:0 ""
+ trait_grey_eyes:0 ""
+ trait_gold_eyes:0 ""
+ trait_light_brown_eyes:0 ""
+ trait_brown_eyes:0 ""
+ trait_black_eyes:0 ""
+ trait_purple_eyes_1:0 ""
+ trait_purple_eyes_2:0 ""
+ trait_purple_eyes_3:0 ""
+ trait_purple_eyes_4:0 ""
+ trait_purple_eyes_5:0 ""
+ trait_purple_eyes_6:0 ""
+ trait_purple_eyes_7:0 ""
+ trait_purple_eyes_8:0 ""
+ trait_purple_eyes_9:0 ""
+ trait_purple_eyes_10:0 ""
+ trait_purple_eyes_11:0 ""
+ trait_purple_eyes_12:0 ""
+ trait_purple_eyes_13:0 ""
+ trait_purple_eyes_14:0 ""
+ trait_purple_eyes_15:0 ""
+ trait_purple_eyes_16:0 ""
+ strong_seed_desc:0 ""
+
+ #History
+ trait_history:0 "Historyczne"
+
+ trait_hidden:0 ""
+ trait_hidden_desc:0 ""

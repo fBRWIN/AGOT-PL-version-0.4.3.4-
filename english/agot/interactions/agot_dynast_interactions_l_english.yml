@@ -1,0 +1,12 @@
+﻿l_english:
+ #Dynast Interactions
+ send_to_nightswatch_interaction:0 "Wyślij do Nocnej Straży #weak (Dynasty)#!"
+ send_to_nightswatch_interaction_extra_icon:0 "$hook_extra_icon$"
+ send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$Wyślij [recipient.GetShortUINameNoTooltip] do Nocnej Straży, by służył(a) jako tarcza ludzi. Nie będą mieli dzieci ani ziem, ale to święty i honorowy obowiązek."
+ send_to_nightswatch_interaction_toast:1 "[recipient.GetShortUIName] wyruszył(a) do Nocnej Straży"
+ send_to_nightswatch_interaction_toast_desc:0 "Teraz jego warta się zaczyna."
+
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[recipient.GetSheHe] nie mogą służyć jako [knight|E] w [court|E] celu"
+
+ send_to_nightswatch_interaction_effect_desc:1 "#weak [CHARACTER.GetShortUIName] opuści twój dwór, by służyć w Nocnej Straży. [CHARACTER.GetSheHe|U] zrezygnują ze wszystkich praw do dziedziczenia oraz służby na rzecz obrony królestwa.#!"
+

@@ -1,0 +1,15 @@
+﻿l_english:
+ esr_rival_declared_war_vengeful:0 "[TARGET_CHARACTER.GetShortUIName|U] wypowiedział wojnę [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojemu', TARGET_CHARACTER.GetHerHis )] rywalowi, [CHARACTER.GetShortUIName|U]."
+ esr_rival_declared_war_vengeful_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive] rywal, [CHARACTER.GetShortUIName|U], wypowiedział wojnę [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tobie', TARGET_CHARACTER.GetHerHim )]."
+
+ esr_rival_attempted_murder_vengeful:0 "Próba zabójstwa [CHARACTER.GetShortUIName|U] przez [TARGET_CHARACTER.GetShortUINamePossessive] została odkryta."
+ esr_rival_attempted_murder_vengeful_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] odkrył próbę zabójstwa [CHARACTER.GetShortUINamePossessive] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetHerHim )]."
+
+ esr_rival_divorced_soulmate_vengeful:0 "[TARGET_CHARACTER.GetShortUIName|U] rozwiódł się z [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoją', TARGET_CHARACTER.GetHerHis )] bratnią duszą, [CHARACTER.GetShortUIName|U]."
+ esr_rival_divorced_soulmate_vengeful_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUINamePossessive] bratnia dusza, czuł/a urazę do [Select_CString(CHARACTER.IsLocalPlayer, 'ciebie', CHARACTER.GetHerHim )] za rozwód z [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tobą', TARGET_CHARACTER.GetHerHim )]."
+
+ esr_rival_divorced_lover_vengeful:0 "[TARGET_CHARACTER.GetShortUIName|U] rozwiódł się z [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoim', TARGET_CHARACTER.GetHerHis )] kochankiem, [CHARACTER.GetShortUIName|U]."
+ esr_rival_divorced_lover_vengeful_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUINamePossessive] kochanek, czuł/a urazę do [Select_CString(CHARACTER.IsLocalPlayer, 'ciebie', CHARACTER.GetHerHim )] za rozwód z [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tobą', TARGET_CHARACTER.GetHerHim )]."
+
+ esr_rival_retracted_vassal_reversed:0 "[TARGET_CHARACTER.GetShortUIName|U] wycofał/a [CHARACTER.GetShortUINamePossessiveNoTooltip] wasala."
+ esr_rival_retracted_vassal_reversed_corresponding:0 "[CHARACTER.GetShortUIName|U] wycofał/a [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] wasala."

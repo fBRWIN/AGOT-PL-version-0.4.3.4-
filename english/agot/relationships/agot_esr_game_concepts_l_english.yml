@@ -1,0 +1,4 @@
+﻿l_english:
+ game_concept_family_friend:0 "Przyjaciel Rodziny"
+ game_concept_family_friends:0 "Przyjaciele Rodziny"
+ game_concept_family_friend_desc:0 "Przyjaciel Rodziny to relacja niejawna, która tworzy się, gdy masz przynajmniej trzech przyjaciół, którzy są [close_family_members|E] względem siebie.\nPrzyjaciel Rodziny zyskuje opinię wszystkich członków tej [close_family|E].\nNie można zostać Przyjacielem Rodziny względem własnej [close_family|E]."

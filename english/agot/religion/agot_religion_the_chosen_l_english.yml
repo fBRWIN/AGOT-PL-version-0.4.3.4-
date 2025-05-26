@@ -1,0 +1,16 @@
+﻿l_english:
+### RELIGIA ###
+ the_chosen_religion:0 "Wybrani Motyli"
+ the_chosen_religion_adj:0 "Wybrani"
+ the_chosen_religion_adherent:0 "Harmonijni"
+ the_chosen_religion_adherent_plural:0 "Harmonijni"
+ the_chosen_religion_desc:0 "Ludzie z Naath są Wybranymi Motyli. Choć pokojowi, ich Bóg chroni ich w formie chorób i zarazków, które rozprzestrzeniają się wśród każdego, kto odważy się postawić stopę na ich świętej wyspie."
+
+### Wiary ###
+#Pan Harmonii
+ god_naath:0 "Wspólnota Pana Harmonii"
+ god_naath_adj:0 "Pan Harmonii"
+ god_naath_adherent:0 "Harmonijny"
+ god_naath_adherent_plural:0 "Harmonijni"
+ god_naath_desc:0 "Na Naath, wielki bóg motyli, Pan Harmonii, chroni swój lud. Gdy najeźdźcy, korsarze i piraci plądrują wyspę w poszukiwaniu niewolników i innych dóbr, to bóg chroni swój lud przez motyle wyspy i choroby, które rozprzestrzeniają, aby trzymać obcych z dala."
+

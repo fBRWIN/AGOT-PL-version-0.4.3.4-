@@ -1,0 +1,19 @@
+﻿l_english:
+
+ agot_prison.1001.t:0 "Wyciszenie"
+
+ agot_prison.1001.start.desc:0 "Do pokoju strażnik wciąga spanikowanego [recipient.GetTitledFirstName]. „Proszę! Powiem wam wszystko, czego chcecie!” protestuje [recipient.GetHerHis|U], ale strażnik knebluje [recipient.GetHerHim] i przywiązuje do stołu.\n\n"
+ agot_prison.1001.cruel.desc:0 "„Och, [recipient.GetFirstNameNoTooltip],” wzdycham teatralnie. „Widzisz, to jest problem. Nie chcę, żebyś już kiedykolwiek powiedział komukolwiek cokolwiek.”"
+ agot_prison.1001.compassionate.desc:0 "„To może wydawać się barbarzyńskie,” mówię, gdy medyk przygotowuje [physician.GetHerHis] narzędzia, „ale to dla stabilności królestwa. Uwierz mi — nie czerpię przyjemności z twojego cierpienia.”"
+ agot_prison.1001.child.desc:1 "„To sprawi, że poczujesz się lepiej,” mówi medyk, podając [physician.GetSheHe] środek uspokajający [recipient.GetTitledFirstName]. [recipient.GetHerHis|U] mała rączka drży, ale [recipient.GetSheHe] wypija go mimo to.\n\nGdy [recipient.Custom('GirlBoy')] zasypia, medyk spogląda na mnie długo. „Jesteś tego pewien, mój [actor.GetLadyLord]?”"
+ agot_prison.1001.a:0 "Och, tak, to #emp będzie#! boleć."
+ agot_prison.1001.b:0 "Mam swoje powody."
+
+ agot_prison.1002.t:0 "Wyciszenie"
+ agot_prison.1002.start.desc:0 "Siedzę cicho, rozmyślając nad moim losem, gdy nagle strażnik z hukiem otwiera drzwi i wyciąga mnie z celi. W ponurym korytarzu czeka [actor.GetTitledFirstName].\n\n"
+ agot_prison.1002.cruel.desc:0 "Zadowolony wyraz twarzy [actor.GetHerHis] przyprawia mnie o dreszcze.\n\n„Nie martw się. Nie przyszedłem po twoją głowę — wystarczy mi twój gadatliwy język. Przynieście rozgrzane obcęgi.”"
+ agot_prison.1002.compassionate.desc:0 "„[recipient.GetFirstNameNoTooltip], chcę, żebyś wiedział, że nie czerpię z tego przyjemności. Jestem zmuszony cię uciszyć. Dla stabilności królestwa.”"
+ agot_prison.1002.child.desc:0 "„To sprawi, że poczujesz się lepiej,” mówi medyk, podając mi małą szklaną buteleczkę. To złe miejsce, z złymi ludźmi, ale oczy [physician.GetHerHis]... są miłe. Drżącą ręką podnoszę buteleczkę do ust."
+ agot_prison.1002.a:0 "Mój... mój język? Wypuśćcie mnie! #emp Nieee!#!"
+ agot_prison.1002.b:0 "Czuję się... dziwnie..."
+

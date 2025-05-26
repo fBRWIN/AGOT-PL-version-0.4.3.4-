@@ -1,0 +1,10 @@
+﻿l_english:
+ msg_nw_inheritance_title:0 "$agot_nights_watch.9901.t$"
+ msg_nw_inheritance_desc:0 "$agot_nights_watch.9901.desc$"
+ msg_it_inheritance_title:0 "$agot_proclamation_events.9901.t$"
+ msg_it_inheritance_desc:0 "$agot_proclamation_events.9901.desc$"
+
+ msg_inherited_legitimate_title:0 "[agot_legitimate_house|E] tytułu [title.GetNameNoTooltip]"
+ msg_inherited_legitimate_title_desc:0 "Zdobyłeś tytuł [title.GetName]. Wielkie ziemie Twoich przodków są teraz pod Twoim panowaniem."
+ msg_inherited_illegitimate_title:0 "Pretendent do [title.GetNameNoTooltip]"
+ msg_inherited_illegitimate_title_desc:0 "Zdobyłeś tytuł [title.GetName]. Jako że nie jesteś członkiem [agot_legitimate_house|E] tytułu [title.GetNameNoTooltip], Twoje panowanie jest przez wielu uważane za nielegalne."

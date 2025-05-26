@@ -1,0 +1,234 @@
+﻿l_english:
+#Ruin Artifacts
+ ruin_sigil_ring:0 "Pierścień z herbem ruin"
+ ruin_sigil_ring_desc:0 "Pierścień z herbem znaleziony podczas odbudowy zrujnowanego zamku. Choć herb zatarł się z biegiem lat, nie ma wątpliwości, że niegdyś należał do nieszczęsnego rodu, który rościł sobie prawa do tych ruin."
+ ruin_sword:0 "Stalowy miecz ruin"
+ ruin_sword_desc:0 "Miecz wykonany ze stalowych sztab odnalezionych podczas odbudowy zrujnowanego zamku."
+ ruin_mace:0 "Stalowa buława ruin"
+ ruin_mace_desc:0 "Buława wykonana ze stalowych sztab odnalezionych podczas odbudowy zrujnowanego zamku."
+ ruin_spear:0 "Stalowa włócznia ruin"
+ ruin_spear_desc:0 "Włócznia wykonana ze stalowych sztab odnalezionych podczas odbudowy zrujnowanego zamku."
+ ruin_axe:0 "Stalowy topór ruin"
+ ruin_axe_desc:0 "Topór wykonany ze stalowych sztab odnalezionych podczas odbudowy zrujnowanego zamku."
+ ruin_dagger:0 "Stalowy sztylet ruin"
+ ruin_dagger_desc:0 "Sztylet wykonany ze stalowych sztab odnalezionych podczas odbudowy zrujnowanego zamku."
+
+
+###############################
+#     The Charcoal Sells      #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0001.t:0 "Węglarze"
+ agot_rebuilding_ruins.0001.desc:0 "Dawniej była to siedziba wielkich lordów, a teraz pozostały jedynie mroczne ruiny i zarośnięte lasy.\n\nRozpoczynając odbudowę, zauważamy ubogich węglarzy — pospólstwo z okolicy, na które dotąd nie zwracaliśmy uwagi. Teraz jednak okazuje się, że prace są ciągle zakłócane. Sprzęt zostaje uszkodzony lub znika, zapasy kradzione nocą.\n\nJeden z moich ludzi twierdzi, że to węglarze są winni, obawiając się utraty lasów, z których żyją."
+ agot_rebuilding_ruins.0001.a:0 "Jeśli zachowują się jak bandyci, potraktuję ich jak bandytów!"
+ agot_rebuilding_ruins.0001.a.tt:0 "Sprowadzisz swój gniew na węglarzy."
+ agot_rebuilding_ruins.0001.b:0 "Porozmawiam z nimi, dając do zrozumienia, że nie stanowimy zagrożenia."
+ agot_rebuilding_ruins.0001.b.tt:0 "Być może dyplomacja przekona ich do współpracy — a jeśli nie, to uczciwe odszkodowanie za utratę lasów."
+ agot_rebuilding_ruins.0001.win.title:0 "Osiągnięto porozumienie z miejscowymi."
+ agot_rebuilding_ruins.0001.lose.title:0 "Wypłacono odszkodowanie węglarzom."
+ agot_rebuilding_ruins.0001.c:0 "Może podarunek zyska nam ich przychylność?"
+ agot_rebuilding_ruins.0001.c.tt:0 "Oferujesz węglarzom złoto jako rekompensatę za utracone dochody z lasu."
+
+
+###############################
+#     The Poultry Bandits     #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0002.t:0 "Kurzy bandyci"
+ agot_rebuilding_ruins.0002.desc:0 "Moi ludzie przeszukiwali ruiny przez większość poranka,  #N szukając koguta?!#!\n\nNiektórzy z nich twierdzą, że w nocy słyszeli pianie koguta, dobiegające jakby spod ziemi. Zdeterminowani, by znaleźć dowód, zaczęli szukać ptaka.\n\nKu swojemu zaskoczeniu, znaleźli ukrytego koguta — oraz kilku #bold mężczyzn#! w ukrytej piwnicy. Wygląda na to, że grupa bandytów używała ruin jako swojej bazy, a nasze przybycie zmusiło ich do ukrycia się."
+ agot_rebuilding_ruins.0002.a:0 "Aresztować ich!"
+ agot_rebuilding_ruins.0002.a.tt:0 "To ewidentni banici, sprawiedliwości musi stać się zadość."
+ agot_rebuilding_ruins.0002.b:0 "Zabić ich i zabrać łupy..."
+ agot_rebuilding_ruins.0002.b.tt:0 "Wymierzysz sprawiedliwość tym banitom, a ich łupy będą nagrodą."
+ agot_rebuilding_ruins.0002.c:0 "Może byliby zainteresowani służbą u mnie?"
+ agot_rebuilding_ruins.0002.c.tt:0 "Banici znają się na broni; być może będą ci użyteczni."
+
+###############################
+#     Buried Treasuer         #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0003.t:0 "Zakopany skarb"
+ agot_rebuilding_ruins.0003.desc:0 "Niektórzy z moich robotników natknęli się podczas usuwania gruzu z zawalonego pomieszczenia na #bold sakiewkę złota ukrytą pod deskami podłogi#!\n\nKomukolwiek monety kiedyś należały, już nie żyje... Teraz należą do mnie."
+ agot_rebuilding_ruins.0003.a:0 "Szczęśliwe znalezisko!"
+ agot_rebuilding_ruins.0003.a.tt:0 "Los ci sprzyja."
+
+###############################
+#     Bandit Attack!          #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0004.t:0 "Atak bandytów"
+ agot_rebuilding_ruins.0004.desc:0 "#bold Skurczybyki poczekali z atakiem do godziny wilka!#! Duża grupa bandytów czyhała w gęstym lesie nieopodal ruin.\n\nCzy to z arogancji, desperacji, czy głupoty, ci kiepsko wyszkoleni opryszkowie sądzą, że mogą zaatakować moich ludzi. Muszę szybko zdecydować, czy przejąć dowodzenie, czy samemu ruszyć do walki."
+ agot_rebuilding_ruins.0004.a:0 "Poprowadzę moich ludzi, by ich odeprzeć!"
+ agot_rebuilding_ruins.0004.a.tt:0 "Wykorzystując swoją wiedzę wojskową, poprowadzisz ludzi przeciwko bandytom."
+ agot_rebuilding_ruins.0004.a.win.title:0 "Bitwa wygrana!"
+ agot_rebuilding_ruins.0004.a.lose.title:0 "Bitwa przegrana..."
+ agot_rebuilding_ruins.0004.b:0 "Dołączę do walki!"
+ agot_rebuilding_ruins.0004.b.tt:0 "Twoja waleczność pozwoli ci zmierzyć się z przywódcą bandytów w pojedynku."
+ agot_rebuilding_ruins.0004.b.win.title:0 "Bitwa wygrana!"
+ agot_rebuilding_ruins.0004.b.lose.title:0 "Bitwa przegrana..."
+ agot_rebuilding_ruins.0004.c:0 "To przegrane, lepiej się wycofać..."
+ agot_rebuilding_ruins.0004.c.tt:0 "Jesteście zbyt słabi; lepiej uciec i przeżyć do następnego dnia."
+
+###############################
+#     Ghost Stories!          #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0005.t:0 "Opowieści o duchach"
+ agot_rebuilding_ruins.0005.desc:0 "Odkąd rozpoczęła się odbudowa ruin, mój rycerz [agot_ghost_story_knight.GetTitledFirstName] zaczął przekazywać opowieści zasłyszane od pospólstwa. Za każdym rogiem słyszę szepty wśród moich ludzi...\n\n #italic      przerażające krzyki...#!\n\n #italic            szalejący tchórze...#!\n\n #italic                  nikt nie przeżył...#!\n\nNiestety te historie o nieszczęsnym rodzie, który niegdyś tu rządził, rozprzestrzeniają się na moim dworze."
+ agot_rebuilding_ruins.0005.a:0 "Spędzę noc w tych ruinach, by położyć temu kres."
+ agot_rebuilding_ruins.0005.a.tt:0 "Zakończysz te opowieści i udowodnisz swoją odwagę!"
+ agot_rebuilding_ruins.0005.b:0 "Ha! Niech gadają, co chcą."
+ agot_rebuilding_ruins.0005.b.tt:0 "Co cię obchodzi, o czym szepczą po korytarzach?"
+ agot_rebuilding_ruins.0005.c:0 "Nastraszę [agot_ghost_story_knight.GetFirstNameNoTooltip]..."
+ agot_rebuilding_ruins.0005.c.tt:0 "Porozmawiasz z rycerzem, wskazując, jak tchórzliwe są takie historie."
+ agot_rebuilding_ruins.0005.c.win.title:0 "Wygląda na to, że podziałało!"
+ agot_rebuilding_ruins.0005.c.lose.title:0 "Jeszcze bardziej nastraszyłeś [agot_ghost_story_knight.GetHerHim]..."
+
+ agot_rebuilding_ruins.0006.t:0 "Opowieści o duchach: Spokojna noc"
+ agot_rebuilding_ruins.0006.desc:0 "Noc spędzona w ruinach była o wiele przyjemniejsza, niż sądziłem. Mimo strasznych opowieści dobrze się wyspałem!\n\nO świcie rześkie powietrze obudziło mnie, a na skraju lasu dostrzegłem mnóstwo jeleni. Zaśmiałem się, myśląc o tych na dworze, którzy się o mnie bali."
+ agot_rebuilding_ruins.0006.a:0 "To na pewno zakończy te historie."
+
+ agot_rebuilding_ruins.0007.t:0 "Opowieści o duchach: Koszmarna noc"
+ agot_rebuilding_ruins.0007.desc:0 "#bold Przeklęte te ruiny...#! #italic może już są przeklęte...#!\n\nTo była koszmarna noc! Męczyły mnie nieustanne koszmary, a pogoda również nie dawała wytchnienia — burza szalała przez całą noc.\n\nRano nawet ci, którzy śmiali się z opowieści o duchach, powtarzali je z nieprzespanymi oczami."
+ agot_rebuilding_ruins.0007.a:0 "Niech to szlag... niech szlag trafi te ruiny..."
+
+ agot_rebuilding_ruins.0008.t:0 "Opowieści o duchach: Wizje zmarłych"
+ agot_rebuilding_ruins.0008.desc:0 "#bold Przeklęte te ruiny...#! #italic może już są przeklęte...#!\n\nNękały mnie okropne koszmary, w których przeżywałem ostatnie chwile nieszczęsnego rodu, który niegdyś tu rządził. Seria przerażających krzyków, szalejących tchórzy próbujących uciekać. Ja sam, uwięziony pośród tłumu, gdy [ROOT.Char.GetFaith.DeathDeityName] przychodziła po nas; nikt nie przeżył...\n\nKoszmary budzą mnie przed świtem, błądzę w świetle księżyca po ruinach, by uspokoić myśli, gdy nagle widzę — błyszczący w świetle księżyca #bold stary pierścień z herbem#! leżący na ziemi."
+ agot_rebuilding_ruins.0008.a:0 "Relikt nieszczęsnego rodu."
+
+###############################
+#     Blacksmith Cache        #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0009.t:0 "Kryjówka kowala"
+ agot_rebuilding_ruins.0009.desc:0 "Wiele tajemnic tego zrujnowanego zamku spoczywa pod omszałymi zaroślami, które wtargnęły do pozostałości dawnej budowli.\n\nPodczas usuwania gruzu jeden z moich ludzi odkrywa skrytkę ze stalowymi sztabami tam, gdzie niegdyś musiała znajdować się zamkowa kuźnia. Mimo upływu lat, stal jest w bardzo dobrym stanie."
+ agot_rebuilding_ruins.0009.a:0 "To powinno przynieść mi trochę monet."
+ agot_rebuilding_ruins.0009.a.tt:0 "Sprzedajesz stalowe sztaby."
+ agot_rebuilding_ruins.0009.b:0 "Może mój własny kowal mógłby coś z nich stworzyć..."
+ agot_rebuilding_ruins.0009.b.tt:0 "Twój kowal spróbuje wykuć dla ciebie broń ze stali pochodzącej z ruin."
+ agot_rebuilding_ruins.0009.sword.title:0 "Wykuwano miecz"
+ agot_rebuilding_ruins.0009.mace.title:0 "Wykuwano buławę"
+ agot_rebuilding_ruins.0009.axe.title:0 "Wykuwano topór"
+ agot_rebuilding_ruins.0009.spear.title:0 "Wykuwano włócznię"
+ agot_rebuilding_ruins.0009.dagger.title:0 "Wykuwano sztylet"
+
+###############################
+#     A Quick Decision        #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0010.t:0 "Szybka decyzja"
+ agot_rebuilding_ruins.0010.desc:0 "Odbudowa takich ruin nie jest łatwym zadaniem. Trzeba naprawić lata zaniedbań, odbudować dawną, dumną murarkę.\n\nDziś, gdy część moich ludzi podnosi palety z cegłami na wyższe partie zamku, zauważam, że jedna z lin zaczyna się strzępić. Widzę [agot_rebuilding_ruin_block_head.GetTitledFirstName] poniżej, zupełnie nieświadomego —  #italic ale czy mam dość czasu, by pomóc [agot_rebuilding_ruin_block_head.GetHerHim]?#!"
+ agot_rebuilding_ruins.0010.a:0 "Mam nadzieję, że [agot_rebuilding_ruin_block_head.GetSheHe] nie odniesie obrażeń..."
+ agot_rebuilding_ruins.0010.a.tt:0 "Próbujesz ostrzec [agot_rebuilding_ruin_block_head.GetHerHim]."
+ agot_rebuilding_ruins.0010.b:0 "Może zdołam jeszcze dotrzeć do [agot_rebuilding_ruin_block_head.GetWomanMan] i osłonić [agot_rebuilding_ruin_block_head.GetHerHim]!"
+ agot_rebuilding_ruins.0010.b.tt:0 "Narażasz się na niebezpieczeństwo, ale [agot_rebuilding_ruin_block_head.GetFirstNameNoTooltip] będzie wdzięczny."
+
+###############################
+#     Options set in Stone    #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0011.t:0 "Opcje wyryte w kamieniu"
+ agot_rebuilding_ruins.0011.desc:0 "Kamień do odbudowy jest sprowadzany z różnych zakątków moich ziem. Jeden z moich ludzi wskazał, że w pobliżu może znajdować się potencjalne źródło kamienia — choć byłby to tylko mały kamieniołom, który wyczerpie się w ciągu kilku lat."
+ agot_rebuilding_ruins.0011.a:0 "Sfinansuję ten mały kamieniołom."
+ agot_rebuilding_ruins.0011.b:0 "Moje złoto lepiej spożytkować gdzie indziej."
+
+###############################
+#     In the Details          #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0012.t:0 "W szczegółach"
+ agot_rebuilding_ruins.0012.desc:0 "Prace nad odbudową idą dobrze, a jednak wciąż spędzam wieczory pochylając się nad planami budowlanymi. Czasem nanoszę drobne poprawki lub dostrzegam malutkie sposoby ulepszenia już wdrażanych rozwiązań.\n\nNiektórzy z moich ludzi martwią się, że jestem zbyt pochłonięty odbudową..."
+ agot_rebuilding_ruins.0012.a:0 "To przecież nie jest żadna obsesja!"
+ agot_rebuilding_ruins.0012.a.tt:0 "Odpoczniesz dopiero, gdy ruiny zostaną odbudowane."
+ agot_rebuilding_ruins.0012.b:0 "Może jednak mają rację..."
+ agot_rebuilding_ruins.0012.b.tt:0 "Posłuchasz rady i wycofasz się z bezpośredniego nadzoru nad projektem."
+
+###############################
+#     Bronze Slate            #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0013.t:0 "Brązowa płyta"
+ agot_rebuilding_ruins.0013.desc:0 "Podczas odbudowy ruin moi ludzie natrafili na interesujący relikt, wydający się być starszy niż same ruiny. Brązową płytę pokrytą runami Pierwszych Ludzi."
+ agot_rebuilding_ruins.0013.a:0 "Może uda się na tym zarobić!"
+ agot_rebuilding_ruins.0013.a.tt:0 "Sprzedajesz płytę za złoto."
+ agot_rebuilding_ruins.0013.b:0 "Może zdołam ją rozszyfrować..."
+ agot_rebuilding_ruins.0013.b.tt:0 "Masz sporą wiedzę i spryt; z czasem możesz odkryć prawdę."
+ agot_rebuilding_ruins.0013.c:0 "Maesterowie z Cytadeli mogliby ją przetłumaczyć."
+ agot_rebuilding_ruins.0013.c.tt:0 "Wysyłasz płytę posłańcem do Cytadeli."
+
+ agot_rebuilding_ruins.0014.t:0 "Brązowy Bóg"
+ agot_rebuilding_ruins.0014.desc:0 "Maester zdołał odszyfrować część napisu na płycie, korzystając z pancerza i herbu rodu Royce jako odniesienia. Płyta okazała się być rytuałem modlitewnym do starożytnego boga Pierwszych Ludzi, sprzed paktu z Dziećmi Lasu: #bold Brązowego Boga#!, boga wojny i górnictwa.\n\nMaester pisze, że chętnie odkupiłby płytę za przyzwoitą sumę."
+ agot_rebuilding_ruins.0014.a:0 "Może #italic sam#! odprawię ten rytuał."
+ agot_rebuilding_ruins.0014.a.tt:0 "Modlisz się do dawno zmarłego boga."
+ agot_rebuilding_ruins.0014.b:0 "#bold Złoto#! zawsze się przyda!"
+ agot_rebuilding_ruins.0014.b.tt:0 "Cytadela dobrze zapłaci za ten relikt."
+
+ agot_rebuilding_ruins.0015.t:0 "Modlitwy do Brązowego Boga"
+ agot_rebuilding_ruins.0015.desc:0 "Późną nocą odprawiam rytuał opisany przez maestera. Ogarnia mnie żarliwa gorączka, gdy kończę modły — uczucie, jakiego moja wiara nigdy mi nie dała."
+ agot_rebuilding_ruins.0015.a:0 "Może Pierwsi Ludzie mieli rację."
+ agot_rebuilding_ruins.0015.b:0 "Nie... pozostanę wierny swojej wierze."
+
+###############################
+#     Learder by Example    #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0016.t:0 "Przewodzenie przez przykład"
+ agot_rebuilding_ruins.0016.desc:0 "Praca przy ruinach była wymagająca zarówno fizycznie, jak i psychicznie. Pomimo mojego statusu coraz częściej sam angażowałem się w trudne prace fizyczne razem z dworzanami. Dziś zauważyłem, że zyskali oni do mnie nowy szacunek dzięki wspólnej pracy."
+ agot_rebuilding_ruins.0016.a:0 "Wiele rąk czyni pracę lżejszą!"
+
+###############################
+#     A Curious Visitor       #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0017.t:0 "Ciekawski gość"
+ agot_rebuilding_ruins.0017.desc:0 "Wieść o moich staraniach przy odbudowie dawnych ruin rozeszła się szeroko. Dziś odwiedził mnie zaciekawiony lord, chcący obejrzeć postęp prac."
+ agot_rebuilding_ruins.0017.a:0 "Opowiem mu o militarnej historii i zaletach tych ruin!"
+ agot_rebuilding_ruins.0017.a.tt:0 "Wykorzystujesz swoją wiedzę wojskową."
+ agot_rebuilding_ruins.0017.b:0 "Wytłumaczę mu moje działania i oszczędności!"
+ agot_rebuilding_ruins.0017.b.tt:0 "Wykorzystujesz swoją wiedzę zarządczą."
+ agot_rebuilding_ruins.0017.c:0 "Urok osobisty mi wystarczy."
+ agot_rebuilding_ruins.0017.c.tt:0 "Wykorzystujesz swoją wiedzę dyplomatyczną."
+ agot_rebuilding_ruins.0017.win.title:0 "Zrobiłeś dobre wrażenie"
+ agot_rebuilding_ruins.0017.lose.title:0 "Nie zrobiłeś dobrego wrażenia"
+
+###############################
+#     Jenye z Summerhall      #
+#     ZombieSchrodCat         #
+###############################
+
+ agot_rebuilding_ruins.0018.t:0 "Kwiat ruin"
+ agot_rebuilding_ruins.0018.desc:0 "Dawniej siedziba szlachetnego rodu, ruiny są teraz miejscem odwiedzanym i wykorzystywanym przez okoliczną ludność. Choć nasze prace nad odbudową wywołały pewien niepokój wśród mieszkańców, miejscowa dziewczyna stała się pomostem między nami. Obdarzona muzycznym talentem, zyskała sympatię moich dworzan i rycerzy pracujących przy ruinach. Dziś zaczęła grać na harfie, którą miał jeden z robotników, a wszyscy zatrzymali się, by posłuchać jej gry."
+ agot_rebuilding_ruins.0018.a:0 "Chyba dziś zrobimy sobie przerwę od budowy!"
+ agot_rebuilding_ruins.0018.a.tt:0 "Można nacieszyć się muzyką i odpocząć."
+ agot_rebuilding_ruins.0018.b:0 "Taki talent mile widziany na moim dworze!"
+ agot_rebuilding_ruins.0018.b.tt:0 "Oferujesz jej miejsce na swoim dworze!"
+
+##############################
+#        Moat Cailin         #
+#          by Lord           #
+##############################
+ agot_rebuilding_ruins.1001.t:0 "Szczęki na moczarach"
+ agot_rebuilding_ruins.1001.desc:0 "Otoczenie warowni potrafi zapewnić obrońcom tyle samo bezpieczeństwa, jeśli nie więcej, co jej mury i wały — tak jak Orle Gniazdo na Szczycie Giganta czy Riverrun nad Rozwidleniem Czerwonej Rzeki.\n\nCzasem jednak to, co jednego dnia jest sprzyjającym środowiskiem, może innego stać się nieprzewidywalnym zagrożeniem. To właśnie moje zmartwienie, gdyż jaszczurolwy atakują nieostrożnych robotników na bagnie."
+ agot_rebuilding_ruins.1001.a:0 "Straty są akceptowalne przy tak wielkim projekcie."
+ agot_rebuilding_ruins.1001.b:0 "Zatrudnij ludzi do ochrony placu budowy."
+ agot_rebuilding_ruins.1001.c:0 "Wyślij zawodowców na polowanie na te bagienne demony!"
+ agot_rebuilding_ruins.1001.c.tt:0 "Wracają z czaszką jaszczurolwa."
+ agot_rebuilding_ruins.1001.d:0 "Niech pożerają tylko tych najmniej sumiennych."
+ agot_rebuilding_ruins.1001.e:0 "Musi być jakiś powód, dla którego te bestie kochają ludzkie mięso..."
+
+ agot_rebuilding_ruins.1002.t:0 "Lekcje z ruin"
+ agot_rebuilding_ruins.1002.desc:0 "Tak jak Moat Cailin nie zawsze był ruiną, tak Neck nie zawsze był bagnem. Choć wielu wierzy, że to Młot Wód stworzył to grzęzawisko, pełne jaszczurolwów i krwawych lilii, zrodzone z gniewu Dzieci Lasu, prawda jest nadal przedmiotem sporów.\n\nSam Moat Cailin to podejrzane miejsce, skąd Dzieci mogły rzucać swoje mroczne czary, a maester przybył pilnie z Cytadeli. Wygląda na to, że moja próba odbudowy Moat Cailin może zakłócić ślady dawnych tajemnic, a [new_maester.GetName] chciałby uzyskać dostęp do miejsca przed zakończeniem prac.\n\n[new_maester.GetSheHe|U] nie ukrywa, że [new_maester.GetHerHis] obecność może spowolnić prace, lecz z szacunkiem nalega, bym przychylił się do tej prośby."
+ agot_rebuilding_ruins.1002.a:0 "Dobrze, ale podziel się ze mną swoją wiedzą."
+ agot_rebuilding_

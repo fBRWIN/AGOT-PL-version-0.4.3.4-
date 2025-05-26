@@ -1,0 +1,100 @@
+﻿l_english:
+ ########################
+ ###Kingsguard Opinions##
+ ########################
+ courtly_lowborn_kingsguard_opinion:0 "Powołanie Niskiego do Królewskiej Gwardii"
+ zealot_infidel_kingsguard_opinion:0 "Powołanie Pogana do Królewskiej Gwardii"
+ broke_vows_opinion:0 "Złamał Przysięgę"
+
+ ######################
+ ###Culture Opinions##
+ ######################
+ sand_dornish_opinion:0 "$sand_dornish$ Opinia"
+ salt_dornish_opinion:0 "$salt_dornish$ Opinia"
+ stone_dornish_opinion:0 "$stone_dornish$ Opinia"
+ high_valyrian_opinion:0 "$high_valyrian$ Opinia"
+ westerosi_valyrian_opinion:0 "$westerosi_valyrian$ Opinia"
+ clawman_opinion:0 "$clawman$ Opinia"
+ ironborn_opinion:0 "$ironborn$ Opinia"
+ northman_opinion:0 "$northman$ Opinia"
+ barrowman_opinion:0 "$barrowman$ Opinia"
+ bearman_opinion:0 "$bearman$ Opinia"
+ crannogman_opinion:0 "$crannogman$ Opinia"
+ hill_clansman_opinion:0 "$hill_clansman$ Opinia"
+ wolfswood_clansman_opinion:0 "$wolfswood_clansman$ Opinia"
+ krakenman_opinion:0 "$krakenman$ Opinia"
+ harborman_opinion:0 "$harborman$ Opinia"
+ riverlander_opinion:0 "$riverlander$ Opinia"
+ stormlander_opinion:0 "$stormlander$ Opinia"
+ marcher_opinion:0 "$marcher$ Opinia"
+ westerman_opinion:0 "$westerman$ Opinia"
+ hornfoot_opinion:0 "$hornfoot$ Opinia"
+ forestman_opinion:0 "$forestman$ Opinia"
+ fangman_opinion:0 "$fangman$ Opinia"
+ ice_riverman_opinion:0 "$ice_riverman$ Opinia"
+ frozen_shoreman_opinion:0 "$frozen_shoreman$ Opinia"
+ thenn_opinion:0 "$thenn$ Opinia"
+ nightrunner_opinion:0 "$nightrunner$ Opinia"
+ lakeman_opinion:0 "$lakeman$ Opinia"
+ braavosi_opinion:0 "$braavosi$ Opinia"
+ lyseni_opinion:0 "$lyseni$ Opinia"
+ hartalari_opinion:0 "$hartalari$ Opinia"
+ tyroshi_opinion:0 "$tyroshi$ Opinia"
+ myrish_opinion:0 "$myrish$ Opinia"
+ pentoshi_opinion:0 "$pentoshi$ Opinia"
+ norvoshi_opinion:0 "$norvoshi$ Opinia"
+ qohorik_opinion:0 "$qohorik$ Opinia"
+ volantene_opinion:0 "$volantene$ Opinia"
+ andalosi_opinion:0 "$andalosi$ Opinia"
+ axeman_opinion:0 "$axeman$ Opinia"
+ rhoynish_opinion:0 "$rhoynish$ Opinia"
+ dothraki_opinion:0 "$dothraki$ Opinia"
+
+ ######################
+ ###Government Opinions##
+ ######################
+ pirate_government_opinion:0 "Opinia Pirata"
+
+ ######################
+ ###Misc Opinions##
+ ######################
+ offered_concubine_opinion:0 "Zaoferowano Mi Konkubinę"
+ agot_unworthy_opinion:0 "Niegodny"
+ agot_supported_legitimate_house_claim:0 "Wsparłem moje [agot_legitimate_house|E] roszczenie"
+ agot_denied_legitimate_house_claim:0 "Odmówiłem uznania mojego [agot_legitimate_house|E] roszczenia"
+ agot_supported_enemy_legitimate_house_claim:0 "Wsparłem roszczenie innego domu do [agot_legitimate_house|E]"
+ agot_denied_enemy_legitimate_house_claim:0 "Odmówiłem uznania roszczenia innego domu do [agot_legitimate_house|E]"
+ agot_defamed_my_legitimacy_opinion:0 "Zhańbiono moją legalność"
+ agot_hurt_me_for_a_ritual:0 "Zraniono mnie w rytuale"
+ agot_betrayed_my_support_opinion:0 "Zdradzono moje wsparcie kłamiąc o ich tożsamości"
+ agot_killed_my_kin_story_opinion:0 "Zamordowano moją bliską rodzinę"
+ agot_sacrificed_member_of_court:0 "Poświęcono poddany"
+ personal_steward_mediation_opinion:0 "Mediacja Osobistego Stewarda"
+ dishonorable_opinion:0 "Niegodny"
+ cut_on_throne_opinion:0 "Odrzucony przez Tron"
+ forced_to_nightswatch_opinion:0 "Zmuszono mnie do Nocnej Straży"
+ heir_violates_tradition:0 "Powołano Niezwyczajnego Następcę"
+ band_of_nine_opinion:0 "Band of the Nine"
+
+ ###########
+ # DRAGONS #
+ ###########
+ burned_my_holding:0 "Spalono moje [county|E]"
+ burned_my_vassals_holding:0 "Spalono [vassal|E]'s [county|E]"
+ instructed_burned_my_holding:0 "Poleciłem spalenie mojego [county|E]"
+ instructed_burned_my_vassals_holding:0 "Poleciłem spalenie [vassal|E]'s [county|E]"
+ ran_terror_campaign:0 "Prowadziłem kampanię terroru [dragon|E]"
+ rejected_terror_campaign:0 "Odrzucono moją prośbę o kampanię terroru"
+ agreed_to_dragon_conquest:0 "Dobrowolnie poddałem się mi i mojemu [dragon|E]"
+ let_me_dragon_ride:0 "Pozwolił mi na jazdę na smoku"
+ refused_me_dragon_ride:0 "Odmówił mi jazdy na smoku"
+ revoked_access_to_dragonpit:0 "Odebrano mi dostęp do [authorized_tamer|E]"
+ denied_access_to_dragonpit:0 "Odmówiono mi dostępu do [authorized_tamer|E]"
+ granted_access_to_dragonpit:0 "Przyznano mi dostęp do [authorized_tamer|E]"
+ banned_from_dragonpit:0 "Zbanowano mnie z [dragonpit|e]"
+ reversed_ban_from_dragonpit:0 "Zniesiono mój zakaz z [dragonpit|e]"
+ agot_drank_wildfire_died:0 "Zginął przez wypicie ognia dzikiego"
+ agot_drank_wildfire_lived:0 "Wypił ogień dziki"
+ agot_tried_to_sacrifice_me:0 "Próbował mnie poświęcić"
+ agot_refused_horn_blow:0 "Odmówił dmuchania w róg smoka dla mnie"
+ agot_stole_horn:0 "Ukuto mój róg smoka"

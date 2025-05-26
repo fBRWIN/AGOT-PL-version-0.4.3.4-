@@ -1,0 +1,214 @@
+﻿l_english:
+ ### Petty Kingdom Proclamations
+ I_PROCLAIM_PK:0 "Musisz [completely_control|E] co najmniej dwa [duchies|E]"
+ I_PROCLAIM_IT:0 "Musisz [completely_control|E] co najmniej pięć [empires|E] w Westeros."
+
+ # Proclaim the Kingdom of Duskendale
+ agot_proclaim_pk_duskendale:0 "Ogłoś Królestwo Duskendale"
+ agot_proclaim_pk_duskendale_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Duskendale"
+ agot_proclaim_pk_duskendale_desc:0 "Duskendale, pod rządami rodu [ROOT.Char.GetHouse.GetName], jest teraz rozbitą cieniem tego, czym mogłoby być.\n\nPołożone wzdłuż strategicznego wybrzeża Zatoki Czarnej Wody, Duskendale ma potencjał, by stać się kolebką miast po obu stronach rzeki. Jako dziedzic jego dziedzictwa, twoim obowiązkiem jest zjednoczyć te ziemie i ustanowić królestwo.\n\nCzy podejmiesz wyzwanie dla honoru rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_duskendale_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Dreadlands
+ agot_proclaim_pk_the_dreadlands:0 "Ogłoś Królestwo Strasznych Ziem"
+ agot_proclaim_pk_the_dreadlands_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Strasznych Ziem"
+ agot_proclaim_pk_the_dreadlands_desc:0 "Straszne Ziemie, ich wrzosowiska przesiąknięte krwią tysiąca złowrogich rządów, od dawna są symbolem strachu na Północy.\n\nZnane z ponurej historii i bezlitosnych lordów, Straszne Ziemie zajmują strategiczną pozycję nad Płaczącą Wodą. Jako ich [ROOT.Char.GetLadyLord], obowiązkiem rodu [ROOT.Char.GetHouse.GetName] jest zjednoczyć te ziemie i przywrócić regionowi jego mroczną chwałę.\n\nCzy przyjmiesz dziedzictwo oprawcy i sięgniesz po koronę?"
+ agot_proclaim_pk_the_dreadlands_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Runestone
+ agot_proclaim_pk_runestone:0 "Ogłoś Królestwo Runowego Kamienia"
+ agot_proclaim_pk_runestone_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Runowego Kamienia"
+ agot_proclaim_pk_runestone_desc:0 "Runowy Kamień, starożytna ziemia Pierwszych Ludzi, został zjednoczony pod sztandarem [ROOT.Char.GetHouse.GetName].\n\nNiegdyś rządzone przez Brązowych Królów, te ziemie mają wielkie znaczenie historyczne i strategiczne w Dolinie. Jako ich [ROOT.Char.GetLadyLord], musisz zebrać swoich wasali i przywrócić linię Brązowych Królów.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_runestone_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Neck
+ agot_proclaim_pk_the_neck:0 "Ogłoś Królestwo Szyi"
+ agot_proclaim_pk_the_neck_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Szyi"
+ agot_proclaim_pk_the_neck_desc:0 "Szyja, zdominowana przez crannogmenów z rodu [ROOT.Char.GetHouse.GetName], to kluczowy region będący naturalną barierą między Północą a resztą Westeros.\n\nZnane z niebezpiecznych bagien i wytrwałego ludu, te moczary są prawdziwym bastionem [ROOT.Char.GetHouse.GetNameNoTooltip]. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Szyi niezależność.\n\nCzy przyjmiesz dziedzictwo crannogmenów i wstąpisz na Bagienny Tron?"
+ agot_proclaim_pk_the_neck_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Stone and Sky
+ agot_proclaim_pk_stone_and_sky:0 "Ogłoś Królestwo Kamienia i Nieba"
+ agot_proclaim_pk_stone_and_sky_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Kamienia i Nieba"
+ agot_proclaim_pk_stone_and_sky_desc:0 "Szeroka Droga, zdominowana przez ród [ROOT.Char.GetHouse.GetName] z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], jest najpewniejszym szlakiem do Dorne.\n\nNiegdyś rządzone przez Królów Kamienia i Nieba, ród [ROOT.Char.GetHouse.GetNameNoTooltip] zyskał wystarczającą władzę, by sięgnąć po to dziedzictwo. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zrobić ten krok i przywrócić blask temu zapomnianemu tronowi.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_stone_and_sky_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Withermoore
+ agot_proclaim_pk_withermoore:0 "Ogłoś Królestwo Withermoore"
+ agot_proclaim_pk_withermoore_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Withermoore"
+ agot_proclaim_pk_withermoore_desc:0 "Withermoore, rządzone przez szlachetny ród [ROOT.Char.GetHouse.GetName], ma bogatą historię jako strażnicy północnego wybrzeża Zachodnich Krain.\n\nZnane z mrocznego i nekromantycznego dziedzictwa, Withermoore jest odległe, ale umocnione przed obcymi. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć je i zaprowadzić rządy nowego Zakapturzonego [ROOT.Char.Custom('GetQueenKing')|U].\n\nCzy podejmiesz wyzwanie i sięgniesz po władzę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_withermoore_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Westmarch
+ agot_proclaim_pk_westmarch:0 "Ogłoś Królestwo Zachodniego Marszu"
+ agot_proclaim_pk_westmarch_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Zachodniego Marszu"
+ agot_proclaim_pk_westmarch_desc:0 "Zachodni Marsz, rządzony z siedziby [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu strategicznym i militarnym.\n\nZnany z wybitnych wojowników i zdradliwych wzgórz, Westmarch od zawsze był bastionem przed najazdami z Dorne do Reach. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i stworzyć tu królestwo.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor dla [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_westmarch_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Eastmarch
+ agot_proclaim_pk_eastmarch:0 "Ogłoś Królestwo Wschodniego Marszu"
+ agot_proclaim_pk_eastmarch_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Wschodniego Marszu"
+ agot_proclaim_pk_eastmarch_desc:0 "Wschodni Marsz, rządzony z siedziby [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu strategicznym w Krainach Burzy.\n\nZnani ze swojej czujności i umiejętności bojowych, lordowie Eastmarch od dawna chronili Krainy Burzy przed najazdami z Dorne przez Czerwone Góry. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć te ziemie i przywrócić Królestwo Eastmarch do dawnej potęgi.\n\nCzy podejmiesz wyzwanie i odzyskasz honor rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_eastmarch_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Hook
+ agot_proclaim_pk_the_hook:0 "Ogłoś Królestwo Haka"
+ agot_proclaim_pk_the_hook_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Haka"
+ agot_proclaim_pk_the_hook_desc:0 "Hak, rządzony z siedziby [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu strategicznym w Królewskich Krainach.\n\nZnany z gęstych lasów i rozległych stoczni, lordowie Haka od dawna sprzyjali sojuszom wzdłuż całego Wąskiego Morza. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć te ziemie i przywrócić Królestwu Haka dawną chwałę.\n\nCzy podejmiesz wyzwanie i odzyskasz honor rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_hook_confirm:0 "Wyślij kruki."
+
+
+ # Proclaim the Kingdom of the Claw
+ agot_proclaim_pk_the_claw:0 "Ogłoś Królestwo Pazura"
+ agot_proclaim_pk_the_claw_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Pazura"
+ agot_proclaim_pk_the_claw_desc:0 "Pazur, rządzony z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu strategicznym w Królewskich Krainach.\n\nZnany z niebezpiecznych bagien i niezależnie myślącego ludu, lordowie Pazura od dawna chronili wschodnie wybrzeże Westeros. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć te ziemie i ujarzmić Pazur.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_claw_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the High Tower
+ agot_proclaim_pk_oldtown:0 "Ogłoś Królestwo Wysokiej Wieży"
+ agot_proclaim_pk_oldtown_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Wysokiej Wieży"
+ agot_proclaim_pk_oldtown_desc:0 "Stare Miasto, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to jedno z najstarszych i najważniejszych miast w Westeros.\n\nZnane ze swojej bogatej historii, Cytadeli i Gwiezdnego Septu, Stare Miasto jest centrum wiedzy, wiary i handlu. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest przywrócić Hightower należną mu wielkość.\n\nCzy podejmiesz wyzwanie i odzyskasz honor rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_oldtown_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Fingers
+ agot_proclaim_pk_fingers:0 "Ogłoś Królestwo Palców"
+ agot_proclaim_pk_fingers_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Palców"
+ agot_proclaim_pk_fingers_desc:0 "Palce, rządzone przez rycerski ród [ROOT.Char.GetHouse.GetName], to surowy i ubogi region położony wzdłuż wschodniego wybrzeża Doliny Arrynów.\n\nZnane z skalistych półwyspów i zdradliwego wybrzeża, Palce były często pomijane na rzecz bardziej żyznych ziem. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest obalić te oczekiwania i uczynić z Palców godnego rywala dla każdej morskiej potęgi Westeros.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_fingers_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Gods Eye
+ agot_proclaim_pk_the_gods_eye:0 "Ogłoś Królestwo Oka Boga"
+ agot_proclaim_pk_the_gods_eye_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Oka Boga"
+ agot_proclaim_pk_the_gods_eye_desc:0 "Oko Boga, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], to region przesiąknięty historią i legendą.\n\nOko Boga było rządzone przez różne szlacheckie rody, z których każdy pozostawił ślad na tej przeklętej ziemi. Kraina była świadkiem wzlotów i upadków dziesiątek rodów, a teraz znajduje się pod panowaniem rodu [ROOT.Char.GetHouse.GetName]. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Oku Boga dobrobyt.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_gods_eye_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Barrows and Rills
+ agot_proclaim_pk_barrows_and_rills:0 "Ogłoś Królestwo Kurhanów i Strumieni"
+ agot_proclaim_pk_barrows_and_rills_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Kurhanów i Strumieni"
+ agot_proclaim_pk_barrows_and_rills_desc:0 "Kurhany i Strumienie, rządzone przez szlachetny ród [ROOT.Char.GetHouse.GetName], obejmują region bogaty w historię i strategiczne znaczenie dla Północy.\n\nZnane ze starożytnych kurhanów Pierwszych Ludzi i licznych strumieni, to królestwo od dawna jest bastionem odporności. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Kurhanów i Strumieni chwałę.\n\nCzy podejmiesz wyzwanie i odzyskasz honor tych historycznych ziem?"
+ agot_proclaim_pk_barrows_and_rills_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Great Wyk
+ agot_proclaim_pk_great_wyk:0 "Ogłoś Królestwo Wielkiego Wyk"
+ agot_proclaim_pk_great_wyk_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Wielkiego Wyk"
+ agot_proclaim_pk_great_wyk_desc:0 "Wyspa Wielki Wyk, rządzona z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], jest największą i jedną z najważniejszych wysp Żelaznych Wysp.\n\nZnani ze swojej zaciekłej niezależności i zdolności bojowych, ludzie ci od dawna są niezłomnymi obrońcami stylu życia Żelaznych Ludzi. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć królestwo, które przyniesie wyspie chwałę.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_great_wyk_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of The Wolfswood
+ agot_proclaim_pk_the_wolfswood:0 "Ogłoś Królestwo Wilczego Lasu"
+ agot_proclaim_pk_the_wolfswood_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Wilczego Lasu"
+ agot_proclaim_pk_the_wolfswood_desc:0 "Wilczy Las, rządzony z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region rozległych lasów i starożytnej historii na Północy.\n\nZnany z surowego terenu i lojalnych wasali, Wilczy Las od dawna jest kluczowym regionem obronnym Północy. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Wilczego Lasu dawną świetność.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_wolfswood_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the White Knife
+ agot_proclaim_pk_the_white_knife:0 "Ogłoś Królestwo Białego Noża"
+ agot_proclaim_pk_the_white_knife_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Białego Noża"
+ agot_proclaim_pk_the_white_knife_desc:0 "Biały Nóż, rządzony z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez lojalny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu gospodarczym i strategicznym na Północy.\n\nZnany z tętniącego życiem portu i unikalnego połączenia kultury Północy i Południa, region ten jest głównym ośrodkiem handlu na Północy. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i uczynić z Białego Noża prawdziwe królestwo.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_white_knife_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Brimstone
+ agot_proclaim_pk_the_brimstone:0 "Ogłoś Królestwo Siarki"
+ agot_proclaim_pk_the_brimstone_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Siarki"
+ agot_proclaim_pk_the_brimstone_desc:0 "Siarka, rządzona z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez nieprzewidywalny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu w południowym Dorne.\n\nZnani ze swojej zaciekłej niezależności i siarkowych wód rzeki Brimstone, ludzie ci mają reputację bezwzględnych i przebiegłych. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Siarki dawną wielkość.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_brimstone_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Green Fork
+ agot_proclaim_pk_the_green_fork:0 "Ogłoś Królestwo Zielonego Rozwidlenia"
+ agot_proclaim_pk_the_green_fork_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Zielonego Rozwidlenia"
+ agot_proclaim_pk_the_green_fork_desc:0 "Zielone Rozwidlenie, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez ród [ROOT.Char.GetHouse.GetName] i historycznie związane z wymarłymi królami Muddów z Oldstones, to kluczowy region Dorzecza.\n\nZnane z żyznych ziem i ważnych dróg wodnych, Rozwidlenie było centrum władzy i konfliktu. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i zostać monarchą Zielonego Rozwidlenia.\n\nCzy podejmiesz wyzwanie i zdobędziesz honor tych historycznych rodów?"
+ agot_proclaim_pk_the_green_fork_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of The Stony Shore
+ agot_proclaim_pk_the_stony_shore:0 "Ogłoś Królestwo Kamienistego Wybrzeża"
+ agot_proclaim_pk_the_stony_shore_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Kamienistych Skał"
+ agot_proclaim_pk_the_stony_shore_desc:0 "Królestwo Kamienistego Wybrzeża, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu strategicznym na Północy.\n\nZnane z surowego terenu i wytrwałego ludu, Kamieniste Wybrzeże od dawna było bastionem Północnych. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć te ziemie i wynieść Kamieniste Wybrzeże do znaczenia.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_stony_shore_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Torrentine
+ agot_proclaim_pk_the_torrentine:0 "Ogłoś Królestwo Torrentine"
+ agot_proclaim_pk_the_torrentine_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Torrentine"
+ agot_proclaim_pk_the_torrentine_desc:0 "Torrentine, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez honorowy ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorne.\n\nZnane z rycerzy legendy, ród [ROOT.Char.GetHouse.GetName] reprezentuje całą rycerskość i waleczność swojego ludu. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Torrentine dawną chwałę.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_torrentine_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Blue Fork
+ agot_proclaim_pk_the_blue_fork:0 "Ogłoś Królestwo Niebieskiego Rozwidlenia"
+ agot_proclaim_pk_the_blue_fork_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Niebieskiego Rozwidlenia"
+ agot_proclaim_pk_the_blue_fork_desc:0 "Niebieskie Rozwidlenie, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorzeczu.\n\nZnani ze starożytnego rodowodu i żarliwej lojalności wobec starych bogów, jego ludzie od dawna są symbolem wytrwałości i honoru. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć wspaniałe królestwo nad Niebieskim Rozwidleniem.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_blue_fork_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Yronwood
+ agot_proclaim_pk_yronwood:0 "Ogłoś Królestwo Yronwood"
+ agot_proclaim_pk_yronwood_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Yronwood"
+ agot_proclaim_pk_yronwood_desc:0 "Yronwood, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorne.\n\nZnani jako Strażnicy Kamiennej Drogi, ród [ROOT.Char.GetHouse.GetNameNoTooltip] od dawna stoi na straży przed najazdami z Krain Burzy. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zrobić kolejny krok i ponownie ogłosić Królestwo Yronwood.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_yronwood_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Southstone
+ agot_proclaim_pk_southstone:0 "Ogłoś Królestwo Southstone"
+ agot_proclaim_pk_southstone_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Southstone"
+ agot_proclaim_pk_southstone_desc:0 "Southstone, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorzeczu.\n\nZnane z żyznych ziem wzdłuż Tridentu, ród [ROOT.Char.GetHouse.GetNameNoTooltip] od dawna rządził jako symbol wytrwałości i siły. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Southstone dawną chwałę.\n\nCzy podejmiesz wyzwanie i odzyskasz honor rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_southstone_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Trident's Mouth
+ agot_proclaim_pk_tridents_mouth:0 "Ogłoś Królestwo Ujścia Tridentu"
+ agot_proclaim_pk_tridents_mouth_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Ujścia Tridentu"
+ agot_proclaim_pk_tridents_mouth_desc:0 "Ujście Tridentu, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez bogaty ród [ROOT.Char.GetHouse.GetName], to region o dużym znaczeniu strategicznym i gospodarczym dla Dorzecza.\n\nZnane z historycznych powiązań i tętniącego życiem handlu przez Zatokę Krabów, jego porty od dawna są symbolem pobożności i sukcesu. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć Królestwo Ujścia Tridentu.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_tridents_mouth_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Last Lands
+ agot_proclaim_pk_the_last_lands:0 "Ogłoś Królestwo Ostatnich Ziem"
+ agot_proclaim_pk_the_last_lands_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Ostatnich Ziem"
+ agot_proclaim_pk_the_last_lands_desc:0 "Ostatnie Ziemie, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez lojalny ród [ROOT.Char.GetHouse.GetName], to jedno z najbardziej surowych miejsc na Północy.\n\nZnani ze swoich zaciekłych wojowników i silnych więzi rodzinnych, jego ludzie od dawna bronią najbardziej wysuniętych na północ terytoriów królestwa. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć Królestwo Ostatnich Ziem.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę awangardy dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_last_lands_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Red Mountains
+ agot_proclaim_pk_the_red_mountains:0 "Ogłoś Królestwo Czerwonych Gór"
+ agot_proclaim_pk_the_red_mountains_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Czerwonych Gór"
+ agot_proclaim_pk_the_red_mountains_desc:0 "Czerwone Góry, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez wielki ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorne.\n\nZnani ze swojej zaciekłej niezależności i zdradliwego terenu, ludzie ci od dawna bronią dornijskich przełęczy. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Czerwonych Gór dawną wielkość.\n\nCzy podejmiesz wyzwanie i odzyskasz honor rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_red_mountains_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Tor
+ agot_proclaim_pk_the_tor:0 "Ogłoś Królestwo Toru"
+ agot_proclaim_pk_the_tor_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Toru"
+ agot_proclaim_pk_the_tor_desc:0 "Tor, rządzony z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu historycznym i strategicznym w Dorne.\n\nZnani ze starożytnego rodowodu i bogatego dziedzictwa kulturowego, ród [ROOT.Char.GetHouse.GetNameNoTooltip] jest symbolem dornijskiej wytrwałości i szlachetności. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć Królestwo Toru.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_tor_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Greenblood
+ agot_proclaim_pk_the_greenblood:0 "Ogłoś Królestwo Zielonej Krwi"
+ agot_proclaim_pk_the_greenblood_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Zielonej Krwi"
+ agot_proclaim_pk_the_greenblood_desc:0 "Królestwo Zielonej Krwi, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], koncentruje się wokół życiodajnej rzeki Dorne.\n\nPołożone u zbiegu rzek Scourge i Vaith, kontrolowanie przejścia tutaj od dawna jest kluczowym punktem obronnym Dorne. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć te ziemie i stworzyć Królestwo Zielonej Krwi.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_greenblood_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Tarth
+ agot_proclaim_pk_tarth:0 "Ogłoś Królestwo Tarth"
+ agot_proclaim_pk_tarth_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Tarth"
+ agot_proclaim_pk_tarth_desc:0 "Królestwo Tarth, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez rycerski ród [ROOT.Char.GetHouse.GetName], to wyspa o długiej historii i pełnych legend opowieściach.\n\nZnana jako Szafirowa Wyspa, Tarth słynie z oszałamiających krajobrazów i morskiego znaczenia. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przywrócić Królestwu Tarth dawną chwałę.\n\nCzy podejmiesz wyzwanie i sięgniesz po wyspę dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_tarth_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Ironman's Bay
+ agot_proclaim_pk_ironmans_bay:0 "Ogłoś Królestwo Zatoki Żelaznego Człowieka"
+ agot_proclaim_pk_ironmans_bay_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Zatoki Żelaznego Człowieka"
+ agot_proclaim_pk_ironmans_bay_desc:0 "Królestwo Zatoki Żelaznego Człowieka, rządzone przez szlachetny ród [ROOT.Char.GetHouse.GetName], znajduje się w sercu Żelaznych Wysp.\n\nZnani ze swoich zaciekłych wojowników i morskiej potęgi, ród [ROOT.Char.GetHouse.GetNameNoTooltip] jest znaczącym graczem wśród Żelaznych Ludzi. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i przynieść Królestwu Zatoki Żelaznego Człowieka chwałę.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_ironmans_bay_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Fair Isle
+ agot_proclaim_pk_fair_isle:0 "Ogłoś Królestwo Uroczej Wyspy"
+ agot_proclaim_pk_fair_isle_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Uroczej Wyspy"
+ agot_proclaim_pk_fair_isle_desc:0 "Urocza Wyspa, rządzona z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez szlachetny ród [ROOT.Char.GetHouse.GetName], to region o wielkim znaczeniu handlowym dla Zachodnich Krain.\n\nZnani ze swojej silnej floty i pięknych krajobrazów, ród [ROOT.Char.GetHouse.GetNameNoTooltip] jest dominującym władcą tego regionu. Jako [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i utworzyć Królestwo Uroczej Wyspy.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_fair_isle_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of the Arbor Straits
+ agot_proclaim_pk_the_arbor:0 "Ogłoś Królestwo Arbor"
+ agot_proclaim_pk_the_arbor_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Arbor"
+ agot_proclaim_pk_the_arbor_desc:0 "Cieśniny Arbor, rządzone z [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] przez prestiżowy ród [ROOT.Char.GetHouse.GetName], produkują najlepsze wina w całym Reach.\n\nDowodząc największą flotą obok tego, ród [ROOT.Char.GetHouse.GetNameNoTooltip] stoi u progu wielkości. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zjednoczyć ziemie i ogłosić Królestwo Cieśnin Arbor.\n\nCzy podejmiesz wyzwanie i zdobędziesz honory dla rodu [ROOT.Char.GetHouse.GetNameNoTooltip]?"
+ agot_proclaim_pk_the_arbor_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Kingdom of Bear Island
+ agot_proclaim_pk_bear_island:0 "Ogłoś Królestwo Niedźwiedziej Wyspy"
+ agot_proclaim_pk_bear_island_tooltip:0 "Ta decyzja pozwoli ci utworzyć Królestwo Niedźwiedziej Wyspy"
+ agot_proclaim_pk_bear_island_desc:0 "Niedźwiedzia Wyspa, której zalesione brzegi rządzone są przez szlachetny ród [ROOT.Char.GetHouse.GetName], od dawna jest twierdzą przeciwko najazdom Żelaznych Ludzi na Północ.\n\nZnani ze swoich zaciekłych wojowników i niezłomnej lojalności, ród [ROOT.Char.GetHouse.GetNameNoTooltip] od dawna jest niezłomnym obrońcą swojego ludu. Jako ich [ROOT.Char.GetLadyLord], twoim obowiązkiem jest zrobić kolejny krok i utworzyć koronę nad wyspą.\n\nCzy podejmiesz wyzwanie i zdobędziesz chwałę?"
+ agot_proclaim_pk_bear_island_confirm:0 "Wyślij kruki."
+
+ # Proclaim the Iron Throne
+ agot_proclaim_iron_throne:0 "Ogłoś Żelazny Tron"
+ agot_proclaim_iron_throne_tooltip:0 "Ta decyzja pozwoli ci utworzyć Siedem Królestw Żelaznego Tronu"
+ agot_proclaim_iron_throne_desc:0 "Żelazny Tron od dawna był symbolem jedności i potęgi w Westeros. Gdy niezliczone drobne lennictwa królestwa znalazły się pod naszymi sztandarami, nadszedł czas, aby zebrać ostrza pokonanych i wykuć nowy Żelazny Tron dla Siedmiu Królestw.\n\nCzy masz siłę, spryt i wolę, by sięgnąć po Ż

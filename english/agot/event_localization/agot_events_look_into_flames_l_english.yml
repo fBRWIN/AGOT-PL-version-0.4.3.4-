@@ -1,0 +1,74 @@
+﻿l_english:
+###############################
+# SPOJRZENIE W PŁOMIENIE – WYDARZENIA #
+###############################
+
+ agot_look_into_flames.0001.t:0 "Błogosławione płomienie"
+ agot_look_into_flames.0001.desc:0 "Mówi się, że [ROOT.Char.GetFaith.HighGodName] przemawia do wybranych przez błogosławiony ogień, językiem popiołów i iskier — językiem trudnym do pojęcia nawet dla jego kapłanów.\n\nObserwuję nocne stosy i zastanawiam się, co mogę ujrzeć w ich wnętrzu?\n\n[red_priest.GetFirstName] sugeruje, że ofiara z pewnością przysporzy mi łaski [ROOT.Char.GetFaith.HighGodNameAlternate]."
+ agot_look_into_flames.0001.prisoner:0 "We krwi królewskiej drzemie moc, która zadowoli [ROOT.Char.GetFaith.HighGodName]."
+ agot_look_into_flames.0001.prisoner.tt:0 "Gorliwi [vassals|E], [courtiers|E] i [guests|E] twojej wiary zyskują #P 10#! [opinion|E] o #V tobie#!"
+ agot_look_into_flames.0001.prisoner.tt.a:0 "Wszyscy [vassals|E], [courtiers|E] i [guests|E], którzy nie praktykują rytualnych ofiar, tracą #N 30#! [opinion|E] o #V tobie#!"
+ agot_look_into_flames.0001.peasants:0 "Czy kilku pospólstwa zadowoli [ROOT.Char.GetFaith.HighGodNameAlternate]?"
+ agot_look_into_flames.0001.peasants.tt:0 "Wszyscy [courtiers|E] i [guests|E], którzy nie praktykują rytualnych ofiar, tracą #N 15#! [opinion|E] o #V tobie#!"
+ agot_look_into_flames.0001.peasants.tt.a:0 "Gorliwi [courtiers|E] i [guests|E] twojej wiary zyskują #P 10#! [opinion|E] o #V tobie#!"
+ agot_look_into_flames.0001.false_idols:0 "Nie ma innych bogów poza [ROOT.Char.GetFaith.HighGodName], fałszywe bożki spłoną."
+ agot_look_into_flames.0001.false_idols.tt:0 "Mniejsza ofiara może nie przynieść upragnionej łaski..."
+ agot_look_into_flames.0001.a:0 "Tym razem nie złożę żadnej ofiary."
+ agot_look_into_flames.0001.a.tt:0 "Nie zostaną złożone żadne ofiary."
+ agot_look_into_flames.0001.b:0 "Po namyśle, to nie jest odpowiedni czas."
+
+ agot_look_into_flames.0002.t:0 "Niespełnione modlitwy"
+ agot_look_into_flames.0002.desc:0 "[red_priest.GetFirstName] i ja spędziliśmy godziny, noc w noc, wpatrując się w święty ogień, lecz mimo wszystkich starań żadne kształty ani postacie się nie pojawiły — ku niebu wzniosły się jedynie dym i iskry..."
+ agot_look_into_flames.0002.offering_desc:0 "Godziny mijają, a choć [red_priest.GetFirstName] nieustannie modli się z niesłabnącym zapałem, płomienie nie ukazują żadnych wizji ani znaków.\n\nOczy zaczynają mnie piec od dymu — mimo złożonej ofiary widzę jedynie zwykły płomień..."
+ agot_look_into_flames.0002.zealous:0 "Czy [ROOT.Char.GetFaith.HighGodNameAlternate] mnie opuścił?"
+ agot_look_into_flames.0002.cynical:0 "Ogień jak każdy inny..."
+ agot_look_into_flames.0002.a:0 "[ROOT.Char.GetFaith.HighGodNameAlternate] milczy."
+
+ agot_look_into_flames.vision_intro_desc:0 "Gdy [red_priest.GetFirstName] nieprzerwanie odmawia modlitwy przed ogniskiem odpędzającym mrok nocy, powoli pogrążam się w kontemplacji.\n\n"
+
+ agot_look_into_flames.vision_outro_desc:0 " #italic Czy zostałem obdarzony prawdziwą wizją od [ROOT.Char.GetFaith.HighGodName]? Jaką wiadomość niosła...?#!" #Dodatkowa spacja celowo – łączy się z opisem poniżej.
+
+ agot_look_into_flames.vision_title:0 "Wizja w płomieniach"
+ agot_look_into_flames.0003.t:0 "$agot_look_into_flames.vision_title$: Cień"
+ agot_look_into_flames.0003.desc:0 "Zaczarowany przez płomienie, dostrzegam zaledwie cień, ledwo rozpoznawalną sylwetkę ukrywającą się w mroku, która wraz z tańcem ognia zdaje się zapraszać gestem.\n\nPrzeszywa mnie dreszcz, a równie szybko jak dziwny cień się pojawił, tak rozpłynął się we mgle; ogień znów jest tylko ogniem."
+ agot_look_into_flames.0003.a:0 "Szept o przyszłej przyjaźni, która dopiero nadejdzie?"
+ agot_look_into_flames.0003.b:0 "Cienie czyhające w mroku... ostrzeżenie przed niebezpieczeństwem?"
+ agot_look_into_flames.0003.tt: "Moje modlitwy zostały wysłuchane."
+
+ agot_look_into_flames.0004.t:0 "$agot_look_into_flames.vision_title$: Wojownik"
+ agot_look_into_flames.0004.desc:0 "Zahipnotyzowany tańczącymi płomieniami dostrzegam poza ogniem zarys sylwetki — zdobywcy dzierżącego potężny miecz, otoczonego poległymi wrogami u swych stóp. W jednej chwili miecz wojownika pęka, a tysiące iskier unosi się ku niebu.\n\nPrzeszywa mnie dreszcz i ogień znów jest tylko ogniem."
+ agot_look_into_flames.0004.a: "[ROOT.Char.GetFaith.HighGodNameAlternate] poprowadzi mnie do zwycięstwa."
+ agot_look_into_flames.0004.b:0 "Lepiej unikać walk..."
+
+ agot_look_into_flames.0005.t:0 "$agot_look_into_flames.vision_title$: Zamek"
+ agot_look_into_flames.0005.desc:0 "Przez ułamek sekundy iskry wzbijające się w niebo zdają się płonąć jaśniej, a gdy wpatruję się przez tańczące płomienie, dostrzegam majestatyczny zamek — jakoś znajomy — rozpuszczający się w złocistych, migoczących iskrach.\n\nSerce zaczyna bić szybciej, lecz wszystko znika w mgnieniu oka, a ogień znów jest tylko ogniem."
+ agot_look_into_flames.0005.a:0 "Echo przyszłej chwały i bogactwa, które mnie czekają."
+ agot_look_into_flames.0005.a.tt:0 "Moja wytrwałość i pracowitość zostaną nagrodzone."
+ agot_look_into_flames.0005.b:0 "Przebłysk starej Valyrii, zamienionej w popiół."
+ agot_look_into_flames.0005.b.tt:0 "Zaintrygowany wizją, skupię się na badaniu dawnych imperiów."
+
+ agot_look_into_flames.0006.t:0 "$agot_look_into_flames.vision_title$: Sztylety w mroku"
+ agot_look_into_flames.0006.desc:0 "Kiedy trzaskający ogień wysyła iskry ku niebu, przez krótką chwilę zamieniają się one w płonące sztylety, przeszywające cienie ukryte za gęstym dymem unoszącym się w górę.\n\nOgarnia mnie strach i dreszcz przebiega po plecach mimo ciepła ogniska, a wszystko znika w jednej chwili; ogień znów jest tylko ogniem."
+ agot_look_into_flames.0006.a:0 "Muszę zachować czujność."
+ agot_look_into_flames.0006.b:0 "Może to czas na uderzenie?"
+
+ agot_look_into_flames.0007.t:0 "$agot_look_into_flames.vision_title$: Tańczące glify"
+ agot_look_into_flames.0007.desc:0 "Zahipnotyzowany migotaniem płomieni, widzę jak dym i wirujące ogniki przybierają kształt, a przez krótki moment błogosławiony ogień ukazuje dziwne symbole — pojawiające się, migoczące i zlewające ze sobą, jakby cienie tańczyły przede mną.\n\nTak szybko jak się pojawiły, znikają i płomień znów jest tylko zwykłym ogniem."
+ agot_look_into_flames.0007.a:0 "Muszę zgłębić wyższe tajemnice!"
+ agot_look_into_flames.0007.b:0 "Odpowiedzi muszą kryć się w starożytnych opowieściach..."
+
+ agot_look_into_flames.0008.t:0 "$agot_look_into_flames.vision_title$: Chodzenie bez szwanku"
+ agot_look_into_flames.0008.t.scheme:0 "$agot_look_into_flames.vision_title$: Zdrada ujawniona"
+
+ agot_look_into_flames.0008.desc:0 "Gdy [red_priest.GetFirstName] odprawia święte obrzędy i kontynuuje modlitwy przy nocnym ogniu, przez moment "
+
+ agot_look_into_flames.0008.scheme_murder_desc:0 "tańczące płomienie ukazują zarys zasłoniętego cienia — i rozpoznaję, że to [owner.GetTitledFirstName] knuje, by mnie #bold zamordować#!"
+ agot_look_into_flames.0008.scheme_abduction_desc:0 "tańczące płomienie ukazują zarys zasłoniętego cienia — i rozpoznaję, że to [owner.GetTitledFirstName] knuje, by mnie #bold porwać#!"
+ agot_look_into_flames.0008.scheme_steal_artifact_desc:0 "tańczące płomienie ukazują zarys zasłoniętego cienia — i rozpoznaję, że to [owner.GetTitledFirstName] knuje, by #bold ukraść mi artefakt#!"
+ agot_look_into_flames.0008.scheme_fallback_desc:0 "tańczące płomienie ukazują zarys zasłoniętego cienia — i rozpoznaję, że to [owner.GetTitledFirstName] knuje przeciwko mnie!"
+
+ agot_look_into_flames.0008.no_scheme_desc:0 "Rozpoznaję siebie w płomieniach.\n\nZ pochodnią w ręku kroczę bez szwanku przez ciemność. Bardziej niż kiedykolwiek jestem pewien, że [ROOT.Char.GetFaith.HighGodNameAlternate] czuwa nade mną."
+
+ agot_look_into_flames.0008.a:0 "[ROOT.Char.GetFaith.HighGodName] mi sprzyja."
+ agot_look_into_flames.0008.b:0 "Ten [owner.Custom('InsultAdjective')] łotr!"
+

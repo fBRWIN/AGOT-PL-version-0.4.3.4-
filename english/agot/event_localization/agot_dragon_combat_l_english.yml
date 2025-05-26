@@ -1,0 +1,335 @@
+﻿l_english:
+ # Precurser events
+ agot_dragon_combat.will_engage:0 "Stawisz czoła [enemy_dragonrider.GetTitledFirstName] i [enemy_dragon.GetName] w smoczym pojedynku!"
+ agot_dragon_combat.will_engage_enemy:0 "Stawisz czoła [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetName] w smoczym pojedynku!"
+ agot_dragon_combat.will_attempt_engage:0 "Spróbujesz zaatakować [enemy_dragonrider.GetTitledFirstName] i [enemy_dragon.GetName] w smoczym pojedynku!"
+ agot_dragon_combat.will_attempt_engage_enemy:0 "Spróbujesz zaatakować [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetName] w smoczym pojedynku!"
+ agot_dragon_combat.will_not:0 "Spróbujesz uciec przed [enemy_dragonrider.GetTitledFirstName] i [enemy_dragon.GetName]!"
+ agot_dragon_combat.will_not_enemy:0 "Spróbujesz uciec przed [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetName]!"
+
+ agot_dragon_combat.0001.t:0 "Wypatrzono jeźdźca smoka"
+ agot_dragon_combat.0001.desc_opening:0 "Ja i [dragon_in_battle.GetName] lecimy nad [battle_location.GetName],"
+ agot_dragon_combat.0001.desc_opening_fly:0 " krajobraz mija w dole, gdy pędzimy ku wojskom [enemy_commander_in_battle.GetTitledFirstName]."
+ agot_dragon_combat.0001.desc_opening_fight:0 " mając już za sobą spalenie dziesiątek ludzi [enemy_commander_in_battle.GetTitledFirstNamePossessive] w płomieniach."
+ agot_dragon_combat.0001.desc_opening_end:0 " Lecz na niebie dostrzegam groźniejszego przeciwnika.\n\n"
+ agot_dragon_combat.0001.desc_younger:0 "starszego smoka [enemy_dragon.GetName], większego niż mój [dragon_in_battle.GetNameNoTooltip], z [enemy_dragonrider.GetTitledFirstName] w siodle [enemy_dragon.Custom('GetDragonHerHim')]."
+ agot_dragon_combat.0001.desc_older:0 "młodszego smoka [enemy_dragon.GetName], mniejszego niż mój [dragon_in_battle.GetNameNoTooltip], z [enemy_dragonrider.GetTitledFirstName] w siodle [enemy_dragon.Custom('GetDragonHerHim')]."
+ agot_dragon_combat.0001.desc_same_age:0 "smoka [enemy_dragon.GetName], o rozmiarach zbliżonych do mojego [dragon_in_battle.GetNameNoTooltip], z [enemy_dragonrider.GetTitledFirstName] w siodle [enemy_dragon.Custom('GetDragonHerHim')]."
+ agot_dragon_combat.0001.desc_weaker_warrior:0 " Choć wiem, że [enemy_dragonrider.GetFirstName] jest słabszym wojownikiem ode mnie, tutaj to nie pomoże.\n\n"
+ agot_dragon_combat.0001.desc_stronger_warrior:0 " Choć wiem, że [enemy_dragonrider.GetFirstName] jest lepszym wojownikiem ode mnie, tutaj nie przyniesie mu to żadnej korzyści.\n\n"
+ agot_dragon_combat.0001.desc_warrior:0 " Choć wiem, że [enemy_dragonrider.GetFirstName] jest wyszkolonym wojownikiem, a ja nie, tutaj mu to nie pomoże.\n\n"
+ agot_dragon_combat.0001.desc_weak:0 " Choć wiem, że [enemy_dragonrider.GetFirstName] jest znacznie gorszym wojownikiem ode mnie, tutaj to nic nie znaczy.\n\n"
+ agot_dragon_combat.0001.desc_equally_weak:0 " Choć żadne z nas nie jest typowym wojownikiem, w starciu takich bestii nie będzie liczył się oręż.\n\n"
+ agot_dragon_combat.0001.desc_end:0 "Nie — to starcie rozstrzygnie się poprzez siłę naszych smoków i to, jak ją wykorzystamy. Dostrzegam [enemy_dragonrider.GetFirstNameNoTooltip] i [enemy_dragon.GetNameNoTooltip] jako pierwszy, więc teraz muszę się zastanowić — czy rozpocznę ten taniec smoków?"
+ agot_dragon_combat.0001.a:0 "Do ataku, [dragon_in_battle.GetNameNoTooltip]!"
+ agot_dragon_combat.0001.a.brother:0 "Zatem bracie, zakończmy to!"
+ agot_dragon_combat.0001.a.sister:0 "Zatem siostro, zakończmy to!"
+ agot_dragon_combat.0001.a.father:0 "Zatem ojcze, zakończmy to!"
+ agot_dragon_combat.0001.a.mother:0 "Zatem matko, zakończmy to!"
+ agot_dragon_combat.0001.a.son:0 "Zatem mój synu, zakończmy to!"
+ agot_dragon_combat.0001.a.daughter:0 "Zatem moja córko, zakończmy to!"
+ agot_dragon_combat.0001.b:0 "Bitwa? Tutaj? #EMP A gdzieżby tam#!"
+ agot_dragon_combat.0001.b.weaker:0 "To wydaje się nierozsądne."
+ agot_dragon_combat.0001.b.coward:0 "Walczyć z innym smokiem? Ani mi się śni!"
+ agot_dragon_combat.0001.b.notice:0 "Zauważają twoją ucieczkę i mogą podjąć pościg"
+ agot_dragon_combat.0001.b.no_notice:0 "Nie zauważają, że opuszczasz pole bitwy"
+ agot_dragon_combat.0001.b.swift:0 "#P Szybkość [dragon_in_battle.GetNamePossessiveNoTooltip] ułatwi ucieczkę#!"
+ agot_dragon_combat.0001.b.slow:0 "#N Powolność [dragon_in_battle.GetNamePossessiveNoTooltip] utrudni ucieczkę#!"
+
+ agot_dragon_combat.0002.t:0 "Powietrzna zasadzka!"
+ agot_dragon_combat.0002.desc:0 "Palenie wojsk [dragon_commander_in_battle.GetTitledFirstName] trwa w najlepsze nad polem bitwy [battle_location.GetName], gdy nagle kolejny strumień ognia przeszywa niebo!\n\nCzuję, jak [enemy_dragon.GetName] nurkuje spod nas, gorący podmuch owiewa mi twarz — ledwo unikamy płomieni. Spoglądam w górę i widzę, jak smok [dragon_in_battle.GetName] przelatuje nad nami z zaskakującą prędkością, a jego jeździec [dragonrider_in_battle.GetTitledFirstName] patrzy na mnie z siodła z morderczym zamiarem.\n\n[dragonrider_in_battle.GetSheHe|U] pragnie walki!"
+ agot_dragon_combat.0002.a:0 "Zatem [dragonrider_in_battle.GetSheHe] ją dostanie!"
+ agot_dragon_combat.0002.b:0 "Musimy się stąd wydostać!"
+ agot_dragon_combat.0002.b.flee:0 "Uciekasz przed [dragon_in_battle.GetName] i opuszczasz pole bitwy"
+ agot_dragon_combat.0002.b.swift:0 "#P Szybkość [enemy_dragon.GetNamePossessiveNoTooltip] ułatwi ucieczkę#!"
+ agot_dragon_combat.0002.b.slow:0 "#N Powolność [enemy_dragon.GetNamePossessiveNoTooltip] utrudni ucieczkę#!"
+ agot_dragon_combat.0002.b.enemy_swift:0 "#N Szybkość [dragon_in_battle.GetNamePossessiveNoTooltip] utrudni ucieczkę#!"
+ agot_dragon_combat.0002.b.enemy_slow:0 "#P Powolność [dragon_in_battle.GetNamePossessiveNoTooltip] ułatwi ucieczkę#!"
+ agot_dragon_combat.0002.escape.t:0 "[enemy_dragonrider.GetShortUIName] ucieka przed tobą!"
+ agot_dragon_combat.0002.escape.desc:0 "[enemy_dragonrider.GetShortUIName] zamiast stanąć do walki, odlatuje na [enemy_dragon.GetName]!"
+
+
+ agot_dragon_combat.0003.t:0 "Ucieczka w Smoczym Ogniu"
+ agot_dragon_combat.0003.desc:0 "Palenie wojsk [dragon_commander_in_battle.GetTitledFirstName] trwa w najlepsze nad polem bitwy [battle_location.GetName], gdy dostrzegam chmurę poruszającą się #S nienaturalnie#!... To smok!\n\nTak, po dokładniejszym przyjrzeniu się wyraźnie widzę, jak [dragon_in_battle.GetName] z pełną prędkością oddala się ode mnie! [dragonrider_in_battle.GetTitledFirstName] musi być na jego grzbiecie, ale ten tchórz najwyraźniej zdecydował się nie walczyć ze mną i [enemy_dragon.GetName]!"
+ agot_dragon_combat.0003.a:0 "[dragonrider_in_battle.GetSheHe|U] nie ucieknie!"
+ agot_dragon_combat.0003.a.swift:0 "#P Szybkość [enemy_dragon.GetNamePossessiveNoTooltip] ułatwi złapanie [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
+ agot_dragon_combat.0003.a.slow:0 "#N Powolność [enemy_dragon.GetNamePossessiveNoTooltip] utrudni złapanie [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
+ agot_dragon_combat.0003.a.enemy_swift:0 "#N Szybkość [dragon_in_battle.GetNamePossessiveNoTooltip] utrudni złapanie [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
+ agot_dragon_combat.0003.a.enemy_slow:0 "#P Powolność [dragon_in_battle.GetNamePossessiveNoTooltip] ułatwi złapanie [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
+ agot_dragon_combat.0003.escape:0 "[dragon_in_battle.GetName] i [dragonrider_in_battle.GetFirstName] uciekają z pola bitwy."
+ agot_dragon_combat.0003.b:0 "Niech uciekają."
+ agot_dragon_combat.0003.escape.t:0 "[dragonrider_in_battle.GetShortUIName] leci zbyt szybko!"
+ agot_dragon_combat.0003.escape.desc:0 "[dragonrider_in_battle.GetShortUIName] zdołał uciec przed twoim pościgiem na [dragon_in_battle.GetName]!"
+
+
+#############
+ # Walka smoków!
+ #############
+ # Okno
+ CHANCE_OF_WINNING:0 "Szansa na zwycięstwo"
+ # Rundy walki
+ agot_dragon_combat.1001.t:0 "Taniec Smoków"
+ agot_dragon_combat.1001.defender_first_round_battle:0 "[dsc_defender_dragon.GetName] i ja nurkujemy niżej, bitwa o [battle_location.GetName] szaleje zaledwie kilka metrów pod nami, po czym zawracamy ku niebu, oblewając kolejną grupę wrogich żołnierzy ogniem.\n\nPośród teraz dymiącego pola widzę [dsc_attacker.GetFirstName] na grzbiecie [dsc_attacker_dragon.GetName], ryczących głośno, gdy szarżują prosto na nas. Kopnięcie pięt pobudza skrzydła [dsc_defender_dragon.GetNameNoTooltip], i taniec się zaczyna.\n\n"
+ agot_dragon_combat.1001.defender_first_round_siege:0 "[dsc_defender_dragon.GetName] i ja wznosimy się z ziemi, unikając [dsc_attacker.GetFirstName] na grzbiecie [dsc_attacker_dragon.GetName], którzy próbują nas dopaść od góry. Ich pęd wynosi ich zbyt daleko, co daje mi czas na okrążenie i przygotowanie się na kolejny atak.\n\nWidzę, jak [dsc_attacker.GetTitledFirstNameNoTooltip] i [dsc_attacker_dragon.GetFirstNameNoTooltip] robią to samo — wiem, że taniec się zaczyna.\n\n"
+ agot_dragon_combat.1001.attacker_first_round_battle:0 "Widzę, jak [dsc_defender_dragon.GetName] nurkuje tuż pod moim ciosem, zmuszając mnie i [dsc_attacker_dragon.GetName] do gwałtownego skrętu. Odgłosy bitwy o [battle_location.GetName] giną w wichrze, gdy zawracamy ku naszemu wrogowi. Obracam się w samą porę, by zobaczyć, jak [dsc_defender_dragon.GetNameNoTooltip] oblewa ogniem kolejną grupę naszych ludzi — kopnięciem pięt nakazuję [dsc_attacker_dragon.GetNameNoTooltip] zbliżyć się.\n\nTaniec się zaczyna.\n\n"
+ agot_dragon_combat.1001.attacker_first_round_siege:0 "Widzę, jak [dsc_defender_dragon.GetName] ledwo zrywa się do lotu z [sieging_location.GetName], gdy nurkuję ku nim, mijając [dsc_attacker_dragon.GetFirstName] dosłownie o pazur. Nasza szansa na szybkie zwycięstwo przepadła — [dsc_defender_dragon.GetNameNoTooltip] i [dsc_defender.GetNameNoTooltip] zataczają krąg i szykują się na kolejną rundę.\n\nTaniec się zaczyna.\n\n"
+ # Ruchy
+ agot_dragon_combat.1001.wait_and_hope:0 "Yyy, no to... miejmy nadzieję, że [my_foe.GetSheHe] coś schrzani..."
+ agot_dragon_combat.1001.tt.wait_and_hope:0 "Nic nie robisz, licząc na to, że [my_foe.GetTitledFirstName] pierwszy popełni błąd"
+ agot_dragon_combat.1001.desc.my_feedback.wait_and_hope:0 "Moje czekanie nic nie dało — [my_foe.GetTitledFirstName] i [my_foe_dragon.GetName] mieli mnóstwo czasu, by opracować własny plan."
+ agot_dragon_combat.1001.desc.opponent_response.wait_and_hope:0 "Przez cały ten czas [my_foe.GetTitledFirstName] i [my_foe_dragon.GetName] nic nie robili."
+
+ agot_dragon_combat.1001.unsure_attack:0 "Yyy, po prostu #EMP spal#! ich, co nie!"
+ agot_dragon_combat.1001.tt.unsure_attack:0 "Siedzisz na ziejącym ogniem jaszczurze... no to go użyj"
+ agot_dragon_combat.1001.desc.my_feedback.unsure_attack:0 "Oddech mojego smoka przesunął się po skórze [my_foe_dragon.GetNamePossessive], zostawiając ciemne łaty łusek rozżarzone gniewnym ogniem."
+ agot_dragon_combat.1001.desc.opponent_response.unsure_attack:0 "Oddech [my_foe_dragon.GetNamePossessive] wpadł z dzikim impetem, przypalając [my_dragon.GetName] po [my_dragon.Custom('GetDragonHerHis')] boku."
+
+ agot_dragon_combat.1001.enthusiastic_onslaught:0 "[my_dragon.GetName] zada więcej obrażeń niż [my_foe_dragon.GetName]!"
+ agot_dragon_combat.1001.tt.enthusiastic_onslaught:0 "Zęby i pazury — ufasz, że [my_dragon.GetNameNoTooltip] rozerwie [my_foe_dragon.GetNameNoTooltip] na strzępy"
+ agot_dragon_combat.1001.desc.my_feedback.enthusiastic_onslaught:0 "[my_dragon.GetName] i ja ruszyliśmy prosto na [my_foe_dragon.GetName] i [my_foe.GetName], próbując zadawać ciosy, gryźć i podpalać na wszelkie możliwe sposoby."
+ agot_dragon_combat.1001.desc.opponent_response.enthusiastic_onslaught:0 "[my_foe_dragon.GetName] i [my_foe.GetName] ruszyli prosto na mnie i [my_dragon.GetName], lecz ich ataki były chaotyczne — zadali tylko powierzchowne rany."
+
+ agot_dragon_combat.1001.underbelly:0 "Podbrzusze [my_foe_dragon.GetNamePossessive] wygląda na odsłonięte..."
+ agot_dragon_combat.1001.tt.underbelly:0 "Celujesz w najoczywistsze miejsce do ataku na smoka"
+ agot_dragon_combat.1001.desc.my_feedback.underbelly:0 "[my_dragon.GetName] i ja opadliśmy pod [my_foe_dragon.GetName], po czym wznieśliśmy się w górę — nasze smoki zderzyły się z łoskotem. Niestety, nie zdołaliśmy przebić się przez [my_foe_dragon.Custom('GetDragonHerHis')] łuski."
+ agot_dragon_combat.1001.desc.opponent_response.underbelly:0 "[my_foe_dragon.GetName] nagle nurkował — w jednej chwili wiedziałem, że celuje w podbrzusze [my_dragon.GetNamePossessive]! Przewidując cios, pociągnąłem [my_dragon.Custom('GetDragonHerHim')] w górę, przyjmując atak i bezpiecznie oddalając się, by przygotować się na kolejny zderzenie."
+
+ agot_dragon_combat.1001.tail_smash:0 "Walnij go ogonem!"
+ agot_dragon_combat.1001.tt.tail_smash:0 "Decydujesz się na nieco... niekonwencjonalną strategię"
+ agot_dragon_combat.1001.desc.my_feedback.tail_smash:0 "[my_dragon.GetName] i ja udaliśmy, że zamierzamy ugryźć skrzydło [my_foe_dragon.GetNamePossessive], po czym wyprowadziliśmy solidny cios ogonem w kark [my_foe_dragon.GetNamePossessiveNoTooltip]!"
+ agot_dragon_combat.1001.desc.opponent_response.tail_smash:0 "[my_foe_dragon.GetName] rzucił się naprzód, jakby chciał ugryźć skrzydło [my_dragon.GetNamePossessive], ale gdy uchyliłem się przed ciosem, wylądował ogonem na karku [my_dragon.GetNamePossessiveNoTooltip], odrzucając nas i zostawiając obu oszołomionych."
+
+ agot_dragon_combat.1001.guard:0 "Poczekamy i zaatakujemy w odpowiednim momencie."
+ agot_dragon_combat.1001.tt.guard:0 "Ty i [my_dragon.GetName] czekacie na idealną okazję do kontrataku"
+ agot_dragon_combat.1001.desc.my_feedback.guard:0 "Nasze łuski zgrzytały i iskrzyły, odbijając ataki, gdy zęby [my_foe_dragon.GetNamePossessive] natrafiały na najtwardsze pancerze."
+ agot_dragon_combat.1001.desc.opponent_response.guard:0 "Kły [my_dragon.GetNamePossessive] ześlizgnęły się po bronionej pozycji [my_foe.GetTitledFirstNamePossessive], a ryk [my_dragon.Custom('GetDragonHerHis')] odbijał moją frustrację."
+ agot_dragon_combat.1001.probing_attack:0 "Podrapmy powierzchnię, sprawdźmy ich hart ducha!"
+ agot_dragon_combat.1001.tt.probing_attack:0 "Celem jest ocena reakcji i słabości przeciwnika"
+ agot_dragon_combat.1001.desc.my_feedback.probing_attack:0 "Nasze pazury przejechały po łuskach [my_foe_dragon.GetNamePossessive], po czym wykonaliśmy szybki obrót w powietrzu, smoki tańczyły, pozwalając nam ocenić ich szybkość. Bez głębokich ran, ale taniec wiele mówił."
+ agot_dragon_combat.1001.desc.opponent_response.probing_attack:0 "Przetestowali nasze flanki, drapiąc bok [my_dragon.GetNamePossessive] i zmuszając nas do obrotu w powietrzu, by nie odsłonić się zbyt łatwo. Ruch zwiadowczy, bez wątpienia."
+
+ agot_dragon_combat.1001.onslaught:0 "Pełna prędkość naprzód — ku zwycięstwu lub śmierci!"
+ agot_dragon_combat.1001.tt.onslaught:0 "Zmasowany atak kosztem obrony"
+ agot_dragon_combat.1001.desc.my_feedback.onslaught:0 "Rzuciliśmy się do przodu, [my_dragon.GetName] wydał ryk, który przeszedł w syczenie ognia. Powietrze pachniało spaloną łuską, zanim zderzyliśmy się z trzaskiem. Chaotyczne ryki, ciosy pazurów, a nawet sam zdołałem trafić moją bronią."
+ agot_dragon_combat.1001.desc.opponent_response.onslaught:0 "Ich szarża była brawurowa, ale skuteczna; masa dwóch smoków starła się z hukiem ryku i zderzeń pazurów — obie strony mocno ucierpiały, nim się rozdzieliły."
+
+ agot_dragon_combat.1001.surprise_attack:0 "Nie spodziewają się tego!"
+ agot_dragon_combat.1001.tt.surprise_attack:0 "Nieoczekiwany manewr mający zaskoczyć przeciwnika"
+ agot_dragon_combat.1001.desc.my_feedback.surprise_attack:0 "Zanurkowaliśmy w chmury, pozwalając światłu z nieba przefiltrować się przez obłoki i zakryć nasze sylwetki. Potem, jak bełt z kuszy, uderzyliśmy. Kły [my_dragon.GetNamePossessive] wbiły się w delikatne ciało tuż pod skrzydłem, wywołując bolesny ryk."
+ agot_dragon_combat.1001.desc.opponent_response.surprise_attack:0 "[my_foe_dragon.GetName] wycofał się, lecąc w chmury. Przez kilka sekund nie mogłem go namierzyć — i wtedy uderzył, gryząc bok [my_dragon.GetNamePossessive]."
+
+ agot_dragon_combat.1001.taunt:0 "Hej [my_foe.GetFirstNameNoTooltip], to ma być latanie?"
+ agot_dragon_combat.1001.tt.taunt:0 "Rzucasz złośliwe obelgi, by rozwścieczyć przeciwnika i wytrącić go z równowagi"
+ agot_dragon_combat.1001.desc.my_feedback.taunt:0 "Moja zaczepka wyraźnie weszła im pod łuski. Następny atak na pewno będzie nieudolną próbą wściekłego miotania ogniem."
+ agot_dragon_combat.1001.desc.opponent_response.taunt:0 ""Hej!" słyszę z drugiej strony nieba "To ma być latanie?" — krzyczy [my_foe.GetFirstName], gdy mijamy się w locie. Co za arogancja, [my_foe.GetSheHe] naprawdę marnuje czas na obelgi podczas pojedynku smoków!"
+
+ agot_dragon_combat.1001.go_for_the_gonads:0 "Nisko i celnie!"
+ agot_dragon_combat.1001.tt.go_for_the_gonads:0 "Celujesz w czuły punkt, by zadać śmiertelny cios"
+ agot_dragon_combat.1001.desc.my_feedback.go_for_the_gonads:0 "Nasze kły wbiły się w miękkie ciało nogi [my_foe_dragon.GetName]! [my_foe_dragon.Custom('GetDragonSheHe')|U] zawył i przez moment koziołkował, uwalniając [my_foe_dragon.Custom('GetDragonHerHis')] nogę, po czym wyrównał lot — krew kapała na ziemię."
+ agot_dragon_combat.1001.desc.opponent_response.go_for_the_gonads:0 "Wrogowie wykonali podły cios poniżej ogona, gryząc nogę [my_dragon.GetNamePossessive]! [my_dragon.Custom('GetDragonSheHe')|U] zawył z bólu i zawirował, ale gdy odzyskaliśmy kontrolę, czułem, jak w [my_dragon.Custom('GetDragonHerHis')] narasta furia."
+
+ agot_dragon_combat.1001.strict_guard:0 "Rozszarpiemy ich, jeśli się zbliżą!"
+ agot_dragon_combat.1001.tt.strict_guard:0 "Wybierasz bardzo defensywną postawę, by zminimalizować obrażenia"
+ agot_dragon_combat.1001.desc.my_feedback.strict_guard:0 "Złożyliśmy skrzydła i odpieraliśmy każdy ząb i pazur, dźwięk pękających szczęk odbijał się echem w powietrzu. [my_foe_dragon.GetName] z frustracją wypuścił z siebie słup ognia."
+ agot_dragon_combat.1001.desc.opponent_response.strict_guard:0 "Nasze ataki trafiły jedynie na twardy pancerz ich łusek — każdy cios był daremny. [my_dragon.GetName] również zaryczał i wyrzucił wściekły ogień."
+
+ agot_dragon_combat.1001.confident_attack:0 "Upieczmy ich naszym ogniem!"
+ agot_dragon_combat.1001.tt.confident_attack:0 "Atakujesz przeciwnika czołowo z pełną mocą ognia"
+ agot_dragon_combat.1001.desc.my_feedback.confident_attack:0 "Nasze płomienie splotły się w śmiercionośnym tańcu, lecz to nasz ogień przebił się silniej, paląc [my_foe_dragon.GetNamePossessive] i przypiekając jego skrzydła."
+ agot_dragon_combat.1001.desc.opponent_response.confident_attack:0 "Smok [my_foe.GetNamePossessive] wyrzucił strumień ognia, zmuszając nas do odpowiedzi. Ku naszej hańbie, nasz płomień zaczął słabnąć, a [my_dragon.GetName] przypalił sobie skrzydła, próbując odbić ogień."
+
+ agot_dragon_combat.1001.expert_onslaught:0 "Każdy ruch przemyślany, każdy cios precyzyjny!"
+ agot_dragon_combat.1001.tt.expert_onslaught:0 "Drobiazgowo przygotowany, precyzyjny atak bez miejsca na błędy"
+ agot_dragon_combat.1001.desc.my_feedback.expert_onslaught:0 "Zataczaliśmy ciasne kręgi, pazury rozcinały i zęby wbijały się z chirurgiczną precyzją — słup ognia ledwie minął [my_foe.GetName] na [my_foe.GetHerHis] siodle."
+ agot_dragon_combat.1001.desc.opponent_response.expert_onslaught:0 "[my_foe.GetTitledFirstName] i [my_foe_dragon.GetName] podlecieli blisko, zadając szybki cios pazurem i błyskawiczne ugryzienie [my_dragon.GetName], po czym próbowali mnie spalić smoczym ogniem!"
+
+ agot_dragon_combat.1001.lightning_assault:0 "Uderz jak grom z jasnego nieba!"
+ agot_dragon_combat.1001.tt.lightning_assault:0 "Szybkie wzniesienie, potem nurkowanie — cios i unik jednocześnie"
+ agot_dragon_combat.1001.desc.my_feedback.lightning_assault:0 "Nurkowaliśmy jak sokół, z pazurami i kłami wyciągniętymi do przodu. Szybkie drapnięcie po grzbiecie [my_foe_dragon.GetName], a potem smuga ognia — pozostawiły płonące rany."
+ agot_dragon_combat.1001.desc.opponent_response.lightning_assault:0 "Byli szybcy — zbyt szybcy. Pazury [my_foe_dragon.GetName] zostawiły rozżarzone ślady na naszej skórze, gdy przemknęli obok, ziejąc ogniem."
+
+ agot_dragon_combat.1001.tire_opponent:0 "Niech się zmęczą!"
+ agot_dragon_combat.1001.tt.tire_opponent:0 "Próbujesz wyczerpać przeciwnika, lawirując i unikając, by zmarnował siły"
+ agot_dragon_combat.1001.desc.my_feedback.tire_opponent:0 "Unikaliśmy każdego wybuchu ognia, każdego szału pazurów. Ryki [my_foe_dragon.GetNamePossessive] stawały się coraz cichsze, a lot wyraźnie słabł."
+ agot_dragon_combat.1001.desc.opponent_response.tire_opponent:0 "[my_foe.GetName] i [my_foe_dragon.GetName] poruszali się po niebie z mistrzostwem, zmuszając nas do ciągłego wysiłku i braku wytchnienia."
+
+ agot_dragon_combat.1001.chomp:0 "#bold KŁAP!#!"
+ agot_dragon_combat.1001.tt.chomp:0 "Robisz #bold KŁAP#!"
+
+ agot_dragon_combat.1001.motivate.generic:0 "No dalej [my_dragon.GetNameNoTooltip]!"
+ agot_dragon_combat.1001.motivate.bond:0 "Odwagi, przyjacielu! Damy radę!"
+ agot_dragon_combat.1001.motivate.rude:0 "Walcz, ty pieprzony jaszczurze!"
+ agot_dragon_combat.1001.motivate.authoritative:0 "Musimy #EMP wygrać #!, [my_dragon.GetNameNoTooltip]!"
+ agot_dragon_combat.1001.motivate.sadistic:0 "Poczujmy smak ich krwi na językach!"
+ agot_dragon_combat.1001.motivate.eccentric:0 "Popatrz tylko, jak tu ładnie!"
+ agot_dragon_combat.1001.tt.motivate:0 "Wezwanie, by dodać smokowi sił mimo ran"
+ agot_dragon_combat.1001.desc.my_feedback.motivate:0 "Nowy płomień zapłonął w oczach [my_dragon.GetNamePossessive]; kolejny ognisty wybuch był gorętszy, a ciosy [my_dragon.Custom('GetDragonHerHis')] — mocniejsze."
+ agot_dragon_combat.1001.desc.opponent_response.motivate:0 "Widzę, jak [my_foe.GetFirstName] pochyla się, by przemówić do [my_foe_dragon.GetName], choć nie słyszę, co mówi."
+
+ agot_dragon_combat.1001.technique_from_legend:0 "Spróbujmy się zakręcić — to zawsze działa!"
+ agot_dragon_combat.1001.tt.technique_from_legend:0 "Próbujesz mitycznej techniki, znanej jedynie z opowieści"
+ agot_dragon_combat.1001.desc.my_feedback.technique_from_legend:0 "Z finezją rodem z legend zakręciliśmy się, gdy [my_dragon.GetName] zionął [my_dragon.Custom('GetDragonHerHis')] ogniem. Ruch wykonany perfekcyjnie — nie mogąc nadążyć za naszym ruchem, [my_foe_dragon.GetName] został zdezorientowany i ranny."
+ agot_dragon_combat.1001.desc.opponent_response.technique_from_legend:0 "Niczym koło pędzącego wozu polecieli na nas, a ogień raził nas w celnych, lecz nieprzewidywalnych kierunkach."
+
+ agot_dragon_combat.1001.like_a_viper:0 "Uderz błyskawicznie, uciekaj szybciej!"
+ agot_dragon_combat.1001.tt.like_a_viper:0 "Szybkie i śmiercionośne ciosy mające osłabić przeciwnika"
+ agot_dragon_combat.1001.desc.my_feedback.like_a_viper:0 "Szybko wpadaliśmy i wypadaliśmy, każdy błyskawiczny cios ogonem, pazurem czy ogniem pozostawiał rany i rozcięcia. Ruchy [my_foe_dragon.GetNamePossessive] wydają się teraz ociężałe."
+ agot_dragon_combat.1001.desc.opponent_response.like_a_viper:0 "Z pozornie niemożliwą prędkością [my_foe_dragon.GetName] przemykał w i poza naszym zasięgiem, zadając drobne, lecz bolesne ciosy."
+
+ agot_dragon_combat.1001.martial_voice:0 "Dalej [my_dragon.GetNameNoTooltip]! Walcz jak wojownik!"
+ agot_dragon_combat.1001.tt.martial_voice:0 "Wykorzystujesz swoje doświadczenie bojowe, by dowodzić [my_dragon.GetNameNoTooltip] jak żołnierzem"
+ agot_dragon_combat.1001.desc.my_feedback.martial_voice:0 "Na mój donośny rozkaz skoordynowaliśmy każdy atak z precyzją. Wróg nie miał odpowiedzi na naszą nieustępliwość."
+ agot_dragon_combat.1001.desc.opponent_response.martial_voice:0 "Widzę, jak [my_foe.GetFirstName] wydaje komendy [my_foe_dragon.GetName] — przypomina mi się ich doświadczenie bojowe. Zaiste niepokojący przeciwnik, nawet tutaj w przestworzach."
+
+ agot_dragon_combat.1001.mocking_boast:0 "Ten wielki jaszczur coś chyba rekompensuje!?"
+ agot_dragon_combat.1001.tt.mocking_boast:0 "Słowna zaczepka mająca rozproszyć i rozjuszyć przeciwnika"
+ agot_dragon_combat.1001.desc.my_feedback.mocking_boast:0 "Nasza drwina trafiła w cel. [my_foe_dragon.GetName] wścieka się, przejmując furię swojego pana. Utrata koncentracji może dać nam szansę na cios!"
+ agot_dragon_combat.1001.desc.opponent_response.mocking_boast:0 "[my_foe.GetFirstName] próbował zachwiać naszą determinacją drwinami i obelgami — i choć takie prowokacje są daremne tutaj w górze, ciągłe hałasy wyraźnie zirytowały [my_dragon.GetName]."
+
+ agot_dragon_combat.1001.desert_warrior:0 "Ten piasek... ciekawe..."
+ agot_dragon_combat.1001.tt.desert_warrior:0 "Wykorzystujesz doświadczenie z walki na pustyni na swoją korzyść"
+ agot_dragon_combat.1001.desc.my_feedback.desert_warrior:0 "Nurkowaliśmy w stronę biegnącego piasku, wabiąc [my_foe.GetTitledFirstName] za sobą. Przy odpowiednim uderzeniu skrzydeł nad wydmą wznieśliśmy chmurę piachu prosto na [my_foe.GetTitledFirstNameNoTooltip]! Zdezorientowany smok [my_foe.GetHerHis] zwolnił w bolesnej chmurze, a gdy zawróciliśmy, by oblać ich ogniem, zobaczyłem, że piasek zamienił się w szkło, dodatkowo ich raniąc!"
+ agot_dragon_combat.1001.desc.opponent_response.desert_warrior:0 "Zanurkowali ku piaskom poniżej, a [my_dragon.GetFirstNamePossessive] złożył [my_dragon.Custom('GetDragonHerHis')] skrzydła, by podążyć za nimi. Nasze płomienie zamieniły piach pod spodem w szkło, lecz nie udało się zadać decydującego ciosu. Nagle podmuch skrzydeł [my_foe_dragon.GetNamePossessive] obsypał nas piaskiem! Zanim uciekliśmy z chmury, zostaliśmy oblani gorącem, a ziarna piasku wokół nas zamieniły się w ostre odłamki szkła! Zraniły nasze ciała, zanim zdołaliśmy uciec."
+
+
+ agot_dragon_combat.1001.jungle_stalker:0 "Wykorzystajmy dżunglę!"
+ agot_dragon_combat.1001.tt.jungle_stalker:0 "Dostosowujesz taktykę z wojny w dżungli do tego powietrznego starcia"
+ agot_dragon_combat.1001.desc.my_feedback.jungle_stalker:0 "Naśladowaliśmy taktykę drapieżników z dżungli: uderz i znikaj, zwabiając ich między drzewa, gdzie mieliśmy przewagę. Ciągle się bronili, nie potrafiąc przewidzieć naszego kolejnego ruchu — ocaleli tylko dzięki spopieleniu fragmentu lasu."
+ agot_dragon_combat.1001.desc.opponent_response.jungle_stalker:0 "Z ich strony — wpadliśmy w pułapkę, zwabieni w dżunglę poniżej. Otrzymaliśmy kilka ciosów, nim spaliliśmy drzewa i uciekliśmy znów w niebo."
+
+ agot_dragon_combat.1001.open_terrain_expert:0 "Otwarte niebo to nasz żywioł!"
+ agot_dragon_combat.1001.tt.open_terrain_expert:0 "Wykorzystujesz znajomość otwartego terenu z ziemi, by zyskać przewagę w przestworzach"
+ agot_dragon_combat.1001.desc.my_feedback.open_terrain_expert:0 "W niebie, jak na ziemi — przestrzeń to narzędzie. Bez przeszkód mogliśmy szybować i nurkować, każdy atak miał znaczenie."
+ agot_dragon_combat.1001.desc.opponent_response.open_terrain_expert:0 "[my_foe.GetFirstName] to znany mistrz otwartych przestrzeni i wykorzystał to z wielkim skutkiem, zadając ciosy, których nie byliśmy w stanie odeprzeć."
+
+ agot_dragon_combat.1001.rough_terrain_expert.rocky:0 "Te skały wyglądają groźnie!"
+ agot_dragon_combat.1001.tt.rough_terrain_expert.rocky:0 "Spróbujesz wepchnąć [my_foe_dragon.GetFirstName] w skały poniżej"
+ agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.rocky:0 "Zanurkowaliśmy nisko, ledwie mijając ostre skały, po czym wzlecieliśmy — dokładnie wtedy, gdy [my_foe_dragon.GetName] nadlatywał za nami. Obróciliśmy się i z pełną masą [my_dragon.GetNamePossessive] uderzyliśmy w [my_foe_dragon.GetName], wbijając jego ciało w skały. Raz. Dwa. Huk ryku smoków i miażdżonych głazów był ogłuszający. Dopiero, gdy [my_foe.GetFirstName] trafił szczęśliwym ciosem z siodła, zmusił [my_dragon.GetName] do odwrotu — i skorzystali z okazji do ucieczki."
+ agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.rocky:0 "Potem jednak to my zostaliśmy wepchnięci w skały. Pełen ciężar [my_foe_dragon.GetName] zgniótł nas na ostrych kamieniach. Raz, dwa, niemal trzy razy byliśmy miażdżeni — dopiero szybki cios moją bronią w pysk [my_foe_dragon.GetNamePossessive] dał [my_dragon.GetName] szansę na ucieczkę."
+
+ agot_dragon_combat.1001.rough_terrain_expert.boggy:0 "Do bagien!"
+ agot_dragon_combat.1001.tt.rough_terrain_expert.boggy:0 "Próbujesz uwięzić przeciwnika w bagnach"
+ agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.boggy:0 "Serią agresywnych ataków zepchnęliśmy [my_foe.GetTitledFirstName] i [my_foe_dragon.GetName] w stronę bagna, gdzie ich ciężar zaczął tonąć w błocie. Nasze smoki szamotały się, a [my_dragon.GetName] wielokrotnie wciskał łeb [my_foe_dragon.GetNamePossessiveNoTooltip] w lepkie błoto. W końcu musieliśmy się wycofać, by sami nie utonąć."
+ agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.boggy:0 "Serią agresywnych ataków [my_foe.GetTitledFirstName] i [my_foe_dragon.GetName] zepchnęli nas ku bagnom, a ciężar [my_dragon.GetNamePossessive] pogrążył się w mule. Smoki zaczęły się szamotać, a [my_dragon.GetNameNoTooltip] był kilkakrotnie wciskany pod powierzchnię błota. W końcu się wycofali, gdy [my_dragon.GetNameNoTooltip] znalazł oparcie i niemal ich z sobą nie pociągnął."
+
+ agot_dragon_combat.1001.forest_fighter:0 "Te drzewa są naszymi sojusznikami — wykorzystajmy je!"
+ agot_dragon_combat.1001.tt.forest_fighter:0 "Masz przewagę, wykorzystując las do złożonych manewrów powietrznych, których wróg nie potrafi powtórzyć"
+ agot_dragon_combat.1001.desc.my_feedback.forest_fighter:0 "Przemykaliśmy między drzewami, wyskakując niespodziewanie, by ugryźć skrzydło [my_foe_dragon.GetNamePossessive], który ocalał tylko dzięki spaleniu fragmentu lasu."
+ agot_dragon_combat.1001.desc.opponent_response.forest_fighter:0 "Ruszyliśmy w pogoń za [my_foe_dragon.GetName] w dół, ku lasowi, ale [my_dragon.GetName] nie był w stanie powtórzyć ich manewrów. [my_dragon.Custom('GetDragonSheHe')|U] został uderzony przez gałęzie, po czym rozgniewany spopielił kawałek lasu, by uciec."
+
+ agot_dragon_combat.1001.special_fallback:0 "Wycofać się i przegrupować!"
+ agot_dragon_combat.1001.tt.special_fallback:0 "Taktyczne wycofanie się, by ocenić sytuację"
+ agot_dragon_combat.1001.desc.my_feedback.special_fallback:0 "Odsunęliśmy się w ostatniej chwili, ledwie unikając kąsającego ciosu, który mógłby rozerwać skrzydła [my_dragon.GetNamePossessive]."
+ agot_dragon_combat.1001.desc.opponent_response.special_fallback:0 "Potem ruszyliśmy za ciosem, zadając niemal udane ugryzienie! Widząc naszą zawziętość, [my_foe.GetName] i [my_foe_dragon.GetName] wycofali się — wyraźny znak słabości!"
+
+
+ # Injuries
+ agot_dragon_combat.1001.desc.my_injury.none:0 "\n\n[my_dragon.GetNameNoTooltip] i ja jesteśmy całkowicie nieuszkodzeni, "
+ agot_dragon_combat.1001.desc.my_injury.light:0 "\n\n[my_dragon.GetNameNoTooltip] i ja mamy jedynie lekkie rany, "
+ agot_dragon_combat.1001.desc.my_injury.heavy:0 "\n\n[my_dragon.GetNameNoTooltip] i ja jesteśmy ranni, krew kapie na ziemię poniżej, "
+ agot_dragon_combat.1001.desc.my_injury.severe:0 "\n\n[my_dragon.GetNameNoTooltip] i ja jesteśmy w złym stanie, parająca się krew leje się strumieniami, "
+ agot_dragon_combat.1001.desc.my_injury.mortal:0 "\n\n[my_dragon.GetNameNoTooltip] i ja jesteśmy o włos od śmierci, nasze liczne rany niemal zrzucają nas z nieba, "
+
+ agot_dragon_combat.1001.desc.foe_injury.none:0 "podczas gdy [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] wyglądają na całkiem nietkniętych."
+ agot_dragon_combat.1001.desc.foe_injury.light:0 "podczas gdy [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] mają jedynie powierzchowne rany."
+ agot_dragon_combat.1001.desc.foe_injury.heavy:0 "podczas gdy [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] wyraźnie krwawią."
+ agot_dragon_combat.1001.desc.foe_injury.severe:0 "podczas gdy [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] są poważnie ranni."
+ agot_dragon_combat.1001.desc.foe_injury.mortal:0 "podczas gdy [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] są wyraźnie skazani na zgubę."
+
+ # Chance of winning
+ agot_dragon_combat.1001.desc.chance_of_winning.near_zero:0 "\n\nPatrząc na to, jak przebiega ta walka, jestem pewien, że czeka nas zagłada."
+ agot_dragon_combat.1001.desc.chance_of_winning.minimal:0 "\n\nJestem skrajnie pesymistyczny co do naszych szans w tej chwili."
+ agot_dragon_combat.1001.desc.chance_of_winning.low:0 "\n\n[my_foe.GetTitledFirstNameNoTooltip] wygląda na pewnego siebie, a ja obawiam się, że jesteśmy daleko od zwycięstwa."
+ agot_dragon_combat.1001.desc.chance_of_winning.fair:0 "\n\nCzuję pot spływający po czole i obawiam się, że przegrywamy tę walkę."
+ agot_dragon_combat.1001.desc.chance_of_winning.okay:0 "\n\nMogło pójść lepiej, ale to jeszcze nie koniec!"
+ agot_dragon_combat.1001.desc.chance_of_winning.good:0 "\n\nIdzie nam dobrze, ale wciąż wszystko może się zdarzyć."
+ agot_dragon_combat.1001.desc.chance_of_winning.high:0 "\n\nCzuję, jak [my_foe.GetFirstNamePossessiveNoTooltip] pewność siebie słabnie. [my_foe.GetSheHe|U] z pewnością odczuwa teraz presję."
+ agot_dragon_combat.1001.desc.chance_of_winning.very_high:0 "\n\nKażdy ruch [my_dragon.GetNameNoTooltip] jest pełen głodu drapieżnika, który zaraz rzuci się na swoją ofiarę."
+ agot_dragon_combat.1001.desc.chance_of_winning.excellent:0 "\n\n[my_dragon.GetNameNoTooltip] i ja jesteśmy w pełnej harmonii — wszystko wskazuje na nasze zwycięstwo."
+ agot_dragon_combat.1001.desc.chance_of_winning.near_certain:0 "\n\nTo z pewnością koniec — [my_foe.GetTitledFirstName] zaraz spadnie z nieba."
+
+ # Wounding
+ agot_dragon_combat.wound_dragon.limit:0 "[wounded_dragon.GetName] nie może zostać bardziej zraniony."
+ agot_dragon_combat.wound_dragon.1:0 "[wounded_dragon.GetName] jest $trait_dragon_wounded_1$."
+ agot_dragon_combat.wound_dragon.2:0 "[wounded_dragon.GetName] jest $trait_dragon_wounded_2$."
+ agot_dragon_combat.wound_dragon.3:0 "[wounded_dragon.GetName] jest $trait_dragon_wounded_3$."
+ agot_dragon_combat.wound_dragon.4:0 "[wounded_dragon.GetName] jest $trait_dragon_wounded_4$."
+ agot_dragon_combat.wound_dragon.5:0 "[wounded_dragon.GetName] jest $trait_dragon_wounded_5$."
+
+ # I lost!
+ agot_dragon_combat.1003.t:0 "Taniec Zagłady!"
+ agot_dragon_combat.1003.desc.sudden_strike:0 "Nasze losy odwróciły się tak nagle jak zmienny wiatr. Przez chwilę [my_foe.GetTitledFirstName] wydaje się bezbronny, ledwie sekundy od porażki. W następnej widzę, jak [my_foe_dragon.GetName] odwraca [my_foe_dragon.Custom('GetDragonHerHis')] szyję, a przed moimi oczami otwiera się potężna paszcza.\n\nUdaje mi się tylko spojrzeć w ziejące gardło, poczuć gorące powietrze śmierci, zanim szczęki się zamykają, i myślę..."
+ agot_dragon_combat.1003.a.sudden_strike:0 "Tak to się kończy."
+ agot_dragon_combat.1003.f.sudden_strike:0 "Zostajesz pożarty przez [my_foe_dragon.GetName]"
+
+ agot_dragon_combat.1003.desc.dragonfire:0 "Jeździłem na smokach na wojnę. Widziałem, jak płoną ludzie. Nigdy nie myślałem, że znajdę się po tej stronie ognia.\n\nZ rykiem i żarem widzę, jak [my_foe_dragon.GetName] otwiera [my_foe_dragon.Custom('GetDragonHerHis')] paszczę, a błyskawiczny strumień ognia leci w naszą stronę — we mnie i [my_dragon.GetName]. Za duży, by uniknąć. Za blisko, by zablokować. Instynktownie unoszę ramiona, wiedząc, że to nic nie da, i krzyczę."
+ agot_dragon_combat.1003.a.dragonfire:0 "#EMP AGGGGHHHHHHHHHH!!!!#!"
+ agot_dragon_combat.1003.f.dragonfire:0 "Ty i [my_dragon.GetName] prawie na pewno zostaniecie spaleni żywcem. Jeśli przeżyjecie, będzie to w bólu, po upadku na ziemię."
+
+    zachowuję oryginalne formatowanie YAML i wcięcia.
+
+ agot_dragon_combat.1003.desc.driven_to_ground:0 "Potężne uderzenie całym ciężarem [my_foe_dragon.GetNamePossessive] o [my_dragon.GetName] wstrząsa mną w siodle, jakby spadł na mnie dom. [my_dragon.GetNameNoTooltip] wydaje daremny krzyk sprzeciwu, gdy jesteśmy brutalnie powaleni na ziemię.\n\nSłyszę trzask łamanego skrzydła [my_dragon.Custom('GetDragonHerHis')], zmiażdżonego pod ciężarem dwóch smoków. Spoglądam w górę na ogromną sylwetkę [my_foe_dragon.GetNameNoTooltip], górującego niczym bóg nad złamanym ciałem [my_dragon.GetNameNoTooltip], i zaczynającego #italic pożerać #!!"
+ agot_dragon_combat.1003.a.driven_to_ground:0 "Muszę się wydostać z tego siodła!"
+ agot_dragon_combat.1003.f.driven_to_ground:0 "Robisz, co możesz, by uciec!"
+
+ agot_dragon_combat.1003.desc.disemboweled:0 "Wśród chmur zdaje mi się widzieć [my_foe_dragon.GetName], wyraźnie przygotowującego się do... nie, tam!\n\nZa późno.\n\n[my_foe_dragon.GetNameNoTooltip] pędzi ku nam jak błyskawica — nie do zatrzymania. [my_foe_dragon.Custom('GetDragonSheHe')|U] celuje w nieosłonięty brzuch [my_dragon.GetNamePossessive] i rozrywa jego wnętrzności w powietrzu! Ostatni ryk i spadamy razem, wiatr świszczy, a smocza krew i wnętrzności zalewają niebo."
+ agot_dragon_combat.1003.a.disemboweled:0 "Kurwakurwakurwakurwa"
+ agot_dragon_combat.1003.f.disemboweled:0 "Ziemia zbliża się przerażająco szybko..."
+
+ agot_dragon_combat.1003.desc.eviscerated:0 "Bez śladu finezji [my_foe.GetTitledFirstName] kieruje [my_foe_dragon.GetName] prosto na nas! Choć [my_dragon.GetName] próbuje uniknąć ataku i unosi [my_dragon.Custom('GetDragonHerHis')] skrzydła w obronie, wszystko zostaje rozerwane przez zęby i pazury!\n\n[my_dragon.GetNameNoTooltip] ryczy z bólu, gdy jedno skrzydło zostaje oderwane, ale [my_foe_dragon.GetName] nie odpuszcza — szarpie i rozdziera dalej. Nagłym ruchem szyi [my_foe_dragon.Custom('GetDragonSheHe')] chwyta za szyję [my_dragon.GetNamePossessiveNoTooltip] i po ostatnim ryku — odgryza głowę [my_dragon.Custom('GetDragonHerHis')] na moich oczach!"
+ agot_dragon_combat.1003.a.eviscerated:0 "Nie! Nie możesz! Proszę!"
+ agot_dragon_combat.1003.f.eviscerated:0 "Ty i [my_dragon.GetName] zostajecie pożarci przez [my_foe_dragon.GetName]"
+
+ agot_dragon_combat.1003.desc.chomp:0 ""Spokojnie [my_dragon.GetName]! Możemy to jeszcze przeżyć!" krzyczę, wiatr rozdziera mi głos, gdy przemykamy między chmurami. Kilkukrotnie wydaje mi się, że widzę cień [my_foe_dragon.GetName], lecz to tylko złudzenie. Ale słyszę jego oddech. Łopot skrzydeł. Gardłowy ryk prawdziwego smoka.\n\nPrymitywna część mnie wie, co to znaczy. Instynktowny wrzask, wyuczony przez ludzkość, gdy była jeszcze zwierzęciem. Jesteśmy ofiarą.\n\nJakby na potwierdzenie, przed nami formuje się cień. Myślę, że to kolejna iluzja — aż nagle przed nami wyrasta olbrzymia sylwetka, paszcza otwarta na tyle, by połknąć mnie i [my_dragon.GetName] w całości."
+ agot_dragon_combat.1003.a.chomp:0 "Nie masz nawet czasu, by krzyknąć."
+ agot_dragon_combat.1003.f.chomp:0 "Ty i [my_dragon.GetName] zostajecie pożarci przez [my_foe_dragon.GetName]"
+
+ # I won!
+ agot_dragon_combat.1004.t:0 "Zwycięstwo!"
+ agot_dragon_combat.1004.desc.sudden_strike:0 "Mój plan zadziałał! [my_foe.GetName] nie miał pojęcia, co się święci. Jeszcze chwilę temu wyglądaliśmy z [my_dragon.GetName] na zagrożonych, gdy [my_foe_dragon.GetName] szykował się do ciosu. Nagle [my_dragon.GetNameNoTooltip] wywinął się nad ramię [my_foe_dragon.GetNamePossessiveNoTooltip] i wokół [my_foe_dragon.Custom('GetDragonHerHis')], prosto ku odsłoniętemu jeźdźcy.\n\nWielka paszcza [my_dragon.GetNamePossessiveNoTooltip] otwiera się nad [my_foe.GetNameNoTooltip] i pochłania [my_foe.GetHerHim]!"
+ agot_dragon_combat.1004.a.sudden_strike:0 "Smok powinien teraz być łatwy!"
+ agot_dragon_combat.1004.f.sudden_strike_survived:0 "[my_foe_dragon.GetName] zdołał uciec"
+ agot_dragon_combat.1004.f.sudden_strike_died:0 "[my_foe_dragon.GetName] pada po drugim ciosie od [my_dragon.GetName]"
+
+ agot_dragon_combat.1004.desc.dragonfire:0 "Z rykiem i podmuchem gorąca czuję, jak [my_dragon.GetName] zmiata wszelki opór — z otwartej paszczy wyrzuca ogromny strumień ognia w stronę [my_foe_dragon.GetName] i [my_foe.GetTitledFirstName]. Zbyt blisko, by uniknąć. Zbyt potężny, by powstrzymać. Z satysfakcją porównywalną do pędu ognia pochłaniającego powietrze widzę, jak [my_foe_dragon.GetNameNoTooltip] i [my_foe.GetTitledFirstNameNoTooltip] zostają spopieleni przez [my_dragon.GetNameNoTooltip]."
+ agot_dragon_combat.1004.a.dragonfire:0 "Mam cię!"
+ agot_dragon_combat.1004.f.dragonfire_both:0 "[my_foe.GetName] i [my_foe_dragon.GetName] zostają spopieleni przez [my_dragon.GetName]"
+ agot_dragon_combat.1004.f.dragonfire_dragon:0 "[my_foe_dragon.GetName] zostaje śmiertelnie ranny od [my_dragon.GetName], ale [my_foe.GetName] ucieka"
+ agot_dragon_combat.1004.f.dragonfire_rider:0 "[my_foe_dragon.GetName] zostaje spalony przez [my_dragon.GetName], ale [my_foe.GetName] udaje się odlecieć"
+ agot_dragon_combat.1004.f.dragonfire_neither:0 "[my_foe.GetName] i [my_foe_dragon.GetName] zostają ciężko poparzeni, ale ledwie udaje im się uciec"
+
+ agot_dragon_combat.1004.desc.driven_to_ground:0 "Potężne uderzenie pełną masą [my_dragon.GetNamePossessive] w [my_foe_dragon.GetName] wstrząsa mną w siodle. [my_foe_dragon.GetName] wydaje daremny krzyk, gdy brutalnie spychamy ich na ziemię.\n\nSłyszę satysfakcjonujący trzask łamanego skrzydła [my_foe_dragon.GetNamePossessiveNoTooltip], zmiażdżonego pod ciężarem dwóch smoków. Spoglądam w dół na kształt [my_foe_dragon.GetNameNoTooltip], gdy górujemy nad naszymi wrogami niczym bóstwa — czuję, jak głód [my_dragon.GetNamePossessiveNoTooltip] popycha [my_dragon.Custom('GetDragonHerHis')] do zabójstwa."
+ agot_dragon_combat.1004.a.driven_to_ground:0 "Dobrze, [my_dragon.GetName]! Dokończ to!"
+ agot_dragon_combat.1004.f.driven_to_ground_died:0 "[my_foe.GetFirstName] zostaje pożarty wśród szału zębów [my_dragon.GetNameNoTooltip]"
+ agot_dragon_combat.1004.f.driven_to_ground_escaped:0 "[my_foe.GetFirstName] z trudem umyka przed pożarciem przez [my_dragon.GetNameNoTooltip]"
+
+ agot_dragon_combat.1004.desc.disemboweled:0 "Używając chmur jako osłony, dostrzegam [my_foe_dragon.GetName], zupełnie nieświadomego naszego podejścia. Szarżujemy z zawrotną prędkością, a [my_foe.GetFirstName] odwraca się, by nas dostrzec.\n\nZa późno.\n\n[my_dragon.GetName] uderza niczym błyskawica — niepowstrzymana. [my_foe_dragon.Custom('GetDragonSheHe')|U] próbuje zasłonić odsłonięty brzuch [my_foe_dragon.Custom('GetDragonHerHis')], ale nie zdąża — wielki kawał zostaje wyrwany z [my_foe_dragon.Custom('GetDragonHerHis')] ciała. Rozpruliśmy [my_foe_dragon.Custom('GetDragonHerHim')] w powietrzu! Słyszę echo ryku, gdy spadają za nami — smocza krew i wnętrzności strugami ścielą się obok nas z paszczy [my_dragon.GetNamePossessive]."
+ agot_dragon_combat.1004.a.disemboweled:0 "Niech ziemia ich pochłonie!"
+ agot_dragon_combat.1004.f.disemboweled_died:0 "[my_foe_dragon.GetName] nie żyje, a [my_foe.GetName] skazany jest na zagładę."
+ agot_dragon_combat.1004.f.disemboweled_escaped:0 "[my_foe_dragon.GetName] nie żyje, a [my_foe.GetName] ledwie przeżywa upadek"
+
+ agot_dragon_combat.1004.desc.eviscerated:0 "Odrzucając jakąkolwiek obronę, [my_dragon.GetName] uderza prosto w [my_foe_dragon.GetName]! Choć [my_foe_dragon.GetNameNoTooltip] próbuje uniku, a potem unosi [my_foe_dragon.Custom('GetDragonHerHis')] skrzydła — wszystko zostaje rozerwane przez nasze zęby i pazury!\n\n[my_foe_dragon.GetNameNoTooltip] ryczy z bólu, gdy jedno skrzydło zostaje oderwane, ale [my_dragon.GetNameNoTooltip] nie puszcza, nadal rozdzierając ciało. Nagłym ruchem szyi [my_dragon.Custom('GetDragonSheHe')] chwyta za szyję [my_foe_dragon.GetNamePossessiveNoTooltip], a po ostatnim jęku — odgryza głowę [my_foe_dragon.Custom('GetDragonHerHis')]!"
+ agot_dragon_combat.1004.a.eviscerated:0 "Rozszarpać! Rozedrzeć! Pożreć!"
+ agot_dragon_combat.1004.f.eviscerated:0 "[my_dragon.GetName] pożera zarówno [my_foe.GetTitledFirstName], jak i [my_foe_dragon.GetName]"
+
+ agot_dragon_combat.1004.desc.chomp:0 "Dla [my_foe.GetFirstName] tak naprawdę nigdy nie było nadziei. [my_foe_dragon.GetName] nie dorasta rozmiarami do mojego [my_dragon.GetName], i [my_foe.GetSheHe] dobrze wie, że frontalny atak to samobójstwo — dlatego czai się między chmurami.\n\nKilka razy wydaje mi się widzieć cień naszej ofiary, ale zbliżenie rozwiewa złudzenie.\n\nW locie pierwotna część mnie rozpoznaje, czym to jest. Instynktowny wrzask wyuczony przez ludzkość, gdy byliśmy jeszcze bestiami. My jesteśmy łowcą, a smok — ofiarą.\n\nJakby na potwierdzenie, przed nami pojawia się cień. Przez moment myślę, że to kolejna iluzja, gdy nagle mniejsza sylwetka wyrasta tuż przed nami! Nawet nie muszę nic mówić — paszcza [my_dragon.GetNameNoTooltip] otwiera się i jednym kęsem pożera [my_foe_dragon.GetName] i [my_foe.GetName]."
+ agot_dragon_combat.1004.a.chomp:0 "Nie mieli nawet czasu, by krzyknąć."
+ agot_dragon_combat.1004.f.chomp:0 "[my_foe.GetName] i [my_foe_dragon.GetName] zostają pożarci przez [my_dragon.GetName]"
+ agot_dragon_combat.1004.chomp.t:0 "[my_dragon.GetNameNoTooltip] lubi ten smak"
+
+ # Tooltips
+ ## Own Duel Success Increase Tooltips
+ agot_dragon_combat.duel_success.none:0 "#difficulty_hard BRAK#! wzrostu szansy na sukces"
+ agot_dragon_combat.duel_success.low:0 "#difficulty_hard NISKI#! wzrost szansy na sukces"
+ agot_dragon_combat.duel_success.medium:0 "#difficulty_medium ŚREDNI#! wzrost szansy na sukces"
+ agot_dragon_combat.duel_success.high:0 "#difficulty_easy WYSOKI#! wzrost szansy na sukces"
+ agot_dragon_combat.duel_success.very_high:0 "#difficulty_easy BARDZO WYSOKI#! wzrost szansy na sukces"
+ agot_dragon_combat.duel_success.guaranteed:0 "Masz #difficulty_easy GWARANTOWANE#! zwycięstwo!"
+
+ ## Opponent Duel Success Increase Tooltips
+ agot_dragon_combat.duel_success.none.has_happened:0 "#difficulty_hard BRAK#! wzrostu szansy [my_foe.GetHerHis] na sukces"
+ agot_dragon_combat.duel_success.low.has_happened:0 "#difficulty_hard NISKI#! wzrost szansy [my_foe.GetHerHis] na sukces"
+ agot_dragon_combat.duel_success.medium.has_happened:0 "#difficulty_medium ŚREDNI#! wzrost szansy [my_foe.GetHerHis] na sukces"
+ agot_dragon_combat.duel_success.high.has_happened:0 "#difficulty_easy WYSOKI#! wzrost szansy [my_foe.GetHerHis] na sukces"
+ agot_dragon_combat.duel_success.very_high.has_happened:0 "#difficulty_easy BARDZO WYSOKI#! wzrost szansy [my_foe.GetHerHis] na sukces"
+ agot_dragon_combat.duel_success.guaranteed.has_happened:0 "[my_foe.GetSheHe] ma #difficulty_hard GWARANTOWANE#! zwycięstwo!"

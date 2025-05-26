@@ -1,0 +1,48 @@
+﻿l_english:
+ agot_engagement_events.0002.t:0 "Czego pragnie serce"
+ agot_engagement_events.0002.desc.intro:0 "Mój [ROOT.Char.Custom2('RelationToMe', betrothed_1)] [betrothed_1.GetFirstName] wchodzi do mojej komnaty, [betrothed_1.Custom('quirk_neg_pp')]. „[betrothed_1.Custom2('RelationToMeShort',ROOT.Char)|U], mój [ROOT.Char.GetLadyLord], chcę porozmawiać o moich zaręczynach” – mówi [betrothed_1.GetSheHe], [betrothed_1.Custom('quirk_neg_adverb')]. „Nie mogę tego zrobić, nie chcę poślubić [betrothed_2.GetTitledFirstName].”\n\n[betrothed_1.GetSheHe|U] kontynuuje: „Od czego by tu zacząć?”
+ agot_engagement_events.0002.desc.negative_opinion:0 "Jeśli mam być ze sobą szczery/a, nie mogę znieść [betrothed_2.GetHerHim]."
+ agot_engagement_events.0002.desc.lowborn:0 "[betrothed_2.GetSheHe|U] jest zwykłym plebejuszem."
+ agot_engagement_events.0002.desc.bastard:0 "Bękart... Jak mógłbym/mogłabym...?"
+ agot_engagement_events.0002.desc.not_attracted_to_me:0 "Mój narzeczony/narzeczona nie znajdzie satysfakcji z [betrothed_1.GetWomanMan] takiego jak ja."
+ agot_engagement_events.0002.desc.not_attracted_to_them:0 "Nie mogę sobie wyobrazić, żebym, ekhem, #italic zaznał/zaznała spełnienia#! z [betrothed_2.GetWomanMan] jak [betrothed_2.GetHerHim]."
+ agot_engagement_events.0002.desc.deformed:0 "[betrothed_2.GetSheHe|U] jest... zdeformowany/a."
+ agot_engagement_events.0002.desc.unfaithful:0 "Niewierny prostak... [betrothed_2.GetSheHe|U] nigdy nie pozostanie mi wierny/a."
+ agot_engagement_events.0002.desc.prude:0 "[betrothed_2.GetSheHe|U] jest zbyt #italic sztywny/a#! jak na mój gust..."
+ agot_engagement_events.0002.desc.unkind:0 "Mówiąc wprost, [betrothed_2.GetSheHe] jest okropny/a."
+ agot_engagement_events.0002.desc.too_young:0 "[betrothed_2.GetSheHe|U] jest ode mnie dużo młodszy/a."
+ agot_engagement_events.0002.desc.too_old:0 "[betrothed_2.GetSheHe|U] jest ode mnie dużo starszy/a."
+ agot_engagement_events.0002.desc.has_lover:0 "#italic Ponad wszystko#! kocham kogoś innego."
+ agot_engagement_events.0002.desc.outro:0 "Proszę, [betrothed_1.Custom2('RelationToMeShort',ROOT.Char)], #italic błagam#!, nie każ mi tego robić."
+ agot_engagement_events.0002.a:0 "[betrothed_1.GetFirstNameNoTooltip] poślubi wybraną przeze mnie osobę."
+ agot_engagement_events.0002.a.tt:0 "Zmusisz [betrothed_1.GetFirstNameNoTooltip] do pozostania przy zaręczynach z [betrothed_2.GetNameNoTooltip], ale to może mieć nieprzewidziane konsekwencje."
+ agot_engagement_events.0002.b:0 "Dobrze, nie musisz poślubiać [betrothed_2.GetHerHim]."
+ agot_engagement_events.0002.b.tt:0 "Zerwiesz zaręczyny pomiędzy [betrothed_1.GetNameNoTooltip] a [betrothed_2.GetNameNoTooltip]."
+ agot_engagement_events.0002.c:0 "Możesz poślubić swojego kochanka/kochankę."
+
+ agot_engagement_events.0003.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_engagement_events.0003.desc:0 "Marzenia o zaręczynach — twoje nadzieje na kontrolowanie mojego życia — tylko mnie od ciebie oddaliły. Nie wyobrażam sobie dalej żyć z bezmyślnym [ROOT.Char.Custom('InsultNoun')] takim jak ty. Nie martw się o wydziedziczenie mnie, sam/a się tego podejmę."
+ agot_engagement_events.0003.a:0 "Jak #bold śmie#! [betrothed_1.GetSheHe]!"
+
+ agot_engagement_events.0004.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_engagement_events.0004.desc:0 "Twoje nadzieje na wydanie mnie za mąż/wydanie mnie wbrew mojej woli sprawiły, że podjąłem/am decyzję: odszedłem/am, by dołączyć do Nocnej Straży — bractwa, w którym nie będę już traktowany/a jak towar."
+ agot_engagement_events.0004.a:0 "[betrothed_1.GetSheHe|U] wolał(a) przywdziać czerń niż poślubić..."
+
+ agot_engagement_events.0005.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_engagement_events.0005.desc:0 "Jeśli myślałeś/aś, że zdołasz kontrolować mój los i zmusić mnie do małżeństwa, źle mnie oceniłeś/aś. Może Cytadela lepiej go oceni."
+ agot_engagement_events.0005.a:0 "Mój [ROOT.Char.Custom2('RelationToMe', betrothed_1)] zostaje maesterem..."
+
+ agot_engagement_events.0006.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_engagement_events.0006.desc:0 "Oddał(a)byś mnie jak bydło, wbrew mojej woli i woli Siedmiu, Którzy Są Jednym. Cóż, twoje wybory zadecydowały za mnie: odszedłem/am, by dołączyć do Wiary."
+ agot_engagement_events.0006.a:0 "Mój [ROOT.Char.Custom2('RelationToMe', betrothed_1)] wstąpi do duchowieństwa..."
+
+ agot_engagement_events.0007.t:0 "Ostatnie tchnienie złamanego serca"
+ agot_engagement_events.0007.desc:0 "Kłótnia z moim [ROOT.Char.Custom2('RelationToMe', betrothed_1)] [betrothed_1.GetFirstName] bardzo mnie przygnębiła... Siedziałem/am w moim gabinecie, wciąż wracając myślami do tej rozmowy.\n\nNie mogłem/am drzemać dłużej niż minutę, gdy usłyszałem/am pukanie do drzwi. Zrywając się, miałem/am nadzieję zobaczyć twarz [betrothed_1.GetFirstNamePossessiveNoTooltip] po drugiej stronie. Zamiast tego przywitał mnie strażnik, którego twarz była nie do poznania... #italic Czy to ból? Przerażenie? Niedowierzanie??#!\n\nStrażnik wchodzi i opowieść wylewa się z niego niczym woda z pękniętego wału. „Twój [ROOT.Char.Custom2('RelationToMe', betrothed_1)], mój [ROOT.Char.GetLadyLord], [betrothed_1.GetSheHe] był(a) tak przygnębiony/a zaręczynami, twoim zaniedbaniem... [betrothed_1.GetSheHe|U] poszedł/poszła do miasta, by utopić smutki, i...” Głos strażnika łamie się i znam już prawdę. „[betrothed_1.GetSheHe|U]... #bold [betrothed_1.GetSheHe|U] nie żyje!#!”"
+ agot_engagement_events.0007.a:0 "Nie. Nie, nie, nie #bold nie#!!"
+
+ agot_engagement_events.0008.t:0 "Zgaszone marzenie"
+ agot_engagement_events.0008.desc:0 "[betrothed_1.GetFirstName] wraca do mojej komnaty i od razu widzę, że nasza kłótnia o zaręczyny ma trwać dalej. Próbuję ją/go uspokoić, lecz zostaję przerwany/a—\n\n„Jeśli nie bierzesz pod uwagę mojej opinii o przyszłym współmałżonku, ja też nie wezmę pod uwagę twojej” – mówi mój [ROOT.Char.Custom2('RelationToMe', betrothed_1)], [betrothed_1.Custom('quirk_neg_adverb')]. „Nie poślubię [betrothed_2.GetHerHim]... #bold ani nikogo innego#!.”"
+ agot_engagement_events.0008.a:0 "To nie wróży dobrze..."
+ agot_engagement_events.0008.b:0 "Nie pozwolę na nieposłuszeństwo!"
+ agot_engagement_events.0008.c:0 "Znikaj mi z oczu!"
+

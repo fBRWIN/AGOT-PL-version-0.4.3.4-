@@ -1,0 +1,37 @@
+﻿l_english:
+ agot_btw_nightswatch_petition_non_rc:0 "Petitionowanie Władcy"
+ agot_btw_wildling_call_to_arms:0 "Wezwanie Dziczyków do Broni"
+
+ agot_btw_interaction_events.0001.opening:0 "Wezwanie do Broni"
+ agot_btw_interaction_events.0001.desc:0 "Zbyt długo czarne kruki rozdzierały ziemie wolnych ludzi jak padlinę — żerując na śmierci naszych mężczyzn, kobiet i dzieci.\n\nZanim klęczący przyszli z koronami i stalowymi mieczami, wszyscy ludzie dzielili tę ziemię. #bold I tak będzie znowu.#!\n\nDołącz do mnie, a razem stoczymy zjednoczoną walkę przeciw klęczącym!"
+ agot_btw_interaction_events.0001.a:0 "Oczywiście, dołączę!"
+ agot_btw_interaction_events.0001.b:0 "Dołączę... #italic za cenę.#!"
+ agot_btw_interaction_events.0001.c:0 "Ha! Nigdy nie dołączę do takich jak ty, [wildling_caller.GetFirstNameNoTooltip]!"
+
+ agot_btw_interaction_events.0002.opening:0 "Do Broni!"
+ agot_btw_interaction_events.0002.desc:0 "Dawno, zanim czarne kruki spadły na nas, wolni ludzie żyli w jedności z ziemią. #bold Razem, możemy znowu ujrzeć ten dzień!#!\n\nKlęczący będą drżeć w swoich stalowych zbrojach, kiedy nas zobaczą — wolni ludzie, zjednoczeni w walce przeciw nim!"
+ agot_btw_interaction_events.0002.a:0 "Prawdziwa uczta dla oczu!"
+
+ # FireFighter451 TODO Może warto dodać podpowiedzi do tych opcji.
+ agot_btw_interaction_events.0003.opening:0 "Za Cenę..."
+ agot_btw_interaction_events.0003.desc:0 "Nie mam miłości w sercu dla klęczących, ani czarnych kruków, które bronią Muru.\n\nAle mam miłość do złota, więc rozważę dołączenie do twojej sprawy, jeśli spełnisz moje wymagania."
+ agot_btw_interaction_events.0003.a:0 "Potrzebuję każdej pomocy, na którą mogę sobie pozwolić."
+ agot_btw_interaction_events.0003.b:0 "Moja rodzina jest warta więcej niż złoto."
+ agot_btw_interaction_events.0003.c:0 "Będziesz żałować dnia, w którym uczyniłeś ze mnie żebraka..."
+
+ agot_btw_interaction_events.0004.opening:0 "Na Własną Rękę"
+ agot_btw_interaction_events.0004.desc:0 "Nie mogę wyobrazić sobie gorszego sposobu na śmierć niż dołączenie do twojej durnej wojny przeciw klęczącym.\n\nPomyślmy, kto jest gorszy? Krwawe kruki, czy ty, [ROOT.Char.GetCulture.GetName]." #AGOT TODO Dodaj CulturalCurse, jeśli jest to zaprogramowane.
+ agot_btw_interaction_events.0004.a:0 "Ten nikczemny drań!"
+
+ agot_btw_interaction_events.0005.opening:0 "Warty Więcej Niż Złoto"
+ agot_btw_interaction_events.0005.desc:0 "Nie mogę spełnić twoich żądań złotem, ale mogę dać ci coś, co jest warte znacznie więcej...\n\n[wildling_potential_house_hostage.GetFullName] to moja rodzina, z mojej własnej krwi, i będzie godnym zakładnikiem w naszej nadchodzącej wojnie."
+ agot_btw_interaction_events.0005.a:0 "Nie mogę odmówić takiej ofercie."
+ agot_btw_interaction_events.0005.b:0 "Ha! Dobry żart."
+
+ agot_btw_interaction_events.0006.opening:0 "Do Broni!"
+ agot_btw_interaction_events.0006.desc:0 "Udowodniłeś, że jesteś kimś więcej niż tylko mówcą — a to znaczy dla nas, wolnych ludzi, bardzo wiele.\n\nDołączę do tej twojej wojny. Klęczący będą drżeć na nasz widok."
+ agot_btw_interaction_events.0006.a:0 "Miło to słyszeć."
+
+ agot_btw_interaction_events.0007.opening:0 "Ciesz się Umieraniem, Podczas Gdy Ja Będę Uczcić"
+ agot_btw_interaction_events.0007.desc:0 "Do głupiego [ROOT.Char.GetTitledFirstNameNoTooltip], twoje próby kupienia mojej lojalności zostawiły mnie w dobrym humorze. #bold Pomyśleć, że dołączę do takich jak ty w bitwie!#!\n\nNie mogę przestać się śmiać..."
+ agot_btw_interaction_events.0007.a:0 "Przeklęty nikczemny drań!"

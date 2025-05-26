@@ -1,0 +1,10 @@
+﻿l_english:
+ agot_btw_maintenance.0100.t:0 "Utwórz Królestwo"
+ agot_btw_maintenance.0100.desc:0 " Mogę utworzyć tytuł [kingdom_title.GetName] i stać się potężnym oraz budzącym grozę władcą! Następnie będę mógł/mogła zażądać, by wszyscy niezależni wasale de iure należący do [kingdom_title.GetNamePossessive] złożyli mi hołd i stali się moimi wasalami."
+ agot_btw_maintenance.0100.a:0 " Utwórz królestwo."
+ agot_btw_maintenance.0100.b:0 " Nieważne."
+
+ agot_btw_maintenance.0101.t:0 "Złóż Hołd"
+ agot_btw_maintenance.0101.desc:0 " Mój [ROOT.Char.Custom2('RelationToMe', king.Self)] [king.GetFullName] utworzył/a tytuł [kingdom_title.GetName] i teraz nosi tytuł [king.GetTitleAsNameNoTooltip]! [king.GetSheHe|U] żąda, bym złożył/a mu/jej hołd i został/a jego/jej wasalem."
+ agot_btw_maintenance.0101.a:0 " Złóż hołd."
+ agot_btw_maintenance.0101.b:0 " Pozostań niezależny/a."

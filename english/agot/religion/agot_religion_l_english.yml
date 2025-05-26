@@ -1,0 +1,14 @@
+﻿l_english:
+ doctrine_consanguinity_siblings_name:0 "Małżeństwo Adelphogamiczne"
+ doctrine_consanguinity_siblings_desc:0 "Rodzeństwo, kuzyni, oraz ciotki/wujkowie mogą zawierać małżeństwa w celu zachowania czystości krwi, choć inne kazirodcze małżeństwa są tabu."
+ doctrine_parameter_consanguinity_sibling_marriage:0 "Małżeństwa między rodzeństwem są dozwolone"
+ doctrine_parameter_consanguinity_sibling_incest:0 "Stosunki seksualne między rodzeństwem nie niosą ze sobą [tajemnicy|E] kazirodztwa"
+ doctrine_parameter_allows_sibling_marriage:0 "" #intencjonalnie puste
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_essosi:0 "Uznaje religie Essos i jest uznawane przez Essosi [faiths|E] za [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] zamiast $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_the_seven:0 "Uznaje religie Siedmiu i jest uznawane przez religie Siedmiu [faiths|E] za [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] zamiast $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_old_gods:0 "Uznaje religie Starych Bogów i jest uznawane przez Starych Bogów [faiths|E] za [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] zamiast $hostility_evil_tooltippable$"
+
+ agot_dummy_doctrine_name: ""
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name: ""
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc: ""
+

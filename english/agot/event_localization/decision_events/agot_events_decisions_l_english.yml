@@ -1,0 +1,123 @@
+﻿l_english:
+ agot_decisions_events.0001.t:0 "Niepodważalne Królestwo"
+ agot_decisions_events.0001.desc:0 "Z siłą mojej pozycji, teraz bez wątpliwości, jestem wreszcie gotów ogłosić moje królestwo prawdziwym królestwem. Te ziemie były walką i zniszczeniem od Dnia Valyrii, ale w końcu je zjednoczyłem. Już nie będą to Tereny Sporne, zniszczone i plądrowane w celu pokazania siły pomiędzy innymi Wolnymi Miastami, ale staną na mocy naszego własnego królestwa. Mojego królestwa."
+ agot_decisions_events.0001.a:0 "Niech nasze królestwo prosperuje przez długie lata."
+ agot_decisions_events.0001.b:0 "Wreszcie, moje marzenie zostało spełnione..."
+
+ agot_decisions_events.0002.t:0 "$agot_decisions_events.0001.t$"
+ agot_decisions_events.0002.desc:0 "Idąc od siły do siły, [founder.GetTitledFirstName] w końcu ogłosił, że [founder.GetHerHis] królestwo to prawdziwe królestwo.\n\nSiła tego zjednoczonego królestwa jest niezaprzeczalna."
+ agot_decisions_events.0002.a:0 "Udowodnimy naszą wartość wszystkim."
+ agot_decisions_events.0002.b:0 "Ciekawe."
+
+ agot_decisions_events.0003.t:0 "$agot_decisions_events.0001.t$"
+ agot_decisions_events.0003.desc:0 "Idąc od siły do siły, [founder.GetTitledFirstName] w końcu ogłosił, że [founder.GetHerHis] królestwo to prawdziwe królestwo.\n\nSiła tego zjednoczonego królestwa jest niezaprzeczalna."
+ agot_decisions_events.0003.a:0 "Nie przetrwają długo!"
+ agot_decisions_events.0003.b:0 "Trzeba to obserwować."
+ agot_decisions_events.0003.c:0 "Ciekawe."
+
+ k_undisputed_lands:0 "Niepodważalne Ziemie"
+
+ bind_dragon_horn_decision:0 "Zwiąż Róg Smoka"
+ bind_dragon_horn_decision_desc:0 "Rytuał krwi ustanowi magiczną więź między mną a rogiem smoka w moim posiadaniu. Niezwiązany, róg nie będzie działać poprawnie."
+ bind_dragon_horn_decision_effect:0 "Spróbujesz związać się z rogiem smoka — za wielką cenę."
+ bind_dragon_horn_decision_tooltip:0 "Przeprowadź rytuał krwi z rogiem smoka"
+ bind_dragon_horn_decision_confirm:0 "Przygotuj rytuał"
+
+ binding_available_prisoner:0 "Ma dorosłego jeńca do poświęcenia."
+ binding_available_kin:0 "Ma krewnego do poświęcenia."
+ binding_available_soulmate:0 "Ma ukochaną osobę do poświęcenia."
+ binding_available_blood:0 "Nie jest ranny."
+
+ needs_the_rhllor_religion_chaplain:0 "Twój [court_chaplain|El] wyznaje religię R'hllora."
+ needs_the_flames_religion_chaplain:0 "Twój [court_chaplain|El] wyznaje religię Valyria."
+ needs_mystic_figure:0 "Dworzanin ma lifestyle [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]"
+
+ agot_bloodbinding:0 "Więź Krwi"
+
+ agot_decisions_events.0100.t:0 "$agot_bloodbinding$: Cena"
+ agot_decisions_events.0100.desc:0 ""Aby więź miała moc, trzeba zapłacić cenę," ostrzega [ritualist.GetFirstNameNicknamed], "i to wysoką. Czarostwo takie jak to nie ugnie się łatwo... Ugina się #bold dla krwi#!."\n\n"A to nie wszystko," kontynuuje [ritualist.GetSheHe]. "Więź musi być wzmocniona ogniem. Krew i ogień, ogień i krew." [ritualist.GetSheHe|U] pozwala, aby te słowa zawisły w powietrzu na chwilę, zanim kontynuuje. "Poświęcenie obcego może wystarczyć, jeśli ofiarujesz odrobinę swojej własnej krwi... Ale #italic osobiste#! poświęcenie, twoja własna krew lub krew bliskiego krewnego, jest najlepsze. Cena będzie wielka, ale nagroda będzie większa.""
+ agot_decisions_events.0100.a:0 "Przyprowadź jeńców."
+ agot_decisions_events.0100.a.tt:0 "Wybierzesz ofiarę spośród swoich jeńców, ale twoje szanse na sukces będą #difficulty_hard tiny#!"
+ agot_decisions_events.0100.b:0 "Zawołaj moją rodzinę."
+ agot_decisions_events.0100.b.tt:0 "Wybierzesz ofiarę spośród bliskich krewnych, więc twoje szanse na sukces będą #difficulty_medium modest#!"
+ agot_decisions_events.0100.c:0 "#BER I#! dostarczę krwi."
+ agot_decisions_events.0100.c.tt:0 "Będziesz płacił wysoką cenę za to, a twoje szanse na sukces będą #difficulty_easy high#!"
+ agot_decisions_events.0100.soulmate:0 "Zrzeknę się mojego serca, [soulmate.GetFirstName]."
+ agot_decisions_events.0100.soulmate.tt:0 "[soulmate.GetTitledFirstNameNoTooltip], twoja ukochana osoba, zostanie poświęcona w tym rytuale, #true_white;bold gwarantując sukces#!"
+ agot_decisions_events.0100.d:0 "Cena jest zbyt wysoka."
+ agot_decisions_events.0100.hidden:0 "" # will replace with agot_empty
+
+ agot_decisions_events.0101.t:0 "$agot_bloodbinding$: Ofiara"
+ agot_decisions_events.0101.desc:0 "Wybierz ofiarę do rytuału."
+ agot_decisions_events.0101.a:0 "Doskonała ofiara..."
+ agot_decisions_events.0101.b:0 "Inna cena musi być zapłacona."
+ agot_decisions_events.0101.c:0 "Z drugiej strony, to głupota."
+
+ agot_decisions_events.0102.t:0 "$agot_bloodbinding$: Rytuał"
+ agot_decisions_events.0102.intro.sacrifice_ritualist:0 ""Bardzo dobrze," mówi [ritualist.GetFirstName] pustym, ale pełnym obowiązku tonem.\n\n"
+ agot_decisions_events.0102.intro.sacrifice_child:0 ""Dałem [sacrifice.GetHerHim] mleko maku, [sacrifice.GetSheHe] nic nie poczuje," mówi [ritualist.GetFirstNameNoTooltip], gdy [sacrifice.GetFirstName], moje dziecko, jest niesione. Gdy patrzę na twarz [sacrifice.GetHerHis], zaczynam się zastanawiać, czy to warto. Tak, to #bold musi#! być."
+ agot_decisions_events.0102.intro.sacrifice_kin:0 "[sacrifice.GetFirstName] jest stawiana przede mną, a ciężar mojej decyzji zaczyna na mnie ciążyć. #italic Czy to się uda?#! Myślę sobie, ale spojrzenie w oczach [ritualist.GetFirstNamePossessiveNoTooltip] mówi mi, że tak. Na pewno, taka pewność nie jest błędna."
+ agot_decisions_events.0102.intro.sacrifice_prisoner:0 "Mój jeńca [sacrifice.GetFirstName] jest stawiany przede mną, a ciężar mojej decyzji zaczyna na mnie ciążyć. Kryminalista czy nie, taki los to nie sprawiedliwa kara... Wątpliwości wkradają się, ale spojrzenie w oczach [ritualist.GetFirstNamePossessiveNoTooltip] uspokaja mnie. To #bold jest#! właściwe."
+ agot_decisions_events.0102.intro.sacrifice_soulmate:0 ""Moja miłość, co to jest?" W tej chwili, głos [soulmate.GetFirstNamePossessive] jest jak smocza stal w moich żyłach, rozrywając mnie od środka. Nakazuję [soulmate.GetHerHim] milczenie, ale cisza boli #bold tak samo mocno#!."
+ agot_decisions_events.0102.intro.bleed_self:0 "Przygotowuję się mentalnie na to, co ma się wydarzyć. \"To nie będzie łatwe,\" mówi [ritualist.GetFirstNameNoTooltip] lekko. \"Zostaniesz wykrwawiony niemal do śmierci, a być może nigdy się nie zregenerujesz.\" Spoglądam na róg smoka twardo. \"Kiedy będziesz gotowy, zaczniemy,\" mówi [ritualist.GetSheHe]."
+ agot_decisions_events.0102.desc.blood_self:0 "\n\nKiwnę głową, a rytuał się zaczyna. Przesuwam ostry nóż po moim ramieniu, patrząc jak głęboka krwista ciecz najpierw zaczyna bulgotać wzdłuż szwu. Potem następuje wybuch, więcej niż się spodziewałem. Więcej, niż liczyłem...\n\nCzuję zawroty głowy, gdy ciemność zaczyna otaczać moje pole widzenia."
+ agot_decisions_events.0102.desc.blood_sacrifice:0 "\n\n[sacrifice.GetFirstNameNoTooltip] drży, gdy przesuwam mój nóż gładko po jej szyi. [sacrifice.GetSheHe|U] mogło krzyczeć, ale dźwięk utknął w gardle pełnym krwi. Ciepła fala karmazynowego płynie z teraz otwartej rany... a światło w oczach [sacrifice.GetFirstNamePossessiveNoTooltip] gaśnie.\n\nRóg jest obmyty krwią ofiary. Ofiaruję kilka kropli własnej krwi, także."
+
+ agot_decisions_events.0102.desc.fire:0 "W ogniu, glify rogu świecą jasno. Więź jest zapieczętowana. Rytuał dobiegł końca."
+ agot_decisions_events.0102.a:0 "Czy... czy to działa?"
+ agot_decisions_events.0102.tt:0 "Jest tylko jeden sposób, by się przekonać."
+ agot_decisions_events.0102.toast.soulmate:0 "Wiesz, co zrobiłeś."
+
+ agot_decisions_events.0105.t:0 "Słabnąca Więź"
+ agot_decisions_events.0105.desc.intro:0 "Ostatnio [dragon.GetName] stał się coraz bardziej niespokojny. Coraz częściej [dragon.Custom('GetDragonSheHe')] wykazuje niechęć do przestrzegania moich rozkazów, a czasem nawet odważa się ignorować moje polecenia. Obawiam się, że moja kontrola nad [dragon.Custom('GetDragonHerHim')] stała się osłabiona i wkrótce [dragon.Custom('GetDragonSheHe')] może zerwać więź.\n\nJest tylko jeden sposób, by to naprawić; muszę znów użyć rogu smoka w obecności [dragon.GetNamePossessiveNoTooltip]."
+ agot_decisions_events.0105.desc.imminent_break:0 "Obawiam się, że to albo to, albo stracę kontrolę nad [dragon.GetNameNoTooltip] na zawsze."
+ agot_decisions_events.0105.desc.imminent_shatter:0 "[dragon.GetNameNoTooltip] może szukać zemsty, jeśli [dragon.Custom('GetDragonSheHe')] zniszczy naszą wymuszoną więź."
+ agot_decisions_events.0105.a:0 "Muszę to naprawić."
+
+ agot_decisions_events.0106.t:0 "$agot_dragonbinding$: Zerwana Więź"
+ agot_decisions_events.0106.desc:0 "[dragon.GetNameNicknamed] już nie słucha moich rozkazów, moja kontrola nad [dragon.Custom('GetDragonHerHim')] całkowicie zanikła. Muszę pogodzić się z faktem, że już nie jestem jeźdźcem smoka."
+ agot_decisions_events.0106.a:0 "Stewardzie, znajdź mi róg."
+ agot_decisions_events.0106.a.tt:0 "Spróbujesz ponownie związać smoka z rogiem."
+ agot_decisions_events.0106.b:0 "To mogło się skończyć znacznie gorzej."
+ agot_decisions_events.0106.dragon_flee:0 "Smok uwalnia się spod twojej kontroli i ucieka, jeśli nie posiadasz [dragonpit|E]"
+
+ agot_decisions_events.0107.t:0 "$agot_dragonbinding$: Zniszczona Więź"
+ agot_decisions_events.0107.desc:0 "Więź nad [dragon.GetName] szybko się pogorszyła, świadectwo czystej woli [dragon.Custom('GetDragonHerHis')]. Z nową jasnością, [dragon.GetNameNoTooltip] ponownie ma pełną kontrolę nad [dragon.Custom('GetDragonHerHis')] przeznaczeniem — a [dragon.Custom('GetDragonSheHe')] chce #bold zemsty#!. Nigdy nie powinienem ufać magii krwi!"
+ agot_decisions_events.0107.a:0 "Róg, teraz!"
+ agot_decisions_events.0107.b:0 "[dragon.GetNameNoTooltip], na nogi! Powiedziałem #bold na nogi#!!"
+ agot_decisions_events.0107.b.valyrian:0 "#italic Dohaerās, [dragon.GetNameNoTooltip]! Lykiri!#!"
+
+ agot_decisions_events.0109.t:0 "$agot_dragonbinding$: Brutalne Przebudzenie"
+ agot_decisions_events.0109.desc:0 "[dragon.GetNameNicknamed] nagle przestał odpowiadać na moje rozkazy. Dopiero gdy [dragon.Custom('GetDragonSheHe')] spojrzał na mnie, poczułem głęboką nienawiść, którą ten smok żywi do mnie...\n\nDopiero gdy [dragon.Custom('GetDragonHerHis')] szczęki zamknęły się wokół mojego ciała, zrozumiałem, co się stało. Więź została zerwana! Ktoś inny związał się z moim rogiem smoka!"
+ agot_decisions_events.0109.a:0 "[ROOT.Char.Custom('Scream')]"
+
+ agot_decisions_events.0110.t:0 "$agot_dragonbinding$: Nagły Wymarsz"
+ agot_decisions_events.0110.desc:0 "Na początku nie było jasne, co spowodowało nagły wyjazd [dragon.GetName]. Dopóki teraz, moja kontrola nad [dragon.Custom('GetDragonHerHim')] wydawała się silna.\n\nJednak po przemyśleniu, jedyne naturalne wnioski prowadzą do jednego; ktoś inny związał się z moim rogiem smoka! W retrospekcji, nigdy nie powinienem był zgubić tego przedmiotu. Będę liczył na szczęście, to mogło się skończyć znacznie gorzej."
+ agot_decisions_events.0110.a:0 "Szkoda, że straciliśmy smoka."
+
+ agot_decisions_events.0200.t:0 "Traktat Braavos-Pentos: Zerwany!"
+ agot_decisions_events.0200.desc:0 "Dotarły do mnie wieści, że Pentos nie będzie już przestrzegać Traktatu Braavos-Pentos z 209 roku! Zadeklarowali jego nieważność i już odbudowują swoje armie oraz obozowiska niewolników!"
+ agot_decisions_events.0200.a: "Co oni zrobili?!"
+ agot_decisions_events.0200.b: "To oznacza wojnę!"
+ agot_decisions_events.0200.a_tt:0 "Władcy Braavos będą mogli użyć #bold Reaktywacji Traktatu Braavos-Pentos#! jako casus belli przez 15 lat"
+
+ agot_decisions_events.0201.t:0 "Traktat Braavos-Pentos: Zerwany!"
+ agot_decisions_events.0201.desc:0 "Dotarły do mnie wieści prosto z [GetTitleByKey('c_princes_quarter').GetNameNoTier]: Traktat Braavos-Pentos z 209 roku został zadeklarowany nieważnym.\n\nMożemy wznowić naszą działalność w handlu niewolnikami, odbudować nasze armie i werbować najemników bez przeszkód."
+ agot_decisions_events.0201.a:0 "Na rzecz Pentos!"
+
+ agot_decisions_events.0202.t:0 "Traktat Braavos-Pentos: Zerwany!"
+ agot_decisions_events.0202.desc:0 "Już nigdy magistrowie Pentos nie będą związani kaprysami Braavosi!\n\nTraktat Braavos-Pentos z 209 roku został oficjalnie uznany za nieważny, dzięki moim staraniom. Teraz miasto Pentos może swobodnie odbudować swoje armie, uczestniczyć w handlu niewolnikami i werbować najemników."
+ agot_decisions_events.0202.a:0 "Na rzecz Pentos!"
+
+ agot_decisions_events.0203.t:0 "Traktat Braavos-Pentos"
+ agot_decisions_events.0203.desc:0 "Po naszej porażce w Szóstej Wojnie Braavo-Pentoskiej, [attacker.GetName] postanowił, że na Pentos nałożone zostaną następujące sankcje:\n\n$EFFECT_LIST_BULLET$Pentoska armia zostanie znacznie zredukowana.\n$EFFECT_LIST_BULLET$Pentos będzie miał zakaz werbowania najemników.\n$EFFECT_LIST_BULLET$I na koniec, Pentos zostanie wykluczony z handlu niewolnikami."
+ agot_decisions_events.0203.a:0 "Co za katastrofa..."
+ 
+ agot_decisions_events.0204.t:0 "Traktat Braavos-Pentos"
+ agot_decisions_events.0204.desc:0 "Po naszej wygranej w Szóstej Wojnie Braavo-Pentoskiej, na naszych wrogów nałożone zostaną następujące sankcje:\n\n$EFFECT_LIST_BULLET$Pentoska armia zostanie znacznie zredukowana.\n$EFFECT_LIST_BULLET$Pentos będzie miał zakaz werbowania najemników.\n$EFFECT_LIST_BULLET$I na koniec, Pentos zostanie wykluczony z handlu niewolnikami."
+ agot_decisions_events.0204.a:0 "Tytan zwycięża!"
+
+ agot_decisions_events.0205.t:0 "$agot_decisions_events.0202.t$"
+ agot_decisions_events.0205.desc:0 "Braavos ogłosiło, że [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] został uznany za nieważny!\n\nTeraz miasto Pentos może swobodnie odbudować swoje armie, uczestniczyć w handlu niewolnikami i werbować najemników. Dodatkowo, Braavosi mogą swobodnie prowadzić wojnę z Pentos i jej poddanymi!"
+ agot_decisions_events.0205.a:0 "To nie stanowi dla nas większego problemu."
+ agot_decisions_events.0205.a_pentos_pov:0 "A więc słowa Tytana kruszą się!"

@@ -1,0 +1,28 @@
+﻿l_english:
+
+ agot_birth_events.0003.t:0 "Waga śmierci"
+ agot_birth_events.0003.desc:0 ""Jeszcze jedno pchnięcie, mój [ROOT.Char.GetLadyLord], jeszcze jedno! Dziecko jest już prawie na świecie!" Krzyk wyrywa mi się z ust, gdy napinam się po raz ostatni. Ból jest wszędzie, jest zbyt wielki, jest przytłaczający — i nagle, wydaje się, że to już koniec... Udało mi się.\n\n"Czy z moim dzieckiem wszystko w porządku?!" Ledwo rozpoznaję własny głos. "Czy... to [child.Custom('GirlBoy')]?"\n\nPołożna nie odpowiada, nawet na mnie nie patrzy. Nie, ona ma oczy tylko dla nieruchomego zawiniątka w ramionach."
+ agot_birth_events.0003.a:0 "Czy ono... Czemu nie oddycha?! #EMP Zróbcie coś!#!."
+
+ agot_birth_events.0004.t:0 "Waga śmierci"
+ agot_birth_events.0004.desc:0 "Położna w końcu wychodzi z komnaty porodowej, jej twarz jest blada i unika mojego wzroku.\n\n"Przykro mi, mój [ROOT.Char.GetLadyLord|U]. Dziecko urodziło się... zniekształcone." Jej ton mówi wszystko. Wchodzę do pokoju, gdzie unosi się zapach śmierci, a [mother.GetFirstNameNoTooltip] trzyma przy piersi małe, nieruchome stworzenie. Jego łuskowata skóra i szczątkowe skrzydła sprawiają, że trudno je uznać za człowieka, gdyby nie włosy, w które [mother.GetFirstNameNoTooltip] wplata swoje palce.\n\nMoja [child.Custom('GetDaughterSon')] przyszła na świat jako potwór."
+ agot_birth_events.0004.a:0 "Co za tragedia."
+
+ agot_birth_events.0005.t:0 "Potwór"
+ agot_birth_events.0005.desc:0 "Ból jest #bold nie do zniesienia#!.\n\nMiędzy szarpanymi oddechami a błyskami gorącymi niczym pioruny rozdzierające moje ciało, przysięgam, że słyszę ryk smoka. Potem... nastaje #italic cisza#!.\n\nCisza otula pokój, kołysząc wszystkich obecnych w nieruchomym spokoju, nieprzerwanym żadnym oddechem. Wreszcie [second_adult.GetFirstNameNoTooltip] przerywa milczenie: "Mój [ROOT.Char.GetLadyLord|l], twoje dziecię... już tu jest."\n\nNawet nie zauważyłam/em, kiedy [second_adult.GetHerHim] podał/a mi dziecko — jeśli w ogóle można [child.GetSheHe] nazwać dzieckiem.\n\nW moich ramionach, rzucając się niespokojnie, #bold leży#! #NEG potwór#!."
+ agot_birth_events.0005.a:0 "Moja [child.Custom('GetDaughterSon')] to potwór."
+
+ agot_birth_events.0006.t:0 "Potwór"
+ agot_birth_events.0006.desc:0 "Krzyki z komnaty porodowej stają się coraz bardziej rozpaczliwe, rozdzierając powietrze niczym smok przedzierający się z niewoli. #italic Biedna, słodka [mother.GetFirstNameNoTooltip]... To dziecko może ją zabić...#!\n\nNagła cisza wyrywa mnie z otępienia. #italic To już koniec#!, myślę, lecz zatrzymuję się na moment przed wejściem — by się opanować, by przygotować na to, co mogę zastać.\n\nMasakra po porodzie wprawia mnie w osłupienie. Moja droga [mother.GetFirstNameNoTooltip], koszula przesiąknięta krwią, tuli dziecko do piersi. Lecz jej bolesne spojrzenie przeraża mnie, gdy zbliżam się, by zobaczyć swe potomstwo.\n\nOto, na moich oczach, nie jest to zwykłe dziecko. Oto #bold potwór#!."
+
+ agot_birth_events.0100.t:0 "Własny ród"
+ agot_birth_events.0100.desc:0 "Z narodzinami [child.GetName] staje przede mną kwestia założenia własnego rodu. Mój brat, [daemon.GetFirstNameNicknamed], założył swój własny ród i teraz wszyscy drżą na dźwięk nazwiska Blackfyre. Czas zdecydować, czy ludzie mają słyszeć nazwisko Bittersteel i czuć to samo."
+ agot_birth_events.0100.a:0 "Niech powstanie ród Bittersteel!"
+ agot_birth_events.0100.a_tt:0 "Założysz ród poboczny, a twoje małżeństwo stanie się patrylinearne"
+ agot_birth_events.0100.b:0 "Nie, obecny układ mi wystarczy."
+
+ agot_birth_events.0101.t:0 "Własny ród"
+ agot_birth_events.0101.desc:0 "Wielki miecz z valyriańskiej stali, [vs_blackfyre.GetName], znalazł się w moim posiadaniu. To najwyższy symbol potęgi, waleczności i legitymacji Targaryenów.\n\nAle nie jestem Targaryenem. Jako bękart nigdy nie mógłbym/mogłabym rościć sobie praw do dziedzictwa związanego z [vs_blackfyre.GetNameNoTooltip]. Być może jednak powinienem/powinnam założyć własny ród, który bez wątpienia odzwierciedli historię i status tego miecza..."
+ agot_birth_events.0101.a:0 "Niech powstanie ród Blackfyre!"
+ agot_birth_events.0101.a_tt:0 "Założysz ród Blackfyre."
+ agot_birth_events.0101.b:0 "Nie, wolę obecny układ."

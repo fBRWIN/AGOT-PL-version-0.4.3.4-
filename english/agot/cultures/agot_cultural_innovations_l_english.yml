@@ -1,0 +1,86 @@
+﻿l_english:
+
+innowacja_agot_gavelkind:0 "Gavelkind"
+innowacja_agot_gavelkind_desc:0 "Stabilność i dobrobyt idą ze sobą w parze. Zamiast pozwalać wasalom walczyć o władzę, gdy stary monarcha umiera, możemy ustanowić uprzednio określony, sprawiedliwy system dziedziczenia, który wyeliminuje wiele niestabilności, która tradycyjnie występuje podczas sukcesji."
+
+innowacja_agot_heraldry:0 "Heraldyka"
+innowacja_agot_heraldry_desc:0 "Ustanowienie dziedzicznych wzorców do identyfikacji naszych szlacheckich rodów zachęci ich członków do postrzegania siebie jako część większej całości, inspirując ich do poprawy reputacji ich dynastii, a nie obsesji na punkcie osobistego statusu."
+
+innowacja_agot_siege_01:0 "Battering Ram"
+innowacja_agot_siege_01_desc:0 "W miarę jak ludzie budowali fortece i bastiony, inni zaczęli znajdować sposoby na ich przełamanie."
+
+innowacja_agot_sword_bound:0 "Obowiązek Mieczem"
+innowacja_agot_sword_bound_desc:0 "Świat jest twardym miejscem, a to miecz pozwala przejść przez życie, bronić rodziny i ogniska, oraz brać to, czego się potrzebuje."
+
+innowacja_agot_mail:0 "Łuskowa Zbroja"
+innowacja_agot_mail_desc:0 "Ta kultura przeszła poza puchowe zbroje i teraz używa mailowych płaszczy jako głównej ochrony. Mocne, trwałe i elastyczne, te zbroje sprawiają, że wojownicy tej ludności stali się naprawdę potężni."
+
+innowacja_agot_professional_lances:0 "Profesjonalne Włócznie"
+innowacja_agot_professional_lances_desc:0 "Moc Westeros leży w ciężkiej kawalerii, a ta kultura przyjęła mobilną wojnę. Jej ciężka kawaleria jest znana ze swojej dzikości i prędkości."
+
+innowacja_maesters:0 "Maesterowie"
+innowacja_maesters_desc:0 "Szkoleni w Cytadeli we wszelkich dziedzinach wiedzy, lordowie Westeros uznali maesterów za niezbędnych dla stabilności ich rządów oraz utrzymania ich zdrowia."
+
+innowacja_agot_northern_fighting:0 "Wojna Zimowa"
+innowacja_agot_northern_fighting_desc:0 "Słynne drzewa żelaznego drewna produkują drewno, które nie ma sobie równych, a z włóczniami wykonanymi z tego drewna, ludzie Północy mogą bronić się przed każdym zagrożeniem."
+odblokuj_northern_spears:0 "Można rekrutować [GetMaA('northern_spears').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_dorne_fighting:0 "Wojna na Piaskach"
+innowacja_agot_dorne_fighting_desc:0 "Wiele mówi się o Dornijczykach i ich metodach wojny, ale nikt nie wątpi, że ukąszenie, które poczuje każdy najeźdźca, jest zabójcze — zarówno dosłownie, jak i w przenośni."
+odblokuj_dornish_crossbows:0 "Można rekrutować [GetMaA('dornish_crossbows').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_vale_fighting:0 "Wojna Górska"
+innowacja_agot_vale_fighting_desc:0 "Góry Księżycowe od dawna chronią Dolinę, ale mogą też służyć jako miecz dla tych, którzy nazywają je domem. Niebezpieczeństwa ze strony dzikich ludzi oraz zdradliwe tereny sprawiły, że kawaleria stała się mniej skuteczna, co doprowadziło do polegania na walce pieszej, jak pokazuje Straż Księżyca."
+odblokuj_vale_heavy_infantry:0 "Można rekrutować [GetMaA('vale_heavy_infantry').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_reach_fighting:0 "Wojna Zielonych Pól"
+innowacja_agot_reach_fighting_desc:0 "Drugie co do wielkości królestwo, Reach jest znane z szerokich, otwartych pól pełnych upraw i zbóż. Ta otwartość czyni je podatnym na atak, dlatego hoduje się szybkie konie pocztowe, które niosą ostrzeżenie przed inwazją z każdej strony."
+odblokuj_reach_light_cavalry:0 "Można rekrutować [GetMaA('reach_light_cavalry').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_crownlands_fighting:0 "Wojna Czarnych Wód"
+innowacja_agot_crownlands_fighting_desc:0 "Ziemie wokół Zatoki Czarnej Wody zawsze były polem walki, co dało początek unikalnemu stylowi walki włócznią praktykowanej przez lokalnych żołnierzy."
+odblokuj_crownlands_spears:0 "Można rekrutować [GetMaA('crownlands_spears').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_riverlands_fighting:0 "Wojna Trójzęba"
+innowacja_agot_riverlands_fighting_desc:0 "Zawsze zagrożone wewnętrznie i zewnętrznie, Riverlands polegały na swoich rzekach i barkach pływających po nich, by szybko reagować na niebezpieczeństwo."
+odblokuj_riverlands_light_infantry:0 "Można rekrutować [GetMaA('riverlands_light_infantry').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_westerlands_fighting:0 "Wojna na Wzgórzach"
+innowacja_agot_westerlands_fighting_desc:0 "Skażone wzgórza Westerlands dały początek silnej i wytrwałej kawalerii, która dominuje w tym regionie."
+odblokuj_westerlands_knights:0 "Można rekrutować [GetMaA('westerlands_knights').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_stormlands_fighting:0 "Wojna Burzowa"
+innowacja_agot_stormlands_fighting_desc:0 "Burze w Stormlands nie tylko niszczą zamki, ale także ludzi, tworząc twardy lud, doskonale nadający się do służby jako żołnierze szturmowi."
+odblokuj_stormlands_heavy_infantry:0 "Można rekrutować [GetMaA('stormlands_heavy_infantry').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_free_companies:0 "Wolne Kompanie"
+innowacja_agot_free_companies_desc:0 "Gdy po upadku Wolnego Miasta wybuchły konflikty w Essos, wielu Westerosów i wojskowo nastawionych Essosów założyło Wolne Kompanie — najemników i najemnych marynarzy — walczących dla różnych wstrząśniętych królestw."
+odblokuj_westerosi_sellswords:0 "Można rekrutować [GetMaA('westerosi_sellswords').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_stepstone_fighting:0 "Rażenie Stepstone"
+innowacja_agot_stepstone_fighting_desc:0 "Wąska Morze łączy wiele centrów handlowych, a gdzie handel kwitnie, tam także piractwo. Stepstone są domem dla niezliczonych piratów — od najniższych morderców po potężnych książąt piratów — wszyscy szukają swojej fortuny na wyspach."
+odblokuj_stepstone_sailors:0 "Można rekrutować [GetMaA('stepstone_sailors').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_giants:0 "Chodzenie z Gigantami"
+innowacja_agot_giants_desc:0 "Poza Murem leży wiele zapomnianych rzeczy z południa. Giganci wciąż błąkają się po tych ziemiach, a czasem dołączają do plemienia lub bandy z nieznanych powodów."
+odblokuj_giants:0 "Można rekrutować [GetMaA('giant_regiment').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_goldenheart_bowmen:0 "Złote Łucznicy"
+innowacja_agot_goldenheart_bowmen_desc:0 "Dawno temu Wyspy Letnie były plądrowane przez piratów i handlarzy niewolników — aż do przybycia Xandy Qo. Uzbroiła ona swoich łuczników w łuki z drewna złotego serca, niezrównane pod względem jakości, poza tymi z kości smoczych. Ci łucznicy i ich statki wojenne stały się postrachem piratów i handlarzy niewolników."
+odblokuj_goldenheart_bowmen:0 "Można rekrutować [GetMaA('goldenheart_bowmen').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_rubies_and_iron:0 "Rubiny i Żelazo"
+innowacja_agot_rubies_and_iron_desc:0 "Pozostałe bastiony Patrimonium Hyrkoon i ich ludzie to dziwna grupa. W przeciwieństwie do innych krain, mężczyźni są zabronieni od wojny, a ich wojowniczki przyozdabiają się rubinami w policzkach i pierścieniami z żelaza."
+odblokuj_ruby_spearwomen:0 "Można rekrutować [GetMaA('ruby_spearwomen').GetName] jako [men_at_arms|E]"
+
+odblokuj_crossbowmen:0 "Można rekrutować [GetMaA('crossbowmen').GetName] jako [men_at_arms|E]"
+odblokuj_armored_footmen:0 "Można rekrutować [GetMaA('armored_footmen').GetName] jako [men_at_arms|E]"
+odblokuj_armored_horsemen:0 "Można rekrutować [GetMaA('armored_horsemen').GetName] jako [men_at_arms|E]"
+
+innowacja_agot_anti_dragon_fighting:0 "Walka Przeciwko Smokom"
+innowacja_agot_anti_dragon_fighting_desc:0 "Tak przerażające i niszczycielskie, jak są smoki, nie są one niezniszczalne. Można je zabić. Klucz leży w przebiciu ich twardych łusek — dlatego wprowadzono skorpiony, by to osiągnąć."
+odblokuj_maa_scorpions:0 "Można rekrutować [GetMaA('scorpions').GetName] jako [men_at_arms|E]"
+odblokuj_scorpion_defenses:0 "Obrony skorpionów zostaną automatycznie zbudowane i ulepszone na poziomach fortyfikacji 10 i 20"
+odblokuj_anti_dragon_workshop_bonuses:0 "Wysokie poziomy #V $building_type_workshops_01$#! linii [buildings|E] zapewniają zwiększoną obronę przed smokami"
+scorpions_prepared:0 "Przygotowane Skorpiony"
+

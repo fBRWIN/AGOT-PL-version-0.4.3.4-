@@ -1,0 +1,43 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_first_gods_religion:0 "Pierwsi Bogowie Ludzi"
+ the_first_gods_religion_adj:0 "Pierwsi Bogowie"
+ the_first_gods_religion_adherent:0 "Wyznawca"
+ the_first_gods_religion_adherent_plural:0 "Wyznawcy"
+ the_first_gods_religion_desc:0 "Przed zawarciem Paktu Pierwsi Ludzie czcili swoich własnych bogów, których przynieśli z rodzinnych stron w okolicach stepów wokół Srebrnego Morza. Kult tych Pierwszych Bogów w dużej mierze zanikł, ale w Westeros i poza nim można wciąż znaleźć nielicznych wyznawców."
+
+ ### Wiary ###
+ # Bogowie Brązu
+ fg_pan_bronze:0 "Bogowie Brązu i Kopyt"
+ fg_pan_bronze_adj:0 "Bogowie Brązu"
+ fg_pan_bronze_adherent:0 "Wyznawca"
+ fg_pan_bronze_adherent_plural:0 "Wyznawcy"
+ fg_pan_bronze_desc:0 "Pierwsi Ludzie nie czcili początkowo Starych Bogów; to przyszło dopiero po Pakcie między Ludźmi a Dziećmi Lasu. Początkowo oddawali cześć swoim własnym bogom — bogom o wiele bardziej poznawalnym i podobnym do nich samych. Najważniejszymi spośród nich byli Bogowie Brązu i Kopyt, którzy poprowadzili Pierwszych Ludzi z Essos do Westeros."
+
+ # Bogowie Sióstr
+ fg_pan_sisters:0 "Bogowie Fali i Nieba"
+ fg_pan_sisters_adj:0 "Bogowie Sióstr"
+ fg_pan_sisters_adherent:0 "Wyznawca"
+ fg_pan_sisters_adherent_plural:0 "Wyznawcy"
+ fg_pan_sisters_desc:0 "Przed przybyciem Andalów i ich kultu Siedmiu, którzy Są Jednym, tubylcy Trzech Sióstr czcili własnych bogów, z których najważniejsza była Pani Fal oraz jej towarzysz, Pan Niebios. Jest ona czczona jako lubieżna i wymagająca bogini, a jej igraszki z małżonkiem uważa się za przyczynę burz nękających ten region.\n\nZnane są jej żądania, by wyznawcy wrzucali do morza tych, którzy urodzili się kalecy lub zdeformowani, oddając ich z powrotem jej władzy. Jednak jej wymagająca natura nie jest pozbawiona dobroci — ani miłości dla wyznawców. Ci, którzy rodzą się ze znamieniem w postaci błon między palcami, otrzymują jej przychylność bez ograniczeń."
+
+ # Bogowie Burzy
+ fg_pan_elenei:0 "Bogowie Morza i Wiatru"
+ fg_pan_elenei_adj:0 "Bogowie Burzy"
+ fg_pan_elenei_adherent:0 "Wyznawca"
+ fg_pan_elenei_adherent_plural:0 "Wyznawcy"
+ fg_pan_elenei_desc:0 "Bogowie Pierwszych Ludzi byli liczni i różnorodni, ale wokół Zatoki Łamacza Okrętów najważniejszy był bóg morza i jego żona, bogini wiatru. To właśnie ich córka, Elenei, poślubiła Durrana Smutka Bogów, a od niego ród Durrandonów i ich pobratymcy wywodzą swe pochodzenie."
+
+ # Bogowie Merlinga
+ fg_pan_merling:0 "Bogowie Dworu Merlinga"
+ fg_pan_merling_adj:0 "Bogowie Merlinga"
+ fg_pan_merling_adherent:0 "Wyznawca"
+ fg_pan_merling_adherent_plural:0 "Wyznawcy"
+ fg_pan_merling_desc:0 "Król Merlingów jest bogiem czczonym w wielu krainach i przez wielu ludzi, ale jego związek z Pierwszymi Ludźmi był bliższy niż z innymi. To wśród Pierwszych Ludzi, a dokładniej w rodzie Upcliffów, znalazł on swą żonę — Urszulę Upcliff, Królową Merlingów."
+
+ # Garth Zielonoręki
+ fg_pan_garth:0 "Bóg Zieleni"
+ fg_pan_garth_adj:0 "Zielony Bóg"
+ fg_pan_garth_adherent:0 "Kciuk"
+ fg_pan_garth_adherent_plural:0 "Kciuki"
+ fg_pan_garth_desc:0 "Garth Zielonoręki, Garth Zielonoręki, Garth Zielonowłosy — pod wieloma imionami znany jest ten legendarny mąż, od którego wiele rodów Reach i okolic wywodzi swe pochodzenie. To, co jedni uważają za pierwszego króla, inni postrzegają jako głównego boga Pierwszych Ludzi. Ci, którzy go czczą, dążą do szerzenia Zieleni."

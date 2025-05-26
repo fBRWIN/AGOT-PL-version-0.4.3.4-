@@ -1,0 +1,27 @@
+﻿l_english:
+message_filter_dragon_death: "@dragon_icon! Śmierć Smoka"
+message_filter_dragon_death_desc: "Wystąpiła śmierć [dragon|E]"
+
+message_filter_dragonrider_death: "@dragon_icon! Śmierć Jeźdźca Smoków"
+message_filter_dragonrider_death_desc: "Wystąpiła śmierć [GetTrait('dragonrider').GetName( GetNullCharacter )|LV]"
+
+message_filter_dragon_hatched: "@dragon_icon! Wyklucie Jaja Smoka"
+message_filter_dragon_hatched_desc: "Jajo [dragon|E] wykluło się"
+
+message_filter_dragon_tamed: "@dragon_icon! Oswojenie Smoka"
+message_filter_dragon_tamed_desc: "[dragon|E] został oswojony"
+
+message_filter_iron_throne_inheritance: "@titles_icon! Dziedziczenie Żelaznego Tronu"
+message_filter_iron_throne_inheritance_desc: "Nowa postać odziedziczyła [GetTitleByKey('e_the_iron_throne').GetName]"
+
+message_filter_nightswatch_inheritance: "@titles_icon! Wybory Nocnej Straży"
+message_filter_nightswatch_inheritance_desc: "Nowa postać została Lordem Dowódcą Nocnej Straży"
+
+message_filter_agot_squire_training: "@cs_knight_icon! Szkolenie Giermka"
+message_filter_agot_squire_training_desc: "Wiadomości o szkoleniu giermka"
+
+message_filter_legitimate_house_inheritance: "@titles_icon! Dziedziczenie Prawowitego Rodu"
+message_filter_legitimate_house_inheritance_desc: "Wyniki sukcesji dla tytułów [agot_legitimate_house|E]"
+
+message_filter_agot_bank_interactions: "@gold_icon! Interakcje z Bankiem"
+message_filter_agot_bank_interactions_desc: "Wiadomości o interakcjach z bankiem"

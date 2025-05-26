@@ -1,0 +1,166 @@
+﻿l_english:
+
+ #Dawn
+ agot_valyrian_steel.0001.t:0 "Miecz Poranka"
+ agot_valyrian_steel.0001.desc:0 "Poranne światło rozciąga się przez pokój aż do miejsca, gdzie Świt spoczywa na kamiennym piedestale. Ostrze jest blade niczym pełnia księżyca, wykute z serca spadającej gwiazdy, okryte ciemną, ozdobną pochwą; jego głowica uformowana w złote słońce lśni w porannym blasku. Tu Świt pozostaje, gdy nie ma Miecza Poranka, tu odpoczywa pomiędzy chwilami sławy i chwały. \n\nPrzyznanie Świtu godnemu Dayne'owi to starożytny obowiązek, który teraz spoczywa na mnie. Muszę wybrać rycerza godnego, by dorównać standardom naszych przodków. \nPrzez ostatnie lata zwróciłem uwagę, że [my_relation.GetFirstName] wyrósł na utalentowanego i honorowego rycerza — ale czy jest godny, by zostać kolejnym #S Mieczem Poranka?#!"
+ agot_valyrian_steel.0001.a:0 "Obdarzę Świtem [my_relation.GetHerHim]."
+ agot_valyrian_steel.0001.b:0 "Nie, nie uważam, że [my_relation.GetHerHim] jest godny."
+
+ agot_valyrian_steel.0002.t:0 "Miecz Poranka"
+ agot_valyrian_steel.0002.desc:0 "W ciemności nocy, na kilka godzin przed świtem, mój maester przynosi mi list od [my_relation.GetFullNameRegnal], twierdząc, że to pilne. Obracam go w dłoniach i przełamuję purpurowy wosk, aby otworzyć list. \n\nWygląda na to, że [my_relation.GetFirstName] chciałby mianować mnie następnym #S Mieczem Poranka#!, jeśli tylko przyjmę ten zaszczyt. Tak wielu wielkich Dayne'ów nosiło to sławne ostrze, jak Lord Davos Dayne, który walczył przeciwko królowi Yorickowi V Yronwoodowi i jego armiom o swoją przyszłą żonę, księżniczkę Nymerię. Ci bohaterowie przynieśli naszemu Domowi chwałę. Czy naprawdę jestem godny, by pójść w ich ślady?"
+ agot_valyrian_steel.0002.a:0 "Przyjmę to powołanie."
+ agot_valyrian_steel.0002.b:0 "Nie jestem Mieczem Poranka."
+
+ agot_valyrian_steel.0004.t:0 "Miecz Żałoby"
+ agot_valyrian_steel.0004.desc:0 "Ze śmiercią [dead_relative.GetFirstName] miano Miecza Poranka pozostaje puste. Gdy tylko rytuały pogrzebowe dobiegną końca, a [dead_relative.GetHerHim] spocznie u Siedmiu, którzy są Jednym; Świt wróci na swój piedestał, by oczekiwać nowego nosiciela. W historii były lata, gdy tytuł pozostawał pusty, bo nie było godnego kandydata. \n\nJednak inny członek naszego Domu może być godny tytułu Miecz Poranka oraz honorów i obowiązków, które z nim się wiążą. [my_relative.GetFirstName] wykazał się wyjątkowym talentem i udowodnił, że jest człowiekiem honoru. Być może jest nawet godny, by zostać kolejnym #S Mieczem Poranka#!"
+ agot_valyrian_steel.0004.a:0 "Obdarzę Świtem [my_relation.GetHerHim]."
+ agot_valyrian_steel.0004.b:0 "Nie, nie uważam, że [my_relation.GetHerHim] jest godny."
+
+ #Artifact looted in battle/taken from captive
+ agot_valyrian_steel.1000.t:0 "Valyriańska stal u moich stóp"
+ agot_valyrian_steel.1000.desc:0 "Gdy żar bitwy słabnie, ocieram krew wroga z czoła i dostrzegam broń, która prawie odebrała mi życie, gdyby nie moje wyższe umiejętności.\n\nPośród błota i niezliczonych ciał leży valyriańskie stalowe ostrze Domu [artifact_knight.GetHouse.GetBaseName]. Bez właściciela, który mógłby je przejąć, jest moje do wzięcia..."
+ agot_valyrian_steel.1000.a:0 "Zdobyłem to ostrze, roszczę je sobie!"
+ agot_valyrian_steel.1000.a.tt:0 "#v Dom [artifact_knight.GetHouse.GetBaseName] nie zapomni szybko takiej zniewagi!#!"
+ agot_valyrian_steel.1000.b:0 "To nie należy do mnie."
+ agot_valyrian_steel.1000.b.tt:0 "[looted_vs_sword.GetName] zostanie zwrócony Domowi [artifact_knight.GetHouse.GetBaseName]"
+
+ agot_valyrian_steel.1001.t:0 "Schwytany władający valyriańską stalą"
+ agot_valyrian_steel.1001.desc:0 "Bitwa wygrana. Moje siły zwyciężyły, a moi wrogowie uciekają w całkowitym rozproszeniu. Gdy ciała poległych są zbierane z pola bitwy, a jeńcy pojmani, [artifact_knight.GetTitledFirstNameNicknamed] zostaje przyprowadzony przede mnie, pozbawiony swej prestiżowej broni przez jednego z moich lojalnych wojowników.\n\n[looted_vs_sword.GetName], valyriańskie stalowe ostrze Domu [artifact_knight.GetHouse.GetBaseName], jest w moim zasięgu... Tylko głupiec podważałby moje prawo, by je sobie przywłaszczyć."
+ agot_valyrian_steel.1001.a:0 "To będzie wspaniały trofeum!"
+ agot_valyrian_steel.1001.b:0 "Taki czyn przyniósłby tylko hańbę memu imieniu!"
+
+
+ agot_valyrian_steel.1010.t:0 "[enemy_knight.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_valyrian_steel.1010.desc:0 "Wszedłem w posiadanie waszego rodowego ostrza.\n\nZdobyłem je z rąk [artifact_knight.GetName], który walczył po przeciwnej stronie bitwy niż ja. Śmierć [artifact_knight.GetHerHis] jest godna ubolewania, a ja nie splamiłbym się hańbą, odbierając [artifact_knight.GetHerHis] rodzinie ich prawa. [looted_vs_sword.GetNameNoTooltip] należy do was."
+ agot_valyrian_steel.1010.a:0 "[looted_vs_sword.GetNameNoTooltip] wrócił do domu."
+
+ agot_valyrian_steel.1011.t:0 "Skradzione dziedzictwo"
+ agot_valyrian_steel.1011.desc.prisoner:0 "Podły [vs_artifact_thief.GetName] nie tylko zakuł mnie w kajdany, ale wykorzystał moje uwięzienie, aby ukraść [looted_vs_sword.GetName]! Ostrze #italic Domu [ROOT.Char.GetHouse.GetName]!#!\n\n#italic Muszę#! je odzyskać! Dla mojego honoru i honoru Domu [ROOT.Char.GetHouse.GetNameNoTooltip]."
+ agot_valyrian_steel.1011.desc.house_head:0 "Wiadomość z [battle_memory.GetName] dociera w rękach wyczerpanego posłańca.\n\nPodły [vs_artifact_thief.GetName] nie tylko zakuł mojego [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('artifact_knight'))] [artifact_knight.GetName] w kajdany, ale wykorzystał [artifact_knight.GetHerHis] uwięzienie, aby ukraść [looted_vs_sword.GetName]! Ostrze #italic Domu [ROOT.Char.GetHouse.GetName]!#!\n\n#italic Muszę#! je odzyskać! Dla mojego honoru i honoru Domu [ROOT.Char.GetHouse.GetNameNoTooltip]."
+ agot_valyrian_steel.1011.desc.slain:0 "W [battle_memory.GetName], [artifact_knight.GetName] poległ dzielnie, walcząc u boku swoich ludzi, powalony w gorączce bitwy przez potwornego [enemy_knight.GetName].\n\nNie tylko stracono życie [artifact_knight.GetFirstNamePossessiveNoTooltip], ale także [looted_vs_sword.GetName]. Ukochane dziedzictwo Domu [artifact_knight.GetHouse.GetNameNoTooltip] zostało skradzione przez [enemy_knight.GetNameNoTooltip], by służyć jako osobista zdobycz i trofeum!"
+ agot_valyrian_steel.1011.tt.house_opinion_loss:0 "Wszyscy członkowie #v twojego#! Domu"
+ agot_valyrian_steel.1011.feud:0 "Dom [vs_artifact_thief.GetHouse.GetName] gorzko zapłaci za tę zniewagę!"
+ agot_valyrian_steel.1011.feud.tt:0 "[scheme|E] będzie mieć zwiększoną [success_chance|E]"
+ agot_valyrian_steel.1011.a:0 "#italic Muszę#! sprowadzić [looted_vs_sword.GetNameNoTooltip] z powrotem do domu, bez względu na koszt."
+ agot_valyrian_steel.1011.b:0 "To poza moimi możliwościami... Nic nie mogę zrobić."
+ agot_valyrian_steel.1011.c:0 "[looted_vs_sword.GetNameNoTooltip] pozostanie u boku [vs_artifact_thief.GetFirstNamePossessive], na razie..."
+
+ agot_valyrian_steel.1012.t:0 "[expected_vs_artifact_holder.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_valyrian_steel.1012.desc:0 "Jesteś niehonorowym złodziejem! Niech będzie wiadome, że [looted_vs_sword.GetName] należy się mnie, z prawa! Uczynię wszystko, by honor Domu [expected_vs_artifact_holder.GetHouse.GetName] został przywrócony, a [looted_vs_sword.GetNameNoTooltip] wrócił pod opiekę mojej rodziny."
+ agot_valyrian_steel.1012.a:0 "Niech [expected_vs_artifact_holder.GetHerHim] narzeka, [looted_vs_sword.GetNameNoTooltip] jest moje!"
+
+ ################################
+ # Lamentation Events
+ # 2000 - 2999
+ # by Badger
+ ################################
+
+ agot_valyrian_steel.2000.t:0 "Opłakując utracone"
+ agot_valyrian_steel.2000.desc:0 "Podczas spaceru ulicami [location.GetName] moje myśli błądzą ku okropnym wydarzeniom, które miały tu miejsce podczas Tańca Smoków, oraz wielkiej odwadze i hańbie Ser [ancestor.GetFullName]. Poległ podczas Rajdu Siedmiu, ruszając na obronę skazanego na zagładę księcia Joffreya. Był wielką chlubą Domu [ROOT.Char.GetDynasty.GetName] i tematem niezliczonych pieśni — lecz jego strata oznaczała także utratę rodowego valyriańskiego miecza, Lamentacji.\n\nNie widziano go od wielu lat, ale w sercu czuję, że musi istnieć ślad, który można odnaleźć. Ślad, który mogę podążać, by odzyskać to, co kiedyś było nasze. Po walecznej śmierci Ser Willama istnieją sprzeczne relacje co do tego, co wydarzyło się później, ale większość skupia się na jednym punkcie..."
+ agot_valyrian_steel.2000.a:0 "Smocza Jama..."
+ agot_valyrian_steel.2000.a.tt:0 "Rozpoczniesz śledztwo w sprawie zniknięcia Lamentacji..."
+ agot_valyrian_steel.2000.b:0 "Ten potworny czas lepiej pozostawić zapomnieniu."
+
+ agot_valyrian_steel.2001.t:0 "Lament smoków"
+ agot_valyrian_steel.2001.desc:0 "Schodzę do zrujnowanych ruin Smoczej Jamy, a uroczysta atmosfera tego miejsca jest wręcz namacalna. Miazmat śmierci, popiołu i strachu unosi się w powietrzu, zaklęty w ostatnich chwilach konających bestii i tysięcy, którzy zostali zmiażdżeni pod walącym się monumentem, który stał się grobowcem.\n\nGdy przemierzam to miejsce, zaczynam uświadamiać sobie ogrom przedsięwzięcia, które mnie czeka. Plan odzyskania kości mężczyzn, kobiet i bestii, którzy zginęli w przerażającym krzyku. To będzie żmudne zadanie, które może nie przynieść żadnych rezultatów. Ale szansa na znalezienie rubinu wśród kamieni może być bezcenna."
+ agot_valyrian_steel.2001.a:0 "Przeszukanie tych ruin będzie kosztowne..."
+ agot_valyrian_steel.2001.a.tt:0 "Wynajmiesz ludzi do usuwania gruzu."
+ agot_valyrian_steel.2001.b:0 "Być może Wielki Maester może pomóc w poszukiwaniach?"
+ agot_valyrian_steel.2001.b.tt:0 "Wielki Maester [maester.GetFullName] może mieć coś w swoich archiwach."
+ agot_valyrian_steel.2001.c:0 "Może pospólstwo zna jakąś wskazówkę."
+ agot_valyrian_steel.2001.d:0 "Ucieczka w przeszłość to głupota. Sam wykuję swoją przyszłość."
+
+ agot_valyrian_steel.2002.t:0 "Nic!"
+ agot_valyrian_steel.2002.desc:0 "Pomimo ogromnych wysiłków, nie udało nam się odkryć niczego w sprawie miejsca pobytu Lamentacji ani tego, co wydarzyło się tamtej nocy w tej jamie. Zaczynam mieć poczucie, że to beznadziejne przedsięwzięcie."
+ agot_valyrian_steel.2002.a:0 "TO musi tu być, czuję to!"
+ agot_valyrian_steel.2002.a.tt:0 "Więcej ludzi, więcej łopat, kopać dalej!"
+ agot_valyrian_steel.2002.b:0 "Może to maester był właściwym wyborem."
+ agot_valyrian_steel.2002.c:0 "Bunt chłopstwa, zbadajmy chłopstwo."
+ agot_valyrian_steel.2002.c.tt:0 "Zapytasz na Pchlim Targu."
+ agot_valyrian_steel.2002.d:0 "To głupi sen."
+
+ agot_valyrian_steel.2003.t:0 "Odnalezione!"
+ agot_valyrian_steel.2003.desc:0 "W końcu, po latach zmagań, Lamentacja została odkopana i wróciła w czułe ręce Domu [ROOT.Char.GetDynasty.GetName]. Cenimy naszą historię, bo należymy do najstarszych rodów w Siedmiu Królestwach, a teraz trzymam w rękach fizyczny dowód na prawowitość naszej bogatej przeszłości."
+ agot_valyrian_steel.2003.a:0 "Pamiętamy!"
+
+ agot_valyrian_steel.2004.t:0 "Utracone w czasie."
+ agot_valyrian_steel.2004.desc:0 "Wygląda na to, że Lamentacja jest skazana na to, by na razie pozostać zaginiona..."
+ agot_valyrian_steel.2004.a:0 "Być może nie jest mi dana..."
+ agot_valyrian_steel.2004.a.tt:0 "Twoje starania zakończyły się niepowodzeniem."
+
+ agot_valyrian_steel.2005.t:0 "Wiedza!"
+ agot_valyrian_steel.2005.desc:0 "Wielki maester Verkos wysunął teorię, że smok mógł połknąć twój miecz, a potem go... wydalić. Brzmi to szalenie, ale możesz to sprawdzić. Ciała smoków były tradycyjnie zwożone na Smoczą Skałę."
+ agot_valyrian_steel.2005.a:0 "Czas przyjrzeć się smoczym odchodom."
+ agot_valyrian_steel.2005.a.tt:0 "Wynajmiesz statek na Smoczą Skałę."
+ agot_valyrian_steel.2005.b:0 "To jest kompletnie szalone, popytam na Pchlim Targu."
+
+ agot_valyrian_steel.2006.t:0 "Poszukiwania na Smoczej Skale"
+ agot_valyrian_steel.2006.desc:0 "[host.GetFullName] z życzliwością wita mnie na Smoczej Skale w poszukiwaniu mojego zaginionego miecza. Mówi mi, że ciała smoków od lat były zwracane na Smoczą Skałę, do Smoczej Góry, aby spalić je w ogniu. Jednak tam na górze jest niebezpiecznie."
+ agot_valyrian_steel.2006.a:0 "Wyruszamy jutro!"
+ agot_valyrian_steel.2006.a.tt:0 "Wynajmiesz statek na Smoczą Skałę."
+ agot_valyrian_steel.2006.b:0 "To jest kompletnie szalone, popytam na Pchlim Targu."
+
+ agot_valyrian_steel.2007.t:0 "Poszukiwania na Smoczej Skale"
+ agot_valyrian_steel.2007.desc:0 "Na Smoczej Górze... pełno złowrogich rzeczy, trochę niebezpiecznie."
+ agot_valyrian_steel.2007.a:0 "Przebijamy się przez wąwóz."
+ agot_valyrian_steel.2007.a.success:0 "Udaje ci się przejść przez grań."
+ agot_valyrian_steel.2007.a.fail:0 "Ślizgasz się na niestabilnym żwirze."
+ agot_valyrian_steel.2007.b:0 "Musimy się wycofać!"
+
+ agot_valyrian_steel.2008.t:0 "W głąb wąwozu"
+ agot_valyrian_steel.2008.desc:0 "Rozglądam się teraz... zobaczymy."
+ agot_valyrian_steel.2008.a:0 "Rozdzielcie się i przeszukajcie każdy zakamarek."
+
+ agot_valyrian_steel.2009.t:0 "Spalone kości"
+ agot_valyrian_steel.2009.desc:0 ""
+ agot_valyrian_steel.2009.a:0 "Lamentacja pozostaje zaginiona..."
+
+ agot_valyrian_steel.2010.t:0 "Radość z Lamentacją"
+ agot_valyrian_steel.2010.desc:0 "Dom [ROOT.Char.GetDynasty.GetName]"
+ agot_valyrian_steel.2010.a:0 "Miecz został odnowiony."
+
+ agot_valyrian_steel.3001.t:0 "Mroczny Obrońca"
+ agot_valyrian_steel.3001.desc:0 "[blackfyre.GetName] i [darksister.GetName] od dawna są symbolami dynastii [targ_dynn.GetName]. Blackfyre to miecz królów, symbol władzy i panowania. Dark Sister z kolei to ostrze wojowników, powierzane tylko tym, którzy naprawdę są godni bronić swojego władcy i jego krwi. W tym pokoleniu zastanawiam się... Czy jest ktoś, kogo uznałbym za godnego dzierżenia Dark Sister?"
+ agot_valyrian_steel.3001.a:0 "Ufaję [family_choice.GetTitledFirstName], że obroni naszą rodzinę."
+ agot_valyrian_steel.3001.b:0 "[house_choice.GetTitledFirstName] to znakomity wojownik."
+ agot_valyrian_steel.3001.c:0 "Jako mój dziedzic, powinien otrzymać go [heir_choice.GetTitledFirstName]."
+ agot_valyrian_steel.3001.d:0 "Kinsgwardzi są przysięgłymi obrońcami, [kingsguard_choice.GetTitledFirstName] jest najlepszym wyborem."
+ agot_valyrian_steel.3001.e:0 "[girl_choice.GetTitledFirstName] udowodniła swoją wartość."
+ agot_valyrian_steel.3001.f:0 "Nie ma nikogo godnego."
+
+ agot_valyrian_steel.4000.t:0 "Odzyskanie Brightroar"
+ agot_valyrian_steel.4000.desc_gerion:0 "Minęły wieki, odkąd [tommen.GetFullName] zgubił Brightroar podczas swojej wyprawy do Valyrii. Dom [ROOT.Char.GetDynasty.GetBaseName] od tego czasu pozostaje bez valyriańskiego ostrza.\n\nByć może nadszedł czas, aby spróbować odzyskać miecz? Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('explorer'))], [explorer.GetFirstName], od dawna prosi o zgodę na wyprawę do Starej Valyrii w poszukiwaniu chwały i bogactw.\n\nWyprawa będzie kosztowna i niebezpieczna... ale nagrody mogą być imponujące."
+ agot_valyrian_steel.4000.desc_gen:0 "Minęły wieki, odkąd [tommen.GetFullName] zgubił Brightroar podczas swojej wyprawy do Valyrii. Dom [ROOT.Char.GetDynasty.GetBaseName] od tego czasu pozostaje bez valyriańskiego ostrza.\n\nByć może nadszedł czas, aby spróbować odzyskać miecz? Istnieje niewiele problemów, których złoto nie rozwiąże. Przy odpowiedniej ilości pieniędzy — i śmiałych poszukiwaczach przygód — Brightroar może zostać odzyskany.\n\n[explorer.GetFirstName], lokalny kapitan, zaoferował się poprowadzić wyprawę.\n\nWyprawa będzie kosztowna i niebezpieczna... ale nagrody mogą być imponujące."
+ agot_valyrian_steel.4000.a:0 "Wróć bezpiecznie, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('explorer'))]..."
+ agot_valyrian_steel.4000.a.tt:0 "[explorer.GetFirstName] wyruszy do Valyrii, by spróbować odzyskać Brightroar"
+ agot_valyrian_steel.4000.b:0 "Wróć bezpiecznie, [explorer.GetName]"
+ agot_valyrian_steel.4000.b.tt:0 "[explorer.GetFirstName] wyruszy do Valyrii, by spróbować odzyskać Brightroar"
+ agot_valyrian_steel.4000.c:0 "Może teraz nie jest czas na wyprawę do Valyrii..."
+ agot_valyrian_steel.4000.c.tt:0 "Anulujesz wyprawę, a twoje złoto zostanie zwrócone"
+
+ agot_valyrian_steel.4002.t:0 "Odzyskanie Brightroar"
+ agot_valyrian_steel.4002.desc:0 "Dotarła do mnie wieść o powrocie [explorer.GetFirstNamePossessive]. Pędzę na doki i widzę, że załoga już rozładowuje skrzynie pełne złota i innych łupów ze Starej Valyrii.\n\n[explorer.GetFirstName] podchodzi do mnie z wielkim mieczem w rękach. [explorer.GetSheHe|U] kłania się i wręcza mi go. \"Brightroar, mój [ROOT.Char.GetLadyLord]. Znaleźliśmy wrak statku [tommen.GetFirstNamePossessive] głęboko w Dymiącym Morzu... Najwyższy czas, by miecz wrócił do domu [ROOT.Char.GetDynasty.GetBaseName].\"\n\nBiorę miecz do rąk. Brightroar wreszcie wrócił do domu."
+ agot_valyrian_steel.4002.a:0 "[ROOT.Char.GetHouse.GetMotto]!"
+
+ agot_valyrian_steel.4003.t:0 "Odzyskanie Brightroar"
+ agot_valyrian_steel.4003.desc:0 "Wyprawa [explorer.GetFirstNamePossessive] dawno się przedłużyła. Powinna była już wrócić.\n\nObawiam się, że coś poszło strasznie nie tak w Dymiącym Morzu..."
+ agot_valyrian_steel.4003.a:0 "Valyria pochłonęła kolejne życie..."
+
+ # Przekuwanie
+ agot_valyrian_steel.8000.t:0 "Przekucie: Poświęcenie"
+ agot_valyrian_steel.8000.desc:0 "\"Tajemnica kucia valyriańskiej stali od dawna została utracona... Jednakże, być może możliwe jest przerobienie istniejącego artefaktu z valyriańskiej stali w coś nowego — #bold jeśli#! jesteś gotów poświęcić oryginalny przedmiot,\" oferuje nieśmiało [court_smith.GetFirstName]."
+ agot_valyrian_steel.8000.a:0 "Godna ofiara."
+ agot_valyrian_steel.8000.a.tt:0 "Zniszczysz wybrany artefakt, aby stworzyć nowy miecz."
+ agot_valyrian_steel.8000.b:0 "Nie mogę tego zrobić."
+ agot_valyrian_steel.8001.t:0 "Przekucie: Nowy początek"
+ agot_valyrian_steel.8001.desc:0 "\"Czy któryś z tych projektów cię interesuje, mi[ROOT.Char.GetLadyLord|l]?\""
+ agot_valyrian_steel.8001.a:0 "Ten jest godny mnie."
+ agot_valyrian_steel.8001.b:0 "Żaden mi nie odpowiada."
+ agot_valyrian_steel_default_name:0 "Przekuty miecz z valyriańskiej stali"
+ agot_valyrian_steel_default_desc:0 "Przekuty miecz z valyriańskiej stali"
+ event_window_widget_enter_name_prompt:0 "Wybierz nazwę artefaktu:"
+
+ # Pokaż mi stal
+ agot_valyrian_steel.9999.t:0 "Władcy valyriańskiej stali"
+ agot_valyrian_steel.9999.desc:0 "Mój panie, zebrałem tutaj listę wszystkich dzierżycieli valyriańskiej stali w znanym świecie."
+ agot_valyrian_steel.9999.a:0 "Dziękuję."

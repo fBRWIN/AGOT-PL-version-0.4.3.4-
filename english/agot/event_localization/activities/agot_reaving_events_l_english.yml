@@ -1,0 +1,280 @@
+﻿l_english:
+ activity_reaving:0 "Najazd"
+ activity_reaving_owner:0 "Najazdca"
+ activity_reaving_name:0 "Wielki Najazd"
+ reaving_header:0 "[ROOT.Char.Custom('reavingHeader')]"
+ very_long_reaving_tt:0 "To jest #V wyjątkowo długi#! najazd"
+ long_reaving_tt:0 "To jest #V bardzo długi#! najazd"
+ medium_reaving_tt:0 "To jest #V długi#! najazd"
+ short_reaving_tt:0 "To jest #V krótki#! najazd"
+
+ reaving_return_home:0 "Wracam do domu w [start_location.GetNameNoTier]"
+
+ # Ogólne wydarzenia startu najazdu
+
+ agot_reaving.0001.t:0 "Najazd [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
+ agot_reaving.0001.desc:0 "Czas przygotować długie łodzie i wyruszyć na Wielki Najazd, o którym zielonoskórzy będą szeptać swoim dzieciom. Ale z którego pola zżniemy plewy?"
+ agot_reaving.0001.a:0 "Sporne ziemie są gotowe do grabieży."
+ agot_reaving.0001.b:0 "Północne Essos mają cierpieć."
+ agot_reaving.0001.c:0 "Ziemie Lata Morza są słabe."
+ agot_reaving.0001.d:0 "Zatoka Niewolników skrywa dużo łupów!"
+ agot_reaving.0001.e:0 "Zmieniłem zdanie. To nie jest właściwy czas."
+
+ agot_reaving.0010.desc:0 "Nie wiem, dlaczego przyjąłeś moje zaproszenie, by zamiast tego udać się na dwór [other_host.GetTitledFirstNamePossessive], ale wiedz, że zapamiętam to."
+ agot_reaving.0010.a:0 "Niefortunne."
+
+ # Zaproszenia na najazd
+
+ agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_reaving.1002.opening_desc:0 "Zapraszam cię na ucztę na moim dworze w [barony.GetNameNoTier]!"
+ agot_reaving.1002.host_likes_me:0 "Mam nadzieję, że przybędziesz, bo twoja obecność będzie mocno odczuwalna."
+ agot_reaving.1002.host_gets_along_with_me:0 "Jako znamienity [ROOT.Char.GetTitleTierName], będzie mi zaszczytem twoja obecność."
+ agot_reaving.1002.host_dislikes_me:0 "Oczekuję, że wszyscy znamienici będą obecni, włącznie z tobą."
+ agot_reaving.1002.a:0 "Oczywiście, że przyjdę."
+ agot_reaving.1002.b:0 "Przyjdę, choć niechętnie."
+ agot_reaving.1002.c:0 "Przykro mi, ale jestem zajęty."
+ agot_reaving.1002.d:0 "Nie, odmawiam!"
+
+ agot_reaving.1003.desc:0 "Zapraszam cię na Wielki Najazd na moim dworze w [barony.GetNameNoTier]! Będzie to wielka uroczystość, warta twojej honorowej obecności."
+ agot_reaving.1003.a:0 "Będzie mi miło."
+ agot_reaving.1003.b:0 "Mam ważniejsze sprawy."
+
+ agot_reaving.1004.desc:0 "Zapraszam cię na najazd na moim dworze w [barony.GetNameNoTier]! Będzie to wielka uroczystość z pysznym jedzeniem i rozrywką."
+ agot_reaving.1004.a:0 "Będzie mi miło."
+ agot_reaving.1004.b:0 "Mam ważniejsze sprawy."
+
+ agot_reaving.1008.t:0 "Wielki Najazd: Wymarsz"
+ agot_reaving.1008.desc.opening:0 "Gęsty las masztów i rei w porcie [ROOT.Char.GetCapitalLocation.GetName]. Ta potężna flotylla długich łodzi załogowana jest przez wiernych i odważnych Ironmenów, którzy odpowiedzieli na wezwanie [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]. Chcą udowodnić słoność swojej krwi grabieżą zielonych ziem za Wąskim Morzem.\n\nGdy przygotowujemy się do Wielkiego [reaving|E] do [ROOT.Char.Custom('ReavingDestination')], wiem, że [ROOT.Char.GetFaith.PantheonTerm] napełni nasze żagle i poprowadzi nasze miecze."
+ agot_reaving.1008.desc.short:0 "\n\nPodczas gdy kąpiemy się w krwi i chwale, pozostawiam dobrobyt królestwa mojemu dworowi."
+ agot_reaving.1008.desc.medium:0 "\n\nChoć ja idę z [ROOT.Char.GetFaith.HighGodNameAlternate], moje królestwo musi poczekać, niezależnie od tego jak długo będę nieobecny."
+ agot_reaving.1008.desc.long:0 "\n\nCel mam daleko od domu, lecz na służbie [ROOT.Char.GetFaith.DivineRealm], nawet moje własne królestwo musi poczekać."
+ agot_reaving.1008.desc.very_long:0 "\n\nNieobecny będę długo i mogę tylko modlić się, aby [ROOT.Char.GetFaith.HighGodNameAlternate] czuwał także nad moim królestwem."
+ agot_reaving.1008.a:0 "Zapłacimy Żelazną Cenę."
+
+ agot_reaving.1009.t:0 "Ciepłe Powitanie"
+ agot_reaving.1009.likes_host:0 "Wszyscy goście zgromadzeni są w wielkiej sali, a nasz hojny gospodarz, [activity.GetOwner.GetTitledFirstName], powitał nas na uczcie!"
+ agot_reaving.1009.dislikes_host:0 "Wszyscy goście zgromadzeni są w wielkiej sali, a nasz [activity.GetOwner.Custom('InsultAdjective')] gospodarz, [activity.GetOwner.GetTitledFirstName], wreszcie nas powitał na uczcie."
+ agot_reaving.1009.a.gluttonous:0 "Czuję kuchnię aż tutaj!"
+ agot_reaving.1009.a.drunkard:0 "Gdzie są beczki?!"
+ agot_reaving.1009.a.gregarious:0 "Nie mogę się doczekać rozmów z każdym!"
+ agot_reaving.1009.a.shy:0 "Jest tu zbyt wielu ludzi..."
+ agot_reaving.1009.a:0 "Cieszę się na to!"
+ agot_reaving.1009.b:0 "Lepiej, żeby to było warte mojego czasu."
+
+ agot_reaving.2001.t:0 "Test"
+ agot_reaving.2001.desc:0 "Icles"
+
+ ###########################
+ # Uszkodzony statek: Kanibal
+ ###########################
+ agot_reaving.2002.t:0 "Uszkodzony statek: Kanibal"
+ agot_reaving.2002.desc:0 "Załoga dostrzegła na horyzoncie statek z uszkodzonym żaglem. Gdy podeszliśmy bliżej, powitał nas zapach śmierci. Gdy wszedłem na pokład, zobaczyłem, co się tam wydarzyło — ciała porąbane na miazgę. Zdesperowani ludzie podejmują desperackie czyny; kiedy statek był uszkodzony, a zapasy zaczęły się kurczyć, mężczyźni zwrócili się przeciwko sobie. Moi ludzie i ja przeszukiwaliśmy zwłoki w poszukiwaniu wartościowych przedmiotów, gdy nagle usłyszeliśmy krzyk i zobaczyliśmy wygłodniałego szaleńca rzucającego się na nas z mieczem!"
+ agot_reaving.2002.a:0 "Uzbrójcie się!"
+ agot_reaving.2002.a.tt:0 "Wyciągnij miecz i zmierz się z szaleńcem!"
+ agot_reaving.2002.b:0 "Co za szaleństwo! Wracamy na statek!"
+ agot_reaving.2002.b.tt:0 "Żadne złoto nie jest warte tego!"
+ agot_reaving.2002.a.success_title:0 "Pokonany kanibal"
+ agot_reaving.2002.a.failure_title:0 "Zmusiło do ucieczki!"
+
+
+################################
+# Uszkodzony statek: Ryzykowna Gra Kapitana #
+################################
+ agot_reaving.2003.t:0 "Uszkodzony statek: Ryzykowna Gra Kapitana"
+ agot_reaving.2003.desc:0 "Załoga dostrzegła na horyzoncie statek z uszkodzonym żaglem. Gdy zbliżaliśmy się do statku, zobaczyliśmy mężczyznę i jego załogę oczekujących. Nie próbowali powstrzymać nas przed wejściem na uszkodzony okręt, zamiast tego skupiali wzrok na jednym mężczyźnie pośrodku. Szybko wywnioskowałem, że to ich kapitan. Kapitan podszedł i spojrzał mi w oczy: \"Wiem, że jesteś Ironborn i nie jesteś tutaj, by nas ratować ani handlować tym, czego potrzebujemy. Proponuję jednak pewną grę.\" Kapitan wskazał na dwóch mężczyzn, którzy dźwigali duży kufer na balustradzie statku, grożąc, że wyrzucą go za burtę. \"W tym kufrze są wszystkie nasze cenne przedmioty, proponuję zagrać w kości — jeśli wygrasz, dostajesz kufer, jeśli ja, dostaję dodatkowe żagle i zapasy...\""
+ agot_reaving.2003.a:0 "Zapłacę Żelazną Cenę, pojedynek między nami"
+ agot_reaving.2003.a.tt:0 "Walcz sam z kapitanem i zapłać Żelazną Cenę za skarb!"
+ agot_reaving.2003.b:0 "Zagram w twoją grę..."
+ agot_reaving.2003.b.tt:0 "Zagrasz w kości z kapitanem, niech zwycięzca zgarnia wszystko!"
+ agot_reaving.2003.c:0 "Bóg Burzy jest wrogiem wszystkich ludzi"
+ agot_reaving.2003.c.tt:0 "Bóg Burzy jest wrogiem wszystkich ludzi — czyż nie jest obowiązkiem synów Boga Utopionego pokrzyżować jego plany? Dasz im zapasy, by zadrwić z Boga Burzy!"
+ agot_reaving.2003.a.success_title:0 "Zabiłeś kapitana i wygrałeś skarb!"
+ agot_reaving.2003.a.failure_title:0 "Przegrałeś z kapitanem..."
+ agot_reaving.2003.b.success_title:0 "Kości uczyniły cię zwycięzcą!"
+ agot_reaving.2003.b.failure_title:0 "Kości nie były po twojej stronie..."
+
+################################
+# Uszkodzony statek: Ironborn  #
+################################
+ agot_reaving.2004.t:0 "Uszkodzony statek: Ironborn"
+ agot_reaving.2004.desc:0 "Załoga dostrzegła na horyzoncie statek z uszkodzonym żaglem. Zamarliśmy, gdy się zbliżyliśmy i zobaczyliśmy, że to statek Ironborn! Załoga dyskutowała o przekazaniu zapasów i pomocy naszym braciom, aby załatali statek i mogli dopłynąć do brzegu."
+ agot_reaving.2004.a:0 "Przekażę zapasy"
+ agot_reaving.2004.a.tt:0 "Dasz część swoich zapasów, takich jak racje lub łupy, aby pomóc swoim braciom."
+ agot_reaving.2004.b:0 "Nie dostaną ode mnie nic"
+ agot_reaving.2004.b.tt:0 "Dlaczego miałbym dawać to, co moje? Powinni byli być lepiej przygotowani!"
+
+###########################
+# Pusta wioska            #
+###########################
+
+ agot_reaving.2005.t:0 "Pusta wioska"
+ agot_reaving.2005.desc:0 "Pod osłoną nocy, z tłumionym stukotem wioseł, wylądowaliśmy w małej nadmorskiej wiosce. Byliśmy szczęśliwi, że nasze lądowanie pozostało niezauważone, aż ogarnęło nas przerażenie powodu — wioska była pusta. Widok wioski z nienaruszonymi wartościowymi przedmiotami niepokoił niektórych moich ludzi, inni bez wahania zaczęli plądrować. Na skraju wioski jeden z nich znalazł duży dół, a w nim ciała mieszkańców, twarze zniekształcone przez chorobę."
+ agot_reaving.2005.a:0 "Złoto jest warte ryzyka..."
+ agot_reaving.2005.a.tt:0 "Martwi nie potrzebują go, czemu nie wziąć?"
+ agot_reaving.2005.b:0 "Zatrzymać grabież i odejść."
+ agot_reaving.2005.b.tt:0 "Twoje życie nie jest warte żadnej sumy złota..."
+
+###########################
+# Wioska: Ofiara          #
+###########################
+
+ agot_reaving.2006.t:0 "Wioska: Ofiara"
+ agot_reaving.2006.desc:0 "Pod osłoną nocy, z tłumionym stukotem wioseł, wylądowaliśmy w małej nadmorskiej wiosce. Nasze podejście pozostało niezauważone, ponieważ wioska świętowała jakieś wydarzenie. Słychać było śmiech, śpiew i widać światło z kilku stosów płonących. Gdy my, Ironborn, wkroczyliśmy w sam środek uroczystości, zobaczyłem, co było na stosach. Trzy płonęły, z resztkami spalonego ciała, a czwarty był niepodpalony z kobietą przywiązana do pnia drzewa, a wokół niej opał i cenne dary dla tego boga ognia. Większość uczestników festiwalu próbowała uciekać, niektórzy chwycili broń, głównie ci w czerwonych szatach. Jeden z czerwonych szat wydawał się chwytać broń i strzec kobietę, która miała być spalona..."
+ agot_reaving.2006.a:0 "Poszukam cennych przedmiotów!"
+ agot_reaving.2006.a.tt:0 "Nie obchodzą mnie kobiety, tylko złoto!"
+ agot_reaving.2006.b:0 "Uwolnię kobietę!"
+ agot_reaving.2006.b.tt:0 "Uwolnię kobietę i wezmę ją za moją solną żonę!"
+ agot_reaving.2006.a.success_title:0 "Zabiłeś czerwonego kapłana i zapłaciłeś Żelazną Cenę za złoto!"
+ agot_reaving.2006.a.failure_title:0 "Czerwony kapłan zmusił cię do ucieczki..."
+ agot_reaving.2006.b.success_title:0 "Zabiłeś czerwonego kapłana i zapłaciłeś Żelazną Cenę za kobietę!"
+ agot_reaving.2006.b.failure_title:0 "Czerwony kapłan zmusił cię do ucieczki..."
+
+##################
+# Lewiatan       #
+##################
+
+ agot_reaving.2007.t:0 "Lewiatan: Atak"
+ agot_reaving.2007.desc:0 "Mężczyźni zauważyli wielkiego wieloryba, który śledził nas przez ostatnie dni. Bestia trzymała dystans, ale mówią, że na powierzchni widać blizny. Zastanawiam się, czy wieloryb przeżył ataki statków Ibbenese? Nie trwało to długo, gdy bestia zaatakowała. Mężczyźni i ja rzuciliśmy się, by się uzbroić i spróbować pokonać lub przepędzić potwora, zanim zatopi nasz statek!"
+ agot_reaving.2007.a:0 "Przeklęci łowcy z Ibben!"
+ agot_reaving.2007.a.tt:0 "Bestia zdecydowała, że nie jest już ofiarą i zaatakowała, biorąc twój statek za łowcę z Ibben!"
+
+###########################
+# Pościg: Ibbenese        #
+###########################
+
+ agot_reaving.2008.t:0 "Pościg: Ibbenese"
+ agot_reaving.2008.desc:0 "Wyczuliśmy zapach statku zanim go zobaczyliśmy. Statek łowców z Ibbenese był przed nami, a mężczyźni byli podzieleni, czy gonić. Niektórzy uważali, że nie warto napaści, inni wydawali się znudzeni lub żądni walki, bo taki statek łatwo złapać. Mężczyźni patrzyli na mnie, by zdecydować, co zrobić."
+ agot_reaving.2008.a:0 "Do stanowisk, złapiemy go!"
+ agot_reaving.2008.a.tt:0 "Złoto jest złotem, zapłacimy Żelazną Cenę!"
+ agot_reaving.2008.b:0 "Nie warto dla tego zapachu..."
+ agot_reaving.2008.b.tt:0 "Taki zapach będzie ci towarzyszyć długo..."
+
+###########################
+# Bez wiatru             #
+###########################
+
+ agot_reaving.2009.t:0 "Bezwietrzny dzień"
+ agot_reaving.2009.desc:0 "Wiatr ustał, zostawiając nas dryfujących bez celu. Mężczyźni na pokładzie szukają sposobów na zwalczenie monotonii spokojnych wód — niektórzy grają w „Taniec palców”, inni obstawiają kości."
+ agot_reaving.2009.a:0 "Każdy do wiosła! Bóg Burzy nie powstrzyma nas przed najazdem"
+ agot_reaving.2009.a.tt:0 "Wiatr nie odbierze ci prędkości! Są brzegi i łupy do zdobycia..."
+ agot_reaving.2009.b:0 "Potrafię tańczyć Palce jak każdy."
+ agot_reaving.2009.b.tt:0 "Gra w rzucanie toporami, uwielbiana na Wyspach Żelaznych, ale niebezpieczna."
+ agot_reaving.2009.c:0 "Może szczęście dopisze przy kościach."
+ agot_reaving.2009.c.tt:0 "Zaryzykuj złotem w hazardzie!"
+ agot_reaving.2009.a.success_title:0 "Wygrałeś w Taniec Palców!"
+ agot_reaving.2009.a.failure_title:0 "Topór wypadł z twoich rąk..."
+ agot_reaving.2009.b.success_title:0 "Kości były po twojej stronie!"
+ agot_reaving.2009.b.failure_title:0 "Kości były niełaskawe..."
+
+###########################
+# Pościg: Pentoshi        #
+###########################
+
+ agot_reaving.2010.t:0 "Pościg: Pentoshi"
+ agot_reaving.2010.desc:0 "Mężczyźni zauważyli statek Pentoshi. Wiatr nam sprzyja, a statek zdaje się być powolny od pełnego ładunku. Ślinka cieknie na myśl o serach i jasnym bursztynowym winie z Pentos, które mogą znajdować się na statku."
+ agot_reaving.2010.a:0 "Do stanowisk, złapiemy go!"
+ agot_reaving.2010.a.tt:0 "Zaczynamy pościg za statkiem! W końcu jesteśmy Wilkami Morza!"
+ agot_reaving.2010.b:0 "Nie warto naszego czasu"
+ agot_reaving.2010.b.tt:0 "Są lepsze cele..."
+
+ agot_reaving.2010.a.success_title:0 "Złapaliście statek!"
+ agot_reaving.2010.a.failure_title:0 "Statek uciekł..."
+
+###########################
+# Pościg: Lys            #
+###########################
+
+ agot_reaving.2011.t:0 "Pościg: Lys"
+ agot_reaving.2011.desc:0 "Na horyzoncie zauważono statek z Lys. Taki statek może przewozić cenne przedmioty i niewolników przeznaczonych do domów publicznych swojej ojczyzny. Mężczyźni patrzą na mnie, by zdecydować, czy gonić."
+ agot_reaving.2011.a:0 "Zamierzam zdobyć solną żonę!"
+ agot_reaving.2011.a.tt:0 "Zaczynamy pościg za statkiem! W końcu jesteśmy Wilkami Morza!"
+ agot_reaving.2011.b:0 "Do stanowisk, złapiemy go!"
+ agot_reaving.2011.b.tt:0 "Zaczynamy pościg za statkiem! W końcu jesteśmy Wilkami Morza!"
+ agot_reaving.2011.c:0 "Nie warto naszego czasu"
+ agot_reaving.2011.c.tt:0 "Są lepsze cele..."
+ agot_reaving.2011.a.success_title:0 "Złapaliście statek i zdobyliście solną żonę!"
+ agot_reaving.2011.a.failure_title:0 "Statek uciekł..."
+ agot_reaving.2011.b.success_title:0 "Złapaliście statek!"
+ agot_reaving.2011.b.failure_title:0 "Statek uciekł..."
+
+###########################
+# Tyroshi War Gallon     #
+###########################
+
+ agot_reaving.2012.t:0 "Tyroshi War Gallon"
+ agot_reaving.2012.desc:0 "Zauważono Tyroshi War Gallon, zapewne zmierzający oczyścić jakiś piracki ród ze Stepstones, który sieje zamęt na szlakach handlowych."
+ agot_reaving.2012.a:0 "Może sprzedamy im nasze miecze?"
+ agot_reaving.2012.a.tt:0 "Zaproponuj pracę jako najemnik dla Tyroshi, niektórzy mogą cię nie lubić, ale złoto się zgromadzi!"
+ agot_reaving.2012.b:0 "Lepiej ich unikać..."
+ agot_reaving.2012.b.tt:0 "Nic dobrego nie wyniknie ze spotkania z nimi..."
+ agot_reaving.2012.a.success_title:0 "Pracuj jako najemnik"
+ agot_reaving.2012.a.failure_title:0 "Oferta odrzucona..."
+
+###########################
+#   Fishing Village       #
+###########################
+ agot_reaving.2013.t:0 "Mała wioska rybacka"
+ agot_reaving.2013.desc:0 "Najechaliśmy małą wioskę rybacką, nie napotkaliśmy oporu podczas lądowania. Większość próbowała uciekać i się chować, kilku stawiło opór, ale nie byli wyszkoleni i szybko padli. Zdobycz była niewielka."
+ agot_reaving.2013.a:0 "Jakie złoto można tu znaleźć?"
+ agot_reaving.2013.a.tt:0 "Na pewno są tu jakieś cenne rzeczy..."
+ agot_reaving.2013.b:0 "Będzie moją solną żoną."
+ agot_reaving.2013.b.tt:0 "Będzie dobrą solną żoną."
+ agot_reaving.2013.c:0 "Będzie moją solną żoną."
+ agot_reaving.2013.c.tt:0 "Będzie dobrą solną żoną."
+ agot_reaving.2013.d:0 "Będzie moją solną żoną."
+ agot_reaving.2013.d.tt:0 "Będzie dobrą solną żoną."
+
+###########################
+#   Pirate Hide Out        #
+###########################
+ agot_reaving.2014.t:0 "Mała kryjówka piratów"
+ agot_reaving.2014.desc:0 "Natknęliśmy się na kryjówkę małego pirata ze Stepstones. Choć byliśmy lepiej uzbrojeni, schronili się w ufortyfikowanej jaskini na wybrzeżu. Możemy poprowadzić szturm i przełamać obronę albo spróbować wprowadzić trochę ludzi po cichu i otworzyć drogę."
+ agot_reaving.2014.a:0 "Będziemy się przebijać siłą!"
+ agot_reaving.2014.a.tt:0 "Poprowadź szturm na ufortyfikowaną jaskinię, twoja siła powinna przełamać obronę!"
+ agot_reaving.2014.b:0 "Może najlepsza będzie skrytobójcza taktyka..."
+ agot_reaving.2014.b.tt:0 "Musimy znaleźć inną drogę..."
+ agot_reaving.2014.a.success_title:0 "Włamaliśmy się do kryjówki piratów!!"
+ agot_reaving.2014.a.failure_title:0 "Nie udało się... Wrócimy!"
+ agot_reaving.2014.b.success_title:0 "Znaleźliśmy wejście!"
+ agot_reaving.2014.b.failure_title:0 "Nie znaleźliśmy innej drogi... Wrócimy!"
+
+###########################
+#   A Meal for the Crabs   #
+###########################
+ agot_reaving.2015.t:0 "Posiłek dla krabów"
+ agot_reaving.2015.desc:0 "Wołanie o pomoc zwróciło naszą uwagę na kamienistą wyspę wystającą z morza, znaną jako Włócznie Króla Merlingów. Na jednej z nich utknął mężczyzna, a już z naszych pozycji widać było, jak kraby próbują go otoczyć. Myślałem, że to rozbitek, ale inny członek załogi zwrócił uwagę, że mężczyzna jest przywiązany do skały, a zbrodnia, którą popełnił, musiała być straszliwa."
+ agot_reaving.2015.a:0 "Mój towarzysz ma rację, lepiej zostawić tego głupca"
+ agot_reaving.2015.a.tt:0 "Ktoś sprawił, że ten człowiek spotkała okrutna śmierć — nie chcę mieć nic wspólnego z takim człowiekiem."
+ agot_reaving.2015.b:0 "Uratować człowieka"
+ agot_reaving.2015.b.tt:0 "Uratować go przed krabami, będzie mi winien życie!"
+
+###########################
+#  A Ironborn in Need     #
+###########################
+ agot_reaving.2016.t:0 "Ironborn w potrzebie"
+ agot_reaving.2016.desc:0 "Podczas najazdu na wioskę, włócznik naciskał na jednego z naszych ludzi i sytuacja wyglądała źle. Włócznik był skupiony na Ironbornie, którego naciskał, a odsłonił się przede mną, to szybkie zabicie."
+ agot_reaving.2016.a:0 "Atakuj mężczyznę"
+ agot_reaving.2016.a.tt:0 "Szybki atak przerwie nacisk włócznika i pozwoli towarzyszowi dojść do siebie."
+
+###################################
+#    Shieldmaiden in Disguise     #
+#             Badger              #
+###################################
+ agot_reaving.2017.t:0 "Najazd: [GetTrait('shieldmaiden').GetName(GetNullCharacter)]"
+ agot_reaving.2017.desc:0 "Minęły dni od ostatniego starcia na morzu, gdy na głównym pokładzie wybucha szamotanina. Gdy już opanowujesz sytuację, tworzy się krąg wokół sprawcy zamieszania.\n\n\"[shieldmaiden.GetName] była [shieldmaiden.GetWomanMan] przez cały ten czas, Kapitanie!\" warczy jeden z twojej załogi, podczas gdy [shieldmaiden.GetWomanMan] wymachuje toporem do abordażu, trzymając resztę na dystans. Widać, że jest biegła w walce tą bronią, znacznie bardziej niż można by się spodziewać po ukrywającym się pasażerze.\n\n\"[ROOT.Char.GetTitledFirstName],\" mówi [shieldmaiden.GetSheHe]. \"Trenuję całe życie, by zapłacić Żelazną Cenę i pragnę służyć tobie i zdobyć łaskę Boga Utopionego. Proszę, pozwól mi dołączyć do tego wielkiego przedsięwzięcia!\""
+ agot_reaving.2017.a:0 "Najemniczka będzie znakomitym towarzyszem naszego następnego najazdu!"
+ agot_reaving.2017.b:0 "Nie chcę, by kobiety walczyły za mnie."
+ agot_reaving.2017.c:0 "Możesz służyć Bogu Utopionemu w inny sposób."
+ agot_reaving.2017.d:0 "Może dołączysz do mnie w mojej kajucie... i zostaniesz w zbroi."
+
+################################
+# Return Events
+# 9001-9999
+# by Badger
+################################
+
+ agot_reaving.9002.t:0 "Wielki powrót"
+ agot_reaving.9002.desc:0 ""
+ agot_reaving.9002.a:0 "Jesteśmy prawdziwymi Ironbornami"
+
+

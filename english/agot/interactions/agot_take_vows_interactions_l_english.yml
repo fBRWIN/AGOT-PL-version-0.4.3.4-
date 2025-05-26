@@ -1,0 +1,5 @@
+﻿l_english:
+ #septon
+ take_septon_vows_interaction_desc:0 "Poproś [recipient.GetShortUINameNoTooltip] o złożenie ślubów i dołączenie do duchowieństwa"
+ take_septon_vows_decline_summary:0 "Jeśli [recipient.GetShortUINameNoTooltip] odmówi, [recipient.GetSheHe] pozostanie w twoim [court|E]"
+ REQUEST_SEPTON_VOWS_NOTIFICATION_TEXT:0 "Zostałeś poproszony o opuszczenie swojego stanowiska w dworze i złożenie ślubów."

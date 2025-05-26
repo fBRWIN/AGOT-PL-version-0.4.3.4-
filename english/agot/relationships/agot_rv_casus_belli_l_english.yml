@@ -1,0 +1,98 @@
+﻿l_english:
+
+ ### Declare Private War
+ rv_declare_private_war_interaction:0 "Ogłoszenie wojny prywatnej"
+ rv_liege_warning:0 "Władca obrońcy [liege|E] dołączy do wojny"
+ ### Rescue CB
+ rv_rescue_war:0 "Wojna o uwolnienie jeńców"
+ rv_duskendale_rescue_war:0 "Wojna o uwolnienie jeńców"
+ rv_duskendale_rescue_war_invalidated_desc:0 "Wojna o uwolnienie jeńców została zakończona."
+ RESCUE_WAR_NAME:0 "Wojna o uwolnienie jeńców"
+ CB_RESCUE_COST:0 "Liczba celów – jeńców"
+ CB_RESCUE_CRIMINAL_COST:0 "Liczba celów – przestępców"
+ rv_release_effect:0 "• [Scope.GetCharacter.GetShortUIName|U] zostanie uwolniony"
+ rv_other_effect:0 "• Twoi sojusznicy podzielą się [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] w zależności od ich wkładu \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n  • Sojusznicy podzielili się [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] w zależności od ich wkładu\n  • Zwiększa to opinię [Scope.GetCharacter.GetImprisonedBy.GetHerHis] sojuszników na podstawie ich wkładu"
+ rescue_war_victory_desc:0 "Uwolniłeś wszystkich wybranych [prisoners|E] w lochu [defender.GetShortUINamePossessive]."
+ rescue_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] uwolnił wszystkich wymienionych [prisoners|E] w Twoim lochu."
+ rv_failed_rescue:0 "Nieudana akcja ratunkowa"
+ rv_rescue_war_invalidated_desc:0 "Wojna o uwolnienie jeńca unieważniona!"
+ rv_rescue_war_white_peace_desc:0 "Żaden [prisoner|E] nie został uwolniony."
+ rv_rescue_war_defeat_desc:0 "$rv_rescue_war_white_peace_desc$"
+ rv_failed_rescue_desc_1:0 "Nie udało mi się uratować [rescue_target_dead.GetName], który został zabity przez [rescue_target_killer.GetName]"
+ rv_failed_rescue_desc_second_perspective_1:0 "[owner.GetName] nie udało się uratować [rescue_target_dead.GetName], który został zabity przez [rescue_target_killer.GetName]"
+ rv_failed_rescue_desc_third_perspective_1:0 "[owner.GetName] nie udało się uratować [rescue_target_dead.GetName], który został zabity przez [rescue_target_killer.GetName]"
+ RV_IS_CRIMINAL:0 "Ta postać jest [imprisoned|E] za [crime|E]. Uratowanie ich wiąże się z dodatkowymi kosztami [prestige|E] i może doprowadzić do rywalizacji między Tobą a ich strażnikiem."
+
+ ### Rescue_Opinions
+ rv_rescued_me:0 "Uratowano mnie"
+ rv_rescued_family:0 "Uratowano [family_member|E]"
+ rv_rescued_former_spouse:0 "Uratowano mnie z [concubinage|E] jako były [spouse|E]"
+ rv_rescued_close_relation:0 "Uratowano bliską osobę"
+ rv_rescued_very_close:0 "Uratowano [best_friend|E] lub [soulmate|E]"
+ rv_rescued_rival:0 "Uratowano [rival|E]"
+ rv_rescued_nemesis:0 "Uratowano [nemesis|E]"
+ rv_attempt_free_my_criminal:0 "Próba ratowania [criminal|E]"
+ rv_attempted_rescuing_me:0 "Próba ratowania mnie"
+ rv_attempted_rescuing_family:0 "Próba ratowania [family_member|E]"
+ rv_attempted_rescuing_close_relation:0 "Próba ratowania bliskiej osoby"
+ rv_attempted_rescuing_very_close:0 "Próba ratowania [best_friend|E] lub [soulmate|E]"
+ rv_attempted_rescuing_rival:0 "Próba ratowania [rival|E]"
+ rv_attempted_rescuing_nemesis:0 "Próba ratowania [nemesis|E]"
+ rv_avenged_family:0 "Zemsta za [family_member|E]"
+ rv_avenged_close_relation:0 "Zemsta za bliską osobę"
+ rv_avenged_very_close:0 "Zemsta za [best_friend|E] lub [soulmate|E]"
+
+ ### Revenge CB
+ REVENGE_WAR_NAME:0 "Wojna o Zemstę"
+ rv_revenge_war:0 "Wojna o Zemstę"
+ CB_REVENGE_COST:0 "Ofiary do pomsty"
+ REVENGE_LABEL:0 "Ofiary do pomsty"
+ rv_no_revenge_target_trigger:0 "rv_no_revenge_target"
+ rv_no_revenge_target:0 "Nie ma nikogo do pomsty"
+ revenge_war_victory_desc:0 "Mszczysz za [defender.GetShortUINamePossessive] zbrodnie wobec tych, którzy są ci bliscy."
+ revenge_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] mści się za twoje zbrodnie wobec tych, którzy są bliscy [attacker.GetHerHim]."
+ rv_revenge_war_white_peace_desc:0 "Zbrodnie popełnione przez [defender.GetShortUIName|U] nie zostały pomszczone."
+ rv_revenge_war_defeat_desc:0 "Zbrodnie popełnione przez [defender.GetShortUIName|U] nie zostały pomszczone. [attacker.GetShortUIName|U] zapłaci odszkodowania wojenne, [attacker.GetShortUIName|U] straci [prestige_i][EmptyScope.ScriptValue('major_prestige_value')|-0], a [defender.GetShortUIName|U] uzyska [imprisonment_reason|E] na [attacker.GetShortUIName|U]."
+ rv_revenge_war_invalidated_desc:0 "Wojna o zemstę unieważniona!"
+
+ # Successfule revenge memory
+ rv_successful_revenged_lover:0 "Udana Zemsta"
+ rv_revenged_lover_desc_1:0 "Pomściłem śmierć mojej kochanki [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_lover_desc_second_perspective_1:0 "Pomściłeś śmierć swojej kochanki [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_lover_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć [owner.GetHerHis] kochanki [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+
+ rv_successful_revenged_soulmate:0 "Udana Zemsta"
+ rv_revenged_soulmate_desc_1:0 "Pomściłem śmierć mojej duszy [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_soulmate_desc_second_perspective_1:0 "Pomściłeś śmierć swojej duszy [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_soulmate_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć [owner.GetHerHis] duszy [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+
+ rv_successful_revenged_friend:0 "Udana Zemsta"
+ rv_revenged_friend_desc_1:0 "Pomściłem śmierć mojego przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_friend_desc_second_perspective_1:0 "Pomściłeś śmierć swojego przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_friend_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć [owner.GetHerHis] przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+
+ rv_successful_revenged_best_friend:0 "Udana Zemsta"
+ rv_revenged_best_friend_desc_1:0 "Pomściłem śmierć najlepszego przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_best_friend_desc_second_perspective_1:0 "Pomściłeś śmierć swojego najlepszego przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_best_friend_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć [owner.GetHerHis] najlepszego przyjaciela [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+
+ rv_successful_revenged_spouse:0 "Udana Zemsta"
+ rv_revenged_spouse_desc_1:0 "Pomściłem śmierć mojej żony [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_spouse_desc_second_perspective_1:0 "Pomściłeś śmierć swojej żony [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+ rv_revenged_spouse_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć [owner.GetHerHis] żony [target_revenged.GetName], która została zabita przez [target_killer.GetName]"
+
+ rv_successful_revenged_family:0 "Udana Zemsta"
+ rv_revenged_family_desc_1:0 "Pomściłem śmierć członka mojej rodziny [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_family_desc_second_perspective_1:0 "Pomściłeś śmierć członka swojej rodziny [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+ rv_revenged_family_desc_third_perspective_1:0 "[owner.GetName] pomścił śmierć członka swojej rodziny [target_revenged.GetName], który został zabity przez [target_killer.GetName]"
+
+ rv_was_revenged:0 "Został pomszczony"
+ rv_was_revenged_desc_1:0 "Moja śmierć spowodowana przez [target_killer.GetName] została pomszczona przez [target_revenger.GetName] (Pośmiertnie)"
+ rv_was_revenged_desc_second_perspective_1:0 "Twoja śmierć spowodowana przez [target_killer.GetName] została pomszczona przez [target_revenger.GetName] (Pośmiertnie)"
+ rv_was_revenged_desc_third_perspective_1:0 "[owner.GetName]'s śmierć spowodowana przez [target_killer.GetName] została pomszczona przez [target_revenger.GetName] (Pośmiertnie)"
+
+#Failed Revenge Story
+ rv_failed_revenge_desc_1:0 "Nie udało mi się pomścić [target_killer.GetName]."
+ rv_failed_revenge_desc_second_perspective_1:0 "Nie udało Ci się pomścić [target_killer.GetName]."
+ rv_failed_revenge_desc_third_perspective_1:0 "[owner.GetName] nie udało się pomścić [target_killer.GetName]."
+ rv_failed_revenge:0 "Nieudana Zemsta"

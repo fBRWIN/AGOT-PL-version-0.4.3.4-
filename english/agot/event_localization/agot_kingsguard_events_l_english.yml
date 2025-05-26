@@ -1,0 +1,229 @@
+﻿l_english:
+
+
+################################
+# Kingsguard Maintenance Events
+# 1000 - 1999
+# by Badger
+################################
+
+ agot_kingsguard.1001.t:0 "Przysięga Spełniona: [dead_kingsguard.GetFirstNameNicknamedNoTooltip]"
+ agot_kingsguard.1001.fallback.t:0 "Przysięga Złamana: [removed_kg.GetFirstNameNicknamedNoTooltip]"
+ agot_kingsguard.1001.desc.intro:0 "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] wypełnił swoją uroczystą przysięgę i odszedł z tego świata pod płaszczem bieli. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]."
+ agot_kingsguard.1001.fallback.desc.intro:0 "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] splamił się hańbą i został pozbawiony białego płaszcza."
+ agot_kingsguard.1001.desc.talented:0 "\n\n[dead_kingsguard.GetSheHe|U] był wojownikiem o niezwykłej sławie. Ci, którzy mieli szczęście widzieć [dead_kingsguard.GetHerHim] z mieczem w ręku, mówili, że walczył jak wcielenie [dead_kingsguard.GetFaith.WarGodName]. Jego stal spoczywa teraz wraz z nim, ale jego imię będzie rozbrzmiewać w umysłach młodych wojowników przez wieki!"
+ agot_kingsguard.1001.desc.suitable:0 "\n\n[dead_kingsguard.GetFirstNameNicknamedNoTooltip] był utalentowanym [dead_kingsguard.Custom('KnightCultureNoTooltip')], który z oddaniem służył swojemu panu, [king.GetTitledFirstNameRegnal], zyskując powszechne uznanie za umiejętności wojenne."
+ agot_kingsguard.1001.desc.passing:0 "\n\n[dead_kingsguard.GetSheHe|U] był dzielnym i godnym zaufania wojownikiem, choć nikt nie nazwałby go najgroźniejszym z wojowników."
+ agot_kingsguard.1001.desc.unsuitable:0 "\n\nMiejsce [dead_kingsguard.GetFirstNameNicknamedPossessiveNoTooltip] w straży było wątpliwe, lecz związany przysięgą, pozostał niezłomny."
+ agot_kingsguard.1001.desc.end:0 "\n\nZ odejściem [dead_kingsguard.GetHerHis] do [dead_kingsguard.GetFaith.PositiveAfterLife] obowiązek uzupełnienia szeregów białych płaszczy spada teraz na mnie."
+ agot_kingsguard.1001.fallback.desc.end:0 "\n\nPo odejściu [removed_kg.GetHerHis], obowiązek uzupełnienia szeregów białych płaszczy spada teraz na mnie."
+ agot_kingsguard.1001.a:0 "Przyprowadźcie mi największych rycerzy z całego królestwa!"
+ agot_kingsguard.1001.a.tt:0 "Przedstawieni zostaną potencjalni kandydaci."
+ agot_kingsguard.1001.b:0 "Niech wielcy lordowie przyślą mi swych dziedziców!"
+ agot_kingsguard.1001.b.tt:0 "Wielcy lordowie przyślą kandydatów, lecz mogą być urażeni odrzuceniem."
+ agot_kingsguard.1001.c:0 "Są sprawy pilniejsze."
+ agot_kingsguard.1001.c.tt:0 "Możesz zaprosić dowolnych wasali do straży przez interakcje postaci."
+
+ agot_kingsguard.1002.t:0 "Nadanie płaszcza"
+ agot_kingsguard.1002.desc.intro:0 "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] wypełnił swoją uroczystą przysięgę i odszedł z tego świata pod płaszczem bieli. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]."
+ agot_kingsguard.1002.fallback.desc.intro:0 "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] splamił się hańbą i został pozbawiony białego płaszcza."
+ agot_kingsguard.1002.desc.end:0 "\n\n[lord_commander.GetFirstNameNicknamed] przyprowadził przede mnie największych rycerzy z całego królestwa, spośród których mogę wybrać nowego członka [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.1002.a:0 "[kingsguard_candidate_1.GetFirstNameNicknamedNoTooltip] to pewny wybór!"
+ agot_kingsguard.1002.b:0 "[kingsguard_candidate_2.GetFirstNameNicknamedNoTooltip] ma posturę wojownika!"
+ agot_kingsguard.1002.c:0 "[kingsguard_candidate_3.GetFirstNameNicknamedNoTooltip] jest stworzony do tej roli!"
+ agot_kingsguard.1002.d:0 "Ech, żaden z nich nie nadaje się."
+ agot_kingsguard.1002.d.tt:0 "Możesz przypisać do straży dowolnych wasali przez interakcje postaci." #[ROOT.Char.Custom('KingsguardName')] <- this doesn't work in tooltips
+
+ agot_kingsguard.1003.t:0 "Nadanie płaszcza"
+ agot_kingsguard.1003.desc.intro:0 "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] wypełnił swoją uroczystą przysięgę i odszedł z tego świata pod płaszczem bieli. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]."
+ agot_kingsguard.1003.fallback.desc.intro:0 "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] splamił się hańbą i został pozbawiony białego płaszcza."
+ agot_kingsguard.1003.desc.end:0 "\n\nDzieci szlachetnych rodów z całego królestwa zebrały się na dziedzińcu, a u mego boku stoi [lord_commander.GetFirstNameNicknamed], który wskazuje najlepszych kandydatów do służby w mojej [ROOT.Char.Custom('KingsguardName')]."
+
+ agot_kingsguard.1005.opening:0 "[kingsguard_candidate.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_kingsguard.1005.opening_desc:0 "To byłby dla mnie zaszczyt służyć w twojej [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.1005.host_likes_me:0 "Mam nadzieję, że przybędziesz, bo bez ciebie bardzo by mi cię brakowało."
+ agot_kingsguard.1005.host_gets_along_with_me:0 "Jako znamienity [ROOT.Char.GetTitleTierName], byłbym zaszczycony twoją obecnością."
+ agot_kingsguard.1005.host_dislikes_me:0 "Oczekuję wszystkich znacznych osobistości, niestety także ciebie."
+ agot_kingsguard.1005.a:0 "Przybędziesz do stolicy, by złożyć przysięgę!"
+
+ agot_kingsguard.1007.opening:0 "[kingsguard_candidate.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_kingsguard.1007.opening_desc:0 "Muszę odmówić służby w twojej [ROOT.Char.Custom('KingsguardName')].\n\n"
+ agot_kingsguard.1007.faith:0 "Nie poświęcę życia służbie twoim dziwnym i [ROOT.Char.Custom('InsultAdjective')] bogom."
+ agot_kingsguard.1007.claim:0 "Nie mogę tak po prostu zrzec się swych praw i tytułów jak starej odzieży."
+ agot_kingsguard.1007.lustful:0 "Nigdy nie zdołam porzucić uciech cielesnych na rzecz życia w celibacie!"
+ agot_kingsguard.1007.ambitious:0 "Moje życie ma większy cel niż stanie przy twoim nocniku, gdy będziesz zajadał kolejnego gąska."
+ agot_kingsguard.1007.reject:0 "Mój ród potrzebuje mnie bardziej niż twój dwór."
+ agot_kingsguard.1007.hate:0 "Wolę pocałować nadęty odbyt martwej świni, niż służyć ci jako tarcza."
+ agot_kingsguard.1007.a:0 "Tym razem przyprowadź mi kogoś, kto naprawdę będzie służył królestwu!"
+ agot_kingsguard.1007.a.tt:0 "Przyślą kolejnych rycerzy."
+ agot_kingsguard.1007.b:0 "[kingsguard_candidate.GetSheHe|U] odmówiłby [ROOT.Char.GetTitleTierName]?!"
+
+
+ agot_kingsguard.1008.t:0 "Złożenie Przysięgi"
+ agot_kingsguard.1008.desc:0 "[kingsguard_candidate.Custom2('MyCharacterIntroduction',ROOT.Char)|U] klęka przede mną, przysięgając oddać swoje życie za moje, być mi posłusznym i dochowywać tajemnic, mówić otwarcie lub milczeć na moje skinienie oraz bronić honoru mojego imienia, mojego rodu i mojego tronu. [kingsguard_candidate.GetSheHe|U] wstaje, ślubując z całą siłą poświęcić swoje życie, by mnie chronić."
+ agot_kingsguard.1008.a:0 "Wstań, Ser [kingsguard_candidate.GetFirstNameNoTooltip]."
+
+ agot_kingsguard.1009.t:0 "Reakcja [kingsguard_candidate.Custom2('RelationToMeShort', SCOPE.sC('family_member') )|U]"
+ agot_kingsguard.1009.desc.mad:0 "\"Myślisz, że możesz działać za moimi plecami i mianować mojego [family_member.Custom2('RelationToMeShort', kingsguard_candidate)] do swojej straży, ty [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]!?\" Mój [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('family_member') )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('family_member'))] [family_member.GetName] wpada do mnie po pasowaniu [kingsguard_candidate.GetNameNicknamedNoTooltip]. \n\n"
+ agot_kingsguard.1009.desc.heir:0 "\"Może i odebrałeś mi mojego dziedzica, ale tego nie zapomnę.\""
+
+ agot_kingsguard.1009.desc.glad:0 "\"Muszę ci podziękować, mój [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetTitleTierName], za obdarzenie zaszczytem służby w twojej królewskiej straży mojego [family_member.Custom2('RelationToMeShort', kingsguard_candidate)].\" Mój [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('family_member') )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('family_member'))] [family_member.GetName] podchodzi do mnie po inwestyturze najnowszego członka mojej [ROOT.Char.Custom('KingsguardName')], [kingsguard_candidate.GetFullName]."
+
+ agot_kingsguard.1009.a.mad:0 "Nie muszę tłumaczyć się takim jak ty."
+ agot_kingsguard.1009.a.glad:0 "To naprawdę honor bronić mnie."
+
+ agot_kingsguard.1010.t:0 "Bractwo Osierocone"
+ agot_kingsguard.1010.desc.intro:0 "Po śmierci [dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)] [ROOT.Char.Custom('KingsguardName')] zostało pozbawione przywództwa."
+ agot_kingsguard.1010.fallback.desc.intro:0 "Po odejściu [removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)] [ROOT.Char.Custom('KingsguardName')] zostało pozbawione przywództwa."
+ agot_kingsguard.1010.desc.end:0 "Teraz czeka mnie kluczowe zadanie — uzupełnić miejsce po [removed_kg.GetHerHis]. [kingsguard_successor.GetName] wydaje się najlepszym kandydatem, większość oczekuje, że zastąpi [removed_kg.GetName] jako Lord Dowódca. Ostateczny wybór należy jednak do mnie."
+ agot_kingsguard.1010.fallback.desc.end:0 "Teraz czeka mnie kluczowe zadanie — uzupełnić miejsce po [removed_kg.GetHerHis]. Z pustymi szeregami [ROOT.Char.Custom('KingsguardName')], to być może najlepszy moment, by znaleźć rycerzy godnych białego płaszcza."
+ agot_kingsguard.1010.a:0 "[kingsguard_successor.GetName] to naturalny następca."
+ agot_kingsguard.1010.b:0 "[kingsguard_1.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.1010.c:0 "[kingsguard_2.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.1010.d:0 "[kingsguard_3.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.1010.e:0 "Może ktoś inny zajmie miejsce [removed_kg.GetNamePossessive]."
+ agot_kingsguard.1010.f:0 "Nie... nie został już nikt."
+
+ agot_kingsguard.1011.a:0 "[kingsguard_4.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.1011.b:0 "[kingsguard_5.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.1011.c:0 "[kingsguard_6.GetName] poprowadzi [ROOT.Char.Custom('KingsguardName')]"
+
+ kingsguard_other_selections_available_tt:0 "Rozważę pozostałych członków straży"
+
+
+################################
+# Kingsguard Councillor Events
+# 2000 - 2999
+################################
+
+ agot_kingsguard.2001.t: "[ROOT.Char.Custom('KingsguardName')] — Przydział"
+ agot_kingsguard.2001.desc: "Mogę wysłać mojego [GetPlayer.Custom2('RelationToMe',SCOPE.sC('councillor'))], [councillor.GetShortUIName], aby chronił wybraną osobę na dworze [target_character.GetUINamePossessive]."
+ agot_kingsguard.2001.desc_own_court: "Mogę wyznaczyć mojego [GetPlayer.Custom2('RelationToMe',SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], by chronił jednego z moich gości lub dworzan."
+ agot_kingsguard.2001.desc_bodyguard_courtowner: "Alternatywnie, mógłbym przydzielić ochroniarza do [target_character.GetTitledFirstName] [target_character.GetHerselfHimself]."
+ agot_kingsguard.2001.a: "Chroń wyznaczonego."
+ agot_kingsguard.2001.b: "Chroń [target_character.GetTitledFirstName]."
+ agot_kingsguard.2001.c: "Właściwie, zmieniłem zdanie."
+ indicate_bodyguard_target: "[councillor.GetTitledFirstName] zaczyna chronić [si_target.GetShortUIName]."
+ set_relation_bodyguard_first: "[TARGET_CHARACTER.GetUIName] zaczyna chronić [CHARACTER.GetUIName]."
+
+ agot_kingsguard.2002.title:0 "Zbuntowany [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.2002.desc:0 "[recipient.GetTitledFirstName] zdołał uniknąć pojmania i uciekł do miasta! Być może wciąż jest czas, by go zatrzymać.\n\n[kingsguard.GetName] czuwa i może przechwycić [recipient.GetNameNoTooltip], lub mogę wysłać rozkaz do [goldcloaks.GetName] i zmobilizować całą Straż Miejską."
+ agot_kingsguard.2002.a:0 "[kingsguard.GetName], sprowadź swojego brata z powrotem!"
+ agot_kingsguard.2002.a.failure:0 "[recipient.GetName] ucieknie"
+ agot_kingsguard.2002.b:0 "[goldcloaks.GetTitledFirstName], pojmij go!"
+ agot_kingsguard.2002.c:0 "Niech [recipient.GetHerHim] idzie, nie stanowi dla mnie zagrożenia."
+
+ agot_kingsguard.2003.title:0 "Zbuntowany [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.2003.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))] przybył na mój dwór, szukając azylu. [crown.GetTitledFirstNamePossessive] próbował aresztować [fleeing_kingsguard.GetFirstName] pod fałszywym zarzutem, a teraz [fleeing_kingsguard.GetSheHe] jest zbiegłym przestępcą. Teraz muszę podjąć trudną decyzję między obowiązkiem a rodziną."
+ agot_kingsguard.2003.a:0 "Jesteś moim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))], tu jest twoje miejsce."
+ agot_kingsguard.2003.b:0 "Jeśli udasz się na Mur, będziesz poza zasięgiem [crown.GetTitledFirstNamePossessive]."
+ agot_kingsguard.2003.c:0 "Musisz uciekać za Wąskie Morze!"
+ agot_kingsguard.2003.d:0 "Przykro mi [fleeing_kingsguard.GetFirstName], ale nie mogę ukrywać zbiega."
+
+################################
+# Kingsguard Flavour Events
+# 3000 - 3999
+# by Badger
+################################
+
+ agot_kingsguard.3001.t:0 "Dziecięce Marzenie"
+ agot_kingsguard.3001.desc:0 "Mały [child.GetFirstName] od zawsze był zafascynowany opowieściami o [king.Custom('KingsguardName')], zwłaszcza o [lord_commander.GetTitledFirstName], widząc w nim kogoś takiego jak Ser [GetScriptedCharacterByHistoryID('Heroes_25').GetFirstName] od Zwierciadlaniej Tarczy czy Ser [GetScriptedCharacterByHistoryID('Heroes_24').GetFirstName] Gwiezdne Oczy.\n\nPoczątkowo nie przywiązywałem wagi do marzeń [child.GetHerHis] o zostaniu kimś takim jak te legendarne postacie, bo przecież każde dziecko ma swoich bohaterów, do których chce się upodobnić. Jednak z wiekiem [child.GetFirstNameNoTooltip] coraz bardziej poważnie myśli o dołączeniu do [king.Custom('KingsguardName')]. Dziś [child.GetSheHe] przyszedł do mnie i poprosił, bym zrezygnował z wszelkich zaręczyn, jakie mógłbym mieć dla niego zaplanowane, aby mógł rozpocząć trening do służby w [king.GetTitledFirstNamePossessive] [king.Custom('KingsguardName')]."
+ agot_kingsguard.3001.a:0 "Oczywiście, maluchu."
+ agot_kingsguard.3001.b:0 "Obowiązek wobec rodziny jest ważniejszy niż wobec korony."
+
+ agot_kingsguard.3002.t:0 "Wzór Rycerskości"
+ agot_kingsguard.3002.desc:0 "Dotarły do mnie wieści, że mój [ROOT.Char.Custom('KingsguardName')] [gallant_kingsguard.GetFirstNameNicknamed] stał się tematem rozmów w całym królestwie. Prostaczkowie wspominają o [gallant_kingsguard.GetHerHim] w jednym szeregu z legendarnymi wojownikami, młodzi giermkowie naśladują [gallant_kingsguard.GetHerHis] ruchy i odgrywają jego największe bitwy, a panny marzą o wręczeniu swojego wianuszka [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] tak sławnemu.\n\nTeraz te rozmowy opanowały mój dwór. [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] chcą dorównać jego czynom, a [gallant_kingsguard.Custom('AttractionWomanManMultiple')] konkurują o jego uwagę. Na całym [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] imię [gallant_kingsguard.GetFirstNameNoTooltip] stało się synonimem umiejętności, honoru i rycerskości."
+ agot_kingsguard.3002.a:0 "Jestem z ciebie dumny, Ser [gallant_kingsguard.GetFirstNameNoTooltip]."
+ agot_kingsguard.3002.b:0 "Wolałbym porozmawiać o sobie."
+
+agot_kingsguard.3003.t:0 "Zhańbiony [ROOT.Char.Custom('KingsguardName')|U]: Przyłapany na gorącym uczynku!"
+ agot_kingsguard.3003.desc_bedroom:0 "\"Wasza Miłość, wasz [ROOT.Char.Custom('KingsguardName')] [lusty_kingsguard.GetName] został przyłapany w swoich komnatach na zabawianiu się z nie kim innym, jak [lusty_lover.GetFullName]!"
+ agot_kingsguard.3003.desc_brothel:0 "\"Wasza Miłość, wasz [ROOT.Char.Custom('KingsguardName')] [lusty_kingsguard.GetName] został przyłapany w najgłębszych zakamarkach domu uciech, oddając się nieprzyzwoitym czynom z notoryczną ladacznicą [lusty_lover.GetName]!\""
+ agot_kingsguard.3003.a:0 "Wrzucić [lusty_kingsguard.GetHerHim] do lochu, dopóki nie zdecyduję co zrobić z tym krzywoprzysięzcą."
+ agot_kingsguard.3003.b:0 "Okaleczyć [lusty_kingsguard.GetHerHim] i wysłać na Mur."
+ agot_kingsguard.3003.c:0 "Pozbawić [lusty_kingsguard.GetHerHim] białego płaszcza."
+ agot_kingsguard.3003.d:0 "Każdy ma swoje słabości..."
+ agot_kingsguard.3003.e:0 "Możesz zachować biały płaszcz, ale [lusty_lover.GetFirstNameNoTooltip] jest teraz moja."
+
+ agot_kingsguard.3004.t:0 "Ustąpić drogi [ROOT.Char.Custom('KingsguardName')|U]!"
+ agot_kingsguard.3004.desc:0 "\"Ustąpić drogi [ROOT.Char.Custom('KingsguardName')]!\" Krzyk rozlega się z końca sali tronowej. Odwracasz się w samą porę, by zobaczyć, jak [marching_kingsguard.GetNameNicknamed], krocząc z imponującą szybkością, krzyczy na młodego [obstructing_brat.GetName], który stoi bezmyślnie na jego drodze.\n\nCzy to przez upór, czy nieświadomość, [obstructing_brat.GetName] nie pojmuje sytuacji. Dziecko zostaje stratowane pod ciężkim butem mojego [ROOT.Char.Custom('KingsguardName')], który przechodzi przez niego, nie zwracając większej uwagi niż gdyby wszedł w kałużę.\n\nPrzygnieciony butem, [obstructing_brat.GetName] leży teraz na podłodze sali sądowej, jęcząc z bólu, a [marching_kingsguard.GetName] maszeruje dalej na mój rozkaz, by rozpocząć poranną wartę."
+ agot_kingsguard.3004.a:0 "Nikt nie przeszkadza [ROOT.Char.Custom('KingsguardName')] w sprawach [ROOT.Char.GetTitleTierNamePossessive]."
+ agot_kingsguard.3004.b:0 "[marching_kingsguard.GetName], zwariowałeś?! Pomóż [obstructing_brat.GetName] wstać."
+ agot_kingsguard.3004.c:0 "Wyślij dziecko do Maestera."
+ agot_kingsguard.3004.cure_toast:0 "Maester skutecznie leczy [obstructing_brat.GetName]"
+ agot_kingsguard.3004.toast:0 "Maester bezskuteczny"
+ agot_kingsguard.3004.toast_desc:0 "[obstructing_brat.GetName] nadal jest ranny."
+
+ agot_kingsguard.3005.t:0 "[essosi_warrior.GetSheHe|U] ma znakomite rekomendacje"
+ agot_kingsguard.3005.desc:0 "[sponsor.GetTitledFirstName] wchodzi do sali tronowej w towarzystwie [essosi_warrior.GetWomanMan] z dalekiego Essos.\n\n\"Mój [ROOT.Char.GetLadyLord]\" — zaczyna [sponsor.GetFirstNameNoTooltip] z dumą na twarzy — \"To zaszczyt przedstawić waszej mości największego wojownika, jakiego widział Essos. [essosi_warrior.GetFirstNameNoTooltip] znany jest od Braavos po Asshai, a jego obecność w [ROOT.Char.Custom('KingsguardName')] byłaby nieoceniona.\""
+ agot_kingsguard.3005.a:0 "Witaj w [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.3005.agot_kingsguard.tt:0 "[essosi_warrior.GetName] dołączy do twojej [GetPlayer.Custom('KingsguardName')] "
+ agot_kingsguard.3005.b:0 "Może przyjmiesz inne stanowisko?"
+ agot_kingsguard.3005.court_position.tt:0 "Znaleźć godne stanowisko dla [essosi_warrior.GetName]."
+ agot_kingsguard.3005.c:0 "Nie potrzebuję więcej dworzan."
+
+ agot_kingsguard.3006.t:0 "[ROOT.Char.Custom('KingsguardName')]: Bracia broni"
+ agot_kingsguard.3006.desc:0 "[friendly_kingsguard.GetFullName] to towarzyski [friendly_kingsguard.GetWomanMan]; zawsze gotowy do rozmowy lub wtrącenia się do każdej pogawędki. Choć irytuje to bardziej powściągliwych członków mojej [ROOT.Char.Custom('KingsguardName')], sam [friendly_kingsguard.GetFullName] i [kingsguard_friend.GetFullName] stali się nierozłączni niczym rodzeństwo.\n\nTrenują razem, razem jedzą śniadanie, a w każdej bitwie są ramię w ramię, motywując się nawzajem. Ta braterska więź stała się tematem rozmów na dworze, a jej siła tylko umacnia moją władzę."
+ agot_kingsguard.3006.a:0 "Niech ich przyjaźń poprowadzi ich ku jeszcze większej chwale!"
+
+ agot_kingsguard.3007.notification:0 "[ROOT.Char.Custom('KingsguardName')] ulepszona"
+ agot_kingsguard.3007.desc:0 "Godziny spędzone przez [improved_kingsguard.GetNamePossessive] na placu treningowym oraz oddanie przysiędze przyniosły rezultaty."
+
+ agot_kingsguard.3008.t:0 "[candidate.GetSheHe|U] ma znakomite rekomendacje"
+ agot_kingsguard.3008.desc:0 "[sponsor.GetTitledFirstName] wchodzi do sali tronowej w towarzystwie [candidate.GetWomanMan] z daleka.\n\n\"Mój [ROOT.Char.GetLadyLord]\" — zaczyna [sponsor.GetFirstNameNoTooltip] z dumą na twarzy — \"Mam zaszczyt przedstawić waszej mości [candidate.GetFullNameNoTooltip]. [candidate.GetSheHe|U] to niezwykle utalentowany [candidate.GetWomanMan], który wyrzekł się małżeństwa i tytułów, by pewnego dnia dołączyć do twojej [ROOT.Char.Custom('KingsguardName')].\""
+ agot_kingsguard.3008.a:0 "Witaj w [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.3008.agot_kingsguard.tt:0 "[candidate.GetName] dołączy do twojej [GetPlayer.Custom('KingsguardName')] "
+ agot_kingsguard.3008.b:0 "Może przyjmiesz inne stanowisko?"
+ agot_kingsguard.3008.b.tt:0 "[candidate.GetName] otrzyma posadę, gdy tylko będzie dostępna."
+ agot_kingsguard.3008.c:0 "Nie jestem aż tak zdesperowany, byś to ty mnie strzegł."
+
+ agot_kingsguard.3010.t:0 "Pot na czole [strong_kingsguard.GetHerHis]"
+ agot_kingsguard.3010.desc:0 "Mój [ROOT.Char.Custom('KingsguardName')] [strong_kingsguard.GetFullName] spędza niemal cały wolny czas na dziedzińcu i w stajniach, gdzie inni ćwiczą walkę lub jazdę konną, ale [strong_kingsguard.GetFirstNameNoTooltip] ciągle szuka coraz trudniejszych wyzwań fizycznych.\n\nEfekty widać w jego sylwetce — ciało [strong_kingsguard.GetHerHis] jest żylaste, gęste i mocarne, ku uciesze [strong_kingsguard.Custom('AttractionGirlBoyPlural')] z dworu, którzy zawsze kręcą się po placu, gdy [strong_kingsguard.GetFirstNameNoTooltip] tam trenuje."
+ agot_kingsguard.3010.a:0 "Może pozujesz do portretu, [strong_kingsguard.Custom('SisterBrother')]?"
+
+ agot_kingsguard.3011.t:0 "Wyzwanie"
+ agot_kingsguard.3011.desc:0 "Nudny dzień na dworze ożywił się, gdy herold ogłosił przybycie [challenger.GetFullName], który wszedł do sali tronowej ubrany raczej do boju niż na audiencję.\n\n\"Mój [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitleTierName]\" — zaczyna [challenger.GetSheHe], gdy przywołuję go bliżej. \"[ROOT.Char.Custom('KingsguardName')] to szlachetna instytucja. Ale w tej chwili niegodny robak nosi zaszczyt bronienia twojego ciała. Ten [unworthy_kingsguard.Custom('InsultAdjective')] [unworthy_kingsguard.Custom('InsultNoun')] [unworthy_kingsguard.GetFullName] nie powinien kalać twojego boku!\"\n\n[unworthy_kingsguard.GetFirstNameNoTooltip] gwałtownie się prostuje, orientując się, że jest adresatem. \"Mój [ROOT.Char.GetTitleTierName], [ROOT.Char.Custom('KingsguardName')] to bractwo przysięgłych. Służymy do śmierci, moja krew przelana zostanie za twoją\" — [unworthy_kingsguard.GetSheHe|l] jąka się.\n\n\"Nie widzę w tym problemu\" — odpowiada [challenger.GetName], [challenger.Custom('quirk_pos_pp')]. \"Chętnie zwolnię cię z tej funkcji.\""
+ agot_kingsguard.3011.a:0 "Niech lepszy stanie na straży moich drzwi."
+ agot_kingsguard.3011.a.challenger.toast:0 "[challenger.GetTitledFirstName] zabił [unworthy_kingsguard.GetTitledFirstName]"
+ agot_kingsguard.3011.a.unworthy_kingsguard.toast:0 "[unworthy_kingsguard.GetTitledFirstName] zabił [challenger.GetTitledFirstName] "
+ agot_kingsguard.3011.b:0 "Odejdź, [challenger.GetTitledFirstNameNoTooltip]. [unworthy_kingsguard.GetTitledFirstNameNoTooltip] w pełni zasłużył na swą pozycję."
+ agot_kingsguard.3011.c:0 "Nikt nie podważa moich decyzji. Strażnicy!"
+
+ agot_kingsguard.3012.t:0 "Złamane Marzenie"
+ agot_kingsguard.3012.desc:0 "Patrzę z galerii na mojego niezdarnego [failed_kingsguard.Custom('GetDaughterSon')] na dziedzińcu. [failed_kingsguard.GetSheHe|U] plącze się po placu, nie czyniąc prawie żadnych postępów w swoim dążeniu do dołączenia do prestiżowej straży [ruler.GetHerHis] mości. Może powinienem zareagować? Czyż nie okrutniej byłoby pozwolić [failed_kingsguard.GetHerHim] trwać w fałszywej nadziei, niż zakończyć to szaleństwo już teraz?"
+ agot_kingsguard.3012.a:0 "Czas się z tym pogodzić."
+ agot_kingsguard.3012.b:0 "Nocna Straż zawsze potrzebuje dobrych ludzi!"
+ agot_kingsguard.3012.c:0 "[failed_kingsguard.GetSheHe|U] jeszcze się poprawi!"
+
+ agot_kingsguard.3013.t:0 "Niektórzy piją, by zapomnieć"
+ agot_kingsguard.3013.desc:0 "[drunken_kingsguard.GetFullName] znany jest z tego, że cały wolny czas spędza na piciu i hulance w karczmach oraz domach gry. [drunken_kingsguard.GetSheHe|U] zyskał reputację w mieście i na dworze — od opowieści, jak potrafi wypić każdego spod stołu, po to, jak wychyla beczkę złota Arbor stojąc na głowie.\n\nDotarła do mnie jeszcze bardziej niepokojąca wieść: [drunken_kingsguard.GetFirstName] miał wprowadzić osła i plaster miodu do burdelu. Zachowanie to wydaje się niegodne członka [ROOT.Char.Custom('KingsguardName')], choć z pewnością zapewniło wiele anegdot."
+ agot_kingsguard.3013.a:0 "Noc w lochu go otrzeźwi."
+ agot_kingsguard.3013.b:0 "Bycie [ROOT.Char.Custom('KingsguardName')] to stresujące zajęcie, niech sobie pije."
+ agot_kingsguard.3013.c:0 "[drunken_kingsguard.GetFullName] to człowiek (kobieta) po moim sercu!"
+
+ agot_kingsguard.3014.t:0 "Szermierz [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3014.desc:0 "Mój [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spędza większość wolnego czasu na dziedzińcu, pot zalewa mu czoło, gdy krzyżuje miecze z najlepszymi wojownikami w królestwie.\n\n[lifestyle_kingsguard.GetNameNoTooltip] to już stały widok dla moich zbrojmistrzów i [GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName], a jego umiejętności z mieczem stały się tematem rozmów na dworze. Nikogo już nie dziwi, że można go zobaczyć na placu od wschodu do zachodu słońca. [lifestyle_kingsguard.GetNameNoTooltip] zdobył reputację wybitnego mistrza miecza."
+ agot_kingsguard.3014.a:0 "Może potrenujesz ze mną fechtunek, [lifestyle_kingsguard.GetFirstNameNoTooltip]?"
+
+ agot_kingsguard.3015.t:0 "Myśliwy [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3015.desc:0 "Mój [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spędza większość wolnego czasu w moich królewskich lasach, w pełni korzystając z przywilejów wynikających z prestiżowej pozycji.\n\n[lifestyle_kingsguard.GetNameNoTooltip] to znany widok dla moich leśniczych, a wieści o jego celności z łuku stały się tematem rozmów na dworze. Nikogo już nie dziwi, że wraca z polowania ubłocony, z orszakiem niosącym najnowszy trofeum. Komnaty [lifestyle_kingsguard.GetHerHis|U] toną w skórach, futrach i czaszkach, a [lifestyle_kingsguard.GetNameNoTooltip] zyskał opinię prawdziwego łowcy."
+ agot_kingsguard.3015.a:0 "Upoluj mi dziś wieczorem tłustego jelenia, [lifestyle_kingsguard.GetFirstNameNoTooltip]!"
+
+ agot_kingsguard.3016.t:0 "Sokólnik [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3016.desc:0 "Mój [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] spędza większość wolnego czasu w moich królewskich lasach, w pełni korzystając z przywilejów wynikających z prestiżowej pozycji.\n\n[lifestyle_kingsguard.GetNameNoTooltip] to znany widok dla moich leśniczych, a wieści o jego celności z łuku stały się tematem rozmów na dworze. Nikogo już nie dziwi, że wraca z polowania ubłocony, z orszakiem niosącym najnowszy trofeum. Komnaty [lifestyle_kingsguard.GetHerHis|U] toną w skórach, futrach i czaszkach, a [lifestyle_kingsguard.GetNameNoTooltip] zyskał opinię prawdziwego łowcy."
+ agot_kingsguard.3016.a:0 "To naprawdę szlachetne zajęcie, [lifestyle_kingsguard.GetFullNameNoTooltip]!"
+
+ agot_kingsguard.3017.t:0 "[ROOT.Char.Custom('KingsguardName')]: Haniebne morderstwo!"
+ agot_kingsguard.3017.desc:0 "Nagi trup mojego [ROOT.Char.Custom('KingsguardName')] [eunuch_kingsguard.GetFullName] został znaleziony przed miejscowym burdelem. [eunuch_kingsguard.GetSheHe|U] został wykastrowany, a dla dodatkowego upokorzenia jego własny członek został wepchnięty do jego ust. Według źródeł, wdał się w kłótnię z pracownicą, po czym został obezwładniony przez słabszych od siebie. Nagi i bez broni został pobity przez prostytutki.\n\nPodburzeni tym ludzie wyszli na ulice i wybuchły zamieszki. Wygląda na to, że [eunuch_kingsguard.GetFirstName] był dobrze znany, ale nie szczególnie lubiany."
+ agot_kingsguard.3017.a:0 "[eunuch_kingsguard.GetFirstNameNoTooltip], głupcze!"
+
+ agot_kingsguard.9100.t:0 "Nowa [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.9100.desc:0 "Teraz, gdy pokonałem [loser.GetName], muszę zdecydować, czy pozostawić jego nominacje do [ROOT.Char.Custom('KingsguardName')], czy powołać własnych ludzi.\n\nPodniesienie własnych nominowanych zapewni mi bezpieczeństwo, ale być może warto rozważyć utrzymanie części obecnych członków?"
+ agot_kingsguard.9100.a:0 "Niech rozpocznie się sąd."
+
+ agot_kingsguard.9101.t:0 "Nowa [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.9101.desc:0 "Nadszedł czas podjęcia decyzji, kto — jeśli w ogóle ktoś — zostanie w mojej [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.9101.a:0 "Tak będzie, jak postanowiłem."
+ agot_kingsguard.9101.a_tt:0 "[THIS.Char.GetName] zostanie usunięty ze stanowiska i uwięziony."
+ agot_kingsguard.9101.b:0 "[kg.GetNameNoTooltip] może pozostać w mojej [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.9101.c:0 "[kg.GetNameNoTooltip] może pozostać w mojej [ROOT.Char.Custom('KingsguardName')]."

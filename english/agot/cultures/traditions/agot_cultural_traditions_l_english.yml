@@ -1,0 +1,303 @@
+﻿l_english:
+ # Ethoses
+ ethos_festive_name:0 "Świąteczny"
+ ethos_festive_desc:0 "W obliczu ponurych trudów życia, ta kultura znajduje zbawienie w wspólnych świętach i dzieleniu się śmiechem."
+ ethos_mystic_name:0 "Mistyczny"
+ ethos_mystic_desc:0 "Zamysły bogów są nieprzeniknione i niepoznawalne, ale to nie powstrzymuje tej kultury przed wglądem w mgłę i głębsze tajemnice tego świata."
+ ethos_methodical_name:0 "Metodyczny"
+ ethos_methodical_desc:0 "Stały krok zapobiega upadkowi, a ludzie tej kultury nie wykonają żadnego ruchu bez zaplanowania wszystkich możliwych konsekwencji."
+
+# AGOT Tradition Effects
+ culture_parameter_gluttonous_trait_bonuses:0 "Osoby z cechą [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_forder_trait_bonuses:0 "#italic Z Rzeki#!: Osoby z cechą [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_rough_terrain_trait_bonuses:0 "Osoby z cechą [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_can_recruit_forder_specialist:0 "Zyskuj decyzję, aby rekrutować [commanders|E] z cechą [GetTrait('forder').GetName( GetNullCharacter )] [traits|E]"
+ culture_parameter_can_have_paramours:0 "Postacie mogą swobodnie mieć kochanków wybranych z miłości, a nie dla celów politycznych"
+ culture_parameter_cannibal_skane_trait_gives_bonuses:0 "#italic Smak Skane#!: Osoby z cechą [GetTrait('cannibal').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_the_mark_trait_gives_bonuses:0 "#italic Dzieci Fali#!: Osoby z cechą [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_stubborn_trait_gives_bonuses:0 "#italic Upór w Wojnie#!: Osoby z cechą [GetTrait('stubborn').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+ culture_parameter_herbalist_crannog_trait_gives_bonuses:0 "#italic Trujące Wiedza#!: Osoby z cechą [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] mają dodatkowe bonusy"
+
+# Child Traits
+ culture_parameter_bossy_trait_more_common:0 "[children|E] mają większą szansę na uzyskanie cechy [GetTrait('bossy').GetName( GetNullCharacter )] [trait|E]"
+ culture_parameter_curious_trait_more_common:0 "[children|E] mają większą szansę na uzyskanie cechy [GetTrait('curious').GetName( GetNullCharacter )] [trait|E]"
+
+# Common Traits
+ culture_parameter_greedy_trait_more_common:0 "Cechę [GetTrait('greedy').GetName( GetNullCharacter )] [trait|E] występuje częściej"
+ culture_parameter_arrogant_trait_more_common:0 "Cechę [GetTrait('arrogant').GetName( GetNullCharacter )] [trait|E] występuje częściej"
+
+# Commander Traits
+ culture_parameter_organizer_trait_more_common:0 "Cechę [GetTrait('organizer').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_aggressive_attacker_trait_more_common:0 "Cechę [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_cautious_leader_trait_more_common:0 "Cechę [GetTrait('cautious_leader').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_holy_warrior_trait_more_common:0 "Cechę [GetTrait('holy_warrior').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_logistician_trait_more_common:0 "Cechę [GetTrait('logistician').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_military_engineer_trait_more_common:0 "Cechę [GetTrait('military_engineer').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+ culture_parameter_forder_trait_more_common:0 "Cechę [GetTrait('forder').GetName( GetNullCharacter )] [commander_trait|E] występuje częściej"
+
+# Terrain Bonuses
+ culture_parameter_wetlands_trait_bonuses:0 "Niektóre [commander_traits|E] i [personality_traits|E] mają dodatkowe bonusy w terenach Bagnistych"
+ culture_parameter_plains_trait_bonuses:0 "Niektóre [commander_traits|E] i [personality_traits|E] mają dodatkowe bonusy w Terenach Równinnych"
+
+# Trait Valued
+ culture_parameter_shrewd_trait_more_valued:0 "Cechę [GetTrait('shrewd').GetName( GetNullCharacter )] [trait|E] bardziej cenią"
+
+# Trait Looked Down Upon
+ culture_parameter_slave_master_trait_looked_down_upon:0 "Cechę [GetTrait('slave_master').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_cynical_trait_looked_down_upon:0 "Cechę [GetTrait('cynical').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_zealous_trait_looked_down_upon:0 "Cechę [GetTrait('zealous').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_content_trait_looked_down_upon:0 "Cechę [GetTrait('content').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_humble_trait_looked_down_upon:0 "Cechę [GetTrait('humble').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_lazy_trait_looked_down_upon:0 "Cechę [GetTrait('lazy').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+ culture_parameter_wrathful_trait_looked_down_upon:0 "Cechę [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] uważa się za godną pogardy"
+
+# Wanderers Extra Skills
+ culture_parameter_wanderers_gain_extra_learning_skills:0 "[wanderers|E] zdobywają dodatkowe umiejętności związane z wiedzą w czasie, takie jak [learning|E] lub [lifestyle_traits|E]"
+ culture_parameter_wanderers_gain_extra_intrigue_skills:0 "[wanderers|E] zdobywają dodatkowe umiejętności związane z intrygami w czasie, takie jak [intrigue|E] lub [lifestyle_traits|E]"
+ culture_parameter_wanderers_gain_extra_diplomacy_skills:0 "[wanderers|E] zdobywają dodatkowe umiejętności związane z państwowością w czasie, takie jak [diplomacy|E] lub [lifestyle_traits|E]"
+
+# Buildings
+ culture_parameter_city_holdings_more_dev:0 "[city_holdings|E] dają więcej [development|E]"
+ culture_parameter_city_holdings_more_levies:0 "[city_holdings|E] dają więcej [levies|E]"
+ culture_parameter_city_holdings_more_taxes:0 "[city_holdings|E] dają więcej [taxes|E]"
+ culture_parameter_city_holding_fort_level_bonus:0 "[fort_level|E] per poziom #V $building_type_city_01$#!: [fort_level_i]#P +1#!"
+ culture_parameter_better_workshop_bonuses:0 "Linia #V $building_type_workshops_01$#! [buildings|E] daje dodatkowe bonusy w [counties|E] tej [culture|E]"
+ culture_parameter_better_farm_estate_bonuses:0 "Linia #V $building_type_farm_estates_01$#! [buildings|E] daje dodatkowe bonusy w [counties|E] tej [culture|E]"
+ culture_parameter_better_farm_bonuses:0 "Linia #V $building_type_cereal_fields_01$#! [buildings|E] daje dodatkowe bonusy w [counties|E] tej [culture|E]"
+ culture_parameter_better_smith_buildings:0 "Linia #V $building_type_smiths_01$#! [buildings|E] daje dodatkowe bonusy w [counties|E] tej [culture|E]"
+
+# Misc
+ culture_parameter_shortened_truce_period:0 "Krótsze [truces|E]"
+ culture_parameter_more_slaves_from_raiding:0 "Więcej niewolników jest łapanych podczas #V Rajdu po Niewolników#! [casus_bellis|E]"
+
+# Vanilla Tradition Effects Add-Ons
+ culture_parameter_the_bog_hunt_success_chance:0 "Zwiększona [hunt_success_chance|E] w [GetTerrain( 'the_bog' ).GetName]"
+
+# Traditions
+ agot_tradition_vale_andal_heritage_name:0 "Wiara i Furie"
+ agot_tradition_vale_andal_heritage_desc:0 "Andalowie pochodzą z północnego Essos, chociaż nikt dokładnie nie wie skąd. Z powodu nieustannego rozszerzania się ziem Valyria, Andaloi musieli uciekać ze swoich ojczystych ziem do Westeros, przemierzając wszystkie ziemie na południe od Szyi i przynosząc ze sobą swoją religijną gorliwość oraz tradycje rycerskie."
+
+ agot_tradition_crownlander_name:0 "Urodzeni z Blackwater"
+ agot_tradition_crownlander_desc:0 "Crownlandczycy to lud, którego kultura ukształtowana została przez ich bliskość do centrum władzy królewskiej oraz przez handel napływający do Zatoki Blackwater. Silna administracja i względny dobrobyt Crownlands ukształtowały ich lud w handlarzy, rzemieślników i kupców. Są oni mniej wojowniczym ludem niż Stormlanderzy na południu i znacznie bardziej prosperującym niż Riverlandczycy na północy."
+
+ agot_tradition_fingerman_name:0 "Pokorna Służba"
+ agot_tradition_fingerman_desc:0 "Palce to ponure, wiatrobyczne miejsce, tak nękane wiatrami z zimnej północy, że mało roślinności rośnie w pobliżu ich czubków. Dla prostych ludzi poza pasterstwem zwierząt nie ma zbyt wielu możliwości życia, ponieważ mało jest ziemi nadającej się do upraw. Dlatego Fingermanie żyją skromnie, a pasterze kóz i dzierżawcy znajdują pewną satysfakcję w swoim nieprzyjaznym domu."
+
+ agot_tradition_harborman_name:0 "Od Mander do Noża"
+ agot_tradition_harborman_desc:0 "Harbormanowie to lud osiadły wokół White Harbor, największej osady na Północy. Niosą ze sobą najsilniejszy wpływ Andalów spośród wszystkich ludzi na Północy, ponieważ House Manderly przyniósł wiarę Siedmiu i wiele innych andalskich zwyczajów po ich wypędzeniu z Reach."
+
+ agot_tradition_honeywiner_name:0 "Miękki i Słodki"
+ agot_tradition_honeywiner_desc:0 "Mężczyźni z Honeywine i jego okolic to jedni z najbogatszych ludzi w Westeros. Dzięki urodzajnym ziemiom i wielkiemu miastu Oldtown, przez rzekę, która daje ludziom ich nazwisko, przepływa wiele handlu. Z Citadelą i Starry Sept, obszar ten jest bastionem nauki w Westeros, z wieloma małymi ludźmi potrafiącymi czytać i pisać."
+
+ agot_tradition_marcher_name:0 "Krew i Stal"
+ agot_tradition_marcher_desc:0 "Mężczyźni z Dornish Marches to jedni z najzacieklejszych wojowników w Westeros i wyprodukowali wielu z najlepszych wojowników. Ich kultura oparta jest na wiekach, jeśli nie tysiącleciach, borderowych starciach z kamiennymi Dornishami przez góry. Mężczyźni z Marchów mają długą pamięć, a większość z niej wykorzystuje, by pamiętać o dziedzicznych waśniach."
+
+ agot_tradition_moonman_name:0 "Wysoko W Górze"
+ agot_tradition_moonman_desc:0 "Oddzieleni od swoich krewnych, którzy mieszkają w urodzajnych dolinach Vale, mężczyźni zamieszkujący wysokości Gór Księżycowych to lud bardziej surowy, wytrwały. W czasach wojny to oni stoją na pierwszej linii obrony przed zagranicznymi najazdami, a ich życie na wysokim poziomie wysokości oznacza, że to oni muszą zmagać się z najazdami od Mountain Clansmen."
+
+ agot_tradition_reachman_name:0 "Chwała Zielonej Ręki"
+ agot_tradition_reachman_desc:0 "Reach to bogata i urodzajna kraina, zbudowana na plecach pracujących prostych ludzi. Jest to także kraj rodzin z jednymi z najstarszych korzeni w Westeros, sięgających mitycznego Gartha Zielonej Ręki, od którego wywodzą się większość znaczących rodzin Reach. Z tyloma rodzinami walczącymi o prominentne miejsca w bogatej ziemi, więzi, które je łączą, są silniejsze i ważniejsze niż gdziekolwiek indziej w Westeros."
+
+ agot_tradition_riverlander_name:0 "Zamieszki na Trident"
+ agot_tradition_riverlander_desc:0 "Trident to kraina, która widziała wiele wojen przez swoją długą historię, a jej centralne położenie sprawia, że jest to pole bitwy nie tylko własnych mieszkańców. Kraina ta zmieniała właścicieli wiele razy, zarówno od Stormlanderów, jak i Ironmenów, którzy podbili i zniewolili Riverlordów. Ta nieustanna walka nauczyła Riverlanderów wykorzystywać swoją ojczyznę na swój sposób, zarówno w wojnie, jak i w pokoju."
+
+ agot_tradition_shieldman_name:0 "Strażnicy Manderu"
+ agot_tradition_shieldman_desc:0 "Nazwa Shield Isles pochodzi od ich głównej roli jako tarczy przeciwko atakom Ironborn. To zbiorowisko czterech dobrze ufortyfikowanych wysp w Reach, nadzorowane przez cztery oddzielne rody. Ludzie z Shield Isles są znani ze swoich twardych charakterów i poczucia obowiązku. Wyspy są słynne ze swoich latarni, które starcy w wieżach sygnalizują płomieniami wyspę po wyspie, by rozesłać ostrzeżenia o nadchodzących długoszach w osady na lądzie."
+
+ agot_tradition_stone_dornish_name:0 "Strażnicy Przejść"
+ agot_tradition_stone_dornish_desc:0 "Stone Dornish to najbardziej etnicznie i kulturowo oddzieleni od Rhoynar spośród Dornishów. Mieszkając w wysokościach i dolinach Czerwonych Gór, ich kultura kształtowała się przez pokolenia konfliktów z Marcherami z Reach oraz Stormlanderami, gorliwie broniąc przejść górskich przed zewnętrznymi najazdami."
+
+
+ agot_tradition_stormlander_name:0 "Toczące się Grzmoty"
+ agot_tradition_stormlander_desc:0 "Mężczyźni ze Stormlands są znani z tego, że są tak surowi i gromcy, jak ich pogoda. Stormlanderzy prowadzą trudne życie na pagórkowatym terenie swojej ojczyzny, co sprawia, że są jednymi z najsilniejszych i najbardziej wytrzymałych wojowników w Westeros. Poza wojną, burzowe morza Zatoki Shipbreaker wychowują starych, twardych marynarzy."
+
+ agot_tradition_valeman_name:0 "Góry i Doliny"
+ agot_tradition_valeman_desc:0 "Vale of Arryn to miejsce, które, bardziej niż jakakolwiek inna część Westeros, zostało głęboko wpłynięte przez Andalów. Rycerze Vale są uważani za największych w Westeros, a jego lud za najbardziej pobożnych. To także miejsce wielkiej płodności i obfitości, doliny między Górami Księżycowymi są drugie tylko po ziemiach uprawnych Reach."
+
+ agot_tradition_vineman_name:0 "Wino, Kobiety i Pieśni"
+ agot_tradition_vineman_desc:0 "Od czasów przybycia Gilberta z Winorośli, mężczyźni z Arbor znają tylko jedno: wino. Winnice Arbor są legendarne w Westeros i poza nim z powodu jakości wina, które produkują, a wielu kupców i marynarzy zawija kotwice w Ryamsport, by kupić najlepsze czerwone wino z Arbor."
+
+ agot_tradition_westerman_name:0 "Złoto i Srebro"
+ agot_tradition_westerman_desc:0 "Westerlands, na pierwszy rzut oka, wydają się mało znaczącym miejscem; nie jest to największe ani najbardziej zaludnione z Siedmiu Królestw, ale jest niewątpliwie najbogatsze. Czego im brakuje w rozległych polach urodzajnych, to nadrabiają bogactwem swoich wzgórz, bogatych w złoto i srebro. To ta obfitość cennych minerałów stanowi podstawę władzy Westerlands, a ich szlachta zazdrośnie strzeże swoich kopalni przed tymi, którzy spoglądają na nie z zazdrością."
+
+ agot_tradition_barrowman_name:0 "Rynny i Wzgórza"
+ agot_tradition_barrowman_desc:0 "Choć Barrowlands kiedyś rządzili Królowie z Barrow, ich lud zasymilował się z resztą Północnych po złożeniu hołdu Winterfell na zakończenie ich tysiącletniego konfliktu. Barrowmanowie to znakomici jeźdźcy, a rozległe pagórkowate równiny Barrowlands sprawiają, że jest to idealne miejsce do wojny kawaleryjskiej, co z kolei czyni Barrowmanów cennymi sojusznikami dla każdego, kto pragnie prowadzić wojnę na Północy."
+
+ agot_tradition_clawman_name:0 "Dzikie Ludzie z Claw"
+ agot_tradition_clawman_desc:0 "Mężczyźni z Crackclaw Point są jednymi z dzikich na południe od Neck. Krew Pierwszych Ludzi płynie grubo w ich żyłach, a wiele zwyczajów Pierwszych Ludzi wciąż przetrwało z nimi. Poza Mountain Clansmenami z Vale, Clawmanowie byli jedynymi Pierwszymi Ludźmi, którzy opierali się inwazji Andali, a wiarę Siedmiu przyjęli dopiero po małżeństwach z Andalami."
+
+ agot_tradition_crannogman_name:0 "Mieszkańcy Bagna"
+ agot_tradition_crannogman_desc:0 "Crannogmeni to lud niski, tajemniczy, postrzegany przez niektórych jako prymitywny, a przez innych obawiany i wyszydzany jako błotniaki i diabły bagnowe. Ich ojczyzna, Neck, to duża, bagnista dolina, gęsta od roślinności i sklepienia. Mało kto wie, co dzieje się w głębinach Neck, chociaż wielu w Westeros szepcze, że Crannogmeni nauczyli się różnego rodzaju magii i czarów od Dzieci Lasu. Niektórzy idą nawet dalej i twierdzą, że Crannogmeni sami są potomkami unii Dzieci i Pierwszych Ludzi."
+
+ agot_tradition_firstman_name:0 "Pierwszy"
+ agot_tradition_firstman_desc:0 "Zanim pojawiły się Siedem Królestw, Doom Valyrii i Andale, byli Pierwsi Ludzie. Wykorzystując miecze i topory z brązu, Pierwsi Ludzie byli pierwszymi, którzy osiedlili się w Westeros, wyrzeźbiając swoją kulturę i wpływy głęboko w krwi kontynentu oraz wszystkich, którzy przyszli po nich. Choć Stary Język jest nadal używany przez wolnych ludzi i gigantów, ich runiczne pismo zniknęło, a wiele dawnych opowieści nie zostało przekazanych ustnie. Echa kultury Pierwszych Ludzi można znaleźć w całym Westeros, ale najsilniejsze są na Północy, gdzie Północni Ludzie wciąż modlą się do drzew serca w bożym ogrodzie, tak jak Pierwsi Ludzie."
+
+ agot_tradition_hill_clansman_name:0 "Klany Północy"
+ agot_tradition_hill_clansman_desc:0 "Hill Clansmen to jedni z dzikszych i mniej cywilizowanych ludzi na południe od Muru. Walki wewnętrzne i rywalizacje między klanami są powszechne, zarówno wśród dużych, jak i małych klanów; ten cykl krwawych waśni i zemsty przelał niezliczoną ilość krwi przez wieki. Z powodu bliskości do Muru, Clansmeni mają silne więzi z Night's Watch i częściej niż inne ludy południa wchodzą w interakcje z Dzikimi poprzez napady i handel."
+
+ agot_tradition_northman_name:0 "Lojalni i Prawdziwi"
+ agot_tradition_northman_desc:0 "Północni Ludzie to niektórzy z ostatnich Pierwszych Ludzi i zdecydowanie największa populacja, jaka wciąż istnieje. Chronieni przed inwazjami Andali przez nieprzebytą ziemię Neck i twierdzę Moat Cailin, Północni Ludzie zostali pozostawieni w swoich starożytnych tradycjach, wciąż czcząc Starych Bogów. Do dzisiaj są ludem izolacjonistycznym, rzadko interesującym się sprawami na południe od Neck."
+
+ agot_tradition_sisterman_name:0 "Pod Wodami"
+ agot_tradition_sisterman_desc:0 "Przez większą część swojej historii, Sistermeni mieli więcej wspólnego z Ironborn niż z mężczyznami z Vale czy Północy. Przez milenia, Sistermeni byli rządzeni przez swoich pirackich królów, plądrujących wybrzeża Bitewnej Zatoki, aby zdobyć to, czego nie mogli znaleźć na swoich wietrznych wyspach, czcząc dziwne bóstwa nieznane ani Andalom, ani Pierwszym Ludziom."
+
+ agot_tradition_skagosi_name:0 "Dzieci Kamienia"
+ agot_tradition_skagosi_desc:0 "Skagosi, znani pogardliwie jako “Skaggs” przez wielu obcokrajowców, są bliżsi Dzikim Ludziom niż cywilizowanym ludziom. Dla siebie są Stoneborn, dumnym ludem, który robi co w jego mocy, aby wykorzystać surowe skały, które nazywają swoim domem. Mówi się, że niektórzy z nich wciąż praktykują ciemniejsze i bardziej brutalne tradycje Pierwszych Ludzi, w tym kanibalizm i ludzkie ofiary."
+
+
+ agot_tradition_ironborn_name:0 "Sól i Skała"
+ agot_tradition_ironborn_desc:0 "Wyspy Żelazne to bez wątpienia surowe, jałowe miejsce. Fakt ten doskonale odzwierciedla ich lud. Kultura Żelaznych jest oparta na rabunkach, płaceniu żelazną ceną. Z braku urodzajnych ziem na swoich skalistych wychodniach, Żelazni ludzie od zawsze wypłynęli na morze, ci bez predyspozycji do wojny stali się rybakami. Opiekują się nielicznymi farmami Wysp Żelaznych ich niewolnicy, ponieważ uprawa ziemi jest uważana za pracę poniżej nawet dla zwykłych ludzi."
+
+ agot_tradition_greenborn_name:0 "Z Morza i Pola"
+ agot_tradition_greenborn_desc:0 "Żelazni ludzie, którzy osiedlili się bardziej w głębi lądu. Choć nadal trzymają się morza, stali się bardziej zdolni do życia z dala od niego."
+
+ agot_tradition_valyrian_name:0 "Krew Smoka"
+ agot_tradition_valyrian_desc:0 "Valyrianie byli niegdyś licznym ludem, a ich imperium rozciągało się od Ghis po Pentos. Freehold, mimo swojej nazwy, był czymś zupełnie innym. Choć byli tolerancyjni wobec ludów, które podbili na grzbiecie smoków, ta tolerancja nie powstrzymała ich przed zniewoleniem setek tysięcy ludzi, wysyłając ich do rozpaczy w kopalniach Czternastu Płomieni. Jednak wraz z Kataklizmem, niemal wszyscy czystej krwi Valyrianie zostali zgładzeni, a razem z nimi smoki, które wykorzystywali do podbojów."
+
+ agot_tradition_dorne_rhoynish_heritage_name:0 "Dzieci Matki Rhoyne"
+ agot_tradition_dorne_rhoynish_heritage_desc:0 "Cywilizacja Rhoynar jest starożytna i pełna chwały. Historia Rhoynar jest tak głęboka, że niektórzy przypisują im naukę Andali jak obrabiać i przetapiać żelazo. Pochodząc z miast-państw wzdłuż rzeki Rhoyne, Rhoynarzy czczą liczne bogów rzeki i mają szczególne zamiłowanie do wszelkiego rodzaju łodzi, od małych łodzi rybackich po niewiarygodne, luksusowe barki. Kultura Rhoynar różni się znacznie od kultury Andali, gdzie dziedziczenie jest równe zarówno dla kobiet, jak i mężczyzn, a stosunki jednopłciowe są akceptowane. Rhoynarzy są znani z przyjmowania dzieł sztuki i muzyki, co może częściowo wyjaśniać, dlaczego niektóre praktyki kulturowe Rhoynar szybko przyjęły się, gdy Rhoyne dotarła do Dorne."
+
+ agot_tradition_greenblood_name:0 "Rzeka Sierot"
+ agot_tradition_greenblood_desc:0 "Po ucieczce z Essos i przybyciu do Dorne, Sieroty Zielonej Krwi zdobyły swoje samodzielnie nadane tytuły, odmawiając przyjęcia zwyczajów Dornijczyków i asymilacji, wybierając życie jako 'sieroty' rzeki Rhoyne — rzeki, którą nazywają 'matką'. Sieroty Zielonej Krwi i ich potomkowie trzymają się kultury i wierzeń Rhoynarów, wciąż mówiąc w języku Rhoynarskim za zamkniętymi drzwiami i w tajemnicy, żyjąc na tratwach wzdłuż rzeki Greenblood, od której biorą swoją nazwę."
+
+ agot_tradition_salt_dornish_name:0 "Krew Nymerii"
+ agot_tradition_salt_dornish_desc:0 "Z największą ilością krwi Rhoynar płynącą w ich żyłach spośród wszystkich Dornijczyków, Salt Dornish mieszkają na bardziej umiarkowanych wybrzeżach Dorne. Kontynuują wiele egalitarnych tradycji przyniesionych do Dorne przez Nymerię i są świetnymi marynarzami, z portami wzdłuż wybrzeża Dorne, które przynoszą im dużą pomyślność."
+
+ agot_tradition_sand_dornish_name:0 "Pustynia i Wydmy"
+ agot_tradition_sand_dornish_desc:0 "Wydobywając swoje życie z surowej pustyni, którą nazywają domem, Sand Dornish to ludzie odporni i bezwzględni. Ich zamki i osady są zbudowane wokół rzadkich źródeł wody w ich pustynnej ojczyźnie, które gorliwie bronią. Są naturalnie odważnymi i śmiałymi ludźmi, z wieloma z noblowskich domów w tym regionie, którzy wywodzą się z tych odważnych nielicznych, którzy wyruszyli na wyprawy w surowe wydmy."
+
+ agot_tradition_wildling_name:0 "Dzikie, Surowe i Czarowne"
+ agot_tradition_wildling_desc:0 "Pomimo swojej nazwy i reputacji, Dzikusy zza Muru wcale nie są niecywilizowani, chociaż to może zależeć od tego, jak ktoś definiuje, co oznacza być 'cywilizowanym'. Choć w dużej mierze różnią się od sposobu życia 'klęczących' w Siedmiu Królestwach, Dzikusy są w stanie być równie zorganizowane jak ci na południe od Muru — a nawet bardziej zorganizowane, w zależności od tego, kogo zapytasz. Zwyczaje i praktyki różnią się między plemionami i klanami, a każdy, kto odważy się zbadać tereny za Murem, znajdzie wszystko, od wodzów po lordów, zwanych 'Magnarami' w Starym Języku. Mimo różnorodności, jednak Dzikusy zgadzają się co do dwóch rzeczy: niewiele jest cenniejszego niż człowiek, który dotrzymuje przysięgi, i martwi muszą być spalone."
+
+ agot_tradition_westeros_valyrian_name:0 "Przeciwstawianie Burzy"
+ agot_tradition_westeros_valyrian_desc:0 "Valyriańscy ludzie z Wysp Blackwater są pod wieloma względami bardziej podobni do Andalów niż ich przodkowie z Freehold. Zamiast budować swoje bogactwo na niewolnikach kopiących głęboko w Czternastu Płomieniach, Zachodni Valyrianie od zawsze szukali bogactwa w morzu. Są przemysłowymi kupcami i jednymi z najlepszych marynarzy w Westeros."
+
+ agot_tradition_krakenman_name:0 "Żelazo i Lód"
+ agot_tradition_krakenman_desc:0 "Chociaż część Północy, wielu maesterów uważa, że krew ludzi z Cape Kraken jest bliższa Żelaznym Ludziom niż Północnym. Ludzie z Cape Kraken znajdują się jednak w opozycji kulturowej. Choć należą do Północy, ich położenie poniżej Neck sprawia, że czują się społecznie i kulturowo oddzieleni od Winterfell — podczas gdy ich krwista historia bycia napadanymi przez Żelaznych Ludzi stawia ich w opozycji do tych, którzy wielu by uznali za ich braci od morza."
+
+
+ agot_tradition_mountain_clansman_name:0 "Ponad Zachodzącym Słońcem"
+ agot_tradition_mountain_clansman_desc:0 "W głębi Gór Księżyca mieszkają jej klanowcy, najbardziej dzicy i niecywilizowani ludzie na południe od Muru. Są ostatnimi prawdziwymi pozostałościami Pierwszych Ludzi w Dolinie, a ich górska ojczyzna chroni ich przed naporem Andalów, pozwalając im kontynuować prymitywne życie bez zbytniej ingerencji z zewnątrz."
+
+ agot_tradition_wolfswood_clansman_name:0 "W Najgłębszych Głębokościach"
+ agot_tradition_wolfswood_clansman_desc:0 "Ludzie z klanów w Wolfswood to wytrwali i pracowici ludzie, znani nie tylko z ich surowej natury, ale także z umiejętności w połowie lodowatych wód. Choć nie są wielkimi rodami, krew klanowców z Wolfswood płynie tak głęboko, jak każda szlachecka rodzina. Pochodzący od Pierwszych Ludzi, niektóre z klanów przetrwały same lasy, a niektóre obszary zostały spalone podczas najazdu Żelaznych Ludzi. Mówi się, że niektóre klany wciąż praktykują Pierwszą Noc, a wodzowie klanów są uważani za 'lordów' przez swoich wasali — choć jest to raczej uprzedzająca uprzejmość ze strony wasali, ponieważ wodzowie klanów nie uważają się za wysoko urodzonych."
+
+ agot_tradition_bearman_name:0 "Wśród Niedźwiedzi i Sosen"
+ agot_tradition_bearman_desc:0 "Ludzie z Wyspy Niedźwiedzi to wytrwali ludzie, którzy przez długi czas żyli w obliczu najazdów zarówno Żelaznych Ludzi, jak i Dzikusów. Posiadają wyspę od czasów Króla Rodrika Starka i będą ją trzymać jeszcze dłużej. Życie pełne nieustannej walki sprawiło, że kobiety z wyspy wzięły broń do ręki u boku swoich mężczyzn, a mówi się, że są równie przerażające jak samica niedźwiedzia chroniąca swoje młode."
+
+ agot_tradition_rushlander_name:0 "Tam, gdzie Rzeki Spotykają Wzgórza"
+ agot_tradition_rushlander_desc:0 "Kultura powstała na granicy Doliny i Krainy Rzek, Rushlandczycy to wytrwali ludzie, którzy przystosowali się do życia zarówno w górach, jak i nad rzekami."
+
+ agot_tradition_harsh_laws_name:0 "Surowe Prawo"
+ agot_tradition_harsh_laws_desc:0 "Społeczeństwo kształtuje prawo. Historia pokazała, że to naturalne, iż surowa ziemia rodzi surowych ludzi, którzy następnie ustanawiają surowe prawa, którymi rządzą."
+
+ agot_tradition_thenn_name:0 "Ostatni z Pierwszych"
+ agot_tradition_thenn_desc:0 "Znani jako bardziej 'wysublimowani' spośród wolnych ludzi przez tych na południe od Muru, Thennowie uważają się za ostatnich pozostałych Pierwszych Ludzi. Mieszkańcy górskiej doliny w Frostfangs częściej wchodzą w interakcje z gigantami niż z innymi kulturami, ale udało im się nauczyć kilku słów lub zdań w Wspólnym Języku, mimo że nigdy nie odeszli od Starego Języka, którym wciąż mówią. Dumni ze swojej wiary w Magnara, Thennowie są nieco bardziej zdyscyplinowani i zorganizowani niż inni wolni ludzie i zgromadzili imponującą armię z brązu. Choć ci na południe od Muru mogą uważać Thennów za dzikich, są oni więcej niż zdolni, często stając w konflikcie z Nocną Strażą."
+
+ agot_tradition_andalos_name:0 "Wzgórza Pod Gwiazdami"
+ agot_tradition_andalos_desc:0 "To Hugorowi, który został namaszczony przez Siedmiu-W-Których-Jednym na wzgórzu w Andalosie z siedmioma gwiazdami, powierzono zadanie przywiezienia Andali do Westeros, jako ich boską nagrodę za utrzymanie przymierza z Siedmioma-W-Których-Jednym."
+
+ agot_tradition_braavos_name:0 "Wyzwoleni z Kajdan Niewolników"
+ agot_tradition_braavos_desc:0 "Unikalne wśród Wolnych Miast, Braavos zostało założone przez zbiegłych niewolników w drodze do Valyrii, a więc składa się z ludzi z całego znanego świata i nie tylko. To ukształtowało Braavos w miasto i naród wielu narodów, gdzie jedna zasada panuje ponad wszystko: 'Żaden mężczyzna, kobieta ani dziecko w Braavos nie będą nigdy niewolnikiem, poddanym ani zależnym.'"
+
+ agot_tradition_religious_fc_name:0 "W Poszukiwaniu Religijnej Czystości"
+ agot_tradition_religious_fc_desc:0 "Freehold było mieszanką wielu narodów, od Valyrianów, przez Andalów, Rhoynarów, Ghiscari i innych, nie licząc licznych niewolników z poza jego granic. Aby utrzymać kontrolę nad tymi różnorodnymi narodami, Smocze Lordy pozwalały na kult wszystkich bogów, co było nienawidzone przez niektóre z najbardziej gorliwych ich poddanych, którzy opuścili Freehold w poszukiwaniu religijnej czystości."
+
+ agot_tradition_three_daughters_name:0 "Zatrzymani Pomiędzy Rodzeństwem"
+ agot_tradition_three_daughters_desc:0 "Gdy Freehold upadło w Kataklizmie, jego imperium zostało rozbite, a różne miasta walczyły o dominację. Najlepiej widać to w Spornych Ziemiach, gdzie Lys, Myr i Tyrosh walczą ze sobą, a zwykli ludzie są uwięzieni pomiędzy nimi w ich niekończących się konfliktach."
+
+ agot_tradition_pentos_name:0 "Stworzeni przez Mieszanie"
+ agot_tradition_pentos_desc:0 "Pentoshi to ludzie, którzy są uważani za produkt osadników valyriańskich i rodzimych Andali, którzy zamieszkiwali ten region przed nimi, a więc narodził się Pentoshi."
+
+ agot_tradition_doom_name:0 "Ukryci przez Kataklizm"
+ agot_tradition_doom_desc:0 "Kataklizm na zawsze zmienił świat i wciąż pozostaje tajemnicą do dziś. Ci, którzy przeżyli katastrofalną zagładę, są nadal nią owiani po dziś dzień."
+
+ agot_tradition_slavers_bay_name:0 "Opętani Handlem Niewolnikami"
+ agot_tradition_slavers_bay_desc:0 "Życie w Starym Imperium, a nawet Freehold, opierało się na handlu niewolnikami. To z tego handlu ludzie mogą prosperować i budować swoją przyszłość, nawet jeśli odbywa się to kosztem wolności innych ludzi."
+
+ agot_tradition_ghis_name:0 "W Uścisku Wielkich"
+ agot_tradition_ghis_desc:0 "Dzięki dyscyplinie i wytrwałości Stare Imperium Ghiscari rosło i rozprzestrzeniało się. Pomimo używania niewolników, Stare Imperium zostało zbudowane na sile rąk wolnych ludzi w Legiach Lockstep, a ich szkolenie i porządek były tak wielkie,  że żadne inne armie nie mogły stanąć przeciwko nim, tylko smoki i ich płomienie."
+
+ agot_tradition_rhoynar_name:0 "Na Matce Rzek"
+ agot_tradition_rhoynar_desc:0 "To na Rhoyne, wielkiej rzece zachodniego Essos, powstała jedna z wielkich cywilizacji świata. Rhoynarzy są znani z piękna swoich miast oraz z umiejętności wytopu żelaza i nauczania tej sztuki."
+ 
+#Unique Cultural
+ agot_tradition_andalosi_name:0 "Oczyszczony przez Ogień"
+ agot_tradition_andalosi_desc:0 "#italic „Qarlon Wielki spalił się ze swoją armią, a potem smoczy lordowie polecieli dalej, niosąc krew i ogień na wyspy Lorath. Wielka warownia Qarlona poszła w płomieniach, podobnie jak miasteczka i rybackie wioski wzdłuż jego brzegów. Nawet wielkie kamienie labiryntów zostały przypalone i skarbone przez burze ognia, które przetoczyły się po wyspach. Mówi się, że nie przeżył ani mężczyzna, ani kobieta, ani dziecko, kiedy miała miejsce Oczyszczanie Lorath, tak gorące były te ognie.”#!"
+
+ agot_tradition_andal_name:0 "W pogoni za Zachodzącym Słońcem"
+ agot_tradition_andal_desc:0 "#italic „... mówi się, że sami Siedmiu chodzili pośród swojego ludu na wzgórzach Andalosu, to oni koronowali Hugora z Wzgórza i obiecali mu i jego potomkom wielkie królestwa w obcej ziemi. To jest to, czego uczą septonowie i septa, dlaczego Andale opuścili Essos i ruszyli na zachód ku Westeros,”#!"
+
+ agot_tradition_braavosi_name:0 "Niesieni przez Fioletowe Żagle"
+ agot_tradition_braavosi_desc:0 "#italic „A ponieważ ryzykowali życie w imię wolności, matki i ojcowie nowego miasta przysięgli, że żaden mężczyzna, kobieta ani dziecko w Braavos nie będą nigdy niewolnikiem, poddanym ani zależnym. To jest Pierwsze Prawo Braavos, wyryte w kamieniu na łuku, który rozciąga się nad Długim Kanałem. Od tego dnia do dziś, Władcy Morza Braavos sprzeciwiają się niewolnictwu we wszystkich jego formach i stoczyli wiele wojen przeciwko niewolnikom i ich sojusznikom.”#!"
+
+ agot_tradition_lorathi_name:0 "W Ślepoty Wyspy i Labiryntu"
+ agot_tradition_lorathi_desc:0 "#italic „Ci nowi Lorathi początkowo byli podlegli wyznawcom Boasha, którzy przybyli wcześniej, a przez wiele lat kapłani Ślepego Boga rządzili wyspami. Z biegiem czasu jednak liczba przybyszów wzrosła, podczas gdy liczba wiernych malała. Kult Boasha upadł, a kapłani, którzy pozostali, stali się bardziej światowi i skorumpowani, porzucając swoje włosy, kaptury i pobożność, stając się grubymi i bogatymi dzięki podatkom, które pobierali od rządzonych. Ostatecznie rybacy, rolnicy i inni ludzie małej ręki powstali w rebelii, obalając kajdany Boasha.”#!"
+
+ agot_tradition_lyseni_name:0 "Miłość Zmierzchu"
+ agot_tradition_lyseni_desc:0 "#italic „Lyseni to także wielcy hodowcy niewolników, łączący piękno z pięknem, mając nadzieję na stworzenie jeszcze bardziej wyrafinowanych i pięknych kurtyzan i niewolników do łóżek. Krew Valyrii wciąż silnie płynie w Lys, gdzie nawet zwykli ludzie często chwalą się bladą skórą, srebrno-złotymi włosami oraz fioletowymi, liliowymi i jasnoniebieskimi oczami smoczych lordów z dawnych czasów. Arystokracja Lys ceni czystość krwi ponad wszystko i wyhodowała wielu słynnych (i niesławnych) piękności.”#!"
+
+ agot_tradition_myrish_name:0 "Przejrzystość Soczewki"
+ agot_tradition_myrish_desc:0 "#italic „Handel był życiem Myr od zawsze, a statki myrzańskie żeglowały wodami Wąskiego Morza przez wieki. Rzemieślnicy z Myr, wielu z niewolniczego pochodzenia, są również wielce cenieni; Myrzańska koronka i Myrzańskie gobeliny są warte swojej wagi w złocie i przyprawach, a myrzańskie soczewki nie mają sobie równych na całym świecie.”#!"
+
+ agot_tradition_norvoshi_name:0 "W Dźwięku Dzwonu i Włosów"
+ agot_tradition_norvoshi_desc:0 "#italic „Chociaż Wielki Norvos dominuje nad źródłami Rhoyne, Norvoshi nie pochodzą od Rhoynarów, którzy rządzili tą wielką rzeką w przeszłości. Tak jak inne Wolne Miasta, Norvos jest córką Valyrii.”#!"
+
+ agot_tradition_pentoshi_name:0 "Z Kajdanami Długu"
+ agot_tradition_pentoshi_desc:0 "#italic „Pierwsi Pentosi byli kupcami, handlarzami, żeglarzami i rolnikami, z niewielu z wyższym pochodzeniem; może z tego powodu mniej chronili swoją valyriańską krew i byli bardziej skłonni do łączenia się z pierwotnymi mieszkańcami ziem, które rządzili.”#!"
+
+ agot_tradition_hartalari_name:0 "Pod Trzema Piętami"
+ agot_tradition_hartalari_desc:0 "#italic „Wojny między Tyroszem, Lys i Myrem nie tylko spowodowały narodziny wolnych kompanii w Spornych Ziemiach, ale także stworzyły flotę piratów i najemników morskich, gotowych walczyć za każdego, kto zapłaci. Większość z nich ma swoją bazę na Stepstones, wyspach, które rozciągają się na wąskim morzu między Łamaną Ręką a wschodnim wybrzeżem.”#!"
+
+ agot_tradition_qohorik_name:0 "W Ciemności Lasu i Kuźni"
+ agot_tradition_qohorik_desc:0 "#italic „Rzemieślnicy z Qohor są bardzo znani. Qohoryjskie gobeliny, tkanione głównie przez kobiety i dzieci w mieście, są tak samo piękne jak te tkanione w Myr, choć mniej kosztowne. Wspaniałe (choć nieco niepokojące) rzeźby z drewna można kupić na rynku Qohor, a kuźnie tego miasta nie mają sobie równych.”#!"
+
+ agot_tradition_tyroshi_name:0 "Bogactwo Ślimaków"
+ agot_tradition_tyroshi_desc:0 "#italic „Tyroshcy farbiarze wkrótce nauczyli się produkować karmazynowy, szkarłatny i głęboki indygo barwnik, zmieniając dietę ślimaków. W późniejszych wiekach opracowali barwniki setek innych odcieni i kolorów, niektóre naturalne, a inne uzyskane dzięki alchemii. Jasno kolorowe ubrania zyskały popularność u lordów i książąt na całym świecie, a barwniki, które je wyprodukowały, pochodziły z Tyroshu. Miasto stało się bogate, a z bogactwem przyszła ostentacja. Tyroszcy uwielbiają wyraziste pokazy, a mężczyźni i kobiety cieszą się, farbując włosy na jaskrawe i nienaturalne kolory.”#!"
+
+ agot_tradition_volantene_name:0 "Pierwsza z Córek"
+ agot_tradition_volantene_desc:0 "#italic „Po tym jak Kataklizm ogarnął Valyrię i Krainy Długiego Lata, Volantis uznało swoje prawo do rządzenia wszystkimi innymi koloniami valyriańskimi na całym świecie. Tak wielka była potęga #italic „Pierwszej Córki”#!, że przez jakiś czas udało jej się ustanowić hegemonię nad kilkoma innymi Wolnymi Miastami...”#!"
+
+  agot_tradition_essosi_valyrian_name:0 "Krew Starych"
+ agot_tradition_essosi_valyrian_desc:0 "#italic „Wielu z Krwi Starych z Volantis wciąż oddaje cześć starym bogom Valyrii, ale ich wiara znajduje się głównie wewnątrz Czarnych Murów. Poza nimi, czerwony bóg R'hllor jest czczony przez wielu, szczególnie wśród niewolników i wyzwolonych w mieście.”#!"
+
+ agot_tradition_astapori_name:0 "Opanowani przez Łaskawych"
+ agot_tradition_astapori_desc:0 "#italic „Cegły i krew zbudowały Astapor, i cegły i krew jej ludzie, jak mówi stara rymowanka, odnosząc się do czerwonych murów miasta i krwi przelanej przez tysiące niewolników, którzy żyli, pracowali i umierali przy ich budowie. Rządzeni przez mężczyzn, którzy nazywają siebie Dobrymi Mistrzami, Astapor jest najlepiej znane z tworzenia eunuchów-żołnierzy niewolników, zwanych Unsullied — mężczyzn wychowanych od dzieciństwa, by stać się nieustraszonymi wojownikami, którzy nie czują bólu.”#!"
+
+ agot_tradition_yunkish_name:0 "Opanowani przez Mądrych"
+ agot_tradition_yunkish_desc:0 "#italic „O Yunkai, żółtym mieście, mało trzeba mówić, jest to miejsce bardzo haniebne. Mężczyźni, którzy nim rządzą, nazywają siebie Mądrymi Mistrzami, pogrążeni są w korupcji, sprzedając niewolników do łóżek i chłopców do usług, i jeszcze gorsze.”#!"
+
+ agot_tradition_meereenese_name:0 "Opanowani przez Wielkich"
+ agot_tradition_meereenese_desc:0 "#italic „Najpotężniejsze z miast przy Zatokach Niewolniczych to starożytne Meereen, ale jak inne, jest to miejsce kruszące się w ruinach, z populacją, która stanowi tylko ułamek tego, co niegdyś wspierało w szczytowym okresie Starego Imperium. Jego mury z wielokolorowych cegieł zawierają nieskończone cierpienie, ponieważ Wielcy Mistrzowie Meereen trenują niewolników, by walczyli i umierali na ich przyjemność w krwawych, pełnych walki amfiteatrach.”#!"
+
+ agot_tradition_ghiscari_name:0 "Przez Uchwycenie Piorunów"
+ agot_tradition_ghiscari_desc:0 "#italic „Stary Ghis: miasto zbudowane na niewolnictwie. Legendarny założyciel miasta, Grazdan Wielki, wciąż jest czczony tak bardzo, że mężczyźni z rodzin niewolników często noszą jego imię. To on, według najstarszych historii Ghiscari, założył legiony w marszu z wysokimi tarczami i trzema włóczniami, które były pierwszymi, które walczyły jako zdyscyplinowane ciała. Stary Ghis i jego armia zaczęły kolonizować okoliczne ziemie, a potem, naciskając dalej, podbijały swoich sąsiadów. Tak narodziło się pierwsze imperium, które przez wieki panowało niepodzielnie.”#!"
+
+ agot_tradition_rhoynish_name:0 "Przysięgnięci przez Muszle Wody"
+ agot_tradition_rhoynish_desc:0 "#italic „Nieliczni, jak Rhoynarzy, trwali przeciw fali przez stulecia, a nawet tysiąclecia. Rhoynarzy, którzy założyli wielkie miasta wzdłuż Rhoyne, uważani są za pierwszych, którzy nauczyli się sztuki wytopu żelaza.”#!"
+
+ agot_tradition_chroyanar_name:0 "Przez Miłość do Festiwali"
+ agot_tradition_chroyanar_desc:0 "#italic „... i Chroyane, największe z wszystkich, miasto festiwali z jego wielkim Pałacem Miłości.”#!"
+
+ agot_tradition_mellar_name:0 "Na Bagnie Kwiatów"
+ agot_tradition_mellar_desc:0 "#italic „...blada Sar Mell Kwiatów;”#!"
+
+ agot_tradition_qhoynar_name:0 "Wychowani z Pięściami Marmuru"
+ agot_tradition_qhoynar_desc:0 "#italic „Ar Noy na Qhoyne, z jego halami z zielonego marmuru;”#!"
+
+ agot_tradition_sarhar_name:0 "Karmieni Kanałami Słonego"
+ agot_tradition_sarhar_desc:0 "#italic „...morskie Sarhoy z jego kanałami i ogrodami wodnymi;”#!"
+
+ agot_tradition_sarar_name:0 "Żyjący z Piosenką Fontann"
+ agot_tradition_sarar_desc:0 "#italic „Ny Sar, miasto fontann, pełne pieśni;”#!"
+
+ #Realm
+ agot_tradition_insular_marriage_name:0 "Małżeństwo w Kręgu"
+ agot_tradition_insular_marriage_desc:0 "Chociaż nie są izolacjoniści, ta kultura woli zawierać małżeństwa w obrębie własnego ludu."
+
+ agot_tradition_debug_name:0 "Debugowanie"
+ agot_tradition_debug_desc:0 "Jak się tu znalazłeś?"
+
+ #Triggers
+ ibbenese_heritage_trigger:0 "Kultura [E] musi pochodzić od Ibbenese [heritage|E]"
+ westerosi_heritage_trigger:0 "Kultura [E] musi pochodzić od Westerosi [heritage|E]"

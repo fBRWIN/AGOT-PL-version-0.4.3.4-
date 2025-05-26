@@ -1,0 +1,306 @@
+﻿l_english:
+ agot_dragon_warfare.you_have_received_buff:0 "#P [dragon_in_battle.GetName] bardzo ci pomógł w tej bitwie!#!\n\n#weak Otrzymałeś tymczasowy modyfikator.#!"
+ agot_dragon_warfare.you_have_caused_buff:0 "#P [dragon_in_battle.GetName] bardzo pomógł twojej stronie w tej bitwie!#!\n\n#weak Dowódca bitwy otrzymał tymczasowy modyfikator.#!"
+ agot_dragon_warfare.enemy_has_received_buff:0 "#N [dragon_in_battle.GetName] bardzo zaszkodził twojej stronie w tej bitwie!#!\n\n#weak Dowódca wroga otrzymał tymczasowy modyfikator.#!"
+
+ # A Shattering Roar
+ agot_dragon_warfare.0001.t:0 "Przeszywający Ryk"
+
+ agot_dragon_warfare.0002.t:0 "$agot_dragon_warfare.0001.t$"
+ agot_dragon_warfare.0002.opening1:0 "Moi zbrojni i ja dostrzegamy wroga po drugiej stronie pola, gotowego do walki z siłami [dragon_commander_in_battle.GetName], gdy #bold ryk#! z nieba rozdziera powietrze!\n\n"
+ agot_dragon_warfare.0002.opening2:0 "Szczęk stali o stal... Chrzęst metalu roztrzaskującego ciało... Dookoła mnie odgłosy bitwy tworzą brutalną kakofonię. I nagle, gdy przenikliwy #bold ryk#! przecina hałas, świat zamiera w ciszy.\n\n"
+ agot_dragon_warfare.0002.opening3:0 "Napór wojsk [dragon_commander_in_battle.GetNamePossessive] na moich żołnierzy jest przerażający, ale moja uwaga szybko skupia się na niebie. Potężny #bold ryk#! rozdziera powietrze, wyrywając mi oddech z piersi.\n\n"
+ agot_dragon_warfare.0002.mid1:0 "Mój koń płoszy się pode mną i ledwie utrzymuję się w siodle, gdy zrywa się do ucieczki przed [dragonrider_in_battle.GetTitledFirstName], lecącym nad polem na [dragonrider_in_battle.GetHerHis] [dragon_in_battle.Custom('GetDragonColorFull')] bestii, [dragon_in_battle.GetNameNicknamed]!\n\n"
+ agot_dragon_warfare.0002.mid2:0 "Nawet najodważniejsi żołnierze wokół mnie drżą i cofają się — próbując zachować twarz, podczas gdy [dragonrider_in_battle.GetTitledFirstName] przelatuje nad polem bitwy na [dragonrider_in_battle.GetHerHis] [dragon_in_battle.Custom('GetDragonColorFull')] smoku, [dragon_in_battle.GetNameNicknamed]!\n\n"
+ agot_dragon_warfare.0002.mid3:0 "Ściskam mocno [ROOT.Char.Custom('signature_weapon')], obserwując jak [dragon_in_battle.Custom('GetDragonColorFull')] monstrum, [dragon_in_battle.GetNameNicknamed], miota płomienie wokół siebie, otulając [dragonrider_in_battle.GetTitledFirstName] ognistym uściskiem na grzbiecie [dragon_in_battle.Custom('GetDragonHerHis')].\n\n"
+ agot_dragon_warfare.0002.ending1:0 "Patrzę wokół siebie i widzę, jak wrogie oddziały wpadają w lukę w naszych liniach. Teraz nie ma sensu się tu utrzymywać. Wycofujemy się galopem, a resztki naszej linii cofają się, gdy niedobitki zostają spopielone przez smoczy ogień."
+ agot_dragon_warfare.0002.ending2:0 "Dookoła mnie moje linie obronne się rozpadają. Czym są ludzie wobec takiej potęgi? Zarządzam pośpieszny odwrót, by zobaczyć, jak kolejni giną w mgnieniu oka, gdy smoczy ogień pochłania uciekające oddziały."
+ agot_dragon_warfare.0002.ending3:0 "Nie ma nadziei, tylko sadza i dym. Odwracam konia i uciekam z pola bitwy. Ryk jest teraz zagłuszony... Krzykami i jękami ginących żołnierzy, którzy nie mieli tyle szczęścia."
+ agot_dragon_warfare.0002.a:0 "Kto mógłby się przeciwstawić takiemu potworowi?!"
+
+ agot_dragon_warfare.0003.t:0 "$agot_dragon_warfare.0001.t$"
+ agot_dragon_warfare.0003.opening:0 "Wykorzystanie [dragon_in_battle.GetName] w bitwie pod [battle_location.GetName] okazało się niezwykle skuteczne!\n\n"
+ agot_dragon_warfare.0003.ending1:0 "Gdy nasze linie się starły, [dragonrider_in_battle.GetName] i [dragon_in_battle.GetNameNicknamed] polecieli w stronę [enemy_knight.GetName], którego oddziały złamały się pod przerażającym #bold rykiem#! [dragon_in_battle.Custom('GetDragonHerHis')]. Po rozbiciu ich linii, [dragonrider_in_battle.GetFirstNameNoTooltip] spalił ich wojska. Nasi żołnierze ruszyli do ataku za uciekającymi wrogami!"
+ agot_dragon_warfare.0003.ending2:0 "W ogniu walki [dragonrider_in_battle.GetName] skierował się ku wrogim liniom na grzbiecie [dragon_in_battle.GetNameNicknamed]. [dragon_in_battle.Custom('GetDragonColorFull')] bestia wydała potężny #bold ryk#!, rozdzielając wrogie szeregi niczym drewno na opał. Gdy [enemy_knight.GetName] i jego ludzie próbowali nieudolnie się wycofać, [dragonrider_in_battle.GetFirstNameNoTooltip] zasypał ich ogniem!"
+ agot_dragon_warfare.0003.ending3:0 "Podczas gdy szczęk mieczy i tarcz rozbrzmiewał głośno, [dragonrider_in_battle.GetNamePossessive] [dragon_in_battle.Custom('GetDragonColorFull')] smok wydał dziki #bold ryk#!, rozpraszając wrogie wojska na wszystkie strony. Nasi żołnierze wykorzystali sytuację, miażdżąc przeciwnika. A tymczasem [dragon_in_battle.GetNameNicknamed] miotał kolejne potoki ognia na głupotę [enemy_knight.GetFirstNamePossessiveNoTooltip]."
+ agot_dragon_warfare.0003.ending4:0 "Mało kto mógł zaprzeczyć ogłuszającemu dźwiękowi #bold ryku#! [dragon_in_battle.GetNamePossessive], który rozlał się falami po polu bitwy. [enemy_knight.GetName] i jego ludzie w popłochu rzucili się do ucieczki, gdy [dragonrider_in_battle.GetName] krzyczy ponad wrzawą: #emp Dracarys!#!"
+ agot_dragon_warfare.0003.a:0 "To wielka korzyść dla tej bitwy!"
+
+ agot_dragon_warfare.0004.t:0 "$agot_dragon_warfare.0001.t$"
+ agot_dragon_warfare.0004.opening1:0 "Jako dowódca naszych sił, z wyższego punktu widzenia dostrzegam grozę zanim ujrzą ją moi żołnierze. Widzę, jak [dragon_in_battle.Custom('GetDragonColorFull')] bestia [dragon_in_battle.GetNameNicknamed] leci w stronę pozycji [enemy_knight.GetNamePossessive], a jego oddziały rozbiegają się bez walki."
+ agot_dragon_warfare.0004.opening2:0 "Dowodzić armią nie jest łatwo, a tym bardziej przeciwko wrogowi, który dysponuje takim przerażającym orężem jak smok. Obserwuję to z niepokojem, gdy [dragon_in_battle.Custom('GetDragonColorFull')] bestia [dragon_in_battle.GetNameNicknamed] wykonuje nalot na pozycje [enemy_knight.GetNamePossessive]. Żołnierze uciekają w popłochu jak robaki, ale smoczy ogień i tak dopada wielu z nich."
+ agot_dragon_warfare.0004.opening3:0 "Bitwa toczy się jak każda inna: dysonansowy szczęk stali grający staccato śmierci. Z mojego oddalonego punktu obserwacyjnego widzę wszystko wyraźnie, zanim zmiana nastroju dotrze do pozostałych... [dragon_in_battle.GetNameNicknamed] nurkuje w stronę pozycji [enemy_knight.GetNamePossessive], zionąc ogniem na uciekających żołnierzy. #italic Krzyki#!, słyszę. #italic To jęki konających ludzi.#!"
+ agot_dragon_warfare.0004.ending:0 "\n\nPóźniej słyszę od [enemy_knight.GetTitledFirstNameNoTooltip], że smok wydał przerażający #bold ryk#!, ale to już nie ma znaczenia — szkody zostały wyrządzone."
+ agot_dragon_warfare.0004.a:0 "W walce z takimi potworami potrzeba więcej odwagi!"
+
+ agot_dragon_warfare.0005.t:0 "$agot_dragon_warfare.0001.t$"
+ agot_dragon_warfare.0005.opening1:0 "Gdy bitwa wciąż trwa, [dragon_in_battle.GetName] i ja lecimy nisko nad polem bitwy. Kierując się ku ich liniom, mój [dragon_in_battle.Custom('GetDragonColorFull')] wierzchowiec wydaje potężny #bold ryk#!, który wprawia w popłoch wroga [enemy_knight.GetName], a jego towarzysze rozbiegają się, gdy nasi ludzie ruszają do szarży.\n\n"
+ agot_dragon_warfare.0005.opening2:0 "Gdy walka rozgorzała na dobre, kieruję [dragon_in_battle.GetName] do nurkowania nad linię bronioną przez [enemy_knight.GetName]. Bez mojego polecenia [dragon_in_battle.GetNameNoTooltip] #bold ryczy#! potężnie — to przerażający dźwięk pełen furii.\n\n"
+ agot_dragon_warfare.0005.cruel:0 "Ci wrodzy żołnierze to robaki, uciekający i szalejący jak wystawieni na światło. #italic Obrzydliwe larwy#! — myślę sobie."
+ agot_dragon_warfare.0005.vengeful:0 "Sam rozbiję wrogie szeregi. Kto może stanąć przeciw smokowi? Kto może stanąć przeciw #italic mnie#!?!"
+ agot_dragon_warfare.0005.mid:0 "Nieoczekiwany popłoch ogarnia wrogie wojska — grupy rozpadają się w ucieczce, inni czekają na rozkazy, których nigdy nie otrzymają, a jeszcze inni zamierają z przerażenia."
+ agot_dragon_warfare.0005.ending1:0 "Nasi żołnierze na dole ruszają teraz do ataku, wykorzystując okazję, by rozbroić każdą próbę obrony przez wroga.\n\nObserwuję teren pod sobą i szykuję się, by zalać go ogniem."
+ agot_dragon_warfare.0005.ending2:0 "Nasi ludzie szybko wykorzystują sytuację, ruszając do natarcia, gdy wroga linia się załamuje.\n\nZaciskam dłoń na broni, szykując się, by spalić uciekających przeciwników."
+ agot_dragon_warfare.0005.ending3:0 "Przede mną widzę już tylko plecy uciekającego wroga.\n\nCzuję żar i moc bijącą od [dragon_in_battle.GetNameNoTooltip] pod sobą i wiem, co mam zrobić."
+ agot_dragon_warfare.0005.a.valyrian:0 "#EMP Dracarys!#!"
+ agot_dragon_warfare.0005.a:0 "Zionij na nich ogniem, [dragon_in_battle.GetNameNoTooltip]!"
+
+ # A Mad Charge
+ agot_dragon_warfare.0006.t:0 "Szaleńczy Szturm"
+
+ agot_dragon_warfare.0007.t:0 "$agot_dragon_warfare.0006.t$"
+ agot_dragon_warfare.0007.opening1:0 "Znajduję się pośród chaosu bitwy pod [battle_location.GetName], ludzie giną wokół mnie. Zapach krwi wypełnia moje nozdrza, a serce wali mi w piersi. Patrzę, jak życie gaśnie w oczach mężczyzny, barwy tracą wyraz w ludzkim błocie. Pisk, trzask i fala gorąca za moimi plecami."
+ agot_dragon_warfare.0007.opening2:0 "Rozglądam się wokół — brutalna bitwa pod [battle_location.GetName] wrze ze wszystkich stron. Stal uderza o stal. Ludzie jęczą i zawodzą, umierając w niepoliczalnych mękach. Żelazisty zapach krwi wypełnia powietrze, po czym czuć gryzący dym... #bold Smoczy ogień!#!"
+ agot_dragon_warfare.0007.opening3:0 "Czyjeś ciało wpada na mnie, wytrącając mnie z równowagi. Otrzepuję pot — a może to krew? — po czym odzyskuję orientację i powalam kolejnego żołnierza wroga moją [ROOT.Char.Custom('signature_weapon')], krew bryzga na moją zbroję. Nagle przez pole bitwy przetacza się fala gorąca."
+ agot_dragon_warfare.0007.mid:0 "\n\nOdwracam się i widzę, jak [dragonrider_in_battle.GetTitledFirstName] na swoim [dragonrider_in_battle.GetHerHis] [dragon_in_battle.Custom('GetDragonColorFull')] smoku, [dragon_in_battle.GetNameNicknamed], toruje sobie krwawą drogę przez naszą awangardę!"
+ agot_dragon_warfare.0007.ending1:0 "Ludzie gotują się w zbrojach, gdy zęby, ogon i pazury podążają śladem płomieni. Niektórzy zamierają z przerażenia, niezdolni do reakcji — ci giną. Większość ucieka, łamiąc się przed taką potęgą.\n\n"
+ agot_dragon_warfare.0007.ending2:0 "Żołnierze zamieniają się w popiół, końska skóra skwierczy... Spustoszenie wokół mnie jest nie do opisania. Patrzę, jak kolejne szeregi wojska zostają spalone kolejną falą smoczego ognia, inni uciekają w popłochu. Jaka jest nadzieja dla ludzi przeciwko takiemu monstrum?\n\n"
+ agot_dragon_warfare.0007.lunatic:0 "W tym momencie mam wizję: [ROOT.Char.GetTitledFirstName], pogromca smoków, bohater wznoszący się ponad wszystkich. U jego boku chór śpiewaków wyśpiewuje pochwały. #italic To ja!#! — myślę, rzucając się szaleńczym szturmem na [dragon_in_battle.GetNameNoTooltip]."
+ agot_dragon_warfare.0007.rude:0 "To pieprzone szaleństwo wokół mnie przeradza się w szaleństwo w mojej głowie. Jeśli ktoś ma zabić tę #bold przeklętą#! kupę smoczego gnoju, to właśnie ja. Nadchodzę po ciebie, [dragon_in_battle.GetNameNoTooltip]. Będę twoim pierdolonym egzekutorem."
+ agot_dragon_warfare.0007.shrewd:0 "Zamęt wokół mnie jakby zwalnia, jakby czas wstrzymał oddech. Dostrzegam okazję — jeśli dobrze ugodzę, trafię [dragon_in_battle.Custom('GetDragonHerHim')] w słaby punkt między łuskami. Głupota, być może, ale to nasza jedyna nadzieja."
+ agot_dragon_warfare.0007.zealous:0 "Pośród śmierci i zniszczenia dostrzegam niebezpieczną ścieżkę — tylko [ROOT.Char.GetFaith.HighGodName] może mnie nią poprowadzić. Smok przede mną — odmawiam modlitwę i szykuję się do świętego natarcia."
+ agot_dragon_warfare.0007.fallback:0 "Bez wezwania ukazuje mi się ścieżka przez zgliszcza. Widzę ją. To byłby szaleńczy szturm. #italic Desperacki#!, ale może właśnie tego potrzeba."
+ agot_dragon_warfare.0007.a:0 "Chwała Domowi [enemy_knight.GetHouse.GetBaseName]!"
+ agot_dragon_warfare.0007.aawaaga:0 "#bold Aawaaga!#!"
+ agot_dragon_warfare.0007.a.f:0 "Rzucasz się szaleńczym szturmem, by spróbować zabić smoka [dragon_in_battle.GetName]"
+ agot_dragon_warfare.0007.b:0 "Muszę się stąd wydostać!"
+ agot_dragon_warfare.0007.b.f:0 "Uciekasz, jak inni"
+
+ agot_dragon_warfare.0008.t:0 "$agot_dragon_warfare.0006.t$"
+ agot_dragon_warfare.0008.opening1:0 "Gdy ja i [dragon_in_battle.GetName] zalewamy płomieniami [battle_location.GetName], czuję, jak krew smoka pulsuje pod moim ciałem. [dragon_in_battle.Custom('GetDragonSheHe')|U] pragnie prawdziwej walki — i czuję, że muszę się temu poddać. Robimy ostatni przelot nad ich awangardą, dziesiątkując siły przeciwnika zębami, ogonem i pazurami. Strugi krwi latają w powietrzu, gdy [dragon_in_battle.GetNameNoTooltip] rozrywa armię — i ludzi — [enemy_commander_in_battle.GetTitledFirstNamePossessive].\n\n"
+ agot_dragon_warfare.0008.opening2:0 "[dragon_in_battle.GetName] wypuszcza kolejną falę smoczego ognia, pogrążając [battle_location.GetName] w płomieniach. Klepię [dragon_in_battle.Custom('GetDragonHerHis')] [dragon_in_battle.Custom('GetDragonColor')] łuski, ponaglając [dragon_in_battle.Custom('GetDragonHerHim')]. Kierujemy się ku awangardzie [enemy_commander_in_battle.GetTitledFirstNamePossessive], rozszarpując ludzi i konie, gdy [dragon_in_battle.GetNameNoTooltip] ląduje z impetem.\n\n"
+ agot_dragon_warfare.0008.opening3:0 "Zaciskam dłonie na lejcu [dragon_in_battle.GetNamePossessive], gdy zbliżamy się do toczącej się bitwy pod [battle_location.GetName]. [dragon_in_battle.Custom('GetDragonHerHis')|U] płomienie tną wrogie szeregi, rozrywając żołnierzy [enemy_commander_in_battle.GetTitledFirstNamePossessive] jak miękką jagnięcinę. Z chichotem [dragon_in_battle.Custom('GetDragonSheHe')] ląduje wśród grupy żołnierzy, zmiatając kilku uciekających ciał swoim [dragon_in_battle.Custom('GetDragonColorFull')] ogonem.\n\n"
+ agot_dragon_warfare.0008.fled:0 "Niektórzy stoją tylko z otwartymi ustami. [dragon_in_battle.GetNameNoTooltip] i tak rozszarpuje ich wszystkich. Reszta ucieka przed naszą potęgą, a ja dostrzegam, jak [enemy_knight.GetTitledFirstName] również zbiega pieszo z pozostałymi."
+ agot_dragon_warfare.0008.died:0 "Wśród krwi wrogów i uciekających ludzi widzę, jak [enemy_knight.GetTitledFirstName] przedziera się przez tłum prosto do nas! [enemy_knight.GetSheHe|U] sądzi, że jesteśmy zbyt wolni, lecz lekkim naciskiem ud stelepuję [dragon_in_battle.GetNameNoTooltip], który odwraca się i odgryza [enemy_knight.GetHerHis] tułów, pozostawiając zakrwawione nogi na ziemi."
+ agot_dragon_warfare.0008.killed:0 "Wśród krwi wrogów i uciekających ludzi widzę, jak [enemy_knight.GetTitledFirstName] przedziera się przez tłum prosto do nas! [enemy_knight.GetSheHe|U] biegnie z całych sił, a choć próbuję skierować [dragon_in_battle.GetNameNoTooltip] w jego stronę, to za późno! Mogę tylko patrzeć, jak [enemy_knight.GetFirstNameNoTooltip] zadaje jeden, dobrze wymierzony cios, [enemy_knight.GetHerHis] ostrze, "
+ agot_dragon_warfare.0008.decapitated:0 "przecina szyję [dragon_in_battle.GetNamePossessiveNoTooltip], odrąbując głowę [dragon_in_battle.Custom('GetDragonHerHis')] jednym ciosem! Głowa wiruje w powietrzu, podczas gdy bezgłowy kark [dragon_in_battle.Custom('GetDragonHerHis')] odskakuje w tył."
+ agot_dragon_warfare.0008.slit:0 "przecina szyję [dragon_in_battle.GetNamePossessiveNoTooltip], rozdzierając gardło [dragon_in_battle.Custom('GetDragonHerHis')]!"
+ agot_dragon_warfare.0008.fall:0 "\n\nSmocza krew tryska potężnym łukiem, a ja czuję, jak [dragon_in_battle.Custom('GetDragonHerHis')] osuwa się pode mną. Krzyczę i spadam na ziemię, lądując ciężko."
+ agot_dragon_warfare.0008.a:0 "Wszyscy będą przed nami drżeć!"
+ agot_dragon_warfare.0008.b:0 "Zabiłeś mojego smoka! Zabiję cię!"
+ agot_dragon_warfare.0008.b.f:0 "Stoczysz pojedynek z [enemy_knight.GetTitledFirstName] na ziemi!"
+ agot_dragon_warfare.0008.c:0 "Nie! Nie zdołam się przeciwstawić takiemu wojownikowi!"
+ agot_dragon_warfare.0008.c.f:0 "Uciekasz przed [enemy_knight.GetFirstNameNicknamed]!"
+
+
+ # A Fiery Arrangement
+ agot_dragon_warfare.0012.t:0 "Płomienny Układ"
+ agot_dragon_warfare.0012.opening1:0 "Lecę wysoko nad pozycjami wroga — ludzie i konie ustawiają się do bitwy. Na grzbiecie mojego wielkiego smoka, [dragon_in_battle.GetName], wyglądają jak mrówki. Ale niektóre mrówki są ważniejsze od innych, a trzepot chorągwi ustawionych razem przyciąga moją uwagę nawet z tej wysokości."
+ agot_dragon_warfare.0012.opening2:0 "Blisko chmur, na szczycie [dragon_in_battle.GetName], widzę całą Bitwę pod [battle_location.GetName], jak się rozgrywa — drobne szyki naszych regimentów rozbijają się o linie wroga. Stąd wyglądają niemal jak zabawki w rękach dowódców. Mój wzrok wędruje do grupy powiewających chorągwi, oznaczających pozycję samych dowódców..."
+ agot_dragon_warfare.0012.opening3:0 "Krążę wysoko nad Bitwą pod [battle_location.GetName], popędzając [dragon_in_battle.GetName] lekkimi ruchami ud o jego [dragon_in_battle.Custom('GetDragonColorFull')] boki. Stąd mam czysty widok na pozycje wroga — to rzadki przywilej, bo widzę zgrupowanie chorągwi skrytych z dala od pierwszej linii."
+ agot_dragon_warfare.0012.mid:0 "\n\nSzybko pikując w dół, widzę, że [enemy_knight.GetTitledFirstName] i większość pozostałych znanych wojowników zebrała się w jednym miejscu!"
+ agot_dragon_warfare.0012.cruel:0 "Ci wrogowie to larwy, sprawię, że będą się wić. #italic Plugawa hołota#!, myślę, czekając z rozkoszą na płomienie. #italic Szykujcie się na spalenie...#!"
+ agot_dragon_warfare.0012.vengeful:0 "Jednym ruchem mogę zakończyć tę bitwę. Kto może stanąć naprzeciw smoka? Kto może stanąć naprzeciw #italic mnie#!?!"
+ agot_dragon_warfare.0012.fallback:0 "To śmiertelny błąd, gdy walczy się z takim smokiem jak mój! Czuję, jak pierś [dragon_in_battle.GetNamePossessiveNoTooltip] wzbiera, gdy [dragon_in_battle.Custom('GetDragonSheHe')] szykuje się do spopielenia przywódców wroga smoczym ogniem."
+ agot_dragon_warfare.0012.a.valyrian:0 "#EMP Dracarys!#!"
+ agot_dragon_warfare.0012.a:0 "Spal [enemy_knight.GetHerHim], [dragon_in_battle.GetNameNoTooltip]!"
+
+ agot_dragon_warfare.0013.t:0 "Śmierć z Niebios!"
+ agot_dragon_warfare.0013.opening1:0 "Wychodzę z namiotu na polu bitwy pod [battle_location.GetName], idąc w stronę kręgu rycerzy i dowódców, gotowych stawić czoła wrogowi. Mam ich przywitać, gdy nagle z nieba rozlega się potężny ryk!"
+ agot_dragon_warfare.0013.opening2:0 "Wraz z innymi dowódcami mojej armii obserwuję pole bitwy pod [battle_location.GetName], oceniając nasze pozycje i to, jak nasi ludzie wytrzymają siłę smoka. Nagle przeraźliwy skrzek rozdziera niebo!"
+ agot_dragon_warfare.0013.opening3:0 "Powietrze jest ciężkie i wilgotne, gdy Bitwa pod [battle_location.GetName] rozgrywa się przed nami. Ludzie giną z naszego rozkazu... Taki jest ciężar dowodzenia. Wysoko nad nami widzę szybko poruszający się punkt — gdy zbliża się do naszej pozycji, słyszę potężny ryk!"
+ agot_dragon_warfare.0013.mid:0 "To [dragon_in_battle.GetNameNicknamed], z [dragonrider_in_battle.GetName] na grzbiecie [dragon_in_battle.Custom('GetDragonHerHim')]!\n\nJesteśmy oszołomieni, gdy [dragon_in_battle.Custom('GetDragonColorFull')] bestia opada szybciej, niż można uwierzyć. Gdy otwiera paszczę, zdaję sobie sprawę, co się stanie — ale już za późno. Pomruk nabieranego powietrza kończy się rykiem płomienia i "
+ agot_dragon_warfare.0013.death1:0 "choć zaczynam biec, nie zdołam uciec przed ogniem. Przez ułamek sekundy mogę tylko krzyknąć, zanim płuca wysychają z powietrza, a czuję jak moje ciało odchodzi od kości."
+ agot_dragon_warfare.0013.death2:0 "choć kryję się za wielkim głazem, czuję niewyobrażalne ciepło dookoła. Dłoń na gładkiej skale zaczyna skwierczeć i pękać jak mięso na ogniu. Gotuję się żywcem..."
+ agot_dragon_warfare.0013.death3:0 "choć przeskakuję kilku powolniejszych towarzyszy, jestem za wolny. W jednej chwili czuję, jak moje ciało pochłania smoczy ogień, a same ścięgna ramion i nóg zamieniają się w popiół."
+ agot_dragon_warfare.0013.burned1:0 "myślę tylko o ucieczce przed płomieniami. Rzucam się sprintem, czuję uderzenie, gdy smoczy ogień uderza w ziemię, i choć uniknąłem głównego wybuchu, fala gorąca z tyłu pali mi ubranie i gotuje mnie w zbroi."
+ agot_dragon_warfare.0013.burned2:0 "moją jedyną myślą jest ucieczka. Skaczę za wielki głaz, patrząc jak główny strumień ognia omija moją kryjówkę. Ulgę przerywa widok płonącej odzieży — gorętszej niż jakikolwiek znany mi ogień."
+ agot_dragon_warfare.0013.burned3:0 "Uciekam, ile sił. Widzę, jak płonąca sylwetka upada obok mnie — to był dowódca jak ja. Przeskakuję nad płonącą masą, uciekając. Najgorsze z ognia [dragon_in_battle.GetNamePossessiveNoTooltip] poszło gdzie indziej, ale czuję, jak skóra mi pęka i pęcherzy się pod rozgrzaną zbroją."
+ agot_dragon_warfare.0013.a:0 "[ROOT.Char.Custom('Scream')]"
+
+ agot_dragon_warfare.0014.t:0 "Zagłada na Skrzydłach Grozy"
+ agot_dragon_warfare.0014.desc:0 "To zostanie zapamiętane jako jedna z największych katastrof wojskowych w dziejach krainy.\n\nTak prosty plan — spotkanie przed bitwą w celu omówienia strategii i pozycji — nie mógł pójść gorzej. [enemy_knight.GetTitledFirstName], a także inni moi dowódcy i najwyżsi wojownicy, zebrali się przed bitwą. Zamiast ustalać strategię, napotkali grozę: [dragonrider_in_battle.GetTitledFirstName] zstąpił na smoku i spalił dowództwo mojej armii smoczym ogniem!\n\nCi, którzy nie zginęli, zostali potwornie poparzeni dzięki [dragon_in_battle.Custom('GetDragonColorFull')] postrachowi [dragon_in_battle.GetNameNicknamed]. Ja i kilku innych uniknęliśmy takiego losu tylko dlatego, że nie zdążyliśmy dotrzeć... Dowództwo armii jest zdziesiątkowane i z pewnością przegramy tę bitwę."
+ agot_dragon_warfare.0014.a:0 "Przeklęte te skrzydlate demony!"
+
+ agot_dragon_warfare.0015.t:0 "Dostarczona Zagłada"
+ agot_dragon_warfare.0015.desc:0 "To zostanie zapamiętane jako jedno z najbardziej decydujących zwycięstw militarnych w dziejach krain!\n\nDzięki heroicznym czynom [dragonrider_in_battle.GetTitledFirstName] na grzbiecie smoka dowództwo wroga zostało zniszczone. Dowódcy przeciwnika spotkali się przed bitwą, by omawiać strategię i pozycje, ale takie zgromadzenie okazało się idealnym celem dla [dragon_in_battle.GetNameNicknamed].\n\n[enemy_knight.GetTitledFirstName], a także wielu innych dowódców i znanych wojowników, wszyscy zostali spopieleni smoczym ogniem! Ci, którzy nie zginęli, są potwornie poparzeni — dzięki [dragonrider_in_battle.GetFirstNameNoTooltip] i jego [dragon_in_battle.Custom('GetDragonColorFull')] bestii.\n\nWróg jest zdezorganizowany, szeregi chwieją się bez rozkazów; z pewnością wygramy tę bitwę."
+ agot_dragon_warfare.0015.a:0 "Wielka chwała dla nas!"
+
+ # The Risks of Bravery
+ agot_dragon_warfare.0016.t:0 "Ryzyko Odwagi"
+
+ agot_dragon_warfare.0017.t:0 "$agot_dragon_warfare.0016.t$"
+ agot_dragon_warfare.0017.opening1:0 "Lecę wysoko ponad chmurami [battle_location.GetName] na grzbiecie [dragon_in_battle.GetName], szykując się do ataku młotem i kowadłem, gdy patrzę w dół i widzę, że "
+ agot_dragon_warfare.0017.opening2:0 "Szybuję wysoko nad Bitwą pod [battle_location.GetName] na grzbiecie [dragon_in_battle.GetName], rozważając kolejny atak na linie wroga, gdy dostrzegam, że "
+ agot_dragon_warfare.0017.opening3:0 "[dragon_in_battle.GetName] wznosi nas coraz wyżej nad chaosem [battle_location.GetName], pozwalając na chwilę wytchnienia wśród chmur. Przyglądam się polu bitwy i widzę, że "
+ agot_dragon_warfare.0017.mid:0 "[enemy_commander_in_battle.GetTitledFirstName] już ruszył z wojskami do przodu! Co najciekawsze, [enemy_commander_in_battle.GetSheHe] sam prowadzi klinowy atak [enemy_commander_in_battle.GetHerselfHimself]!\n\n"
+ agot_dragon_warfare.0017.rude:0 "Co za pieprzony idiota! [enemy_commander_in_battle.GetFirstNameNoTooltip] naprawdę musi mieć gówniane zwoje, jeśli myśli, że pozwolę mu na taki atak na otwartym terenie."
+ agot_dragon_warfare.0017.cruel:0 "Wściekam się na tę bezczelność... Każda cząstka mnie chce, by [enemy_commander_in_battle.GetHerHim] zapłacił i to słono. [dragon_in_battle.GetNameNoTooltip] z pewnością to umożliwi..."
+ agot_dragon_warfare.0017.vengeful:0 "Taki ruch to jawny brak szacunku dla potęgi [dragon_in_battle.GetNamePossessiveNoTooltip]... dla #bold mojej#! potęgi! Nie zniosę takiej zniewagi."
+ agot_dragon_warfare.0017.fallback:0 "Niewątpliwie odważny, ale nie mogę nie pomyśleć, że taka odległość od własnych wojsk jest lekkomyślna."
+ agot_dragon_warfare.0017.a:0 "Śmiały ruch jak na kogoś w zasięgu smoczego ogona..."
+ agot_dragon_warfare.0017.a.f:0 "Nurkujesz na [dragon_in_battle.GetNameNoTooltip] i zmiatasz [enemy_commander_in_battle.GetFirstNameNoTooltip] prosto z konia."
+ agot_dragon_warfare.0017.b.vengeful:0 "Mimo wszystko — jakie to ma znaczenie."
+ agot_dragon_warfare.0017.b:0 "Byłoby to niegrzeczne wobec takiej odwagi."
+ agot_dragon_warfare.0017.b.f:0 "Kontynuujesz obecny plan."
+
+ agot_dragon_warfare.0018.t:0 "$agot_dragon_warfare.0016.t$"
+ agot_dragon_warfare.0018.opening1:0 "Oglądam pole bitwy pod [battle_location.GetName], zakładam hełm i dosiadam konia; ograniczone pole widzenia pokazuje szykujące się linie wroga. Odbieram broń od giermka u mojego boku i ruszam na czoło moich ludzi. Choć wróg ma smoczego jeźdźca, jestem pewien, że dziś możemy jeszcze zwyciężyć. Zdecydowana szarża rozbije ich, smok czy nie."
+ agot_dragon_warfare.0018.opening2:0 "Patrząc na chaos pod [battle_location.GetName], nie mogę oprzeć się wrażeniu, że bitwa wymyka mi się z rąk. Może, jeśli nic innego, to moja odwaga może odwrócić losy starcia. Wołam giermka, wyciągam broń i wsiadam na rumaka. Wróg ma smoczego jeźdźca, ale ta bitwa rozstrzygnie się na ziemi."
+ agot_dragon_warfare.0018.opening3:0 "Jadę wzdłuż linii moich ludzi, próbując wymyślić płomienne przemówienie, które porwie tych żołnierzy do heroizmu. #italic Walczcie, a może zginiecie. Uciekajcie, a pożyjecie... przynajmniej przez chwilę.#! Nie, to nie to. Nie znajdując słów, wybieram co innego: poprowadzę szarżę, rozbijając szeregi wroga."
+ agot_dragon_warfare.0018.ending:0 "\n\nWznoszę [ROOT.Char.Custom('signature_weapon')] i daję rozkaz do ataku, sam prowadząc ludzi do przodu. Szybko skracamy dystans, morale są wysokie. Czuję ryk moich ludzi, dudnienie ziemi pod kopytami —"
+ agot_dragon_warfare.0018.a:0 "#bold TH-WOOP!#!"
+ agot_dragon_warfare.0018.a.f:0 "Zostałeś zmieciony z konia przez [dragon_in_battle.GetNameNoTooltip]. Twoje połamane ciało zostaje stratowane przez własnych szarżujących ludzi."
+
+ agot_dragon_warfare.0019.t:0 "$agot_dragon_warfare.0016.t$"
+ agot_dragon_warfare.0019.desc:0 "Nadzoruję przygotowania moich linii do nieuchronnej bitwy pod [battle_location.GetName]. Kierując umocnieniami, widzę jak [enemy_commander_in_battle.GetName] zakłada hełm po drugiej stronie. Czyżby [enemy_commander_in_battle.GetSheHe] miał szarżować na samym przodzie?\n\nTak! Jak zbiegły wóz widzę co się wydarzy, zanim do tego dojdzie. [dragonrider_in_battle.GetTitledFirstName] spada jak błyskawica na [dragon_in_battle.GetName], a z #bold TH-WOOP#! słyszanym na całym polu bitwy widzę, jak ciało [enemy_commander_in_battle.GetHerHis] zostaje zrzucone z konia, leci dziesiątki metrów i uderza o ziemię. Jeśli to za mało, [enemy_commander_in_battle.GetSheHe] zostaje jeszcze stratowany przez własną szarżę."
+ agot_dragon_warfare.0019.a:0 "Odważny głupiec."
+
+ # A Bolt from the Blue
+ agot_dragon_warfare.0020.t:0 "Pocisk z Błękitu"
+
+ agot_dragon_warfare.0021.t:0 "$agot_dragon_warfare.0020.t$"
+ agot_dragon_warfare.0021.desc:0 "Dowodzę naszymi siłami podczas bitwy pod [battle_location.GetName], gdy widzę jak [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetName] lecą w stronę linii wroga. Dobry znak! Mam właśnie dać rozkaz szarży, gdy widzę błysk światła odbijający się od lecącego metalu od strony wroga. Pocisk ze skorpiona! Lecący prosto na [dragonrider_in_battle.GetTitledFirstNameNoTooltip]!\n\nMogę tylko patrzeć, jak bełt trafia w smoka [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip], krew i płomienie tryskają z rany. Smok [dragon_in_battle.GetNameNoTooltip] ryczy z bólu i wściekłości, po czym oboje rozbijają się o ziemię w wielkiej chmurze kurzu."
+ agot_dragon_warfare.0021.a:0 "To nie wróży dobrze."
+ agot_dragon_warfare.0021.a.f:0 "Śmierć smoczego jeźdźca to wielka strata dla twojej strony."
+
+ agot_dragon_warfare.0022.t:0 "$agot_dragon_warfare.0020.t$"
+ agot_dragon_warfare.0022.desc:0 "Dowodzę naszymi siłami z wielką starannością, wiedząc, że plan musi zadziałać w odpowiednim miejscu i czasie. Mam właśnie dać rozkaz szarży, gdy widzę [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetNameNicknamed] lecących w naszą stronę. Nie ma czasu na planowanie — trzeba działać!\n\nMacham ręką, a bełt ze skorpiona leci prosto i celnie. Jak strzała mistrza łucznictwa trafia [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip] [dragon_in_battle.Custom('GetDragonColorFull')] smoka, krew i ogień tryskają z rany. Smok [dragon_in_battle.GetNameNoTooltip] ryczy z bólu i wściekłości, po czym oboje rozbijają się o ziemię w wielkiej chmurze kurzu."
+ agot_dragon_warfare.0022.a:0 "Fenomenalny strzał!"
+ agot_dragon_warfare.0022.a.f:0 "Śmierć wrogiego smoczego jeźdźca to wielka korzyść dla twojej strony."
+
+ agot_dragon_warfare.0023.t:0 "$agot_dragon_warfare.0020.t$"
+ agot_dragon_warfare.0023.desc:0 "Wiatr pędzi po mojej twarzy, czuję moc [dragon_in_battle.GetName] pod sobą. Lecimy w stronę linii wroga, widzę jak dowódca kieruje ich siłami. Już mam zalać ich ogniem, gdy widzę błysk światła ze strony wroga. Bełt ze skorpiona! Leci prosto na nas!\n\nMogę tylko patrzeć, jak bełt trafia w [dragon_in_battle.GetNameNoTooltip], krew i ogień tryskają z rany. [dragon_in_battle.GetFirstNameNoTooltip] ryczy z bólu i wściekłości, wypluwając potok płomieni, gdy oboje krzyczymy w przerażeniu na ostatnie chwile życia..."
+ agot_dragon_warfare.0023.a:0 "[ROOT.Char.Custom('Scream')]"
+ agot_dragon_warfare.0023.a.f:0 "Twoje ciało zostaje później znalezione wśród szczątków [dragon_in_battle.GetNameNoTooltip]."
+
+ agot_dragon_warfare.0024.t:0 "$agot_dragon_warfare.0020.t$"
+ agot_dragon_warfare.0024.desc:0 "Czekam gotowy do bitwy, otoczony przez wasali. Stojąc w szeregu z moimi ludźmi, obserwuję jak [dragonrider_in_battle.GetTitledFirstName] na grzbiecie [dragon_in_battle.GetName] leci ku wrogowi, adrenalina zaczyna rosnąć. Z taką potęgą po naszej stronie musimy zwyciężyć!\n\nNa moich oczach jednak nagle tryska krew i płomienie z szyi [dragon_in_battle.GetFirstNamePossessiveNoTooltip], ryk niesie się przez pole bitwy! Przez zmrużone oczy widzę źródło — bełt ze skorpiona! Smok i jeździec razem rozbijają się o ziemię w wielkiej chmurze kurzu i nie wstają."
+ agot_dragon_warfare.0024.a:0 "Wielka strata dla naszej strony."
+ agot_dragon_warfare.0024.a.f:0 "Widok upadku tak wielkiej siły napawa cię niepokojem przed dalszą walką."
+
+ agot_dragon_warfare.0025.t:0 "$agot_dragon_warfare.0020.t$"
+ agot_dragon_warfare.0025.desc:0 "Obawiam się następnej fazy bitwy, wiedząc, że cokolwiek zrobimy na ziemi, prawdziwy pojedynek rozstrzygnie się przez [dragonrider_in_battle.GetTitledFirstName] i jego [dragonrider_in_battle.GetHerHis] [dragon_in_battle.Custom('GetDragonColorFull')] bestię, [dragon_in_battle.GetNameNicknamed]. Pot spływa mi z czoła, obserwuję jak lecą w naszą stronę, gotowi zalać nas, i mnie, smoczym ogniem!\n\nNagle słyszę #emp *tha-woop*#! gdy srebrzysty pocisk przecina niebo, trafia smoka [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip], krew i płomienie tryskają z rany. Smok [dragon_in_battle.GetNameNoTooltip] ryczy z bólu i wściekłości, po czym oboje rozbijają się tuż przed naszymi liniami!"
+ agot_dragon_warfare.0025.a:0 "Ha! Masz za swoje, wielka jaszczurko!"
+ agot_dragon_warfare.0025.a.f:0 "Wykrzykujesz zwycięstwo, śmierć wrogiego smoczego jeźdźca to wielka korzyść dla twojej strony."
+
+ # The Great Deluge
+ agot_dragon_warfare.0040.t:0 "Wielki Potop"
+
+ agot_dragon_warfare.0041.t:0 "$agot_dragon_warfare.0040.t$"
+ agot_dragon_warfare.0041.desc:0 "Dowodzę naszymi siłami podczas bitwy pod [battle_location.GetName], gdy widzę [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetNameNicknamed] lecących ku linii wroga. Dobry znak! Mam już dać rozkaz do wspólnej szarży, gdy na polu bitwy pojawia się wirująca kolumna wody, wznosząca się wysoko.\n\n[dragon_in_battle.GetNameNoTooltip] ryczy w buncie, jego skrzydła biją wściekle, gdy [dragon_in_battle.Custom('GetDragonSheHe')] próbuje uciec, a [dragonrider_in_battle.GetTitledFirstNameNoTooltip] walczy o utrzymanie się na grzbiecie [dragon_in_battle.Custom('GetDragonColorFull')] bestii, ale filar wody szybko pochłania zarówno smoka jak i jeźdźca. [dragon_in_battle.GetNameNoTooltip] szarpie się, jego ciało więdnie w duszącym uścisku odmętów, ale nieubłagana fala wciąga go pod wodę. Powoli potężna sylwetka smoka opada, pochłonięta przez wodę, a jego wściekłe ryki cichną pod powierzchnią.\n\nGdy woda ustępuje, [dragon_in_battle.GetNameNoTooltip] leży martwy z połamanym ciałem [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip] obok [dragon_in_battle.Custom('GetDragonHerHim')]."
+ agot_dragon_warfare.0041.a:0 "Niefortunnie!"
+ agot_dragon_warfare.0041.a.f:0 "Śmierć smoczego jeźdźca to wielka strata dla twojej strony."
+
+ agot_dragon_warfare.0042.t:0 "$agot_dragon_warfare.0040.t$"
+ agot_dragon_warfare.0042.desc:0 "Kieruję naszymi siłami z najwyższą starannością, wiedząc, że ten plan powiedzie się tylko, jeśli znajdziemy się w odpowiednim miejscu i czasie. Mam już dać rozkaz szarży, gdy widzę [dragonrider_in_battle.GetTitledFirstName] i [dragon_in_battle.GetNameNicknamed] lecących w naszą stronę. Czas działać!\n\nMacham ręką, a czarodzieje wody rozpoczynają rytuał — na polu bitwy pojawia się spiralna kolumna wody, górując nad całą okolicą.\n\n[dragon_in_battle.GetNameNoTooltip] ryczy wyzywająco, [dragon_in_battle.Custom('GetDragonHerHis')] skrzydła biją zawzięcie, gdy [dragon_in_battle.Custom('GetDragonSheHe')] próbuje uciec, a [dragonrider_in_battle.GetTitledFirstNameNoTooltip] stara się utrzymać kontrolę nad [dragon_in_battle.Custom('GetDragonColorFull')] bestią, lecz wodny filar błyskawicznie pochłania smoka i jeźdźca. [dragon_in_battle.GetNameNoTooltip] szarpie się, [dragon_in_battle.Custom('GetDragonHerHis')] ciało wykręca się w topiącym uścisku otchłani, ale niepowstrzymana fala ciągnie [dragon_in_battle.Custom('GetDragonHerHim')] w dół. Powoli potężna sylwetka smoka tonie, pochłonięta przez wodę, a jego wściekłe ryki cichną pod powierzchnią.\n\nWoda wreszcie opada, ukazując [dragon_in_battle.GetNameNoTooltip] leżącego bez życia z połamanym ciałem [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip] obok [dragon_in_battle.Custom('GetDragonHerHim')]."
+ agot_dragon_warfare.0042.a:0 "Fenomenalny strzał!"
+ agot_dragon_warfare.0042.a.f:0 "Śmierć wrogiego smoczego jeźdźca to wielka korzyść dla twojej strony."
+
+ agot_dragon_warfare.0043.t:0 "$agot_dragon_warfare.0040.t$"
+ agot_dragon_warfare.0043.desc:0 "Wiatr uderza mi w twarz, gdy czuję moc [dragon_in_battle.GetNameNicknamed] pod sobą. Lecimy w stronę wrogich linii, widzę jak dowódca ustawia swoje oddziały. Już mam zalać ich ogniem, gdy nagle na niebie pojawia się spiralny filar wody.\n\n[dragon_in_battle.GetNameNoTooltip] płoszy się i próbuje uciekać, lecz wkrótce jesteśmy całkowicie otoczeni przez wodę. Próbuję wstrzymać oddech, ale nieubłagana siła wody nie ustaje i zaczyna mi się kręcić w głowie..."
+ agot_dragon_warfare.0043.a:0 "Jak tu spokojnie..."
+ agot_dragon_warfare.0043.a.f:0 "Twoje ciało zostaje później odnalezione w szczątkach [dragon_in_battle.GetNameNoTooltip]."
+
+ agot_dragon_warfare.0044.t:0 "$agot_dragon_warfare.0040.t$"
+ agot_dragon_warfare.0044.desc:0 "Stoję gotów do bitwy, otoczony przez wasali. W szeregach moich ludzi patrzę, jak [dragonrider_in_battle.GetTitledFirstName] na grzbiecie [dragon_in_battle.GetName] leci ku wrogowi, adrenalina zaczyna rosnąć. Z taką siłą po naszej stronie musimy zwyciężyć!\n\nNa moich oczach jednak pojawia się spiralna kolumna wody, wznosząc się nad polem bitwy.\n\n[dragon_in_battle.GetNameNoTooltip] ryczy wyzywająco, [dragon_in_battle.Custom('GetDragonHerHis')] skrzydła biją zawzięcie, gdy [dragon_in_battle.Custom('GetDragonSheHe')] próbuje uciec, a [dragonrider_in_battle.GetTitledFirstNameNoTooltip] stara się utrzymać kontrolę nad [dragon_in_battle.Custom('GetDragonColorFull')] bestią, lecz wodny filar błyskawicznie pochłania smoka i jeźdźca. [dragon_in_battle.GetNameNoTooltip] szarpie się, [dragon_in_battle.Custom('GetDragonHerHis')] ciało wykręca się w topiącym uścisku otchłani, ale niepowstrzymana fala ciągnie [dragon_in_battle.Custom('GetDragonHerHim')] w dół. Powoli potężna sylwetka smoka tonie, pochłonięta przez wodę, a jego wściekłe ryki cichną pod powierzchnią.\n\nWoda wreszcie opada, ukazując [dragon_in_battle.GetNameNoTooltip] leżącego bez życia z połamanym ciałem [dragonrider_in_battle.GetTitledFirstNamePossessiveNoTooltip] obok [dragon_in_battle.Custom('GetDragonHerHim')]."
+ agot_dragon_warfare.0044.a:0 "Wielka strata dla naszej strony."
+ agot_dragon_warfare.0044.a.f:0 "Widok upadku tak wielkiej siły napawa cię niepokojem przed dalszą walką."
+
+ agot_dragon_warfare.0045.t:0 "$agot_dragon_warfare.0040.t$"
+ agot_dragon_warfare.0045.desc:0 "Obawiam się następnej fazy bitwy, wiedząc, że cokolwiek tu zrobimy, prawdziwy pojedynek rozstrzygnie się przez [dragonrider_in_battle.GetTitledFirstName] i jego [dragonrider_in_battle.GetHerHis] [dragon_in_battle.Custom('GetDragonColorFull')] bestię, [dragon_in_battle.GetNameNicknamed]. Pot spływa mi z czoła, obserwuję jak lecą w naszą stronę, gotowi zalać nas i mnie smoczym ogniem!\n\nNagle widzę spiralną kolumnę wody, która pojawia się nad polem bitwy.\n\n[dragon_in_battle.GetName] ryczy wyzywająco, [dragon_in_battle.Custom('GetDragonHerHis')] skrzydła biją zawzięcie, gdy [dragon_in_battle.Custom('GetDragonSheHe')] próbuje uciec, a [dragonrider_in_battle.GetTitledFirstName] stara się utrzymać kontrolę nad [dragon_in_battle.Custom('GetDragonColorFull')] bestią, lecz wodny filar błyskawicznie pochłania smoka i jeźdźca. [dragon_in_battle.GetName] szarpie się, [dragon_in_battle.Custom('GetDragonHerHis')] ciało wykręca się w topiącym uścisku otchłani, ale niepowstrzymana fala ciągnie [dragon_in_battle.Custom('GetDragonHerHim')] w dół. Powoli potężna sylwetka smoka tonie, pochłonięta przez wodę, a jego wściekłe ryki cichną pod powierzchnią.\n\nWoda wreszcie opada, ukazując [dragon_in_battle.GetName] leżącego bez życia z połamanym ciałem [dragonrider_in_battle.GetTitledFirstNamePossessive] obok [dragon_in_battle.Custom('GetDragonHerHim')]."
+ agot_dragon_warfare.0045.a:0 "Ha! Masz za swoje, wielka jaszczurko!"
+ agot_dragon_warfare.0045.a.f:0 "Wykrzykujesz zwycięstwo, śmierć wrogiego smoczego jeźdźca to wielka korzyść dla twojej strony."
+
+
+ agot_dragon_warfare.0026.battle_title:0 "Interwencja Smocza:"
+ agot_dragon_warfare.0026.t:0 "$agot_dragon_warfare.0026.battle_title$ Skrzydlaty Wybawca"
+ agot_dragon_warfare.0026.opening:0 "Jedno słowo. Jedno słowo rozbrzmiewa nad polem bitwy niczym fala pływowa. Jedno słowo, które wzbudza strach w sercach nawet najodważniejszych wojowników. „SMOK!” Bitwa zamiera, wszystkie oczy kierują się ku niebu, powietrze aż gęste od lęku.\n\nWyrywając się z szoku, zaczynam się zastanawiać, czy to w ogóle możliwe... Lecz moje wątpliwości zamierają w gardle, gdy potężny ryk [dragon_in_battle.GetNameNicknamed] rozdziera mroźną ciszę na polu bitwy. Rozpętuje się piekło — przez chwilę nawet rozważam odwrót."
+ agot_dragon_warfare.0026.outro:0 "Jednak los chce, by [dragon_in_battle.Custom('GetDragonColorFull')] bestia wolała palić wrogie siły, niż nasze własne."
+ agot_dragon_warfare.0026.a:0 "To nasza szansa, naprzód!"
+
+ agot_dragon_warfare.0027.t:0 "$agot_dragon_warfare.0026.battle_title$ Piekielny Ogień"
+ agot_dragon_warfare.0027.opening1:0 "Pośród szczęku mieczy i tarcz rozlega się niespodziewany dźwięk: rozkołysany #bold ryk#! z niebios! Dziki smok, [dragon_in_battle.GetNameNicknamed], wydaje się zwabiony zapachem krwi — i [dragon_in_battle.Custom('GetDragonSheHe')] szybko zbliża się do pola bitwy."
+ agot_dragon_warfare.0027.opening2:0 "Zapach krwi i opróżnionych wnętrzności unosi się w powietrzu, gdy dwie armie zderzają się ze sobą. #italic Nikt o tym zapachu nie wspomina#! — myślę, gdy nagle czuję siarkową woń... Spoglądam w niebo i dostrzegam [dragon_in_battle.Custom('GetDragonHerHim')]: dzikiego smoka [dragon_in_battle.GetNameNicknamed], który wlatuje na pole bitwy, zionąc ogniem."
+ agot_dragon_warfare.0027.opening3:0 "Wyciągam mój [ROOT.Char.Custom('signature_weapon')] z twarzy martwego już wroga, którego ciało osuwa się do kałuży krwi. #italic Nikt mi się nie przeciwstawi#! — myślę, patrząc na chaos wokół. W jednej chwili pewność siebie mnie opuszcza: przepełniony wściekłością ryk przeszywa powietrze, gdy dziki smok [dragon_in_battle.GetNameNicknamed] rzuca się w wir bitwy."
+ agot_dragon_warfare.0027.mid:0 "\n\n[dragon_in_battle.Custom('GetDragonColorFull')] monstrum [dragon_in_battle.GetNameNoTooltip] wypuszcza strumień smoczego ognia wprost na #bold moje#! oddziały, natychmiast spalając tych na przedzie. Dzika bestia obraca się w moją stronę i "
+ agot_dragon_warfare.0027.a:0 "[ROOT.Char.Custom('Scream')]"
+
+ agot_dragon_warfare.0028.t:0 "$agot_dragon_warfare.0026.battle_title$ Skrzydlaty Demon"
+ agot_dragon_warfare.0028.opening1:0 "Jako dowódca moich wojsk mam lepszy punkt widzenia i widzę grozę, zanim dostrzegą ją inni. Ku zaskoczeniu wszystkich, na pole bitwy przylatuje [dragon_in_battle.Custom('GetDragonColorFull')] dziki smok [dragon_in_battle.GetNameNicknamed], najpewniej zwabiony zapachem krwi..."
+ agot_dragon_warfare.0028.opening2:0 "Dowodzenie armią nigdy nie jest łatwe... Ta bitwa wydawała się być łatwiejsza niż inne — aż powietrze rozdarł przeszywający ryk. Patrzę z niepokojem, jak [dragon_in_battle.Custom('GetDragonColorFull')] dziki smok [dragon_in_battle.GetNameNicknamed] wykonuje przelot nad polem bitwy."
+ agot_dragon_warfare.0028.opening3:0 "Bitwa toczy się jak każda inna: dysonansowy szczęk stali gra melodię śmierci. Z dystansu widzę, zanim zmieni się brzmienie... Dziki smok [dragon_in_battle.GetNameNicknamed] pojawia się niespodziewanie, wyrzucając w niebo języki ognia."
+ agot_dragon_warfare.0028.outro:0 "\n\n[dragon_in_battle.Custom('GetDragonSheHe')|U] ku zaskoczeniu wszystkich sprzymierza się z przeciwnikiem, siejąc spustoszenie jedynie wśród #bold moich#! wojsk. Z tej odległości nie mogę zrobić nic, poza patrzeniem, jak moi żołnierze obracają się w popiół na moich oczach."
+ agot_dragon_warfare.0028.a:0 "Przeklęty smok!"
+
+ agot_dragon_warfare.0029.t:0 "$agot_dragon_warfare.0026.battle_title$ Palący Sąd"
+ agot_dragon_warfare.0029.outro:0 "[dragon_in_battle.Custom('GetDragonColorFull')] potwór zabija wszystkich bez rozróżnienia."
+ agot_dragon_warfare.0029.a:0 "#bold UCIEKAJ!#!"
+ agot_dragon_warfare.0029.a.tt:0 "#N [dragon_in_battle.GetName] wyrządził wielkie szkody wszystkim stronom tej bitwy!#!\n\n#weak Aż żal na to patrzeć.#!"
+
+ agot_dragon_warfare.0030.t:0 "$agot_dragon_warfare.0026.battle_title$ Piekielny Ogień"
+ agot_dragon_warfare.0030.mid:0 "\n\n[dragon_in_battle.Custom('GetDragonColorFull')] monstrum [dragon_in_battle.GetNameNoTooltip] dołączył do bitwy i teraz sieje spustoszenie na wszystkich frontach. [dragon_in_battle.Custom('GetDragonSheHe')|U] ląduje tuż przede mną i "
+ agot_dragon_warfare.0030.a:0 "[ROOT.Char.Custom('Scream')]"
+ agot_dragon_warfare.0030.a.tt:0 "#N [dragon_in_battle.GetName] wyrządził wielkie szkody wszystkim stronom tej bitwy!#!\n\n#weak No cóż, bywa.#!"
+
+ agot_dragon_warfare.0031.t:0 "$agot_dragon_warfare.0026.battle_title$ Palący Sąd"
+ agot_dragon_warfare.0031.outro:0 "\n\n[dragon_in_battle.Custom('GetDragonSheHe')|U] szaleje bez opamiętania, ziejąc ogniem na moje oddziały i wrogów po równo. Z tej odległości nie mogę zrobić nic, poza patrzeniem, jak moi żołnierze obracają się w popiół na moich oczach."
+ agot_dragon_warfare.0031.a:0 "To jest piekielny koszmar!"
+ agot_dragon_warfare.0031.a.tt:0 "#N [dragon_in_battle.GetName] wyrządził wielkie szkody wszystkim stronom tej bitwy!#!\n\n#weak Cholera, trzeba było być ostrożniejszym.#!"
+
+ agot_dragon_warfare.0034.t:0 "$agot_dragon_warfare.0026.battle_title$ Sprawiedliwość"
+ agot_dragon_warfare.0034.intro:0 "Bitwa skończona, przegraliśmy. Uciekając z pola walki, natykam się na makabryczny widok. Dziki smok [dragon_in_battle.GetNameNicknamed] wyżera się bezwstydnie na ciałach poległych. Wewnątrz czuję obrzydzenie i wściekłość... Wściekłość za wszystkie życia stracone przez tę przeklętą bestię."
+ agot_dragon_warfare.0034.one_knight:0 "Wściekłość za [knight_one.GetName]."
+ agot_dragon_warfare.0034.two_knights:0 "Wściekłość za [knight_one.GetName] i [knight_two.GetName]."
+ agot_dragon_warfare.0034.three_knights:0 "Wściekłość za [knight_one.GetName], [knight_two.GetName] i [knight_three.GetName]."
+ agot_dragon_warfare.0034.craven:0 "Ale mimo gniewu, uciekam w przerażeniu."
+ agot_dragon_warfare.0034.a:0 "Zapłacisz za to, bestio!"
+ agot_dragon_warfare.0034.a.tt:0 "Spróbujesz zabić dzikiego smoka. #warning To skrajnie niebezpieczne.#!"
+ agot_dragon_warfare.0034.b:0 "Muszę się stąd wydostać."
+ agot_dragon_warfare.0034.b.craven:0 "Masz nadzieję, że [dragon_in_battle.Custom('GetDragonSheHe')] cię nie zauważył!"
+
+ # Dragon Kills Loc
+ dragon_ate_enemy_enemy:1 "Nasz $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] został pożarty przez [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+
+ dragon_ate_enemy_friendly:1 "Nasz [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] pożarł [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+
+ dragon_killed_enemy_with_dragon_fire_enemy:1 "Nasz $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] został spopielony przez ognisty oddech [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+
+ dragon_killed_enemy_with_dragon_fire_friendly:1 "Nasz [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] spopielił [TARGET_CHARACTER.GetShortUINameNoTooltip] płomienistym oddechem swojego smoka!"
+
+ killed_by_dragon_flame_knight_friendly:0 "Potężny ryk naszego [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] wstrząsnął ziemią, gdy z jego paszczy wytrysnął ogień, redukując [TARGET_CHARACTER.GetShortUINameNoTooltip] do popiołu w mgnieniu oka."
+
+ killed_by_dragon_flame_knight_enemy:0 "Potężny ryk wrogiego [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] wstrząsnął ziemią, gdy z jego paszczy wytrysnął ogień, redukując naszego rycerza [TARGET_CHARACTER.GetShortUINameNoTooltip] do popiołu w mgnieniu oka."
+
+ killed_by_dragon_tail_knight_friendly:0 "W błyskawicznym, śmiertelnym ruchu, nasz [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] machnął ogonem, chwytając [TARGET_CHARACTER.GetShortUINameNoTooltip] w trakcie szarży i odrzucając go niczym dziecięcą zabawkę."
+
+ killed_by_dragon_tail_knight_enemy:0 "W błyskawicznym, śmiertelnym ruchu, [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] machnął ogonem, chwytając dzielnego [TARGET_CHARACTER.GetShortUINameNoTooltip] w trakcie szarży i odrzucając go niczym dziecięcą zabawkę."
+
+ killed_by_dragon_jaws_knight_friendly:0 "[CHARACTER.GetShortUINameNoTooltip] nagle opadł z nieba, jego gigantyczne szczęki zacisnęły się wokół [TARGET_CHARACTER.GetShortUINameNoTooltip], unosząc [TARGET_CHARACTER.GetHerHim] z wrzaskiem ku niebu, po czym rzucił [TARGET_CHARACTER.GetHerHim] w otchłań."
+
+ killed_by_dragon_jaws_knight_enemy:0 "[CHARACTER.GetShortUINameNoTooltip] nagle opadł z nieba, jego gigantyczne szczęki zacisnęły się wokół [TARGET_CHARACTER.GetShortUINameNoTooltip], unosząc [TARGET_CHARACTER.GetHerHim] z wrzaskiem ku niebu, po czym rzucił [TARGET_CHARACTER.GetHerHim] w otchłań."
+
+ killed_by_dragon_breath_knight_friendly:0 "Nagły podmuch siarkowego oddechu był jedynym ostrzeżeniem dla [TARGET_CHARACTER.GetShortUINameNoTooltip], zanim płomień pochłonął [TARGET_CHARACTER.GetHerHim], nie pozostawiając po sobie nic poza zwęglonym cieniem."
+
+ killed_by_dragon_breath_knight_enemy:0 "Nagły podmuch siarkowego oddechu był jedynym ostrzeżeniem dla [TARGET_CHARACTER.GetShortUINameNoTooltip], zanim płomień pochłonął [TARGET_CHARACTER.GetHerHim], nie pozostawiając po sobie nic poza zwęglonym cieniem."
+
+ killed_by_dragon_claws_knight_friendly:0 "Szpony [CHARACTER.GetShortUINameNoTooltip], ostre jak najczystsza valyriańska stal, rozdarły zbroję [TARGET_CHARACTER.GetShortUINameNoTooltip] niczym pergamin, pozostawiając [TARGET_CHARACTER.GetHerHim] śmiertelnie rannym na polu bitwy."
+
+ killed_by_dragon_claws_knight_enemy:0 "Szpony [CHARACTER.GetShortUINameNoTooltip], ostre jak najczystsza valyriańska stal, rozdarły zbroję [TARGET_CHARACTER.GetShortUINameNoTooltip] niczym pergamin, pozostawiając [TARGET_CHARACTER.GetHerHim] śmiertelnie rannym na polu bitwy."
+
+ killed_by_dragon_crushed_knight_friendly:0 "Ziemia zadrżała, gdy [CHARACTER.GetShortUINameNoTooltip] wylądował, jego olbrzymi ciężar zmiażdżył [TARGET_CHARACTER.GetShortUINameNoTooltip], gasząc jego życie w jednej chwili."
+
+ killed_by_dragon_crushed_knight_enemy:0 "Ziemia zadrżała, gdy [CHARACTER.GetShortUINameNoTooltip] wylądował, jego olbrzymi ciężar zmiażdżył [TARGET_CHARACTER.GetShortUINameNoTooltip], gasząc jego życie w jednej chwili."
+
+ killed_by_dragon_horns_knight_friendly:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] nie miał szans na reakcję, gdy [CHARACTER.GetShortUINameNoTooltip] przebił się przez szeregi, jego śmiercionośne rogi przeszyły zbroję [TARGET_CHARACTER.GetHerHis] i nadziały [TARGET_CHARACTER.GetHerHim]."
+
+ killed_by_dragon_horns_knight_enemy:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] nie miał szans na reakcję, gdy [CHARACTER.GetShortUINameNoTooltip] przebił się przez szeregi, jego śmiercionośne rogi przeszyły zbroję [TARGET_CHARACTER.GetHerHis] i nadziały [TARGET_CHARACTER.GetHerHim]."
+
+ killed_by_dragon_maw_knight_friendly:0 "Oczy [CHARACTER.GetShortUINamePossessiveNoTooltip] zapłonęły śmiertelną determinacją, gdy [CHARACTER.Custom('GetDragonSheHe')] wybrał sobie [TARGET_CHARACTER.GetShortUINameNoTooltip], jego szczęki zamknęły się wokół ofiary, uciszając bojowy okrzyk na zawsze."
+
+ killed_by_dragon_maw_knight_enemy:0 "Oczy [CHARACTER.GetShortUINamePossessiveNoTooltip] zapłonęły śmiertelną determinacją, gdy [CHARACTER.Custom('GetDragonSheHe')] wybrał sobie [TARGET_CHARACTER.GetShortUINameNoTooltip], jego szczęki zamknęły się wokół ofiary, uciszając bojowy okrzyk na zawsze."
+
+ killed_by_dragon_wings_knight_friendly:0 "Potężny zamach skrzydłami [CHARACTER.Custom('GetDragonHerHis')], [CHARACTER.GetShortUINameNoTooltip] wywołał podmuch tak silny, że zdmuchnął [random_knight.GetFirstName] z nóg, rzucając go w paszczę śmierci."
+
+ killed_by_dragon_wings_knight_enemy:0 "Potężny zamach skrzydłami [CHARACTER.Custom('GetDragonHerHis')], [CHARACTER.GetShortUINameNoTooltip] wywołał podmuch tak silny, że zdmuchnął [random_knight.GetFirstName] z nóg, rzucając go w paszczę śmierci."
+
+ killed_by_dragon_fire_jet_knight_friendly:0 "[CHARACTER.GetShortUINameNoTooltip], szybkim i brutalnym ruchem głowy, posłał strumień ognia ku [random_knight.GetFirstName], a jego krzyki utonęły w płomieniach."
+
+ killed_by_dragon_fire_jet_knight_enemy:0 "[CHARACTER.GetShortUINameNoTooltip], szybkim i brutalnym ruchem głowy, posłał strumień ognia ku [random_knight.GetFirstName], a jego krzyki utonęły w płomieniach."
+
+ wounded_by_dragon_fire_friendly:0 "Nasz smok [CHARACTER.GetShortUINameNoTooltip] poważnie poparzył [TARGET_CHARACTER.GetShortUINameNoTooltip] smoczym ogniem."
+
+ wounded_by_dragon_fire_enemy:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] został ciężko poparzony przez [CHARACTER.GetShortUINameNoTooltip] [CHARACTER.GetShortUINameNoTooltip]."
+
+ agot_wild_dragon_fire_county_title:0 "[battle_location.GetName] w Smoczym Ogniu"
+ agot_wild_dragon_fire_county_desc:0 "Dziki smok [dragon_in_battle.GetName] sprowadził ogień na [battle_location.GetNameNoTooltip], biorąc udział w trwającej bitwie."

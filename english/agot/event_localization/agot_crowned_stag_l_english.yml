@@ -1,0 +1,14 @@
+﻿l_english:
+ agot_crowned_stag.0001.t:0 "Ukoronowany Jeleń"
+ agot_crowned_stag.0001.desc:0 "Po krwawej walce i utracie ukochanej Lyanny, zwyciężyliśmy tyranię Szalonego Króla. Ostatni Targaryenowie i ich zdradziecka zgraja zostali wygnani za Wąskie Morze. Teraz stoję jako prawowity król Westeros.\n\nNiech żyje Robert, Pierwszy Tego Imienia, Król Andalów, Rhoynarów i Pierwszych Ludzi, Władca Siedmiu Królestw i Obrońca Królestwa!"
+ agot_crowned_stag.0001.a:0 "Gniew nasz!"
+
+ agot_crowned_stag.0002.t:0 "Królewskie obowiązki: Pragnienia"
+ agot_crowned_stag.0002.desc:0 "Bycie królem to ciężkie zadanie. Spotkania z petentami, wielogodzinne narady, słuchanie tych samych paplających głosów mówiących o sprawach bez znaczenia. Prawo do wypasu owiec tu, szlaki handlowe z Myr tam. Nie ma w tym chwały, nie ma ekscytacji. Krew już nie buzuje jak kiedyś — na #italic bogów#!, jakże wtedy pulsowała, gdy dzierżyłem swój młot. Jak bardzo pragnę znów poczuć, że żyję.\n\nSkoro nie ma już bitew, może powinienem poszukać innego, bardziej zmysłowego sposobu na ulgę. Słyszałem, że Ulica Jedwabiu ma do zaoferowania właśnie to..."
+ agot_crowned_stag.0002.a:0 "Na #bold bogów#!, potrzebuję kobiety!"
+ agot_crowned_stag.0002.b:0 "Nie zniżę się tak nisko."
+
+ agot_crowned_stag.0003.t:0 "Królewskie obowiązki: Ulga"
+ agot_crowned_stag.0003.desc:0 "Jest już po zmierzchu, gdy wchodzisz do burdelu, lecz nawet przy słabym świetle widać, że kobiety są dość urodziwe i uprzejme. Wkrótce jedna z nich podchodzi do ciebie z łagodnym uśmiechem."\n\n"Witaj, mój panie" — mówi. "Jestem [prostitute_character.GetFirstName]. Jak mogę ci służyć?"\n\nW ciągu godziny jesteś już pijany, lekki szum w brzuchu sprawia, że wspinaczka po schodach przychodzi bez większego zastanowienia. Dokładnie tego potrzebowałeś. To może nie jest #italic zupełnie#! jak bitwa, ale wystarczy. Wystarczy na teraz..."
+ agot_crowned_stag.0003.a:0 "W końcu trochę ulgi..."
+ agot_crowned_stag.0003.a.tt:0 "Kładziesz się z [prostitute_character.GetFirstName]"

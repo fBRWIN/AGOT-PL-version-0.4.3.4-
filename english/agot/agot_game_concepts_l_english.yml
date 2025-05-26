@@ -1,0 +1,301 @@
+﻿ game_concept_personal_steward:0 "Osobisty Zarządca"
+ game_concept_personal_steward_desc:0 "$game_concept_personal_steward$ to [councillor|E], który troszczy się o potrzeby Lorda Komendanta [realm|E]."
+
+ ## KNIGHTING
+ game_concept_agot_knight:0 "Rycerz"
+ game_concept_agot_knights:0 "Rycerze"
+ game_concept_agot_knightspossessive:0 "Rycerza"
+ game_concept_agot_knight_desc:0 "Rycerz to wojownik przestrzegający kodeksu rycerskiego.\n\nChociaż tradycyjnie występuje w Siedmiu Królestwach Westeros, każdy może zostać rycerzem, niezależnie od kultury czy religii.\n\nRycerz może przyjąć do nauki jednego [squire|E] i szkolić go, aby pewnego dnia został rycerzem. Rycerz może też udzielić pasowania tym, którzy się do tego kwalifikują.\n\nOsoba może zostać rycerzem po ukończeniu 16 lat, jeśli nie ma #N dyskwalifikujących cech#!. Postać może zostać rycerzem już od 12 lat, jeśli ma wyjątkowo wysokie [prowess|E]."
+
+ game_concept_squire:0 "Giermek"
+ game_concept_squires:0 "Giermkowie"
+ game_concept_squirepossessive:0 "Giermka"
+ game_concept_squire_desc:0 "Giermek to [agot_knight|E] w trakcie nauki. Służy jako asystent rycerza, pomagając mu we wszystkich obowiązkach.\n\nPostać może zostać giermkiem od 9 do 21 roku życia. Podczas służby doświadczy specjalnych wydarzeń, które mogą #P podnosić#! lub #N obniżać#! jej doświadczenie. Gdy będzie wystarczająco stara i doświadczona, może zostać pasowana na rycerza.\n\nDroga giermka do rycerskości zależy od cech i osobowości — niektóre postaci poradzą sobie z tym lepiej niż inne!"
+
+ ## Stabilność Dynastii
+ game_concept_agot_dynastic_stability:0 "Stabilność Dynastii"
+ game_concept_agot_dynastic_stability_desc:0 "Stabilność dynastii to mechanika pozwalająca [houses|E] przetrwać w świecie patrylinealnego [successions|E].\n\nJeśli postać z mniejszego rodu dziedziczy [title|E] większego rodu, z którym ma więzy przodków, przyjmuje nazwisko tego większego rodu."
+
+ ## Legitymny Ród
+ game_concept_agot_legitimate_house:0 "Legitymny Ród"
+ game_concept_agot_legitimate_house_desc:0 "Westeros to starożytna ziemia, której władcy czerpią legitymację nie tylko z aktualnej potęgi, lecz także z dawnych linii krwi, które się przypisują. $game_concept_agot_legitimate_house$ to [house|E] uważany za prawowitego władcę [title|E]. Członkowie $game_concept_agot_legitimate_house$ danego tytułu mają prawo dziedziczenia, łatwiej zarządzają królestwem i mają dodatkowe poparcie w przypadku utraty tytułu.\n\nJeśli tytuł jest w posiadaniu rodu, który nie jest $game_concept_agot_legitimate_house$, ten ród zaczyna zdobywać postępy w zostaniu $game_concept_agot_legitimate_house$ tego tytułu. Postępy są widoczne w historii tytułu i zależą od wielu czynników. Po utracie tytułu, postępy te znikają."
+
+ game_concept_agot_legitimate_house_the_north_remembers:0 "Północ pamięta"
+ game_concept_agot_legitimate_house_the_north_remembers_desc:0 "Północ to uparta kraina z upartymi ludźmi. Nie zapomina łatwo swoich władców i wolniej zaakceptuje nowy [agot_legitimate_house|E] niż inne krainy."
+ game_concept_agot_legitimate_house_iron_price:0 "Żelazna Cena"
+ game_concept_agot_legitimate_house_iron_price_desc:0 "Żelazni wierzą, że ten, kto ma siłę, by zdobyć koronę, zasługuje na jej noszenie. Mniej przejmują się starożytnymi liniami krwi z lądu i szybciej zaakceptują nowy [agot_legitimate_house|E]."
+
+ ## Gwardia Królewska
+ game_concept_lord_commander:0 "Lord Komendant Gwardii Królewskiej"
+ game_concept_lord_commander_desc:0 "$game_concept_lord_commander$ to [councillor|E] odpowiedzialny za osobistą ochronę rodziny królewskiej, dowodzący elitarną grupą [knights|E], którzy chronią ich życiem."
+
+ game_concept_kingsguard:0 "Gwardia Królewska"
+ game_concept_kingsguardpossessive:0 "Gwardii Królewskiej"
+ game_concept_kingsguard_desc:0 "$game_concept_kingsguard$ to grupa najwybitniejszych wojowników królestwa, przysięgłych służbie swemu panu i gotowych oddać życie za niego."
+
+ game_concept_maester:0 "Maester"
+ game_concept_maesters:0 "Maestrzy"
+ game_concept_maester_desc:0 "Rycerze umysłu Westeros; Maestrzy Cytadeli są wykształceni na najnowszym poziomie nauki i ciągle ją poszerzają. Na szyi noszą łańcuchy symbolizujące ich trud i obowiązki, które ich pochylają, gdy zostają przydzieleni do dworów Siedmiu Królestw jako uzdrowiciele, nauczyciele i doradcy. To sieć uczonych, którzy poświęcili swoje imię dla większego dobra, radzących potężnym dla wiedzy."
+
+ game_concept_monastery_holding:0 "Klasztor"
+ game_concept_monastery:0 "Klasztor"
+ game_concept_monasteries:0 "Klasztory"
+ game_concept_monastery_holdings:0 "Posiadłości klasztorne"
+ game_concept_monastery_holding_desc:0 ""
+
+ game_concept_ruin_holding:0 "Ruina"
+ game_concept_ruin_holding_desc:0 "Posiadłość długo zapomniana i opuszczona, jedynie cień dawnej świetności. Można rozpocząć [reconstruction_effort|E] przez interakcję z samą ruiną."
+ game_concept_ruin:0 "Ruina"
+ game_concept_ruins:0 "Ruiny"
+ game_concept_ruin_holdings:0 "Zrujnowane posiadłości"
+ game_concept_ruin_holdings_desc:0 "Posiadłości długo zapomniane i opuszczone, jedynie cień dawnej świetności."
+
+ game_concept_ruin_reconstruction:0 "Odbudowa Ruiny"
+ game_concept_ruin_reconstruction_desc:0 "Poprzez ulepszanie [buildings|E] ruiny, można ją odbudować do właściwej posiadłości, chociaż proces jest długi i żmudny.\n\nAby rozpocząć odbudowę, kliknij postać posiadającą ruinę, co przeniesie cię do innego okna. Tam kliknij 'Przywróć ruiny'."
+ game_concept_reconstruction:0 "Odbudowa Ruiny"
+ game_concept_reconstruction_desc:0 "Poprzez ulepszanie [buildings|E] ruiny, można ją odbudować do właściwej posiadłości, chociaż proces jest długi i żmudny.\n\nAby rozpocząć odbudowę, kliknij postać posiadającą ruinę, co przeniesie cię do innego okna. Tam kliknij 'Przywróć ruiny'."
+ game_concept_reconstruction_effort:0 "Odbudowa Ruiny"
+ game_concept_reconstruction_effort_desc:0 "Poprzez ulepszanie [buildings|E] ruiny, można ją odbudować do właściwej posiadłości, chociaż proces jest długi i żmudny.\n\nAby rozpocząć odbudowę, kliknij postać posiadającą ruinę, co przeniesie cię do innego okna. Tam kliknij 'Przywróć ruiny'."
+
+ game_concept_bastard_house:0 "Gałąź Bękartów"
+ game_concept_bastard_branch:0 "Gałąź Bękartów"
+ game_concept_bastard_houses:0 "Gałęzie Bękartów"
+ game_concept_bastard_branches:0 "Gałęzie Bękartów"
+ game_concept_bastard_house_desc:0 "Członkowie [bastard|E] tworzą własny [house|E], gdy mają potomstwo. Takie odnogi funkcjonują jak [cadet_branches|E] — jako osobne gałęzie większej dynastii."
+
+ game_concept_reaving:0 "Grabież"
+ game_concept_reaving_desc:1 "Aktywność, podczas której władcy organizują wyprawę rabunkową na pobliskie wybrzeże.\n\nGłównym celem jest łupienie [gold|E].\n\n[Ruler|E] zaprasza bliskich krewnych, [courtiers|E], [guests|E] oraz [vassals|E]."
+
+ game_concept_admiral:0 "Admirał"
+ game_concept_admirals:0 "Admirałowie"
+ game_concept_admiral_desc:1 "$game_concept_admiral$ to twój [councillor|E] odpowiedzialny za sprawy morskie i floty. Wielki Kapitan twojej [fleet|E] i nadzorca, kiedy twoje armie [embark|E]."
+
+ game_concept_castellan:0 "Kasztelan"
+ game_concept_castellan_desc:1 "$game_concept_castellan$ to twój [councillor|E] działający jako twoja prawa ręka. Może wykonywać różne [councillor_tasks|E] zależnie od umiejętności, mówić twoim głosem i działać w twoim imieniu."
+
+ activity_kinguard_bodyguard_name:0 "Obowiązki Ochroniarza"
+ activity_kinguard_bodyguard:0 "Obowiązki Ochroniarza"
+
+ activity_location_set:0 "Podróż"
+ activity_location_set_name:0 "Podróż"
+
+ game_concept_agot_personal_coa:0 "Herb osobisty"
+ game_concept_agot_personal_coa_desc:0 "$game_concept_agot_personal_coa$ to zestaw herbów należących do osoby, a nie do [house|e].\n\nGracz może dostosować swój herb, a czasem otrzymać go na podstawie innych warunków — takich jak przezwisko lub kolejność urodzenia."
+
+ game_concept_pirate_den_holding:0 "Piracka kryjówka"
+ game_concept_pirate_den:0 "Piracka kryjówka"
+ game_concept_pirate_dens:0 "Pirackie kryjówki"
+ game_concept_pirate_den_holdings:0 "Pirackie kryjówki"
+ game_concept_pirate_den_holding_desc:0 "Pirackie kryjówki to standardowy typ [holding_type|E], lekko umocnione obozy, gdzie piraci zbierają się, gdy muszą zejść na ląd. To jedyny typ posiadłości dostępny dla [GetGovernment('pirate_government').GetName] [rulers|E]."
+
+ game_concept_dragon:0 "Smok"
+ game_concept_dragons_plural:0 "Smoki"
+ game_concept_dragon_desc: "$game_concept_dragons_plural$ to magiczne bestie, sławne dzięki władcom smoków starej Valyrii, którzy podbili znany świat. Zobaczyć smoka to zobaczyć ogień wcielony, dosiąść smoka to stać się panem swego losu i kształtować świat.\n\nKażdy smok ma własną [personality|E], [traits|E] i [education|E], które wpływają na jego [draconic_dread|E], [temperament|E] i [taming_chance|E]. [dragon_combat_effectiveness|E] wpływa na jego skuteczność w walce i rośnie wraz z wiekiem i wielkością ([dragon_size|E]).\n\nSą trzy typy [dragon_type|E]: [wild_dragon|E], [owned_dragon|E] i [tamed_dragon|E]. Smoki oswojone i posiadane mogą być przechowywane w [dragonpit|E], jeśli taki jest dostępny."
+
+ game_concept_dragon_type:0 "Typy Smoków"
+ game_concept_dragon_type_desc:0 "$game_concept_dragons_plural$ występują w trzech typach. To [wild_dragons|E], [owned_dragons|E] i [tamed_dragons|E]. Typ smoka wpływa na to, jak wchodzi w interakcję ze światem, jak [ruler|e] może się z nim komunikować i czy można go używać w walce."
+
+ game_concept_wild_dragon:0 "Dziki Smok"
+ game_concept_wild_dragons:0 "Dzikie Smoki"
+ game_concept_wild_dragon_desc:0 "$game_concept_wild_dragons$ to smoki nieposiadane przez żadnego [ruler|E], żyjące naturalnie. Wolno przemieszczają się po świecie, choć wolą pozostawać blisko legowiska. Dziki smok nie może być używany w walce ani do podróży i stanowi zagrożenie dla każdego [ruler|E] lub [realm|E] w zasięgu polowania.\n\nTo jeden z trzech typów [dragon|E]. Pozostałe to [owned_dragons|E] i [tamed_dragons|E].\n\nWładca z [dragonpit|E] może próbować złapać $game_concept_wild_dragon$, aby uczynić go $game_concept_owned_dragon$, podczas gdy sąsiedzi i [courtiers|E] mogą próbować go oswoić bezpośrednio."
+
+ game_concept_owned_dragon:0 "Posiadany Smok"
+ game_concept_owned_dragons:0 "Posiadane Smoki"
+ game_concept_owned_dragon_desc:0 "$game_concept_owned_dragons$ to smoki posiadane przez [ruler|E] mającego [dragonpit|E], ale nieoswojone przez [GetTrait('dragonrider').GetName(GetNullCharacter)]. Pozostają w stolicy właściciela. $game_concept_owned_dragons$ nie mogą być używane w walce ani do podróży, ale łatwiej je oswoić niż $game_concept_wild_dragons$. Postacie, które nie oswoiły [dragon|E], mogą w sądzie próbować się z nimi związać lub oswoić je bezpośrednio.\n\nTo jeden z trzech typów [dragon|E]. Pozostałe to [wild_dragons|E] i [tamed_dragons|E]."
+
+ game_concept_tamed_dragon:0 "Oswojony Smok"
+ game_concept_tamed_dragons:0 "Oswojone Smoki"
+ game_concept_tamed_dragon_desc:0 "$game_concept_tamed_dragons$ to smoki oswojone przez [GetTrait('dragonrider').GetName(GetNullCharacter)]. Jeśli ich jeździec jest [ruler|E], pozostają w stolicy władcy, w przeciwnym razie w stolicy pracodawcy jeźdźca. Chyba że są w [army|E] lub w trakcie [travel|E].\n\nTo jeden z trzech typów [dragon|E]. Pozostałe to [wild_dragons|E] i [owned_dragons|E]. Oswojone smoki stają się dzikie, jeśli ich jeździec umrze, a smok nie jest trzymany w [dragonpit|E]."
+
+ game_concept_draconic_dread:0 "Smoczy Groza"
+ game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ to [dread|E], który posiada [dragon|E], a nie [ruler|e]. Reprezentuje pierwotny strach, który stworzenie budzi w sercach ludzi. Choć głównie zależy od [dragons_size|E], wpływają na niego też [personality|E] i czyny."
+
+ game_concept_temperament:0 "Temperament"
+ game_concept_temperament_desc:0 "$game_concept_temperament$ to ogólny nastrój i usposobienie [dragon|E]. Wartości dodatnie oznaczają bardziej towarzyskiego smoka, a ujemne — bardziej dzikiego i kapryśnego. Temperament smoka zależy od jego [education|E], [personality|E] i doświadczeń."
+
+ game_concept_taming_chance:0 "Szansa na oswojenie"
+ game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ to wrodzona skłonność [dragon|E] do oswajania i zawiązywania więzi. Wyższa wartość oznacza smoka bardziej podatnego na interakcję z ludźmi, niższa — smoka, którego tylko najsilniejsza wola może oswoić. Na tę wartość wpływa [education|E], [personality|E] i doświadczenia smoka."
+
+ game_concept_dragon_size:0 "Wielkość Smoka"
+ game_concept_dragons_size:0 "Wielkość Smoka"
+ game_concept_dragon_size_desc:0 "$game_concept_dragon_size$ to fizyczny rozmiar [dragon|E]. Obejmuje długość, rozpiętość skrzydeł i wagę. Wielkość smoka wpływa na [dragon_combat_effectiveness|E], [draconic_dread|E] i [taming_chance|E].\n\nSmok nigdy nie przestaje rosnąć, ale tempo wzrostu zwalnia z wiekiem. Smoki trzymane w sztucznym [dragonpit|E] rosną wolniej niż dzikie lub w [natural_dragonpit|E]."
+
+ game_concept_dragon_combat_effectiveness:0 "Skuteczność w walce"
+ game_concept_dragon_combat_effectiveness_desc:0 "$game_concept_dragon_combat_effectiveness$ to miara efektywności [dragon|E] w walce. W dużej mierze zależy od [dragons_size|E], ale może być też wpływana przez [traits|E] i doświadczenie [GetTrait('dragonrider').GetName(GetNullCharacter)]. Smok o wysokiej skuteczności będzie bardziej efektywny w boju."
+
+ game_concept_dragonpit:0 "Smocza Jama"
+ game_concept_dragonpits:0 "Smocze Jamy"
+ game_concept_dragonpit_desc:0 "$game_concept_dragonpit$ to [building|E] służący do przechowywania zarówno [owned_dragons|E], jak i [tamed_dragons|E]. Budowa jest bardzo kosztowna, ale daje właścicielowi zwiększone bezpieczeństwo dla smoków, unikalne interakcje oraz możliwość mianowania $head_dragonkeeper_court_position$ [court_position|E]. Smocza Jama to jedyny sposób, by zachować oswojonego smoka jako posiadanego, jeśli jego jeździec umrze.\n\nSmocza Jama na Smoczej Skale to $natural_dragonpit$; jedyna tego typu."
+ game_concept_dragon_pit:0 "$game_concept_dragonpit$"
+ game_concept_dragon_pit_desc:0 "$game_concept_dragonpit_desc$"
+ game_concept_natural_dragonpit:0 "Naturalna Smocza Jama"
+ game_concept_natural_dragonpits:0 "Naturalne Smocze Jamy"
+ game_concept_natural_dragonpit_desc:0 "Naturalna Smocza Jama to [dragonpit|E], gdzie zakon [dragonkeepers|E] korzysta z naturalnych jaskiń do przechowywania i ochrony [dragons_plural|E]. [dragons_size|E] cierpią tam znacznie mniej niż w sztucznej Smoczej Jamie."
+
+
+ game_concept_anti_dragon_maa:0 "Antysmok"
+ game_concept_anti_dragon_maa_desc:0 "Specjalnie wyszkoleni [men_at_arms|E], przeznaczeni do walki z zagrożeniem, jakie stanowią [dragons_plural|E]. Te regimenty będą użyteczne jedynie przeciwko smokom, ale niewiele jest w stanie ochronić [army|E] przed smokiem."
+
+ game_concept_dragon_gender:0 "Płeć Smoka"
+ game_concept_dragon_gender_desc:0 "Maestrzy Cytadeli od dawna debatują nad prawdziwą naturą [dragons_plural|E], niektórzy uważają, że zmieniają płeć według potrzeb między samcem a samicą, inni twierdzą, że nie mają określonej płci. Historycznie smoki znane z znoszenia jaj nazywane były samicami, choć nie wszystkie samice to robiły.\n\nMimo to ludzkie konwencje uznają, że smoki mają płeć i tak są określane, dopóki jeździec lub stan nie wskaże inaczej."
+
+ game_concept_dragonblood:0 "Smocza Krew"
+ game_concept_dragonblood_desc:0 "$game_concept_dragonblood$ to wskaźnik, że [character|e] pochodzi od [GetTrait('dragonrider').GetName(GetNullCharacter)|LV] lub z [house|E] z modyfikatorem [GetModifier('dragonrider_house_modifier').GetNameWithTooltip|L]."
+
+ game_concept_authorized_tamer:0 "Autoryzowany Oswajacz"
+ game_concept_authorized_tamer_desc:0 "$game_concept_authorized_tamer$ to [character|e] z wyjątkowym pozwoleniem na dostęp do konkretnego [dragonpit|e], niezależnie od praw. Właściciel smoczej jamy może to pozwolenie cofnąć.\n\nPostać może być autoryzowanym oswajaczem tylko jednej smoczej jamy na raz."
+
+ game_concept_dragonkeeper:0 "Opiekun Smoków"
+ game_concept_dragonkeepers:0 "Opiekunowie Smoków"
+ game_concept_dragonkeeper_desc:0 "Zakon $game_concept_dragonkeepers$ odpowiada za utrzymanie [dragonpits|E] i smoków w nich przetrzymywanych. Zakonem dowodzi $head_dragonkeeper_court_position$, który odblokowuje kilka [dragonpit_interactions|E] podczas zatrudnienia."
+ game_concept_dragonpit_interactions:0 "Interakcje ze Smoczą Jamą"
+ game_concept_dragonpit_interactions_desc:0 "$game_concept_dragonpit_interactions$ to zestaw [interactions|E] odblokowanych, gdy [character|E] zatrudnia $head_dragonkeeper_court_position$ [court_position|E]. Umożliwiają one właścicielowi [dragonpit|e] większą kontrolę.\n\n$EFFECT_LIST_BULLET$#V Naucz Smoczej Wiedzy #!Interakcja – naucz dzieci, wnuków lub członków [house|E] smoczej wiedzy.\n$EFFECT_LIST_BULLET$#V Zakaz Dostępu do Smoczej Jamy #!Interakcja – zablokuj postaci dostęp do smoczej jamy, zgodnie z jej [laws|e].\n$EFFECT_LIST_BULLET$#V Cofnij Zakaz Dostępu do Smoczej Jamy #!Interakcja – przywróć postaci dostęp do jamy, z której była wykluczona.\n$EFFECT_LIST_BULLET$#V Przyznaj Dostęp do Smoczej Jamy #!Interakcja – nadaj postaci status [authorized_tamer|E] danej smoczej jamy.\n$EFFECT_LIST_BULLET$#V Wyślij Jajo do Smoczej Jamy #!Interakcja – wyślij smocze jajo [artifact|e] do jamy, gdzie może się wykluć lub być przechowywane.\n$EFFECT_LIST_BULLET$#V Odbierz Jajo ze Smoczej Jamy #!Interakcja – odbierz jajo z jamy."
+
+ ## LOKALIZACJA KONCEPCJI GRY
+ game_concept_story_content_robert_baratheon_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_robert_baratheon$"
+ game_concept_story_content_robert_baratheon_282_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Robert Baratheon, stoczysz walkę przeciwko Aerysowi II Targaryenowi i jego lojalistom. W trakcie wojny będą wyzwalane zaplanowane wydarzenia fabularne prowadzące do zwycięstwa lub porażki przeciwko Domowi Targaryen."
+
+ game_concept_story_content_rhaegar_targaryen_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_rhaegar_targaryen$"
+ game_concept_story_content_rhaegar_targaryen_282_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Rhaegar Targaryen dołączysz do swojego ojca, Aerysa II Targaryena, w wojnie przeciwko Robertowi Baratheonowi i jego sojusznikom. Doświadczysz wydarzeń fabularnych dotyczących toczącej się wojny i losu królestwa."
+
+ game_concept_story_content_aerys_targaryen_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_aerys_targaryen$"
+ game_concept_story_content_aerys_targaryen_282_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Aerys II Targaryen stoczysz walkę przeciwko siłom Roberta Baratheona i jego sojuszników. W trakcie konfliktu będą wyzwalane wydarzenia fabularne dotyczące wojny, królestwa i twojej rodziny."
+
+ game_concept_story_content_tywin_lannister_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_tywin_lannister$"
+ game_concept_story_content_tywin_lannister_282_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Tywin Lannister jesteś neutralnym obserwatorem, gdy twój przyjaciel, a zarazem rywal Aerys II Targaryen, walczy w wojnie przeciwko rebelianckim lordom pod wodzą Roberta Baratheona. W trakcie wojny mogą wystąpić wydarzenia fabularne dotyczące twojej neutralności i chęci udziału w wojnie."
+
+ game_concept_story_content_eddard_stark_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_eddard_stark$"
+ game_concept_story_content_eddard_stark_282_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Ned Stark stoczysz walkę przeciwko Aerysowi II Targaryenowi wraz z twoim przyjacielem Robertem Baratheonem. Doświadczysz wydarzeń fabularnych dotyczących losu twojej zaginionej siostry Lyanny Stark."
+
+ game_concept_story_content_aegon_targaryen_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_aegon_targaryen$"
+ game_concept_story_content_aegon_targaryen_259_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Aegon V Targaryen musisz znaleźć balans między rodziną, królestwem i swoimi najgłębszymi pragnieniami. Doświadczysz wydarzeń fabularnych dotyczących twojej rodziny i rządów."
+
+ game_concept_story_content_maelys_blackfyre_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_maelys_blackfyre$"
+ game_concept_story_content_maelys_blackfyre_259_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Maelys Blackfyre stoczysz walkę wraz z sojusznikami o odzyskanie Siedmiu Królestw. Doświadczysz wydarzeń fabularnych dotyczących podbojów sąsiednich królestw, które zakończą się wojną o twoje ostateczne cele — Westeros."
+
+ game_concept_story_content_viserys_targaryen_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_viserys_targaryen$"
+ game_concept_story_content_viserys_targaryen_109_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Viserys I Targaryen jesteś władcą królestwa dziedziczącego pokój po twoim dziadku Jaehaerysie Targaryenie. Doświadczysz wydarzeń fabularnych dotyczących twojej rodziny i jej dokonań — przede wszystkim brata, księcia Daemona Targaryena."
+
+ game_concept_story_content_daemon_targaryen_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_daemon_targaryen$"
+ game_concept_story_content_daemon_targaryen_109_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Daemon Targaryen stoczysz walkę z piratami wspieranymi przez Triarchię, którzy roszczą sobie prawa do Stepstones. W trakcie podbojów doświadczysz wydarzeń fabularnych dotyczących twoich rządów i rodziny."
+
+ game_concept_story_content_corlys_velaryon_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_corlys_velaryon$"
+ game_concept_story_content_corlys_velaryon_109_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Corlys Velaryon stoczysz walkę u boku Daemona Targaryena przeciw piratom wspieranym przez Triarchię roszczącym prawa do Stepstones. Podczas podbojów doświadczysz wydarzeń fabularnych dotyczących twojej roli w toczących się wojnach."
+
+ game_concept_story_content_craghas_drahar_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_craghas_drahar$"
+ game_concept_story_content_craghas_drahar_109_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Craghas Drahar stoczysz walkę z najeźdźcami Daemona Targaryena i Corlysa Velaryona. Doświadczysz wydarzeń fabularnych dotyczących wojny podczas której staniesz przed szansą na zwycięstwo lub klęskę."
+
+ game_concept_story_content_tytos_lannister_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_tytos_lannister$"
+ game_concept_story_content_tytos_lannister_259_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Tytos Lannister, jesteś lordem zmagającym się z aroganckimi wasalami o wielkich ambicjach. Doświadczysz wydarzeń fabularnych dotyczących pozycji i statusu kilku wasali, które mogą doprowadzić do wybuchu wojny."
+
+ game_concept_story_content_roger_reyne_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_roger_reyne$"
+ game_concept_story_content_roger_reyne_259_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Roger Reyne, jesteś ambitnym lordem z małym szacunkiem dla swojego pana, Tytosa Lannistera. Doświadczysz wydarzeń fabularnych dotyczących twojej lojalności, które mogą prowadzić do buntu przeciwko panu."
+
+ game_concept_story_content_maekar_targaryen_233:0 "$game_concept_story_generic_prefix$ $bookmark_233_maekar_targaryen$"
+ game_concept_story_content_maekar_targaryen_233_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Maekar I Targaryen musisz stawić czoła narastającemu powstaniu i kryzysowi sukcesyjnemu. Doświadczysz wydarzeń fabularnych związanych z rebelią i wybranym następcą."
+
+ # Defiance of Duskendale 8277
+ game_concept_story_content_aerys_targaryen_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_aerys_targaryen$"
+ game_concept_story_content_aerys_targaryen_277_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Aerys II Targaryen jesteś więźniem Denysa Darklyna, który żąda statutu w zamian za ocalenie swojego upadającego portu. Doświadczysz wydarzeń fabularnych dotyczących twojego uwięzienia, działań Ręki Króla oraz syna i dziedzica."
+
+ game_concept_story_content_rhaegar_targaryen_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_rhaegar_targaryen$"
+ game_concept_story_content_rhaegar_targaryen_277_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Rhaegar Targaryen zdecydujesz, jak ratować swojego ojca, króla Aerysa II Targaryena. Doświadczysz wydarzeń dotyczących jego ratunku lub jego braku, oraz ważnych decyzji dotyczących Duskendale i królestwa."
+
+ game_concept_story_content_denys_darklyn_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_denys_darklyn$"
+ game_concept_story_content_denys_darklyn_277_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Denys Darklyn uwięziłeś króla Aerysa II Targaryena. Doświadczysz wydarzeń fabularnych dotyczących twoich żądań i ich spełnienia, podczas gdy walczysz o większą pozycję w królestwie, mając króla jako kartę przetargową."
+
+ game_concept_story_content_tywin_lannister_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_tywin_lannister$"
+ game_concept_story_content_tywin_lannister_277_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Tywin Lannister jesteś Ręką Króla uwięzionego Aerysa II Targaryena i musisz zmierzyć się z Denysem Darklynem, by zapewnić bezpieczeństwo królowi. Doświadczysz wydarzeń dotyczących ratunku króla i ich konsekwencji."
+
+ # The Laughing Storm Rebellion 8239
+ game_concept_story_content_lyonel_baratheon_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_lyonel_baratheon$"
+ game_concept_story_content_lyonel_baratheon_239_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Lyonel Baratheon jesteś lordem zdeterminowanym, by przywrócić honor swojemu domowi. Doświadczysz wydarzeń fabularnych dotyczących nadchodzącego powstania."
+
+ game_concept_story_content_aegon_v_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_aegon_targaryen$"
+ game_concept_story_content_aegon_v_239_desc:0 "#tooltip_heading Styl historii: Rozbudowany#!\n\nJako Aegon V Targaryen musisz stawić czoła konsekwencjom błędów swoich dzieci. Doświadczysz wydarzeń dotyczących narastającego buntu."
+
+ game_concept_story_content_bloodraven_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_bloodraven$"
+ game_concept_story_content_bloodraven_239_desc:0 "#tooltip_heading Styl historii: Umiarkowany#!\n\nJako Brynden Rivers jesteś nowo wybranym Naczelnikiem Straży Nocnej. Doświadczysz wydarzeń dotyczących twoich wizji."
+
+ game_concept_story_content_bittersteel_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_bittersteel$"
+ game_concept_story_content_bittersteel_239_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Aegor Rivers jesteś Kapitanem Złotej Kompanii. Doświadczysz wydarzeń fabularnych związanych z ambicjami Maelysa 'Potwora'."
+
+ game_concept_story_content_garlan_tyrell_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_garlan_tyrell$"
+ game_concept_story_content_garlan_tyrell_239_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Garlan Tyrell musisz wybrać między lojalnością wobec króla a wsparciem dla Laughing Storm. Doświadczysz wydarzeń związanych z zaręczynami dzieci Aegona Targaryena."
+
+ game_concept_story_content_runceford_redwyne_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_runceford_redwyne$"
+ game_concept_story_content_runceford_redwyne_239_desc:0 "#tooltip_heading Styl historii: Lekki#!\n\nJako Runceford Redwyne twoja córka Olenna jest zaręczona z Daeronem Targaryenem — ale to może się szybko zmienić i musisz działać odpowiednio. Doświadczysz wydarzeń dotyczących zaręczyn dzieci Aegona Targaryena."
+
+ game_concept_nw_govt:0 "Nocna Straż"
+ game_concept_nw_govt_desc:0 "W ramach rządu $game_concept_nw_govt$, najwyższy [zwierzchnik|E] rozdziela [ziemię|E] pomiędzy [wasali|E] do zarządzania i ochrony. Tytuły mogą posiadać wyłącznie przysiężni bracia Nocnej Straży, a po ich śmierci tytuły wracają do zwierzchnika."
+ game_concept_nw_govt_i:0 "@nights_watch_government!"
+
+ game_concept_pirate_govt:0 "Pirat"
+ game_concept_pirate_govt_desc:0 "W ramach rządu $game_concept_pirate_govt$ [rządzący|E] są ograniczeni do elekcyjnej formy [następstwa|E], unikalnych pirackich [budowli|E] oraz mogą posiadać wyłącznie [pirackie_teren_holdingowe|E]. Mimo tych ograniczeń, pirackie władze mogą [plądrować|E] i korzystać z konkwistadorskiego [casus_belli|E]."
+ game_concept_pirate_govt_i:0 "@pirate_government!"
+
+ game_concept_citadel_govt:0 "Konklawa"
+ game_concept_citadel_govt_desc:0 "Rząd $game_concept_citadel_govt$ jest niegrywalną formą rządów reprezentującą zakon maesterów."
+ game_concept_citadel_govt_i:0 "@the_citadel_government!"
+
+ game_concept_kg_govt:0 "Straż Królewska"
+ game_concept_kg_govt_desc:0 "Rząd $game_concept_kg_govt$ to niegrywalny rząd reprezentujący elitarny oddział ochrony monarchy Siedmiu Królestw."
+ game_concept_kg_govt_i:0 "@kingsguard_government!"
+
+ game_concept_command_govt:0 "Dowództwo"
+ game_concept_command_govt_desc:0 "Rząd $game_concept_command_govt$ jest niegrywalną formą rządów reprezentującą mianowanego dowódcę zarządzającego tytułem."
+ game_concept_command_govt_i:0 "@command_government!"
+
+ game_concept_silent_sisters_govt:0 "Ciche Siostry"
+ game_concept_silent_sisters_govt_desc:0 "Rząd $game_concept_silent_sisters_govt$ jest niegrywalnym rządem reprezentującym zakon kobiet zajmujących się opieką nad zmarłymi w wierze Siedmiu."
+ game_concept_silent_sisters_govt_i:0 "@silent_sisters_government!"
+
+ game_concept_host_govt:0 "Gospodarz"
+ game_concept_host_govt_desc:0 "Rząd $game_concept_host_govt$ to mniej forma rządów, a bardziej tymczasowe zgromadzenie ludzi, zwykle z określonym celem. Gospodarz nie jest stałym [rządem|E] i ulega zmianie lub rozproszeniu po wypełnieniu celu."
+ game_concept_host_govt_i:0 "@host_government!"
+
+ game_concept_ruins_govt:0 "Ruina"
+ game_concept_ruins_govt_desc:0 "Rząd $game_concept_ruins_govt$ jest niegrywalnym rządem reprezentującym tytuły popadające w ruinę, którymi zarządzają Strażnicy aż do ich odbudowy."
+ game_concept_ruins_govt_i:0 "@ruins_government!"
+
+ game_concept_agot_spoils_of_war:0 "Łupy Wojenne"
+ game_concept_agot_spoils_of_war_desc:0 "Wydarzenie $game_concept_agot_spoils_of_war$ może wystąpić po zwycięstwie pretendentów nad tytułem rangi [imperium|E]. Trzech najlepszych atakujących, którzy osiągnęli co najmniej 10% wyniku wojny, może zażądać pewnych darów od nowo koronowanego władcy.\n\nTe dary obejmują:\n$EFFECT_LIST_BULLET$#V Złoto#!\n$EFFECT_LIST_BULLET$#V Miejsce w Radzie Małej#!\n$EFFECT_LIST_BULLET$#V Małżeństwo królewskie#!\n$EFFECT_LIST_BULLET$#V Umieszczenie członka rodziny w [Straży Królewskiej|E]#!\n$EFFECT_LIST_BULLET$#V Lordostwo nadrzędne#!"
+
+ # BANKOWE KONCEPCJE #
+ game_concept_agot_bank:0 "Bank"
+ game_concept_agot_banking:0 "Bankowość"
+ game_concept_agot_banks:0 "Banki"
+ game_concept_agot_bank_desc:0 "$game_concept_agot_bank$ to instytucja zajmująca się przechowywaniem, pożyczaniem oraz inwestowaniem złota. Banki są kierowane przez [agot_bank_director|E], który nadzoruje ich działalność. Akcjonariusze posiadają udziały w funduszach banku, czerpiąc zyski w formie dywidend.\n\n#weak Gracze mogą ubiegać się o pożyczki w bankach, lecz nie powinni zaciągać zobowiązań, których nie będą mogli spłacić.#!"
+
+ game_concept_agot_bank_director:0 "Dyrektor"
+ game_concept_agot_bank_directors:0 "Dyrektorzy"
+ game_concept_agot_bank_director_desc:0 "$game_concept_agot_bank_director$ [agot_bank|E] nadzoruje jego działalność. Dyrektor jest wybierany dożywotnio przez akcjonariuszy banku."
+
+ game_concept_agot_bank_profits:0 "Zyski"
+ game_concept_agot_bank_profit:0 "Zysk"
+ game_concept_agot_bank_profits_desc:0 "$game_concept_agot_bank_profits$ banku to dochody z odsetek od pożyczek oraz funduszu inwestycyjnego minus wszelkie [agot_bank_expenses|E]."
+
+ game_concept_agot_bank_expenses:0 "Wydatki"
+ game_concept_agot_bank_expense:0 "Wydatek"
+ game_concept_agot_bank_expenses_desc:0 "$game_concept_agot_bank_expenses$ banku to całkowite straty z niespłaconych pożyczek, koszty windykacji, premie dla agentów, straty z funduszu inwestycyjnego oraz koszty operacyjne (jeden procent wartości banku rocznie)."
+
+ game_concept_agot_bank_interest_rate:0 "Stopa Procentowa"
+ game_concept_agot_bank_interest_rate_l:0 "stopa procentowa"
+ game_concept_agot_bank_interest_rates:0 "Stopy Procentowe"
+ game_concept_agot_bank_interest_rates_l:0 "stopy procentowe"
+ game_concept_agot_bank_interest_rate_desc:0 "$game_concept_agot_bank_interest_rate$ to podstawowy poziom rocznych odsetek, które dłużnik musi zapłacić [agot_bank|E], podzielony na trzy poziomy: #difficulty_hard Wysoki#!, #difficulty_medium Średni#!, oraz #difficulty_easy Niski#!. Dokładna stopa procentowa jest indywidualnie obliczana dla każdego klienta."
+
+ game_concept_agot_bank_risk_level:0 "Poziom Ryzyka"
+ game_concept_agot_bank_risk_level_l:0 "poziom ryzyka"
+ game_concept_agot_bank_risk_levels:0 "Poziomy Ryzyka"
+ game_concept_agot_bank_risk_levels_l:0 "poziomy ryzyka"
+ game_concept_agot_bank_risk_level_desc:0 "$game_concept_agot_bank_risk_level$ określa, jak duże ryzyko bank $game_concept_agot_bank$ zaakceptuje przy udzielaniu pożyczek i inwestycji, podzielony na trzy poziomy: #difficulty_hard Wysoki#!, #difficulty_medium Średni#!, oraz #difficulty_easy Niski#!. Jeśli twój rating kredytowy przekracza dopuszczalny poziom, bank odmówi udzielenia pożyczki."
+
+ game_concept_agot_bank_dividend_level:0 "Poziom Dywidendy"
+ game_concept_agot_bank_dividend_level_l:0 "poziom dywidendy"
+ game_concept_agot_bank_dividends:0 "Dywidendy"
+ game_concept_agot_bank_dividend_level_desc:0 "$game_concept_agot_bank_dividend_level$ określa, jaka część 5-letnich zysków banku jest wypłacana akcjonariuszom jako dywidendy: #difficulty_hard 50%#!, #difficulty_medium 75%#!, lub #difficulty_easy 100%#!."
+
+ game_concept_agot_bastard_surnames:0 "Nazwiska Bękartów"
+ game_concept_agot_bastard_surnames_desc:0 "Zgodnie z tradycją Westeros, [bękarty|E] wysokich lordów i dam zwykle otrzymują regionalne nazwiska wskazujące miejsce urodzenia lub wychowania. Praktyka ta ma na celu oddzielenie nieślubnych dzieci od ich rodów i prawowitych rodzeństw.\n\nChociaż nie jest to wymagane, wiele prawowitych dzieci bękartów zachowuje nazwisko bękarta lub modyfikuje je, by wskazać swój status."
+ game_concept_agot_surname:0 "Nazwisko"

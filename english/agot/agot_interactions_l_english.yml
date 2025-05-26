@@ -1,0 +1,91 @@
+﻿l_english:
+ btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] jest częścią [btw_struggle|E], a ty nie jesteś: $VALUE|=+0$"
+
+#Interakcje z więźniem
+
+ mute_interaction:0 "Ucisz"
+ mute_interaction_desc:0 "Uczyń [recipient.GetShortUINameNoTooltip] [GetTrait('mute').GetName( GetPlayer )]"
+
+ sell_prisoner_into_slavery_interaction:0 "Sprzedaj w niewolę"
+ sell_prisoner_into_slavery_interaction_desc:0 "Sprzedaj [recipient.GetShortUINameNoTooltip] w niewolę"
+
+#septa
+
+ septa_child_language_rank_1:0 "Zdolność twojej [GetCourtPositionType('septa_court_position').GetName()] daje [scheme|E] dodatkowe #P 5#! szans powodzenia i prawdopodobieństwa sukcesu"
+ septa_child_language_rank_2:0 "Zdolność twojej [GetCourtPositionType('septa_court_position').GetName()] daje [scheme|E] dodatkowe #P 10#! szans powodzenia i prawdopodobieństwa sukcesu"
+ septa_child_language_rank_3:0 "Zdolność twojej [GetCourtPositionType('septa_court_position').GetName()] daje [scheme|E] dodatkowe #P 15#! szans powodzenia i prawdopodobieństwa sukcesu"
+ septa_child_language_rank_4:0 "Zdolność twojej [GetCourtPositionType('septa_court_position').GetName()] daje [scheme|E] dodatkowe #P 20#! szans powodzenia i prawdopodobieństwa sukcesu"
+ septa_child_language_rank_5:0 "Zdolność twojej [GetCourtPositionType('septa_court_position').GetName()] daje [scheme|E] dodatkowe #P 25#! szans powodzenia i prawdopodobieństwa sukcesu"
+
+ maester_child_language_rank_1:0 "Zdolność twojego [GetCourtPositionType('maester_court_position').GetName()] daje [scheme|E] dodatkowe #P 5#! szans powodzenia i prawdopodobieństwa sukcesu"
+ maester_child_language_rank_2:0 "Zdolność twojego [GetCourtPositionType('maester_court_position').GetName()] daje [scheme|E] dodatkowe #P 10#! szans powodzenia i prawdopodobieństwa sukcesu"
+ maester_child_language_rank_3:0 "Zdolność twojego [GetCourtPositionType('maester_court_position').GetName()] daje [scheme|E] dodatkowe #P 15#! szans powodzenia i prawdopodobieństwa sukcesu"
+ maester_child_language_rank_4:0 "Zdolność twojego [GetCourtPositionType('maester_court_position').GetName()] daje [scheme|E] dodatkowe #P 20#! szans powodzenia i prawdopodobieństwa sukcesu"
+ maester_child_language_rank_5:0 "Zdolność twojego [GetCourtPositionType('maester_court_position').GetName()] daje [scheme|E] dodatkowe #P 25#! szans powodzenia i prawdopodobieństwa sukcesu"
+
+# Przysięgi Nocnej Straży / Królewskiej Gwardii – opis
+
+ ORDER_VOWS_MARRIED_OR_BETROTHED:0 "Jestem zaręczony: $VALUE|=+0$"
+ ORDER_VOWS_DIFFERENT_FAITH:0 "Twoi bogowie są błędni: $VALUE|=+0$"
+
+ ORDER_VOWS_AMBITION:0 "[TARGET_CHARACTER.GetShortUIName|U] całe życie się do tego przygotowywał."
+
+ ORDER_VOWS_LOWBORN:0 "Wybrałbyś kogoś z nizin?!: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_1:0 "Jestem głównym dziedzicem tytułu: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_2:0 "Jestem w linii dziedziczenia: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_3:0 "Jestem w linii dziedziczenia: $VALUE|=+0$"
+
+ ORDER_VOWS_ZEAL:0 "[personality|E] — #italic Oddanie się większej sprawie to chwalebny cel:#! $VALUE|=+0$"
+ ORDER_VOWS_SKEPTIC:0 "[personality|E] — #italic [recipient.GetSheHe|U] nie interesuje się służbą dla niej samej:#! $VALUE|=+0$"
+ ORDER_VOWS_HONOR:0 "[personality|E] — #italic Służba w Królewskiej Gwardii to wielki honor:#! $VALUE|=+0$"
+ ORDER_VOWS_BOLD:0 "[personality|E] — #italic [recipient.GetSheHe|U] cieszy się z możliwości walki:#! $VALUE|=+0$"
+ ORDER_VOWS_CRAVEN:0 "[personality|E] — #italic [recipient.GetSheHe|U] nie chce umrzeć:#! $VALUE|=+0$"
+ ORDER_VOWS_HORNY:0 "[personality|E] — #italic Życie w celibacie brzmi jak więzienie:#! $VALUE|=+0$"
+
+ ARTIFACT_VS_REASON:0 "Wartość stali walyriańskiej: $VALUE|=+0$"
+ ARTIFACT_DRAGON_EGG_REASON:0 "Wartość jaj smoka: $VALUE|=+0$"
+
+ WHEREABOUTS_UNKNOWN:0 "Nieznane miejsce pobytu [CHARACTER.GetShortUIName|U]"
+
+ offer_vassalization_shattered_world_tt:0 "Równowaga Shattered World: $VALUE|=+0$"
+ offer_vassalization_stepstones_tt:0 "Pirat: $VALUE|=+0$"
+
+ offer_dawn_interaction:0 "Zaproponuj Dawn"
+ offer_dawn_interaction_desc:0 "Zaproponuj Dawn [recipient.GetShortUINameNoTooltip]. Jeśli [recipient.GetSheHe] nie jest godny, może odmówić..."
+ dawn_refused_title:0 "Odmowa Dawn"
+ dawn_refused_desc:0 "[recipient.GetShortUINameNoTooltip] odmówił Dawn, mówiąc, że nie czuje się godny nosić tego miecza."
+ worthy_of_dawn:0 "[personality|E] — #italic Godny Dawn:#! $VALUE|=+0$"
+ unworthy_of_dawn:0 "[personality|E] — #italic Niegodny Dawn:#! $VALUE|=+0$"
+ dawn_greedy:1 "[personality|E] — #italic Pragnie Dawn:#! $VALUE|=+0$"
+
+ take_claimed_vs_sword_interaction:0 "Przejmij walyriański miecz"
+ take_claimed_vs_sword_interaction_desc:0 "Masz roszczenie do walyriańskiego miecza [recipient.GetShortUINamePossessiveNoTooltip]"
+ take_claimed_vs_sword_interaction_i_am_imprisoned:0 "#P Jest uwięziony #!"
+ take_claimed_vs_sword_interaction_inappropriate:0 "#N Cel nie jest walyriańskim mieczem #!"
+
+ raise_to_nobility_interaction:0 "Podnieś do szlachty"
+ raise_to_nobility_interaction_desc:0 "Podnieś [recipient.GetShortUINameNoTooltip] do stanu szlacheckiego"
+ raise_to_nobility_tt:0 "Zostanie podniesiony do szlachty i założy nową dynastię"
+ raised_me_to_nobility_opinion:0 "Podniesiony do szlachty"
+
+ already_offered_concubine_warning:0 "@warning_icon! #X Już zaoferowałeś [recipient.GetShortUIName] konkubinę, zaoferowanie kolejnej #underline nadpisze#! istniejący modyfikator [opinion|E]!#!"
+
+ hof_ask_for_claim_must_higher_one_tier_desc:0 "Przepaść rang między tobą a celem jest zbyt duża"
+
+ CANNOT_GRANT_OWN_SC_VASSAL_THIRD:0 "Nie możesz przekazać wypożyczonego członka Małej Rady"
+ is_available_desc_third:0 "Jesteś dostępny"
+ NOT_is_available_desc_third:0 "Nie jesteś dostępny"
+
+ agot_dragon.0004.t:0 "Trudny czas"
+ agot_dragon.0004.desc:0 "Obudziło mnie wcześnie rano dwóch nieznanych strażników. W ciemnych momentach myślałem o tym, co miało się wydarzyć. Ale żadna wizualizacja nie przygotowała mnie na to. Kiedy prowadzono mnie przed [actor.GetShortUINamePossessive] smoka, doświadczyłem chwili spokoju i klarowności. Spędzamy tyle czasu, rozważając nasze czyny i ich wpływ na świat. Ale to wszystko kłamstwo. Jestem tylko workiem mięsa, ścięgien i kości. To, że ten byk spotkał mój wzrok z głodnym spojrzeniem drapieżnika — to jest ich świat, my tylko w nim żyjemy.\n\nA raczej żyliśmy."
+
+ hunt_cannot_hunt_parameter_faith_tt:0 "[faith|E] nie może polować"
+ ACTIVITY_GUEST_CANNOT_HUNT_REASON_FAITH:0 "Doktryny wiary [ROOT.Char.GetFaith.GetName]: $VALUE|=+0$"
+
+#Interakcje z R'hllorem
+
+ seek_healing_from_red_priest_interaction:0 "Szukaj uzdrowienia"
+ seek_healing_from_red_priest_interaction_desc:0 "Szukaj uzdrowienia u [recipient.GetShortUINameNoTooltip]"
+ offer_red_priest_healing_to_liege_interaction:0 "Zaproponuj uzdrowienie"
+ offer_red_priest_healing_to_liege_interaction_desc:0 "Zaproponuj uzdrowienie [recipient.GetShortUINameNoTooltip]"
+ooltip]"

@@ -1,0 +1,68 @@
+﻿l_english:
+
+ flames_visions_of_conquest:0 "Wizje Podboju"
+ flames_visions_of_conquest_desc:0 "Ten bohater wierzy, że wielkie zwycięstwa czekają go na polu bitwy."
+
+ flames_visions_of_reconciliation:0 "Wizje Pojednania"
+ flames_visions_of_reconciliation_desc:0 "Ten bohater postanowił unikać walki i strife."
+
+ flames_visions_friendship:0 "Wizje Przyjaźni"
+ flames_visions_friendship_desc:0 "Ten bohater jest poświęcony zawieraniu nowych przyjaźni i sojuszy."
+
+ flames_visions_ominous_visions:0 "Złowrogie Wizje"
+ flames_visions_ominous_visions_desc:0 "Dziwne wizje skłoniły tego bohatera do przekonania, że niebezpieczeństwo czai się tuż za rogiem."
+
+ flames_visions_studying_prophecies:0 "Badanie Proroctw"
+ flames_visions_studying_prophecies_desc:0 "Wizje dostrzegane w płomieniach skłoniły tego bohatera do podjęcia duchowej drogi w celu zrozumienia ich znaczenia."
+
+ flames_visions_studying_scriptures:0 "Badanie Starożytnych Tekstów"
+ flames_visions_studying_scriptures_desc:0 "Wizje dostrzegane w płomieniach skłoniły tego bohatera do zgłębiania ich natury przez starożytne teksty."
+
+ flames_visions_fortune:0 "Wizje Fortuny"
+ flames_visions_fortune_desc:0 "Ten bohater jest pewny, że ich ciężka praca w końcu się opłaci."
+
+ flames_visions_glimpse_of_past:0 "Wizje Przeszłości"
+ flames_visions_glimpse_of_past_desc:0 "Ten bohater jest zafascynowany dawnymi imperiami i ich historiami."
+
+ flames_visions_lurking_dangers:0 "Wizje Zdrady"
+ flames_visions_lurking_dangers_desc:0 "Ten bohater stał się ostatnio bardziej czujny."
+
+ flames_visions_hostile_schemes:0 "Wizje Podstępów"
+ flames_visions_hostile_schemes_desc:0 "Ten bohater wierzy, że przewidział swoje udane machinacje."
+
+ flames_visions_falsehoods_revealed:0 "Odkryte Kłamstwa"
+ flames_visions_falsehoods_revealed_desc:0 "Dziwne wizje prowadzą tego bohatera przez niebezpieczeństwa czające się w ciemnościach."
+
+ burned_commoners:0 "Oburzenie Zwykłych Ludzi Spaleniami"
+ burned_commoners_desc:0 "Ludzie w tej prowincji są oburzeni ofiarami spalania dokonywanymi przez władcę tych ziem."
+
+ blood_drained_malus_small_modifier:0 "Mała Utrata Krwi"
+ blood_drained_malus_moderate_modifier_desc:0 "Krew tego bohatera została celowo odessana."
+ blood_drained_malus_large_modifier:0 "Duża Utrata Krwi"
+ blood_drained_malus_small_modifier_desc:0 "$blood_drained_malus_moderate_modifier_desc$"
+ blood_drained_malus_moderate_modifier:0 "Średnia Utrata Krwi"
+ blood_drained_malus_large_modifier_desc:0 "$blood_drained_malus_moderate_modifier_desc$"
+
+ mediocre_trade_deal_modifier:0 "Przeciętna Umowa Handlowa"
+ mediocre_trade_deal_modifier_desc:0 "Ta prowincja zyskała niewielki zwrot z niedawnej umowy handlowej, z wymianą drobnych dóbr i zwykłych towarów."
+ decent_trade_deal_modifier:0 "Solidna Umowa Handlowa"
+ decent_trade_deal_modifier_desc:0 "Ta prowincja zyskała stabilny wzrost z niedawnej umowy handlowej, z wymianą wiarygodnych, ale zwykłych towarów."
+ satisfactory_trade_deal_modifier:0 "Satysfakcjonująca Umowa Handlowa"
+ satisfactory_trade_deal_modifier_desc:0 "Ta prowincja doświadczyła stałych ulepszeń dzięki niedawnej umowie handlowej, z dobrym przepływem cennych towarów."
+ impressive_trade_deal_modifier:0 "Imponująca Umowa Handlowa"
+ impressive_trade_deal_modifier_desc:0 "Ta prowincja zyskała znaczące nagrody dzięki niedawnej umowie handlowej, z wymianą wartościowych towarów."
+ flourishing_trade_deal_modifier:0 "Kwitnąca Umowa Handlowa"
+ flourishing_trade_deal_modifier_desc:0 "Ta prowincja uzyskała ogromną prosperność dzięki niedawnej umowie handlowej, z wymianą rzadkich towarów i rozwijającym się handlem zagranicznym."
+
+ blasphemous_sacrifice_1_modifier:0 "Błędne Ofiary I"
+ blasphemous_sacrifice_2_modifier:0 "Błędne Ofiary II"
+ blasphemous_sacrifice_3_modifier:0 "Błędne Ofiary III"
+ blasphemous_sacrifice_4_modifier:0 "Błędne Ofiary IV"
+ blasphemous_sacrifice_5_modifier:0 "Błędne Ofiary V"
+ blasphemous_sacrifice_6_modifier:0 "Błędne Ofiary VI"
+ blasphemous_sacrifice_7_modifier:0 "Błędne Ofiary VII"
+ blasphemous_sacrifice_8_modifier:0 "Błędne Ofiary VIII"
+ blasphemous_sacrifice_9_modifier:0 "Błędne Ofiary IX"
+ blasphemous_sacrifice_10_modifier:0 "Błędne Ofiary X"
+
+ holy_bonds_broke_truce_modifier:0 "Złamana Święta Rozejm"

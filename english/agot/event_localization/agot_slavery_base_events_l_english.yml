@@ -1,0 +1,18 @@
+﻿l_english:
+ agot_slavery.0101.t:0 "Pierwsze Prawo Braavos"
+ agot_slavery.0101.desc:0 "Tak pochłonięty byłem [ROOT.Char.Custom('IdleActivity')], że nie zauważyłem, kiedy ten nieznajomy wszedł do mojej komnaty. [faceless_man.GetWomanMan] wysuwa się z cienia, a na [faceless_man.GetHerHis] twarzy jest coś złowrogo niepokojącego. #italic Czy to rozpoznanie przyciąga moją uwagę do kącików [faceless_man.GetHerHis] oka — czy coś głęboko, mrocznie nie w porządku?#!\n\n\"Założyciele Braavos byli zbiegłymi niewolnikami z Valyrii, wiesz o tym,\" mówi spokojnie [faceless_man.GetSheHe], zbliżając się do mnie z delikatnym chodem kota. \"Postawili jedno prawo ponad wszystkie inne: Żaden mężczyzna, kobieta ani dziecko w Braavos nigdy nie będzie niewolnikiem, poddanym ani sługą.\"\n\nCzuję, jak pot zbiera się na karku, gdy moje oczy śledzą dłoń [faceless_man.GetWomanMan]. Ostrze, świeżo naostrzone, wysuwa się z [faceless_man.GetHerHis] palców. \"Zdradziłeś to prawo, odrzuciłeś je dla nieuczciwie zdobytych łupów,\" kontynuuje [faceless_man.GetSheHe]. \"A za to musisz służyć Wielotwarzyemu Bogu ... w #bold śmierci#!.\"\n\nJednym ruchem nadgarstka ostrze przeszywa moją szyję — mój ostatni oddech grzęźnie w jasnoczerwonej kałuży pieniącej się na zewnątrz."
+ agot_slavery.0101.a:0 "#weak *bulgotanie*#!"
+
+ agot_slavery.9001.t:0 "Nowi Niewolnicy Zagarnięci z Najazdów"
+ agot_slavery.9001.desc:0 "Wracam z mojego ostatniego najazdu z wieloma nowymi duszami w klatkach, niecierpliwie czekającymi na swój los. Nowe życie w mojej domenie czeka na nich, ich rodziny i domy już zniknęły za horyzontem.\n\nW moich ziemiach jest wiele miejsc, które skorzystają z dodatkowych rąk do pracy. Ale dokąd powinienem ich wysłać?"
+ agot_slavery.9001.a:0 "[option_1.GetName]"
+ agot_slavery.9001.b:0 "[option_2.GetName]"
+ agot_slavery.9001.c:0 "[option_3.GetName]"
+ agot_slavery.9001.d:0 "[option_4.GetName]"
+ agot_slavery.9001.e:0 "[option_5.GetName]"
+ agot_slavery.9001.f:0 "[option_6.GetName]"
+
+ agot_slavery.9003.t:0 "Wyzwoleni Ofiarują Swoje Usługi"
+ agot_slavery.9003.desc:0 "Mój obóz huczy życiem, gdy żołnierze świętują wielkie zwycięstwo, a na wszystkich czeka tak wystawna uczta, jaką tylko udało się przygotować. Jeden z moich kapitanów wchodzi do namiotu, z wyrazem dumy na twarzy. \"[ROOT.Char.GetTitledFirstName], kilku nowych wyzwoleńców prosi o audiencję.\" Kiwnę głową, spodziewając się fali podziękowań, jakie z pewnością mi złożą byli niewolnicy.\n\n[freedman_1.GetFirstName] podchodzi z innymi wyzwoleńcami u boku, zatrzymują się tuż przede mną i klękają. \"Mój [ROOT.Char.GetLadyLord|U]! Kiedy handlarze niewolników nas porwali, zniszczyli nasze domy, wymordowali nasze rodziny...\" [freedman_1.GetFirstNameNoTooltip|U] zerka na znajomą twarz [freedman_2.GetFirstName] obok [freedman_1.GetHerHim], jakby czerpał z [freedman_2.GetHerHis] siłę, powstrzymując łzy.\n\n\"Dziękujemy ci za uwolnienie nas z ich rąk, ale nie mamy dokąd wracać. Błagamy pokornie, abyś przyjął nas do swojej służby. Jesteśmy bardzo biegli w naszych rzemiosłach, jestem pewien, że znajdziesz dla nas zastosowanie!\""
+ agot_slavery.9003.a:0 "Oczywiście, że znajdę dla was miejsce!"
+ agot_slavery.9003.b:0 "Powinniście odbudować swoje życie, zamiast szukać nowego pana."

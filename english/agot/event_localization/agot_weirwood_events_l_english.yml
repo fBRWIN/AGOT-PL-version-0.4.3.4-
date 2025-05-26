@@ -1,0 +1,23 @@
+﻿l_english:
+ agot_weirwood_events.0001.t:0 "Drzewo Sercowe"
+ agot_weirwood_events.0001.desc:0 "Niezależnie od wyznania, niewiele miejsc na świecie dorównuje sercu gaju bogów pod względem spokoju i nieziemskiej samotności. Ale to nie jest zwykły relaksujący ogród do spacerów — tutaj rządzą Starzy Bogowie.\n\nKiedy zbliżam się do drzewa sercowego, pragnę tylko..."
+ agot_weirwood_events.0001.a:0 "...błogosławieństwa boskości."
+ agot_weirwood_events.0001.b:0 "...dobrego zdrowia."
+ agot_weirwood_events.0001.c:0 "...spokoju."
+ agot_weirwood_events.0001.d:0 "...przewodnictwa."
+
+ ############
+ # TOOLTIPS #
+ ############
+
+ gain_piety_tooltip:0 "Moja pobożność nie przechodzi niezauważona"
+ wounds_turn_to_cripple_tooltip:0 "Twoje rany całkowicie się goją, ale stajesz się [GetTrait('crippled').GetName( GetNullCharacter )]"
+
+ #############
+ # MODIFIERS #
+ #############
+
+ weirwood_fertility_bonus_modifier:0 "Błogosławieństwo Płodności z Weirwood"
+ weirwood_minor_health_bonus_modifier:0 "Małe Błogosławieństwo Zdrowia z Weirwood"
+ weirwood_medium_health_bonus_modifier:0 "Średnie Błogosławieństwo Zdrowia z Weirwood"
+ weirwood_stress_modifier:0 "Pokój Weirwood"

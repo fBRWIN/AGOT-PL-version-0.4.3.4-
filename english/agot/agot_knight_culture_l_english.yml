@@ -1,0 +1,24 @@
+﻿l_english:
+ knight_captain_no_tooltip:0 "Kapitan"
+ knight_captain_no_tooltip_plural:0 "Kapitanowie"
+
+ knight_hero_no_tooltip:0 "Kapitan"
+ knight_hero_no_tooltip_plural:0 "Kapitanowie"
+
+
+ knight_captain_no_tooltip_lowercase:0 "kapitan"
+ knight_captain_no_tooltip_lowercase_plural:0 "kapitanowie"
+ knight_captain_no_tooltip_lowercase_plural_possessive:0 "kapitanów"
+ knight_captain_no_tooltip_lowercase_adjective:0 "kapitański"
+
+ knight_hero_no_tooltip_lowercase:0 "kapitan"
+ knight_hero_no_tooltip_lowercase_plural:0 "kapitanowie"
+ knight_hero_no_tooltip_lowercase_plural_possessive:0 "kapitanów"
+ knight_hero_no_tooltip_lowercase_adjective:0 "kapitański"
+
+ knight_captain:0 "[Concept( 'knight', '$knight_captain_no_tooltip|q$' )|E]"
+ knight_captain_plural:0 "[Concept( 'knight', '$knight_captain_no_tooltip_plural|q$' )|E]"
+
+ knight_hero:0 "[Concept( 'knight', '$knight_hero_no_tooltip|q$' )|E]"
+ knight_hero_plural:0 "[Concept( 'knight', '$knight_hero_no_tooltip_plural|q$' )|E]"
+

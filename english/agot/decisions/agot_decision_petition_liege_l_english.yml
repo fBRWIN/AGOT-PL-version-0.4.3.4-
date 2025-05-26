@@ -1,0 +1,11 @@
+﻿l_english:
+ # Tytuł Paramount
+ petition_liege_decision_option_paramount:0 "Poproś o Paramount\n#low Przyznaj Tytuł Lorda Paramount [title|E]#!"
+ petition_liege_paramount_desc:0 "Poproś [ROOT.Char.GetLiege.GetTitledFirstName], aby przyznał Ci tytuł Lorda Paramount [title|E]"
+ petition_liege_paramount_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_paramount_tt:0 "#X Żadne z Twoich [claims|E] nie są trzymane przez Twojego [liege|E], albo nie mogą się podzielić [title|E]#!"
+ # Wzrost Legitymacji Rodu
+ petition_liege_decision_option_legitimate_house_boost:0 "Wesprzyj Roszczenie Rodu\n#low Poprzyj jako [agot_legitimate_house|E]#!"
+ petition_liege_legitimate_house_boost_desc:0 "Poproś [ROOT.Char.GetLiege.GetTitledFirstName], aby poparł roszczenie Twojego rodu do bycia [agot_legitimate_house|E] w [ROOT.Char.GetPrimaryTitle.GetName]"
+ petition_liege_legitimate_house_boost_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_legitimate_house_boost_tt:0 "#X Twój ród jest już legitymacją, już został poparty lub Twój liege nie jest Legitymacją Rodu dla swojego głównego tytułu#!"

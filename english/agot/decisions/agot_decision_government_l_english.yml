@@ -1,0 +1,36 @@
+﻿l_english:
+
+
+# decyzja i efekty konwersji królestwa piratów na feudalizm i związane z tym wydarzenia
+
+ # decyzja przyjęcia feudalizmu
+ agot_pirate_convert_whole_realm_to_feudalism_decision: "Przyjąć Feudalizm"
+ agot_pirate_convert_whole_realm_to_feudalism_decision_desc: "W miarę jak moje królestwo rośnie, rośnie również wyzwanie w jego kontrolowaniu. Jeśli [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ma nadal się rozwijać, musimy porzucić stare sposoby i przejść na feudalizm."
+ agot_pirate_convert_whole_realm_to_feudalism_decision_confirm: "Przyjąć Feudalne Zasady"
+ agot_pirate_convert_whole_realm_to_feudalism_decision_tooltip: "Zmień typ rządy na [GetGovernment( 'lp_feudal_government' ).GetName] lub [GetGovernment( 'feudal_government' ).GetName]"
+ pirate_vassals_will_convert: "Moi wasale [GetGovernment( 'pirate_government' ).GetName] przejdą na [GetGovernment( 'feudal_government' ).GetName]"
+ pirate_vassals_will_convert_lp: "Moi wasale [GetGovernment( 'pirate_government' ).GetName] przejdą na [GetGovernment( 'lp_feudal_government' ).GetName]"
+ msg_vassal_common_feudalised: "Wasal stał się Feudalny"
+ msg_vassal_common_feudalised_desc: "Twój wasal, [ROOT.Char.GetShortUIName], porzucił [ROOT.Char.GetHerHis] [GetGovernment( 'pirate_government' ).GetNameNoTooltip] i stał się [GetGovernment( 'feudal_government' ).GetNameNoTooltip]"
+ msg_vassal_lp_feudalised: "Wasal stał się Feudalny"
+ msg_vassal_lp_feudalised_desc: "Twój wasal, [ROOT.Char.GetShortUIName], porzucił [ROOT.Char.GetHerHis] [GetGovernment( 'pirate_government' ).GetNameNoTooltip] i stał się [GetGovernment( 'lp_feudal_government' ).GetNameNoTooltip]"
+ all_pirate_holding_will_change: "Wszystkie [pirate_den_holding|E] w królestwie staną się [castle_holdings|E]"
+ agot_pirate_events.0001.t: "Nowa Era"
+ agot_pirate_events.0001.desc: "Stare sposoby służyły nam dobrze, i zawsze będziemy je szanować. Niemniej jednak, jako [ROOT.Char.GetTitleAsNameNoTooltip] [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], doszedłem do wniosku, że musimy przyjąć feudalizm i jego zasady, jeśli chcemy nadal prosperować. To kluczowy krok na naszej drodze do wielkości!"
+ agot_pirate_events.0001.a: "Niech żyje [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ agot_pirate_events.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_converting_to_admin_kings_become_lp_feudal:0 "Każdy [kingdom|E] [title_tier|E] [vassal|E] zmieni [government|E] na [GetGovernment( 'lp_feudal_government' ).GetName]"
+
+ # decyzja przyjęcia zwyczajów południowych
+ agot_adopt_kneeler_ways_decision:0 "Dostosować się do południowych zwyczajów"
+ agot_adopt_kneeler_ways_decision_desc:0 "Życie w surowej pustce Dalekiej Północy uczyniło nas bezwzględnymi i nieugiętymi, bardzo różniącymi się od tych, którzy żyją po drugiej stronie Muru. Teraz, gdy osiedliliśmy się wśród nich, może warto dostosować się do ich sposobu życia, prawa i zwyczajów."
+ agot_adopt_kneeler_ways_decision_confirm:0 "Czas rozluźnić kolana."
+ agot_adopt_kneeler_ways_decision_tooltip:0 "Twoi ludzie przyjmą zwyczaje poddanych Żelaznego Tronu. To umożliwi więcej interakcji z władcami na południe od Muru, ale odbierze ci korzyści wynikające z bycia wolnym ludem."
+ is_culture_head:0 "Jesteś głową swojej kultury"
+ hybridized_with_kneelers:0 "Twoja kultura została połączona z tą istniejącą na południe od Muru"
+ capital_south_of_the_wall:0 "Twoja stolica jest na południe od Muru"
+ agot_major_decisions_events.1003.t:0 "Po Drugiej Stronie..."
+ agot_major_decisions_events.1003.desc:0 "Nasze wielopokoleniowe marzenie o ucieczce przed surową rzeczywistością życia po złej stronie Muru zostało spełnione. Czy nie byłoby to przejawem arogancji, by dumnie kontynuować życie tak, jak żyliśmy tam, lekceważąc prawa i zwyczaje naszych nowych sąsiadów? Ludzie po południowej stronie Muru mogą być bojaźliwi i miękcy, ale ich życie jest długie i wygodne. Oni wyraźnie wiedzą, jak najlepiej korzystać z tej przyjemnej ziemi i jeśli ich prawo im w tym pomaga, to przyjmiemy je również."
+ agot_major_decisions_events.1003.a:0 "W stronę nowej, łagodniejszej przyszłości!"
+ every_freefolk_ruler_tt:0 "Każdy Wódz Wolnych Ludzi"
+

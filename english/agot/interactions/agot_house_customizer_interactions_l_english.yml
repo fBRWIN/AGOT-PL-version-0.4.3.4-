@@ -1,0 +1,6 @@
+﻿l_english:
+ #interakcje kontroli urodzeń
+ agot_house_customizer_select_interaction:0 "Dołącz do ich rodu"
+ agot_house_customizer_select_interaction_desc:0 "Dołącz do ich rodu za pomocą kreatora rodu"
+ agot_house_customizer_set_birthplace_interaction:0 "Ustaw Miejsce Urodzenia"
+ agot_house_customizer_set_birthplace_interaction_desc:0 "Wybierz jedno z hrabstw tej postaci jako swoje miejsce urodzenia"

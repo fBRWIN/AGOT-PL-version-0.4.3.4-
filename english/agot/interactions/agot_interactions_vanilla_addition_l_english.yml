@@ -1,0 +1,38 @@
+﻿l_english:
+ MEGA_WAR_SWITCH_SIDES:0 "Zmusz do zmiany strony"
+ SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] niechętnie zmienia stronę: $VALUE|=+0$"
+ SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] dziedzic został wzięty do niewoli: $VALUE|=+0$"
+ SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] jest lojalny(a): $VALUE|=+0$"
+ SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] jest nielojalny(a): $VALUE|=+0$"
+ SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] nie kontroluje [recipient.GetHerHis] stolicy: $VALUE|=+0$"
+ SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] strona przegrywa wojnę: $VALUE|=+0$"
+
+ AGOT_REALM_MEGAWAR_REASON:0 "Królestwo w wojnie: $VALUE|=+0$"
+
+ DESIGNATE_HEIR_HAS_CHILD:0 "Masz już dziedzica!"
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Spróbuj nawrócić [secondary_recipient.GetShortUIName] na ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Spróbuj nawrócić [secondary_actor.GetShortUIName] na ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Spróbuj nawrócić [secondary_recipient.GetShortUIName] na ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Spróbuj nawrócić [secondary_actor.GetShortUIName] na ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+
+ childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] nauczył mnie tak wiele o zwyczajach [guardian.GetHerHis] ludu— o #EMP naszym#! ludzie, ponieważ nie tylko wyznaję wiarę [guardian.GetFaith.GetAdjective], ale czuję się [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+ childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] nauczył mnie tak wiele o zwyczajach [guardian.GetHerHis] ludu— o #EMP naszym#! ludzie, ponieważ nie tylko wyznaję wiarę [guardian.GetFaith.GetAdjective], ale czuję się [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
+
+ childhood_education.1012.wv.desc:0 "Z bieżącym kształceniem [ward.GetHerHis] w wierzeniach i zwyczajach mojego ludu, [ward.GetTitledFirstName] powiedział mi, że [ward.GetSheHe] czuje się jak dobry, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+ childhood_education.1012.ev.desc:0 "Z bieżącym kształceniem [ward.GetHerHis] w wierzeniach i zwyczajach mojego ludu, [ward.GetTitledFirstName] powiedział mi, że [ward.GetSheHe] czuje się jak dobry, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
+
+ childhood_education.1031.wv.desc:0 "Może urodziłem się [ward.GetCulture.GetName], ale nie mogę zaprzeczyć, że już nie wiem, co to właściwie oznacza. Po naukach [guardian.GetTitledFirstNamePossessive] czuję się [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] przez całą moją istotę."
+ childhood_education.1031.ev.desc:0 "Może urodziłem się [ward.GetCulture.GetName], ale nie mogę zaprzeczyć, że już nie wiem, co to właściwie oznacza. Po naukach [guardian.GetTitledFirstNamePossessive] czuję się [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] przez całą moją istotę."
+
+ childhood_education.1032.wv.desc:0 "Po moich długich naukach młodego [ward.GetTitledFirstName], byłem niezmiernie szczęśliwy, kiedy [ward.GetSheHe] powiedział mi, że uważa [ward.GetSheHe] za [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]!"
+ childhood_education.1032.ev.desc:0 "Po moich długich naukach młodego [ward.GetTitledFirstName], byłem niezmiernie szczęśliwy, kiedy [ward.GetSheHe] powiedział mi, że uważa [ward.GetSheHe] za [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]!"
+
+ agot_strip_knighthood:0 "Pozbądź tytułu rycerskiego"
+ NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] nie jest religijnie związany(a) z [recipient.GetHerHis] tytułem rycerskim: $VALUE|=+0$"
+ RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] jest religijnie związany(a) z rycerstwem: $VALUE|=+0$"
+
+ agot_send_to_nw:0 "Wyślij do [nw_govt|E]"
+ RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "Nie możesz wygnać postaci i jednocześnie wysłać ich do Nocnej Straży."
+ RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "Nie możesz wygnać postaci i jednocześnie wysłać ich do Nocnej Straży."
+ NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] boi się przyjąć czarne: $VALUE|=+0$"

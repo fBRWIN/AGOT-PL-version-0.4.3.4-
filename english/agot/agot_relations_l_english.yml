@@ -1,0 +1,26 @@
+﻿l_english:
+ #Scripted Relations
+ agot_squire:0 "Giermek"
+ agot_knight:0 "Rycerz"
+ agot_personal_coa_slave:0 "Osobisty Posiadacz Herbów"
+ paramour:0 "Kochanek/Kochanka"
+ bodyguard:0 "Ochroniarz"
+ bloodrider:0 "Jeździec Krwi"
+ agot_dragon:0 "Smok"
+
+ agot_squire_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] giermek"
+ agot_knight_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] rycerz"
+ paramour_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] kochanek/kochanka"
+ bodyguard_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] ochroniarz"
+ bloodrider_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] jeździec krwi"
+ agot_dragon_desc:0 "To jest [CHARACTER.GetShortUINamePossessiveNoTooltip] związany [smok|E]"
+
+ relation_maester_female:0 "maester"
+ relation_maester_male:0 "maester"
+ relation_maester_female_possessive:0 "maestra"
+ relation_maester_male_possessive:0 "maestra"
+
+ relation_bloodrider_female:0 "jeździec krwi"
+ relation_bloodrider_male:0 "jeździec krwi"
+ relation_bloodrider_female_possessive:0 "jeźdźca krwi"
+ relation_bloodrider_male_possessive:0 "jeźdźca krwi"

@@ -1,0 +1,21 @@
+﻿l_english:
+ agot_gold_company_formation.0001.t:0 " Złota Kompania"
+ agot_gold_company_formation.0001.desc:0 " [disgruntled_merc.GetName] podchodzi do mnie, z twarzą pełną gniewu i dłonią zaciśniętą na rękojeści miecza.\n\n„[ROOT.GetCharacter.GetName], zawiodłeś tę kompanię po raz ostatni. Odchodzę z twojej służby i zakładam własną kompanię, taką, którą ludzie nauczą się szanować."
+ agot_gold_company_formation.0001.desc_flavor_base:0 " Co więcej, uwolniony od głupoty twojego dowództwa, mogę wreszcie skupić się na tym, by pewnego dnia odzyskać"
+ agot_gold_company_formation.0001.desc_self_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold moje utracone tytuły#! — czego nie dałoby się osiągnąć pod rządami [ROOT.Char.GetPrimaryTitle.GetName]\""
+ agot_gold_company_formation.0001.desc_family_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold tytuły mojej rodziny#! — czego nie dałoby się osiągnąć pod rządami [ROOT.GetCharacter.GetPrimaryTitle.GetName].\""
+ agot_gold_company_formation.0001.desc_blackfyre_loyalist:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold utracone tytuły Czarnego Smoka#! — czego nie dałoby się osiągnąć pod rządami [ROOT.GetCharacter.GetPrimaryTitle.GetName].\""
+ agot_gold_company_formation.0001.a:0 " Zdrajca!"
+ agot_gold_company_formation.0001.b:0 ""
+
+ agot_gold_company_formation.0002.t:0 " Złota Kompania"
+ agot_gold_company_formation.0002.desc:0 " #italic „Nasze słowo jest tak dobre jak złoto.”#!\n\nZbrojni jeźdźcy, zawzięci kusznicy, potężne katapulty i więcej — pojawiła się nowa kompania najemników: Złota Kompania.\n\nZłota Kompania złożyła przysięgę służby każdemu, kto może sobie na nich pozwolić. Ale w odróżnieniu od innych najemników, ich prawdziwa lojalność należy do Czarnego Smoka, rodu Blackfyre.\n\nNie spoczną, dopóki Czarny Smok nie zostanie ukoronowany."
+ agot_gold_company_formation.0002.a:0 " Co to oznacza dla Westeros?"
+ agot_gold_company_formation.0002.b:0 " Ciekawe, co zdołają osiągnąć..."
+
+ agot_beg_bittersteel_to_make_golden_company:0 " Pod złotem — Gorzka Stal"
+ agot_beg_bittersteel_to_make_golden_company_desc:0 " Gorzka Stal ciężko pracował dla sprawy Blackfyre’ów... jako najemnik. Jednak prywatnie wyraził obawy, że poparcie dla naszej sprawy wśród wygnańców słabnie, gdy są zmuszani służyć w wielu różnych kompaniach. Może nadszedł czas, by powstała nowa kompania... taka, która zawsze będzie służyć Czarnemu Smokowi."
+ agot_beg_bittersteel_to_make_golden_company_effect:0 " Gorzka Stal utworzy Złotą Kompanię"
+ agot_beg_bittersteel_to_make_golden_company_confirm:0 " Utwórz Złotą Kompanię"
+ agot_beg_bittersteel_to_make_golden_company_tooltip:0 "$agot_beg_bittersteel_to_make_golden_company_effect$ — najemna kompania możliwa do wynajęcia"
+ AGOT_PREFIX_THE:0 " The"

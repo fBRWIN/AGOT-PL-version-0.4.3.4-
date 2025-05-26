@@ -1,0 +1,32 @@
+﻿ nights_watch_succession_law:0 "Wybory Lorda Komendanta Nocnej Straży"
+ nights_watch_succession_law_subname:0 "Nocna Straż"
+
+ nights_watch_elective_candidates:0 "Czarni Bracia"
+ nights_watch_elective_candidates_tooltip:0 "Wszyscy członkowie Nocnej Straży mogą zostać nowym Lordem Komendantem"
+ nights_watch_elective_electors:0 "Czarni Bracia"
+ nights_watch_elective_electors_tooltip:0 "Wszyscy członkowie Nocnej Straży mogą głosować na nowego Lorda Komendanta"
+
+ silent_sisterhood_succession_law:0 "Wybory w Milczących Siostrach"
+ silent_sisterhood_succession_law_subname:0 "Milczące Siostry"
+
+ silent_sisterhood_elective_candidates:0 "Milczące Siostry"
+ silent_sisterhood_elective_candidates_tooltip:0 "Wszystkie Milczące Siostry mogą zostać nową Milczącą Matką"
+ silent_sisterhood_elective_electors:0 "Milczące Siostry"
+ silent_sisterhood_elective_electors_tooltip:0 "Wszystkie członkinie Milczącego Bractwa mogą głosować na nową Milczącą Matkę"
+
+ pirate_succession_law:0 "Wybory Piratów"
+ pirate_succession_law_subname:0 "Pirat"
+
+ pirate_elective_candidates:0 "Bliska Rodzina i Elektorzy"
+ pirate_elective_candidates_tooltip:1 "Aby być ważnym kandydatem w wyborach piratów, postać musi spełnić jeden z następujących warunków:\n$EFFECT_LIST_BULLET$Być prawowitym członkiem [close_family|E] obecnego władcy, który nie jest w linii dziedziczenia teokracji lub republiki. Dzieci kandydata nie mogą być nominowane\n$EFFECT_LIST_BULLET$Być ważnym feudalnym [elector|E] tytułu"
+ pirate_elective_electors:0 "Władca i Wasale"
+ pirate_elective_electors_tooltip:0 "Aby być ważnym [elector|E] w wyborach piratów, wasal musi spełnić wszystkie następujące warunki:\n$EFFECT_LIST_BULLET$Być wasalem [de_jure|E] tytułu\n$EFFECT_LIST_BULLET$Być bezpośrednim wasalem tytułu\n$EFFECT_LIST_BULLET$Być najwyżej jednym lub dwoma [ranks|E] niżej niż tytuł"
+ tooltip_pirate_elector_vote_strong:0 "[candidate.GetSheHe|U] jest silnym [candidate.GetWomanMan]: $VALUE|=+0$"
+ tooltip_pirate_elector_vote_weak:0 "[candidate.GetSheHe|U] jest słabym [candidate.GetWomanMan]: $VALUE|=+0$"
+ tooltip_pirate_elector_vote_strong_warrior:0 "[candidate.GetSheHe|U] jest zręcznym wojownikiem: $VALUE|=+0$"
+ tooltip_pirate_elector_vote_pathetic_warrior:0 "[candidate.GetSheHe|U] jest żałosnym wojownikiem: $VALUE|=+0$"
+ tooltip_pirate_elector_at_war:0 "[candidate.GetSheHe|U] jest z nami w stanie wojny: $VALUE|=+0$"
+
+ tooltip_agot_vote_legitimate_house:0 "[candidate.GetSheHe|U] jest członkiem [agot_legitimate_house|E]: $VALUE|=+0$"
+
+ agot_ineligible_to_rule: "Niekwalifikujący się do rządzenia"

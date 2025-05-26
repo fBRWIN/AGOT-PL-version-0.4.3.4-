@@ -1,0 +1,8 @@
+﻿l_french:
+ send_to_nightswatch_interaction:0 "Envoyer à la Garde de Nuit #weak (Dynastie)#!"
+ send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$ a envoyé [recipient.GetShortUINameNoTooltip] servir de bouclier aux hommes de la Garde de Nuit. Ils n’aura pas d’enfants et n’aura pas de terres, mais c’est un devoir sacré et honorable."
+ send_to_nightswatch_interaction_toast:1 "[recipient.GetShortUIName] a quitté la Garde de Nuit "
+ send_to_nightswatch_interaction_toast_desc:0 "Et à présent sa garde commence."
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[recipient.GetSheHe] n'est pas autorisé à servir comme [knight|E] dans [court|E]"
+ send_to_nightswatch_interaction_effect_desc:1 "#weak [CHARACTER.Custom('FR_le_Char_U_Pi')|U][CHARACTER.GetShortUIName] quittera votre cour pour servir dans la Garde de Nuit. [CHARACTER.Custom('FR_IlElle')|U] renoncera à tout héritage et à tout ses droits afin de servir pour la défense du royaume.#!"
+ send_to_nightswatch_interaction_extra_icon:0 "$hook_extra_icon$"

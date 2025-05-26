@@ -1,0 +1,8 @@
+﻿l_english:
+ at_artifact_price_qwa_desc: "Jakość i Bogactwo"
+ at_artifact_price_durability_desc: "Trwałość"
+ at_artifact_price_destroy_desc: "Zwykły lub Mistrzowski"
+ at_artifact_price_unique_desc: "Unikalny"
+ at_artifact_ask_price_player_desc: "Marża Zysku"
+ at_artifact_ask_price_ai_greed_desc: "Chciwość Sprzedawcy"
+ at_artifact_bid_price_ai_greed_desc: "Chciwość Kupującego"

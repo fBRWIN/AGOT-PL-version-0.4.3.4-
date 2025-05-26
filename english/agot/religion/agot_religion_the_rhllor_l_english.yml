@@ -1,0 +1,36 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_rhllor_religion:0 "Serce Ognia"
+ the_rhllor_religion_adj:0 "R'hllor"
+ the_rhllor_religion_adherent:0 "R'hllorianin"
+ the_rhllor_religion_adherent_plural:0 "R'hllorianie"
+ the_rhllor_religion_desc:0 "Pochodzący z Dalekiego Wschodu Essos kult R'hllora, Serca Ognia, rozprzestrzenił się po całym znanym świecie. Wyznawcy uważają za swój obowiązek szerzyć słowo oraz przygotować świat na ostateczną konfrontację między R'hllorem a Wielkim Innym."
+
+### Faiths ###
+#Asshai
+ rhllor_asshai:0 "Serce Dymu i Cienia"
+ rhllor_asshai_adj:0 "Serce Cienia"
+ rhllor_asshai_adherent:0 "Azorianin"
+ rhllor_asshai_adherent_plural:0 "Azorianie"
+ rhllor_asshai_desc:0 "Kult R'hllora na Dalekim Wschodzie koncentruje się wokół Asshai i starożytnych proroctw o odrodzeniu Azora Ahai. Ten odłam Serca Ognia zawiera w sobie mroczniejsze aspekty samego Asshai oraz Cienistych Więżących, którzy tam mieszkają."
+
+#Free Cities
+ rhllor_fc:0 "R'hllor"
+ rhllor_fc_adj:0 "R'hllor"
+ rhllor_fc_adherent:0 "R'hllorianin"
+ rhllor_fc_adherent_plural:0 "R'hllorianie"
+ rhllor_fc_desc:0 "Kult R'hllora, Pana Światła i Serca Ognia, rozprzestrzenił się po całym Essos, a jego wyznawców można znaleźć w każdym Wolnym Mieście. Wierni zbierają się wokół ognisk, mając nadzieję na wizje zesłane przez swego boga. Sekta kierowana jest przez Najwyższego Kapłana w Volantis."
+
+#Westerosi
+ rhllor_fots:0 "Czerwony Bóg"
+ rhllor_fots_adj:0 "Czerwony Bóg"
+ rhllor_fots_adherent:0 "R'hllorysta"
+ rhllor_fots_adherent_plural:0 "R'hlloryści"
+ rhllor_fots_desc:0 "Gdy kult R'hllora przybył z Wolnych Miast do Westeros, zaczął przenikać lokalną kulturę, zachowując jednak kluczowe zwyczaje Wschodu. Zamiast przysięgać przed Siódemką, rycerze składają teraz przysięgi przed paleniskiem i ślubują wierność Czerwonemu Bogu."
+
+#Bone Mountains
+ rhllor_hyrkoon:0 "Serce Ognia i Ostrza"
+ rhllor_hyrkoon_adj:0 "Serce Ostrza"
+ rhllor_hyrkoon_adherent:0 "Heroista"
+ rhllor_hyrkoon_adherent_plural:0 "Heroiści"
+ rhllor_hyrkoon_desc:0 "W Górach Kości Azor Ahai znany jest jako Hyrkoon Bohater. To od niego wywodzi się Patriarchat Hyrkoona, a także Wielcy Ojcowie i wojowniczki z trzech ostatnich bastionów-miast. Wiedzą, jaką cenę niesie wojna — i stawią jej czoła ogniem i ostrzem, rubinami i żelazem."

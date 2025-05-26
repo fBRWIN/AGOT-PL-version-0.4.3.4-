@@ -1,0 +1,45 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_shanties_religion:0 "Szanty Bazyliszków i Wiwer"
+ the_shanties_religion_adj:0 "Szanty"
+ the_shanties_religion_adherent:0 "Szantysta"
+ the_shanties_religion_adherent_plural:0 "Szantyści"
+ the_shanties_religion_desc:0 "W krainach Sothoryos oraz na wyspach wzdłuż jego wybrzeża czci się wielu dziwnych i zróżnicowanych bogów. Tym, co łączy wszystkie te praktyki, są szanty — rozpowszechniające ich kult i służące wyznawcom do zaspokajania ich mrocznego głodu."
+
+ shanty_base_desc:0 "Wśród Wysp Bazyliszkowych i krain Sothoryos nie znajdziemy pisanych kronik królestw, ludów ani nawet religii. Jednakże wielkie szanty jednoczą i wiążą różne ludy, nawet te, które nie pochodzą z południowego kontynentu. Te pieśni przybierają niemal filozoficzny i religijny charakter, zawierając często wersety z wymaganiami lub pożądanym zachowaniem."
+
+ ### Faiths ###
+ #Skull Shanty
+ shanty_basilisks:0 "Szanta Czaszek"
+ shanty_basilisks_adj:0 "Szanta Czaszek"
+ shanty_basilisks_adherent:0 "Czaszkarz"
+ shanty_basilisks_adherent_plural:0 "Czaszkarze"
+ shanty_basilisks_desc:0 "$shanty_base_desc$\nJedna z takich szant, znana jako Szanta Czaszek, nakazuje korsarzom i innym ludziom przynosić czaszki zabitych przez siebie ofiar na Wyspę Czaszek, gdzie są one składane w ramach ceremonii religijnej."
+
+ #Toad Shanty
+ shanty_toad:0 "Szanta Ropuchy"
+ shanty_toad_adj:0 "Szanta Ropuchy"
+ shanty_toad_adherent:0 "Ropuchowiec"
+ shanty_toad_adherent_plural:0 "Ropuchowcy"
+ shanty_toad_desc:0 "$shanty_base_desc$\nJedna z takich szant, znana jako Szanta Ropuchy, oddaje cześć wielkiemu posągowi ropuchy wykonanemu z oleistego czarnego kamienia."
+
+ #Brindled Shanty
+ shanty_brindle:0 "Szanta Pręgowana"
+ shanty_brindle_adj:0 "Szanta Pręgowana"
+ shanty_brindle_adherent:0 "Wybrzeżanin"
+ shanty_brindle_adherent_plural:0 "Wybrzeżanie"
+ shanty_brindle_desc:0 "$shanty_base_desc$\nJedna z takich szant, znana jako Szanta Pręgowana, wyznacza zasady działania ludów wybrzeża Sothoryos i pełni dla nich zarówno rolę prawa, jak i religii."
+
+ #Black Shanty
+ shanty_black:0 "Czarna Szanta"
+ shanty_black_adj:0 "Czarna Szanta"
+ shanty_black_adherent:0 "Yeenita"
+ shanty_black_adherent_plural:0 "Yeenici"
+ shanty_black_desc:0 "$shanty_base_desc$\nJedna z takich szant, znana jako Czarna Szanta, prowadzi Sothoryjczyków do kultu Yeen — wielkiego opuszczonego miasta Sothoryos. Miasto, wykonane z oleistego czarnego kamienia, pozostaje nietknięte przez pochłaniającą je dżunglę i sprawia, że każdy przybysz czuje się nieswojo."
+
+ #Green Shanty
+ shanty_greenhell:0 "Zielona Szanta"
+ shanty_greenhell_adj:0 "Zielona Szanta"
+ shanty_greenhell_adherent:0 "Zieleniarz"
+ shanty_greenhell_adherent_plural:0 "Zieleniarze"
+ shanty_greenhell_desc:0 "$shanty_base_desc$\nW głębokich dżunglach Zielonego Piekła, gdzie natura jest przekleństwem dla człowieka, choroby są powszechne i nieuleczalne, a człowiek nie jest już najwyższym drapieżnikiem — tubylcy wierzą, że życie musi trwać... niezależnie od kosztu."

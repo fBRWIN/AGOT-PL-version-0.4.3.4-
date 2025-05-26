@@ -1,0 +1,5 @@
+﻿l_french:
+ agot_mega_war_declare_independence_decision:0 "Déclarer l'indépendance"
+ agot_mega_war_declare_independence_decision_desc:0 "Je vais déclarer mon indépendance vis-à-vis de [ROOT.Var('pre_war_liege').Char.GetTitledFirstName]. Cependant, [ROOT.Var('pre_war_liege').Char.GetSheHe] pourrait ne pas apprécier ma séparation du royaume et tenter de m'y ramener par la force. Certains de mes vassaux pourraient également remettre en question leur loyauté..."
+ agot_mega_war_declare_independence_decision_tooltip:0 "Vous deviendrez un royaume complètement indépendant, ou vous serez considéré comme un rebelle dans une #R guerre#! contre votre seigneur lige."
+ agot_mega_war_declare_independence_decision_confirm:0 "Le moment est venu de me séparer !"

@@ -1,0 +1,15 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_liturgies_religion:0 "Liturgie Srebrnego Morza"
+ the_liturgies_religion_adj:0 "Liturgie"
+ the_liturgies_religion_adherent:0 "Petycjonista"
+ the_liturgies_religion_adherent_plural:0 "Petycjoniści"
+ the_liturgies_religion_desc:0 "Bogowie Liturgii istnieli już przed Długą Nocą i przetrwali aż do dziś. Są starożytni i potężni, nawet jeśli ich wyznawcy zostali zdziesiątkowani."
+
+ ### Wiary ###
+ # Setka Bogów
+ sarnori_faith:0 "Setka Bogów Srebrnego Morza"
+ sarnori_faith_adj:0 "Setka Bogów"
+ sarnori_faith_adherent:0 "Petycjonista"
+ sarnori_faith_adherent_plural:0 "Petycjoniści"
+ sarnori_faith_desc:0 "Setka Bogów niegdyś żyła wśród świata, a ich głosami były Królowe Rybaczek, które prowadziły ludy świata ku dobrobytowi. Lecz od czasu Długiej Nocy i śmierci ostatniej Królowej Rybaczki Setka Bogów opuściła świat, a teraz to Wyznawcy Liturgii podtrzymują wiarę, przygotowując się na ich powrót."

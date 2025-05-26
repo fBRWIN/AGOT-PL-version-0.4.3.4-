@@ -1,0 +1,5 @@
+﻿l_french:
+ ub_inherited_friendship:0 "[TARGET_CHARACTER.GetShortUIName|U], héritier de [TARGET_CHARACTER_2.GetShortUIName], est devenu ami avec [CHARACTER.GetShortUIName|U]."
+ ub_inherited_friendship_corresponding:0 "[CHARACTER.GetShortUIName|U], héritier de [TARGET_CHARACTER_2.GetShortUIName], est devenu ami avec [TARGET_CHARACTER.GetShortUIName|U]."
+ ub_inherited_rivalry:0 "[TARGET_CHARACTER.GetShortUIName|U], héritier de [TARGET_CHARACTER_2.GetShortUIName], n'a pas pu laisser la rancœur entre son prédécesseur et [CHARACTER.GetShortUIName|U] rester non résolu."
+ ub_inherited_rivalry_corresponding:0 "[CHARACTER.GetShortUIName|U], héritier de [TARGET_CHARACTER_2.GetShortUIName], n'a pas pu laisser la rancœur entre son prédécesseur et [TARGET_CHARACTER.GetShortUIName|U] rester non résolu."

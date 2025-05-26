@@ -1,0 +1,18 @@
+﻿l_english:
+
+ promote_rule_intent:0 "Promowanie Rządów"
+ promote_rule_intent_desc:0 "Zamierzasz wykorzystać swoją koronację jako sposób na promowanie swojej [legitymacji|E] i poprawienie [opinii|E] swoich [wasali|E]."
+
+ raise_dynasty_prestige_intent:0 "Zwiększenie Prestiżu Rodu"
+ raise_dynasty_prestige_intent_desc:0 "Zamierzasz wykorzystać to zgromadzenie jako sposób na promowanie reputacji swojego [rodu|E] i zwiększenie [prestiżu_rodu|E]."
+ raise_dynasty_prestige_intent_not_valid_desc:0 "Nie jesteś głową rodu."
+
+ legitimize_bastard_intent:0 "Staranie się o Legitymizację Bastyda"
+ legitimize_bastard_intent_desc:0 "Zamierzasz wykorzystać to zgromadzenie jako sposób na legitymizację [bastyda|E] swojego [rodu|E] za pomocą królewskiego dekretu."
+
+ sabotage_coronation_intent:0 "Sabotowanie Koronacji"
+ sabotage_coronation_intent_desc:0 "Zamierzasz zrobić wszystko, by zrujnować tę uroczystość. Twoja ręka sprawi, że wszystko, co może pójść źle, pójdzie źle."
+
+ vie_for_council_seat_intent:0 "Ubiegaj się o Miejsce w Małej Radzie"
+ vie_for_council_seat_intent_desc:0 "Twoim jedynym celem jest zdobycie miejsca w Małej [radzie|E] — bez względu na koszty.\n@alert_icon! #alert_trial Jeśli odniesiesz sukces, [activity_host|E] stanie się twoim bezpośrednim panem, jeśli już nim nie jesteś#!"
+ council_iron_throne_not_valid_desc:0 "Jesteś już członkiem małej rady."

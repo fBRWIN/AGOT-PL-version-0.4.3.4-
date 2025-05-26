@@ -1,0 +1,29 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_ways_religion:0 "Drogi Morza i Burzy"
+ the_ways_religion_adj:0 "Drogi"
+ the_ways_religion_adherent:0 "Morski"
+ the_ways_religion_adherent_plural:0 "Morscy"
+ the_ways_religion_desc:0 "Drogi Morza i Burzy są obecne w Westeros od dawna, a choć wielu uważa je za pozostałości jakiegoś kultu Pierwszych Bogów, praktyki i wierzenia Dróg są znacznie bliższe Szantom i Kościołom ciemniejszych Bogów Południa i Wschodu. Istnieją dowody, że Drogi istniały przed przybyciem ludzi do Westeros, a ciemne implikacje tego budzą grozę i przerażenie."
+
+ ### Faiths ###
+ #Drowned God
+ drowned_god:0 "Droga Utopionego Boga"
+ drowned_god_adj:0 "Utopiony Bóg"
+ drowned_god_adherent:0 "Żelaznorodni"
+ drowned_god_adherent_plural:0 "Żelaznorodni"
+ drowned_god_desc:0 "Utopiony Bóg to bóg Żelaznorodnych, który przetrwał przez Pakt Starych Bogów i Wiarę Andalów. Religia oddaje cześć martwemu bogu, a wyznawcy mają nadzieję dołączyć do niego w jego podwodnych salach, bo to, co martwe, nigdy już nie umrze, lecz powstanie ponownie, twardsze i silniejsze."
+
+ #Faith of the Eight
+ fots_drowned:0 "Wiara Ośmiu"
+ fots_drowned_adj:0 "Wiara Ośmiu"
+ fots_drowned_adherent:0 "Wierni Słoneczni"
+ fots_drowned_adherent_plural:0 "Wierni Słoneczni"
+ fots_drowned_desc:0 "Wiara Ośmiu została założona przez Harmunda II Hoare'a, który próbował połączyć Drogę Utopionego Boga z Wiarą w Siedmiu. Utopiony Bóg miał być po prostu kolejnym aspektem Boskiego Jednego."
+
+ #Storm God
+ storm_god:0 "Droga Boga Burzy"
+ storm_god_adj:0 "Bóg Burzy"
+ storm_god_adherent:0 "Burzowy"
+ storm_god_adherent_plural:0 "Burzowi"
+ storm_god_desc:0 "Droga Boga Burzy to praktyka czczenia Boga Burzy, wiecznego wroga Utopionego Boga."

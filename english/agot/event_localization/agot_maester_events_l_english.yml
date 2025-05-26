@@ -1,0 +1,89 @@
+﻿l_english:
+
+ maester_title_localization:0 "$trait_maester$"
+ maester_title_holder:0 "[CHARACTER.Custom('MaesterCheck')]"
+ ArchaesterTitle:0 "$archmaester$"
+ MaesterTitle:0 "$trait_maester$"
+ AcolyteTitle:0 "$trait_acolyte$"
+ NoviceTitle:0 "$trait_novice$"
+
+ ### Maester Decisions/Events ###
+ decision_employ_maester:0 "Wezwij maestera"
+ decision_employ_maester_tooltip:0 "Wezwiesz [maestera|E]"
+ decision_employ_maester_desc:0 "Słynąca w całym znanym świecie Cytadela w Starym Mieście dostarcza każdej twierdzy Westeros wykształconego człowieka nauki. Może powinienem wezwać jednego z nich."
+ decision_employ_maester_effect:0 "Zostanie wybrany zdolny maester, który wkrótce przybędzie na twój dwór."
+ decision_employ_maester_confirm:0 "Wyślij kruka do Starego Miasta."
+ tooltip_employ_maester:0 "Nie możemy mieć żadnego zdolnego maestera na naszym dworze."
+ tooltip_recently_employed_maester:0 "Nie możesz niedawno próbować zatrudnić maestera."
+
+ essos_decision_employ_maester:0 "Poszukaj maestera"
+ essos_decision_employ_maester_tooltip:0 "Rozpoczniesz poszukiwania [maestera|E]"
+ essos_decision_employ_maester_desc:0 "Gdzie jest napisane, że tylko lordowie Westeros mogą zatrudniać maestera? Powinienem rozpocząć poszukiwania, a z odrobiną szczęścia znajdę kogoś kompetentnego."
+ essos_decision_employ_maester_effect:0 "Rozpoczną się poszukiwania maestera."
+ essos_decision_employ_maester_confirm:0 "Rozpocznij poszukiwania."
+
+ agot_maester.0001.t:0 "Nowy maester w [capital.GetNameNoTooltip]"
+ agot_maester.0001.desc:0 "Maester, którego wezwałem z Cytadeli, przybył do [capital.GetNameNoTooltip], to [new_maester.GetCulture.GetName] imieniem [new_maester.GetFirstName]. Oby [new_maester.GetSheHe] okazał się lojalny i mądry."
+ agot_maester.0001.a:0 "Dobrze."
+ agot_maester.0001.a.tt:0 "Maester będzie pełnił funkcję zarówno doradcy, jak i nadwornego medyka."
+ agot_maester.0001.b:0 "Obawiam się, że nie mamy już środków na twoją służbę."
+
+ agot_maester.0002.t:0 "Wielki Maester [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ agot_maester.0002.desc:0 "Jako [ROOT.Char.GetTitleTierName] [ROOT.Char.GetPrimaryTitle.GetNameNoTier], będzie ci teraz asystował Wielki Maester."
+ agot_maester.0002.a:0 "Dobrze."
+ agot_maester.0002.a.tt:0 "Maester będzie pełnił funkcję zarówno doradcy, jak i nadwornego medyka."
+
+ agot_maester.0005.t:0 "Nowy 'maester' w [capital.GetNameNoTooltip]"
+ agot_maester.0005.desc:0 "[new_maester.GetFirstName] to co najwyżej wątpliwy medyk. [new_maester.GetSheHe|U] twierdzi, że był maesterem, dopóki Konklawe nie odebrało mu łańcucha. Wciąż nie jest za późno, by odesłać [new_maester.GetHerHim]."
+ agot_maester.0005.a:0 "Nie mam nic przeciwko temu."
+ agot_maester.0005.b:0 "Nie zniżę się do tego poziomu."
+
+ agot_maester.0006.desc:0 "Podobno maester [new_maester.GetFirstName] akurat był w okolicy, gdy dowiedział się o moim wezwaniu. Oby [new_maester.GetSheHe] okazał się lojalny i mądry."
+
+ agot_maester.0007.t:0 "Brak maestera"
+ agot_maester.0007.desc:0 "Moje poszukiwania nowego maestera nie przyniosły rezultatów. Wygląda na to, że [capital.GetNameNoTooltip] pozostanie bez maestera na najbliższą przyszłość."
+ agot_maester.0007.a:0 "Co za rozczarowanie."
+
+ agot_maester.0008.t:0 "Wędrowny akolita"
+ agot_maester.0008.desc:0 "[acolyte.GetFirstName] twierdzi, że spędził trochę czasu studiując w Cytadeli, ale bez łańcucha maestera trudno być tego pewnym. Najwyraźniej nie zaszedł zbyt daleko w swoich naukach. Choć [acolyte.GetFirstNameNoTooltip] nie jest tym, kogo miałem na myśli, to jednak lepszy taki niż żaden."
+ agot_maester.0008.a:0 "[acolyte.GetSheHe|U] musi wystarczyć."
+ agot_maester.0008.b:0 "Żądam kogoś lepszego."
+
+ agot_maester.1000.t:0 "Ogniwa w łańcuchu"
+ agot_maester.1000.desc:0 "[child.GetFirstName] to ciche dziecko. [child.GetSheHe|U] woli towarzystwo bibliotekarzy i maestera od giermków i rycerzy. [child.GetSheHe|U] spędza wieczory w swoim pokoju wśród ksiąg i zwojów zamiast ćwiczyć szermierkę na dziedzińcu.\n\nW końcu nadchodzi dzień, gdy [child.GetSheHe] podchodzi do mnie, [child.Custom('quirk_pos_present')], i opowiada o swoim marzeniu, by opuścić [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] i udać się do Cytadeli. Tam może rozpocząć naukę i kuć własny łańcuch, by pewnego dnia służyć jako maester."
+ agot_maester.1000.a:0 "Jutro możesz wyruszyć do Cytadeli."
+ agot_maester.1000.b:0 "Jesteś [ROOT.Char.GetDynastyNameNoTooltip], a nie Szarym Szczurem!"
+
+ agot_maester.1001.t:0 "Nowy arcymaseter"
+ agot_maester.1001.desc:0 "Maester [archmaester_candidate.GetFirstName] przybył do mnie bardzo podekscytowany. Twierdzi, że po śmierci arcymasetera [dead_archmaester.GetFirstName] w Cytadeli odbyło się głosowanie w sprawie jego następcy. Członkowie Konklawe zadecydowali, że to maester [archmaester_candidate.GetFirstNameNoTooltip] zostanie podniesiony do rangi arcymasetera i został wezwany do Cytadeli."
+ agot_maester.1001.a:0 "To wspaniała wiadomość!"
+ agot_maester.1001.a.tt:0 "Maester [archmaester_candidate.GetFirstNameNoTooltip] zostanie arcymaseterem i wyjedzie do Cytadeli."
+
+ agot_maester.1002.t:0 "Nowy Wielki Maester"
+ agot_maester.1002.desc_death:0 "Po śmierci Wielkiego Maestera [old_grandmaester.GetFirstName], "
+ agot_maester.1002.desc_disgraced:0 "Po zwolnieniu z funkcji Wielkiego Maestera [disgraced_maester.GetFirstName], "
+ agot_maester.1002.desc:0 "Konklawe w Cytadeli wybrało Wielkiego Maestera [grandmaester_candidate.GetFirstName] na nowego przedstawiciela na dworze królewskim. Wydaje się, że jest już w drodze."
+ agot_maester.1002.a:0 "Nie mogę się doczekać."
+ agot_maester.1002.b:0 "Lepiej, żeby był kompetentny."
+
+ agot_maester.1003.t:0 "Nowy Wielki Maester przybył"
+ agot_maester.1003.desc:0 "Wielki Maester [grandmaester_candidate.GetFirstName] wreszcie przybył na dwór. Oby wiernie służył królestwu."
+ agot_maester.1003.a:0 "Uważaj na siebie."
+
+ agot_maester.1004.t:0 "Wielkie rozczarowanie"
+ agot_maester.1004.desc:0 "Podobno Wielki Maester [old_grandmaester.GetFirstName] zmarł w drodze na stanowisko. Konklawe rozpoczęło narady nad wyborem kolejnego Wielkiego Maestera."
+ agot_maester.1004.a:0 "Mam nadzieję, że następny pożyje dłużej."
+
+ agot_maester.1005.t:0 "Dociekliwy umysł"
+ agot_maester.1005.desc:0 "Maester [maester.GetFirstName] przyszedł do mnie w sprawie mojego dziecka. [maester.GetSheHe|U] twierdzi, że [child.GetFirstName] wykazuje wielkie postępy w nauce i byłby świetnym kandydatem do Cytadeli. Tam, jak mówi [maester.GetSheHe], [child.GetFirstNameNoTooltip] mógłby znaleźć własną drogę i kuć swój łańcuch, by pewnego dnia służyć jako maester."
+ agot_maester.1005.a:0 "[child.GetFirstName] jutro wyruszy do Cytadeli."
+ agot_maester.1005.b:0 "Moje dziecko to [ROOT.Char.GetDynastyNameNoTooltip], nie Szary Szczur!"
+
+ agot_maester.1006.t:0 "Twój maester, zhańbiony"
+ agot_maester.1006.desc:0 "Nadeszły wieści z Cytadeli; w związku z tajemnicą [disgraced_maester.GetFirstNamePossessive] [secret.GetName], Konklawe odebrało mu tytuł maestera. Jako jego senior i [ROOT.Char.GetLadyLord], Konklawe nakazuje mi zesłać [disgraced_maester.GetHerHim] na wygnanie. W zamian zaproponowali przysłanie nowego maestera na mój dwór."
+ agot_maester.1006.a:0 "Nie chcę mieć z tobą nic wspólnego, szary szczurze."
+ agot_maester.1006.a.tt:0 "[disgraced_maester.GetName] zostanie wygnany z Westeros"
+ agot_maester.1006.b:0 "Zimna cela to miejsce dla ciebie."
+ agot_maester.1006.b.tt:0 "[disgraced_maester.GetName] zostanie przez ciebie uwięziony"
+ agot_maester.1006.c:0 "To niczego nie zmienia."
+ agot_maester.1006.c.tt:0 "[disgraced_maester.GetName] pozostanie twoim maesterem"

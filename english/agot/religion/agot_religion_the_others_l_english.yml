@@ -1,0 +1,15 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_others_religion:0 "Białe Cienie Dalekiej Północy"
+ the_others_religion_adj:0 "Inni"
+ the_others_religion_adherent:0 "Pokoista"
+ the_others_religion_adherent_plural:0 "Pokoisty"
+ the_others_religion_desc:0 "Na Dalekiej Północy, poza ziemiami ludzi w Krainach Wiecznej Zimy, kult ma chłodniejszą naturę, skupioną wokół Bogów i Istot Lodu oraz Śmierci."
+
+ ### Wiary ###
+ # Zimni Bogowie
+ cold_gods:0 "Zimni Bogowie Wiecznej Zimy"
+ cold_gods_adj:0 "Zimni Bogowie"
+ cold_gods_adherent:0 "Pokoista"
+ cold_gods_adherent_plural:0 "Pokoisty"
+ cold_gods_desc:0 "Podczas gdy inni czczą naturę, bogów z niebios, czy nawet serca ognia, ci, którzy poczuli prawdziwy chłód śmierci, wiedzą, że jedynymi prawdziwymi bogami są Zimni Bogowie Wiecznej Zimy, którzy pewnego dnia ponownie pomaszerują na południe, przynosząc ze sobą kolejną Długą Noc."

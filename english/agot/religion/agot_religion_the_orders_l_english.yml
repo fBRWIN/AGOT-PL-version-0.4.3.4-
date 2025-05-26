@@ -1,0 +1,43 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_orders_religion:0 "Zakony Jadeitu i Cynamonu"
+ the_orders_religion_adj:0 "Zakony"
+ the_orders_religion_adherent:0 "Zakonnik"
+ the_orders_religion_adherent_plural:0 "Zakonnicy"
+ the_orders_religion_desc:0 "Zakony z południowego wschodu mają bogów i bóstwa, lecz są czymś znacznie więcej niż tradycyjnie rozumiana religia. Ich filozoficzne podstawy przenikają daleko poza świątynie i są integralną częścią każdego aspektu życia wyznawców."
+
+ ### Wiary ###
+ # Wieczny Raj
+ order_paradise:0 "Zakon Wiecznego Raju"
+ order_paradise_adj:0 "Wieczny Raj"
+ order_paradise_adherent:0 "Wiecznista"
+ order_paradise_adherent_plural:0 "Wieczniści"
+ order_paradise_desc:0 "Wśród południowych wysp Morza Jadeitowego i Cynamonowych Cieśnin ludzie czczą nie tylko bogów — czczą ideały i koncepcje. Jednym z takich ideałów jest Wieczny Cykl, nauczający, że przyjemności świata są prawdziwą bramą do zbawienia, uwalniając ludzi od wiecznego cyklu, który wiąże ich z tym światem."
+
+ # Ostateczne Żądło
+ order_sting:0 "Zakon Ostatecznego Żądła"
+ order_sting_adj:0 "Ostateczne Żądło"
+ order_sting_adherent:0 "Ostatecznik"
+ order_sting_adherent_plural:0 "Ostatecznicy"
+ order_sting_desc:0 "Wśród południowych wysp Morza Jadeitowego i Cynamonowych Cieśnin ludzie czczą nie tylko bogów — czczą ideały i koncepcje. Jednym z takich ideałów jest Śmiertelny Robak, mściwe wierzenie skoncentrowane wokół zabójstw i spisków, postrzeganych jako dar wyzwolenia ze świata."
+
+ # Płynąca Przyprawa
+ order_spice:0 "Zakon Płynącej Przyprawy"
+ order_spice_adj:0 "Płynąca Przyprawa"
+ order_spice_adherent:0 "Przyprawnik"
+ order_spice_adherent_plural:0 "Przyprawnicy"
+ order_spice_desc:0 "Wśród południowych wysp Morza Jadeitowego i Cynamonowych Cieśnin ludzie czczą nie tylko bogów — czczą ideały i koncepcje. Jednym z takich ideałów jest Płynąca Przyprawa, czyli spożycie świętej przyprawy, która rzekomo daje ludziom zrozumienie i wgląd w przyszłość oraz naturę przestrzeni."
+
+ # Kamienna Krowa
+ order_cow:0 "Zakon Kamiennej Krowy"
+ order_cow_adj:0 "Kamienna Krowa"
+ order_cow_adherent:0 "Kamiennik"
+ order_cow_adherent_plural:0 "Kamiennicy"
+ order_cow_desc:0 "Wśród południowych wysp Morza Jadeitowego i Cynamonowych Cieśnin ludzie czczą nie tylko bogów — czczą ideały i koncepcje. Jednym z takich ideałów jest Kamienna Krowa, mówiąca o koncepcji przemiany jednego materiału w inny, tak jak Kamienna Krowa daje mleko ze skały."
+
+ # Okute Blizny
+ order_chain:0 "Zakon Okutych Blizn"
+ order_chain_adj:0 "Okute Blizny"
+ order_chain_adherent:0 "Okutnik"
+ order_chain_adherent_plural:0 "Okutnicy"
+ order_chain_desc:0 "Wśród południowych wysp Morza Jadeitowego i Cynamonowych Cieśnin ludzie czczą nie tylko bogów — czczą ideały i koncepcje. Jednym z takich ideałów jest Okuty, który naucza, że jedyną drogą ucieczki ze świata jest całkowite upokorzenie się poprzez stanie się niewolnikiem i służenie innym."

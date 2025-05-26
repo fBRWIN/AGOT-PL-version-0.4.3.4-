@@ -1,0 +1,75 @@
+﻿l_english:
+ rp_hunter_modifier:0 "Dynastia Urodzenia: Myśliwy"
+ rp_hunter_modifier_desc:0 "Zanim ten bohater stał się władcą, był skromnym myśliwym. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_exsoldier_modifier:0 "Dynastia Urodzenia: Żołnierz"
+ rp_exsoldier_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym żołnierzem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_merchant_modifier:0 "Dynastia Urodzenia: Kupiec"
+ rp_merchant_modifier_desc:0 "Zanim ten bohater stał się władcą, był kupcem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_blackmailer_modifier:0 "Dynastia Urodzenia: Szantażysta"
+ rp_blackmailer_modifier_desc:0 "Ten bohater stał się władcą dzięki podstępowi i intrygom. Wielu nadal uważa go za awansowanego bandytę, niegodnego swojej obecnej pozycji."
+
+ rp_knight_modifier:0 "Dynastia Urodzenia: Rycerz"
+ rp_knight_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym rycerzem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_sailor_modifier:0 "Dynastia Urodzenia: Marynarz"
+ rp_sailor_modifier_desc:0 "Zanim ten bohater stał się władcą, był marynarzem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_healer_modifier:0 "Dynastia Urodzenia: Uzdrawiacz"
+ rp_healer_modifier_desc:0 "Zanim ten bohater stał się władcą, był uzdrawiaczem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_orphan_modifier:0 "Dynastia Urodzenia: Sierota"
+ rp_orphan_modifier_desc:0 "Zanim ten bohater stał się władcą, jego rodzice zginęli wykonując wielkie dzieło, które zapewniło ich dziecku tę pozycję. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_sellsword_modifier:0 "Dynastia Urodzenia: Najemnik"
+ rp_sellsword_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym najemnikiem. Wielu nadal uważa go za awansowanego bandytę, niegodnego swojej obecnej pozycji."
+
+ rp_steward_modifier:0 "Dynastia Urodzenia: Steward"
+ rp_steward_modifier_desc:0 "Zanim ten bohater stał się władcą, był nisko postawionym stewardem. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_fool_modifier:0 "Dynastia Urodzenia: Głupiec"
+ rp_fool_modifier_desc:0 "Zanim ten bohater stał się władcą, był błaznem na dworze. Wielu nadal uważa go za nic innego jak głupca, niegodnego swojej obecnej pozycji."
+
+ rp_mercenary_modifier:0 "Dynastia Urodzenia: Żołnierz Najemny"
+ rp_mercenary_modifier_desc:0 "Zanim ten bohater stał się władcą, prowadził grupę najemników. Wielu nadal uważa go za awansowanego bandytę, niegodnego swojej obecnej pozycji."
+
+ rp_reaver_modifier:0 "Dynastia Urodzenia: Zbójca"
+ rp_reaver_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym zbójem. Pomimo zdobytej chwały, wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej pozycji."
+
+ rp_paramore_modifier:0 "Dynastia Urodzenia: Kochanek"
+ rp_paramore_modifier_desc:0 "Zanim ten bohater stał się władcą, był kochankiem swojego władcy. Wielu nadal uważa go za awansowanego wieśniaka, niegodnego swojej obecnej pozycji."
+
+ rp_hedgewizard_modifier:0 "Dynastia Urodzenia: Czarodziej Wiejski"
+ rp_hedgewizard_modifier_desc:0 "Zanim ten bohater stał się władcą, był wiejskim czarodziejem. Wielu nadal uważa go za awansowanego oszusta, niegodnego swojej obecnej pozycji."
+
+ rp_wildling_hunter_modifier:0 "Pochodzenie Wodza: Myśliwy"
+ rp_wildling_hunter_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym myśliwym. Jego umiejętności i chwała zapewniły mu tę pozycję."
+
+ rp_wildling_raider_modifier:0 "Pochodzenie Wodza: Najeźdźca"
+ rp_wildling_raider_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym najeźdźcą. Jego umiejętności i chwała zapewniły mu tę pozycję."
+
+ rp_wildling_assassin_modifier:0 "Pochodzenie Wodza: Zabójca"
+ rp_wildling_assassin_modifier_desc:0 "Zanim ten bohater stał się władcą, był notorycznym mordercą. Dzięki odwadze i krwi zyskał swoją pozycję."
+
+ rp_wildling_shipwreck_modifier:0 "Pochodzenie Wodza: Ocalały z Wraku"
+ rp_wildling_shipwreck_modifier_desc:0 "Zanim ten bohater stał się władcą, był rozbitkiem. Dzięki sprytowi, bogactwu i determinacji osiągnął swoją pozycję."
+
+ rp_wildling_nightwatch_modifier:0 "Pochodzenie Wodza: Deserter Nocnej Straży"
+ rp_wildling_nightwatch_modifier_desc:0 "Zanim ten bohater stał się władcą, był Bratem Nocnej Straży. Choć niektórzy nadal patrzą na niego z pogardą, zasłużył na swoją pozycję."
+
+ rp_wildling_woodswitch_modifier:0 "Pochodzenie Wodza: Leśna Czarownica"
+ rp_wildling_woodswitch_modifier_desc:0 "Zanim ten bohater stał się władcą, był uzdrowicielem, cenionym za swoje talenty. Dzięki temu osiągnął swoją pozycję."
+
+ rp_wildling_elected_modifier:0 "Pochodzenie Wodza: Naturalny Lider"
+ rp_wildling_elected_modifier_desc:0 "Zanim ten bohater stał się władcą, był naturalnym liderem. Dzięki wsparciu tych, którzy go poparli, osiągnął swoją pozycję."
+
+ rp_wildling_warg_bear_modifier:0 "Pochodzenie Wodza: Warg-Medwedź"
+ rp_wildling_warg_bear_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym skinczangerem. Dzięki połączeniu się z misiem zdobył swoją pozycję."
+
+ rp_wildling_warg_direwolf_modifier:0 "Pochodzenie Wodza: Warg-Wilk"
+ rp_wildling_warg_direwolf_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym wargiem. Dzięki połączeniu się z direwolfem zdobył swoją pozycję."
+
+ rp_wildling_warg_shadowcat_modifier:0 "Pochodzenie Wodza: Warg-Czarny Kot"
+ rp_wildling_warg_shadowcat_modifier_desc:0 "Zanim ten bohater stał się władcą, był zwykłym skinczangerem. Dzięki połączeniu się z shadowcatem zdobył swoją pozycję."

@@ -1,0 +1,9 @@
+﻿l_english:
+ can_be_knight_and_commander_decision:0 "Zgódź się zostać kapitanem lub dowódcą"
+ can_be_knight_and_commander_decision_tooltip:0 "Umożliwia zostanie kapitanem lub dowódcą swojego liege."
+ can_be_knight_and_commander_decision_desc:0 "Mój liege będzie mógł mianować mnie na [ROOT.Char.GetLiege.GetHerHis] kapitana lub dowódcę."
+ can_be_knight_and_commander_decision_confirm:0 "Jestem gotów walczyć."
+ cannot_be_knight_and_commander_decision:0 "Odmówić zostania kapitanem lub dowódcą"
+ cannot_be_knight_and_commander_decision_tooltip:0 "Umożliwia niemożliwość zostania kapitanem lub dowódcą swojego liege."
+ cannot_be_knight_and_commander_decision_desc:0 "Mój liege nie będzie mógł mianować mnie na [ROOT.Char.GetLiege.GetHerHis] kapitana lub dowódcę."
+ cannot_be_knight_and_commander_decision_confirm:0 "Już nie jestem gotów walczyć."

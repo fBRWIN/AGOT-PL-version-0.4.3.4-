@@ -1,0 +1,319 @@
+﻿l_english:
+ #Cultural MaA
+ winter_wolves:0 "Zimowi Wilki"
+ winter_wolves_flavor:0 "W krainie głębokiego śniegu, który utrzymuje się przez lata, piechota ciężka zamiast kawalerii często decyduje o zwycięstwie, ale ci wojownicy z Północy czują się jak w domu na każdym polu bitwy."
+
+ wolfswood_hunters:0 "Myśliwi z Wolfswood"
+ wolfswood_hunters_flavor:0 "Rozległość Wolfswood kryje nie tylko dzikie zwierzęta, ale również ludzi, którzy żyją z ich polowania. Na polu bitwy, tacy ludzie to sprytni łucznicy."
+
+ clan_champions:0 "Mistrzowie Klanu"
+ clan_champions_flavor:0 "Ludzie z górskich klanów Północy są z natury kłótliwi, ale potrafią wystawić formacje doświadczonych wojowników, którzy mogą stawić czoła każdemu wyzwaniu."
+
+ barrow_knights:0 "Rycerze Barrowlands"
+ barrow_knights_flavor:0 "Choć mniej okazałe w zbrojach niż ich południowi odpowiednicy, ciężka kawaleria z Barrowlands może szybko pokonać wszystkich poza najbardziej zdyscyplinowanymi formacjami."
+
+ unicorn_riders:0 "Jeźdźcy Jednorożców"
+ unicorn_riders_flavor:0 "Choć wielu uważa ich za legendę, jednorożce ze Skagos to pewne i odporne zwierzęta, równie twarde jak mężczyźni, którzy je dosiadają. Na polu bitwy są groźnym widokiem."
+
+ cape_watch:0 "Straż Przylądka"
+ cape_watch_flavor:0 "Przylądek Kraken od dawna był polem bitwy między Ironborn a Północnymi, a jego wojownicy czerpią ze sztuk wojennych obu frakcji."
+
+ frog_spears:0 "Włócznie Żab"
+ frog_spears_flavor:0 "Polując tradycyjną bronią – włócznią żab – ci lekko uzbrojeni żołnierze stanowią zagrożenie dla wszystkich, którzy zostaną przez nich ścigani."
+
+ green_hand:0 "Rycerze Zielonej Ręki"
+ green_hand_flavor:0 "Ostatni ślad starożytnego zakonu założonego przez króla Reach, ci północni rycerze przynoszą południową rycerskość i taktykę, aby zniszczyć formacje piechoty."
+
+ ironborn_reavers:0 "Złoczyńcy"
+ ironborn_reavers_flavor:0 "Zmora wybrzeża Westeros, ta straszna ciężka piechota stanowi poważne zagrożenie dla lżej uzbrojonych piechurów."
+
+ royal_crossbowmen:0 "Królestwo Kuszników"
+ royal_crossbowmen_flavor:0 "Kuszników łatwiej wytrenować niż tradycyjnych łuczników, ale mogą przebijać najlepsze zbroje z łatwością, neutralizując przewagę ciężkiej piechoty i kawalerii."
+
+ marsh_walker:0 "Wędrowcy Bagnisk"
+ marsh_walker_flavor:0 "Nieudana inwazja Andali na Crackclaw Point była spowodowana nie tylko trudnym terenem, ale także lekko uzbrojonymi wojownikami, którzy potrafili go wykorzystać. Te regimenta kontynuują dziedzictwo taktyki hit-and-run z dużą skutecznością."
+
+ dragonkeepers:0 "Strażnicy Smoka"
+ dragonkeepers_flavor:0 "Strażnicy Smoka to ciężko uzbrojeni i opancerzeni mężczyźni przysięgający służbę Rodowi Targaryenów i innym Wielkim Walerianom na Morzu Szerokim."
+
+ sea_snakes:0 "Morskie Węże"
+ sea_snakes_flavor:0 "Pochodzący z wysp w Zatoce Czarnej Wody, przyzwyczajeni do chaosu działań na pokładach okrętów, szybkość i agresja tych regimentów sprawdzają się zarówno w pościgu, jak i w odwrocie."
+
+ winged_knights:0 "Rycerze Skrzydlatych"
+ winged_knights_flavor:0 "Miejsce narodzin kultury Andali w Westeros, Dolina to dom długiej tradycji rycerskiej, która ma swoje korzenie w tysiącleciach. Rycerze Doliny są praktycznie nie do pokonania dla formacji piechoty."
+
+ finger_scouts:0 "Strażnicy Palców"
+ finger_scouts_flavor:0 "Choć ich szarża jest mniej dewastująca niż u bardziej opancerzonych rycerzy, prędkość kawalerii z Palców czyni ich nieocenionymi do ekranowania wolniejszych formacji i ścigania uciekających wrogów."
+
+ hunters_of_the_moon:0 "Myśliwi Księżyca"
+ hunters_of_the_moon_flavor:0 "Wymagający niewielkiego kosztownego wyposażenia, ci łucznicy z Gór Księżycowych są skuteczną odpowiedzią na lekko uzbrojoną piechotę."
+
+ sistermen_pirates:0 "Piraci z Wysp Sióstr"
+ sistermen_pirates_flavor:0 "Uważani niemal za niemożliwych do rządzenia, piraci z Trzech Sióstr są zwinni i uciążliwi na polu bitwy."
+
+ summer_knights:0 "Letni Rycerze"
+ summer_knights_flavor:0 "Rycerstwo Reach jest pięknym widokiem w czasach pokoju i przerażającym wrogiem dla piechoty w czasach wojny."
+
+ honeywine_quirrels:0 "Spory Miodowej Winiarni"
+ honeywine_quirrels_flavor:0 "Kusznicy z Reach są doskonale przystosowani do pokonywania płytkiej zbroi rycerzy i ciężkiej piechoty, choć kosztują więcej do wyekwipowania niż zwykli łucznicy."
+
+ misty_shields:0 "Zamglone Tarcze"
+ misty_shields_flavor:0 "Pochodzący z Wysp Tarczy, te regimenta są doświadczone w walce z najbardziej straszliwymi złoczyńcami z Ironborn i muszą być gotowe odpowiedzieć na najazdy w każdej chwili."
+
+ arbor_marines:0 "Morscy Marines"
+ arbor_marines_flavor:0 "Przyzwyczajeni do walki na pokładach okrętów floty Redwyne, te lekko uzbrojone regimenta są biegłe w skirmishach."
+
+ river_bows:0 "Łucznicy z Rzek"
+ river_bows_flavor:0 "Łucznicy z Riverlands to lekka i zwinna siła, zdolna reagować na zmieniające się warunki na polu bitwy i karać formacje piechoty za najmniejszy błąd."
+
+ storm_knights:0 "Rycerze Burzy"
+ storm_knights_flavor:0 "Podobnie jak grzmot, od którego pochodzi nazwa ich ojczyzny, rycerze Stormlands trzęsą ziemią i ludźmi, gdy wchodzą do ataku."
+
+ marcher_longbowmen:0 "Łucznicy z Marchy"
+ marcher_longbowmen_flavor:0 "Kontynuując dumną tradycję Dornish Marches, ci wojownicy posługują się potężnymi długimi łukami, by zakłócać wolno poruszające się formacje piechoty."
+
+ bloody_balesters:0 "Przynoszący Deszcz"
+ bloody_balesters_flavor:0 "Uważane przez niektórych za niehonorowe, kusze używane przez ludzi z Westerlands nie mają żadnych oporów w używaniu ich na polu bitwy — czy to w trakcie walki, czy poza nią."
+
+ greenblood_oars:0 "Wiosła Greenblood"
+ greenblood_oars_flavor:0 "Żyjąc skromnie na tratwach na Greenblood, ci wojownicy mimo wszystko noszą dumne wspomnienia po swoich starożytnych przodkach Rhoynar."
+
+ sun_spears:0 "Włócznie Słońca"
+ sun_spears_flavor:0 "Niezłomne włócznie Dorne stanowią uparty i niebezpieczny wróg dla kawalerii wszelkiego rodzaju, niezależnie czy lekkiej, czy ciężkiej — a nawet słoni."
+
+ sand_steeds:0 "Konie Piasku"
+ sand_steeds_flavor:0 "Znane ze swojej urody i elegancji, konie piasku z Dorne to jedne z najszybszych koni na świecie, ale ich wytrzymałość nie jest mniej imponująca. Na polu bitwy, lekkie kawalerie Dornijskie są niezrównane w swojej zdolności do okrążania i ścigania wolniejszych wrogów."
+
+ pass_pikes:0 "Piki Przełęczy"
+ pass_pikes_flavor:0 "Potomkowie Dornijczyków, którzy przez ponad wiek bronili przełęczy przed inwazjami Targaryenów, ci wojownicy stają dumnie przeciwko wszelkim formom kawalerii."
+
+ she_bears:0 "Niedźwiedzice"
+ she_bears_flavor:0 "Kobiety z Wyspy Niedźwiedzi stały się twarde i wytrzymałe w porównaniu do swoich odpowiedniczek na stałym lądzie — i są w pełni zdolne, by rozbić czaszkę Ironmana na kawałki."
+
+ stolen_spears:0 "Zatrzymane Włócznie"
+ stolen_spears_flavor:0 "Choć bardziej prymitywnie uzbrojeni niż żołnierze nizin, włócznicy z górskich klanów uwielbiają dźgać konie swoich znienawidzonych wrogów Andalów."
+
+ bronze_raiders:0 "Brązowi Najeźdźcy"
+ bronze_raiders_flavor:0 "Pochodzący z surowych tundr Doliny Thenn, Brązowi Najeźdźcy to jedni z nielicznych wojowników z Wildlings, którzy używają rodzimych metalowych broni. Obok swoich imponujących uzbrojeń, Brązowi Najeźdźcy są straszni w bitwie — to jedyna ciężka piechota znana na Północy."
+
+ purple_sailors:0 "Purpurowi Żeglarze"
+ purple_sailors_flavor:0 "Braavos to druga największa siła spośród Wolnych Miast, a jej główne źródło siły to flota. Purpurowe żagle, barwione ślimakami znalezionymi w lagunie, przewożą marynarzy tej miejskiej potęgi przez morza."
+
+ indentured_legion:0 "Legion Zobowiązanych"
+ indentured_legion_flavor:0 "Zdominowani w każdym sensie, skirmisherzy 'legionów' Pentos są niezainspirowani i nie zmotywowani, służąc tylko dlatego, że nie stać ich, by tego nie robić."
+
+ sun_guard:0 "Słoneczna Straż"
+ sun_guard_flavor:0 "Straż z Essari, zaginionego Wolnego Miasta. Teraz, kiedy miasto zostało odbudowane i powróciło, promienie słońca odbijają się od złotych tarcz Słonecznej Straży."
+
+ moroshi_pikes:0 "Piki Moroshi"
+ moroshi_pikes_flavor:0 "Pomimo bycia najmniejszym i często zapomnianym Wolnym Miastem, Lorath utrzymuje silną straż chroniącą swoje kolonie i sojuszników u ujścia Sarne. Gdzie inne miasta kupują Dothraków, Lorath musiał bronić Morosh za pomocą włóczni i pik."
+
+ stair_guard:0 "Straż Schodów"
+ stair_guard_flavor:0 "Często ignorowana na rzecz Świętej Straży Brodatych Kapłanów, straż miejska Norvos nosi nazwę od wielkich schodów, które łączą dolne i górne miasto Norvos, które miejscowi nazywają Krokami Grzesznika."
+
+
+ cohort_of_the_three_thousand:0 "Kohorta Trzech Tysięcy"
+ cohort_of_the_three_thousand_flavor:0 "Kiedy Qohor był zagrożony przez hordy Wschodu, nie to były wolne kompania, rodzimy rekruci, czy nawet sojusznicy Wolnych Miast, którzy go uratowali. Nie — to było trzech tysięcy niewolników z Astapor, Unsullied, którzy odparli jeźdźców osiemnaście razy. Trzy Tysiące bronią miasta do dziś."
+
+ disputant_scouts:0 "Wyszukiwacze Spornych Ziem"
+ disputant_scouts_flavor:0 "Dawniej stanowiły one spichlerz Wielkiego Wolnego Królestwa Valyrii, a teraz znane jako Ziemie Sporne, gdzie mieszkają ludzie Hartalarów. Przyzwyczajeni do unikania wielkich armii Trzech Cór, ich zwiadowcy są szybcy i cisi."
+
+ weeping_guard:0 "Płacząca Straż"
+ weeping_guard_flavor:0 "Wolni ludzie z Lys uważają, że broń i zbroje nie pasują do nich, więc Płacząca Straż zapewnia bezpieczeństwo miasta — niewolnicy uzbrojeni w egzotyczną broń, jako piechota ciężka, przysięgli chronić Lys, Piękne."
+
+ myrish_crossbows:0 "Myriskie Kuszniki"
+ myrish_crossbows_flavor:0 "Choć uważane przez niektórych za tchórzliwe, kusze używane przez Myriskich są proste w użyciu i niszczące na polu bitwy — pozwalając im rozwiać takie pojęcia."
+
+ ornate_helms:0 "Ozdobne Hełmy"
+ ornate_helms_flavor:0 "Ozdobione misternymi hełmami ich miasta macierzystego, Ozdobne Hełmy to jednostka pikinierów, znana z walki na Ziemiach Spornych."
+
+ slave_legion:0 "Legiony Niewolników"
+ slave_legion_flavor:0 "Wielkie Wolne Królestwo Valyrii zostało zbudowane poprzez magię krwi i ogień smoków — i na plecach niewolników. Gdzie jeźdźcy smoków lub czarownicy krwi nie byli bezpośrednio obecni, tam można było znaleźć legiony niewolników Wolnego Królestwa."
+
+ tiger_cloaks:0 "Tygrysie Peleryny"
+ tiger_cloaks_flavor:0 "Straż Volantis i jej tributariuszy, Tygrysie Peleryny to niewolnicy żołnierze oddani w służbie triarchów, uzbrojeni w ostre włócznie i srebrną zbroję."
+
+ black_wall_chariots:0 "Wozownicy Czarnych Murów"
+ black_wall_chariots_flavor:0 "Stary Krew Volantis trzyma się z dala od reszty miasta, pokazując swoją chwałę podczas corocznych wyścigów wozów na Czarnej Ścianie — spektakl, który podwójnie pełni funkcję treningową dla ich śmiercionośnych maszyn wojennych."
+
+ dragonsworn:0 "Przysiężeni Smokom"
+ dragonsworn_flavor:0 "Ludy Senrillian z Pomalowanych Gór to przerażający i dziki lud, a ich najwięksi wojownicy są równie niebezpieczni. Wierząc, że są mistrzami jednego ze swoich smoczych bogów, ścigają każdego wroga i zabijają go swoimi wielkimi mieczami."
+
+ demon_guards:0 "Strażnicy Demonów"
+ demon_guards_flavor:0 "Ludzie Mantarys są tacy sami jak ziemia, którą zamieszkują — skrzywieni i skazani. Ich strażnicy wykorzystują swoją przerażającą reputację na swoją korzyść, nosząc groteskowe i przerażające maski."
+
+ elyrian_sailors:0 "Żeglarze Elyrii"
+ elyrian_sailors_flavor:0 "Żeglarze Elyrii pływają nie tylko po Zatocie Niewolników, ale i po wodach poza nią, często przewożąc wytrenowanych niewolników z miast Zatoki do Lys i Volantis, a potem wracając z niewyszkolonymi niewolnikami, by powtórzyć cykl."
+
+ tolosi_slingers:0 "Toloscy Procarze"
+ tolosi_slingers_flavor:0 "Procarze z Tolosu są znani w całym Essos z ich śmiercionośnej celności. Mówi się, że mogą zabić smoka, trafiając go w oboje oczu."
+
+ pit_fighters:0 "Pojedynkowcy"
+ pit_fighters_flavor:0 "Pojedynki w Meereen są znane w całym kraju Starego Imperium, a wojownicy, którzy z nich wychodzą, są brutalni i bezwzględni."
+
+ collared_bows:0 "Kusze z Kolcami"
+ collared_bows_flavor:0 "Yunkai nie jest znane z trenowania niewolników w sztuce wojennej, ale mimo to tam również niewolnicy są szkoleni do ochrony miasta — choć kuszami."
+
+ unsullied:0 "Unsullied"
+ unsullied_flavor:0 "Legiony niewolników Astaporu, Unsullied to próba Czerwonego Miasta odtworzenia legionów kroków Grazdana i Starego Imperium."
+
+ lockstep_legion:0 "Legion Kroków"
+ lockstep_legion_flavor:0 "Stare Imperium Ghis zostało zbudowane przez Grazdana Wielkiego i jego Legiony Kroków, których dyscyplina pozwalała Ghis zagrażać Valyrii i jej smokom w wielu wojnach."
+
+ iron_legion:0 "Żelazny Legion"
+ iron_legion_flavor:0 "Tam, gdzie Astapor próbował odtworzyć Legiony Kroków z niewolników, Nowy Ghis postanowił pójść za naukami Grazdana, używając wolnych ludzi — tych z zainteresowaniem w przetrwaniu miasta — czyniąc Żelazne Legiony lojalnymi i zdyscyplinowanymi."
+
+ star_carved:0 "Wykute w Gwiazdach"
+ star_carved_flavor:0 "Wojownicy Andali wchodzili do walki z żelazem w rękach i gwiazdami wykutymi na czole, by pokazać swoją wiarę w Siedmiu."
+
+ qarlons_fallen:0 "Upadli Qarlona"
+ qarlons_fallen_flavor:0 "Qarlon Wielki, ostatni z Andalskich królów w Essos, prowadził swój lud w wojnach i podbojach po północy Essos. Andalosi walczą do dziś zgodnie z taktykami i tradycjami, które ich nauczył."
+
+ mother_sworn:0 "Przysięgłe Matce"
+ mother_sworn_flavor:0 "Ci, którzy spędzają życie nad wielką rzeką Rhoyne, przysięgają swoje życie Matce i bronią jej aż do ostatka."
+
+ festival_guards:0 "Straż Festiwalowa"
+ festival_guards_flavor:0 "Chroyane jest słynne z wielkich festiwali, które odbywają się przez cały rok i w całym mieście, a ich strażnicy — ozdobieni błyszczącymi zbrojami ze stali i wysokimi hełmami — są samym widokiem."
+
+ flower_spears:0 "Włócznie Kwiatowe"
+ flower_spears_flavor:0 "Biała miasto na wschodnim brzegu Rhoyne słynie ze swoich licznych kwiatów, a chronią je wojska znane ze swoich długich włóczni, często ozdobionych kwiatami."
+
+ green_daggers:0 "Zielone Sztylety"
+ green_daggers_flavor:0 "Ar Noy, znajdujące się nad Qhoyne, słynie z zielonych marmurowych wież i murów. Jego żeglarze patrolują Qhoyne i Dagger Lake, z których wzięli swoją nazwę."
+
+ garden_guard:0 "Straż Ogrodowa"
+ garden_guard_flavor:0 "Wielki port Rhoynarów u ujścia Rzeki Matki, Sarhoy, był chroniony przez Straż Ogrodową, nazwane na cześć słynnych słonowodnych ogrodów miasta."
+
+ grey_spears:0 "Szare Włócznie"
+ grey_spears_flavor:0 "Ny Sar ma długą historię działań wojskowych, większą niż inne miasta Rhoynar. To książę Garris Szary wyparł Włochatych Ludzi z Noyne, a straż miejska wzięła swoją nazwę od niego."
+
+ market_guard:0 "Straż Targowa"
+ market_guard_flavor:0 "Handel niewolnikami przyniósł wielkie bogactwo miastom Ghiscari, żadne z nich nie jest bardziej znane z tego niż Hazdahn Mo. Jednak napięcia między rywalizującymi handlarzami często wybuchają, a groźba buntu niewolników jest zawsze obecna — stąd potrzeba Straży Targowej."
+
+ skahazdahn_wardens:0 "Strażnicy Skahazadanu"
+ skahazdahn_wardens_flavor:0 "Rzeka Skahazadanu łączy serce Ghis z jej odległymi punktami w wielkich równinach. Musi być patrolowana i chroniona, ponieważ niewolnicy z równin muszą zostać wysłani do Zatoki na szkolenie lub sprzedaż."
+
+ sarsfield_horse_archers:0 "Łucznicy Sarsfield"
+ sarsfield_horse_archers_flavor:0 "Ta elitarna retinue łuczników konnych służy Rodowi Sarsfield jako ucieleśnienie ich sigilu — bezwzględnie szybcy, gdziekolwiek ich pan wystrzeli."
+
+ dothraki_screamers:0 "Dothraki Krzyczacy"
+ dothraki_screamers_flavor:0 "Dothraki Krzyczacy jeżdżą bez zbroi, tylko z łukami i strasznymi krzykami. Szybcy jak wiatr i okrutni jak ogień, zstępują na swoich wrogów z niezrównaną furia. Słysząc ich krzyki na równinie, wiesz, że śmierć zbliża się na galopującym koniu."
+
+ #Armie generowane
+ black_brothers:0 "Bracia Czerni"
+ black_brothers_flavor:0 ""
+
+ #MaA Zakonów Świętych
+ holy_order_poor_fellows:0 "Ubodzy Towarzysze"
+ holy_order_poor_fellows_flavor:0 ""
+
+ holy_order_warriors_sons:0 "Sons of Warriors"
+ holy_order_warriors_sons_flavor:0 ""
+
+ holy_guard:0 "Święta Gwardia Brodatych Kapłanów"
+ holy_guard_flavor:0 "Niewolnicy Brodatych Kapłanów, Święta Gwardia, to straszna grupa. Treningowana od młodości, dzierżą wielkie topory w służbie kapłanów i magistów Norvos."
+
+ fiery_hand:0 "Ognista Ręka R'hllora"
+ fiery_hand_flavor:0 "Niewolnicy R'hllora w Wolnych Miastach, Ognista Ręka jest oddana wykonywaniu woli Pana Światła, zgodnie z nakazami Najwyższego Kapłana w Volantis."
+
+ # MaA Innowacji
+ battering_ram:0 "Bojowy Ram"
+ battering_ram_flavor:0 "Wielki ram do obalania bram i murów każdego wroga!"
+
+ northern_spears:0 "Włócznie Żelaznego Drzewa"
+ northern_spears_flavor:0 "Uzbrojeni w włócznie z żelaznego drzewa, ci północni żołnierze stanowią zabójczy kontrast dla rycerzy południa."
+
+ dornish_crossbows:0 "Dornijscy Żmijacy"
+ dornish_crossbows_flavor:0 "Uzbrojeni w kusze, ci Dornijczycy słyną z niesamowitej precyzji i zatrutych bełtów."
+
+ vale_heavy_infantry:0 "Krwawe Strażniki"
+ vale_heavy_infantry_flavor:0 "Znani z obrony Krwawej Bramy, ci miecznicy są niezłomni w obronie Doliny."
+
+ crownlands_spears:0 "Zmierzchowe Włócznie"
+ crownlands_spears_flavor:0 "Ci spearmenowie dobrze znają ziemie nad Zatoką Czarnobrodych i słyną z walki w miastach."
+
+ reach_light_cavalry:0 "Posłańcy Rąk"
+ reach_light_cavalry_flavor:0 "Szybcy i lekcy, ci strażnicy potrafią pokonać szerokość Reach szybciej niż jakiekolwiek inne oddziały konne, by przekazywać wiadomości lub nękać wroga."
+
+ riverlands_light_infantry:0 "Bargmeni"
+ riverlands_light_infantry_flavor:0 "Podróżując w górę i w dół Trójzębu i jego licznych dopływów, ci bargmeni zapewniają swoim panom szybką i mobilną piechotę."
+
+ westerlands_knights:0 "Rycerze Lwów"
+ westerlands_knights_flavor:0 "Silni i wytrzymali, rycerze Westerlandu są tak groźni, jak lwy."
+
+ stormlands_heavy_infantry:0 "Antlermeni"
+ stormlands_heavy_infantry_flavor:0 "Uzbrojeni i opancerzeni w zimną stal, ci ludzie ozdabiają swoje hełmy porożami, by ukazać swoje oburzenie."
+
+ westerosi_sellswords:0 "Zbytnio Płatni Rycerze"
+ westerosi_sellswords_flavor:0 "Wielu rycerzy Westeros służy w Wolnych Kompaniach Essos. Nie są tak oddani jak ci przysięgający panom w Westeros, ponieważ moneta nigdy nie jest silniejsza niż przysięga."
+
+ stepstone_sailors:0 "Piraci Stepstonów"
+ stepstone_sailors_flavor:0 "Piraci Stepstonów są plagą od Złamania i będą nią aż do powrotu Długiej Nocy."
+
+ giant_regiment:0 "Giganci"
+ giant_regiment_flavor:0 "Niektórzy z słynnych gigantów dalekiej północy, ci wielcy stworzenia postanowili walczyć dla plemienia zza Muru."
+
+ goldenheart_bowmen:0 "Łucznicy Złotej Serc"
+ goldenheart_bowmen_flavor:0 "Letnie Wyspy i ich statki są strachem dla piratów i handlarzy niewolnikami, ponieważ są chronione przez regimenta Łuczników Złotej Serc, których łuki są jedynie w tyle za rzadkimi łukami ze smoczej kości."
+
+ ruby_spearwomen:0 "Rubinowe Włoski"
+ ruby_spearwomen_flavor:0 "Straszliwe kobiety z Gór Kości są silne i utalentowane w walce z wielkimi włóczniami, znane z rubinów i żelaznych pierścieni."
+
+ #Tytuł MaAs
+ goldcloaks:0 "Złote Peleryny"
+ goldcloaks_flavor:0 "Straż Miejska King's Landing, bardziej znana jako złote peleryny, to siła, z którą należy się liczyć. Wyposażeni w złote wełniane peleryny, krótkie włócznie, pałki i czarną zbroję, są rozpoznawalni wszędzie w królestwie."
+
+ sea_watch:0 "Straż Morska"
+ sea_watch_flavor:0 "Straż Morska Żelaznego Tronu to jednostka marynarki wojennej, która strzeże Zatoki Czarnobrodych i podejścia do King's Landing. Są obawiani przez przemytników i wykonują egzekucje na tych, których złapią."
+
+ redcloaks:0 "Czerwone Peleryny"
+ redcloaks_flavor:0 "Straż Miejska Lannisportu, zwana czerwonymi pelerynami, jest znana ze swojej efektywności i wyszkolenia. Z bogactwem Lannisportu za sobą, są dobrze wyposażeni i dobrze wyszkoleni."
+
+ greycloaks:0 "Szare Peleryny"
+ greycloaks_flavor:0 "Straż Miejska Oldtown, znana jako szare peleryny, to najstarsza straż miejska w Westeros, dobrze znana z profesjonalizmu i porządku."
+
+ cailin_archers:0 "Łucznicy Cailin"
+ cailin_archers_flavor:0 "Moat Cailin pełni funkcję bramy do Północy, a dzięki swojej silnej pozycji na końcu grobli, chronionej przez Szyję, łucznicy mogą łatwo bronić zamku - czy to zrujnowanego, czy odbudowanego - przed jakimkolwiek wrogiem."
+
+ #Night's Watch MaAs
+ nw_rangers:0 "Wędrowcy"
+ nw_rangers_flavor:0 "Główne siły militarne Nocnej Straży, wędrowcy regularnie wędrują za Mur i stykają się z dzikimi w Lesie Przeklętych i poza nim."
+
+ nw_trackers:0 "Tropiciele"
+ nw_trackers_flavor:0 "Czasami członkowie Nocnej Straży są wysyłani daleko, by ścigać ważne cele lub zbierać kluczowe informacje. Nieliczni, ci żołnierze to jedni z nielicznych, którzy jeżdżą na koniach."
+
+ sworn_brothers:0 "Bracia Przysięgi"
+ sworn_brothers_flavor:0 "Chociaż liczba braci przysięgłych zmniejszyła się w porównaniu z dawnymi czasami, nadal stanowią siłę, z którą należy się liczyć - zwłaszcza w porównaniu do dzikich za Murem."
+
+ shadow_spears:0 "Cienie Włóczni"
+ shadow_spears_flavor:0 "Mężczyźni z Cienia Wieży od dawna strzegą Mostu Czaszek. Aby utrzymać wrogów z dala od tak ważnego punktu, udoskonalili użycie długich włóczni."
+
+ eastwatch_sailors:0 "Żeglarze Wschodniej Straży"
+ eastwatch_sailors_flavor:0 "Jako jedyny port Nocnej Straży, bracia z Eastwatch-by-the-Sea są wykwalifikowanymi żeglarzami, przyzwyczajonymi do patrolowania Mroźnego Morza."
+
+ #Smoki
+ anti_dragon:0 "[anti_dragon_maa|E]"
+ scorpions:0 "Skorpiony"
+ scorpions_flavor:0 "Wielki wyrzutnia bełtów, zdolna do przebicia najgrubszych pancerzy. Choć nieprzewyższona w tradycyjnej wojnie, skorpion nie ma sobie równych w jednej kwestii - zdolności przebicia smokich łusek."
+
+ water_wizards:0 "Wodny Czarodzieje"
+ water_wizards_flavor:0 "Rhoynarzy słynęli ze swoich więzi z wielką rzeką, którą czczą jako swoją Matkę Boginię. To czczenie przejawia się najsilniej w Wodnych Czarodziejach, którzy używają samego ciała Matki do zabijania nawet smoków."
+
+ dragons_regiment:0 "[dragons_plural|E]"
+ dragons_flavor:0 "Smoki to najstraszniejsza broń na świecie, zdolna do spalenia całych armii na popiół. Zmierzyć się z jednym to poznać oblicze śmierci."
+
+#Rodzaje MaA
+ chariot_cavalry:0 "[chariot_cavalry|E]"
+ game_concept_chariot_cavalry:0 "Wozy bojowe"
+ game_concept_chariot_cavalry_desc:0 "Wozy bojowe to [men_at_arms|E], wytrzymała jednostka kawalerii, która [counters|E] [heavy_cavalry|E] i [heavy_infantry|E]. Są one z kolei kontrą dla [spearmen|E] i kuszników."
+ chariot_cavalry_damage_add:0 "[chariot_cavalry|E] [damage|E]"
+ chariot_cavalry_damage_mult:0 "$chariot_cavalry_damage_add$"
+ chariot_cavalry_toughness_add:0 "[chariot_cavalry|E] [toughness|E]"
+ chariot_cavalry_toughness_mult:0 "$chariot_cavalry_toughness_add$"
+ chariot_cavalry_pursuit_add:0 "[chariot_cavalry|E] [pursuit|E]"
+ chariot_cavalry_pursuit_mult:0 "$chariot_cavalry_pursuit_add$"
+ chariot_cavalry_screen_add:0 "[chariot_cavalry|E] [screen|E]"
+ chariot_cavalry_screen_mult:0 "$chariot_cavalry_screen_add$"
+ chariot_cavalry_maintenance_mult:0 "[chariot_cavalry|E] Maintenance"
+ chariot_cavalry_recruitment_cost_mult:0 "[chariot_cavalry|E] Recruitment Cost"
+ chariot_cavalry_max_size_add:1 "Max Size of [chariot_cavalry|E] [regiments|E]"  

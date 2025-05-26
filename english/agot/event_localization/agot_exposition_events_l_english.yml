@@ -1,0 +1,29 @@
+﻿l_english:
+ agot_exposition_events.house_name.t:0 " Ród [ROOT.Char.GetHouse.GetNameNoTooltip]"
+ agot_exposition_events.opt.house_words:0 "[ROOT.Char.GetHouse.GetMotto]"
+
+ #Arryn
+ agot_exposition_events.0001.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Orlego Gniazda, Obrońca Doliny i Strażnik Wschodu! Ród Arrynów wywodzi się od Królów Gór i Doliny oraz szczyci się najstarszym i najszlachetniejszym andalskim dziedzictwem w całych Siedmiu Królestwach. Wasze ziemie chronione są przez Góry Księżycowe na zachodzie, a z niezdobytej twierdzy Orle Gniazdo ród ten od wieków włada wzgórzami i dolinami Doliny Arrynów."
+ #Baratheon
+ agot_exposition_events.0002.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Końca Burzy i najwyższy lord Krain Burzy! Przodek waszego rodu, Orys Baratheon, był towarzyszem Aegona Zdobywcy i zabił ostatniego Króla Burzy w pojedynku. Przyjął on dewizę, ziemie i herb rodu Durrandonów jako własne. Od tamtej pory Baratheonowie panują jako najwyżsi lordowie Krain Burzy. Choć nasze ziemie nie są tak bogate ani ludne jak inne królestwa Westeros, słyną z walecznych wojowników, zahartowanych przez wieki wojen z Dornijczykami."
+ #Greyjoy
+ agot_exposition_events.0003.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], Syn Wiatru Morskiego, Żniwiarz z Pyke i pan Żelaznych Wysp!"
+ #Lannister
+ agot_exposition_events.0004.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Casterly Rock, Tarcza Lannisportu i Strażnik Zachodu!"
+ #Martell
+ agot_exposition_events.0005.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Sunspear i książę Dorne!"
+ #Stark
+ agot_exposition_events.0006.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Winterfell i Strażnik Północy!"
+ #Targaryen
+ agot_exposition_events.0007.desc:0 " Niech żyje król [ROOT.Char.GetFirstNameNoTooltip], Król Andalów, Rhoynarów i Pierwszych Ludzi, pan Siedmiu Królestw i Obrońca Królestwa! Smocza krew płynie w twoich żyłach. Targaryenowie to największa dynastia, jaką widziało Westeros, spadkobiercy smoczych lordów z Valyrii i Aegona Zdobywcy, który zjednoczył Siedem Królestw ogniem i krwią."
+ #Tully
+ agot_exposition_events.0008.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Riverrun i najwyższy lord Tridentu!"
+ #Tyrell
+ agot_exposition_events.0009.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], pan Wysogrodu, najwyższy lord Manderu, Obrońca Marchii, Wielki Marszałek Reach i Strażnik Południa!"
+ #Hightower
+ agot_exposition_events.0010.desc:0 " Niech żyje lord [ROOT.Char.GetFirstNameNoTooltip], Głos Starego Miasta, pan Portu, pan Hightower, Obrońca Cytadeli i Latarnia Południa!"
+ #Glover
+ agot_exposition_events.0011.desc:0 " Ród [ROOT.Char.GetDynasty.GetNameNoTooltip] włada Deepwood Motte, służąc rodowi [ROOT.Char.GetLiege.GetHouse.GetNameNoTooltip], i jest odpowiedzialny za obronę Wolfswood przed najazdami Żelaznych Ludzi. Nasze ziemie są rozległe, a wiele rodów i ludzi jest nam poddanych."
+ #Reed
+ agot_exposition_events.0012.desc:0 " Ród [ROOT.Char.GetHouse.GetNameNoTooltip] włada Greywater Watch, służąc rodowi [ROOT.Char.GetLiege.GetHouse.GetNameNoTooltip], i jest odpowiedzialny za obronę Szyi przed południowymi lordami. Nasze bagna pełne są tajemnych miejsc i śmiertelnych pułapek — pochłoną każdego wroga w całości."
+

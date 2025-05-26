@@ -1,0 +1,6 @@
+﻿l_french:
+ rule_ub_best_friend_to_heir_friend:0 "Amitié héritée (bêta)"
+ setting_ub_best_friend_to_heir_friend_allowed:0 "Par défaut"
+ setting_ub_best_friend_to_heir_friend_allowed_desc:0 "Le meilleur ami d'un personnage peut devenir ami avec son héritier lors de la succession."
+ setting_ub_best_friend_to_heir_friend_blocked:1 "#high Héritage direct refusé#!"
+ setting_ub_best_friend_to_heir_friend_blocked_desc:0 "Le meilleur ami d'un personnage ne peut pas devenir ami avec son héritier lors de la succession."

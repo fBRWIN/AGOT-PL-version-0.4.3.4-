@@ -1,0 +1,4 @@
+﻿l_english:
+ WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:1 "Zostało zabronione dołączenie do lojalistycznych frakcji aż do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"
+ I_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:2 "Zostało ci zabronione dołączenie do lojalistycznych frakcji aż do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"
+ THEY_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:1 "[CHARACTER.GetShortUIName|U] zostało zabronione dołączenie do lojalistycznych frakcji aż do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"

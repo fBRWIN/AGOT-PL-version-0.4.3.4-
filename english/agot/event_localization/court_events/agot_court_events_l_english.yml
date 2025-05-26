@@ -1,0 +1,6 @@
+﻿l_english:
+ court.5075.dragon:0 "Mam smoka, po co mi konie?"
+ court.5060.d.bloodrider: "[knight.GetSheHe|U] zostanie zaprzysiężony na mojego $bloodrider_court_position$!"
+ #Royal Service
+ hold_court.8050.d.bloodrider:0 "Znalazłem mojego Bloodridera!"
+ hold_court.8050.d.tt_bloodrider:0 "[knight.GetFirstName] przeprowadzi się do twojego dworu jako twój Bloodrider. \nUsunięcie [knight.GetHerHim] może zdenerwować [vassal.GetTitledFirstName]"

@@ -1,0 +1,29 @@
+﻿l_english:
+
+tradycja_agot_verkos_frozen_flats_name:0 "Na Płaskowyżach Lodowych"
+tradycja_agot_verkos_frozen_flats_desc:0 "Ci ludzie zamieszkali na wielkich, zamarzniętych równinach w zimnych rejonach świata. Wykorzystując te zimowe ziemie, przetrwali tam, gdzie inni by zginęli."
+kultura_w_zimowych_terenach_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Zamarzniętych Równin [terrain|E]"
+
+tradycja_agot_verkos_glacier_name:0 "Na Lodzie i Kamieniu"
+tradycja_agot_verkos_glacier_desc:0 "Na szczytach gór i lodowcach świata, ci ludzie wykuwają swoje twarde życie. Zimne i trudne, jak ziemia, którą zamieszkują."
+kultura_w_glacier_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Lodowca [terrain|E]"
+
+tradycja_agot_verkos_cloudforest_name:0 "W Lesie Chmur"
+tradycja_agot_verkos_cloudforest_desc:0 "W głębokich lasach chmurowych życie jest całkowicie inne. Zacienieni od słońca wśród wielkich drzew, ci ludzie żyją z tego, co daje im las."
+kultura_w_cloudforest_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Lasu Chmur [terrain|E]"
+
+tradycja_agot_verkos_highlands_name:0 "W Górach"
+tradycja_agot_verkos_highlands_desc:0 "Życie w górach jest bardziej tradycyjne, oddalone od zgiełku miast, co pozwala mieszkańcom zachować swoje własne zwyczaje."
+kultura_w_highlands_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Gór [terrain|E]"
+
+tradycja_agot_verkos_taiga_bog_name:0 "W Bagnach"
+tradycja_agot_verkos_taiga_bog_desc:0 "W bagnach północnych klimatów, niebezpieczeństw jest mnóstwo. Ale te skręcone tereny rodzą silnych ludzi."
+kultura_w_taiga_bog_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Bagien Taigi [terrain|E]"
+
+tradycja_agot_verkos_urban_name:0 "Mieszkańcy Miast"
+tradycja_agot_verkos_urban_desc:0 "Chociaż wielu ich nienawidzi, mieszkańcy miast wiedzą, że ich życie nie jest tak jasne, jak się początkowo wydaje. Niebezpieczeństwa dużego miasta nie mają powodu, by wstydzić się dzikich przestrzeni natury, ponieważ w miejskiej dżungli, ciemne zaułki są tak zdradzieckie jak błotniste bagna i mogą przypieczętować twoją śmierć równie pewnie jak zły krok w pobliżu wąwozu."
+kultura_w_urban_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Miejskim [terrain|E]"
+
+tradycja_agot_verkos_the_bog_name:0 "Mieszkańcy Szyi"
+tradycja_agot_verkos_the_bog_desc:0 "Gdy Dzieci próbowały ponownie przełamać ziemię, Młot Wód stworzył Szyję — miejsce unikalne na świecie pod względem niebezpieczeństw, zarówno fauny, jak i flory."
+kultura_w_the_bog_desc:0 "Kultura [culture|E] nie występuje w żadnym [county|E] z terenem Bagna [terrain|E]"

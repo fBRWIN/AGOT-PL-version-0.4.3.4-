@@ -1,0 +1,25 @@
+﻿l_english:
+
+ # MAINTENANCE
+ # Officiant Selection
+ coronation_decision.0001.t:0 "Oficjał"
+ coronation_decision.0001.desc:0 "Muszę wybrać kogoś, kto będzie przewodniczyć mojej koronacji."
+ coronation_decision.0001.a:0 "Oni mnie ukoronują!"
+ coronation_decision.0001.a.tt:0 "[officiant.GetTitledFirstNameNicknamed|U] będzie pełnić funkcję oficjała podczas twojej koronacji."
+ coronation_decision.0001.a.tt_hof:0 "[officiant.GetTitledFirstNameNicknamed|U] jest twoim [head_of_faith|E], co zwiększa twoje zyski z [piety_i] [piety|E]."
+ coronation_decision.0001.a.tt_pv:0 "[officiant.GetTitledFirstNameNicknamed|U] jest [powerful_vassal|E], co zwiększa twoje zyski z [legitimacy_i] [legitimacy|E]."
+ coronation_decision.0001.a.tt_dynn:0 "[officiant.GetTitledFirstNameNicknamed|U] jest członkiem twojej [dynasty|E], co zwiększa twoje zyski z [dynasty_prestige_i] [dynasty_prestige|E]."
+ coronation_decision.0001.b:0 "Właściwie, zrobię to sam!"
+ coronation_decision.0001.b.tt:0 "Koronujesz się samodzielnie."
+
+ # Selecting a Crown - Decides which crown the officiant will use to crown them and set up for sabotage
+ coronation_decision.0002.t:0 "Wybór korony"
+ coronation_decision.0002.desc:0 "Po zakończeniu ostatnich przygotowań, [officiant.GetTitledFirstNameNoTooltip] podchodzi do mnie. \"Wasza Wysokość, musimy zdecydować, jaką koronę chcecie na siebie włożyć.\"\n\nZatrzymuję się na chwilę, zastanawiając się, która korona z mojej kolekcji powinna zostać użyta."
+ coronation_decision.0002.desc_crowning_self:0 "Po zakończeniu ostatnich przygotowań, muszę zdecydować, którą koronę chcę na siebie włożyć."
+ coronation_decision.0002.desc_high_septon:0 "Po zakończeniu ostatnich przygotowań, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] podchodzi do mnie. \"Wasza Wysokość, musimy zdecydować, jaką koronę chcecie na siebie włożyć.\"\n\nZatrzymuję się na chwilę, zastanawiając się, która korona z mojej kolekcji powinna zostać użyta."
+ coronation_decision.0002.desc_after_sabotage:0 "Po tym, jak ktoś ukradł moją koronę, muszę teraz wybrać jedną z pozostałych w mojej kolekcji."
+ coronation_decision.0002.a:0 "To będzie odpowiednia."
+ coronation_decision.0002.a.tt:0 "[selected_crown_for_coronation.GetNameNoTooltip] zostanie użyta do ukoronowania cię."
+ coronation_decision.0002.b:0 "Żadna z tych koron nie jest odpowiednia; zamówię nową koronę."
+
+ already_hosting_coronation:0 "Już organizujesz koronację."

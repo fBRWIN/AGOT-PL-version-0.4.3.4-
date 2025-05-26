@@ -1,0 +1,265 @@
+﻿l_english:
+ agot_kingsguard_memory:0 "Dołączył do Kingsguard"
+ agot_kingsguard_memory_desc:0 "Dołączyłem do Kingsguard [king.GetFullNamePossessiveRegnal]"
+ agot_kingsguard_memory_desc_second_perspective_1:0 "Dołączyłeś do Kingsguard [king.GetFullNamePossessiveRegnal]"
+ agot_kingsguard_memory_desc_third_perspective_1:0 "[owner.GetName] dołączył do Kingsguard [king.GetFullNamePossessiveRegnal]"
+
+ agot_kingsguard_lord_commander_memory:0 "Został Lordem Dowódcą Kingsguard"
+ agot_kingsguard_lord_commander_memory_desc:0 "Zostałem mianowany Lordem Dowódcą Kingsguard [king.GetFullNamePossessiveRegnal]"
+ agot_kingsguard_lord_commander_memory_desc_second_perspective_1:0 "Zostałeś mianowany Lordem Dowódcą Kingsguard [king.GetFullNamePossessiveRegnal]"
+ agot_kingsguard_lord_commander_memory_desc_third_perspective_1:0 "[owner.GetName] został mianowany Lordem Dowódcą Kingsguard [king.GetFullNamePossessiveRegnal]"
+
+ agot_melee_winner:0 "Zwycięzca walki"
+ agot_melee_winner_desc_1:0 "Wygrałem walkę [MeleeHost.GetTitledFirstNamePossessive]"
+ agot_melee_winner_desc_second_perspective_1:0 "Wygrałeś walkę [MeleeHost.GetTitledFirstNamePossessive]"
+ agot_melee_winner_desc_third_perspective_1:0 "[owner.GetName] wygrał walkę [MeleeHost.GetTitledFirstName]"
+
+ agot_tournament_winner:0 "Zwycięzca turnieju"
+ agot_tournament_winner_desc_1:0 "Wygrałem turniej [TourneyHost.GetTitledFirstNamePossessive]"
+ agot_tournament_winner_desc_second_perspective_1:0 "Wygrałeś turniej [TourneyHost.GetTitledFirstName]"
+ agot_tournament_winner_desc_third_perspective_1:0 "[owner.GetName] wygrał turniej [TourneyHost.GetTitledFirstName]"
+ agot_tournament_second_place:0 "Zdobywca drugiego miejsca w turnieju"
+ agot_tournament_second_place_desc_1:0 "Zająłem drugie miejsce w turnieju [TourneyHost.GetTitledFirstName]"
+ agot_tournament_second_place_desc_second_perspective_1:0 "Zająłeś drugie miejsce w turnieju [TourneyHost.GetTitledFirstName]"
+ agot_tournament_second_place_desc_third_perspective_1:0 "[owner.GetName] zajął drugie miejsce w turnieju [TourneyHost.GetTitledFirstName]"
+
+ agot_got_squire:0 "Dostał giermka"
+ agot_got_squire_desc_1:0 "[squire.GetTitledFirstName] został moim giermkiem"
+ agot_got_squire_desc_second_perspective_1:0 "[squire.GetTitledFirstName] został twoim giermkiem"
+ agot_got_squire_desc_third_perspective_1:0 "[squire.GetTitledFirstName] został giermkiem [owner.GetNamePossessive]"
+
+ agot_became_squire:0 "Został giermkiem"
+ agot_became_squire_desc_1:0 "Zostałem giermkiem [knight.GetTitledFirstNamePossessive]"
+ agot_became_squire_desc_second_perspective_1:0 "Zostałeś giermkiem [knight.GetTitledFirstNamePossessive]"
+ agot_became_squire_desc_third_perspective_1:0 "[owner.GetName] został giermkiem [knight.GetTitledFirstNamePossessive]"
+
+ agot_squired_together:0 "Byliśmy giermkami razem"
+ agot_squired_together_desc_1:0 "[fellow_squire.GetTitledFirstName] i ja byliśmy giermkami dla [knight.GetTitledFirstName]"
+ agot_squired_together_desc_second_perspective_1:0 "Ty i [fellow_squire.GetTitledFirstName] byliście giermkami dla [knight.GetTitledFirstName]"
+ agot_squired_together_desc_third_perspective_1:0 "[owner.GetName] i [fellow_squire.GetTitledFirstName] byli giermkami dla [knight.GetTitledFirstName]"
+
+ agot_lost_squire:0 "Stracił giermka"
+ agot_lost_squire_desc_1:0 "[squire.GetTitledFirstName] przestał być moim giermkiem."
+ agot_lost_squire_desc_second_perspective_1:0 "[squire.GetTitledFirstName] nie jest już twoim giermkiem."
+ agot_lost_squire_desc_third_perspective_1:0 "[squire.GetTitledFirstName] nie jest już giermkiem [owner.GetNamePossessive]"
+
+ agot_removed_me_as_squire:0 "Przestał być giermkiem"
+ agot_removed_me_as_squire_desc_1:0 "Przestałem być giermkiem [knight.GetTitledFirstNamePossessive]"
+ agot_removed_me_as_squire_desc_second_perspective_1:0 "Nie jesteś już giermkiem [knight.GetTitledFirstNamePossessive]"
+ agot_removed_me_as_squire_desc_third_perspective_1:0 "[owner.GetName] przestał być giermkiem [knight.GetTitledFirstNamePossessive]"
+
+ agot_was_knighted:0 "Został rycerzem"
+ agot_was_knighted_desc_1:0 "Zostałem pasowany na rycerza przez [knight.GetTitledFirstName]"
+ agot_was_knighted_desc_second_perspective_1:0 "Zostałeś pasowany na rycerza przez [knight.GetTitledFirstName]"
+ agot_was_knighted_desc_third_perspective_1:0 "[owner.GetName] został pasowany na rycerza przez [knight.GetTitledFirstName]"
+
+ agot_knighted_someone:0 "Pasował kogoś na rycerza"
+ agot_knighted_someone_desc_1:0 "Pasowałem na rycerza [squire.GetTitledFirstName]"
+ agot_knighted_someone_desc_second_perspective_1:0 "Pasowałeś na rycerza [squire.GetTitledFirstName]"
+ agot_knighted_someone_desc_third_perspective_1:0 "[owner.GetName] pasował na rycerza [squire.GetTitledFirstName]"
+
+ agot_bought_knighthood:0 "Kupił rycerstwo"
+ agot_bought_knighthood_desc_1:0 "Kupiłem rycerstwo"
+ agot_bought_knighthood_desc_second_perspective_1:0 "Kupiłeś rycerstwo"
+ agot_bought_knighthood_desc_third_perspective_1:0 "[owner.GetName] kupił rycerstwo"
+
+ agot_was_knighted_as_tourney_prize:0 "Pasowany na rycerza na turnieju"
+ agot_was_knighted_as_tourney_prize_desc:0 "Został pasowany na rycerza na turnieju"
+ agot_was_knighted_as_tourney_prize_desc_1:0 "Zostałem pasowany na rycerza przez [knight.GetTitledFirstName] po wygranej w konkursie na turnieju"
+ agot_was_knighted_as_tourney_prize_desc_second_perspective_1:0 "Zostałeś pasowany na rycerza przez [knight.GetTitledFirstName] po wygranej w konkursie na turnieju"
+ agot_was_knighted_as_tourney_prize_desc_third_perspective_1:0 "[owner.GetName] został pasowany na rycerza przez [knight.GetTitledFirstName] po wygranej w konkursie na turnieju"
+
+ agot_knighted_someone_as_tourney_prize:0 "Pasował kogoś na rycerza na turnieju"
+ agot_knighted_someone_as_tourney_prize_desc_1:0 "Pasowałem na rycerza [squire.GetTitledFirstName] po tym, jak wygrał konkurs na moim turnieju"
+ agot_knighted_someone_as_tourney_prize_desc_second_perspective_1:0 "Pasowałeś na rycerza [squire.GetTitledFirstName] po tym, jak wygrał konkurs na twoim turnieju"
+ agot_knighted_someone_as_tourney_prize_desc_third_perspective_1:0 "[owner.GetName] pasował na rycerza [squire.GetTitledFirstName] po tym, jak wygrał konkurs na swoim turnieju"
+
+ agot_was_stripped_of_knighthood:0 "Został pozbawiony rycerstwa"
+ agot_was_stripped_of_knighthood_desc_1:0 "Zostałem pozbawiony rycerstwa przez [stripper.GetTitledFirstName] jako kara"
+ agot_was_stripped_of_knighthood_desc_second_perspective_1:0 "Zostałeś pozbawiony rycerstwa przez [stripper.GetTitledFirstName] jako kara"
+ agot_was_stripped_of_knighthood_desc_third_perspective_1:0 "[owner.GetName] został pozbawiony rycerstwa przez [stripper.GetTitledFirstName] jako kara"
+
+ agot_stripped_knighthood:0 "Pozbawił rycerstwa"
+ agot_stripped_knighthood_desc_1:0 "Pozbawiłem rycerstwa [knight.GetTitledFirstName] jako karę"
+ agot_stripped_knighthood_desc_second_perspective_1:0 "Pozbawiłeś rycerstwa [knight.GetTitledFirstName] jako karę"
+ agot_stripped_knighthood_desc_third_perspective_1:0 "[owner.GetName] pozbawił rycerstwa [knight.GetTitledFirstName] jako karę"
+
+ agot_joined_nightswatch:0 "Dołączył do Nocnej Straży"
+ agot_joined_nightswatch_desc_1:0 "Zostałem zrekrutowany do Nocnej Straży pod dowództwem [commander.GetTitledFirstName]"
+ agot_joined_nightswatch_desc_second_perspective_1:0 "Zostałeś zrekrutowany do Nocnej Straży pod dowództwem [commander.GetTitledFirstName]"
+ agot_joined_nightswatch_desc_third_perspective_1:0 "[owner.GetName] został zrekrutowany do Nocnej Straży pod dowództwem [commander.GetTitledFirstName]"
+
+ agot_swore_nightswatch_oath:0 "Złożył przysięgę Czarnego Bractwa"
+ agot_swore_nightswatch_oath_desc_1:0 "Złożyłem śluby i wstąpiłem do Czarnego Bractwa"
+ agot_swore_nightswatch_oath_desc_second_perspective_1:0 "Złożyłeś śluby i wstąpiłeś do Czarnego Bractwa"
+ agot_swore_nightswatch_oath_desc_third_perspective_1:0 "[owner.GetName] złożył śluby i wstąpił do Czarnego Bractwa"
+
+ agot_joined_silent_sisters:0 "Dołączył do Milczącego Bractwa"
+ agot_joined_silent_sisters_desc_1:0 "Dołączyłem do Milczącego Bractwa pod dowództwem [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_second_perspective_1:0 "Dołączyłeś do Milczącego Bractwa pod dowództwem [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_third_perspective_1:0 "[owner.GetName] dołączył do Milczącego Bractwa pod dowództwem [silent_mother.GetTitledFirstName]"
+
+ agot_got_paramour:0 "Miał kochankę"
+ agot_got_paramour_desc_1:0 "Wziąłem [paramour.GetFirstName] jako kochankę"
+ agot_got_paramour_desc_second_perspective_1:0 "Wziąłeś [paramour.GetFirstName] jako kochankę"
+ agot_got_paramour_desc_third_perspective_1:0 "[owner.GetName] wziął [paramour.GetFirstName] jako kochankę"
+
+ agot_became_paramour:0 "Został kochanką"
+ agot_became_paramour_desc_1:0 "Zostałem kochanką [paramour.GetFirstName]"
+ agot_became_paramour_desc_second_perspective_1:0 "Zostałeś kochanką [paramour.GetFirstName]"
+ agot_became_paramour_desc_third_perspective_1:0 "[owner.GetName] został kochanką [paramour.GetFirstName]"
+
+ agot_joined_citadel:0 "Rozpoczął naukę na Cytadeli"
+ agot_joined_citadel_desc_1:0 "Poszedłem do Cytadeli i zacząłem naukę do mojego pierwszego łańcucha"
+ agot_joined_citadel_desc_second_perspective_1:0 "Poszedłeś do Cytadeli i zacząłeś naukę do swojego pierwszego łańcucha"
+ agot_joined_citadel_desc_third_perspective_1:0 "[owner.GetName] poszedł do Cytadeli i zaczął naukę do swojego pierwszego łańcucha"
+
+ agot_earned_maester_link:0 "Zdobył pierwszy łańcuch"
+ agot_earned_maester_link_desc_1:0 "Zdobyłem pierwszy łańcuch maestera ucząc się pod kierunkiem [instructor.Custom('MaesterCheck')] [instructor.GetFirstName]"
+ agot_earned_maester_link_desc_second_perspective_1:0 "Zdobyłeś pierwszy łańcuch maestera ucząc się pod kierunkiem Maestera [instructor.GetFirstName]"
+ agot_earned_maester_link_desc_third_perspective_1:0 "[owner.GetName] zdobył pierwszy łańcuch maestera ucząc się pod kierunkiem Maestera [instructor.GetFirstName]"
+
+ agot_became_maester:0 "Został Maesterem"
+ agot_became_maester_desc_1:0 "Zostałem pełnoprawnym maesterem na Cytadeli"
+ agot_became_maester_desc_second_perspective_1:0 "Zostałeś pełnoprawnym maesterem na Cytadeli"
+ agot_became_maester_desc_third_perspective_1:0 "[owner.GetName] został pełnoprawnym maesterem na Cytadeli"
+
+ agot_became_archmaester:0 "Nominowany na Archmaestera"
+ agot_became_archmaester_desc_1:0 "Zostałem Archmaesterem na Cytadeli"
+ agot_became_archmaester_desc_second_perspective_1:0 "Zostałeś Archmaesterem na Cytadeli"
+ agot_became_archmaester_desc_third_perspective_1:0 "[owner.GetName] został Archmaesterem na Cytadeli"
+
+ agot_became_grandmaester:0 "Mianowany Wielkim Maesterem"
+ agot_became_grandmaester_desc_1:0 "Zostałem mianowany na królewską funkcję Wielkiego Maestera"
+ agot_became_grandmaester_desc_second_perspective_1:0 "Zostałeś mianowany na królewską funkcję Wielkiego Maestera"
+ agot_became_grandmaester_desc_third_perspective_1:0 "[owner.GetName] został mianowany na królewską funkcję Wielkiego Maestera"
+
+ agot_widowed_memory:0 "Śmierć małżonka"
+ agot_widowed_memory_desc_1:0 "Mój małżonek zmarł, zostałem wdowcem."
+ agot_widowed_memory_desc_second_perspective_1:0 "Twój małżonek zmarł, zostałeś wdowcem"
+ agot_widowed_memory_desc_third_perspective_1:0 "Małżonek [owner.GetNamePossessive] zmarł, co sprawiło, że [owner.GetHerHis] został wdowcem"
+
+ agot_tortured_memory:0 "Był torturowany"
+ agot_tortured_memory_desc:0 "Byłem torturowany przez [torturer.GetTitledFirstName]"
+ agot_tortured_memory_desc_second_perspective_1:0 "Byłeś torturowany przez [torturer.GetTitledFirstName]"
+ agot_tortured_memory_desc_third_perspective_1:0 "[owner.GetName] był torturowany przez [torturer.GetTitledFirstName]"
+
+ agot_castrated_memory:0 "Był wykastrowany"
+ agot_castrated_memory_desc:0 "Zostałem wykastrowany przez [torturer.GetTitledFirstName]"
+ agot_castrated_memory_desc_second_perspective_1:0 "Zostałeś wykastrowany przez [torturer.GetTitledFirstName]"
+ agot_castrated_memory_desc_third_perspective_1:0 "[owner.GetName] został wykastrowany przez [torturer.GetTitledFirstName]"
+
+ agot_blinded_memory:0 "Był oślepiony"
+ agot_blinded_memory_desc:0 "Zostałem oślepiony przez [torturer.GetTitledFirstName]"
+ agot_blinded_memory_desc_second_perspective_1:0 "Zostałeś oślepiony przez [torturer.GetTitledFirstName]"
+ agot_blinded_memory_desc_third_perspective_1:0 "[owner.GetName] został oślepiony przez [torturer.GetTitledFirstName]"
+
+ agot_disfigured_memory:0 "Był oszpecony"
+ agot_disfigured_memory_desc:0 "Zostałem oszpecony przez [torturer.GetTitledFirstName]"
+ agot_disfigured_memory_desc_second_perspective_1:0 "Zostałeś oszpecony przez [torturer.GetTitledFirstName]"
+ agot_disfigured_memory_desc_third_perspective_1:0 "[owner.GetName] został oszpecony przez [torturer.GetTitledFirstName]"
+
+ agot_maimed_memory:0 "Był okaleczony"
+ agot_maimed_memory_desc:0 "Zostałem okaleczony przez [torturer.GetTitledFirstName]"
+ agot_maimed_memory_desc_second_perspective_1:0 "Zostałeś okaleczony przez [torturer.GetTitledFirstName]"
+ agot_maimed_memory_desc_third_perspective_1:0 "[owner.GetName] został okaleczony przez [torturer.GetTitledFirstName]"
+
+ agot_muted_memory:0 "Był ogłuszony"
+ agot_muted_memory_desc:0 "Zostałem ogłuszony przez [torturer.GetTitledFirstName]"
+ agot_muted_memory_desc_second_perspective_1:0 "Zostałeś ogłuszony przez [torturer.GetTitledFirstName]"
+ agot_muted_memory_desc_third_perspective_1:0 "[owner.GetName] został ogłuszony przez [torturer.GetTitledFirstName]"
+
+ agot_raised_to_nobility_memory:0 "Wzniesiony do szlachty"
+ agot_raised_to_nobility_memory_desc:0 "[raiser.GetTitledFirstName] wzniósł mnie do szlachty"
+ agot_raised_to_nobility_memory_desc_second_perspective_1:0 "[raiser.GetTitledFirstName] wzniósł cię do szlachty"
+ agot_raised_to_nobility_memory_desc_third_perspective_1:0 "[raiser.GetTitledFirstName] wzniósł [owner.GetName] do szlachty"
+
+ agot_memory_interesting_area_explored:0 "Zwiedził [ROOT.Var('city_location').GetProvince.GetName]"
+ interesting_area_explored_desc:0 "Zwiedziłem [ROOT.Var('city_location').GetProvince.GetName] podczas moich podróży"
+ interesting_area_explored_desc_second_perspective:0 "Zwiedziłeś [ROOT.Var('city_location').GetProvince.GetName] podczas swoich podróży"
+ interesting_area_explored_desc_third_perspective:0 "[owner.GetName] zwiedził [ROOT.Var('city_location').GetProvince.GetName] podczas swoich podróży"
+
+ agot_named_a_qolab:0 "Nazwano Królową Miłości i Piękna"
+ agot_named_a_qolab_desc:0 "Nazwałem [qolab.GetTitledFirstName] Królową Miłości i Piękna"
+ agot_named_a_qolab_desc_second_perspective:0 "Nazwałeś [qolab.GetTitledFirstName] Królową Miłości i Piękna"
+ agot_named_a_qolab_desc_third_perspective:0 "[owner.GetName] nazwał [qolab.GetTitledFirstName] Królową Miłości i Piękna"
+
+ agot_named_as_qolab:0 "Koronowano na Królową Miłości i Piękna"
+ agot_named_as_qolab_desc:0 "Zostałem koronowany na Królową Miłości i Piękna przez [crowner.GetTitledFirstName]"
+ agot_named_as_qolab_desc_second_perspective:0 "Zostałeś koronowany na Królową Miłości i Piękna przez [crowner.GetTitledFirstName]"
+ agot_named_as_qolab_desc_third_perspective:0 "[owner.GetName] został koronowany na Królową Miłości i Piękna przez [crowner.GetTitledFirstName]"
+
+ agot_freed_from_slavery_memory:0 "Uwolniony z niewoli"
+ agot_freed_from_slavery_memory_desc:0 "[liberator.GetTitledFirstName] uwolnił mnie z niewoli [slaveowner.GetTitledFirstName]"
+ agot_freed_from_slavery_memory_desc_second_perspective_1:0 "[liberator.GetTitledFirstName] uwolnił cię z niewoli [slaveowner.GetTitledFirstName]"
+ agot_freed_from_slavery_memory_desc_third_perspective_1:0 "[liberator.GetTitledFirstName] uwolnił [owner.GetName] z niewoli [slaveowner.GetTitledFirstName]"
+
+ agot_divorced_spouse:0 "Rozwiedziony małżonek"
+ agot_divorced_spouse_desc_1:0 "Rozwiodłem się z [divorcee.GetTitledFirstName]"
+ agot_divorced_spouse_desc_second_perspective_1:0 "Rozwiodłeś się z [divorcee.GetTitledFirstName]"
+ agot_divorced_spouse_desc_third_perspective_1:0 "[divorcee.GetTitledFirstName] został rozwiedziony przez [owner.GetNamePossessive]"
+
+ agot_was_divorced_by_spouse:0 "Został rozwiedziony przez małżonka"
+ agot_was_divorced_by_spouse_desc_1:0 "Zostałem rozwiedziony przez [divorcer.GetTitledFirstName]"
+ agot_was_divorced_by_spouse_desc_second_perspective_1:0 "Zostałeś rozwiedziony przez [divorcer.GetTitledFirstName]"
+ agot_was_divorced_by_spouse_desc_third_perspective_1:0 "[owner.GetTitledFirstName] został rozwiedziony przez [divorcer.GetNamePossessive]"
+
+ agot_bonded_a_dragon:0 "Związał się z smokiem"
+ agot_bonded_a_dragon_desc_1:0 "Związałem się z [tamed_dragon.GetName]"
+ agot_bonded_a_dragon_desc_second_perspective_1:0 "Związałeś się z [tamed_dragon.GetName]"
+ agot_bonded_a_dragon_desc_third_perspective_1:0 "[owner.GetName] związał się z [tamed_dragon.GetName]"
+
+ agot_tamed_a_dragon:0 "Ujarzmił smoka"
+ agot_tamed_a_dragon_desc_1:0 "Ujarzmiłem [tamed_dragon.GetName]"
+ agot_tamed_a_dragon_desc_second_perspective_1:0 "Ujarzmiłeś [tamed_dragon.GetName]"
+ agot_tamed_a_dragon_desc_third_perspective_1:0 "[owner.GetName] ujarzmił [tamed_dragon.GetName]"
+
+ agot_failed_tamed_a_dragon:0 "Nie udało się ujarzmić smoka"
+ agot_failed_to_tame_a_dragon_desc_1:0 "Nie udało mi się ujarzmić [dragon.GetName]"
+ agot_failed_to_tame_a_dragon_desc_second_perspective_1:0 "Nie udało ci się ujarzmić [dragon.GetName]"
+ agot_failed_to_tame_a_dragon_desc_third_perspective_1:0 "[owner.GetName] nie udało się ujarzmić [dragon.GetName]"
+
+ agot_dragon_died:0 "Smok umarł"
+ agot_dragon_died_desc_1:0 "Mój smok [dead_dragon.GetName] umarł"
+ agot_dragon_died_desc_second_perspective_1:0 "Twój smok [dead_dragon.GetName] umarł"
+ agot_dragon_died_desc_third_perspective_1:0 "Smok [dead_dragon.GetName] [owner.GetNamePossessive] umarł"
+
+ agot_slayed_dragon:0 "Zabił smoka"
+ agot_slayed_dragon_desc_1:0 "Zabiłem smoka [slayed_dragon.GetName]"
+ agot_slayed_dragon_desc_second_perspective_1:0 "Zabiłeś smoka [slayed_dragon.GetName]"
+ agot_slayed_dragon_desc_third_perspective_1:0 "[owner.GetName] zabił smoka [slayed_dragon.GetName]"
+
+ agot_wounded_by_dragon:0 "Ranny przez smoka"
+ agot_wounded_by_dragon_desc_1:0 "Zostałem ranny przez smoka [wounding_dragon.GetName]"
+ agot_wounded_by_dragon_desc_second_perspective_1:0 "Zostałeś ranny przez smoka [wounding_dragon.GetName]"
+ agot_wounded_by_dragon_desc_third_perspective_1:0 "[owner.GetName] został ranny przez smoka [wounding_dragon.GetName]"
+
+ agot_hatched_egg:0 "Wykluł smoka"
+ agot_hatched_egg_desc_1:0 "Wyklułem smoka [dragon.GetName] z jaja"
+ agot_hatched_egg_desc_second_perspective_1:0 "Wykłułeś smoka [dragon.GetName] z jaja"
+ agot_hatched_egg_desc_third_perspective_1:0 "[owner.GetName] wykluł smoka [dragon.GetName] z jaja"
+
+ agot_dragon_laid_clutch_1:0 "Złożył jajo"
+ agot_laid_clutch_desc_1:0 "Złożyłem jedno jajo"
+ agot_laid_clutch_desc_second_perspective_1:0 "Złożyłeś jedno jajo"
+ agot_laid_clutch_desc_third_perspective_1:0 "[owner.GetName] złożył jedno jajo"
+
+ agot_dragon_laid_clutch_2:0 "Złożył jaja"
+ agot_laid_clutch_desc_2:0 "Złożyłem dwa jaja"
+ agot_laid_clutch_desc_second_perspective_2:0 "Złożyłeś dwa jaja"
+ agot_laid_clutch_desc_third_perspective_2:0 "[owner.GetName] złożył dwa jaja"
+
+ agot_dragon_laid_clutch_3:0 "Złożył jaja"
+ agot_laid_clutch_desc_3:0 "Złożyłem trzy jaja"
+ agot_laid_clutch_desc_second_perspective_3:0 "Złożyłeś trzy jaja"
+ agot_laid_clutch_desc_third_perspective_3:0 "[owner.GetName] złożył trzy jaja"
+
+ agot_dragon_laid_clutch_4:0 "Złożył jaja"
+ agot_laid_clutch_desc_4:0 "Złożyłem cztery jaja"
+ agot_laid_clutch_desc_second_perspective_4:0 "Złożyłeś cztery jaja"
+ agot_laid_clutch_desc_third_perspective_4:0 "[owner.GetName] złożył cztery jaja"
+
+ agot_dragon_laid_clutch_5:0 "Złożył jaja"
+ agot_laid_clutch_desc_5:0 "Złożyłem pięć jaj"
+ agot_laid_clutch_desc_second_perspective_5:0 "Złożyłeś pięć jaj"
+ agot_laid_clutch_desc_third_perspective_5:0 "[owner.GetName] złożył pięć jaj"

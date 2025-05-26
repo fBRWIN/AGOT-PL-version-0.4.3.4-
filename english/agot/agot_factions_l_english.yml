@@ -1,0 +1,8 @@
+﻿l_english:
+ agot_loyalist_faction:0 "Frakcja Lojalistów"
+ agot_loyalist_faction_desc:0 "Członkowie lojalistycznej [fraction|E] są oddani ochronie królestwa swojego [master|E], poza tymi, których lojalność jest niezachwiana, takimi jak sojusznicy, przyjaciele i wasale, na których pan ma silny wpływ.\n\n#S Efekty#!\nW przypadku [war|e] wywołanej przez wrogą [fraction|E], wszyscy członkowie lojalistycznej frakcji zbiorą swoje armie, aby bronić swojego [master|e]."
+ agot_loyalist_faction_short_effect_desc:0 "Chroni swojego [pana|e] przed wrogimi [fractions|e]."
+ AGOT_FACTON_REASON_HOLDER_IS_LEGITIMATE_HOUSE:0 "Posiadacz należy do [agot_legitimate_house|E]: $VALUE|+0=$"
+ AGOT_FACTON_REASON_HOLDER_IS_NOT_LEGITIMATE_HOUSE:0 "Posiadacz nie należy do [agot_legitimate_house|E]: $VALUE|+0=$"
+ AGOT_FACTON_REASON_CLAIMANT_IS_LEGITIMATE_HOUSE:0 "Pretendent należy do [agot_legitimate_house|E] przeciw nielegalnemu domowi: $VALUE|+0=$"
+ AGOT_FACTON_REASON_CLAIMANT_IS_NOT_LEGITIMATE_HOUSE:0 "Pretendent nie należy do [agot_legitimate_house|E] przeciw Prawowitemu Domowi: $VALUE|+0=$"

@@ -1,0 +1,6 @@
+﻿l_english:
+ CHARACTER_DEAD_AGOT_RES_TBC_TOOLTIP:0 "[Character.GetTitledFirstNameNoTooltip|U] zginął(a) w Sądzie Bojowym."
+ CHARACTER_DEAD_AGOT_RES_BATTLE_TOOLTIP:0 "[Character.GetTitledFirstNameNoTooltip|U] został(a) zabity(a) w bitwie."
+ CHARACTER_DEAD_AGOT_RES_ILLNESS_TOOLTIP:0 "[Character.GetTitledFirstNameNoTooltip|U] uległ(a) [Character.GetHerHis] losowi."
+ CHARACTER_DEAD_AGOT_RES_SIEGE_TOOLTIP:0 "[Character.GetTitledFirstNameNoTooltip|U] zginął(a) podczas oblężenia."
+ CHARACTER_DEAD_AGOT_RES_ACCIDENT_TOOLTIP:0 "[Character.GetTitledFirstNameNoTooltip|U] zginął(a) w wypadku."

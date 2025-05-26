@@ -1,0 +1,189 @@
+﻿l_english:
+
+#AGOT COURT POSITIONS
+
+#King's Justice - odmiana Egzekutora
+#King's Counter/Skale?
+#Strażnik Kluczy?
+#Strażnicy Mennicy?
+#Lord Konfesor/Opiekun Cel
+#Złote Płaszcze
+#Główny Strażnik Smoków
+
+
+ ## CECHY ##
+
+ court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
+ court_position_education_martial_2_trait:0 "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
+ court_position_education_martial_3_trait:0 "[GetTrait('education_martial_3').GetName( ROOT.Char )]"
+ court_position_education_martial_4_trait:0 "[GetTrait('education_martial_4').GetName( ROOT.Char )]"
+
+ court_position_disloyal_trait:0 "[GetTrait('disloyal').GetName( ROOT.Char )]"
+ court_position_authoritative_trait:0 "[GetTrait('authoritative').GetName( ROOT.Char )]"
+ court_position_inquisitve_trait:0 "[GetTrait('inquisitive').GetName( ROOT.Char )]"
+ court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
+
+ court_position_historic_title_holder:0 "Posiadacz historycznego tytułu"
+
+
+ #Stanowiska
+
+ maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+ maester_tradition_bonus:0 "Z [culture_tradition|E]"
+ maester_court_position_desc:1 "$maester_court_position$ odpowiada za zdrowie i dobrostan [court|E], w którym się znajduje. Leczy choroby i zszywa rany najlepiej, jak potrafi."
+ maester_employer_custom_effect_description:1 "Wykonuje [medical_treatments|E]#!\nPoprawia wyniki [education|E]\nOdblokowuje #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Potężny [agent|E] w [hostile_schemes|E] przeciwko tobie#!"
+
+ grandmaester_court_position:0 "Wielki Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+ grandmaester_tradition_bonus:0 "Z [culture_tradition|E]"
+ grandmaester_court_position_desc:1 "$grandmaester_court_position$ odpowiada za zdrowie i dobrostan rodziny królewskiej. Leczy choroby i zszywa rany najlepiej, jak potrafi."
+ grandmaester_employer_custom_effect_description:1 "Wykonuje [medical_treatments|E]#!\nPoprawia wyniki [education|E]\nOdblokowuje #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Potężny [agent|E] w [hostile_schemes|E] przeciwko tobie#!"
+
+ household_guard_court_position:0 "Kapitan Straży Domowej"
+ household_guard_tradition_bonus:0 "Z [culture_tradition|E]"
+ household_guard_court_position_desc:0 "$household_guard_court_position$ odpowiada za organizację ochrony [house|E], któremu służy."
+ household_guard_employer_custom_effect_description:2 "Zmniejsza ryzyko śmierci lub pojmania w bitwach, w których oboje uczestniczycie #!\n@warning_icon!#X Potężny [agent|E] w [hostile_schemes|E] przeciwko tobie#!"
+
+ septon_court_position:0 "Septon"
+ speton_tradition_bonus:0 "Z [culture_tradition|E]"
+ septon_court_position_desc:1 "$septon_court_position$ zapewnia usługi religijne członkom twojego [court|E], którzy wyznają Wiarę Siedmiu."
+
+ septa_court_position:0 "Septa"
+ speta_tradition_bonus:0 "Z [culture_tradition|E]"
+ septa_court_position_desc:1 "$septa_court_position$ odpowiada za edukację twoich [children|E] płci żeńskiej, którzy nie mają [guardian|E]."
+
+ gaoler_court_position:0 "Strażnik Cel"
+ gaoler_court_position_desc:1 "W wilgotnych głębinach zamku rozciągają się lochy; tam więźniowie zawodzą, a $gaoler_court_position$ czuwa."
+
+ harbormaster_court_position:0 "Portmaster"
+ harbormaster_tradition_bonus:0 "Z [culture_tradition|E]"
+ harbormaster_court_position_desc:0 "$harbormaster_court_position$ jest urzędnikiem regulującym handel morski i nadzorującym cło w twoich portach."
+
+ warden_of_the_north_court_position:0 "Strażnik Północy"
+ warden_of_the_north_court_position_desc:1 "Strażnik Północy odpowiada za obronę Północy w przypadku zagrożeń lub inwazji z zewnątrz."
+ warden_of_the_east_court_position:0 "Strażnik Wschodu"
+ warden_of_the_east_court_position_desc:1 "Strażnik Wschodu odpowiada za obronę Wschodu w przypadku zagrożeń lub inwazji z zewnątrz."
+ warden_of_the_west_court_position:0 "Strażnik Zachodu"
+ warden_of_the_west_court_position_desc:1 "Strażnik Zachodu odpowiada za obronę Zachodu w przypadku zagrożeń lub inwazji z zewnątrz."
+ warden_of_the_south_court_position:0 "Strażnik Południa"
+ warden_of_the_south_court_position_desc:1 "Strażnik Południa odpowiada za obronę Południa w przypadku zagrożeń lub inwazji z zewnątrz."
+
+ goldcloaks_court_position:0 "Dowódca Złotych Płaszczy"
+ goldcloaks_tradition_bonus:0 "Z [culture_tradition|E]"
+ goldcloaks_court_position_desc:0 "$goldcloaks_court_position$ dowodzi Strażą Miejską King's Landing, stanowiskiem o dużym prestiżu i znaczeniu."
+ goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Potężny [agent|E] w [hostile_schemes|E] przeciwko tobie#!"
+
+ master_at_arms_court_position:0 "Mistrz Broni"
+ master_at_arms_court_position_desc:1 "$master_at_arms_court_position$ odpowiada za zbroje królestwa. Opiekuje się i nadzoruje sprawy heraldyczne; często jest też heroldem na dworze swojego seniora."
+
+ court_smith_court_position:0 "Kowal Dworski"
+ court_smith_court_position_desc:2 "$court_smith_court_position$ odpowiada za utrzymanie i pielęgnację wyrobów metalowych"
+
+ # Bloodrider
+ bloodrider_court_position:0 "Krwawy Jeździec"
+ bloodrider_court_position_desc:0 "$bloodrider_court_position$ to strażnik — związany krwią jak brat i towarzysz — przysięgający chronić swojego wodza. To coś więcej niż tylko więź służby; to niezłomne połączenie dusz aż do upadku wodza. Jeśli zawiedzie w ochronie, zamienia się w zemstę, a potem śmierć, gdy dołącza do wodza po śmierci."
+ bloodrider_employer_custom_effect_description: "$BULLET$Ma szansę zapobiec Zabójstwu [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Zmniejsza ryzyko śmierci lub pojmania w [battles|E], w których oboje walczycie#!\n$BULLET$Zyska [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] i stanie się twoim [friend|E], jeśli jeszcze nim nie jest\n$BULLET$Po twojej śmierci popełni samobójstwo, aby uczcić przysięgę krwi"
+
+ first_sword_court_position:0 "Pierwszy Miecz Braavos"
+ first_sword_court_position_desc:0 "$first_sword_court_position$ jest głównym obrońcą Sealorda Braavos."
+
+ #NIGHTS WATCH
+
+ nw_septon:0 "Septon"
+ nw_septon_desc:0 "Rezydujący septon służący braciom Straży Nocnej, którzy wyznają Wiarę Siedmiu."
+
+ COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Strażnicy Zamków"
+ b_the_shadow_tower_keeper:0 "Dowódca Wieży Cienia"
+ b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Wieżę Cienia"
+ b_the_shadow_tower_keeper_desc:0 "Pilnuje i chroni Wieżę Cienia"
+
+ b_eastwatch_by_the_sea_keeper:0 "Dowódca Wschodniej Straży nad Morzem"
+ b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Wschodnią Straż nad Morzem"
+ b_eastwatch_by_the_sea_keeper_desc:0 "Pilnuje i chroni Wschodnią Straż nad Morzem"
+
+ b_the_nightfort_keeper:0 "Dowódca Nocnej Twierdzy"
+ b_the_nightfort_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Nocną Twierdzę"
+ b_the_nightfort_keeper_desc:0 "Pilnuje i chroni Nocną Twierdzę"
+
+ b_icemark_keeper:0 "Dowódca Lodowego Znaku"
+ b_icemark_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Lodowy Znak"
+ b_icemark_keeper_desc:0 "Pilnuje i chroni Lodowy Znak"
+
+ b_deep_lake_keeper:0 "Dowódca Głębokiego Jeziora"
+ b_deep_lake_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Głębokie Jezioro"
+ b_deep_lake_keeper_desc:0 "Pilnuje i chroni Głębokie Jezioro"
+
+ b_queensgate_keeper:0 "Dowódca Bramy Królowej"
+ b_queensgate_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Bramę Królowej"
+ b_queensgate_keeper_desc:0 "Pilnuje i chroni Bramę Królowej"
+
+ b_oakenshield_keeper:0 "Dowódca Dębowej Tarczy"
+ b_oakenshield_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Dębową Tarczę"
+ b_oakenshield_keeper_desc:0 "Pilnuje i chroni Dębową Tarczę"
+
+ b_woodswatch_by_the_pool_keeper:0 "Dowódca Straży Leśnej przy Stawie"
+ b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Straż Leśną przy Stawie"
+ b_woodswatch_by_the_pool_keeper_desc:0 "Pilnuje i chroni Straż Leśną przy Stawie"
+
+ b_westwatch_by_the_bridge_keeper:0 "Dowódca Zachodniej Straży przy Moście"
+ b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Zachodnią Straż przy Moście"
+ b_westwatch_by_the_bridge_keeper_desc:0 "Pilnuje i chroni Zachodnią Straż przy Moście"
+
+ b_sentinel_stand_keeper:0 "Dowódca Posterunku Strażniczego"
+ b_sentinel_stand_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Posterunek Strażniczy"
+ b_sentinel_stand_keeper_desc:0 "Pilnuje i chroni Posterunek Strażniczy"
+
+ b_greyguard_keeper:0 "Dowódca Szarej Straży"
+ b_greyguard_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Szarą Straż"
+ b_greyguard_keeper_desc:0 "Pilnuje i chroni Szarą Straż"
+
+ b_stonedoor_keeper:0 "Dowódca Kamiennej Bramy"
+ b_stonedoor_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Kamienną Bramę"
+ b_stonedoor_keeper_desc:0 "Pilnuje i chroni Kamienną Bramę"
+
+ b_hoarfrost_hill_keeper:0 "Dowódca Mroźnego Wzgórza"
+ b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Mroźne Wzgórze"
+ b_hoarfrost_hill_keeper_desc:0 "Pilnuje i chroni Mroźne Wzgórze"
+
+ b_sable_hall_keeper:0 "Dowódca Sable Hall"
+ b_sable_hall_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Sable Hall"
+ b_sable_hall_keeper_desc:0 "Pilnuje i chroni Sable Hall"
+
+ b_rimegate_keeper:0 "Dowódca Rimegate"
+ b_rimegate_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Rimegate"
+ b_rimegate_keeper_desc:0 "Pilnuje i chroni Rimegate"
+
+ b_long_barrow_keeper:0 "Dowódca Długiego Kurhanu"
+ b_long_barrow_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Długi Kurhan"
+ b_long_barrow_keeper_desc:0 "Pilnuje i chroni Długi Kurhan"
+
+ b_the_torches_keeper:0 "Dowódca Pochodni"
+ b_the_torches_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Pochodnie"
+ b_the_torches_keeper_desc:0 "Pilnuje i chroni Pochodnie"
+
+ b_greenguard_keeper:0 "Dowódca Zielonej Straży"
+ b_greenguard_keeper_employer_custom_effect_description:0 "Pilnuje i chroni Zieloną Straż"
+ b_greenguard_keeper_desc:0 "Pilnuje i chroni Zieloną Straż"
+
+ ################
+ # DRAGONKEEPER #
+ ################
+
+ head_dragonkeeper_court_position:0 "Główny Strażnik Smoków"
+ head_dragonkeeper_court_position_desc:1 "$head_dragonkeeper_court_position$ jest głową zakonu [dragonkeeper|E], któremu służy. Chroni i wychowuje [dragons_plural|e] w [dragonpit|e] najlepiej, jak potrafi."
+ head_dragonkeeper_court_position_custom_effect_description:1 "Odblokowuje [dragonpit_interactions|E]"
+ court_position_knows_valyrian_language:0 "Zna język walyriański"
+ court_position_valyrian_heritage:0 "Posiada walyriańskie pochodzenie"
+ court_position_blood_of_old_valyria:0 "Krew Starej Valyrii"
+ deepen_bond_with_dragon_scheme_scheme_power_mult:0 "#V Zacieśnij więź ze swoim smokiem#! [scheme|E] siła"
+ bond_with_dragon_scheme_scheme_power_mult:0 "#V Więź ze smokiem#! [scheme|E] siła"
+ court_position_professional_dragonkeeper_training:0 "Profesjonalne szkolenie strażników smoków"
+ court_position_standarized_dragonkeeper_training:0 "Standaryzowane szkolenie strażników smoków"
+
+ #koszt opisu
+ agot_laamp_cost_reduction:0 "Jesteś bez ziemi"
+
+ #Maester kontra lekarz w lokalizacji wydarzenia
+ agot_physician_essos:0 "lekarz"
+ agot_physician_maester:0 "maester"
+
+

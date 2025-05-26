@@ -1,0 +1,12 @@
+﻿l_french:
+ collegeofcardinals: "Leurs Saintetés"
+ game_concept_praedictus_desc: "Doit être choisi parmi le plus grand corps religieux de Westeros, c'est le prochain [cardinal|El] à être nommé parmi les soixante-dix-sept #V Saintetés#!."
+ game_concept_praedictus: "Prochain Saint-Septon"
+ game_concept_papabile_desc: "Le successeur probable – comme son nom l'indique – est la personne la plus susceptible de succéder à l'actuel Grand Septon à sa mort.\n\nAvec l'ascension du successeur probable au rang de Grand Septon, il assumerait le rôle de chef de la foi, et un nouveau septon deviendrait l'une des soixante-dix-sept #V Saintetés#! à sa place."
+ game_concept_papabile: "Successeur probable "
+ cardinal: ""
+ game_concept_collegeofcardinals: "Leurs Saintetés"
+ game_concept_college: "Leurs Saintetés"
+ game_concept_collegeofcardinals_desc: "Il existe un conseil de soixante-dix-sept [cardinal|El], les membres du clergé les plus élevés de la Foi des Sept.\n\nLes Saint-Septons sont nommés par le Grand Septon parmi le clergé de la Foi des Sept à travers Westeros. Les septons candidats ayant une plus grande piété, un plus grand âge, un plus grand savoir, des traits vertueux, un pouvoir séculier, des relations favorables avec le Grand Septon et la proximité d'un lieu saint sont privilégiés.\n\nLes septons candidats sont immédiatement nommés suite au décès d'un camarade Saint-Septon ou à l'adhésion de l'un des soixante-dix-sept au rang de Grand Septon."
+ game_concept_cardinal: "Saint-Septon"
+ game_concept_cardinal_desc: "Les Saints-Septons forment le conseil de #V Leurs Saintetés#!, le corps directeur de la Foi des Sept. Ils servent au Grand Septuaire de Baelor à Port-Réal. C'est de leurs rangs que provient le Grand Septon de la Foi."

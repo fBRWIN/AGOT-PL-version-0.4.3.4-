@@ -1,0 +1,207 @@
+﻿l_english:
+
+ # Bonding results
+ # Bond with untamed/wild dragon
+ dragon_bond_events.1000.t:0 "Węzeł zapieczętowany"
+ dragon_bond_events.1000.desc:0 "[target.GetNameNicknamed]. Jest. #bold MÓJ!#!\n\nMówią, że nikt nie zna serca smoka — ale [target.GetNameNoTooltip] poznał moje i [target.Custom('GetDragonSheHe')] uznał je za godne. Jesteśmy teraz związani, złączeni krwią, ciałem i ogniem.\n\nOd [ROOT.Char.GetCapitalLocation.GetName] po Cieniste Ziemie za Asshai niechaj wiadomo będzie, że ja, [ROOT.Char.GetFullNameNoTooltip], roszczę sobie prawo do smoka [target.GetNameNoTooltip]. Niech [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')] rodu [ROOT.Char.GetHouse.GetNameNoTooltip] radują się, bo nowy [Concept('owned_dragon','smok')|E] wznosi się ku niebu.\n\n[ROOT.Char.GetHouse.GetMotto]!"
+ dragon_bond_events.1000.a:0 "Póki tchu w piersi, nie zapomnę tego dnia."
+
+ dragon_bond_events.1001.t:0 "[target.GetNameNoTooltip] odrzuca więź"
+ dragon_bond_events.1001.desc:0 "Przeczucie grozy ogarnia mnie, gdy przemierzam legowisko [target.GetNameNicknamedPossessive]. Choć wszystko we mnie krzyczy, by wrócić do mojego [ROOT.Char.Custom('ResidenceBuilding')], zmuszam się do kolejnych kroków — aż jestem tuż przed [target.GetNameNoTooltip]. [Concept('owned_dragon','Smok')|E] porusza się, zajęty zwęglonym [GetPlayer.Custom('RegionalEdibleAnimal')] w swych szczękach. [target.Custom('GetDragonHerHis')|U] oczy śledzą mnie z złośliwą ciekawością, jak kot patrzący na ptaka.\n\nZbierając resztki odwagi, wyciągam rękę w kierunku bestii. Gdy moje palce są już tylko dłoń od jej pyska, [target.GetNameNoTooltip] nagle rzuca się naprzód, [target.Custom('GetDragonHerHis')] [target.Custom('GetDragonColor')] szczęki zatrzaskują się tuż obok mojej dłoni. Wznosząc się na całą swą wysokość, [target.GetNameNoTooltip] ryczy ostrzegawczo — i widzę pomarańczowe języki płomieni zbierające się za zębami. Serce bije jak szalone — uciekam, nie zatrzymując się, póki nie dotrę do bezpiecznych [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')]."
+ dragon_bond_events.1001.a:0 "Niech [ROOT.Char.GetFaith.DevilName] pochłonie to [ROOT.Char.Custom('InsultAdjective')] gadzisko!"
+
+ dragon_bond_events.1002.t:0 "[target.GetNamePossessiveNoTooltip] palące odrzucenie"
+ dragon_bond_events.1002.desc:0 "Trwoga ściska mnie, gdy zbliżam się do [dragon|E] [target.GetNameNicknamed]. Lecz nad lękiem góruje ekscytacja. Bo który [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.Custom('GirlBoy')] nie marzył w dzieciństwie o zaprzyjaźnieniu się ze smokiem? A który [ROOT.Char.GetTitleAsNameNoTooltip] nie sięgnąłby dziś po taką moc, mimo ryzyka?\n\nDziecięce marzenia bledną, gdy podchodzę bliżej. [target.GetNameNoTooltip] wyraźnie niespokojny — [target.Custom('GetDragonSheHe')|U] przywarł do ziemi, wielkie oczy wbite w moje, a [target.Custom('GetDragonHerHis')] [target.Custom('GetDragonColorFull')] ogon porusza się złowieszczo. Ale na powrót za późno — trzeba iść naprzód. Wyciągam dłoń w stronę warczącego pyska i zaczynam wypowiadać starovalyriańskie słowa ukojenia: #italic Lykirī! Ryptē—#!\n\nNie zdążyłem dokończyć — widzę tylko ogień i czuję ból. A potem zaczynam #bold krzyczeć#!.\n\nZ ciężką głową, otępiały od mleka makowego, budzę się później w łóżku w [ROOT.Char.GetCapitalLocation.GetName]. Owinięty bandażami, pełnymi ropy od głowy po brzuch — i w straszliwym bólu. Ale, niestety albo na szczęście, żyję."
+ dragon_bond_events.1002.a:0 "Byłem tak blisko…"
+
+ dragon_bond_events.1003.t:0 "[target.GetNameNoTooltip], [ROOT.Char.GetTitleAsNameNoTooltip|U]spopielacz"
+ dragon_bond_events.1003.desc:0 "Nadszedł dzień — dziś wreszcie połączę się więzią ze [dragon|El] [target.GetNameNoTooltip]. [ROOT.Char.GetHouse.GetMotto]!\n\nZostawiam moje [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')] przed legowiskiem [target.GetNameNoTooltip] i wchodzę sam. Stąpając po zwęglonych kościach, zbliżam się do rozciągniętego leniwie cielska, owiniętego wokół skalnej kolumny. [target.GetNameNoTooltip] nie rusza się na mój widok — ledwie uchyla oko, rzuca przelotne spojrzenie i znów zapada w sen. Śpi? Cóż za zuchwałość! Jestem [ROOT.Char.Custom('WomanManGirlBoy')] z [ROOT.Char.GetCapitalLocation.GetName] i nie dam się zignorować!\n\nProstuję się dumnie i wykrzykuję w zapamiętanej valyriańszczyźnie: #italic Rȳbās! Dohaerās!#! Lecz smok nie porusza się ani o cal. Wrzeszczę, krzyczę, tupię — bez skutku. Wściekły chwytam leżącą kość i rzucam nią w smoka — uderza w [target.Custom('GetDragonHerHis')] szyję.\n\nWreszcie! [target.GetNameNoTooltip] zauważa mnie! Powoli, leniwie, [target.Custom('GetDragonSheHe')] obraca głowę w moją stronę, nie podnosząc się z podłoża. I wtedy nadchodzą płomienie. To ostatnia rzecz, jaką kiedykolwiek widzę."
+ dragon_bond_events.1003.a:0 "Pali! Pali! Matko! Ojcze! #strong_glow;R PALI!!#!"
+
+
+  # Bonding
+ dragon_bond_events.t:0 "Więź z [target.GetNameNoTooltip]:"
+
+ # Deepen Bond Results
+ dragon_bond_events.2001.t:0 "$dragon_bond_events.t$ Dobrze spędzony czas"
+ dragon_bond_events.2001.desc:0 "Tygodnie treningów, wspólnych spacerów i oswajania się z [target.GetName] wreszcie zaczynają przynosić owoce. Niezależnie czy szybujemy ponad [ROOT.Char.GetCapitalLocation.GetName], czy odpoczywamy w legowisku [target.Custom('GetDragonHerHis')], z każdym dniem czujemy się ze sobą coraz swobodniej.\n\nCoraz mniej przypominamy parę jeźdźca i wierzchowca — a coraz bardziej prawdziwych towarzyszy, związanych zaufaniem i sympatią.\n\nMoże i nikt nie zna serca smoka, ale czuję, że poznałem duszę tego."
+ dragon_bond_events.2001.a:0 "Razem napiszemy legendę [ROOT.Char.GetFirstNameNicknamed] i [target.GetName]."
+
+ dragon_bond_events.2002.t:0 "$dragon_bond_events.t$ Mieszane rezultaty"
+ dragon_bond_events.2002.desc:0 "Każdego dnia staje się coraz bardziej oczywiste, że moje próby przypodobania się [target.GetName] nie przynoszą skutku.\n\nZa każdy dzień spędzony w harmonii przypada kolejny, w którym ciągniemy w przeciwnych kierunkach. Więź między nami nie osłabła, ale i nie wzmocniła się — nie pozostaje mi nic innego, jak powrócić do wcześniejszego, bardziej zdystansowanego układu."
+ dragon_bond_events.2002.a:0 "Rozczarowujące..."
+
+ # Scheme Events
+ dragon_bond_events.3000.t:0 "$dragon_bond_events.t$ Drogie mięso"
+ dragon_bond_events.3000.desc:0 "[dragon|El] [target.GetNameNicknamed] to kapryśne stworzenie. Czasem [target.Custom('GetDragonSheHe')] pragnie tylko rozciągnąć skrzydła i poskakać po legowisku w [ROOT.Char.GetCapitalLocation.GetNameNoTooltip], a innym razem nie sposób wyciągnąć [target.Custom('GetDragonHerHim')] z drzemki.\n\nUpodobania smakowe [target.GetNameNoTooltip] są równie zmienne — choć nadal zjada dostarczane mięso, rozważam wysłanie do kuchni po coś znacznie smaczniejszego. Może taki rarytas zbliży nas do siebie?"
+ dragon_bond_events.3000.a:0 "[target.GetNameNoTooltip] będzie jadł jak [ROOT.Char.GetTitleTierName]. Podam mu zwęgloną baraninę."
+ dragon_bond_events.3000.b:0 "[target.Custom('GetDragonSheHe')|U] ma wyrafinowane podniebienie. Podam mu pieczoną wieprzowinę."
+ dragon_bond_events.3000.c:0 "Smoki są do wojny, nie na uczty. Nie będzie #italic smakołyków#!..."
+
+ dragon_bond_events.3001.t:0 "$dragon_bond_events.t$ Mięso przyjęte z wdzięcznością"
+ dragon_bond_events.3001.desc:0 "Kuchnie w [target.GetCurrentLocation.GetNameNoTooltip] pracowały całą noc nad posiłkiem dla [target.GetName]. Mięso jest miękkie, soczyste, a złota, maślana skórka niemal pęka od aromatycznego nadzienia. Kilku moich [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')] spogląda tęsknie na potrawę, lecz to rarytas przeznaczony wyłącznie dla [ROOT.Char.GetTitleTierName|l]ów i [Concept('dragon','smoków')|E].\n\nWpycham wózek do legowiska [target.GetNameNoTooltip] i mam już wołać, gdy smok sam wpada do środka, zatrzymując się tuż obok. [target.Custom('GetDragonHerHis')|U] głowa przeskakuje wzrokiem między mną a wózkiem — [target.Custom('GetDragonSheHe')] niemal rzuca się na zdobycz, ale powstrzymuje się. Zadowolony z tej oznaki posłuszeństwa, wypowiadam słowa, na które czeka: #italic Havor zaldrīzes!#!\n\nLedwo kończę zdanie, a [target.GetNameNoTooltip] rzuca się na mięso. Nie widziałem [target.Custom('GetDragonHerHim')] tak szczęśliwym od miesięcy."
+ dragon_bond_events.3001.a:0 "Jedz do syta, mój smoku!"
+
+ dragon_bond_events.3002.t:0 "$dragon_bond_events.t$ Drogie mięso odrzucone"
+ dragon_bond_events.3002.desc:0 "Kuchnie pracowały przez całą noc nad ucztą dla [target.GetName]. Mięso jest miękkie, a złocista skórka trzeszczy od ciśnienia aromatycznego farszu. Kilku moich [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')] spogląda na nie z tęsknotą, ale ta potrawa przeznaczona jest tylko dla [ROOT.Char.GetTitleTierName|l]ów i smoków.\n\nWpycham wózek do legowiska [target.GetNameNoTooltip] i mam już wołać, gdy nagle spada na mnie wir łusek i mięśni. [target.GetNameNoTooltip] rzuca się na mięso z dziką furią, [target.Custom('GetDragonHerHis')] potężne szczęki bez trudu rozrywają zabezpieczenia."
+ dragon_bond_events.3002.a:0 "Do diabła!"
+
+ dragon_bond_events.3003.t:0 "$dragon_bond_events.t$ Żywa przekąska"
+ dragon_bond_events.3003.desc:0 "Choć czasem miło o tym zapomnieć i udawać, że są posłuszne jak psy, [Concept('dragon','smoki')|E] pozostają drapieżnikami. Martwi mnie, że [target.GetName] coraz bardziej frustruje się monotonią niewoli, co nadwyręża naszą delikatną więź.\n\nChoć to zapewne marna namiastka prawdziwego polowania, rozważam wypuszczenie kilku owiec lub świń do legowiska. Próbuję wyplenić u [target.GetNameNoTooltip] brutalne nawyki, ale może taka rozrywka byłaby mile widziana."
+ dragon_bond_events.3003.a:0 "Wypuścić kilka owiec."
+ dragon_bond_events.3003.b:0 "Wprowadzić stado świń do legowiska."
+ dragon_bond_events.3003.c:0 "Na zabijanie przyjdzie jeszcze czas. Zostajemy przy diecie."
+
+ dragon_bond_events.3004.t:0 "$dragon_bond_events.t$ Żywa przekąska doceniona"
+ dragon_bond_events.3004.desc:0 "Polowanie przerosło moje oczekiwania. Zamiast po prostu zabić zdobycz, [target.GetName] uczynił z tego zabawę. Choć zwierzęta nie stanowiły zagrożenia, [target.GetNameNoTooltip] ostrożnie obserwował stado, wybierając najsłabsze, by potem pochwycić je w szczęki i odsunąć się.\n\nTen cykl powtarzał się przez ponad godzinę. Gdy wszystko się skończyło, ziemia była pokryta wnętrznościami, a ogon [target.GetNameNoTooltip] radośnie się poruszał. Zaspokoiwszy pragnienie krwi i zabawy, [target.GetNameNoTooltip] pozwolił mi podejść znacznie bliżej niż zwykle, a nawet przyjął wiadro wody, które łapczywie wypił."
+ dragon_bond_events.3004.a:0 "Oboje mamy dzikie serca..."
+
+ dragon_bond_events.3005.t:0 "$dragon_bond_events.t$ Zbyt intensywna rozrywka"
+ dragon_bond_events.3005.desc:0 "Choć zajęło to niemal cały dzień, moi słudzy i ja zdołaliśmy zapędzić ostatnie zwierzęta do prowizorycznego zagrodzenia w legowisku [target.GetNamePossessive]. Czekam w bezpiecznej odległości. [target.Custom('GetDragonSheHe')|U] nie każe długo na siebie czekać.\n\nTo rzeź. Jeszcze chwilę temu zwierzęta były zdrowe — teraz [target.GetNameNoTooltip] jest między nimi. Zamiast dzielić stado jak inne drapieżniki, mój [dragon|el] rozkoszuje się mordem. Gryzie, rozszarpuje pazurami. Gdy ostatnia sztuka kona, ruszam w stronę smoka — lecz zamieram, gdy [target.Custom('GetDragonSheHe')] odwraca się do mnie, nozdrza rozdymają się, a zęby szczerzą w wyzwaniu. Czując żądzę krwi, powoli się wycofuję."
+ dragon_bond_events.3005.a:0 "Tylko głupiec stanąłby między smokiem a jego zdobyczą."
+
+
+ dragon_bond_events.3006.t:0 "$dragon_bond_events.t$ Surowy posiłek"
+ dragon_bond_events.3006.desc:0 "[dragon|El] [target.GetNameNicknamed] zachowuje zrozumiałą ostrożność wobec mnie. Choć [target.Custom('GetDragonSheHe')] jest już [Concept('owned_dragon','nie całkiem dziki')|E] i korzysta z pewnych wygód, to nadal mi nie ufa i nie pozwala zbliżyć się nawet na sto kroków. Ale jak każdy [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] wie — do serca trafia się przez żołądek. W przypadku [target.GetNamePossessiveNoTooltip] żołądek ten jest po prostu nieco większy niż zwykle.\n\nPo konsultacji z pszczelarzami z [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] co do upodobań ich psów, zamówiłem wóz świeżej baraniny i wieprzowiny. Mięso nie zostało jeszcze w pełni oprawione, ale pszczelarze zapewniają, że im surowsze, tym lepiej. Tylko — co bardziej przypadnie [target.GetNameNoTooltip] do gustu?"
+ dragon_bond_events.3006.a:0 "[target.GetNameNoTooltip] lubi intensywniejszy smak. Surowa baranina!"
+ dragon_bond_events.3006.b:0 "[target.GetNameNoTooltip] gustuje w delikatniejszym mięsie. Surowa wieprzowina!"
+ dragon_bond_events.3006.c:0 "Nieważne."
+
+ dragon_bond_events.3007.t:0 "$dragon_bond_events.t$ Surowy sukces"
+ dragon_bond_events.3007.desc:0 "Głowa [target.GetNamePossessive] unosi się z zainteresowaniem, gdy wtaczam taczkę pełną mięsa do [target.Custom('GetDragonHerHis')] legowiska. Podnosząc się na przednie kończyny, [target.GetNameNoTooltip] powoli się zbliża, [target.Custom('GetDragonHerHis')] oczy przeskakują między mną a krwistą zdobyczą.\n\nChwytam jeden z większych kawałków i rzucam w stronę [target.Custom('GetDragonHerHim')]. Nim mięso dotknie ziemi, [target.GetNameNoTooltip] rzuca się naprzód i łapie je w szczęki. Zadowolony z ofiary, [target.Custom('GetDragonSheHe')] patrzy na mnie wyczekująco. Chętnie spełniam to życzenie. Rzucam kolejne kawałki — z każdym krokiem zbliżając się coraz bardziej.\n\nZachowując ostrożność, zostawiam ostatni i największy kawałek, gdy [target.GetNameNoTooltip] pożera swą ucztę. Choć nadal daleko mi do miana [target.Custom('GetDragonHerHis')] [GetTrait('dragonrider').GetName(GetNullCharacter)], dziś uczyniliśmy prawdziwy postęp."
+ dragon_bond_events.3007.a:0 "W kilka pełni będzie jadł mi z ręki!"
+
+ dragon_bond_events.3008.t:0 "$dragon_bond_events.t$ Surowa porażka"
+ dragon_bond_events.3008.desc:0 "Głowa [target.GetNamePossessive] unosi się z niepokojem, gdy wtaczam cuchnącą taczkę mięsa do [target.Custom('GetDragonHerHis')] legowiska. Unosi się na przednie łapy i zbliża się ostrożnie, obrzucając mnie i wózek podejrzliwym spojrzeniem.\n\nChwytam jeden z grubszych kawałków i rzucam w stronę [target.Custom('GetDragonHerHim')]. Spada z mokrym mlaśnięciem, a [target.GetNameNoTooltip] powoli podchodzi, by go powąchać. Po chwili [target.Custom('GetDragonHerHis')] język muska krwawą masę — po czym smok parska z pogardą i wraca do ulubionej kolumny.\n\nNie wiedząc, co więcej uczynić, zostawiam wózek i wracam do mojego [ROOT.Char.Custom('ResidenceBuilding')], by przemyśleć tę porażkę."
+ dragon_bond_events.3008.a:0 "[GetTitleByKey('c_harrenhal').GetNameNoTier] nie zbudowano w jeden dzień..."
+
+ dragon_bond_events.3009.t:0 "$dragon_bond_events.t$ Konsultacje z wiedzą o smokach"
+ dragon_bond_events.3009.desc:0 "Zmagam się nadal z treningiem [target.GetNamePossessive] i czuję, że zbliżam się do granic mojej wiedzy o [Concept('dragon','smokach')|E]. Na szczęście, choć wiele mądrości przepadło w Zagładzie, coś jednak przetrwało — po obu stronach Wąskiego Morza.\n\nWiarygodność tych tekstów bywa wątpliwa. Większość to kopie — a fałszerstw nie brakuje.\n\nAlternatywą jest folklor ludu — zbiór przesądów i opowieści wieśniaczych. Może warto ich posłuchać?"
+ dragon_bond_events.3009.a:0 "Nawet w prostych bajkach tkwi ziarno prawdy. Zwołajcie pospólstwo."
+ dragon_bond_events.3009.b:0 "Wyślijcie do [GetTitleByKey('b_the_citadel').GetNameNoTier|l] i [GetTitleByKey('c_dragonstone').GetNameNoTier]. Skorzystam ze starej wiedzy valyriańskiej."
+ dragon_bond_events.3009.c:0 "Nieważne."
+
+ dragon_bond_events.3010.t:0 "$dragon_bond_events.t$ Przydatna wiedza"
+ dragon_bond_events.3010.desc:0 "Moi słudzy przynieśli mi dwa zapisy dotyczące ucieczki [GetScriptedCharacterByHistoryID('Targaryen_13').GetFirstNameNicknamed], jego dzieci [GetScriptedCharacterByHistoryID('Targaryen_15').GetFirstNameNicknamed] i [GetScriptedCharacterByHistoryID('Targaryen_14').GetFirstNameNicknamed] oraz ich [Concept('dragon','smoków')|E] z dawnej Valyrii. Najciekawsze są opisy kolonizacji [GetTitleByKey('c_dragonstone').GetNameNoTier] i prób hodowli smoków na tej wyspie.\n\nTeksty wspominają, że Aenar i jego dzieci stracili cztery smoki w pierwszych latach po przybyciu. Ale [GetScriptedCharacterByHistoryID('dragon_balerion').GetName] przetrwał, a dwa inne, [GetScriptedCharacterByHistoryID('dragon_meraxes').GetName] i [GetScriptedCharacterByHistoryID('dragon_vhagar').GetName], wykluły się później w cieniu Dragonmontu. Wspomina się o stosowaniu zamkniętych palenisk #italic dijemion#! do inkubacji jaj. Ta wiedza z pewnością mi się przyda."
+ dragon_bond_events.3010.a:0 "Znakomicie."
+
+ dragon_bond_events.3011.t:0 "$dragon_bond_events.t$ Bezużyteczna wiedza"
+ dragon_bond_events.3011.desc:0 "Przejrzałem rękopis rzekomo opisujący, jak [GetScriptedCharacterByHistoryID('Targaryen_27').GetFirstNameNicknamed], [GetScriptedCharacterByHistoryID('Targaryen_28').GetFirstNameNicknamed] i [GetScriptedCharacterByHistoryID('Targaryen_29').GetFirstNameNicknamed] hodowali wielkie [Concept('dragon','smoki')|E]. Podobno to relacja zarządcy z [GetTitleByKey('c_dragonstone').GetNameNoTier], który twierdzi, że Aegon i Rhaenys kąpali się z nimi w wulkanicznych źródłach Dragonstone.\n\nZainspirowany, kazałem dostarczyć beczki wody i drewna do legowiska [target.GetNamePossessive] i zbudowałem saunę w jednej z komnat. Para unosi się z kadzi niegdyś używanych do fermentacji [GetPlayer.Custom('RegionalAlcoholicDrink')].\n\nNiestety, choć sauna sprawia mi przyjemność, [target.GetNameNoTooltip] nie wykazuje ani zainteresowania mną, ani łaźnią. Wydaje się wręcz zirytowany przebudową swojego legowiska. Może [target.Custom('GetDragonSheHe')] woli suchy żar?"
+ dragon_bond_events.3011.a:0 "Do diabła!"
+
+ dragon_bond_events.3012.t:0 "$dragon_bond_events.t$ Konsultacja ze Strażnikami Smoków"
+ dragon_bond_events.3012.desc:0 "[head_dragonkeeper.GetNameNicknamed], mój Główny Strażnik Smoków i opiekun [target.GetNamePossessive], od miesięcy z uwagą, ale bez osądzania, obserwuje moje zmagania.\n\nChoć odpowiedzialność za więź spoczywa wyłącznie na mnie, [head_dragonkeeper.GetWomanMan] zna nastrój i naturę smoka jak nikt inny. Mimo że zajmował/a się dotąd tylko fizycznymi potrzebami — karmieniem, pojeniem, czyszczeniem i rozrywką — może i tak okaże się pomocny/a.\n\nJednak to ryzyko: [head_dragonkeeper.GetNamePossessiveNoTooltip] nigdy nie próbował/a nawiązać duchowej więzi."
+ dragon_bond_events.3012.a:0 "Nie mam monopolu na mądrość. Poproś [head_dragonkeeper.GetFirstNameNoTooltip] o pomoc."
+ dragon_bond_events.3012.b:0 "[head_dragonkeeper.GetFirstNameNoTooltip] to tylko egzotyczny sługa. Cóż może wiedzieć o sercu smoka?"
+
+ dragon_bond_events.3013.t:0 "$dragon_bond_events.t$ Mądra rada"
+ dragon_bond_events.3013.desc:0 "Oddaję swój los w szorstkie dłonie Strażnika. Dziś dołączam do [head_dragonkeeper.GetNameNicknamed] podczas pracy z [target.GetName]. Ubieram się jak akolici — w szorstką tunikę i chwytam drewniany kij.\n\nCały dzień sprzątamy komnaty, napełniamy poidła, sprawdzamy bramy i zamki. A [target.GetNameNoTooltip] śledzi mnie czujnie.\n\nZmęczony i ubłocony, szykuję się do wyjścia, gdy smok przechyla szyję. Z wahaniem, potem coraz śmielej, drapię go po łuskowatej szyi. Praca została doceniona."
+ dragon_bond_events.3013.a:0 "[head_dragonkeeper.GetNameNoTooltip] miał rację. Czyste dłonie nic nie osiągają."
+
+ dragon_bond_events.3014.t:0 "$dragon_bond_events.t$ Zła rada"
+ dragon_bond_events.3014.desc:0 "Wbrew rozsądkowi dołączam dziś do [head_dragonkeeper.GetNameNicknamed]. Ubieram się jak akolita — choć tunika śmierdzi, Strażnik twierdzi, że smok ceni stały zapach.\n\nKaże mi sprzątać centralną komnatę, twierdząc, że [target.GetNameNoTooltip] nie uszanuje jeźdźca, który nie pobrudzi rąk. I brudzę. W południe tonę w słomie, mokry od potu. Smok w końcu się zjawia.\n\nJego oczy rozszerzają się z zaskoczenia, po czym usta wykrzywiają się w pogardzie. Bez odrywania wzroku podnosi ogon i dorzuca do mojej kupy kolejne sto szpadli odchodów. Parska i odchodzi."
+ dragon_bond_events.3014.a:0 "Mam być twoim jeźdźcem, nie służącym od kup!"
+
+ dragon_bond_events.3015.t:0 "$dragon_bond_events.t$ Valyriańska pieśń"
+ dragon_bond_events.3015.desc:0 "Obawiam się, że [target.GetName] nie reaguje na moje wysiłki tak, jak powinien. Choć [dragon|el] już nie warczy na mój widok, łatwo się rozprasza i rzadko mnie słucha.\n\nPrzypominam sobie słowa mojej mamki: jako niemowlę [ROOT.Char.Custom('GirlBoy')], potrafiłem płakać godzinami — a jedyne co mnie uspokajało, to jej pieśni.\n\nZainspirowany, sprowadzam manuskrypt starych hymnów valyriańskich z [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]. Pochodzenie niepewne, ale język to valyriański — a melodia przypomina dawne pieśni [ROOT.Char.GetCulture.GetNameNoTooltip]."
+ dragon_bond_events.3015.a:0 "Zaśpiewam dawne pieśni..."
+ dragon_bond_events.3015.b:0 "Nieważne."
+
+ dragon_bond_events.3016.t:0 "$dragon_bond_events.t$ Dobra pieśń valyriańska"
+ dragon_bond_events.3016.desc:0 "#italic Isse se prūmia hen wild, skoriot se tegon sīmonagon,#!\nW sercu dziczy, gdzie góry się wznoszą,\n\n#italic Kesīr's nykeā zaldrīzes nēdenka, rūsīr perzys laesi,#!\nTam mieszka [dragon|El], z oczami płonącymi,\n\n#italic Ñelly hen āeksion, tīkuni bona span se jēdar,#!\nZłote łuski, skrzydła jak niebo szerokie,\n\n#italic Yn konīr's iā vāedar bona mazverdagon ziry limagon.#!\nLecz pieśń pewna potrafi łzy wywołać.\n\nMój głos niesie się po legowisku [target.GetNamePossessive]. Oklasków nie ma, lecz przy trzeciej zwrotce widzę, jak smok wchodzi do komnaty i kładzie się na posadzce. Gdy kończę, [target.Custom('GetDragonSheHe')] śpi już spokojnie, chrapiąc cicho."
+ dragon_bond_events.3016.a:0 "Śpij dobrze, mój smoku."
+
+ dragon_bond_events.3017.t:0 "$dragon_bond_events.t$ Fałszywa pieśń valyriańska"
+ dragon_bond_events.3017.desc:0 "Wchodzę do legowiska [target.GetNamePossessive], gdzie smok śpi. Jestem spięty — nie tylko przez [target.Custom('GetDragonHerHis')] obecność, lecz i przez to, że nie jestem bardem. Ale jak mawiają kuglarze, przedstawienie musi trwać. Oczyszczam gardło i zaczynam:\n\n#italic Kesīr's nykeā zaldrīzes nēdenka, rūsīr perz—#!\n\nNie zdążam dojść do drugiej zwrotki, gdy [target.GetNameNoTooltip] się budzi, wstaje i opuszcza komnatę. Zdezorientowany podążam za nim, widząc jak znów się kładzie i zamyka oczy. Próbuję jeszcze raz — ale znów [target.Custom('GetDragonSheHe')] odchodzi, tym razem z ogonem w nerwowym ruchu.\n\nUparcie podążam za [target.GetNameNoTooltip], śpiewając — aż w końcu smok obraca się i ryczy tak głośno, że milkę i uciekam do mojego [ROOT.Char.Custom('ResidenceBuilding')]."
+ dragon_bond_events.3017.a:0 "Przeklęty smok!"
+
+ dragon_bond_events.3018.t:0 "$dragon_bond_events.t$ Valyriańska lektura"
+ dragon_bond_events.3018.desc:0 "[Concept('dragon','Smoki')|E] to potomkowie dawnej Valyrii, tak samo jak dzieci rodu [GetScriptedCharacterByHistoryID('Targaryen_27').GetHouse.GetName], a krew tamtego lądu nadal płynie w żyłach [target.GetNamePossessive]. Nieprzypadkowo od wieków smoki reagują tylko na jeden język: wysoką valyriańszczyznę.\n\nChoć nauczyłem [target.GetNameNoTooltip] kilku podstawowych poleceń jak #italic sōvēs#! (leć), #italic rȳbās#! (słuchaj), #italic māzīs#! (do nogi), zastanawiam się, czy [target.Custom('GetDragonSheHe')] nie doceniłby większej ilości valyriańskich słów — nie tylko rozkazów.\n\nJak dzieci [ROOT.Char.GetCulture.GetNameNoTooltip] uczą się przez bajki, tak i [target.GetNameNoTooltip] może docenić lekturę?"
+ dragon_bond_events.3018.a:0 "Znajdę coś, co warto przeczytać smokowi."
+ dragon_bond_events.3018.b:0 "Nieważne."
+
+ dragon_bond_events.3019.t:0 "$dragon_bond_events.t$ Dobra lektura"
+ dragon_bond_events.3019.desc:0 "Zaczynam czytać [target.GetName] bajki z dawnego tomu, który własnoręcznie przetłumaczyłem na valyriański. Opowiadam o wyprawie królowej-wojowniczki [GetScriptedCharacterByHistoryID('Nymeros_1').GetFirstNamePossessive] z Rhoyne do Dorne, o wyczynach [GetScriptedCharacterByHistoryID('Arryn_15').GetFirstNameNicknamed] i pracach [GetScriptedCharacterByHistoryID('Stark_12').GetFirstNameNicknamed].\n\nPłynę przez opowieści, mówiąc melodyjnie w pięknym valyriańskim. Gdy kończę książkę, słońce już zachodzi nad [target.GetCurrentLocation.GetNameNoTooltip]. Choć [target.GetNameNoTooltip] to smok, wiem, że docenił moją uwagę — śpi spokojnie tuż obok mnie."
+ dragon_bond_events.3019.a:0 "Kiedyś i o nas będą śpiewać pieśni..."
+
+ dragon_bond_events.3020.t:0 "$dragon_bond_events.t$ Słaba lektura"
+ dragon_bond_events.3020.desc:0 "Przy następnym karmieniu zaczynam czytać [target.GetName] bajki dornijskie, które naprędce przetłumaczyłem na valyriański. Plączę się w słowach, gubię sens i składnię. Gdy kończę, widzę, że [target.GetNameNoTooltip] jest równie zagubiony, co ja — i oddala się zirytowany, jakby słuchał bełkotu szaleńca.\n\nJuż wcześniej [target.GetNameNoTooltip] nie rozumiał części moich rozkazów — teraz tylko pogorszyłem sytuację."
+ dragon_bond_events.3020.a:0 "Do diabła!"
+
+ dragon_bond_events.3021.t:0 "$dragon_bond_events.t$ Spojrzenie ku niebu"
+ dragon_bond_events.3021.desc:0 "Z poranną owsianką wychodzę na balkon. Niebieskie niebo, ani jednej chmury. Czuję, że dziś nie powinienem siedzieć w [ROOT.Char.Custom('ResidenceBuilding')] — [ROOT.Char.GetFaith.FateGodName] jakby stworzył ten dzień dla jednego celu: lotu.\n\nA jednak waham się. Ostatnie loty z [target.GetNamePossessive] nie były łatwe — smok czasem ignoruje rozkazy, zwłaszcza te, które mają uchronić mnie przed upadkiem.\n\nAle więcej treningu mogłoby zacieśnić naszą więź. A dzień jest przecudny..."
+ dragon_bond_events.3021.a:0 "Marnować taki dzień to grzech. W niebo!"
+ dragon_bond_events.3021.b:0 "[ROOT.Char.GetTitleTierName] ma obowiązki wobec królestwa, nie własnych zachcianek. Dziś nie polecimy."
+ dragon_bond_events.3021.custom_tt:0 "Twoja więź się nie pogłębi"
+
+ dragon_bond_events.3022.t:0 "$dragon_bond_events.t$ Nowe wyżyny"
+ dragon_bond_events.3022.desc:0 "[target.GetName] wita mnie radośnie, gdy pojawiam się z siodłem. Bez oporu pozwala mi je założyć i wsiąść. Zaledwie wychodzimy poza bramy, a już wzbijamy się w niebo.\n\nZ każdym uderzeniem skrzydeł szybujemy wyżej. [ROOT.Char.Custom('ResidenceBuilding')] jest teraz maleńką plamką. [target.Custom('GetDragonSheHe')|U] dziś w szczytowej formie — szybki jak [GetScriptedCharacterByHistoryID('dragon_nessarion').GetName], potężny jak [GetScriptedCharacterByHistoryID('dragon_terrax').GetName].\n\nW przestworzach, wiatr targa włosy, a duch rośnie. Na tle bezchmurnego nieba nasza więź umacnia się."
+ dragon_bond_events.3022.a:0 "Unieś mnie jeszcze wyżej!"
+
+ dragon_bond_events.3023.t:0 "$dragon_bond_events.t$ Nieudany start"
+ dragon_bond_events.3023.desc:0 "Zbliżam się do [target.GetName] ostrożnie. Choć ćwiczyliśmy to już, smok ucieka, gdy próbuję założyć siodło — dziś najwyraźniej ma swój nastrój. Parska figlarnie i ucieka, rozkładając skrzydła z gracją.\n\nKażda próba kończy się machnięciem ogona lub zionącym płomieniem. Nawet [Concept('tamed_dragon','oswojony')|E] smok nie da się złamać. Rośnie we mnie frustracja — może lepiej spożytkować czas inaczej."
+ dragon_bond_events.3023.a:0 "Jakże niefortunnie..."
+
+ dragon_bond_events.3024.t:0 "$dragon_bond_events.t$ Czas odwiedzin"
+ dragon_bond_events.3024.desc:0 "Po ostatniej wizycie z [target.GetName], zaniepokoiło mnie, że [target.Custom('GetDragonSheHe')] nie odróżnia mnie od służących. Czyżby uważał mnie za zwykłego podajnika mięsa? Choć obowiązki [ROOT.Char.GetTitleAsNameNoTooltip] pochłaniają większość dnia, może warto częściej odwiedzać smoka.\n\nAle to ryzykowne. Bliskość drapieżnika to jedno — ale nachalność może zaszkodzić delikatnej więzi."
+ dragon_bond_events.3024.a:0 "Nic nie zastąpi czasu spędzonego razem. Odwiedzę smoka."
+ dragon_bond_events.3024.b:0 "Nieważne."
+ dragon_bond_events.3024.custom_tt:0 "Stosunek [target.GetNamePossessiveNoTooltip] do ciebie pozostanie obojętny"
+
+ dragon_bond_events.3025.t:0 "$dragon_bond_events.t$ Udana wizyta"
+ dragon_bond_events.3025.desc:0 "Jak nauczyciele z dzieciństwa ukształtowali mnie — tak moje starania o regularność przyniosły efekt. Jeszcze miesiąc temu [target.Custom('GetDragonSheHe')] traktował mnie jak portiera od słomy. Dziś patrzy uważniej, rozpoznaje mój głos i pozwala dotknąć szyi podczas karmienia."
+ dragon_bond_events.3025.a:0 "Dzień po dniu, zdobędę [target.Custom('GetDragonHerHis')] posłuszeństwo."
+
+ dragon_bond_events.3026.t:0 "$dragon_bond_events.t$ Nieudana wizyta"
+ dragon_bond_events.3026.desc:0 "Moje wizyty dały odwrotny efekt. Zamiast skojarzyć mnie z posiłkami, [target.Custom('GetDragonSheHe')] zaczyna wiązać mnie z nielubianą niewolą.\n\nDawniej ignorował moją obecność. Dziś [target.Custom('GetDragonHerHis')] nozdrza się rozszerzają, gdy mnie wyczuje — a [target.Custom('GetDragonSheHe')] pokazuje mi grzbiet zawsze, gdy może. Zły znak."
+ dragon_bond_events.3026.a:0 "Jakże niefortunnie..."
+
+ dragon_bond_events.3027.t:0 "Więź z [target.GetNameNoTooltip]: Valar Ēdrussis"
+ dragon_bond_events.3027.desc:0 "Podczas samotnego spaceru słyszę ciche chrapanie.\n\nZatrzymuję się. Dookoła dziwnie cicho — jakby cały las odpoczywał. Błoga przerwa od dworskiego zgiełku."
+ dragon_bond_events.3027.a:0 "Sprawdzę, skąd ten dźwięk."
+ dragon_bond_events.3027.custom_tt.a:0 "@warning_icon! To może być niebezpieczne!"
+ dragon_bond_events.3027.b:0 "Nareszcie spokój."
+
+ dragon_bond_events.3028.desc:0 "Idę w stronę chrapania. Robi się dziwnie — żadnych zwierząt, żadnych dźwięków.\n\nZa drzewem dostrzegam źródło: [target.GetNameNoTooltip], śpiący w polanie, zaledwie kilka kroków ode mnie! Wygląda zaskakująco spokojnie, zwinięty w kłębek."
+ dragon_bond_events.3028.a:0 "Drzemka brzmi kusząco..."
+ dragon_bond_events.3028.custom_tt.a:0 "Kładziesz się w liściach na zasłużony odpoczynek"
+ dragon_bond_events.3028.custom_tt.react:0 "[target.GetNameNoTooltip] zareaguje..."
+ dragon_bond_events.3028.b:0 "Wycofuję się powoli..."
+ dragon_bond_events.3028.custom_tt.b:0 "Wycofujesz się w las"
+ dragon_bond_events.3028.custom_tt.b.a:0 "Udało się uciec"
+ dragon_bond_events.3028.custom_tt.b.b:0 "[target.GetNameNoTooltip] się budzi"
+ dragon_bond_events.3028.b.success.t:0 "Ucieczka"
+ dragon_bond_events.3028.b.success.custom_tt:0 "Ociekając potem, odwracasz się i widzisz, że smok nadal śpi spokojnie."
+ dragon_bond_events.3028.c:0 "NIE!"
+ dragon_bond_events.3028.custom_tt.c:0 "Uciekasz w przeciwną stronę"
+ dragon_bond_events.3028.c.success.t:0 "Szaleńczy bieg"
+ dragon_bond_events.3028.c.success.custom_tt:0 "Pędzisz co sił, dopóki nie jesteś bezpieczny, modląc się, by smok niczego nie zauważył."
+
+ dragon_bond_events.3029.desc:0 "Mija trochę czasu i budzę się nagle, czując ciepły oddech na twarzy. Przerażony, nie ruszam się ani o centymetr — widzę, że [target.GetNameNoTooltip] wyciągnął [target.Custom('GetDragonHerHis')] szyję, by mi się przyjrzeć!\n\nDreszcz przebiega mi po kręgosłupie... Może to nie była najrozsądniejsza decyzja.\n\nKu mojemu zaskoczeniu, [target.GetNameNoTooltip] po prostu znowu zasypia? Może [target.Custom('GetDragonSheHe')] zaczyna się przyzwyczajać do mojej obecności!"
+ dragon_bond_events.3029.a:0 "Tu cieplej niż w moim łożu!"
+
+ dragon_bond_events.3030.desc:0 "Czuję, jak [target.GetNameNoTooltip] budzi się z drzemki, zanim [target.Custom('GetDragonSheHe')] nagle wstaje, wyraźnie zaskoczony moją bliskością w [target.Custom('GetDragonHerHis')] legowisku.\n\nCzęść mnie spodziewa się natychmiastowego ognia lub ciosu pazurem — ale smok tylko stoi, jego łuski błyszczą w południowym słońcu, oczy utkwione we mnie."
+ dragon_bond_events.3030.a:0 "Ciii, dobry smoku..."
+ dragon_bond_events.3030.custom_tt.a:0 "Przypominasz sobie kołysankę i śpiewasz ją smokowi"
+ dragon_bond_events.3030.c.success.t:0 "Licząc Ōtor"
+ dragon_bond_events.3030.c.success.custom_tt:0 "[target.GetNameNoTooltip] wydaje się uspokojony twoją kołysanką, w końcu zasypia, co pozwala ci się wymknąć"
+
+ dragon_bond_events.3031.desc:0 "[target.GetNameNoTooltip] wznosi się gwałtownie, wyraźnie oburzony moją obecnością na jego miejscu spoczynku! Mogę już tylko skulić się i zasłonić głowę, modląc się do samego [ROOT.Char.GetFaith.FateGodName], by bestia okazała mi łaskę..."
+ dragon_bond_events.3031.custom_tt.a:0 "[target.GetNameNoTooltip] jest rozgniewany i atakuje!"
+ dragon_bond_events.3031.custom_tt.b:0 "[target.GetNameNoTooltip] odlatuje i nie wraca"
+ dragon_bond_events.3031.attack.t:0 "Smutny koniec..."
+ dragon_bond_events.3031.attack.custom_tt:0 "[target.GetNameNoTooltip] uderza ogniem, po czym odlatuje — i wygląda na to, że nie zamierza wrócić..."
+ dragon_bond_events.3031.flee.t:0 "Szczęśliwy traf?"
+ dragon_bond_events.3031.flee.custom_tt:0 "Odsłaniasz oczy i widzisz, że [target.GetNameNoTooltip] odlatuje. Uratowałeś się, ale smok raczej nie wróci..."
+
+ bond_with_dragon_scheme_invalidated_title:0 "Plan nawiązania więzi ze smokiem zakończony"
+ bond_with_dragon_scheme_invalidated_dead:0 "[target.GetName] odszedł. Nie możesz już próbować nawiązać z nim więzi."
+ bond_with_dragon_scheme_invalidated_bonded_someone_else:0 "[target.GetName] nawiązał więź z kimś innym. Nie możesz już próbować nawiązać z nim więzi."
+ bond_with_dragon_scheme_invalidated_dragonpit_law_close_family:0 "[target.GetName] znajduje się w [dragonpit|E], do którego dostęp mają tylko [close_family_members|E] właściciela."
+ bond_with_dragon_scheme_invalidated_dragonpit_law_house:0 "[target.GetName] znajduje się w [dragonpit|E], do którego dostęp mają tylko członkowie [house|E] właściciela."
+ bond_with_dragon_scheme_invalidated_dragonpit_law_dynasty:0 "[target.GetName] znajduje się w [dragonpit|E], do którego dostęp mają tylko członkowie [dynasty|E] właściciela."
+ deepen_bond_with_dragon_scheme_invalidated_title:0 "Plan pogłębienia więzi ze smokiem zakończony"
+ deepen_bond_with_dragon_scheme_invalidated_dead:0 "[target.GetName] odszedł. Nie możesz już pogłębiać z nim więzi."
+ deepen_bond_with_dragon_complete:0 "Pogłębiłeś więź z [target.GetName] tak bardzo, jak to możliwe."
+ deepen_bond_with_dragon_continue:0 "Kontynuujesz swoje starania."
+ deepen_bond_with_dragon_try_again:0 "Spróbujesz ponownie."

@@ -1,0 +1,5 @@
+﻿l_english:
+
+ epidemic_events.1100.c: "Wezwij maestera!"
+ look_for_maester_epidemic_tt: "Będziesz szukać [GetCourtPositionType('maester_court_position').GetName()], aby pomógł złagodzić [epidemic|E]"
+ maester_will_help_epidemic_tt: "Twój [GetCourtPositionType('maester_court_position').GetName()] zapewni liczne opcje, aby złagodzić [epidemic|E]"

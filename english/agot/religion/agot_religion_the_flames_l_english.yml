@@ -1,0 +1,34 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_flames_religion:0 "Płomienie Valyrii"
+ the_flames_religion_adj:0 "Płomienie"
+ the_flames_religion_adherent:0 "Wyznawca"
+ the_flames_religion_adherent_plural:0 "Wyznawcy"
+ the_flames_religion_desc:0 "Ziemie Długiego Lata były domem Bogów Płomienia i Skrzydeł, często przybierających postać smoków dla niższych ludów tego regionu."
+
+ ### Wiary ###
+ # Czternaście Płomieni
+ valyrian_pan_freehold:0 "Czternaście Płomieni"
+ valyrian_pan_freehold_adj:0 "Czternaście Płomieni"
+ valyrian_pan_freehold_adherent:0 "Wyznawca"
+ valyrian_pan_freehold_adherent_plural:0 "Wyznawcy"
+ valyrian_pan_freehold_desc:0 "Starożytna religia Wolnego Holdfastu Valyrii, ta wiara czci personifikację czternastu wulkanów otaczających Ziemie Długiego Lata. Pomimo tego kultu, Valyrianie byli bardzo otwarci na inne wiary i bogów."
+
+ # Wiara Smoków
+ fots_dragon:0 "Wiara Smoków"
+ fots_dragon_adj:0 "Wiara Smoków"
+ fots_dragon_adherent:0 "Wierny"
+ fots_dragon_adherent_plural:0 "Wierni"
+ fots_dragon_desc:0 "Połączenie Płomieni Czternastu z Wiarą Siedmiu, ta doktryna głosi, że Czternastu było po prostu innymi interpretacjami siedmiu aspektów i również stanowiło część Jedynego."
+
+ # Malowane Smoki
+ valyrian_pan_dragon:0 "Płomienie Skrzydlatych"
+ valyrian_pan_dragon_adj:0 "Skrzydlate Płomienie"
+ valyrian_pan_dragon_adherent:0 "Wyznawca"
+ valyrian_pan_dragon_adherent_plural:0 "Wyznawcy"
+ valyrian_pan_dragon_desc:0 "Smoki Holdfastu były wieloma rzeczami: cenionymi towarzyszami, bestiami wojny i największymi wierzchowcami na świecie. Dla wielu ludzi były jednak postrzegane jako bóstwa, ucieleśniony ogień. To wierzenie rozprzestrzeniło się po znanym świecie, od plemion Gór Księżycowych po ludy Senrilii i plemiona Malowanych Gór."
+
+ valyrian_pan_dragon_old:0 "Stare Płomienie Skrzydlatych"
+ valyrian_pan_dragon_old_adj:0 "Stare Skrzydlate Płomienie"
+ valyrian_pan_dragon_old_adherent:0 "Wyznawca"
+ valyrian_pan_dragon_old_adherent_plural:0 "Wyznawcy"

@@ -1,0 +1,50 @@
+﻿l_english:
+ # Character Interactions
+ agot_scenario_rr_ha.0010.t:0 "Rada Wojenna"
+ agot_scenario_rr_ha.0010.desc:0 "Drogi [ROOT.Char.GetTitledFirstName],\nMam nadzieję, że ta wiadomość zastaje Cię w dobrym zdrowiu. Zwołuję radę wojenną w Harrenhal, aby zaplanować działania przeciwko buntowi prowadzonemu przez Roberta Baratheona. Twoja obecność i wkład w nasze dyskusje nad tym, jak najlepiej zakończyć ten konflikt, będą nieocenione. Razem stawmy czoła wyzwaniu i zróbmy to, co konieczne, aby zabezpieczyć Siedem Królestw. Nie mogę się doczekać, aż Cię zobaczę w Harrenhal. \nZ oddaniem,"
+ agot_scenario_rr_ha.0010.a:0 "Oczywiście, że przybędę!"
+ agot_scenario_rr_ha.0010.b:0 "Nie znoszę zebrań..."
+
+ agot_scenario_rr_ha.0011.t:0 "Następstwa w Harrenhal"
+ agot_scenario_rr_ha.0011.desc:0 "Kruki zostały wysłane i teraz stoję przed salą pełną wasali mojego ojca, rozważając trudną sytuację, w której się znalazłem. Zdetronizować króla — nie byle jakiego króla, ale mojego ojca... To wydaje się niewyobrażalne.\n\nA jednak przede mną są ci, którzy mogą być wystarczająco lojalni, by dołączyć do mojej sprawy. To teraz albo nigdy: #bold Czy proponuję, abyśmy usunęli króla Aerysa II z Żelaznego Tronu?#!"
+ agot_scenario_rr_ha.0011.a:0 "Panowanie króla Aerysa II musi się skończyć..."
+ agot_scenario_rr_ha.0011.a.tt:0 "Zaczynasz wyjaśniać swoje plany zebranym przed tobą, nie wiedząc, którzy z tych wasali dołączą do twojej strony — a którzy zdradzą cię przed Szalonym Królem..."
+ agot_scenario_rr_ha.0011.b:0 "Musimy się skupić na obecnej wojnie!"
+ agot_scenario_rr_ha.0011.b.tt:0 "Porzucasz spisek całkowicie, zamiast tego prowadząc prawdziwą radę wojenną w nadziei na pokonanie Uzurpatora."
+
+ agot_scenario_rr_ha.0012.t:0 "Następstwa w Harrenhal"
+ agot_scenario_rr_ha.0012.desc:0 "Następca tronu zgromadził najlepszych wasali swojego ojca, aby omówić Wojnę Uzurpatora. Ostrożnie przyglądam się tym wokół stołu, mierząc, z kim zasiadam.\n\nPo dłuższej pauzie Rhaegar zaczyna swoją przemowę. „Moi drodzy doradcy, wezwałem was tu pod fałszywym pretekstem, wybieg, który mam nadzieję zostanie wybaczony,” zaczyna. Nerwowo przesuwam się na swoim miejscu.\n\n„Prawdziwym powodem naszego zgromadzenia jest to: Mój ojciec, król Aerys II z rodu Targaryenów, oszalał — opętany ogniem, napędzany paranoją. Sprowadził nasz niegdyś wielki dom na skraj upadku.” #italic Westchnienie przecina nieruchome powietrze niczym ostrze.#!\n\nRhaegar proponuje zdradę najwyższego stopnia... #bold Zdetronizować Szalonego Króla!#!"
+ agot_scenario_rr_ha.0012.a:0 "Książę smok ma rację; dołączę do jego spisku."
+ agot_scenario_rr_ha.0012.b:0 "To nie moje miejsce, by oceniać królów."
+ agot_scenario_rr_ha.0012.c:0 "Muszę natychmiast poinformować króla Aerysa!"
+
+ agot_scenario_rr_ha.0013.t:0 "Rada Wojenna"
+ agot_scenario_rr_ha.0013.desc:0 "Następca tronu zgromadził najlepszych wasali swojego ojca, aby omówić Wojnę Uzurpatora. Ostrożnie przyglądam się tym wokół stołu, mierząc, z kim zasiadam.\n\nPo krótkiej pauzie Rhaegar zaczyna szczegółowo omawiać taktykę wojskową buntu. Muszę przyznać, że nawet najbardziej doświadczeni wojownicy spośród nas byli pod wrażeniem jego wiedzy."
+ agot_scenario_rr_ha.0013.a:0 "Z pewnością pomoże to w wysiłkach wojennych!"
+
+ agot_scenario_rr_ha.0014.t:0 "Zbuntowana Rada"
+ agot_scenario_rr_ha.0014.desc:0 "Mój syn, następca tronu, jest odważny, a czasami lekkomyślny — ale nigdy nie spodziewałem się, że zwoła radę wojenną za moimi plecami!\n\nDziś rano dotarł kruk od jednego z moich bardziej lojalnych wasali, wyjaśniający, że Rhaegar wezwał większość #bold mojego#! królestwa, aby doradzili mu w sprawie prowadzenia #bold mojej#! wojny.\n\nMuszę poradzić sobie z jednym uzurpatorem, oby nie musiał też z #N kolejnym#!..."
+ agot_scenario_rr_ha.0014.a:0 "Teraz muszę sam poradzić sobie z Rhaegarem..."
+
+ agot_scenario_rr_ha.0015.t:0 "Rada Wojenna"
+ agot_scenario_rr_ha.0015.desc:0 "Wokół mnie zasiadają najlepsi wasale mojego ojca, którzy przybyli, aby omówić Wojnę Uzurpatora. Ostrożnie przyglądam się tym wokół stołu, starannie oceniając tych, których zaprosiłem.\n\nPo krótkiej pauzie zaczynam szczegółowo omawiać taktykę wojskową buntu. Spoglądając w górę, zauważam nawet, jak niektórzy z moich najbardziej doświadczonych wojowników kiwają głowami z aprobatą."
+ agot_scenario_rr_ha.0015.a:0 "Mam nadzieję, że to pomoże w wysiłkach wojennych..."
+
+ agot_scenario_rr_ha.0020.t:0 "Następstwa w Harrenhal"
+ agot_scenario_rr_ha.0020.desc:0 "Nadszedł czas, spisek został omówiony, a teraz stoję przed moimi doradcami, czekając na ich odpowiedź.\n\nMoje oczy wędrują tam i z powrotem po sali. Przede mną siedzi wielu lojalnych wasali. „Kto dołączy do mnie, aby zakończyć panowanie mojego ojca, Szalonego Króla?”\n\nMoje pytanie spada jak bełt z kuszy, odbierając powietrze z pomieszczenia. Ale wkrótce zebrani zaczynają się odzywać. Wkrótce rozbrzmiewa chór poparcia — a jednak niektórzy pozostają cicho..."
+ agot_scenario_rr_ha.0020.a:0 "I tak zaczyna się mój taniec z #N szalonym smokiem#!."
+ agot_scenario_rr_ha.0020.join_rhaegar:0 "Którzy doradcy dołączą do twojego spisku?"
+ agot_scenario_rr_ha.0020.join_rhaegar_ally:0 "[custom_tooltip_trick.GetName] popiera twój spisek."
+
+ agot_scenario_rr_ha.0021.t:0 "Drugi Uzurpator!?"
+ agot_scenario_rr_ha.0021.desc:0 "Tyle rzeczy, o które muszę się martwić, gdy Pająk szepcze do jednego ucha, a piromanci mamroczą do drugiego. A dziś dochodzi kolejny niepokój, przyniesiony przez kruka.\n\nLojalny wasal poinformował mnie o spisku, #italic od mojego własnego syna, Rhaegara#!...\n\nNastępca tronu zamierza mnie porwać, zdetronizować... Pozna cenę zdrady, a wraz z nim wszyscy jego współspiskowcy!"
+ agot_scenario_rr_ha.0021.a:0 "ZDRAJCY! #N SPŁONĄ WSZYSCY!#!"
+
+ agot_scenario_rr_ha.0030.t:0 "Następstwa w Harrenhal"
+ agot_scenario_rr_ha.0030.desc:0 "Dziś całe królestwo może odetchnąć z ulgą: Szalony Król, Aerys II, siedzi w moim lochu.\n\nJak daleko upadł mój ojciec od czasów swojej młodości... Wielka obietnica jego panowania dla Siedmiu Królestw została zniweczona przez szaleństwo. A teraz muszę zrobić to, co najlepsze dla całego Westeros...\n\nProroctwo mówi o księciu, który został obiecany, a dziś ten książę staje się #bold królem#!."
+ agot_scenario_rr_ha.0030.a:0 "Panowanie mojego ojca wreszcie się skończyło."
+
+ agot_scenario_rr_ha.0031.t:0 "Następstwa w Harrenhal"
+ agot_scenario_rr_ha.0031.desc:0 "Dziś całe królestwo opłakuje: Szalony Król, Aerys II, uniknął mojego spisku, by go pojmać i szybko zakończyć jego panowanie.\n\nCzy któryś z moich doradców wysłał do niego kruka? A może małe ptaszki Pająka zadbały o to osobiście? Być może nigdy nie poznam prawdy.\n\nWiem tylko, że Siedem Królestw nie może dalej trwać pod tyranią mojego ojca. Ale teraz zdetronizowanie Szalonego Króla staje się jeszcze trudniejsze."
+ agot_scenario_rr_ha.0031.a:0 "Będzie wojna..."
+

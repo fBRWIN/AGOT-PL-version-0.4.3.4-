@@ -1,0 +1,217 @@
+﻿l_english:
+ # Trident's Aftermath
+ agot_events_rr_minor.0001.t:0 "Bitwa pod [location.GetNameNoTooltip]"
+ agot_events_rr_minor.0001.desc.a:0 "Wyszedłem z namiotu, by wcześnie rano założyć zbroję; powietrze było gęste od zimnej wilgoci, przenikającej aż do kości. Poranna rosa przylgnęła do rubinów na moim napierśniku, sprawiając, że lśniły jeszcze jaśniej, a na horyzoncie widniał obóz samozwańczego uzurpatora, dym unoszący się spomiędzy namiotów, jego namiot w samym centrum zgrai. Tak blisko, a jednak tak daleko.\n\nCzuję w kościach nie tylko chłód, ale i jego, jego gniew, i wiem, że spotkamy się w tej bitwie, że miecz i wojenny młot się skrzyżują. Na chwilę moje serce zadrżało. Jeden z moich służących zapytał, czy coś jest ze mną nie tak, a ja zaśmiałem się przez sekundę, zanim odzyskałem spokój. „Nie, mój przyjacielu, nic mi nie jest,” odpowiedziałem.\n\n„Dziś nie jest dzień mojej śmierci.”"
+ agot_events_rr_minor.0001.desc.b:0 "Poranne powietrze jest rześkie i ożywcze, gdy patrzę na horyzont i widzę, jak namiot tego wyniosłego smoczego bękarta trzepocze na wietrze, dym unoszący się nad ziemią między naszymi obozami, gdzie wkrótce rozegra się bitwa. W głębi serca wiem, że odnajdę dumnego księcia wśród wrzawy i wbiję młot w jego czaszkę. Wszystko do tego prowadziło; każda bitwa, każda potyczka, każdy martwy rycerz przywiódł nas do tego punktu. Czas sprawić, by Rhaegar krwawił."
+ agot_events_rr_minor.0001.a:0 "Sprawiedliwość wreszcie się dokona"
+ agot_events_rr_minor.0002.t:0 "Bitwa pod [location.GetNameNoTooltip]"
+ agot_events_rr_minor.0002.t.alt:0 "Śmierć Smoka"
+ agot_events_rr_minor.0002.desc:0 "Moje serce zatonęło jeszcze głębiej, gdy otrzymałem wiadomość o tym, co stało się z moim synem... Mój biedny, najdroższy chłopiec, mój najstarszy syn! Zabrany mi, jak tylu moich potomków! Czy deprawacja i niesprawiedliwość tych zdradzieckich psów nie mają granic? Czy naprawdę nie mogę uchronić żadnego z mojej rodziny przed tym niekończącym się naporem?\n\nMuszę... Muszę działać; muszę ochronić moją rodzinę, bo najwyraźniej żaden z moich poddanych nie jest w stanie tego zrobić... Wyślę ich na Smoczą Skałę! Tak, Smocza Skała. Tam nikt nie będzie w stanie ich skrzywdzić... Choć pozostaje pytanie, czy dzieci mojego zmarłego syna powinny zostać wysłane na Smoczą Skałę razem z moją żoną i synem?"
+ agot_events_rr_minor.0002.a:0 "Wyślę tylko Rhaellę i Viserysa"
+ AGOT_EVENTS_RR_MINOR_0002_TOOLTIP:0 "Rhaella będzie trzymać Smoczą Skałę do końca wojny."
+ agot_events_rr_minor.0002.b:0 "Cała moja rodzina musi być bezpieczna!"
+ agot_events_rr_minor.0004.t:0 "Brak Wyboru"
+ agot_events_rr_minor.0004.t_defeated_and_imprisoned:0 "Pokonany przez Buntowników"
+ agot_events_rr_minor.0004.desc:0 "„Mój [ROOT.Char.GetLadyLord],” wysłannik z dworu [iron_throne_ruler.GetFirstName] kłania się i przekazuje wieści z powagą: „#N Królewska Przystań upadła#!. Smocza Skała stoi samotnie.”\n\nOpcje migoczą przede mną niczym płomyki świec w wietrznej sali: Możemy utrzymać pozycję na Smoczej Skale, gromadząc to, co nam zostało, lub może nawet poprosić Uzurpatora o rozmowy, by zabezpieczyć naszą siedzibę. Jednak prawdopodobieństwo, że nasze błagania trafią na przychylne uszy, jest równie pewne, co wynik każdej obrony, którą moglibyśmy wystawić.\n\nCiężkie westchnienie wymyka się z moich ust, gdy rozważam nasze malejące możliwości. Najmądrzejszą ścieżką dla tego, co zostało z mojego domu, i dla tych lojalnych naszej sprawie, wydaje się szukanie schronienia w Wolnych Miastach. Tam, wśród zgiełku nieznanych ulic i obcych języków, moglibyśmy odbudować naszą siłę i na nowo ukształtować dziedzictwo Domu Targaryenów."
+ agot_events_rr_minor.0004.desc.imprisoned:0 "Buntownicy wdarli się do wielkiej sali Smoczej Skały, przełamując naszą ostatnią linię obrony. Starcie było zaciekłe, chaotyczna burza mieczy i desperackich okrzyków, ale tragicznie, #italic to nie wystarczyło#!. Zapłaciliśmy najwyższą cenę, gdy zamek wpadł w ręce wroga. Gdy kurz opadł, zostałem pozbawiony godności, zmuszony do klęczenia przed [iron_throne_ruler.GetFullName] w upokarzającym pokazie porażki.\n\nTeraz czekam na wyrok [iron_throne_ruler.GetFirstNamePossessiveNoTooltip] w [iron_throne_ruler.GetHerHis] lochach. Każda mijająca chwila jest męką. Mogę tylko w ciszy modlić się do [ROOT.Char.GetFaith.HighGodName], by gniew Uzurpatora nie sięgnął po moją głowę jako ostateczną cenę mojej porażki."
+ agot_events_rr_minor.0004.a:0 "Musimy uciec do Essos, jako królowie za Wąskim Morzem"
+ agot_events_rr_minor.0004.a.tt:0 "Ty, twoja rodzina i część dworzan uciekniecie do [exile_destination.GetName]"
+ agot_events_rr_minor.0004.c:0 "Jesteśmy na łasce naszych oprawców"
+
+ agot_events_rr_minor.0005.t:0 "Narodzony w Burzy"
+ agot_events_rr_minor.0005.desc:0 "Pomimo ogłuszającego gradu burzy gwałtownie bębniącego o dachy Smoczej Skały, krzyki Rhaelli wciąż zdają się przebijać przez całą tę wrzawę. Jej poród, jak i burza, trwał znacznie dłużej niż zazwyczaj — i podobnie jak reszta floty Targaryenów, Rhaella radzi sobie źle. Jej damy dworu krzątają się w tę i z powrotem z zakrwawionymi prześcieradłami i dłońmi, a maester może jedynie modlić się, gdy ona miota się na łożu porodowym.\n\nW tym samym momencie, gdy ogłuszający grzmot rozlega się dokładnie nad zamkiem, Rhaella wydaje z siebie przeraźliwy krzyk, przewyższający wszystkie wcześniejsze. Z łaski bogów, grzmoty, wiatr i grad ustają na tyle, by wszyscy mogli usłyszeć — płacz nowonarodzonego dziecka.\n\nPo raz pierwszy od wielu dni Rhaella śmieje się z ulgą, trzymając noworodka w drżących ramionach, jej chorobliwie blada i wykrwawiona twarz uśmiecha się do dziecka. Po wszystkim, przez co przeszła, to jedyna i krótka chwila wytchnienia od koszmarów, które już przeżyła i które jeszcze nadejdą. „Narodzony w burzy,” szepcze cicho, jej głos jest niepewny, gdy maester zabiera dziecko, by się nim zająć. \n\nKolejny grzmot towarzyszy bolesnemu jękowi Rhaelli — dziecko przyszło na świat, ale ona nadal krwawi w zastraszającym tempie. Tak jak ci na dokach przyjmują możliwość, że flota może nie przetrwać do rana, tak ci przy jej łożu robią to samo w odniesieniu do Rhaelli. Zrodzony z ognia i krwi, zrodzony wśród błyskawic i grzmotów — jaki cel bogowie wyznaczyli dziecku o tak niezwykłym początku?"
+ agot_events_rr_minor.0005.exiled.desc:0 "Pomimo ogłuszającego gradu burzy gwałtownie bębniącego o dachy [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], krzyki Rhaelli wciąż zdają się przebijać przez całą tę wrzawę. Jej poród, jak i burza, trwał znacznie dłużej niż zazwyczaj — i podobnie jak reszta sprawy Targaryenów, Rhaella radzi sobie źle. Jej damy dworu krzątają się w tę i z powrotem z zakrwawionymi prześcieradłami i dłońmi, a maester może jedynie modlić się, gdy ona miota się na łożu porodowym.\n\nW tym samym momencie, gdy ogłuszający grzmot rozlega się dokładnie nad zamkiem, Rhaella wydaje z siebie przeraźliwy krzyk, przewyższający wszystkie wcześniejsze. Z łaski bogów, grzmoty, wiatr i grad ustają na tyle, by wszyscy mogli usłyszeć — płacz nowonarodzonego dziecka.\n\nPo raz pierwszy od wielu dni Rhaella śmieje się z ulgą, trzymając noworodka w drżących ramionach, jej chorobliwie blada i wykrwawiona twarz uśmiecha się do dziecka. Po wszystkim, przez co przeszła, to jedyna i krótka chwila wytchnienia od koszmarów, które już przeżyła i które jeszcze nadejdą. „Narodzony w burzy,” szepcze cicho, jej głos jest niepewny, gdy maester zabiera dziecko, by się nim zająć. \n\nKolejny grzmot towarzyszy bolesnemu jękowi Rhaelli — dziecko przyszło na świat, ale ona nadal krwawi w zastraszającym tempie. Zrodzony z ognia i krwi, zrodzony wśród błyskawic i grzmotów — jaki cel bogowie wyznaczyli dziecku o tak niezwykłym początku?"
+ agot_events_rr_minor.0005.a:0 "Tylko bogowie wiedzą na pewno..."
+
+ agot_events_rr_minor.0006.t:0 "Czy Nikt Nie Pomyśli o Dzieciach?"
+ agot_events_rr_minor.0006.desc.a:0 "Choć jej poród był długi i wyczerpujący, śmierć Rhaelli na szczęście przyszła dość szybko, gdy tylko urodziła dziecko, zabierając ją w łożu porodowym, zanim wojenny świat na zewnątrz mógł dodać jej więcej cierpienia. Wszystko, co przetrwało z jej niegdyś potężnej dynastii, to jej dwoje dzieci. \n\nChoć mogą być mali, to jednak są Targaryenami, a dopóki pamięć o Szalonym Królu żyje, te dzieci będą ścigane — i z pewnością czeka wielka nagroda na tego, kto wyda ich Żelaznemu Tronowi. \n\nCzas działa przeciwko nim, więc pozostaje niewiele opcji dla ich przeżycia poza przemyceniem ich ze Smoczej Skały przez morze do Wolnych Miast. Być może tam lojalni jeszcze zdołają się przegrupować, a być może, przynajmniej, imiona dzieci znikną w zapomnieniu, gdy dorosną. Może zaznają pokoju."
+ agot_events_rr_minor.0006.desc.b:0 "Nie wiem, czy to modlitwy innych, smoczy ogień płynący w mojej krwi, czy po prostu czysta złość mnie uratowały — ale jakimś wielkim cudem łoże porodowe nie stało się moim łożem śmierci. Nie ma jednak wiele odpoczynku. Nigdzie w Westeros nie będzie dla nich bezpiecznie, niezależnie od roszczeń. \n\nMogłabym uciec z dziećmi za morze do Wolnych Miast, zyskując czas na odzyskanie sił i przegrupowanie. Jednak łatwiej jest ukryć dwoje dzieci niż byłą królową — pozostanie na Smoczej Skale może zapewnić dzieciom większą dyskrecję. Jeśli wytrwam, Smocza Skała może okazać się politycznie korzystna dla dzieci, gdy dorosną. \n\nJakąkolwiek podejmę decyzję, muszę to zrobić szybko. Nie mam wątpliwości, że całe Westeros jest za moimi dziećmi, szukając zemsty, chwały lub jakiejkolwiek monety, jaką Żelazny Tron oferuje jako chorą nagrodę."
+ agot_events_rr_minor.0006.desc.c:0 "agot_events_rr_minor.0006.desc.c"
+ agot_events_rr_minor.0006.a:0 "Porzucić dzieci? Ani mi się śni! Pójdę z nimi."
+ agot_events_rr_minor.0006.b:0 "Zostanę, ale pomogę im się przygotować."
+ agot_events_rr_minor.0006.c:0 "Dokładnie ILE mogą być warte? Pytam dla przyjaciela."
+
+ agot_events_rr_minor.0007.t:0 "Ostatnie Żary"
+ agot_events_rr_minor.0007.desc:0 "Podróż przez Wąskie Morze wydaje się spędzona na wstrzymanym oddechu. Istnieje tyle możliwości, by coś poszło katastrofalnie źle, a każdy rzut oka w stronę Westeros sprawia, że żołądek się ściska, a serce przyspiesza. \n\nGdy stopy dzieci dotykają ziemi w Wolnych Miastach, ci, którzy im towarzyszą, wreszcie mogą odetchnąć nieco swobodniej. To nie koniec ich kłopotów — daleko im do tego — ale ostatnie resztki imperium Targaryenów wreszcie są wolne od bezpośredniego zagrożenia."
+ agot_events_rr_minor.0007.a:0 "Ogień i krew."
+
+ agot_events_rr_minor.0100.t:0 "Pod Fałszywym Sztandarem"
+ agot_events_rr_minor.0100.desc:0 "Nadszedł czas, by podjąć ważną decyzję. Wojna, którą wywołał król Aerys II, osłabiła jego pozycję oraz pozycję jego rodu w Westeros, a Czerwona Twierdza w Królewskiej Przystani jest jego ostatnim dużym bastionem. Przy dobrze wykonanym fortelu mógłbym zdobyć miasto i Czerwoną Twierdzę oraz położyć kres ohydzie Siedmiu Piekieł. Dni jego panowania muszą się skończyć."
+ agot_events_rr_minor.0100.a:0 "Usłyszy mój ryk..."
+ agot_events_rr_minor.0100.b:0 "To zbyt wielkie niebezpieczeństwo..."
+
+ agot_events_rr_minor.0101.t:0 "Czym Jest Lojalność?"
+ agot_events_rr_minor.0101.desc:0 "Moi strażnicy szybko pojawiają się w sali tronowej, przynosząc wieści: [traitor_scope.GetTitledFirstName] sprowadził siły Westerlandów pod bramy Królewskiej Przystani, by mnie chronić przed zdradzieckimi bękartami Baratheonów, Starków, Arrynów i Tullych! \n\nZ obu stron mój doradca radzi mi ostrożność. [advisor.GetName] nalega, bym nie wpuszczał ich do miasta, obawiając się, że Tywin może skrywać prawdziwe intencje, podczas gdy [traitor.GetName] przemawia za lordem [traitor_scope.GetHouse.GetBaseNameNoTooltip]..."
+
+ agot_events_rr_minor.0101.a:0 "Jest lojalnym sługą, wpuśćmy go!"
+ agot_events_rr_minor.0101.a.tt:0 "Otworzysz bramy..."
+
+ agot_events_rr_minor.0101.b:0 "Po prostu kolejny zdrajca!"
+
+ agot_events_rr_minor.0102.t:0 "Pod Fałszywym Sztandarem"
+ agot_events_rr_minor.0102.desc.a:0 "Gdy bramy miasta zostały otwarte, a szerokie ulice Królewskiej Przystani rozciągały się przede mną i moimi ludźmi, jestem o krok bliżej celu. Jednak żołnierze potrzebują łupów, moi ludzie są głodni, a miasto jest dojrzałe do żniwa. Gdy spuszczam psy na owce na ulicach, kontynuuję wspinaczkę na Wysokie Wzgórze Aegona, Czerwona Twierdza góruje nade mną. Gdy docieramy do bram, zastajemy je zaryglowane, załoga zamku stawia opór. Strzały lecą, [killer_1.GetFirstName] i [killer_2.GetFirstName] wraz ze starannie wybranymi żołnierzami zaczynają wspinać się na bladorude mury. \n\nSłychać krzyki ze szczytu Schodów Czerwonej Twierdzy..."
+ agot_events_rr_minor.0102.desc.b:0 "\"Bramy pozostaną zamknięte\" — to jedyne, co wykrzyczał posłaniec z bramy miasta. Moje plany wyeliminowania Aerysa i jego ohydnego potomstwa zostały wstrzymane. Choć wojna jest dla nich już przegrana, muszę pokazać buntownikom, że wreszcie odpowiedziałem na ich wezwanie..."
+ agot_events_rr_minor.0102.a:0 "Przynieście mi jego głowę."
+ agot_events_rr_minor.0102.b:0 "Niech rozpocznie się oblężenie."
+
+ agot_events_rr_minor.0103.t:0 "Pod Fałszywym Sztandarem"
+ agot_events_rr_minor.0103.desc:0 "Gdy bramy miasta zostały otwarte, żołnierze Lannisterów wdarli się i zaczęli plądrować miasto, a załoga garnizonu nie miała szans. Teraz, gdy tysiące wrogów są w mieście, wszystko jest naprawdę stracone. Kieruję mój gniew na [jaime_scope.GetName], najstarszego syna Tywina Lannistera, i rozkazuję mu przynieść mi głowę ojca. Odchodzę od Jaimego w gniewie i odbywam audiencję z moim piromantą [pyromancer_plotter.GetFirstName]: „Spłoną za zdradę! Podpal składy dzikiego ognia w całym mieście, Uzurpator nie dostanie nic poza popiołami i kośćmi!” Piromanta wychodzi w pośpiechu. Czekam w sali tronowej na zagładę miasta. \n\nLecz już wkrótce [jaime_scope.GetName] wchodzi: „Zabiłem twojego piromantę.” Zszokowany, przerażony i bojąc się tego, co Jaime zaraz zrobi, próbuję uciec. Gdy wspinam się na tron, czuję ostre zimno wypełniające moje gardło. Bezsilnie, moje ciało upada i stacza się po schodach Żelaznego Tronu, moja krew zalewa posadzkę, barwiąc bladorude kamienie Czerwonej Twierdzy na kilka odcieni ciemniejsze..."
+ agot_events_rr_minor.0103.a:0 "Spalcie ich wszystkich! #EMP Spalcie ich wszystkich...#!"
+
+ agot_events_rr_minor.0104.t:0 "Pod Fałszywym Sztandarem"
+ agot_events_rr_minor.0104.desc:0 "Powietrze było gęste od krwi i śmierci, gdy [killer_1.GetFirstName] i [killer_2.GetFirstName] podchodzili do mnie. Obaj spowici krwią, ich oczy wypełnione żądzą. Ich spojrzenia nie pozostawiały wątpliwości, sprawa została załatwiona. Lojaliści stawiali opór w Czerwonej Twierdzy, ale nie mieli szans przeciwko lwu zachodu. Moi zwiadowcy już poinformowali mnie o siłach buntowników zmierzających ku stolicy. Nadchodzi nowa era..."
+ agot_events_rr_minor.0104.a:0 "Lew wciąż ma pazury..."
+
+ agot_events_rr_minor.0105.t:0 "Zbite Nadzieje, Zbici Pretendenci"
+ agot_events_rr_minor.0105.desc.b:0 "Ryczący lew powiewa wysoko nad bramami Królewskiej Przystani, gdzie kiedyś rezydował trójgłowy smok. Miasto padło łupem Lannisterów. \n\nMiasto zostało splądrowane, a gdy docieramy do Czerwonej Twierdzy, ludzie Tywina pakują na wozy ciała lojalistów i wszystkich, którzy stanęli im na drodze. Kiedyś nieskazitelne dekoracje i ozdoby twierdzy są przesiąknięte krwią, nadając nowego znaczenia nazwie twierdzy — znaczenia, którego szybko nie zapomnę. \n\nSala tronowa nie jest lepsza, dawniej okazały dywan u stóp tronu teraz przesiąknięty jest krwią. To, kto siedzi na Żelaznym Tronie, naprawdę mnie jednak wstrząsa: Jaime Lannister, przysiężony rycerz Gwardii Królewskiej. \n\nGdy powiedziano mi o losie Szalonego Króla, byłem pewien, że to nieprawda. A jednak oto jest, brzydka prawda, prosto przede mną, na moich oczach. Jeden z moich ludzi podchodzi do mnie. „Mój panie, wojska lorda Roberta zbliżają się do miasta.”"
+ agot_events_rr_minor.0105.desc.a:0 "Pomimo powodu do świętowania, nastroje w twierdzy nieco opadają, gdy przed Robertem kładzie się dwa karmazynowe zawiniątka — o wiele mniejsze, niż powinny być. Tywin patrzy posępnie, gdy Robert ogląda zawiniątka, w milczeniu odchylając płaszcze okrywające ciała w środku. Rhaenys i... \n\nTywin wyciąga rękę, gestem prosząc Roberta, by przestał, gdy jego dłoń sięga po odsłonięcie drugiego zawiniątka. „Aegon Targaryen,” oznajmia Tywin. „Radziłbym oszczędzić sobie przykrości, mój panie. Tam nie ma już na co patrzeć.” Robert waha się przez chwilę, ale ostatecznie decyduje się zobaczyć sam — czego natychmiast żałuje, gdy podnosi płaszcz i napotyka bezkształtną masę kości i krwi. Szybko zakrywa ciało z powrotem, spiesząc się, by przejść dalej od pokazanych zwłok. Tywin dowiódł dziś swojej lojalności, choć niewielu, którzy przyjdą po Robercie, będzie miało odwagę spojrzeć na szczątki Aegona."
+ agot_events_rr_minor.0105.desc.c:0 "Robert stoi przed dwoma zawiniątkami, które mu przyniosłem. Rhaenys i Aegon — oboje owinięci w karmazynowe płaszcze w nadziei, że zakryją całą krew. Robert ogląda ciała, jedno po drugim, podnosząc płaszcze, by zobaczyć ich twarze i potwierdzić tożsamość. Gdy dochodzi do najmniejszego z nich, gestem proszę go, by zaczekał. \n\n„Ciało Aegona Targaryena,” ogłaszam, widząc już wcześniej, co kryje się pod płaszczem. „Radziłbym oszczędzić sobie przykrości, mój panie. Tam nie ma już na co patrzeć.” Robert waha się przez chwilę, ale ostatecznie decyduje się zobaczyć sam — czego natychmiast żałuje, gdy podnosi płaszcz i napotyka bezkształtną masę kości i krwi. Ledwie zarys czaszki Aegona pozostaje, ani grama mózgu tam, gdzie powinien być. Robert szybko zakrywa ciało z powrotem, spiesząc się, by przejść dalej. \n\n„Bardzo dobrze,” to wszystko, co udaje mu się powiedzieć, gdy skinieniem głowy przyznaje mi rację."
+ agot_events_rr_minor.0105.a:0 "Straszna sprawa, doprawdy."
+
+ agot_events_rr_minor.0106.t:0 "Krew za Krew"
+ agot_events_rr_minor.0106.desc.a:0 "„To były #italic dzieci,#! Robercie!” Eddard przechadza się, mówiąc, wyraźnie zdenerwowany. Zawsze miał miękkie serce. \n\n„A dzieci wyrastają na pretendentów,” przypominam mu.\n\n„Aegon Targaryen nawet jeszcze nie odstawiony od piersi,” Eddard krzyczy. „Były inne sposoby—”\n\n„Były inne sposoby, by Aerys rozwiązał sprawę porwania mojej Lyanny,” warczę. Czy zapomniał, o co w tym wszystkim chodzi? „Krew za krew, mówię.”\n\nEddard kręci głową. „A jak to jej wytłumaczysz?” pyta. „Jak spojrzysz mojej siostrze w oczy i wyjaśnisz morderstwo tych dzieci?” \n\nNie mogę uwierzyć w to, co słyszę. Przez jakieś smocze pomioty? Eddard w furii opuszcza salę."
+ agot_events_rr_minor.0106.desc.b:0 "Serce bije mi jak oszalałe i nie potrafię ustać w miejscu, próbując przetrawić to, co właśnie zobaczyłem. „To były #italic dzieci,#! Robercie!”\n\n„A dzieci wyrastają na pretendentów,” odpowiada.\n\n„Aegon Targaryen nawet jeszcze nie odstawiony od piersi,” wykrzykuję. „Były inne sposoby—” \n\n„Były inne sposoby, by Aerys rozwiązał sprawę porwania mojej Lyanny,” przerywa Robert. „Krew za krew, mówię.” \n\nJestem przerażony. „A jak to jej wytłumaczysz?” pytam go „Jak spojrzysz mojej siostrze w oczy i wyjaśnisz morderstwo tych dzieci?” \n\nNie mogę uwierzyć, że Robert, mój najdroższy przyjaciel, stał się tak mściwy, że chciałby widzieć przelaną krew dzieci. Moja żałoba musi jednak poczekać, aż Lyanna wróci do domu."
+ agot_events_rr_minor.0106.a:0 "Poszukiwania Lyanny trwają."
+ agot_events_rr_minor.0107.t:0 "I Tak Biją Dzwony..."
+ agot_events_rr_minor.0107.desc:0 "Niech wieść rozniesie się szeroko, od Westeros po Essos i ziemie poza nimi: \n\n#bold Szalony Król, Aerys II Targaryen, nie żyje.#! \n\nKrólewska Przystań upadła, pociągając za sobą rządzącą dynastię Targaryenów."
+ agot_events_rr_minor.0107.a:0 "Valar morghulis."
+
+ agot_events_rr_minor.0200.t:0 "Pod Fałszywym Sztandarem"
+ agot_events_rr_minor.0200.desc:0 "Sprowadziłem już moje siły z Westerlandów pod Bramę. Wołamy do strażników i każemy im przekazać królowi, że przyszliśmy, by ich ocalić, i że muszą otworzyć bramę, abyśmy mogli bronić miasta."
+ agot_events_rr_minor.0200.a:0 "Nic nie podejrzewają"
+
+ agot_events_rr_minor.0117.t:0 "Spalcie Ich Wszystkich"
+ agot_events_rr_minor.0117.desc:0 "Spalcie ich wszystkich, mówię Rossartowi, gdy zasiadam na tronie, obserwuję, jak zdradziecki lew wije się, wiedząc, że nie może pokonać ognia smoka. Udało im się uniknąć smoka Aegona podczas Pola Ognia, ale powinienem naprawić błędy mojego przodka i odmówić tronu zdrajcom."
+ agot_events_rr_minor.0117.a:0 "Będą panować na tronie z popiołów"
+
+ agot_events_rr_minor.0118.t:0 "Spalcie Ich Wszystkich"
+ #  agot_events_rr_minor.0118.desc:0 "Spalcie ich wszystkich, mówię Rossartowi, gdy zasiadam na tronie, obserwuję, jak zdradziecki Lew wije się, wiedząc, że nie może pokonać ognia Smoka. Udało im się uniknąć smoka Aegona podczas Pola Ognia, ale powinienem naprawić błędy mojego przodka i odmówić tronu zdrajcom."
+ agot_events_rr_minor.0118.a:0 "Będą panować na tronie z popiołów."
+
+ agot_events_rr_minor.0119.t:0 "Zielone Płomienie"
+ agot_events_rr_minor.0119.desc:0 "Królewska Przystań pogrążona jest w totalnym chaosie. Miasto upadło, a żołnierze maszerują ulicami, zostawiając niewiele domów nie splądrowanych.\n\nWydaje się jednak, że grabieże i zniszczenia to najmniejszy problem mieszkańców, gdy przez miasto rozbrzmiewają odgłosy eksplozji. Słyszę je, nawet czuję je; głęboko w kościach wiem, że nadszedł mój koniec. Próbuję biec, szukać schronienia w jednym z domów, gdy tłum na zewnątrz tratował się nawzajem. Wreszcie docieram do domu, ale niestety! Widzę, jak zielony płomień zalewa ulice, a gdy wydycham ostatni oddech, czuję, jak mnie pochłania."
+ agot_events_rr_minor.0119.a:0 "Wygląda na to, że spotkał mnie okropny los."
+
+ #Siege of Gulltown - Stark
+ agot_events_rr_minor.0108.t:0 "Bunt Roberta"
+ agot_events_rr_minor.0108.desc:0 "Moja siostra jest w rękach księcia Rhaegara, a szalony król Aerys spalił mojego ojca żywcem, podczas gdy Brandon, mój najstarszy brat, patrzył w rozpaczy. Aerys II, 'Szalony Król', zażądał od Jona Arryna, opiekuna Roberta Baratheona i mnie, by mnie wydał; prawdopodobnie po to, bym podzielił los mojej rodziny. Jon Arryn odmówił. \n\nWraz z moim małżeństwem z Catelyn Tully z Dorzecza, sojusz Starków, Arrynów i Baratheonów staje do walki w buncie przeciwko Żelaznemu Tronowi; \ni dziś stoimy przed bramami zdradzieckiego Gulltown."
+ agot_events_rr_minor.0108.a:0 "Za sprawiedliwość."
+
+ agot_events_rr_minor.0109.t:0 "Bunt Roberta"
+ agot_events_rr_minor.0109.desc:0 "Moja ukochana Lyanna została porwana przez nikczemnego księcia Rhaegara. Po zaprotestowaniu u króla Aerysa Rickard Stark został spalony żywcem, podczas gdy jego syn Brandon patrzył. \n\nAerys II, 'Szalony Król', zażądał od Jona Arryna, mojego opiekuna, by mnie mu wydał. On odmówił.\n\nTeraz Eddard Stark z Północy, Jon Arryn z Doliny, Hoster Tully z Dorzecza i ja, Robert Baratheon ze Sztormowych Ziem, stoimy przeciwko tyranii Szalonego Króla. \nMoże jeszcze nie wiemy, kto powinien zostać następcą, ale jedno jest pewne: panowanie smoka dobiega końca! Dziś stoimy przed bramami zdradzieckiego Gulltown."
+ agot_events_rr_minor.0109.a:0 "Za Lyannę!"
+
+ agot_events_rr_minor.0110.t:0 "Bunt Roberta"
+ agot_events_rr_minor.0110.desc:0 "Zabójstwo mojego starego przyjaciela Rickarda Starka i jego syna Brandona przez Szalonego Króla już przygotowało grunt pod bunt; ale kiedy Szalony Król zażądał ode mnie wydania syna Rickarda, Eddarda Starka, mojego wychowanka, oraz mojego drugiego wychowanka Roberta Baratheona, bez powodu — nazywając ich zdrajcami — odmówiłem. \n\nRazem z moimi wychowankami, Eddardem Starkiem, Lordem Naczelnym Północy, jego małżeństwem z Catelyn Tully z Dorzecza, Robertem Baratheonem, Lordem Naczelnym Sztormowych Ziem, i moimi armiami z Doliny stajemy do walki w buncie przeciwko Żelaznemu Tronowi. Dziś stoimy przed bramami zdradzieckiego Gulltown."
+ agot_events_rr_minor.0110.a:0 "Za moich starych przyjaciół..."
+
+ # After the Rebellion - Cersei and Robert Marriage
+ agot_events_rr_minor.0111.t:0 "Wielka Okazja"
+ agot_events_rr_minor.0111.desc:0 "Ze śmiercią dziewczyny Starków nowy lord Siedmiu Królestw, Robert Baratheon, jest bez żony. \n\nMoże powinienem zaoferować mu moją córkę — w końcu Lannisterska królowa przyniosłaby naszej rodzinie ogromne korzyści na dworze i poza nim."
+ agot_events_rr_minor.0111.a:0 "To ma sens!"
+ agot_events_rr_minor.0111.a.tt:0 "Wysyłasz propozycję"
+ agot_events_rr_minor.0111.b:0 "Król czy nie — żadna moja córka nie poślubi pijaka!"
+ agot_events_rr_minor.0111.b.tt:0 "Nie wysyłasz propozycji"
+
+ agot_events_rr_minor.0112.t:0 "Złota Panna Młoda"
+ agot_events_rr_minor.0112.desc:0 "Lyanna nie żyje, a moje serce nigdy nie znało tak głębokiego smutku. Wino znieczula większość bólu, ale pozostaje pustka, której nie potrafię się pozbyć. Och, moja słodka, słodka Lyanno...\n\nPo kilku kolejnych dniach żałoby Wielki Maester informuje mnie o propozycji od lorda Tywina: zaoferował mi rękę swojej córki. Jest piękna, urocza i podobno pod każdym względem doskonała — ale nawet tak, czy naprawdę może równać się z moją utraconą miłością?"
+ agot_events_rr_minor.0112.a:0 "Każdy król potrzebuje królowej. Jeśli nic innego, ona pasuje do tej roli, przypuszczam..."
+ agot_events_rr_minor.0112.a.tt:0 "Akceptujesz propozycję."
+ agot_events_rr_minor.0112.b:0 "Kochałem tylko raz. Nigdy więcej."
+ agot_events_rr_minor.0112.b.tt:0 "Odrzucasz propozycję."
+
+
+ # Robert's Rebellion - Always Entwined
+ agot_events_rr_minor.0113.t:0 "Zawsze Splątani"
+ agot_events_rr_minor.0113.desc:0 "Mój Jaime. Mój drogi, słodki, przystojny Jaime, mój brat, mój bliźniak, moja miłość... \n\nZawsze byliśmy razem, nawet w łonie matki. Moja ręka należy do Roberta, tak, ale on wciąż jest #italic moim#! Jaimem i nie mogę przestać za nim tęsknić. \n\nAle co jeśli zostaniemy przyłapani? Jeśli spłodziłby moje dzieci, a #italic ktoś#! dowiedziałby się prawdy? Och, konsekwencje byłyby niewypowiedziane. \n\nTrzyma mnie w ramionach i jest wszystkim, czym Robert nie jest — ale jest też moim bratem i powinniśmy się wstydzić, ale #italic nie wstydzimy się#! Jeśli nasza miłość jest tak nienaturalna i haniebna, jak mówią, dlaczego jego dotyk jest tak przyjemny? Dlaczego mamy się tego pozbawiać?"
+ agot_events_rr_minor.0113.a:0 "Nie jestem cała bez ciebie."
+ agot_events_rr_minor.0113.a.tt:0 "Kładziesz się z Jaimem."
+ agot_events_rr_minor.0113.b:0 "To się kończy teraz, zanim zrobimy coś, czego nie da się cofnąć."
+ agot_events_rr_minor.0113.b.tt:0 "Odrzucasz Jaime'a."
+
+ # Robert's Rebellion - Whent picks a side
+ agot_events_rr_minor.0114.t:0 "Turniej w Harrenhal"
+ agot_events_rr_minor.0114.desc:0 "To moja duma sprowadziła to wszystko na krainę. Na moim turnieju zebrali się wielcy lordowie, i wielcy lordowie spiskowali. A gdy książę Smoczej Skały wybrał na swoją Królową Miłości i Piękna nie moją córkę [daughter.GetName], ale inną, zasiano ziarna tego chaosu.\n\nTeraz mój brat [brother.GetTitledFirstName] pisze do mnie, a jego słowa błagają, bym zaufał temu księciu. Że plan [rhaegar.GetTitledFirstNamePossessive] przywróci pełen blask Domowi [rhaegar.GetDynastyName].\n\nAle co z przyszłością Domu [ROOT.Char.GetDynastyName]? Nasi zwierzchnicy, Dom [tully.GetDynastyName], powstali z buntownikami, a [tully.GetTitledFirstName] jest naszym powinowatym, jego dzieci to nasza krew. Czy mam patrzeć, jak dzieci [sister.GetFirstNamePossessive] spotyka ten sam los co lorda Starka?"
+ agot_events_rr_minor.0114.a:0 "Zaufam lojalności mojego brata."
+ agot_events_rr_minor.0114.a.tt:0 "Pozostaniesz lojalny."
+ agot_events_rr_minor.0114.b:0 "Syn dla każdego obozu zabezpieczy przyszłość Domu [ROOT.Char.GetDynastyName]"
+ agot_events_rr_minor.0114.b.tt:0 "Pozostaniesz neutralny."
+ agot_events_rr_minor.0114.c:0 "Wyślij wieść do Uzurpatora, że Nietoperz wzbił się w lot."
+ agot_events_rr_minor.0114.c.tt:0 "Dołączysz do Buntu Roberta."
+
+ # Robert's Rebellion - The Kraken in Winter
+ agot_events_rr_minor.0115.t:0 "Kraken w Zimie"
+ agot_events_rr_minor.0115.desc:0 "Ci chłopcy będą moją zgubą! Podczas gdy zielonoludzcy rozrywają się nawzajem nad swoim żelaznym tronem, my Żelazni Ludzie jesteśmy w zamęcie. \n\nMoi synowie nagabują mnie, bym przyłączył się do walki przeciwko Smokowi, śliniąc się na myśl o moim podupadającym zdrowiu. Wiedzą, że moja następna podróż będzie zapewne ostatnią, a jednak żaden nie jest godny, by mnie zastąpić. Muszę znosić nieustanne narzekania [balon.GetNamePossessive] na utratę Starego Sposobu, brak opanowania [victarian.GetNamePossessive] i przewrotne ambicje [euron.GetNamePossessive] — których nie ośmielam się opisywać, by nie przywołać na siebie takiego zepsucia.\n\nMoja [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('piper'))] [piper.GetTitledFirstName] jest moją jedyną pociechą. Młody [robin.GetName] w jej ramionach, pomost między naszymi dwoma światami, zrodzony ze starego i słabego nasienia. Wydobywałem kamień, ale kroczymy po chybotliwym moście podczas burzy.\n\nTeraz, patrząc śmierci w twarz, widzę to jasno: #bold moje dziedzictwo zostanie rozdarte przez moje własne pomioty.#! Stado wron, które będzie kłócić się o padlinę."
+ agot_events_rr_minor.0115.a:0 "Zobaczmy, czy Jeleń potrafi przebić Smoka."
+ agot_events_rr_minor.0115.a.tt:0 "Stary Kraken będzie rozmyślał nad wojną."
+ agot_events_rr_minor.0115.b:0 "Drastyczny czas, drastyczne działanie."
+
+ # Robert's Rebellion - Stormlord Joins Bob
+ agot_events_rr_minor.0116.t:0 "Bitwa pod [location.GetName]"
+ agot_events_rr_minor.0116.desc:0 "Podczas mojego starcia z lojalistami Targaryenów w bitwie pod [location.GetName], [stormlander_lord.GetTitledFirstName] przyszedł do mnie, by zaoferować [stormlander_lord.GetHerHis] poddanie się. Najwyraźniej, widząc moje umiejętności bojowe i wielkoduszne traktowanie innych byłych lojalistów, [stormlander_lord.GetSheHe] zdał sobie sprawę, że znacznie mądrzej jest stanąć po stronie naszej słusznej sprawy."
+ agot_events_rr_minor.0116.a:0 "Jeleń rośnie w siłę."
+ agot_events_rr_minor.0116.a.tt:0 "[stormlander_lord.GetTitledFirstName] będzie teraz po twojej stronie w konflikcie."
+
+ ##############################
+ #   TO BE KING OR NOT TO BE  #
+ ##############################
+
+ # backup in case loc comes in handy
+ #agot_events_rr_minor.0903.desc.jonnya:0 "Człowiek, którego uważam za drugiego ojca, Jon Arryn, został ogłoszony królem przed wszystkimi siłami buntowników. Słychać pewne pomruki, ale na końcu dnia nikt nie zakwestionuje mojej decyzji. W końcu to ja poprowadziłem tych ludzi do zwycięstwa nad dynastią, która ujarzmiła Westeros przez prawie 300 lat...\n\nTeraz to Jon Arryn musi poprowadzić królestwo na nowo. Spełniłem swój obowiązek, pokonując Targaryenów, ale teraz Jon Arryn ma przed sobą znacznie większe zadanie."
+
+ agot_rr_preg_status_lyanna:0 "agot_rr_preg_status_lyanna"
+ agot_rr_robert_rhaegar_duel:0 "agot_rr_robert_rhaegar_duel"
+ agot_rr_scenario_status:0 "agot_rr_scenario_status"
+
+ ##############################
+ #   Uber's Tywin and Aerys Events  #
+ ##############################
+ agot_events_rr_minor.0124.t:0 "Lew i Smok"
+ agot_events_rr_minor.0124.desc:0 "W moich komnatach, otoczony mapami i listami, rozważam chaos ogarniający Siedem Królestw. Rebelia przeciwko Szalonemu Królowi Aerysowi nabiera siły, a ja muszę wkrótce zdecydować. \n\nAerys i ja byliśmy kiedyś przyjaciółmi, ale nasza relacja popsuła się przez lata z różnych powodów, ostatnim było mianowanie mojego syna i dziedzica Jaimego do Gwardii Królewskiej. Szaleństwo Aerysa tylko się pogłębiło, a jego rządy stają się z dnia na dzień coraz bardziej tyraniczne;\n\nW przeciwieństwie do tego, Robert Baratheon okazał się zdolnym wojownikiem jako przywódca buntowników, choć wielkim pytaniem jest jego zdolność do rządzenia. \n\nPomysł zdrady Aerysa jest ryzykowny, ale kuszący, jednak czekanie, przynajmniej teraz, może być najlepszą opcją, ponieważ strony mogą jeszcze przechylić się w jedną lub drugą stronę."
+ agot_events_rr_minor.0124.a:0 "Los Siedmiu Królestw wisi na włosku."
+ agot_events_rr_minor.0124.a.tt:0 "Jako gracz możesz wybrać, czy stanąć po stronie Żelaznego Tronu, czy bezpośrednio po stronie buntowników, jeśli [war_score|E] Żelaznego Tronu spadnie poniżej 50"
+ MarchOnKingsLanding:0 "Musisz fizycznie poprowadzić swoją armię do Królewskiej Przystani, aby kontynuować swój spisek, Aerys stałby się podejrzliwy, gdybyś nie był tam osobiście, by „bronić” miasta!\n"
+ agot_events_rr_minor.0103.tta:0 "[jaime_scope.GetFirstName] odpiera [defending_kingsguard.GetName] i zabija [pyromancer_plotter.GetFirstName]."
+ agot_events_rr_minor.0103.ttb:0 "[jaime_scope.GetFirstName] zostaje powalony na ziemię przez [defending_kingsguard.GetName] i nie udaje mu się zabić [pyromancer_plotter.GetFirstName]."
+ agot_events_rr_minor.0103.ttc:0 "Bez żadnego z jego towarzyszy z Gwardii Królewskiej, którzy by mu przeszkodzili, [jaime_scope.GetFirstName] zabija [aerys_scope.GetFirstName] i [pyromancer_plotter.GetFirstName], kończąc spisek."
+ agot_events_rr_minor.0103.ttd:0 "[jaime_scope.GetFirstName] zabija [aerys_scope.GetFirstName] i [pyromancer_plotter.GetFirstName], kończąc spisek."
+
+ agot_events_rr_minor.0126.t:0 "Koniec Żelaznego Tronu"
+ agot_events_rr_minor.0126.desc:0 "Kruk z Koronnych Ziem przynosi wieści niepojęte od czasów starej Valyrii: Żelazny Tron, Czerwona Twierdza, Królewska Przystań i jej setki tysięcy mieszkańców, w jednej chwili, przestały istnieć. Kula ognia zielonego jak szmaragd pochłonęła miasto w całości, ryk eksplozji odbijał się echem od Orlego Gniazda po Wysogród. Krążą plotki: Szalony Król Aerys zorganizował spisek, ci, którzy powstali przeciwko koronie, zniszczyli miasto w desperackiej próbie wygrania wojny, niektórzy twierdzą nawet, że w ruinach widziano smoka. Plotki na bok, jest jedna prawda: Królewska Przystań to teraz tylko popiół i gruzy."
+ agot_events_rr_minor.0126.a:0 "Musimy wyznaczyć nowy kurs w tym przerażającym nowym świecie."
+ agot_events_rr_minor.0126.b:0 "Ze Śmiercią Szalonego Króla ta wojna może się skończyć."
+
+ agot_events_rr_minor.0128.t: "Na Obrony Sztormowych Ziem"
+ agot_events_rr_minor.0128.desc: "Wraz z Jonem Arrynem właśnie odnieśliśmy znaczące zwycięstwo, pierwsze w tej rebelii. Po udanym oblężeniu udało nam się zdobyć Gulltown, strategiczne miasto blokujące mi drogę, by odpłynąć z powrotem do Sztormowych Ziem.\n\nZ Gulltown teraz pod naszą kontrolą, nadszedł czas, aby wypłynąć i zebrać armie Sztormowych Ziem pod moim sztandarem. Wiatry są sprzyjające, a statki gotowe do wypłynięcia."
+ agot_events_rr_minor.0128.a: "Do Końca Burzy!"
+
+ agot_events_rr_minor.0131.t: "Z Doliny do Winterfell"
+ agot_events_rr_minor.0131.desc: "Gdy Jon Arryn i Robert zajmują się następstwami Gulltown, szykuję swoje torby i konia, ponieważ mam wyruszyć z Doliny, aby wrócić do Winterfell, jadąc przez Palce. Mam nadzieję, że dzięki szybkiej podróży zdołam zebrać siły Północy i popędzić na południe, aby wspomóc w tej wojnie."
+ agot_events_rr_minor.0131.a: "Do Winterfell!"
+
+ agot_events_rr_minor.0132.desc_opening:0 "[informer.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_events_rr_minor.0132.desc_body:0 "Dotarły do nas wieści od zielonoludzkich o wielkim wydarzeniu w ich wojnie. Wojownik, który chce zostać królem, [baratheon.GetFullName], zabił smoka [targaryen.GetName] w Bitwie pod [location.GetName], pogrążając ostatnią nadzieję dynastii Targaryenów. Teraz jest czas, by zdobyć przychylność tego nowego króla i znaleźć pretekst, aby przeszukać zielone ziemie!"
+ agot_events_rr_minor.0132.a: "Przygotować długie okręty, znów będą się bać Żelaznych Ludzi."
+ agot_events_rr_minor.0132.b: "Nie obchodzi mnie wojna zielonoludzkich."
+
+ #######################
+ #   THE ONION KNIGHT  #
+ #######################
+
+ agot_events_rr_minor.0400.t: "Oblężenie Końca Burzy"
+ agot_events_rr_minor.0400.desc: "Przypomnij sobie, jeśli chcesz, nazwę tego zamku."
+ agot_events_rr_minor.0400.a: "Brzmi strasznie."
+
+ agot_events_rr_minor.0401.t: "Cebulowy Rycerz"
+ agot_events_rr_minor.0401.desc: "Przez miesiąc garnizon Końca Burzy znosił brutalne oblężenie, zmuszony do jedzenia koni, psów i szczurów, by tylko odsunąć widmo głodu. Morale jest niskie, a jednak nie wszystko jest stracone. Późną nocą widać małą łódkę, która lawiruje przez zdradliwe wody Zatoki Łamacza Statków, cumując ku zdziwieniu każdego człowieka z garnizonu.\n\nSamotna postać wyskakuje z łodzi i zdejmuje rękawiczkę, podając ją najbliższemu kapitanowi.\n\n"Mam nadzieję, że lubicie cebulę" — mówi."
+ agot_events_rr_minor.0401.a: "Taka odwaga powinna być natychmiast nagrodzona!"
+ agot_events_rr_minor.0401.b: "Nagrodzić tego człowieka, za odpowiednią cenę."
+ agot_events_rr_minor.0401.c: "Przemytnikom należy się tylko śmierć."
+
+ #########################
+ ## TARGARYENS IN ESSOS ##
+ #########################
+
+ agot_events_rr_minor.1000.t:0 "Ucieczka Targaryenów"
+ agot_events_rr_minor.1000.desc:0 "Po swojej ucieczce przez Wąskie Morze, Targaryenowie znaleźli schronienie w [exile_region.GetNameNoTier].\n\n[exile.GetTitledFirstName] służy teraz jako przywódca Targaryenów."
+ agot_events_rr_minor.1000.a:0 "Interesujące."

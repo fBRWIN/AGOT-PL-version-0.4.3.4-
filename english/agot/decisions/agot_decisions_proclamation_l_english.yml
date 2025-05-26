@@ -1,0 +1,5 @@
+﻿l_english:
+ agot_proclaim_kingdom_decision:0 "Ogłoś Potężne Królestwo"
+ agot_proclaim_kingdom_decision_desc:0 "Potęga [ROOT.Char.GetPrimaryTitle.GetName] wzrosła przez wieki, a teraz nadszedł czas: aby ogłosić nasze własne potężne Królestwo, niezależne i gotowe przetrwać próbę czasu."
+ agot_proclaim_kingdom_decision_tooltip:0 "Utworzysz nowy tytuł, potężniejszy niż dotąd!"
+ agot_proclaim_kingdom_decision_confirm:0 "Ogłoś deklarację."

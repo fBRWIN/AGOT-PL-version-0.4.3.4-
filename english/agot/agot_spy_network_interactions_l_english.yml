@@ -1,0 +1,76 @@
+﻿l_english:
+ agot_invite_to_spy_network_interaction:0 "Zrekrutuj jako Szpieg"
+ agot_check_for_potential_spies_interaction:0 "Sprawdź potencjalnych szpiegów"
+ agot_remove_from_spy_network_interaction:0 "Zwolnij Szpiega"
+ SPY_RECRUIT_GOLD:0 "Łapówka"
+ SPY_RECRUIT_GOLD_VALID:0 "Zapłać [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
+ AGOT_RECRUIT_SPY_SKILL_MOD:0 "Twój poziom [intrigue|E] umiejętności: $VALUE|=+0$"
+ AGOT_RECRUIT_SPY_CAP_MODIFIER:0 "Masz więcej szpiegów niż możesz zarządzać: $VALUE|=+0$"
+ AGOT_RECRUIT_SPY_KINGSGUARD_REASON:0 "[recipient.GetShortUINameNoTooltip] jest członkiem Królewskiej Gwardii: $VALUE|=+0$"
+ highest_held_title_tier_greater_than:0 "Masz wyższy tytuł niż oni."
+ DECEITFUL_REASON:0 "[recipient.GetShortUINameNoTooltip] jest oszukańczy: $VALUE|+0=$"
+ HONEST_REASON:0 "[recipient.GetShortUINameNoTooltip] jest uczciwy: $VALUE|+0=$"
+ JUST_REASON:0 "[recipient.GetShortUINameNoTooltip] jest sprawiedliwy: $VALUE|+0=$"
+ TRUSTING_REASON:0 "[recipient.GetShortUINameNoTooltip] jest ufny: $VALUE|+0=$"
+ LAZY_REASON:0 "[recipient.GetShortUINameNoTooltip] jest leniwy: $VALUE|+0=$"
+ SHY_REASON:0 "[recipient.GetShortUINameNoTooltip] jest nieśmiały: $VALUE|+0=$"
+ CRAVEN_REASON:0 "[recipient.GetShortUINameNoTooltip] jest tchórzem: $VALUE|+0=$"
+ PARANOID_REASON:0 "[recipient.GetShortUINameNoTooltip] jest paranoikiem: $VALUE|+0=$"
+ DRUNKARD_REASON:0 "[recipient.GetShortUINameNoTooltip] jest pijakiem: $VALUE|+0=$"
+ CONTRITE_REASON:0 "[recipient.GetShortUINameNoTooltip] jest skruszony: $VALUE|+0=$"
+
+ agot_spy_network.0200.interface.employer.t:0 "Szpieg Ujawnił Sekret"
+ agot_spy_network.0200.interface.employer.desc:0 "Jeden z twoich szpiegów na dworze [courtowner.GetTitledFirstNamePossessive] ujawnił sekret, który może okazać się przydatny."
+
+ agot_spy_network.0201.interface.employer.t:0 "Szpieg Ujawnił Informacje"
+ agot_spy_network.0201.interface.employer.desc:0 "Jeden z twoich szpiegów ujawnił osobiste i wojskowe informacje o właścicielu ich dworu."
+
+ agot_spy_network.0200.interface.spymaster.t:0 "Szpieg Ujawnił Sekret"
+ agot_spy_network.0200.interface.spymaster.desc:0 "Jeden z twoich szpiegów na dworze [courtowner.GetTitledFirstNamePossessive] ujawnił sekret, który może okazać się przydatny."
+
+ agot_spy_network.0210.t:0 "Mój [ROOT.Char.GetLadyLord],"
+ agot_spy_network.0210.desc:0 "Udało mi się zdobyć sekret, który [secret_holder.GetTitledFirstName] próbuje chronić na dworze [courtowner.GetShortUINamePossessive]. Przekażę dowody, które znalazłem, ale tylko jeśli moje usługi zostaną odpowiednio wynagrodzone."
+ agot_spy_network.0210.a:0 "Muszę wiedzieć wszystko!"
+ agot_spy_network.0210.b:0 "Nie jestem zainteresowany."
+ agot_spy_network.0210.c:0 "Nie mam monety..."
+
+ agot_spy_network.0400.t:0 "Szpieg Został Zrekrutowany"
+ agot_spy_network.0400.desc:0 "[councillor.GetTitledFirstName] znalazł osobę gotową szpiegować dla ciebie na dworze [target_character.GetShortUINamePossessive]."
+ agot_spy_network.0400.a:0 "[new_spy.GetTitledFirstName] będzie mi dobrze służyć."
+
+ agot_spy_network.0500.t:0 "Szpieg Został Odkryty"
+ agot_spy_network.0500.desc:0 "[councillor.GetTitledFirstName] odkrył szpiega! [discovered_spy.GetTitledFirstName] został złapany podczas szukania sekretów w najciemniejszych zakamarkach twojego dworu."
+ agot_spy_network.0500.a:0 "Kto cię wysłał?"
+
+ agot_spy_network.0510.t:0 "Zostałeś Odkryty!"
+ agot_spy_network.0510.desc:0 "Jakoś się dowiedzieli! Zostałem odkryty jako szpiegujący dla [discovered_spy_employer.GetTitledFirstName]. Teraz moje życie jest w niebezpieczeństwie. Może przeżyję, jeśli powiem im, kto mnie wynajął?"
+ agot_spy_network.0510.a:0 "Litości! Powiem ci wszystko!"
+ agot_spy_network.0510.b:0 "Moje usta są zamknięte!"
+
+ agot_spy_network.0520.t:0 "Szpieg Został Odkryty"
+ agot_spy_network.0520.flipped.desc:0 "[discovered_spy.GetTitledFirstName] dobrowolnie ujawnił, kto szpiegował dla ciebie, błagając o litość: to [discovered_spy_employer.GetTitledFirstName]!"
+ agot_spy_network.0520.loyal.desc:0 "[discovered_spy.GetTitledFirstName] odmawia ujawnienia, kto szpiegował dla ciebie."
+ agot_spy_network.0520.desc:0 "Jak chcesz postąpić z tym zdrajcą?"
+ agot_spy_network.0520.a:0 "[discovered_spy.GetTitledFirstNameNoTooltip] zostanie wygnany z królestwa."
+ agot_spy_network.0520.b:0 "[discovered_spy.GetTitledFirstNameNoTooltip] musi gnić w celi."
+ agot_spy_network.0520.c:0 "Jest tylko jedna kara za tę zbrodnię: śmierć!"
+ agot_spy_network.0520.d:0 "Będę łaskawy. Ale ten spisek musi się skończyć!"
+
+ agot_spy_network.0600.t:0 "Twój Szpieg Został Odkryty!"
+ agot_spy_network.0600.desc:0 "Tajne raporty, które otrzymaliśmy od [discovered_spy.GetTitledFirstName], nagle przestały przychodzić. Wydaje się, że [discovered_spy.GetHerHis] umiejętności nie były wystarczające, by uniknąć odkrycia."
+ agot_spy_network.0600.flipped.desc:0 "Jeszcze gorzej, [discovered_spy.GetTitledFirstName] ujawnił twoje zaangażowanie!"
+ agot_spy_network.0600.a:0 "[discovered_spy.GetSheHe|U] nie był wystarczająco ostrożny!"
+
+ agot_spy_network.0700.t:0 "Szpieg Został Zatrudniony"
+ agot_spy_network.0700.desc:0 "[recipient.GetTitledFirstName] dołączył do szeregów twojej rozległej sieci szpiegowskiej."
+ agot_spy_network.0700.a:0 "Wpływy rosną jak chwast..."
+
+ agot_spy_network.0800.t:0 "Szpieg Może Zostać Zatrudniony"
+ agot_spy_network.0800.desc:0 "Twój mistrz szpiegów znalazł potencjalnego nowego szpiega na dworze [recipient.GetTitledFirstNamePossessive]. [potential_new_spy.GetTitledFirstName] może zostać przekonany do dołączenia do twojej sieci szpiegowskiej."
+ agot_spy_network.0800.a:0 "Powinienem skontaktować się z [potential_new_spy.GetTitledFirstName] wkrótce..."
+
+ hostile_scheme_discovery_spy.2001.intro:0 "Mój mistrz szpiegów, [spymaster.GetTitledFirstName], odkrył przygotowania do spisku przeciwko mnie na dworze [courtowner.GetTitledFirstNamePossessive]. Choć jeszcze nie wiemy, kto,"
+ potential_spy_in_court:0 "Postać na tym dworze jest gotowa szpiegować dla ciebie."
+
+ #GUI
+ your_spies:0 "Twoi Szpiedzy"

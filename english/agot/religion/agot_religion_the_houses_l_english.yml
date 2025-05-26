@@ -1,0 +1,29 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_houses_religion:0 "Domy Qaathi"
+ the_houses_religion_adj:0 "Domy"
+ the_houses_religion_adherent:0 "Qaathi"
+ the_houses_religion_adherent_plural:0 "Qaathi"
+ the_houses_religion_desc:0 "Qaathi to ludzie dziwni i egzotyczni, a ich bogowie i wiary nie są inne. Ukryta w ezoterycznych i tajemnych zwyczajach, religia Qaathi jest zintegrowana ze wszystkimi aspektami życia, zwłaszcza polityki i gospodarki."
+
+ ### Wiary ###
+ # Czarownicy
+ qh_warlock:0 "Dom Nieśmiertelnych"
+ qh_warlock_adj:0 "Czarownicy"
+ qh_warlock_adherent:0 "Pijący"
+ qh_warlock_adherent_plural:0 "Pijący"
+ qh_warlock_desc:0 "Głęboko w Domu Nieśmiertelnych czarownicy z Qarth praktykują swoje mroczne sztuki i wytwarzają Cień Wieczoru z drzew o czarnych korach. Stąd Nieśmiertelni przewodzą zakonowi w ich wysiłkach — zarówno duchowych, jak i doczesnych."
+
+ # Tronujący
+ qh_pureborn:0 "Dom Tronujących"
+ qh_pureborn_adj:0 "Tronujący"
+ qh_pureborn_adherent:0 "Tronujący"
+ qh_pureborn_adherent_plural:0 "Tronujący"
+ qh_pureborn_desc:0 "Qartheńczycy twierdzą, że są najstarszym i najbardziej cywilizowanym ludem na świecie, i czczą swoją kulturę oraz dziedzictwo tak, jak Westerosi czczą Siedmiu. Kult ten jest szczególnie ważny wśród Czysto Urodzonych, którzy uważają się za kuratorów i sędziów cywilizacji oraz przyzwoitości. Ze swojej Sali Tysiąca Tronów kierują Królową Miast."
+
+ # Wspomnienia
+ qh_commoner:0 "Dom Wspomnień"
+ qh_commoner_adj:0 "Wspomnienia"
+ qh_commoner_adherent:0 "Płaczący"
+ qh_commoner_adherent_plural:0 "Płaczący"
+ qh_commoner_desc:0 "Zwykli ludzie Qarth podążają śladami Tronujących i Nieśmiertelnych, ale ich kult bardziej skupia się na pamięci o czasach, gdy lud Qaathi nie był ograniczony tylko do Qarth, zanim ziemie wokół stały się Czerwoną Pustynią, zanim Dothrakowie zniszczyli ich inne bastiony."

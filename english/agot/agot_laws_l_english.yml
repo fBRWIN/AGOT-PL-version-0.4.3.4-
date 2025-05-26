@@ -1,0 +1,65 @@
+﻿l_english:
+
+ title_succession_laws_singular:0 "[succession_law|e]"
+
+ # Silent Sisters
+ the_silent_sisterhood_succession_law:0 "Dziedziczenie w Zakonie Cichych Sióstr"
+
+ # Night's Watch
+ night_watch_centralization:0 "Organizacja Nocnej Straży"
+ night_watch_centralization_0:0 "Brak Organizacji Nocnej Straży"
+ night_watch_centralization_1:0 "Ograniczona Organizacja Nocnej Straży"
+ night_watch_centralization_2:0 "Wysoka Organizacja Nocnej Straży"
+ night_watch_centralization_3:0 "Pełna Organizacja Nocnej Straży"
+
+ slavery_laws:0 "Niewolnictwo"
+ slavery_laws_singular:0 "Polityka Niewolnictwa"
+ slavery_disallowed_law:0 "Niewolnictwo Zakazane"
+ slavery_disallowed_law_effect:1 "Żadna forma niewolnictwa nie jest tolerowana. Władcy mają dostęp do #V Wolnych Niewolników#! [casus_bellis|E]."
+ slavery_allowed_law:0 "Niewolnictwo Dozwolone"
+ slavery_allowed_law_effect:0 "Władcy mogą budować i używać linii budynków $building_type_agot_slave_camps_01$, oraz sprzedawać więźniów na niewolników. Władcy mogą użyć #V Najazdu na Niewolników#! [casus_bellis|E] by zapełnić obozy niewolników."
+
+ SLAVERY_LAW_IS_ON_COOLDOWN:0 "Niedawno zmieniono prawo niewolnictwa. Kolejna zmiana możliwa po [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]"
+ SLAVERY_CRIMINAL_UNDER_FAITH:0 "Twoja wiara uważa niewolnictwo za przestępstwo"
+ DRAGONPIT_LAW_IS_ON_COOLDOWN:0 "Niedawno zmieniono prawo Dragonpitu. Kolejna zmiana możliwa po [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]"
+
+ dragonpit_laws:0 "Prawo Dostępu do Dragonpitu"
+ dragonpit_laws_singular:0 "Polityka Dostępu do Dragonpitu"
+ dragonpit_close_family_law:0 "Tylko Bliska Rodzina"
+ dragonpit_close_family_law_effects:0 "[dragons_plural|E] w twoim [dragonpit|e] mogą być dostępne tylko dla członków [close_family_members|e]"
+ dragonpit_house_law:0 "Tylko Dom"
+ dragonpit_house_law_effects:0 "[dragons_plural|E] w twoim [dragonpit|e] mogą być dostępne tylko dla członków [house|e]"
+ dragonpit_dynasty_law:0 "Tylko Dynastia"
+ dragonpit_dynasty_law_effects:0 "[dragons_plural|E] w twoim [dragonpit|e] mogą być dostępne tylko dla członków [dynasty|e]"
+ dragonpit_everyone_law:0 "Dla Wszystkich"
+ dragonpit_everyone_law_effects:0 "[dragons_plural|E] w twoim [dragonpit|e] mogą być dostępne przez #warning wszystkich#!"
+ YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT:0 "Jesteś zbanowany z [dragonpit|e], w którym znajduje się ten smok"
+
+ # Free Cities
+ franchise_laws: "Franszyza"
+ franchise_laws_singular: "Polityka Franszyzy"
+ franchise_democratic_full: "Popularna"
+ franchise_lean_democratic: "Oligarchiczna"
+ franchise_lean_aristocratic: "Arystokratyczna"
+ franchise_aristocratic_full: "Patrycjuszowska"
+ franchise_theocratic: "Teokratyczna"
+
+ policy_laws: "Polityka Zagraniczna"
+ policy_laws_singular: "$policy_laws$"
+ policy_mercantile_full: "Pacyfistyczna"
+ policy_lean_mercantile: "Kupiecka"
+ policy_lean_militaristic: "Militaryzowana"
+ policy_militaristic_full: "Imperialistyczna"
+
+ term_length_laws: "Długość Kadencji"
+ term_length_laws_singular: "Polityka Długości Kadencji"
+ term_length_historical_laws: "Długość Kadencji"
+ term_length_historical_laws_singular: "Polityka Długości Kadencji"
+ term_length_historical: "Historyczna"
+ term_length_historical_effects: "Kadencje wyborcze oparte są na historycznych, długotrwałych tradycjach Wolnych Miast"
+ term_length_short: "Krótka Kadencja"
+ term_length_short_effects: "Kadencje wyborcze trwają 5 lat"
+ term_length_long: "Długa Kadencja"
+ term_length_long_effects: "Kadencje wyborcze trwają 10 lat"
+ term_length_life: "Kadencja Dożywotnia"
+ term_length_life_effects: "Kadencje wyborcze trwają do śmierci"

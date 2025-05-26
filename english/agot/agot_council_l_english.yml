@@ -1,0 +1,126 @@
+﻿# Dodatkowi Radcy
+
+councillor_admiral:0 "Admirał"
+councillor_admiral_possessive:0 "Admirała"
+
+councillor_castellan:0 "Kasztelan"
+councillor_castellan_possessive:0 "Kasztelana"
+
+
+# Rada Westeros
+
+agot_councillor_spouse_consort:0 "Małżonka"
+agot_councillor_spouse_paramount_female:0 "Pani Paramount"
+agot_councillor_spouse_paramount_male:0 "Pan Paramount"
+agot_councillor_spouse_paramount_female_targ:0 "Pani"
+agot_councillor_spouse_paramount_male_targ:0 "Pan"
+agot_councillor_spouse_lord_female:0 "Pani"
+agot_councillor_spouse_lord_male:0 "Pan"
+
+grand_maester:0 "Wielki Mistrz"
+agot_master_of_laws:0 "Mistrz Prawa"
+agot_master_of_laws_possessive:0 "Mistrza Prawa"
+agot_justiciar:0 "Justycjariusz"
+agot_justiciar_possessive:0 "Justycjariusza"
+agot_master_of_coin:0 "Mistrz Monety"
+agot_master_of_coin_possessive:0 "Mistrza Monety"
+agot_treasurer:0 "Skarbnik"
+agot_treasurer_possessive:0 "Skarbnika"
+agot_master_of_war:0 "Mistrz Wojny"
+agot_master_of_war_possessive:0 "Mistrza Wojny"
+
+agot_master_at_arms:0 "Mistrz Broni"
+agot_master_at_arms_possessive:0 "Mistrza Broni"
+agot_master_of_whispers:0 "Mistrz Szeptów"
+agot_master_of_whispers_possessive:0 "Mistrza Szeptów"
+agot_mistress_of_laws:0 "Pani Prawa"
+agot_mistress_of_laws_possessive:0 "Pani Prawa"
+agot_mistress_of_coin:0 "Pani Monety"
+agot_mistress_of_coin_possessive:0 "Pani Monety"
+agot_mistress_of_war:0 "Pani Wojny"
+agot_mistress_of_war_possessive:0 "Pani Wojny"
+agot_mistress_at_arms:0 "Pani Broni"
+agot_mistress_at_arms_possessive:0 "Pani Broni"
+agot_mistress_of_whispers:0 "Pani Szeptów"
+agot_mistress_of_whispers_possessive:0 "Pani Szeptów"
+
+
+# Rada Żelaznego Tronu
+
+agot_councillor_spouse_iron_throne_female:0 "Królowa"
+agot_councillor_spouse_iron_throne_male:0 "Król"
+
+agot_councillor_castellan_iron_throne_f:0 "Ręka Królowej"
+agot_councillor_castellan_iron_throne_m:0 "Ręka Króla"
+agot_councillor_steward_iron_throne:0 "Mistrz Monety"
+agot_councillor_marshal_iron_throne:0 "Mistrz Broni"
+agot_councillor_chancellor_iron_throne:0 "Mistrz Prawa"
+agot_councillor_spymaster_iron_throne:0 "Mistrz Szeptów"
+agot_councillor_admiral_iron_throne:0 "Mistrz Statków"
+
+agot_councillor_castellan_iron_throne_f_possessive:0 "Ręki Królowej"
+agot_councillor_castellan_iron_throne_m_possessive:0 "Ręki Króla"
+agot_councillor_steward_iron_throne_possessive:0 "Mistrza Monety"
+agot_councillor_marshal_iron_throne_possessive:0 "Mistrza Broni"
+agot_councillor_chancellor_iron_throne_possessive:0 "Mistrza Prawa"
+agot_councillor_spymaster_iron_throne_possessive:0 "Mistrza Szeptów"
+agot_councillor_admiral_iron_throne_possessive:0 "Mistrza Statków"
+
+
+# Lokalne tytuły Żelaznych Wysp
+
+agot_councillor_admiral_iron_islands:0 "Kapitan Żelaznej Floty"
+agot_councillor_admiral_iron_islands_possessive:0 "Kapitana Żelaznej Floty"
+
+
+# Rząd Nocnej Straży
+
+agot_councillor_steward_nights_watch:0 "Pierwszy Budowniczy"
+agot_councillor_steward_nights_watch_possessive:0 "Pierwszego Budowniczego"
+agot_councillor_marshal_nights_watch:0 "Pierwszy Strażnik"
+agot_councillor_marshal_nights_watch_possessive:0 "Pierwszego Strażnika"
+agot_councillor_castellan_nights_watch:0 "Pierwszy Zarządca"
+agot_councillor_castellan_nights_watch_possessive:0 "Pierwszego Zarządcy"
+agot_councillor_chancellor_nights_watch:0 "Wędrujący Kruk"
+agot_councillor_chancellor_nights_watch_possessive:0 "Wędrującego Kruka"
+agot_councillor_personal_steward_nights_watch:0 "Osobisty Zarządca"
+agot_councillor_personal_steward_nights_watch_possessive:0 "Osobistego Zarządcy"
+councillor_personal_steward:0 "Osobisty Zarządca"
+councillor_personal_steward_possessive:0 "Osobistego Zarządcy"
+
+
+# Kapelan Sądu
+
+#FoTS
+councillor_court_chaplain_the_seven_county:0 "Septon"
+councillor_court_chaplain_the_seven_county_possessive:0 "Septona"
+councillor_court_chaplain_the_seven_empire:0 "Wielki Septon"
+councillor_court_chaplain_the_seven_empire_possessive:0 "Wielkiego Septona"
+
+#Drowned God
+councillor_court_chaplain_drowned_god_county:0 "Utopieniec"
+councillor_court_chaplain_drowned_god_county_possessive:0 "Utopieńca"
+
+#Old Gods
+councillor_court_chaplain_old_gods_county:0 "Wieszcz"
+councillor_court_chaplain_old_gods_county_possessive:0 "Wieszcza"
+
+#Rhllor Religion
+councillor_court_chaplain_rhllor_fots_f_county:0 "Czerwona Kapłanka"
+councillor_court_chaplain_rhllor_fots_m_county:0 "Czerwony Kapłan"
+councillor_court_chaplain_rhllor_fots_f_county_possessive:0 "Czerwonej Kapłanki"
+councillor_court_chaplain_rhllor_fots_m_county_possessive:0 "Czerwonego Kapłana"
+
+#Rhoyne
+
+councillor_court_chaplain_rhoyne_f_county:0 "Córka"
+councillor_court_chaplain_rhoyne_m_county:0 "Syn"
+councillor_court_chaplain_rhoyne_f_county_possessive:0 "Córki"
+councillor_court_chaplain_rhoyne_m_county_possessive:0 "Syna"
+
+#Essosi
+
+councillor_court_chaplain_agot_fallback_m_county:0 "Wielki Kapłan"
+councillor_court_chaplain_agot_fallback_f_county:0 "Wielka Kapłanka"
+councillor_court_chaplain_agot_fallback_m_county_possessive:0 "Wielkiego Kapłana"
+councillor_court_chaplain_agot_fallback_f_county_possessive:0 "Wielkiej Kapłanki"

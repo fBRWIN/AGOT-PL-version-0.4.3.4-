@@ -1,0 +1,10 @@
+﻿l_english:
+ action_agot_squire_can_be_knighted:0 "Pasuj swojego giermka"
+ action_agot_squire_can_be_knighted_label:0 "Możesz pasować swojego giermka"
+ action_agot_squire_can_be_knighted_desc:2 "Twój giermek, [recipient.GetUIName], może zostać pasowany!"
+ action_agot_squire_can_be_knighted_click:0 "#I Kliknij, aby pasować swojego giermka#!"
+
+ action_can_hire_maester:0 "Zatrudnij Maestera"
+ action_can_hire_maester_label:0 "Możesz zatrudnić Maestera"
+ action_can_hire_maester_desc:0 "Nie masz zatrudnionego Maestera jako [court_position|E], powinieneś takiego zatrudnić."
+ action_can_hire_maester_click:0 "#I Kliknij, aby zobaczyć#!"

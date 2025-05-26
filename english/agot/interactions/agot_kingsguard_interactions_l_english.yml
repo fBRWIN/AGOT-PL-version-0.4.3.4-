@@ -1,0 +1,11 @@
+﻿l_english:
+ #Interakcje Dynastii
+
+ invite_to_kingsguard_interaction:0 "Zaproś do [GetPlayer.Custom('KingsguardName')]"
+ invite_to_kingsguard_interaction_desc:0 "Zaproś [recipient.GetShortUINameNoTooltip] do wysokiego zaszczytu służenia w twojej [kingsguard|E]."
+ kingsguard_decline_summary:0 "Jeśli [recipient.GetShortUINameNoTooltip] odmówi, nie będziesz mógł(a) ponownie poprosić [recipient.GetHerHim]."
+ kingsguard_position_rejected_desc:0 "[CHARACTER.GetShortUINameNoTooltip] już odrzucił(a) twoją propozycję."
+ devoted_to_becoming_kingsguard_desc:0 "[CHARACTER.GetShortUINameNoTooltip] już oddał(a) swoje życie służbie w Kingsguard."
+
+ appoint_lord_commander_interaction:0 "Mianuj na Lorda Dowódcę"
+ appoint_lord_commander_interaction_desc:0 "Wybierz [recipient.GetShortUINameNoTooltip] na [recipient.GetWomanMan] dowodzącego twoją osobistą strażą."

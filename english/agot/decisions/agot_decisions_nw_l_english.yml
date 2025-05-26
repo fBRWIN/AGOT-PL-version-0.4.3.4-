@@ -1,0 +1,17 @@
+﻿l_english:
+ restore_the_nights_watch:0 "Przywróć Nocną Straż"
+ restore_the_nights_watch_desc:0 "Odkąd zostali zniszczeni, nasze mury i nasi ludzie są zagrożeni przez dzikusów i inne bezbożne stworzenia czające się na dalekiej północy. Musimy przywrócić Nocną Straż, aby przywrócić porządek na północy i aby nasze kobiety i dzieci mogły spać spokojnie w nocy."
+ restore_the_nights_watch_tooltip:0 "Musimy przywrócić Nocną Straż, aby przywrócić porządek na północy i aby nasze kobiety i dzieci mogły spać spokojnie w nocy."
+ restore_the_nights_watch.tooltip.1:0 "Zostanie znaleziony nowy Lord Dowódca, który będzie trzymał i zarządzał Murem."
+ restore_the_nights_watch.tooltip.2:0 "#N Stracisz ziemie otaczające Mur! #!"
+ restore_the_nights_watch_confirm:0 "Dla Królestwa!"
+
+ dissolve_the_nights_watch:0 "Rozwiąż Nocną Straż"
+ dissolve_the_nights_watch_desc:0 "Nasi ludzie byli zbyt długo zagrożeni przez Nocną Straż i ich Mur! Po przejęciu kontroli nad Murem, nadszedł czas, aby wreszcie położyć kres czarnemu bractwu i dać naszym ludziom wolność oraz pokój, których byli pozbawieni przez tysiące lat."
+ dissolve_the_nights_watch_tooltip:0 "Rządy Nocnej Straży dobiegną końca."
+ dissolve_the_nights_watch_confirm:0 "Dla ludu!"
+
+ rebuild_nights_watch_fort:0 "Odbuduj fort na Murze"
+ rebuild_nights_watch_fort_desc:0 "Przez wieki starożytny zakon Nocnej Straży ulegał pogorszeniu. To sprawiło, że liczne forty stojące wzdłuż Muru poddały się niszczycielskiemu działaniu czasu. Biorąc pod uwagę niedawne ożywienie finansowe Straży, większość uważa, że nadszedł czas, aby odbudować to, co zostało utracone."
+ rebuild_nights_watch_fort_tooltip:0 "Odbuduj fort wzdłuż Muru."
+ rebuild_nights_watch_fort_confirm:0 "Przyprowadź mi Pierwszego Budowniczego!"

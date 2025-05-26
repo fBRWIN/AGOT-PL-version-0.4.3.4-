@@ -1,0 +1,619 @@
+﻿l_english:
+ ##################################
+ # Tywin i Rhaegar nadają tempo   #
+ ##################################
+
+ ## Wydarzenie scenariuszowe dla Rhaegara, Aerysa i Denysa
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.1000.t.rhaegar:0 "Mój ojciec, Uwięziony Smok"
+ agot_scenario_dd.1000.t.aerys:0 "Uwięziony Smok"
+ agot_scenario_dd.1000.t.denys:0 "Mój więzień, Uwięziony Smok"
+ # Rhaegar
+ agot_scenario_dd.1000.desc.rhaegar:0 "Rada donosi mi o złych wieściach: Mój ojciec, [aerys.GetTitledFirstNameRegnal], został pojmany przez [denys.GetTitledFirstName]!\n\nW szaleńczej próbie uratowania swego portu przed nieuchronnym upadkiem, Lord Duskendale poprosił o przywilej większej autonomii dla swojej ziemi. [tywin.GetTitledFirstName], Namiestnik Króla, odmówił mu. Głupiec przestał więc płacić podatki, a następnie zaprosił samego króla do [duskendale.GetNameNoTier], by wysłuchał jego petycji.\n\nMój ojciec, pragnąc udowodnić, że nie jest tylko marionetką, zgodził się spotkać z nim bez Namiestnika. Teraz jest zakładnikiem, a [denys.GetTitledFirstNameNoTooltip] przysiągł go zabić, jeśli szturmujemy mury.\n\nŻycie mojego ojca spoczywa teraz w rękach Namiestnika, a Siedem Królestw czeka, jak postąpi."
+ # Aerys
+ agot_scenario_dd.1000.desc.aerys:0 "Kiedy przybyłem do [duskendale.GetNameNoTier], miałem nadzieję pokazać swoją siłę. [denys.GetTitledFirstName] poprosił koronę o królewski przywilej, łudząc się, że uratuje swój podupadający port, lecz [tywin.GetFirstName] szybko odrzucił petycję — znowu zachowując się tak, jakby to #italic on#! był królem, a ja tylko błaznem na niewygodnym krześle.\n\nPoczątkowo ignorowałem fakt, że Szczurzy Lord z Duskendale przestał płacić podatki, prosząc mnie o osobiste wysłuchanie. Ale wtedy Namiestnik wystąpił przeciw temu. Jakim prawem #italic lew#! rozkazuje #italic smokowi?!#! Więc pojechałem do Duskendale, a teraz zamiast wielkiej sali mam celę. Czuję, jak robi się coraz ciaśniej, kroki są coraz głośniejsze, serce bije coraz szybciej. Nie wiem, czy zawodzi mój umysł, czy serce.\n\n#bold Wypuśćcie mnie!#!"
+ # Denys
+ agot_scenario_dd.1000.desc.denys:0 "Mój plan się powiódł! [aerys.GetTitledFirstNameRegnal] siedzi sam w celi, skulony w kącie jak schwytany pies. Słyszę już, jak nazywają mnie zdrajcą w całym królestwie. Czy to zdrada prosić o to, na co twój Ród zasłużył sto razy i więcej?\n\nChciałem jedynie przywileju podobnego do Dornijczyków. Z przywilejem mógłbym uratować port, odbudować siłę domu. Jednak nawet po wiekach wiernej służby, [tywin.GetTitledFirstNamePossessive] odmowa była natychmiastowa. Stanąłem na rozdrożu. Mogłem pozwolić upaść memu rodowi albo znaleźć szczelinę w zbroi lwa. Wybrałem to drugie.\n\nWiedziałem, że [aerys.GetFirstNameNoTooltip] przyjedzie, gdy go sprowokuję; to głupiec. Oddał się w moje ręce jak świeżo złapana zwierzyna. Teraz muszę wydobyć z niego to, czego potrzebuję.\n\nMam nadzieję, że jego #italic wola#! jest tak słaba jak #italic umysł#!"
+
+ agot_scenario_dd.1000.opt.a:0 "Mam nadzieję, że Namiestnik go ocali."
+ agot_scenario_dd.1000.opt.b:0 "Tywin! Rhaegar! #bold Ktokolwiek!#!"
+ agot_scenario_dd.1000.opt.c:0 "Dozorco, przygotuj narzędzia!"
+
+ ## Wydarzenie scenariuszowe dla Tywina Lannistera
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0001.t:0 "Pojmany głupiec"
+ agot_scenario_dd.0001.desc:0 "[aerys.GetTitledFirstNameRegnal] został pojmany przez swojego wasala, [denys.GetTitledFirstName]. #italic Szkoda...#!\n\nLord [duskendale.GetNameNoTier] od dawna sprawia problemy Żelaznemu Tronowi. W próbie ratowania bezużytecznego portu zażądał królewskiego przywileju, który dałby mu większą autonomię i niższe cła. Po odmowie przestał płacić podatki.\n\nKról, równie głupi jak [denys.GetTitledFirstNameNoTooltip], pojechał do [duskendale.GetNameNoTierNoTooltip] sam, by rozwiązać spór. Nic dziwnego, że teraz jest więźniem, z groźbą śmierci, jeśli podejmiemy szturm. Bez wątpienia [denys.GetTitledFirstNameNoTooltip] chce zmusić mnie do uległości — i w zamian zdobyć przywilej. Korona wyda się słaba, jeśli ustąpię, ale jeszcze słabsza, jeśli król zginie.\n\nTak czy inaczej, jako Namiestnik Króla zwołałem Małą Radę, by podjąć decyzję. Przynajmniej nie będziemy milczeć."
+
+ agot_scenario_dd.0001.opt.a:0 "Lord Denys dostanie swój przywilej."
+ agot_scenario_dd.0001.opt.b:0 "Oblężcie Duskendale, nie poddamy się."
+
+ ## Tywin ustępuje, ale Aerys się nie zgadza — Tywin musi podjąć kolejną decyzję
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0002.t:0 "Wieści od Uwięzionego Króla"
+ agot_scenario_dd.0002.desc:0 "Gdy już miałem wysłać wiadomość do [duskendale.GetNameNoTier], zgadzając się na przyznanie [denys.GetTitledFirstName] przywileju, nadchodzą wieści w postaci listu, który — jak twierdzi posłaniec — napisał sam król.\n\nRozpoznaję jego pismo, ale jest niedbale nabazgrane, nierówne. List błaga nas o uległość, lecz wyraźnie był pisany pod przymusem. Jestem pewien, że król był torturowany, co podważa moją pewność siebie.\n\nUstąpienie przed wrogiem, który torturuje króla, może być bardziej szkodliwe niż śmierć króla podczas próby odbicia. Jeśli można bezkarnie porwać króla, korona przestaje budzić strach. Muszę jeszcze raz rozważyć swój wybór."
+ agot_scenario_dd.0002.opt.a:0 "Jedziemy do Duskendale, na wojnę."
+ agot_scenario_dd.0002.opt.b:0 "Trwam przy swojej decyzji."
+
+ ## Tywin ustępuje po raz ostatni, Rhaegar może interweniować
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0003.t:0 "Ręka ociera łzy"
+ agot_scenario_dd.0003.desc:0 "Namiestnik Króla otwarcie sprzeciwił się mojemu ojcu, żądając zerwania umowy między Koroną a [denys.GetTitledFirstName]. Chciałbym być zaskoczony, ale rozłam między nimi pogłębia się z każdym dniem. To jednak zła wieść dla króla, nawet jeśli może oznaczać jego wolność. Skoro jego Namiestnik działa tak jawnie przeciw niemu, co pomyśli reszta królestwa?\n\nCzy mój ojciec traci kontrolę nad tronem? Czy w ogóle nadaje się jeszcze do rządzenia? Jeśli nie, to na mnie spadnie obowiązek zasiadania na Żelaznym Tronie. Obawiam się, że [tywin.GetTitledFirstName] powinien zostać powstrzymany, dla dobra korony. Usunięcie go z funkcji Namiestnika zakończy umowę i rozpocznie wojnę. Trudna decyzja, ale może jedyna słuszna."
+
+ agot_scenario_dd.0003.opt.a:0 "Zwołam lordów, niech królestwo samo zdecyduje."
+ agot_scenario_dd.0003.opt.b:0 "Zastąpię Tywina jako Namiestnika. Do wojny!"
+
+ agot_scenario_dd.0003.a.tt:0 "Wzywasz Wielką Radę, która zdecyduje o losie Żelaznego Tronu i wyruszasz do Królewskiej Przystani."
+ agot_scenario_dd.0003.b.tt:0 "Usuwasz Tywina ze stanowiska Namiestnika i sam obejmujesz tę funkcję, rozpoczynając wojnę, którą powinien był poprowadzić on."
+
+ ###############################
+ # Zwołano Wielką Radę         #
+ ###############################
+
+ ## Wysyłane do głównych wasali na głosowanie w Wielkiej Radzie
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0004.t:0 "Zwołano Wielką Radę"
+ agot_scenario_dd.0004.desc:0 "Przybył kruk, informując mnie, że zostałem wezwany przez księcia koronnego [rhaegar.GetFirstNameNicknamed] na Wielką Radę, by zdecydować o losie [aerys.GetTitledFirstNameRegnal]. Od czterdziestu czterech lat nie zwoływano Wielkiej Rady.\n\nObawiam się, co to może oznaczać, ale moim obowiązkiem jest odpowiedzieć na wezwanie."
+
+ agot_scenario_dd.0004.opt.a:0 "Siodłajcie konie, ruszamy do Królewskiej Przystani."
+ agot_scenario_dd.0004.opt.b:0 "Nie zawracam sobie tym głowy, mam inne sprawy."
+
+ agot_scenario_dd.0004.a.tt:0 "Wyruszasz do Królewskiej Przystani na Wielką Radę."
+ agot_scenario_dd.0004.b.tt:0 "Ignorujesz wezwanie i nie bierzesz udziału."
+
+ ## Po przybyciu na Wielką Radę, podziwianie okoliczności
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0005.t:0 "Wielka Rada 277 AC"
+ agot_scenario_dd.0005.desc:0 "Przybyłem, by wziąć udział w Wielkiej Radzie, która zadecyduje o losie [aerys.GetTitledFirstNameRegnal]. Wita mnie książę koronny [rhaegar.GetFirstName] i Namiestnik Króla [tywin.GetTitledFirstName].\n\nWkrótce będziemy głosować o przyszłości królestwa. Mój głos może zaważyć na tym, kto zasiądzie na Żelaznym Tronie na kolejne pięćdziesiąt lat.\n\nGdy kończą się powitania, podchodzi do mnie służący i proponuje zaprowadzić mnie do komnat. Powinienem za nim podążyć; po takiej podróży muszę się rozgościć."
+
+ agot_scenario_dd.0005.opt.a:0 "Mam nadzieję, że to nie potrwa długo..."
+
+ agot_scenario_dd.0005.a.tt:0 "Idziesz za służącym do swoich komnat."
+
+
+
+
+ ##########################
+ # Głosowanie Wielkiej Rady #
+ ##########################
+
+ ## Po zwłoce, oddajesz głos na swoje stanowisko
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0006.t:0 "Wybór Stron"
+ # Goście
+ agot_scenario_dd.0006.desc.voting:0 "Dziś nadszedł dzień, w którym decydujemy o losie [aerys.GetTitledFirstNameRegnal].\n\nW Królewskiej Przystani prowadzono długie rozmowy, a wśród lordów królestwa zdaje się panować zgoda.\n\nWielu ma ponoć głosować za detronizacją króla. Ale czy naprawdę tak czują, czy też długie oblężenie — i nieobecny król — zmusili ich do uległości wobec księcia koronnego i Namiestnika?\n\nTylko czas pokaże."
+ # Rhaegar i Tywin
+ agot_scenario_dd.0006.desc.observing:0 "Dziś nadszedł dzień, w którym decydujemy o losie [aerys.GetTitledFirstNameRegnal]. Wszystko już ustawione, rada rozpoczęta. Wygłosiliśmy przemowy i jasno określiliśmy nasz cel. Król musi zostać zdetronizowany.\n\nGdy zgromadzeni doradcy głosują, nasze losy spoczywają w ich rękach. Bo jeśli król pozostanie na Żelaznym Tronie, z pewnością po nas sięgnie. Znamy to ryzyko i przyjmujemy je dla dobra królestwa.\n\nGdy rozpoczyna się głosowanie, biorę głęboki oddech."
+
+ agot_scenario_dd.0006.opt.a:0 "Głosuję za detronizacją króla Aerysa II."
+ agot_scenario_dd.0006.opt.b:0 "Głosuję za królem Aerysem II."
+ agot_scenario_dd.0006.opt.c:0 "Mam nadzieję, że głosujący będą mądrzy."
+
+ agot_scenario_dd.0006.a.tt:0 "Opowiadasz się po stronie księcia koronnego Rhaegara."
+ agot_scenario_dd.0006.b.tt:0 "Pozostajesz lojalny wobec króla Aerysa II."
+ agot_scenario_dd.0006.c.tt:0 "Bacznie obserwujesz uczestników."
+
+
+
+ #############################
+ # Wyniki Wielkiej Rady      #
+ #############################
+
+ ## Wysyłane do głównych wasali i Rhaegara/Tywina po głosowaniu
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0007.t:0 "Wyniki Wielkiej Rady"
+ # Tywin
+ agot_scenario_dd.0007.desc.tywin:0 "Gwar tłumu powoli cichnie, gdy książę koronny [rhaegar.GetFirstName] i ja stajemy u stóp Żelaznego Tronu. Wyniki są już znane, a teraz mamy przekazać ultimatum uwięzionemu [aerys.GetTitledFirstNameRegnal], licząc, że zgodzi się na własną detronizację.\n\nNowy król, ale ten sam Namiestnik. Będę musiał sprawić, by ten mnie słuchał."
+ # Rhaegar
+ agot_scenario_dd.0007.desc.rhaegar:0 "Gwar tłumu powoli cichnie, gdy Namiestnik Króla [tywin.GetFirstName] i ja stajemy u stóp Żelaznego Tronu. Wyniki są już znane, a teraz mamy przekazać ultimatum uwięzionemu [aerys.GetTitledFirstNameRegnal], licząc, że zgodzi się na własną detronizację.\n\nNareszcie nadszedł czas, bym zasiadł na Żelaznym Tronie. Wiedziałem, że ten dzień nadejdzie, choć nie spodziewałem się, że tak prędko. Teraz mogę tylko liczyć, że mój ojciec pogodzi się z rzeczywistością, zamiast trzymać się przeszłości."
+ # Gość głosował za
+ agot_scenario_dd.0007.desc.guest.yes:0 "Gwar tłumu powoli cichnie, gdy książę koronny [rhaegar.GetFirstName] i Namiestnik Króla [tywin.GetTitledFirstName] stają u stóp Żelaznego Tronu. Wyniki są już znane i mają zamiar przekazać ultimatum uwięzionemu [aerys.GetTitledFirstNameRegnal].\n\nPatrząc na uśmiech Namiestnika, nie mogę oprzeć się wrażeniu, że to uzurpacja. Głosowałem za, ale nie odważę się powiedzieć tego głośno. Trzymam się najsilniejszych, choć plami to mój honor."
+ # Gość głosował przeciw
+ agot_scenario_dd.0007.desc.guest.no:0 "Gwar tłumu powoli cichnie, gdy książę koronny [rhaegar.GetFirstName] i Namiestnik Króla [tywin.GetTitledFirstName] stają u stóp Żelaznego Tronu. Wyniki są już znane i mają zamiar przekazać ultimatum uwięzionemu [aerys.GetTitledFirstNameRegnal].\n\nPatrząc na uśmiech Namiestnika, nie mogę oprzeć się wrażeniu, że to uzurpacja. Głosowałem przeciwko temu, ale nie odważę się powiedzieć tego głośno. Muszę przygotować się na to, co nadejdzie."
+
+ # Tywin
+ agot_scenario_dd.0007.opt.a:0 "Przyszłość rodu Lannisterów rysuje się jasno..."
+ # Rhaegar
+ agot_scenario_dd.0007.opt.b:0 "Muszę przygotować się do rządów lub do wojny."
+ # Goście
+ agot_scenario_dd.0007.opt.c:0 "Czy to naprawdę było głosowanie?"
+
+ # Tywin
+ agot_scenario_dd.0007.a.tt:0 "Wybuchasz szczerym śmiechem, przekonany, że wszystko masz pod kontrolą."
+ # Rhaegar
+ agot_scenario_dd.0007.b.tt:0 "Spodziewasz się, że ojciec sprzeciwi się wynikom."
+ # Goście
+ agot_scenario_dd.0007.c.tt:0 "Czujesz, że wynik był przesądzony od początku."
+
+
+
+ ###############################
+ # Ultimatum Wielkiej Rady     #
+ ###############################
+
+ ## Ultimatum, wysłane do Aerysa: albo ustępuje, albo żąda głów
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0009.t:0 "Wielka Rada 277 AC"
+ agot_scenario_dd.0009.desc:0 "Głosy zostały oddane, a wynik przedstawiony. Moi zdradzieccy wasale z pewnością spiskowali z [tywin.GetTitledFirstName] i [rhaegar.GetTitledFirstName], by mnie obalić. Zepchnięty do defensywy mogę #italic czuć#!, jak ściany zamykają się wokół mnie.\n\nZa czasów moich przodków spaliłbym ich z grzbietu smoka. Niestety, zostało mi tylko #WF dzikie ognie#! — i garstka lojalnych lordów w tej przeklętej ziemi. Pozostaje jedno pytanie: czy będę bronił mojego prawa do tronu?"
+
+ agot_scenario_dd.0009.opt.a:0 "Muszę się poddać."
+ agot_scenario_dd.0009.opt.b:0 "#bold Ogień i krew — to wszystko, co zdrajcy dostaną ode mnie!#!"
+
+ agot_scenario_dd.0009.a.tt:0 "Tracisz prawa do Żelaznego Tronu."
+ agot_scenario_dd.0009.b.tt:0 "Książę będzie walczył o władzę."
+
+
+
+ #########################
+ # Wydarzenia lokalizacyjne #
+ #########################
+
+ ## Wysłane do Tywina, by ruszył do KP na głosowanie, gdy gracz
+ # dostępne zakresy: aerys/rhaegar/denys/tywin/duskendale
+ agot_scenario_dd.0020.t:0 "Zwołano Wielką Radę"
+ agot_scenario_dd.0020.desc:0 "Książę koronny wezwał mnie do Królewskiej Przystani, by przygotować się na Wielką Radę. Jesteśmy zgodni, że [aerys.GetTitledFirstNameRegnal] musi zostać zdetronizowany i nie powinniśmy mieć trudności ze zdobyciem poparcia pozostałych lordów. Od czterdziestu czterech lat nie zwoływano Wielkiej Rady, a królestwo będzie się przyglądać.\n\nJeśli dobrze to rozegram, mogę umocnić swoją pozycję — i zapewnić królestwu lepszego króla. Stawka jest wysoka, więc potrzeba ostrożności..."
+
+ agot_scenario_dd.0020.opt.a:0 "Siodłajcie konie, ruszamy do Królewskiej Przystani."
+ agot_scenario_dd.0020.opt.b:0 "Pozostanę w Casterly Rock."
+
+ agot_scenario_dd.0020.a.tt:0 "Wyruszasz do Królewskiej Przystani na Wielką Radę."
+ agot_scenario_dd.0020.b.tt:0 "Ignorujesz wezwanie i nie bierzesz udziału."
+
+
+
+ ##########################
+ # Denys traci Duskendale #
+ ##########################
+
+ ## Po splądrowaniu Duskendale przez Tywina/Rhaegara; Denys może się poddać lub zabić Aerysa
+ # dostępne zakresy: rescue_war_winner(Tywin lub Rhaegar)/duskendale/aerys
+ agot_scenario_dd.0080.t:0 "Duskendale Upadło"
+ agot_scenario_dd.0080.desc:0 "[rescue_war_winner.GetTitledFirstName] przełamał bramy, jego armie zalewają miasto, a łucznicy dobijają ostatnich obrońców na murach. Pożary szaleją w [duskendale.GetNameNoTier], a odgłosy bitwy ustępują miejsca rzezi.\n\nCóż za głupota — trzymać [aerys.GetFirstName] jako zakładnika przy takim wojsku pod murami. Mój ród wkrótce będzie tylko wspomnieniem, a jeśli król przeżyje, po wszystkim nie okaże mi litości. Do głowy napiera kolejna zdrada: dotrzymać groźby i pozbawić króla życia.\n\nBitwa już skończona... Jak powitam zwycięzców?"
+
+ agot_scenario_dd.0080.opt.a:0 "Poddać zamek, oddać im króla."
+ agot_scenario_dd.0080.opt.b:0 "Rzućcie im głowę króla!"
+
+ agot_scenario_dd.0080.a.tt:0 "Zostajesz pojmany przez królewskie wojska i twoje losy zostaną rozstrzygnięte później."
+ agot_scenario_dd.0080.b.tt:0 "Zabijasz króla przed poddaniem się, po czym i tak trafiasz w ręce królewskich wojsk."
+
+ ## Wysłane do Denysa tuż przed ujawnieniem wyniku misji Selmy'ego - podwójne zastosowanie (porażka/sukces)
+ # dostępne zakresy: aerys/selmy/courtier
+ agot_scenario_dd.0081.t.fail:0 "Szczur w klatce"
+ agot_scenario_dd.0081.t.success:0 "Brakujący więzień"
+ agot_scenario_dd.0081.t.early_death:0 "Przyszłość naszego rodu"
+ # Selmy nie powiódł się
+ agot_scenario_dd.0081.desc.fail:0 "[courtier.GetFirstName] przyniósł mi prezent. Jeden z Królewskiej Gwardii postanowił wspiąć się po moich murach, próbując uratować [aerys.GetTitledFirstName]. To sam Ser [selmy.GetFirstNameNicknamed], pogromca ostatniego Blackfyre'a! Cóż za szczęście mieć go w niewoli.\n\nCiekawe ilu jeszcze przysłali — z pewnością nie tylko jednego, choćby był najodważniejszy. Skoro agenci przedostali się przez mury, czas z tym skończyć. Podetnę im gardła i po sprawie.\n\nDuskendale znów będzie niezależne, jak przed smokami. Jeśli chcą je odzyskać, będą musieli mi je odebrać siłą."
+ # Selmy ocalił króla
+ agot_scenario_dd.0081.desc.success:0 "[courtier.GetFirstName] wbiega do mojej komnaty, akurat gdy dzwony alarmowe rozbrzmiewają w Dun Fort. \"Mój panie! Król został porwany!\" — krzyczy do mnie z przerażeniem w głosie. Spoglądam na miasto w dole, akurat gdy koń z dwoma jeźdźcami przebija się przez bramę i wyjeżdża przez miasto.\n\nWe mnie gotuje się gniew, aż ściskam balustradę na balkonie. Bez króla nie mam już żadnej karty przetargowej — a bez karty jesteśmy #bold zgubieni#!.\n\nPatrzę na [courtier.GetFirstNameNoTooltip], furia przejmuje nade mną kontrolę i spycha rozsądek na bok."
+ agot_scenario_dd.0081.desc.early_death:0 "Gdy [aerys.GetTitledFirstName] zginął, wraz z nim umarł mój atut. Teraz muszę wyznaczyć nowy kurs, który oznacza tylko jedno: wojna. Żelazny Tron zbyt długo trzymał nas pod butem — pozwalając portowi upaść i naszej sile słabnąć, podczas gdy oni kwitli.\n\nJeśli mam ocalić mój ród, musimy znowu zostać królami."
+
+ agot_scenario_dd.0081.opt.a:0 "Podciąć im gardła i przynieść mi koronę."
+ agot_scenario_dd.0081.opt.b:0 "#italic Chodź tu, głupcze!#!"
+ agot_scenario_dd.0081.opt.c:0 "Znów będziemy królami!"
+
+ agot_scenario_dd.0081.a.tt:0 "Wykorzystujesz okazję, by zgładzić króla i jego Gwardzistę. Ogłaszasz secesję od Siedmiu Królestw i zostajesz niezależny."
+ agot_scenario_dd.0081.b.tt:0 "Król uciekł z lochów, a żaden z twoich ludzi nie potrafi tego wyjaśnić. Wyładowujesz gniew na posłańcu."
+ agot_scenario_dd.0081.c.tt:0 "Po przedwczesnej śmierci króla koncentrujesz się na secesji od Siedmiu Królestw."
+
+
+############################
+ # Wydarzenia udziału w wojnie #
+ ############################
+
+ ## Gdy Tywin rozpoczyna wojnę ratunkową, Rhaegar jest powiadamiany, by mógł dołączyć
+ # dostępne zakresy: aerys/tywin/denys/duskendale
+ agot_scenario_dd.0095.t:0 "Ratunek Króla"
+ agot_scenario_dd.0095.desc:0 "Namiestnik, [tywin.GetTitledFirstName], rusza z silnym wojskiem, by oblegać [duskendale.GetNameNoTier]. Ma nadzieję uratować króla z lochów u [denys.GetTitledFirstName].\n\nJednak pytanie nie daje mi spokoju: #italic Czy mój ojciec powinien być uratowany?#!"
+
+ agot_scenario_dd.0095.opt.a:0 "Zwołać chorągwie! Płyniemy do Duskendale."
+ agot_scenario_dd.0095.opt.b:0 "Namiestnik nie otrzyma ode mnie pomocy."
+
+ agot_scenario_dd.0095.a.tt:0 "Dołączasz do wojny, by ratować ojca."
+ agot_scenario_dd.0095.b.tt:0 "Ignorujesz wojnę o ratunek ojca."
+
+
+
+ ##################################
+ # Wojna ratunkowa udana - Aerys uratowany #
+ ##################################
+
+ ## Wojna ratunkowa zakończona sukcesem, Aerys ocalony // Takie same opcje jak po udanej akcji Barristana
+ ## Wersja poboczna wysyłana do Rhaegara jako kontekst — oblężenie wygrane
+ # dostępne zakresy: rescue_war_winner(Tywin lub Rhaegar)/denys/renfred/viserys
+ agot_scenario_dd.0100.t:0 "Oblężenie Duskendale"
+ # Aerys
+ agot_scenario_dd.0100.desc.aerys:0 "Znów czuję powiew świeżego powietrza i pozwalam słońcu ogrzać moją skórę. [rescue_war_winner.GetTitledFirstName] uratował mnie, wyrywając z cierpienia i ciemności lochów.\n\nŚniłem o ucieczce do lepszego świata; zamiast tego jestem wyciągany wśród płonących domów i umierających głupców. Padlinożercy ucztują, gdy dym wznosi się z Dun Fort. Mój dwór czeka na mnie poza murami, jestem wolny od niedawna, ale już domagają się decyzji. Pytają, co zrobić z rodem Darklynów, trzykroć przeklętymi zdrajcami.\n\nNie mogą zatrzymać ziem, ale czy wszyscy muszą zginąć? Mając w pamięci koszmar lochu, to ja muszę zadecydować. Kwestia ziem także jest pilna.\n\n[renfred.GetTitledFirstName] to wierny wasal, może to jemu należy powierzyć ziemie Darklynów. A może to tytuł dla [viserys.GetTitledFirstName], mojego najmłodszego syna."
+ # Rhaegar
+ agot_scenario_dd.0100.desc.rhaegar:0 "[rescue_war_winner.GetTitledFirstName] odniósł sukces, bramy zostały zdobyte. Duskendale płonie, a ludzie krzyczą w agonii i strachu, podczas gdy miasto jest plądrowane, ale przynajmniej mój ojciec odzyskał wolność.\n\nJuż widzę w nim zmianę; nigdy nie będzie już taki sam. Nim pomyślę o przyszłości, muszę zająć się teraźniejszością. Skoro ojciec jest wolny, trzeba podjąć decyzję, kto otrzyma ziemie rodu Darklyn.\n\nZ całego serca wierzę, że mojemu bratu, [viserys.GetTitledFirstName], należy się ten przywilej."
+
+ # Aerys
+ agot_scenario_dd.0100.opt.a:0 "Ród Rykkerów przejmie ziemie, a świat pozna mój gniew."
+ agot_scenario_dd.0100.opt.b:0 "Ród Rykkerów przejmie ziemie, byle tylko zdrajcy nigdy więcej nie posiedli ziem."
+ agot_scenario_dd.0100.opt.c:0 "Ród Targaryen przejmie ziemie, a świat pozna mój gniew."
+ agot_scenario_dd.0100.opt.d:0 "Ród Targaryen przejmie ziemie, byle tylko zdrajcy nigdy więcej nie posiedli ziem."
+ # Rhaegar
+ agot_scenario_dd.0100.opt.e:0 "Wreszcie mój ojciec jest wolny."
+
+ # Aerys
+ agot_scenario_dd.0100.a.tt:0 "Wracasz do Królewskiej Przystani, ale najpierw eliminujesz Darklynów i Hollardów. Duskendale dostaje ród Rykker."
+ agot_scenario_dd.0100.b.tt:0 "Przekazujesz Duskendale rodowi Rykkerów i pozbawiasz Darklynów oraz Hollardów ziem i tytułów."
+ agot_scenario_dd.0100.c.tt:0 "Wracasz do Królewskiej Przystani, ale najpierw eliminujesz Darklynów i Hollardów. Duskendale dostaje ród Targaryen."
+ agot_scenario_dd.0100.d.tt:0 "Przekazujesz Duskendale rodowi Targaryenów i pozbawiasz Darklynów oraz Hollardów ziem i tytułów."
+ # Rhaegar
+ agot_scenario_dd.0100.e.tt:0 "Wracasz na Smoczą Skałę po ocaleniu króla."
+
+ ## Udana wojna ratunkowa, widok dla zwycięzcy wojny ratunkowej; zdobycie miecza Darklynów
+ # dostępne zakresy: rescue_war_winner(Tywin lub Rhaegar)/denys/aerys/rhaegar/tywin/duskendale
+ agot_scenario_dd.0111.t:0 "$agot_scenario_dd.0100.t$"
+ # Tywin
+ agot_scenario_dd.0111.desc.tywin:0 "Wojna skończona! Zdobyłem bramy [duskendale.GetNameNoTier] i Dun Fort. Zezwoliłem ludziom na splądrowanie miasta — byliśmy tu długo, zasłużyli na łupy. Patrzę na płonące ruiny i ginących mieszkańców Duskendale; co za strata...\n\nPrzechodzę obok trupa żołnierza Darklynów leżącego na krwawej ulicy, w ostrzu jego miecza odbija się pobliski ogień. Wtedy sobie przypominam, że valyriański miecz rodu Darklynów, [stalwart.GetName], jest gdzieś tutaj. Od dawna pragnąłem ostrza na miejsce Brightroar...\n\nMuszę go zdobyć!"
+ # Rhaegar
+ agot_scenario_dd.0111.desc.rhaegar:0 "Wojna dobiegła końca, zdobyłem bramy [duskendale.GetNameNoTier]. Nakazałem oszczędzić niewinnych, lecz kontrolowanie armii podczas oblężenia jest jak zatrzymywanie przypływu. Gniew przetacza się przez to portowe miasto, a krzyki niewinnych zagłuszają wszelkie usprawiedliwienia tej bitwy.\n\nU stóp mam poległego żołnierza Darklynów, jego martwe oczy patrzą w ostatnie niebo, które widział. Zastanawiam się, czy coś dobrego może z tego wyniknąć. Miecz tego człowieka odbija moją twarz — przypominam sobie o [stalwart.GetName], rodowym ostrzu Darklynów.\n\nMoże ja je wykorzystam."
+ # Tywin
+ agot_scenario_dd.0111.opt.a:0 "Odbiorę miecz osobiście Denysowi!"
+ agot_scenario_dd.0111.opt.b:0 "Przeszukać zamek! Chcę ten miecz!"
+ # Rhaegar
+ agot_scenario_dd.0111.opt.c:0 "Zabiorę miecz Denysowi."
+ agot_scenario_dd.0111.opt.d:0 "Przeszukamy zamek."
+ # Tywin
+ agot_scenario_dd.0111.a.tt:0 "Odbierasz valyriański miecz [stalwart.GetName] rodowi Darklynów."
+ agot_scenario_dd.0111.b.tt:0 "Przeszukujesz zamek w poszukiwaniu valyriańskiego miecza [stalwart.GetName] rodowego Darklynów."
+ # Rhaegar
+ agot_scenario_dd.0111.c.tt:0 "$agot_scenario_dd.0111.a.tt$"
+ agot_scenario_dd.0111.d.tt:0 "$agot_scenario_dd.0111.b.tt$"
+
+
+
+ ###############################
+ # Prośba Barristana Śmiałego #
+ ###############################
+
+ ## Barristan chce uratować króla, wysłane do Tywina
+ # dostępne zakresy: selmy/aerys/tywin/rhaegar/maelys/duskendale
+ agot_scenario_dd.0195.t:0 "Barristan Śmiały"
+ agot_scenario_dd.0195.desc:0 "Podczas planowania szturmu na [duskendale.GetNameNoTier], Ser [selmy.GetFirstNameNicknamed] wtrąca się. Ma własny plan na uratowanie króla, tak niebezpieczny, że można by go nazwać niemożliwym. Albo jest wierny swojemu przydomkowi, albo to najbardziej nierozsądny rycerz, jaki kiedykolwiek nosił białą pelerynę.\n\nPomimo mojego sceptycyzmu muszę przyznać, że Ser Barristan to wybitny rycerz i niezrównany wojownik. Gdyby ktoś miał podjąć się takiego zadania, byłby to pogromca [maelys.GetFirstNameNicknamed]. Jednak jak powiedziałem radzie, strata króla to zysk większego — [rhaegar.GetTitledFirstName], a nawet jeśli opóźniłbym atak dla tej próby, to i tak pomysł jest szaleńczy.\n\nNiemniej jednak decyzja musi zostać podjęta."
+
+ agot_scenario_dd.0195.opt.a:0 "Barristan może spróbować, ale nie będę długo czekać."
+ agot_scenario_dd.0195.opt.b:0 "Nie mogę mu na to pozwolić."
+
+ agot_scenario_dd.0195.a.tt:0 "Pozwalasz Barristanowi odejść."
+ agot_scenario_dd.0195.b.tt:0 "Nie pozwalasz Barristanowi opuścić obozu."
+
+ ## Tywin odmawia próby ratunku Barristana, ale Rhaegar może zdecydować inaczej
+ # dostępne zakresy: selmy/aerys/tywin/rhaegar/maelys/duskendale
+ agot_scenario_dd.0196.t:0 "Chwała Gwardzisty"
+ agot_scenario_dd.0196.desc:0 "Ser [selmy.GetFirstNameNicknamed] ogłosił swój plan ratowania króla — zamierza wejść do zamku nocą, sam, uzbrojony tylko w sztylet. Namiestnik, [tywin.GetTitledFirstName], odrzucił ten plan i zakazał jego realizacji.\n\nJako następca tronu mógłbym go jednak przegłosować i wysłać Barristana, by spróbował uwolnić mojego ojca, zanim szturm na [duskendale.GetNameNoTier] narazi go na śmiertelne niebezpieczeństwo. Tylko czy taki plan ma szanse powodzenia? Czy jeden człowiek, choćby najszlachetniejszy, może to naprawdę osiągnąć?"
+
+ agot_scenario_dd.0196.opt.a:0 "Barristan dostanie swoją szansę."
+ agot_scenario_dd.0196.opt.b:0 "Nie mogę na to pozwolić."
+
+ agot_scenario_dd.0196.a.tt:0 "Wysyłasz Barristana Selmy'ego na misję ratowania króla z więzienia Darklynów."
+ agot_scenario_dd.0196.b.tt:0 "Nie pozwalasz Barristanowi ryzykować w ten sposób życia."
+
+
+
+ #############################
+ # Rezultaty Próby Barristana #
+ #############################
+
+ ## Barristan z powodzeniem ratuje króla; Aerys odbiera Darklynom miecz VS Stalwart
+ # dostępne zakresy: aerys/viserys/selmy/denys/renfred/duskendale/iron_throne/stalwart
+ agot_scenario_dd.0197.t:0 "Wybawca w Bieli"
+ agot_scenario_dd.0197.desc:0 "Czuję, jak moje ciało drży, gdy leżę w kącie celi. Nie ma tu ciepła, nie ma bezpieczeństwa. Serce wali mi w piersi, a głowa jest lekka jak piórko. Przysięgam, że widzę kształty w ciemności, lecz odwracam się i nie ma tam nic. Prawie nie słyszę kroków, pewnie strażnik idzie po mnie kolejny raz.\n\nPodnoszę wzrok przez mgłę własnych siedmiu piekieł i widzę znajomą sylwetkę. Ser [selmy.GetFirstNameNicknamed] stoi przed moją celą w łachmanach, z zakrwawionym sztyletem w jednej dłoni i kluczami w drugiej. Zanim zdążę go zapytać, otwiera drzwi i już jesteśmy w ruchu. Akcja ratunkowa jest jak sen — moi Gwardziści tną garnizon jak tort, zanim pojmę, co się dzieje, już jesteśmy poza miastem. Gdy nas opatrują, rada pyta o moje plany wobec Duskendale i rządzących nim rodów.\n\nCo mam im odpowiedzieć?"
+
+ agot_scenario_dd.0197.opt.a:0 "Ród Rykker przejmie ziemie. Wszystkich należy zgładzić."
+ agot_scenario_dd.0197.opt.b:0 "Opuśćmy to przeklęte miejsce, ziemie oddajmy Rykkerom."
+ agot_scenario_dd.0197.opt.c:0 "Ród Targaryen przejmie ziemie. Wszystkich należy zgładzić."
+ agot_scenario_dd.0197.opt.d:0 "Opuśćmy to przeklęte miejsce, ziemie oddajmy Targaryenom."
+
+ agot_scenario_dd.0197.a.tt:0 "Ucieczka z Duskendale i rozkaz egzekucji Darklynów i Hollardów. Duskendale dla Rykkerów."
+ agot_scenario_dd.0197.b.tt:0 "Dajesz Duskendale Rykkerom i pozbawiasz Darklynów i Hollardów ziem i tytułów."
+ agot_scenario_dd.0197.c.tt:0 "Ucieczka z Duskendale i rozkaz egzekucji Darklynów i Hollardów. Duskendale dla Targaryenów."
+ agot_scenario_dd.0197.d.tt:0 "Dajesz Duskendale Targaryenom i pozbawiasz Darklynów i Hollardów ziem i tytułów."
+
+ ## Barristan ponosi klęskę i Aerys dowiaduje się, że zginie
+ # dostępne zakresy: aerys/viserys/tywin/selmy/denys/renfred/duskendale/iron_throne
+ agot_scenario_dd.0198.t:0 "Śmiała Klęska"
+ agot_scenario_dd.0198.desc:0 "Podrywam się na dźwięk kroków pod drzwiami. Mój strażnik niesie mi prezent, a z łoskotem okazuje się nim głowa Ser [selmy.GetFirstNameNicknamed] — jednego z moich najlepszych Gwardzistów. Moje ciało zaczyna drżeć, łzy wypełniają oczy. Mimo jego starań mój rycerz poległ próbując mnie ratować. Ponieważ szturm [tywin.GetTitledFirstName] jest już pewny, [denys.GetTitledFirstName] nie ma wyjścia i musi spełnić groźbę egzekucji. Kroki zbliżają się, widzę złowrogi uśmiech strażnika.\n\nJestem smokiem! Nie mogę zginąć!"
+
+ agot_scenario_dd.0198.opt.a:0 "@death_icon! Nie! To nie może się dziać!"
+
+ agot_scenario_dd.0198.a.tt:0 "Zostajesz stracony w lochach."
+
+ ## .selmy = informuje Rhaegara, że Barristan zawiódł i obaj zginęli
+ ## .war = Aerys został zabity przez Denysa przy wejściu do zamku
+ # dostępne zakresy: aerys/viserys/tywin/selmy/denys/renfred/duskendale/iron_throne
+ agot_scenario_dd.0199.t.saved:0 "Król Żyje"
+ agot_scenario_dd.0199.t.failed:0 "Król Nie Żyje"
+ ##### Barristan uratował
+ # Rhaegar dołączył do wojny
+ agot_scenario_dd.0199.desc.saved.camp:0 "Budzę się na dźwięk kopyt na skraju obozu. Słyszę mieszaninę rozkazów i okrzyków radości. Wychodząc z namiotu widzę Ser [selmy.GetFirstName], który zatrzymuje się przy krańcu obozu. Na koniu siedzi zgarbiona postać, gdy oczy się przyzwyczajają, widzę srebrne włosy ojca.\n\nManewr [selmy.GetFirstNamePossessiveNoTooltip] powiódł się, król został ocalony. Z ulgą przyjmuję, że nie będę musiał go zastąpić.\n\nObóz wrze od ruchu — jedni gratulują rycerzowi, inni szykują się do szturmu. [tywin.GetTitledFirstName] zarządził atak na zamek, już widzę dymy unoszące się zza murów."
+ # Rhaegar nie dołączył do wojny
+ agot_scenario_dd.0199.desc.saved.home:0 "Kruki z obozu [tywin.GetTitledFirstNamePossessive] pod Duskendale donoszą, że Ser [selmy.GetFirstNameNicknamed] z Gwardii Królewskiej dokonał śmiałej akcji w Dun Fort i uratował mojego ojca.\n\nOdetchnąłem z ulgą, nie będę musiał zasiadać na Żelaznym Tronie — przynajmniej na razie. Czytam dalej, dowiadując się, że [tywin.GetTitledFirstNameNoTooltip] rozkazał szturmować miasto, więc wkrótce zobaczę, jak płonie przez wodę. Wątpię, by zemsta ojca była łagodna."
+ ##### Barristan zawiódł
+ # Rhaegar dołączył do wojny
+ agot_scenario_dd.0199.desc.failed.camp:0 "Wychodzę z namiotu [tywin.GetTitledFirstNamePossessive] i słyszę westchnienia zebranych. Posłaniec ogłasza, że [denys.GetTitledFirstName] zabił zarówno Ser [selmy.GetFirstName], jak i mojego ojca.\n\nCzuję ciężar, nie tylko po śmierci ojca, ale i z powodu oczekiwań, które teraz na mnie spadają. Żołnierze i rycerze patrzą na mnie jak na swojego króla, a ja wciąż nie mogę się pogodzić ze stratą. [tywin.GetTitledFirstNameNoTooltip] już planuje szturm, a na radzie szepta się o koronacjach i ślubach.\n\nOjciec dopiero ostygł, a już o nim zapomniano. Ciężar nowej roli przytłacza mnie, a nawet nie zacząłem."
+ # Rhaegar nie dołączył do wojny
+ agot_scenario_dd.0199.desc.failed.home:0 "Przyszedł kruk z obozu pod Duskendale. Zanim maester coś powie, już wiem, że wieści są ponure. Ser [selmy.GetFirstName], próbując szalonego planu ratunkowego, został pojmany i zabity. Razem z nim zginął mój ojciec. Nie ma już szans na negocjacje, [tywin.GetTitledFirstName] będzie musiał szturmować mury i złupić miasto.\n\nNormalnie pomyślałbym o niewinnych z Duskendale, ale umysł mam zbyt przytłoczony żałobą. Już czuję ciężar oczekiwań i przepowiedni, a teraz dochodzi do tego korona. Ojciec nie żyje, a razem z nim książę Rhaegar — jego miejsce musi zająć król."
+ # Denys zabił Aerysa
+ agot_scenario_dd.0199.desc.war.nobs:0 "[denys.GetTitledFirstName] zabił mojego ojca, gdy przebiliśmy się przez bramy.\n\nMoże król żyłby, gdybyśmy poczekali i negocjowali. Zbieram się w sobie i zdaję sobie sprawę z ciężaru władzy, który teraz na mnie spadł.\n\n[iron_throne.GetNameNoTier] stoi pusty po śmierci ojca, powinniśmy byli potraktować groźby [denys.GetTitledFirstNamePossessiveNoTooltip] poważniej.\n\nPozostaje mi tylko mieć nadzieję, że będę dobrym królem, by uczcić ojca. Pierwszym zadaniem będzie decyzja, co zrobić z Darklynami."
+ # Denys zabił Aerysa, tym razem z wzmianką o Barristanie
+ agot_scenario_dd.0199.desc.war:0 "[denys.GetTitledFirstName] zabił mojego ojca, gdy przebiliśmy się przez bramy.\n\nMoże król żyłby, gdybyśmy poczekali i pozwolili Ser [selmy.GetFirstName] wykonać jego plan. Zbieram się w sobie i zdaję sobie sprawę z ciężaru władzy, który teraz na mnie spadł.\n\n[iron_throne.GetNameNoTier] stoi pusty po śmierci ojca, powinniśmy byli potraktować groźby [denys.GetTitledFirstNamePossessiveNoTooltip] poważniej.\n\nPozostaje mi tylko mieć nadzieję, że będę dobrym królem, by uczcić ojca. Pierwszym zadaniem będzie decyzja, co zrobić z Darklynami."
+
+ # Barristan uratował
+ agot_scenario_dd.0199.opt.a:0 "Pomodlę się za Duskendale i podziękuję losowi."
+ # Barristan zawiódł
+ agot_scenario_dd.0199.opt.b:0 "Przyjmuję to ciężkie brzemię."
+ # Denys zabił Aerysa
+ agot_scenario_dd.0199.opt.c:0 "Wszyscy poza niewinnymi muszą zginąć!"
+ agot_scenario_dd.0199.opt.d:0 "[denys.GetTitledFirstName] pójdzie na Mur."
+ agot_scenario_dd.0199.opt.e:0 "Zabiorę im tylko tytuły, a nie życie."
+
+ agot_scenario_dd.0199.a.tt:0 "Wracasz na Smoczą Skałę."
+ agot_scenario_dd.0199.b.tt:0 "Dziedziczysz Żelazny Tron."
+ agot_scenario_dd.0199.c.tt:0 "Dziedziczysz Żelazny Tron i każesz zabić spiskowców, oszczędzając kobiety i dzieci."
+ agot_scenario_dd.0199.d.tt:0 "Dziedziczysz Żelazny Tron i odbierasz spiskowcom tytuły, a Denysa Darklyna wysyłasz na Mur."
+ agot_scenario_dd.0199.e.tt:0 "Dziedziczysz Żelazny Tron i odbierasz spiskowcom tytuły, nie pozwalając im już nigdy rządzić."
+
+
+
+ ##################################
+ # Duskendale nadal bez rozstrzygnięcia #
+ ##################################
+
+ ## Tywin żąda ziemi Duskendale dla swojej rodziny
+ # dostępne zakresy: aerys/viserys/tywin/selmy/denys/renfred/duskendale
+ agot_scenario_dd.0200.t:0 "Niezbyt Pokorna Prośba"
+ # Jeśli Aerys zginie wcześniej
+ agot_scenario_dd.0200.desc.early:0 "Sprawa [duskendale.GetNameNoTier] wciąż pozostaje nierozwiązana. Ziemia nadal czeka na nowego właściciela.\n\nPrywatnie [tywin.GetTitledFirstName] domaga się, by ziemie otrzymał jego [chosen_sibling.Custom2('RelationToMeShort', SCOPE.sC('tywin'))], łącznie z przywilejami, o które tak walczyli Darklynowie. Proponuje [chosen_sibling.GetTitledFirstName], który byłby godnym wasalem.\n\nChoć Namiestnik był wierny, krew smoka płynie silnie. Chciałbym dać [viserys.GetFirstNameNicknamed] własny zamek. Tak czy inaczej, spotkamy się z tym zdrajcą na polu bitwy. Zostaną pożarci przez robaki."
+ # Tywin prosi o tytuły, opcja dla Viserysa
+ agot_scenario_dd.0200.desc.tywin:0 "Po śmierci ojca i przejęciu władzy nad Siedmioma Królestwami dowiaduję się, że sprawa [duskendale.GetNameNoTier] nadal nie została rozstrzygnięta. Przebiegły [denys.GetTitledFirstName] ogłosił niepodległość, przyjmując tytuły dawnych królów swej krwi. Wielu sądzi, że wojna już wygrana, i przedstawia swoje kandydatury do ziem Darklynów.\n\n[tywin.GetTitledFirstName] żąda, by ziemie otrzymał jego [chosen_sibling.Custom2('RelationToMeShort', SCOPE.sC('tywin'))] [chosen_sibling.GetTitledFirstName], wraz z królewską kartą, od której wszystko się zaczęło.\n\nChoć ucieszyłoby to wiernego Namiestnika, krew smoka płynie silnie, a mój brat [viserys.GetFirstNameNicknamed] powinien mieć własny zamek. Tak czy inaczej, zdrajca czeka na polu."
+ # Tywin nie żyje, Viserys jedyną opcją
+ agot_scenario_dd.0200.desc.viserys:0 "Po śmierci ojca i przejęciu Siedmiu Królestw dowiaduję się, że sprawa [duskendale.GetNameNoTier] nadal nie została rozstrzygnięta. Przebiegły [denys.GetTitledFirstName] ogłosił niepodległość, przyjmując tytuły dawnych królów swej krwi. Wielu sądzi, że wojna już wygrana, i przedstawia swoje kandydatury do ziem Darklynów.\n\nPrzed śmiercią Namiestnika, [tywin.GetTitledFirstName] żądał, by ziemie otrzymał jego krewny z tymi samymi przywilejami, jakich żądał Denys.\n\nPonieważ Tywin nie może już zgłosić żądań, powinienem dać bratu [viserys.GetFirstNameNicknamed] własny zamek. By to zabezpieczyć, musimy spotkać zdrajcę na polu bitwy."
+
+ agot_scenario_dd.0200.opt.a:0 "Ziemia powinna przypaść rodowi Lannisterów."
+ agot_scenario_dd.0200.opt.b:0 "Uczynimy z niej domenę Targaryenów."
+ agot_scenario_dd.0200.opt.c:0 "Sam ją przejmę."
+
+ agot_scenario_dd.0200.a.tt:0 "Wybierasz [chosen_sibling.GetUINameNoTooltip] na nowego pana Duskendale."
+ agot_scenario_dd.0200.b.tt:0 "Wybierasz [viserys.GetUINameNoTooltip] na nowego pana Duskendale."
+ agot_scenario_dd.0200.c.tt:0 "Decydujesz, że sam zostaniesz nowym panem Duskendale i rozdasz ziemie wedle uznania."
+
+ ## Tywin żąda ziemi po przegranej wojnie o niepodległość Denysa
+ # dostępne zakresy: aerys/viserys/tywin/selmy/denys/renfred/duskendale
+ agot_scenario_dd.0201.t:0 "Niezbyt Pokorna Prośba"
+ # Tywin prosi o tytuły, opcja dla Viserysa
+ agot_scenario_dd.0201.desc.tywin:0 "Wojna się skończyła, głupi [denys.GetTitledFirstName] zaatakował nas nie przewidując, jak niewielu go poprze. Teraz, gdy to już rozwiązane, [duskendale.GetNameNoTier] nadal nie ma wiernego władcy.\n\n[tywin.GetTitledFirstName] domaga się, by ziemie otrzymał jego [chosen_sibling.Custom2('RelationToMeShort', SCOPE.sC('tywin'))] [chosen_sibling.GetTitledFirstName], z tymi samymi przywilejami, o które prosili Darklynowie.\n\nChoć Namiestnik był wierny, krew smoka płynie silnie. Chciałbym dać [viserys.GetFirstNameNicknamed] zamek. Muszę zdecydować, jak postąpić..."
+ # Tywin nie żyje, Viserys jedyną opcją
+ agot_scenario_dd.0201.desc.viserys:0 "Wojna się skończyła, głupi [denys.GetTitledFirstName] zaatakował nas nie przewidując, jak niewielu go poprze. Teraz, gdy to już rozwiązane, [duskendale.GetNameNoTier] nadal nie ma wiernego władcy.\n\nPrywatnie, przed śmiercią, [tywin.GetTitledFirstName] domagał się, by ziemie otrzymał jego krewny z tymi samymi korzyściami, jakich domagał się Denys.\n\nPonieważ Tywin już nie żyje, powinienem dać bratu [viserys.GetFirstNameNicknamed] własny zamek. Przygotujemy go do rządzenia."
+
+ agot_scenario_dd.0201.opt.a:0 "Ziemia powinna przypaść rodowi Lannisterów."
+ agot_scenario_dd.0201.opt.b:0 "Uczynię z niej domenę Targaryenów."
+ agot_scenario_dd.0201.opt.c:0 "Sam ją przejmę."
+
+ agot_scenario_dd.0201.a.tt:0 "Wybierasz [chosen_sibling.GetUINameNoTooltip] na nowego pana Duskendale i wysyłasz Denysa na Mur."
+ agot_scenario_dd.0201.b.tt:0 "Wybierasz [viserys.GetUINameNoTooltip] na nowego pana Duskendale i wysyłasz Denysa na Mur."
+ agot_scenario_dd.0201.c.tt:0 "Decydujesz, że sam zostaniesz nowym panem Duskendale i wysyłasz Denysa na Mur."
+
+ ## Tywin żąda ziemi Duskendale dla rodziny po nieudanych wojnach (rzadko)
+ # dostępne zakresy: aerys/viserys/tywin/denys/renfred/duskendale
+ agot_scenario_dd.0220.t.rhaegar:0 "Zdobyć Siłą"
+ agot_scenario_dd.0220.t.denys:0 "Utracone Siłą"
+ # Rezerwowy opis po unieważnionych wojnach rozpoczętych przez Rhaegara -> Żelazny Tron kontra Duskendale
+ agot_scenario_dd.0220.desc.rhaegar:0 "Wojny o [duskendale.GetNameNoTier] zakończyły się niepowodzeniem — nie da się przewidzieć wszystkiego. Skoro nie możemy bez końca chodzić w tę i z powrotem, po prostu odbierzemy ziemię siłą. Ziemia będzie należeć do mnie i to ja zdecyduję o jej losie, nie zamierzam nikogo słuchać.\n\nOgłaszam się władcą Duskendale, a przy okazji unieważniam wszelkie roszczenia do tych ziem królewskim dekretem."
+ # Rezerwowy opis po unieważnionych wojnach rozpoczętych przez Denysa -> Duskendale kontra Żelazny Tron
+ agot_scenario_dd.0220.desc.denys:0 "Wojny o [duskendale.GetNameNoTier] zakończyły się niepowodzeniem — nie da się przewidzieć wszystkiego. Żelazny Tron i jego wojska stoją pod moimi bramami, by odebrać mi ziemię siłą.\n\nTo koniec, straciłem wszystko."
+ # Rezerwowy opis -> Rozpoczęcie wojny o roszczenia wobec Duskendale dla wybranego kandydata
+ agot_scenario_dd.0220.desc.war:0 "Wojny o roszczenia do [duskendale.GetNameNoTier] zakończyły się niepowodzeniem — nie da się przewidzieć wszystkiego. Sam odbiorę ziemię siłą. Poznają gniew smoka. Ziemia będzie należeć do mnie i to ja zdecyduję o jej losie, mam już dość tego, że moi kandydaci nie potrafią doprowadzić sprawy do końca.\n\nMam nadzieję, że są przygotowani, bo chcę zobaczyć wyraz twarzy [denys.GetFullNamePossessiveNoTooltip], gdy pomszczę mojego ojca."
+
+ # Rhaegar daje Lannisterom
+ agot_scenario_dd.0220.opt.a:0 "Prezent dla lwa."
+ # Rhaegar daje Viserysowi
+ agot_scenario_dd.0220.opt.b:0 "Krew smoka płynie silnie."
+ # Denys traci ziemie
+ agot_scenario_dd.0220.opt.c:0 "Straciłem wszystko!"
+ # Rozpoczęcie wojny
+ agot_scenario_dd.0220.opt.d:0 "Te ziemie będą moje..."
+
+ agot_scenario_dd.0220.a.tt:0 "Przyznasz Duskendale [chosen_sibling.GetUINameNoTooltip]."
+ agot_scenario_dd.0220.b.tt:0 "Przyznasz Duskendale [viserys.GetUINameNoTooltip]."
+ agot_scenario_dd.0220.c.tt:0 "Tracisz swoje ziemie, tytuły i roszczenia."
+ agot_scenario_dd.0220.d.tt:0 "Rozpoczynasz wojnę z Duskendale, ale tym razem dla siebie."
+
+
+ ###########################
+ # Nie ma Aerysa + Nie ma Tywina #
+ ###########################
+
+ ## Rhaegar może sam zdecydować, kogo poślubi
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0300.t:0 "Przyszłość Rodu Targaryenów"
+ agot_scenario_dd.0300.desc.start:0 "Zarówno mój ojciec, jak i Tywin odeszli — teraz to ja muszę zadbać o najlepsze sojusze, by chronić nasz Ród. Muszę się ożenić, choć to nie jest błaha sprawa. Wybieram Królową Siedmiu Królestw; muszę rozważyć to dobrze.\n\n"
+ # Każda opcja osobno
+ agot_scenario_dd.0300.desc.c:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Nikt nie odmówiłby jej urody ani potęgi rodu Lannisterów, choć zimna ambicja w jej oczach śni mi się po nocach — śni o płonącym królestwie."
+ agot_scenario_dd.0300.desc.e:0 "Mógłbym poślubić [elia.GetName], wątłą księżniczkę ze słonecznej Dorne. Jej ród od dawna jest związany z moim, a i sam w sobie jest potężny."
+ agot_scenario_dd.0300.desc.a:0 "Mógłbym poślubić [ashara.GetName], fioletowooką piękność ze Starfall, z rodu najlepszych rycerzy w królestwie."
+ agot_scenario_dd.0300.desc.l:0 "Mówią, że [lyanna.GetName] z Północy jest piękna, ma dziką naturę i silną wolę. Byłaby pierwszą Starkówną, która poślubiła krew Starej Valyrii."
+ # Cersei i Elia są dostępne
+ agot_scenario_dd.0300.desc.ce:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Daleko na południu jest też [elia.GetName], wątła księżniczka ze słonecznej Dorne. Małżeństwo z nią wzmocniłoby więzi Dorne i Żelaznego Tronu."
+ # Cersei i Ashara są dostępne
+ agot_scenario_dd.0300.desc.ca:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. W Dorne mówi się też o innej piękności godnej królowej — [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.cl:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Mówią jednak, że [lyanna.GetName] z Północy także jest piękna, ma dziką naturę i silną wolę. Obie mogą być godnymi królowymi."
+ # Cersei, Elia i Ashara są dostępne
+ agot_scenario_dd.0300.desc.cea:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Jest też [elia.GetName], wątła księżniczka ze słonecznej Dorne. Na koniec — [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei, Elia i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.cel:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Mówią, że [lyanna.GetName] z Północy także jest piękna, ma dziką naturę i silną wolę. Wreszcie, mógłbym wybrać [elia.GetName], wątłą księżniczkę ze słonecznej Dorne."
+ # Cersei, Ashara i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.cal:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Mówią, że [lyanna.GetName] z Północy także jest piękna, ma dziką naturę i silną wolę. Na koniec — [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei, Elia, Lyanna i Ashara są dostępne
+ agot_scenario_dd.0300.desc.ceal:0 "Moje długo planowane zaręczyny z [cersei.GetName] wciąż są możliwe. Jest piękna, a jej ród potężny. Mówią, że [lyanna.GetName] z Północy także jest piękna, ma dziką naturę i silną wolę. Następnie [elia.GetName], wątła księżniczka ze słonecznej Dorne. Na koniec — [ashara.GetName], fioletowooka córka Starfall."
+ # Elia i Ashara są dostępne
+ agot_scenario_dd.0300.desc.ea:0 "Dwie opcje wyraźnie się wyróżniają, obie z dalekiego południa. Z jednej strony [elia.GetName], wątła księżniczka ze słonecznej Dorne, która wzmocniłaby związki korony z rodem Martellów. Z drugiej — [ashara.GetFirstName] z rodu Dayne, fioletowooka piękność ze Starfall."
+ # Elia, Ashara i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.eal:0 "[elia.GetName], wątła księżniczka ze słonecznej Dorne byłaby świetną partią. Jest też [lyanna.GetName], piękny wilk o dzikiej naturze i silnej woli. Wreszcie powinienem rozważyć [ashara.GetName], fioletowooką córkę Starfall."
+ # Elia i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.el:0 "Dwie opcje wysuwają się na pierwszy plan, z dwóch krańców królestwa. Z jednej strony [elia.GetName], wątła księżniczka ze słonecznej Dorne, która wzmocniłaby więzi korony z rodem Martellów. Z drugiej [lyanna.GetFirstName] z rodu Stark, piękna i pełna woli córka Północy."
+ # Ashara i Lyanna są dostępne
+ agot_scenario_dd.0300.desc.al:0 "Dwie opcje wysuwają się na pierwszy plan, z dwóch krańców królestwa. Z jednej strony [ashara.GetName], fioletowooka piękność ze Starfall. Z drugiej [lyanna.GetFirstName] z rodu Stark, piękna córka Północy o dzikiej naturze i silnej woli."
+ agot_scenario_dd.0300.desc.finish:0 "\n\nJak mam zdecydować?"
+
+ agot_scenario_dd.0300.opt.a:0 "Poślubię lwicę."
+ agot_scenario_dd.0300.opt.b:0 "Smok poślubi wilczycę."
+ agot_scenario_dd.0300.opt.c:0 "Nasze więzi z Dorne zawsze można wzmocnić."
+ agot_scenario_dd.0300.opt.d:0 "Poślubię Asharę, światło Starfall."
+ agot_scenario_dd.0300.opt.e:0 "Znajdę inną żonę."
+
+ agot_scenario_dd.0300.e.tt:0 "Poszukasz innej kandydatki na żonę."
+
+
+
+ ############################
+ # Nie ma Aerysa + Tywin żyje #
+ ############################
+
+ ## Tywin proponuje Rhaegarowi ślub z Cersei
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0301.t:0 "$agot_scenario_dd.0300.t$"
+ agot_scenario_dd.0301.desc:0 "Presja, bym się ożenił, już się rozpoczęła. [tywin.GetTitledFirstName] zaoferował mi swoją córkę za żonę. Nikt nie odmówiłby jej urody ani potęgi rodu Lannisterów, choć zimna ambicja w jej oczach śni mi się po nocach — śni o płonącym królestwie."
+
+ agot_scenario_dd.0301.opt.a:0 "Niech moje obawy przepadną; poślubię lwicę."
+ agot_scenario_dd.0301.opt.b:0 "Nie mogę poślubić Cersei."
+
+ agot_scenario_dd.0301.b.tt:0 "Poszukasz innej kandydatki na żonę."
+
+ ## Rhaegar wybiera żonę po odmowie Tywinowi
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0302.t:0 "$agot_scenario_dd.0300.t$"
+ agot_scenario_dd.0302.desc.start:0 "Odrzuciwszy propozycję Tywina, muszę znaleźć inną żonę. Muszę dobrze przemyśleć swój wybór.\n\n"
+ agot_scenario_dd.0302.desc.finish:0 "\n\nJak mam zdecydować?"
+
+ agot_scenario_dd.0302.opt.a:0 "Nigdy dotąd Stark nie poślubił smoka."
+ agot_scenario_dd.0302.opt.b:0 "Choć słaba, Elia będzie moją żoną."
+ agot_scenario_dd.0302.opt.c:0 "Ożenię się z Asharą, gwiazdą południa."
+ agot_scenario_dd.0302.opt.d:0 "Żadna z nich mi nie odpowiada."
+
+ agot_scenario_dd.0302.d.tt:0 "Poszukasz innej kandydatki na żonę."
+
+
+ ############################
+ # Aerys żyje + Tywin nie żyje #
+ ############################
+
+ ## Aerys może sam zdecydować, kogo poślubi Rhaegar
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0305.t:0 "$agot_scenario_dd.0300.t$"
+ agot_scenario_dd.0305.desc.start:0 "Gdy Tywin odszedł, jestem wolny od jego intryg i planów. Mogę wybrać małżeństwo dla [bachelor.GetTitledFirstName], które mi odpowiada. Pozostaje tylko podjąć decyzję.\n\n"
+ # Każda opcja osobno
+ agot_scenario_dd.0305.desc.c:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Nikt nie odmówi jej urody ani potęgi rodu Lannisterów."
+ agot_scenario_dd.0305.desc.e:0 "Mógłbym ożenić [bachelor.GetHerHim] z [elia.GetFirstName], wątłą księżniczką z Dorne. Utrzymanie zaangażowania rodu Martell w koronę jest niezwykle ważne."
+ agot_scenario_dd.0305.desc.a:0 "Mógłbym ożenić [bachelor.GetHerHim] z [ashara.GetFirstName] z rodu Dayne, fioletowooką pięknością ze Starfall, z domu, który wydaje najlepszych rycerzy w królestwie."
+ agot_scenario_dd.0305.desc.l:0 "[lyanna.GetName] może być rozsądnym wyborem. Byłaby pierwszą Starkówną, która poślubiłaby krew Starej Valyrii, a to zapewniłoby lojalność Północy poprzez więzy krwi po raz pierwszy."
+ # Cersei i Elia dostępne
+ agot_scenario_dd.0305.desc.ce:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Jednak daleko na południu jest także [elia.GetName], wątła księżniczka z Dorne. Wybierając ją, ponownie wzmocniłbym więzi między rodem Martell a Żelaznym Tronem."
+ # Cersei i Ashara dostępne
+ agot_scenario_dd.0305.desc.ca:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Jednak w Dorne jest inna, która mogłaby być godną królową – [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei i Lyanna dostępne
+ agot_scenario_dd.0305.desc.cl:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Mówią jednak, że [lyanna.GetName] z Północy także jest piękna, o dzikiej naturze i silnej woli. Obie mogą być godnymi królowymi."
+ # Cersei, Elia i Ashara dostępne
+ agot_scenario_dd.0305.desc.cea:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Jest też [elia.GetName], wątła księżniczka z Dorne. Na końcu – [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei, Elia i Lyanna dostępne
+ agot_scenario_dd.0305.desc.cel:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Mówią, że [lyanna.GetName] z Północy także jest piękna, o dzikiej naturze i silnej woli. Ostatecznie mógłbym wybrać [elia.GetName], wątłą księżniczkę z Dorne."
+ # Cersei, Ashara i Lyanna dostępne
+ agot_scenario_dd.0305.desc.cal:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Mówią, że [lyanna.GetName] z Północy także jest piękna, o dzikiej naturze i silnej woli. Na końcu – [ashara.GetName], fioletowooka córka Starfall."
+ # Cersei, Elia, Lyanna i Ashara dostępne
+ agot_scenario_dd.0305.desc.ceal:0 "Mógłbym uszanować życzenie mojego Namiestnika i wydać [bachelor.GetTitledFirstNameNoTooltip] za [cersei.GetFirstName]. Jest wielką pięknością, a jej ród nadal silny. Mówią, że [lyanna.GetName] z Północy także jest piękna, o dzikiej naturze i silnej woli. Następnie [elia.GetName], wątła księżniczka z Dorne. Na końcu – [ashara.GetName], fioletowooka córka Starfall."
+ # Elia i Ashara dostępne
+ agot_scenario_dd.0305.desc.ea:0 "Dwie opcje wyraźnie się wyróżniają, obie z dalekiego południa. Z jednej strony [elia.GetFirstName], wątła księżniczka z Dorne, która wzmocniłaby związki korony z rodem Martell. Z drugiej [ashara.GetFirstName] z rodu Dayne, fioletowooka piękność ze Starfall."
+ # Elia, Ashara i Lyanna dostępne
+ agot_scenario_dd.0305.desc.eal:0 "[elia.GetName], wątła księżniczka z Dorne, byłaby doskonałą kandydatką dla [bachelor.GetTitledFirstNameNoTooltip]. Jest także [lyanna.GetName], piękny wilk o dzikiej naturze i silnej woli. Wreszcie, powinienem rozważyć [ashara.GetName], fioletowooką córkę Starfall."
+ # Elia i Lyanna dostępne
+ agot_scenario_dd.0305.desc.el:0 "Dwie opcje wysuwają się na pierwszy plan, z dwóch krańców królestwa. Z jednej strony [elia.GetFirstName], wątła księżniczka z Dorne, która wzmocniłaby więzi korony z rodem Martell. Z drugiej [lyanna.GetFirstName] z rodu Stark, piękna i uparta córka Północy."
+ # Ashara i Lyanna dostępne
+ agot_scenario_dd.0305.desc.al:0 "Dwie opcje wysuwają się na pierwszy plan, z dwóch krańców królestwa. Z jednej strony [ashara.GetName], fioletowooka piękność ze Starfall. Z drugiej [lyanna.GetFirstName] z rodu Stark, piękna córka Północy o dzikiej naturze i silnej woli."
+ agot_scenario_dd.0305.desc.finish:0 "\n\nJak mam zdecydować?"
+
+ agot_scenario_dd.0305.opt.a:0 "Uszanuję wolę Namiestnika i wybiorę jego córkę."
+ agot_scenario_dd.0305.opt.b:0 "Rhaegar zapewni lojalność Północy."
+ agot_scenario_dd.0305.opt.c:0 "Martell i Targaryen znów się połączą."
+ agot_scenario_dd.0305.opt.d:0 "Dayne będzie odpowiednia."
+ agot_scenario_dd.0305.opt.e:0 "Znajdę inną kandydatkę."
+
+ agot_scenario_dd.0305.e.tt:0 "Znajdziesz inną żonę dla swojego dziedzica."
+
+
+
+ #############################
+ # Aerys żyje + Tywin żyje #
+ #############################
+
+ ## Tywin prosi Aerysa, by wydał Rhaegara za Cersei
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0310.t:0 "$agot_scenario_dd.0300.t$"
+ agot_scenario_dd.0310.desc:0 "Kogo wydać za [bachelor.GetTitledFirstName]? [tywin.GetTitledFirstName] pragnie połączyć nasze rody, wydając swoją córkę [cersei.GetName] za mojego syna. Po tym wszystkim, co się wydarzyło, nie mogę oprzeć się wrażeniu, że zamierza mnie zdetronizować. Umieścić swoją córkę u boku przyszłego króla, zanim sam zostanę odsunięty.\n\nMimo to muszę rozważyć tę propozycję."
+
+ agot_scenario_dd.0310.opt.a:0 "Nasze rody się połączą, mimo moich obaw."
+ agot_scenario_dd.0310.opt.b:0 "Smok nie skłoni się przed lwem."
+
+ agot_scenario_dd.0310.b.tt:0 "Rhaegar będzie szukał innej żony."
+
+ ## Aerys może wybrać żonę dla Rhaegara po odmowie Tywinowi
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)
+ agot_scenario_dd.0311.t:0 "$agot_scenario_dd.0300.t$"
+ agot_scenario_dd.0311.desc.start:0 "Teraz, gdy odmówiłem prośbie [tywin.GetTitledFirstNamePossessive], muszę znaleźć inną żonę dla [bachelor.GetTitledFirstName].\n\n"
+ agot_scenario_dd.0311.desc.finish:0 "\n\nMuszę szybko podjąć decyzję."
+
+ agot_scenario_dd.0311.opt.a:0 "Nowy sojusz lodu i ognia."
+ agot_scenario_dd.0311.opt.b:0 "Księżniczka godna tylko księcia."
+ agot_scenario_dd.0311.opt.c:0 "Niech gwiazda poślubi smoka."
+ agot_scenario_dd.0311.opt.d:0 "Poszukam gdzie indziej."
+
+ agot_scenario_dd.0311.d.tt:0 "Znajdziesz inną żonę dla swojego dziedzica."
+
+ ## Rhaegar może zdecydować, czy zgadza się na wybraną kandydatkę
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)/bachelorette
+ agot_scenario_dd.0315.t.c:0 "Lwica i smok"
+ agot_scenario_dd.0315.t.l:0 "Wilczyca"
+ agot_scenario_dd.0315.t.e:0 "Słońce i włócznia"
+ agot_scenario_dd.0315.t.a:0 "Fioletowa Gwiazda"
+
+ agot_scenario_dd.0315.desc.start:0 "Mój ojciec przesłał wieści o moich przyszłych zaręczynach, decydując o nich bez choćby jednego kruka z pytaniem o moją zgodę czy opinię. Powinienem się zastanowić, czy w ogóle zaakceptuję te zaręczyny, czy też znajdę sobie żonę wbrew woli ojca.\n\n"
+ # Cersei
+ agot_scenario_dd.0315.desc.c:0 "Jeśli nic nie zrobię, zostanę zaręczony z [bachelorette.GetName], córką [tywin.GetName]. Nikt nie odmówi jej urody ani potęgi rodu Lannisterów, choć w jej oczach czai się chłodna ambicja, która przynosi mi sny o płonącym królestwie. Na pozór wydaje się idealną przyszłą królową, ale czy mogę poślubić kogoś, kto budzi we mnie takie obawy?\n\n"
+ # Lyanna
+ agot_scenario_dd.0315.desc.l:0 "Jeśli nic nie zrobię, zostanę zaręczony z [bachelorette.GetName] z Północy. Znana jest ze swojego wolnego ducha i uważa się, że wyrośnie z niej piękność. Żaden Stark nigdy nie poślubił potomka rodu Targaryenów, a zbudowanie świeżych więzi z Północą może być mądrym posunięciem. Jest jednak młoda, a szybki ślub i potomstwo byłyby najlepsze dla mojej pozycji.\n\n"
+ # Elia
+ agot_scenario_dd.0315.desc.e:0 "Jeśli nic nie zrobię, zostanę zaręczony z [bachelorette.GetName], wątłą księżniczką z nasłonecznionego Dorne. Jej ród od dawna jest związany z moim, a sami są potężni, choć wątła księżniczka oznacza słabą królową.\n\n"
+ # Ashara
+ agot_scenario_dd.0315.desc.a:0 "Jeśli nic nie zrobię, zostanę zaręczony z [bachelorette.GetName], fioletowooką pięknością ze Starfall. Chociaż ród Dayne nie należy do najpotężniejszych politycznie, wydają najlepszych rycerzy w królestwie, a ona byłaby godną królową dla każdego króla.\n\n"
+
+ agot_scenario_dd.0315.desc.finish:0 "Czy więc powinienem poślubić [bachelorette.GetNameNoTooltip], czy sprzeciwić się ojcu i wybrać żonę według własnego uznania?"
+
+ agot_scenario_dd.0315.opt.a:0 "Poślubię lwicę."
+ agot_scenario_dd.0315.opt.b:0 "Smok i wilczyca powinni się połączyć."
+ agot_scenario_dd.0315.opt.c:0 "Nasze więzi z Dorne zawsze mogą być silniejsze."
+ agot_scenario_dd.0315.opt.d:0 "Poślubię Asharę, światło Starfall."
+ agot_scenario_dd.0315.opt.e:0 "Znajdę inną."
+
+ agot_scenario_dd.0315.e.tt:0 "Sprzeciwisz się ojcu i sam poszukasz małżonki"
+
+ ## Aerys otrzymuje wieść, że Rhaegar uznaje jego wybór za zły
+ # dostępne zakresy: tywin/cersei/lyanna/elia/ashara/bachelor (do zaręczyn)/bachelorette
+ agot_scenario_dd.0316.t:0 "Buntowniczy książę"
+
+ agot_scenario_dd.0316.desc:0 "Dotarły do mnie wieści ze Smoczej Skały; mój syn Rhaegar odmówił przyjęcia starannie negocjowanych zaręczyn z [bachelorette.GetName]. To nie tylko poważna zniewaga wobec jego narzeczonej i rodu [bachelorette.GetHerHis], ale też otwarta niesubordynacja wobec mojej woli jako króla. Już wcześniej podejrzewałem go o spiski przeciwko mnie, może nawet o próbę uzurpacji tronu, a ta katastrofalna niesubordynacja tylko potwierdza jego zdradzieckie skłonności.\n\nNiewiele mogę teraz zrobić, jak tylko żyć z tą decyzją i mieć się na baczności..."
+
+ agot_scenario_dd.0316.opt.a:0 "Niech będzie, sam sobie wybierze żonę!"
+
+ agot_scenario_dd.0316.a.tt:0 "Twój syn nie będzie teraz zaręczony"
+
+
+
+ ######################################
+ ########### Skryptowane efekty tooltipy #
+ ######################################
+
+ ## Potrzeby efektów skryptowanych
+ agot_scenario_dd_betrothe_cersei:0 "[cersei.GetName] zostanie [bachelor.GetShortUINamePossessiveNoTooltipNoFormat] [betrothed|E], z [grand_wedding_promise|E]."
+ agot_scenario_dd_betrothe_lyanna:0 "[lyanna.GetName] zostanie [bachelor.GetShortUINamePossessiveNoTooltipNoFormat] [betrothed|E], z [grand_wedding_promise|E]."
+ agot_scenario_dd_betrothe_elia:0 "[elia.GetName] zostanie [bachelor.GetShortUINamePossessiveNoTooltipNoFormat] [betrothed|E], z [grand_wedding_promise|E]."
+ agot_scenario_dd_betrothe_ashara:0 "[ashara.GetName] zostanie [bachelor.GetShortUINamePossessiveNoTooltipNoFormat] [betrothed|E], z [grand_wedding_promise|E]."

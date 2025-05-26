@@ -1,0 +1,19 @@
+﻿l_english:
+ HEADER_CREDITS:1 ""
+ HEADER_CRUSADER_KINGS_3_A_GAME_OF_THRONES:1 "#credits_title CRUSADER KINGS III: GRA O TRON (CK3AGOT)#!"
+
+ TITLE_LEAD_DEVELOPERS:1 "#credits_header Główni Programiści#!"
+ TITLE_DEPARTMENT_HEADS:1 "#credits_header Kierownicy Działów#!"
+ TITLE_DEVELOPERS:1 "#credits_header Programiści#!"
+ TITLE_ADVANCED_SCRIPT_DEVELOPERS:1 "#credits_subheader Skrypty i Mechaniki#!"
+
+ TITLE_EVENTS:1 "#credits_subheader Wydarzenia i Rozgrywka#!"
+ TITLE_TOOLS:1 "#credits_subheader Narzędzia#!"
+ TITLE_3D:1 "#credits_subheader Zespół 3D#!"
+ TITLE_2D:1 "#credits_subheader Zespół 2D#!"
+ TITLE_PORTRAITS:1 "#credits_subheader Zespół Portretów#!"
+ TITLE_WRITING:1 "#credits_subheader Pisanie i Lokalizacja#!"
+ TITLE_WORLDBUILDING:1 "#credits_subheader Tworzenie Świata#!"
+
+ TITLE_MUSIC:1 "#credits_subheader Muzyka i OST#!"
+ TITLE_CONTRIBUTORS:1 "#credits_subheader Byli Współtwórcy#!"

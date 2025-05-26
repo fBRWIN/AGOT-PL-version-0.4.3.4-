@@ -1,0 +1,4 @@
+﻿l_french:
+ epidemic_events.1100.c: "Faites quérir un mestre !"
+ look_for_maester_epidemic_tt: "Vous ferez appel à un [GetCourtPositionType('maester_court_position').GetName()|l] pour aider à lutter contre l’[epidemic|El]"
+ maester_will_help_epidemic_tt: "Votre [GetCourtPositionType('maester_court_position').GetName()|l] vous donnera plusieurs options pour lutter contre l’[epidemic|El]"

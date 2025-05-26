@@ -1,0 +1,313 @@
+﻿l_english:
+ I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "Co najmniej trzech Twoich przodków należy do Twojego obecnego rodu i rządziło Twoim głównym tytułem przez co najmniej dziesięć lat."
+ I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:2 "Mniej niż trzech Twoich przodków należy do Twojego obecnego rodu i rządziło Twoim głównym tytułem przez co najmniej dziesięć lat."
+
+ start_contraceptives_decision:0 "Użyj środków antykoncepcyjnych"
+ start_contraceptives_decision_desc:0 "Konsultując się z lekarzem mogę zdobyć środki antykoncepcyjne, takie jak herbata księżycowa, które pozwolą mi upewnić się, że moje okazjonalne romanse nie zakończą się dziećmi."
+ start_contraceptives_decision_tooltip:0 "Poświęć trochę dochodu, by zmniejszyć swoją płodność."
+ start_contraceptives_decision_confirm:0 "Jestem gotów."
+
+ stop_contraceptives_decision:0 "Przestań używać środków antykoncepcyjnych"
+ stop_contraceptives_decision_desc:0 "Czas odstawić moje zioła i okłady. Być może wcześniej nie chciałem mieć dzieci, ale nadszedł czas, by powołać na świat synów i córki."
+ stop_contraceptives_decision_tooltip:0 "Przestań poświęcać dochód na zmniejszenie płodności."
+ stop_contraceptives_decision_confirm:0 "Niech natura toczy swój bieg."
+
+ weirwood_meditate_decision:0 "Medytuj przy Drzewie Wiązu"
+ weirwood_meditate_decision_desc:0 "Niezależnie od wiary, niewiele miejsc na świecie dorównuje sercu świętego gaju pod względem spokoju i innego świata samotności. Może powinienem odwiedzić drzewo serca, by uzyskać wskazówki."
+ weirwood_meditate_decision_tooltip:0 "Odwiedzisz święty gaj, by mieć szansę na odnowę."
+ weirwood_meditate_decision_confirm:0 "Drzewa mnie wołają."
+ # Odrodzenie rodu
+ house_revival_tooltip:0 "Przez przemoc lub los ten ród wyginął, ale dzięki swej sławnej historii może zostać wskrzeszony."
+ darklyn_revival_decision:0 "Wskrześ ród Darklyn"
+ darklyn_revival_desc:0 "W Wieku Stu Królestw ród Darklynów z Duskendale panował jako królowie, władając ujściem Blackwater Rush. Ostatni Lord Darklyn stracił swój tron, ziemie i życie, gdy wziął króla w niewolę. Cena za jego bunt to upadek rodziny. Być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ darklyn_revival_decision_confirm:0 "Pod Słabym Światłem Dusk"
+ reyne_revival_decision:0 "Wskrześ ród Reyne"
+ reyne_revival_desc:0 "Ród Reyne sięga swymi korzeniami Pierwszych Ludzi w Wieku Bohaterów, budując siedzibę Castamere wokół bogatych kopalni, zdobywając wielką władzę w Westerlands. Ród Reyne upadł, gdy Lord Roger Reyne odmówił spłaty długów i zbuntował się przeciwko Lannisterom. Ich rebelia zakończyła się szybkim wyginięciem rodu. Być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ reyne_revival_decision_confirm:0 "Długi i Ostry"
+ gardener_revival_decision:0 "Wskrześ ród Gardener"
+ gardener_revival_desc:0 "Wiele rodów pochodzi od legendarnego Gartha Zielonorekiego, z których najbardziej prestiżowy jest ród Gardener. Ostatni król Mern IX i jego rodzina zostali spaleni żywcem na Polu Ognia 1 p.n.e., kończąc dynastię Gardenerów. Ich ziemie przekazano rodowi Tyrell, który wiernie im służył jako zarządcy. Być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ gardener_revival_decision_confirm:0 "Najwyższe Drzewo"
+ durrandon_revival_decision:0 "Wskrześ ród Durrandon"
+ durrandon_revival_desc:0 "W Wieku Bohaterów legendarny król Durran Godsgrief wzniosł zamek Storm's End i założył Królestwo Burzy, umacniając panowanie rodu Durrandon. Wieki później jego potomek Argilac Wyniosły stracił królestwo i życie — ziemie i córkę przekazał Lordowi Orysowi Baratheonowi, kończąc dynastię Durrandonów. Być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ durrandon_revival_decision_confirm:0 "Nasza jest Wściekłość"
+ stark_revival_decision:0 "Wskrześ ród Stark"
+ stark_revival_desc:0 "Przez los i nieszczęścia starożytny ród Brana Budowniczego wyginął, kończąc tysiące lat panowania Starków w Winterfell. Odzyskałem Winterfell — być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele... Bo w Winterfell zawsze musi być Stark."
+ stark_revival_decision_confirm:0 "Nadchodzi Zima"
+ arryn_revival_decision:0 "Wskrześ ród Arryn"
+ arryn_revival_desc:0 "Przez los i nieszczęścia starożytny ród Rycerza Sokoła wyginął, kończąc tysiące lat panowania Arrynów w Vale. Odzyskałem Eyrie — być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ arryn_revival_decision_confirm:0 "Tak Wysoko Jak Honor"
+ lannister_revival_decision:0 "Wskrześ ród Lannister"
+ lannister_revival_desc:0 "Przez los i nieszczęścia starożytny ród Lanna Mądrego wyginął, kończąc tysiące lat panowania Lannisterów. Odzyskałem Casterly Rock — być może nadszedł czas, by przywrócić ten niegdyś wielki ród, z moją osobą na czele."
+ lannister_revival_decision_confirm:0 "Słyszcie Mój Ryk!"
+ hoare_revival_decision:0 "Wskrześ ród Hoare"
+ hoare_revival_desc:0 "Przez tysiące lat moja rodzina panowała nad Żelaznymi Wyspami, siejąc strach i żelazo po całym Westeros. Tylko przez ogień smoka zostaliśmy pokonani — lecz nadal trwamy. Odzyskałem Orkmont, naszą prastarą siedzibę. Być może nadszedł czas, by odbudować ród Qhored Okrutnego, z moją osobą na czele."
+ hoare_revival_decision_confirm:0 "Przesiąknięty Krwią"
+ dynamic_bastard_house_revival_decision:0 "Wskrześ ród [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
+ dynamic_bastard_house_revival_decision_desc:0 "Ród [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] wyginął. Jako bezpośredni potomek tego rodu mogę odzyskać jego dziedzictwo i nazwisko."
+ dynamic_bastard_house_revival_decision_confirm:0 "Ród [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] narodzi się na nowo!"
+ dynamic_bastard_house_revival_decision_bastard:0 "Twój ród to gałąź nieślubna"
+ dynamic_bastard_house_revival_decision_westeros_needs_legitimization:0 "[top_liege.GetName] rozpatrzy twoją petycję o przyjęcie imienia, słów i herbu rodu [bastard_house_of.GetName]."
+
+ set_capital_kingslanding_decision:0 "Odzyskaj King's Landing"
+ set_capital_kingslanding_decision_confirm:0 "Przywróć prawdziwą siedzibę Siedmiu Królestw!"
+ set_capital_kingslanding_decision_desc:0 "King's Landing jest stolicą Siedmiu Królestw Żelaznego Tronu i jako taka należy się mnie."
+ set_capital_kingslanding_decision_tooltip:0 "Przywróć King's Landing jako stolicę twojego królestwa."
+
+ ######## Cesarz odzyskuje KL od ciebie
+ agot_events_generic.0002.t:0 "Ty nędzny [ROOT.Char.Custom('GirlBoy')],"
+ agot_events_generic.0002.desc_vassal:0 "Wyrwałem cię z brudu i mogę cię do niego z powrotem wrzucić! Naprawdę myślałeś, że King's Landing, ostatni bastion nauki na tej pogardzanej ziemi, może być twój? Nawet twój najmniejszy palec nie jest wart, by stąpać po jej lśniących cegłach! Oddaj to, albo Blackwater będzie twoją mogiłą — sam cię do niej wrzucę, jeśli zajdzie taka potrzeba."
+ agot_events_generic.0002.a:0 "Tylko pilnowałem tego dla ciebie!"
+ agot_events_generic.0002.b:0 "Mam nadzieję, że twoja marudząca pupa zostanie przecięta na Żelaznym Tronie."
+
+ ############################
+ ## Decyzja o pasowaniu na rycerza ##
+ ############################
+
+ agot_buy_knighthood_decision:0 "Kup pasowanie na rycerza"
+ agot_buy_knighthood_decision_desc:0 "Chociaż presja społeczna zabrania sprzedaży i kupna pasowania na rycerza, zawsze znajdą się osoby gotowe sprzedać rycerstwo za odpowiednią cenę. Z różnych powodów, nie zostałem jeszcze rycerzem w moim życiu. Dzięki wpływom i majątkowi mogę to zmienić."
+ agot_buy_knighthood_decision_desc_outsider:0 "Chociaż rycerstwo nie jest szczególnie cenione lub nawet istotne w moim pochodzeniu, to mimo wszystko interesuje mnie zostanie rycerzem. Znalezienie osoby chętnej, by pasować #italic obcego#! będzie trudne, ale jestem pewien, że za odpowiednią cenę znajdę chętnego."
+ agot_buy_knighthood_decision_confirm:0 "Kupuję!"
+ agot_buy_knighthood_decision_tooltip:0 "Kupisz pasowanie na rycerza"
+ agot_decision_bought_knighthood_effect_tt:0 "Twoja #V bliska rodzina#! zostanie poinformowana o twoim pasowaniu."
+
+ ############################
+ ## Pokaz stali walyriańskiej ##
+ ############################
+ #show_valyrian_steel_decision:0 "Broń ze stali walyriańskiej"
+ #show_valyrian_steel_decision_desc:0 "Przynieś mi listę wszystkich znanych broni ze stali walyriańskiej."
+ #show_valyrian_steel_decision.tt:0 "Zostanie ci przedstawiona lista wszystkich posiadaczy broni ze stali walyriańskiej"
+ #show_valyrian_steel_decision_confirm:0 "Pokaż mi!"
+ #show_valyrian_steel_decision_tooltip:0 "Zostanie ci przyniesiona lista wszystkich znanych posiadaczy broni ze stali walyriańskiej"
+
+ reforge_valyrian_steel_decision:0 "Przekuj miecz ze stali walyriańskiej"
+ reforge_valyrian_steel_decision_desc:0 "Chcę wykonać nowy miecz według własnego projektu"
+ reforge_valyrian_steel_decision.tt:0 "Rozpoczniesz proces przekuwania miecza ze stali walyriańskiej, który posiadasz"
+ reforge_valyrian_steel_decision_confirm:0 "Zawołaj kowala!"
+ reforge_valyrian_steel_decision_tooltip:0 "Rozpoczniesz proces przekuwania miecza ze stali walyriańskiej, który posiadasz"
+ reforge_valyrian_steel_excellent_aptitude:0 "Twój $court_smith_court_position$ musi mieć #V doskonałą#! zdolność i wiedzę o przekuwaniu stali walyriańskiej lub wiarę z dogmatem [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
+
+ #Świt
+ claim_dawn_unworthy_decision:0 "Rzeknij się Świtu"
+ claim_dawn_unworthy_decision_desc:0 "Miecz jest mój z mocy praw, 'godzien' czy nie, uznaję go za swój."
+ claim_dawn_unworthy_decision_tooltip:0 "Uznaj legendarny miecz Świt za swój"
+ claim_dawn_unworthy_decision_confirm:0 "Uznaj"
+ claim_dawn_worthy_decision:0 "Rzeknij się Świtu"
+ claim_dawn_worthy_decision_desc:0 "Wierzę, że jestem godzien."
+ claim_dawn_worthy_decision_tooltip:0 "Uznaj legendarny miecz Świt za swój"
+ claim_dawn_worthy_decision_confirm:0 "Jestem godzien!"
+
+ #Brightroar
+ recover_brightroar_decision:0 "Odzyskaj Brightroar"
+ recover_brightroar_decision_desc:0 "Sfinansuję odważnego odkrywcę, który wyruszy w niebezpieczne ruiny Starej Valyrii, aby odnaleźć Brightroar, miecz przodków rodu Lannister."
+ recover_brightroar_decision_tooltip:0 "Zaplanuj ekspedycję w celu odzyskania Brightroar"
+ recover_brightroar_decision_confirm:0 "Przygotuj statek"
+
+ ###############################################################
+ ## Zarządzanie sprawami królestwa - konfiguracja powiadomień światowych ##
+ ###############################################################
+ #Lokalizacja decyzji
+ manage_realm_affairs_decision:0 "Zarządzaj sprawami królestwa"
+ manage_realm_affairs_decision_desc:0 "Petentów, spadków spoza mojego domeny... codzienne decyzje mogą stać się uciążliwe. Czy naprawdę muszę się tym wszystkim przejmować?\n\nMogę powiadomić moich sług, że nie chcę być niepokojony drobnymi sprawami."
+ manage_realm_affairs_decision_tooltip:0 "Wybierz, o których wydarzeniach z całego królestwa chcesz być informowany"
+ manage_realm_affairs_decision_confirm:0 "Wezwij sługę."
+ manage_realm_affairs_decision_effect:0 "Wybierz, które sprawy mają być przedstawiane bezpośrednio Tobie, lub dowiedz się więcej o raportach z całego świata"
+ CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Wybierz temat"
+
+ choose_petitioners_and_homage_name:0 "Petenci i hołd"
+ choose_petitioners_and_homage_tooltip:0 "Wybierz, czy chcesz przyjmować petentów i otrzymywać hołd"
+ choose_foreign_succession_name:0 "Zagraniczny spadek"
+ choose_foreign_realms_succession_tooltip:0 "Wybierz, czy chcesz być informowany o zagranicznych sukcesjach"
+ choose_foreign_succession_invalid:0 "Już panujesz nad Żelaznym Tronem!"
+ choose_nights_watch_elections_name:0 "Wybory w Nocnej Straży"
+ choose_nights_watch_elections_tooltip:0 "Wybierz, czy chcesz być informowany o wyborze nowego Głównego Dowódcy Nocnej Straży"
+ choose_nights_watch_elections_invalid:0 "Już jesteś Głównym Dowódcą!"
+ choose_show_valyrian_steel_name:0 "Stal walyriańska"
+ choose_show_valyrian_steel_tooltip:0 "Zostanie ci przyniesiona lista wszystkich znanych posiadaczy stali walyriańskiej"
+ choose_dragons_name:0 "Smoki"
+ choose_dragons_tooltip:0 "Wybierz, czy chcesz być informowany o wiadomościach dotyczących smoków lub o otrzymywaniu listy wszystkich smoków i ich jaj"
+ choose_house_feuds:0 "Waśnie rodowe"
+ choose_house_feuds_desc:0 "Zostanie ci przyniesiona lista wszystkich znanych waśni rodowych"
+ choose_house_feuds_tooltip:0 "Zostanie ci przyniesiona lista wszystkich znanych waśni rodowych"
+ choose_dragon_trees:0 "Rodowody smoków"
+ choose_dragon_trees_tooltip:0 "Zostanie ci przyniesiona lista wszystkich znanych rodów smoków"
+ choose_banks:0 "Banki"
+ choose_banks_desc:0 "Zostanie ci przyniesiona lista wszystkich znanych banków"
+ choose_banks_tooltip:0 "Zostanie ci przyniesiona lista wszystkich znanych banków"
+
+ #Tooltipy DLC
+ agot_requires_rc:0 "Opcja wymaga DLC Royal Court"
+ agot_requires_court:0 "Opcja wymaga [royal_court|E]"
+ agot_requires_fnf:0 "Opcja wymaga DLC Friends and Foes"
+ agot_requires_rtp:0 "Opcja wymaga DLC Roads to Power"
+
+ #Wydarzenie zapasowe
+ global_events_settings.0001.t:0 "Sprawy królestwa"
+ global_events_settings.0001.desc:0 "Codzienne decyzje w królestwie pochłaniają ostatnio dużo mojego czasu...\n\nGdy kolejna sprawa zostaje mi przedstawiona przez jednego ze sług, zastanawiam się, czy naprawdę muszę się tym przejmować."
+
+ global_events_settings.0001.dragonrider_death_toggle_on:0 "Powiadamiaj mnie o śmierci jeźdźców smoków."
+ global_events_settings.0001.dragonrider_death_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! powiadamiany o śmierci jeźdźca smoka."
+ global_events_settings.0001.dragonrider_death_toggle_off:0 "Śmierć jeźdźców smoków nie jest moim zmartwieniem."
+ global_events_settings.0001.dragonrider_death_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! powiadamiany o śmierci jeźdźca smoka."
+ global_events_settings.0001.dragon_death_toggle_on:0 "Powiadamiaj mnie o śmierci smoków."
+ global_events_settings.0001.dragon_death_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! powiadamiany o śmierci smoka."
+ global_events_settings.0001.dragon_death_toggle_off:0 "Śmierć smoków nie jest moim zmartwieniem."
+ global_events_settings.0001.dragon_death_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! powiadamiany o śmierci smoka."
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_on:0 "Powiadamiaj mnie o wykluciu się jaj smoków."
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! powiadamiany o wykluciu się jaja smoka."
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_off:0 "Wyklute jaja smoków nie są moim zmartwieniem."
+ global_events_settings.0001.inform_dragon_egg_hatched_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! powiadamiany o wykluciu się jaja smoka."
+ global_events_settings.0001.inform_dragon_tamed_toggle_on:0 "Powiadamiaj mnie o oswojeniu smoków."
+ global_events_settings.0001.inform_dragon_tamed_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! powiadamiany o oswojeniu smoka."
+ global_events_settings.0001.inform_dragon_tamed_toggle_off:0 "Oswojone smoki nie są moim zmartwieniem."
+ global_events_settings.0001.inform_dragon_tamed_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! powiadamiany o oswojeniu smoka."
+  global_events_settings.0001.vs_blades:0 "O posiadaczach stali walyriańskiej..."
+ global_events_settings.0001.petitioners:0 "O petentach i hołdzie..."
+ global_events_settings.0001.it_succession:0 "O Żelaznym Tronie..."
+ global_events_settings.0001.nw_elections:0 "O wyborach w Nocnej Straży..."
+ global_events_settings.0001.mute_plagues:0 "O zarazach..."
+ global_events_settings.0001.dragon_categories:0 "O smokach i jajach smoków..."
+ global_events_settings.0001.dragon_trees:0 "O rodowodach smoków..."
+ global_events_settings.0001.house_feuds:0 "O waśniach rodowych..."
+ global_events_settings.main_screen:0 "Jest jeszcze coś..."
+ global_events_settings.dismiss:0 "To wszystko."
+ #Petenci i hołd
+ global_events_settings.0002.t:0 "$global_events_settings.0001.t$"
+ global_events_settings.0002.desc:0 "$global_events_settings.0001.desc$"
+ global_events_settings.0002.less_homage:0 "Niech moi wasale składają hołd w rozsądnym tempie."
+ global_events_settings.0002.less_homage.tt:0 "Będziesz widzieć normalną liczbę wasali składających hołd."
+ global_events_settings.0002.more_homage:0 "Wszyscy muszą mi składać hołd."
+ global_events_settings.0002.more_homage.tt:0 "Będziesz zaspokajać #N #bold DUŻO WIĘCEJ#!#! wasali składających hołd."
+ global_events_settings.0002.homage_on:0 "Niech lordowie królestwa znów składają mi hołd."
+ global_events_settings.0002.homage_on.tt:0 "Znów #P #bold POZWOLISZ#!#! wasalom składać hołd."
+ global_events_settings.0002.homage_off:0 "Nie interesuję się hołdem."
+ global_events_settings.0002.homage_off.tt:0 "Przestaniesz #N #bold POZWALAĆ#!#! wasalom składać hołd."
+ global_events_settings.0002.petitioners_on:0 "Niech lordowie królestwa znów mi petycjonują."
+ global_events_settings.0002.petitioners_on.tt:0 "Znów #P #bold POZWOLISZ#!#! petentom."
+ global_events_settings.0002.petitioners_off:0 "Nie będę już przyjmować petentów."
+ global_events_settings.0002.petitioners_off.tt:0 "Przestaniesz #N #bold POZWALAĆ#!#! petentom."
+ #Sukcesja Żelaznego Tronu
+ global_events_settings.0003.t:0 "$global_events_settings.0002.t$"
+ global_events_settings.0003.desc:0 "$global_events_settings.0002.desc$"
+ global_events_settings.0003.it_toggle_on:0 "Informuj mnie o sukcesji na Żelaznym Tronie."
+ global_events_settings.0003.it_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! informowany o sukcesji na Żelaznym Tronie."
+ global_events_settings.0003.it_toggle_off:0 "Sukcesja na Żelaznym Tronie mnie nie interesuje."
+ global_events_settings.0003.it_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! informowany, gdy nowy władca zasiądzie na Żelaznym Tronie."
+ #Wybory w Nocnej Straży
+ global_events_settings.0004.t:0 "$global_events_settings.0002.t$"
+ global_events_settings.0004.desc:0 "$global_events_settings.0002.desc$"
+ global_events_settings.0004.nw_toggle_on:0 "Interesują mnie sprawy Nocnej Straży."
+ global_events_settings.0004.nw_toggle_on.tt:0 "Obecnie #N #bold NIE BĘDZIESZ#!#! informowany o wyborach w Nocnej Straży."
+ global_events_settings.0004.nw_toggle_off:0 "Sprawy Nocnej Straży mnie nie dotyczą."
+ global_events_settings.0004.nw_toggle_off.tt:0 "Obecnie #P #bold BĘDZIESZ#!#! informowany, gdy zostanie wybrany nowy Główny Dowódca Nocnej Straży."
+
+ agot_house_maintenance.1000.t:0 "Przegląd waśni rodowych"
+ agot_house_maintenance.1000.desc:0 "Mój panie, oto wszystkie znane waśnie rodowe:"
+ agot_house_maintenance.1000.desc_none:0 "Mój panie, nie ma znanych waśni rodowych."
+
+ ###############################################################
+ ## Zarządzanie bankiem ##
+ ###############################################################
+ #Lokalizacja decyzji
+ manage_bank_decision:0 "Zarządzaj bankiem"
+ manage_bank_decision_desc:0 "Jako dyrektor banku mam wiele sposobów, by poprowadzić bank ku dochodowej przyszłości."
+ manage_bank_decision_tooltip:0 "Wybierz, które polityki banku chcesz zmienić"
+ manage_bank_decision_confirm:0 "Wezwij urzędnika."
+ manage_bank_decision_effect:0 "Wybierz, które polityki banku chcesz zmienić"
+ CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON:0 "Wybierz temat"
+
+ set_risk_level_name:0 "Zmień poziom ryzyka"
+ set_risk_level_tooltip:0 "Będziesz mógł wybrać między niskim, średnim i wysokim poziomem ryzyka dla pożyczek i inwestycji."
+
+ set_dividend_level_name:0 "Dostosuj stopy dywidend"
+ set_dividend_level_tooltip:0 "Będziesz mógł wybrać między niskim, średnim i wysokim poziomem dywidend."
+
+ set_interest_level_name:0 "Dostosuj stopy procentowe"
+ set_interest_level_tooltip:0 "Będziesz mógł wybrać między niższymi, normalnymi i wyższymi stopami procentowymi. Im niższa stopa, tym więcej klientów przyciągniesz, ale niższy będzie twój zysk z pożyczki, i odwrotnie."
+
+ delegate_defaulter_handling_name:0 "Deleguj zarządzanie niespłaconymi pożyczkami"
+ delegate_defaulter_handling_tooltip:0 "Nie będziesz już otrzymywać wiadomości o niespłaconych pożyczkach."
+
+ handle_defaulters_again_name:0 "Zarządzaj niespłaconymi pożyczkami"
+ handle_defaulters_again_tooltip:0 "Otrzymasz wiadomość za każdym razem, gdy pojawi się niespłacona pożyczka."
+
+ investments_forbidden_name:0 "Odrzuć nowe inwestycje"
+ investments_forbidden_tooltip:0 "Tylko Ty będziesz mógł inwestować w bank."
+
+ investments_allowed_name:0 "Zezwól na nowe inwestycje"
+ investments_allowed_tooltip:0 "Każda postać w Twoim królestwie będzie mogła inwestować w bank."
+
+ #####################################
+ ## decyzja adopt_personal_coa ##
+ #####################################
+
+ adopt_personal_coa:0 "Przyjmij własny herb"
+ adopt_personal_coa_desc:0 "Zestaw osobistych herbów może bardziej wyróżnić mnie od mojego rodu i rodziny."
+ adopt_personal_coa_confirm:0 "Zrób to."
+ adopt_personal_coa_tooltip:0 "Przyjmij własny herb"
+ adopt_personal_coa_effect_tt:0 "Zyskasz osobisty herb, który będzie wyświetlany obok herbu Twojego rodu."
+ pcoa_plain:0 "Prosty herb"
+ pcoa_plain_tooltip:0 "Zyskasz osobisty herb identyczny z herbem Twojego rodu. Idealny do personalizacji."
+ pcoa_nickname:0 "Herb na podstawie przezwiska"
+ pcoa_nickname_tooltip:0 "Zyskasz osobisty herb oparty na Twoim przezwisku."
+ pcoa_ancestral_quartering:0 "Herb z rodowodem"
+ pcoa_ancestral_quartering_tooltip:0 "Zyskasz osobisty herb podzielony na ćwiartki z herbem przodków."
+ pcoa_religious:0 "Herb na podstawie wiary"
+ pcoa_religious_tooltip:0 "Zyskasz osobisty herb oparty na Twojej wierze."
+ pcoa_fourth_child:0 "Herb na podstawie czwartego dziecka"
+ pcoa_fourth_child_tooltip:0 "Zyskasz osobisty herb, który jest herbem Twojego rodu powtórzonym cztery razy."
+ adopt_personal_coa_decision_next_stop_button:0 "Kontynuuj"
+ personal_coa_name_gui:0 "Osobisty herb"
+ coa_new_name:0 ""
+ pcoa_random:0 "Losowy herb"
+ pcoa_random_tooltip:0 "Zyskasz losowo wygenerowany osobisty herb."
+ CUSTOMIZE_PERSONAL_ARMS:0 "#T Dostosuj własny herb#!\nOtwórz menu personalizacji, aby edytować swój osobisty herb."
+
+ #####################################
+
+## Decyzja o izolacji królestwa podczas epidemii ##
+#####################################
+########### Opcja zamknięcia
+ control_realm_borders_close_decision:0 "Izoluj królestwo"
+ control_realm_borders_decision:0 "Rozpocznij izolację"
+ control_realm_borders_decision_desc:0 "$control_realm_borders_decision$"
+ control_realm_borders_decision_tooltip:0 "Ogranicz podróże do swojego królestwa i zapobiegaj rozprzestrzenianiu się epidemii apokaliptycznej."
+ control_realm_borders_decision_alert_tt:0 "Twoje królestwo musi być wolne od apokaliptycznych epidemii."
+ control_realm_borders_decision_confirm:0 "$control_realm_borders_decision$"
+ # Opis otwarcia
+ control_realm_borders_close_decision_opening_desc.dorne:0 "Mogę ograniczyć podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], aby zapobiec rozprzestrzenianiu się zakażenia na moje włości. Zazwyczaj jest to bardzo skuteczne."
+ control_realm_borders_close_decision_opening_desc.vale:0 "Mogę ograniczyć podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], aby zapobiec rozprzestrzenianiu się zakażenia na moje włości. Zazwyczaj jest to bardzo skuteczne."
+ control_realm_borders_close_decision_opening_desc.north:0 "Mogę ograniczyć podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], aby zapobiec rozprzestrzenianiu się zakażenia na moje włości. Zazwyczaj jest to bardzo skuteczne."
+ control_realm_borders_close_decision_opening_desc.iron_islands:0 "Mogę ograniczyć podróże do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], aby zapobiec rozprzestrzenianiu się zakażenia na moje włości. Zazwyczaj jest to bardzo skuteczne."
+ # Opis podpowiedzi
+ control_realm_borders_close_decision_tooltip.dorne:0 "Ogranicz podróże do [ROOT.Char.GetPrimaryTitle.GetName] i zapobiegaj rozprzestrzenianiu się epidemii apokaliptycznej."
+ control_realm_borders_close_decision_tooltip.vale:0 "Ogranicz podróże do [ROOT.Char.GetPrimaryTitle.GetName] i zapobiegaj rozprzestrzenianiu się epidemii apokaliptycznej."
+ control_realm_borders_close_decision_tooltip.north:0 "Ogranicz podróże do [ROOT.Char.GetPrimaryTitle.GetName] i zapobiegaj rozprzestrzenianiu się epidemii apokaliptycznej."
+ control_realm_borders_close_decision_tooltip.iron_islands:0 "Ogranicz podróże do [ROOT.Char.GetPrimaryTitle.GetName] i zapobiegaj rozprzestrzenianiu się epidemii apokaliptycznej."
+ # Opis efektu
+ control_realm_borders_close_effect_tt.dorne:0 "Ograniczysz podróże do [title.GetName] i będziesz wysoce odporny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_close_effect_tt.vale:0 "Ograniczysz podróże do [title.GetName] i będziesz wysoce odporny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_close_effect_tt.north:0 "Ograniczysz podróże do [title.GetName] i będziesz wysoce odporny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_close_effect_tt.iron_islands:0 "Ograniczysz podróże do [title.GetName] i będziesz wysoce odporny na rozprzestrzenianie się epidemii apokaliptycznej."
+
+########### Opcja otwarcia
+ control_realm_borders_open_decision:0 "Zakończ izolację królestwa"
+ uncontrol_realm_borders_decision:0 "Zakończ izolację"
+ uncontrol_realm_borders_decision_desc:0 "$uncontrol_realm_borders_decision$"
+ uncontrol_realm_borders_decision_tooltip:0 "Pozwól na podróże do swojego królestwa i ryzykuj rozprzestrzenianie się epidemii apokaliptycznej."
+ uncontrol_realm_borders_decision_alert_tt:0 "Twoje królestwo musi być wcześniej odizolowane od epidemii apokaliptycznych."
+ uncontrol_realm_borders_decision_confirm:0 "$uncontrol_realm_borders_decision$"
+ # Opis otwarcia
+ control_realm_borders_open_decision_opening_desc.dorne:0 "Mogę ponownie pozwolić na podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ale ryzyko rozprzestrzeniania się zakażenia będzie większe."
+ control_realm_borders_open_decision_opening_desc.vale:0 "Mogę ponownie pozwolić na podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ale ryzyko rozprzestrzeniania się zakażenia będzie większe."
+ control_realm_borders_open_decision_opening_desc.north:0 "Mogę ponownie pozwolić na podróże na drogach i do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ale ryzyko rozprzestrzeniania się zakażenia będzie większe."
+ control_realm_borders_open_decision_opening_desc.iron_islands:0 "Mogę ponownie pozwolić na podróże do portów [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ale ryzyko rozprzestrzeniania się zakażenia będzie większe."
+ # Opis podpowiedzi
+ control_realm_borders_open_decision_tooltip.dorne:0 "Pozwól na podróże do [ROOT.Char.GetPrimaryTitle.GetName] i ryzykuj rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_decision_tooltip.vale:0 "Pozwól na podróże do [ROOT.Char.GetPrimaryTitle.GetName] i ryzykuj rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_decision_tooltip.north:0 "Pozwól na podróże do [ROOT.Char.GetPrimaryTitle.GetName] i ryzykuj rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_decision_tooltip.iron_islands:0 "Pozwól na podróże do [ROOT.Char.GetPrimaryTitle.GetName] i ryzykuj rozprzestrzenianie się epidemii apokaliptycznej."
+ # Opis efektu
+ control_realm_borders_open_effect_tt.dorne:0 "Ponownie pozwolisz na podróże do [title.GetName], ale będziesz podatny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_effect_tt.vale:0 "Ponownie pozwolisz na podróże do [title.GetName], ale będziesz podatny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_effect_tt.north:0 "Ponownie pozwolisz na podróże do [title.GetName], ale będziesz podatny na rozprzestrzenianie się epidemii apokaliptycznej."
+ control_realm_borders_open_effect_tt.iron_islands:0 "Ponownie pozwolisz na podróże do [title.GetName], ale będziesz podatny na rozprzestrzenianie się epidemii apokaliptycznej."

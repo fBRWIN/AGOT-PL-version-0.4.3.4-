@@ -1,0 +1,165 @@
+﻿l_english:
+#Clothing Styles
+andal_clothing_gfx:0 "Odzież Andalska"
+andalosi_clothing_gfx:0 "Wykwintność Andalów"
+axeman_clothing_gfx:0 "Zestaw Andalski"
+crownlander_clothing_gfx:0 "Odzież Koronnych"
+
+clawman_clothing_gfx:0 "Zbroja Crackclaw"
+
+valeman_clothing_gfx:0 "Wykwintność Valisza"
+moonman_clothing_gfx:0 "Zestaw Valisza"
+sisterman_clothing_gfx:0 "Odzienie Sistermanów"
+
+stormlander_clothing_gfx:0 "Odzież Burzowych"
+marcher_clothing_gfx:0 "Zestaw Marcherów"
+
+reachman_clothing_gfx:0 "Wykwintność Mandera"
+honeywiner_clothing_gfx:0 "Odzież Oldtown"
+vineman_clothing_gfx:0 "Odzież Arboru"
+shieldman_clothing_gfx:0 "Odzienie Shieldmanów"
+
+riverlander_clothing_gfx:0 "Odzież Rzeki"
+
+westerman_clothing_gfx:0 "Regalia Zachodnich"
+
+first_man_clothing_gfx:0 "Odzież Pierwszego Człowieka"
+northman_clothing_gfx:0 "Odzież Północy"
+hill_clansman_clothing_gfx:0 "Zestaw Północnego Klanu"
+crannogman_clothing_gfx:0 "Odzienie Necku"
+wolfswood_clansman_clothing_gfx:0 "Odzież Wolfswood"
+harborman_clothing_gfx:0 "Wykwintność Białego Portu"
+krakenman_clothing_gfx:0 "Zestaw Północnych"
+
+ironborn_clothing_gfx:0 "Zestaw Żelaznych"
+greenborn_clothing_gfx:0 "Wykwintność Żelaznych"
+
+wildling_clothing_gfx:0 "Łachmany Dzikusów"
+mountain_clansman_clothing_gfx:0 "Skórzane Łachmany"
+
+rhoynish_clothing_gfx:0 "Odzież Rhoynish"
+greenblood_clothing_gfx:0 "Odzież Greenbloodów"
+dornish_clothing_gfx:0 "Odzież Dornijczyków"
+salt_dornish_clothing_gfx:0 "Odzież Dornijczyków"
+sand_dornish_clothing_gfx:0 "Tkanina Dornijczyków"
+stone_dornish_clothing_gfx:0 "Zestaw Dornijczyków"
+summer_rhoynish_clothing_gfx:0 "Odzież Rhoynish"
+
+valyrian_clothing_gfx:0 "Wykwintność Wolnego Miasta"
+high_valyrian_clothing_gfx:0 "Szaty Dragonlordów"
+westerosi_valyrian_clothing_gfx:0 "Szaty Westerosi Valyrian"
+essosi_valyrian_clothing_gfx:0 "Szaty Essosi Valyrian"
+volantene_clothing_gfx:0 "Odzież Volantene"
+lyseni_clothing_gfx:0 "Regalia Lyseni"
+tyroshi_clothing_gfx:0 "Wykwintność Tyroshi"
+myrish_clothing_gfx:0 "Koronkowa Odzież Myrish"
+hartalari_clothing_gfx:0 "Sznury Hartalarów"
+pentoshi_clothing_gfx:0 "Suknia Pentoshi"
+qohorik_clothing_gfx:0 "Tkanina Qohorik"
+norvoshi_clothing_gfx:0 "Odzież Norvoshi"
+lorathi_clothing_gfx:0 "Odzież Lorathi"
+braavosi_clothing_gfx:0 "Wykwintność Braavosi"
+
+dothraki_clothing_gfx:0 "Skórzane Odzienie Dothraków"
+
+summer_islander_clothing_gfx:0 "Płaszcze z Piór"
+
+narrow_sea_clothing_gfx:0 "Piracka Ozdoba"
+
+ghiscari_clothing_gfx:0 "Harpiowska Regalia"
+
+hyrkooni_clothing_gfx:0 "Szkarłatne Zestawy"
+
+ibbenese_clothing_gfx:0 "Odzież Whalersów"
+
+sarnori_clothing_gfx:0 "Srebrne Szaty"
+
+#Architectural Styles
+yitish_building_gfx:0 "Architektura YiTish"
+ghis_building_gfx:0 "Architektura Ghiscari"
+barrow_building_gfx:0 "Architektura Barrowmanów"
+red_andal_building_gfx:0 "Architektura Gór Księżyca"
+andal_building_gfx:0 "Architektura Andalów"
+igloos_building_gfx:0 "Architektura Zimnych Tribów"
+woodland_building_gfx:0 "Architektura Leśnych Tribów"
+westerman_building_gfx:0 "Architektura Zachodnich"
+riverlander_building_gfx:0 "Architektura Rzek"
+reach_building_gfx:0 "Architektura Reach"
+first_man_building_gfx:0 "Architektura Północnych"
+wildling_building_gfx:0 "Architektura Dzikich"
+summer_islander_building_gfx:0 "Architektura Wysp Latem"
+crannogman_building_gfx:0 "Architektura Necku"
+rough_building_gfx:0 "Architektura Górskich Tribów"
+lyseni_building_gfx:0 "Architektura Lyseni"
+dothraki_building_gfx:0 "Architektura Dothraków"
+thenn_building_gfx:0 "Architektura Bronzu"
+hyrkoon_building_gfx:0 "Architektura Hyrkoon"
+qartheen_building_gfx:0 "Architektura Qartheenów"
+crownlands_building_gfx:0 "Architektura Koronnych"
+stormlands_building_gfx:0 "Architektura Burzowych"
+ironmen_building_gfx:0 "Architektura Żelaznych"
+high_valyrian_building_gfx:0 "Architektura Wysokich Valyrianów"
+volantene_building_gfx:0 "Architektura Volantene"
+norvoshi_building_gfx:0 "Architektura Norvoshi"
+pentoshi_building_gfx:0 "Architektura Pentoshi"
+braavosi_building_gfx:0 "Architektura Braavosi"
+tyrosh_building_gfx:0 "Architektura Tyroshi"
+
+#CoA Styles
+andal_coa_gfx:0 "Heraldyka Andali"
+first_man_coa_gfx:0 "Heraldyka Runiczna"
+dornish_coa_gfx:0 "Heraldyka Rhoynarów"
+valyrian_coa_gfx:0 "Heraldyka Wolnego Miasta"
+ironborn_coa_gfx:0 "Heraldyka Drowned"
+ancient_races_coa_gfx:0 "Heraldyka Starożytnych"
+dothraki_coa_gfx:0 "Heraldyka Dothraków"
+ghiscari_coa_gfx:0 "Heraldyka Harpii"
+hyrkooni_coa_gfx:0 "Heraldyka Hyrkoon"
+ibbenese_coa_gfx:0 "Heraldyka Ibbenese"
+lhazareen_coa_gfx:0 "Heraldyka Lhazaar"
+qaathi_coa_gfx:0 "Heraldyka Qaathi"
+sarnori_coa_gfx:0 "Heraldyka Sarnori"
+summer_islander_coa_gfx:0 "Heraldyka Wysp Latem"
+wildling_coa_gfx:0 "Heraldyka Wolnych Ludzi"
+
+
+#Vanilla Overrides in culture_gfx_l_english
+
+ #Style architektoniczne
+
+# african_building_gfx:0 "Sothoryjska Tribu"
+# western_building_gfx:0 "Stara Andalska"
+# mediterranean_building_gfx:0 "Miejska Andalska"
+# mena_building_gfx:0 "Piaskowiec"
+# indian_building_gfx:0 "Stara Essosi"
+# norse_building_gfx:0 "Drewniany Kamień"
+# steppe_building_gfx:0 "Nomadyczny Jeździec"
+# iberian_building_gfx:0 "Andalo-Rhoynar"
+# iranian_building_gfx:0 "Książęca Rhoynar"
+
+#Style jednostek
+# eastern_unit_gfx:0 "Stal Wolnego Miasta"
+# indian_unit_gfx:0 "Essosi Stal"
+# mena_unit_gfx:0 "Nadmorska Włócznia"
+# mongol_unit_gfx:0 "Jeździec"
+# norse_unit_gfx:0 "Żelazny Najazd"
+# northern_unit_gfx:0 "Zimna Stal"
+# sub_sahran_unit_gfx:0 "Pustynna Stal"
+# western_unit_gfx:0 "Westerosi Stal"
+# iberian_christian_unit_gfx:0 "Nadmorskie Tarczę"
+# iberian_muslim_unit_gfx:0 "Andalo-Rhoynar"
+# iranian_unit_gfx:0 "Srebrna Stal"
+
+valeman_unit_gfx:0 "Valisz"
+reachman_unit_gfx:0 "Reachman"
+honeywiner_unit_gfx:0 "Honeywiner"
+stormlander_unit_gfx:0 "Burzowy"
+westerman_unit_gfx:0 "Zachodni"
+riverlander_unit_gfx:0 "Rzeka"
+ironborn_unit_gfx:0 "Żelazni"
+northman_unit_gfx:0 "Północny"
+high_valyrian_unit_gfx:0 "Wysoki Valyrian"
+westerosi_valyrian_unit_gfx:0 "Westerosi Valyrian"
+dornish_unit_gfx:0 "Dornijczyk"
+stone_dornish_unit_gfx:0 "Kamienny Dornijczyk"
+

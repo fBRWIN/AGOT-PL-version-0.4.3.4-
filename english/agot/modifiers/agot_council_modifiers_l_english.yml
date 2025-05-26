@@ -1,0 +1,61 @@
+﻿l_english:
+ councillor_personal_steward_diplomacy_1_modifier:0 "Ekspertyza Dyplomatyczna"
+ councillor_personal_steward_diplomacy_2_modifier:0 "Zaawansowana Ekspertyza Dyplomatyczna"
+ councillor_personal_steward_martial_1_modifier:0 "Ekspertyza Strategiczna"
+ councillor_personal_steward_martial_2_modifier:0 "Zaawansowana Ekspertyza Strategiczna"
+ councillor_personal_steward_stewardship_1_modifier:0 "Ekspertyza Architektoniczna"
+ councillor_personal_steward_stewardship_2_modifier:0 "Zaawansowana Ekspertyza Architektoniczna"
+ councillor_personal_steward_intrigue_1_modifier:0 "Ekspertyza Wybiegów"
+ councillor_personal_steward_intrigue_2_modifier:0 "Zaawansowana Ekspertyza Wybiegów"
+ councillor_personal_steward_learning_1_modifier:0 "Ekspertyza Naukowa"
+ councillor_personal_steward_learning_2_modifier:0 "Zaawansowana Ekspertyza Naukowa"
+
+ personal_steward_health_modifier:0 "Życie w Zdrowiu"
+ personal_steward_health_modifier_desc:0 "Ta postać prowadzi zdrowe i komfortowe życie"
+ personal_steward_encouraged_growth_modifier:0 "Zachęcony Rozwój"
+ personal_steward_encouraged_growth_modifier_desc:0 "Lepsze kontrakty i umowy handlowe pozwoliły temu hrabstwu szybciej się rozwijać"
+ personal_steward_increased_defenses_modifier:0 "Zwiększone Obrony"
+ personal_steward_increased_defenses_modifier_desc:0 "Osobisty steward władcy Straży zadbał o wzmocnienie obrony przed nieuczciwymi intrygami"
+ personal_steward_successful_business_modifier:0 "Udane Przedsięwzięcia Biznesowe"
+ personal_steward_successful_business_modifier_desc:0 "To [county|E] przeżywa okres wzrostu i dobrobytu po udanych przedsięwzięciach biznesowych."
+ personal_steward_failed_business_modifier:0 "Nieudane Przedsięwzięcia Biznesowe"
+ personal_steward_failed_business_modifier_desc:0 "To [county|E] przeżywa okres niestabilności po nieudanych przedsięwzięciach biznesowych."
+
+ #  task_personal_steward_default_diplomacy_modifier:0 "Pomoc od [personal_steward|E]"
+ #  task_personal_steward_default_martial_modifier:0 "Pomoc od [personal_steward|E]"
+ #  task_personal_steward_default_stewardship_modifier:0 "Pomoc od [personal_steward|E]"
+ #  task_personal_steward_default_intrigue_modifier:0 "Pomoc od [personal_steward|E]"
+ #  task_personal_steward_default_learning_modifier:0 "Pomoc od [personal_steward|E]"
+
+ councillor_personal_steward_health_modifier:0 "Uważna Opieka"
+ councillor_personal_steward_health_modifier_desc:0 "Otrzymuje bliską osobistą opiekę przy ranach i chorobach."
+ councillor_personal_steward_mercenary_cost_modifier:2 "Negocjowane Kontrakty z Najemnikami"
+ councillor_personal_steward_mercenary_cost_modifier_desc:0 "Osobisty steward tej postaci przygotował negocjacje z najemnikami w regionie."
+ councillor_personal_steward_chivalric_boost_modifier:1 "Chwalebny Steward"
+ councillor_personal_steward_chivalric_boost_modifier_desc:0 "Osobisty steward tej postaci inspiruje żołnierzy i przypomina królestwu, za co warto walczyć."
+ councillor_personal_steward_army_organization_modifier:0 "Osobisty Steward Zaangażowany w Organizację"
+ councillor_personal_steward_army_organization_modifier_desc:0 "Osobisty steward tej postaci zainteresował się organizacją i strukturą straży."
+ councillor_personal_steward_inspired_troops_county_modifier:0 "Skoncentrowane Rekrutacje"
+ councillor_personal_steward_inspired_troops_county_modifier_desc:0 "Rekrutacja wojsk jest starannie organizowana w tym hrabstwie."
+ personal_steward_martial_personal_guard_modifier:0 "Osobista Gwardia"
+ personal_steward_martial_personal_guard_modifier_desc:0 "Osobisty steward tej postaci zorganizował osobistą gwardię na jej usługach."
+ personal_steward_martial_increased_levy_modifier:0 "Prywatna Levy"
+ personal_steward_martial_increased_levy_modifier_desc:0 "Osobisty steward tej postaci zorganizował prywatną levy, aby wspierać jej wysiłki militarne."
+ personal_steward_martial_cowed_vassal_modifier:0 "Zgnębiony Wasal"
+ personal_steward_martial_cowed_vassal_modifier_desc:0 "Ten wasal został całkowicie zastraszony przez swojego suwerena pokazem siły militarnej."
+
+ #Admiral
+
+ councillor_admiral_modifier:0 "Admiral suwerena [admiral|E]"
+
+
+#Castellan
+
+councillor_castellan_modifier:0 "Castellan suwerena [castellan|E]"
+
+
+ task_castellan_default_diplomacy_modifier:0 "Pomoc od Castellana"
+ task_castellan_default_martial_modifier:0 "Pomoc od Castellana"
+ task_castellan_default_stewardship_modifier:0 "Pomoc od Castellana"
+ task_castellan_default_intrigue_modifier:0 "Pomoc od Castellana"
+ task_castellan_default_learning_modifier:0 "Pomoc od Castellana"

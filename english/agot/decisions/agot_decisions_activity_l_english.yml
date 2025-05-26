@@ -1,0 +1,8 @@
+﻿l_english:
+ agot_go_on_reaving_decision:0 "Wyprawa na Grabież"
+ agot_go_on_reaving_decision_opening_desc:0 "#F Zapłać Żelazną Cenę i zorganizuj wielką wyprawę, aby spalić ziemie po drugiej stronie Wąskiego Morza. Żelazni ludzie przybędą z całego królestwa na Twoją flotę, by rabować te ziemie pełne szafranu i jedwabiu!#!"
+ reaving_effect_1:0 "Wybierzesz cel, gotowy do plądrowania"
+ reaving_effect_2:0 "Im bardziej udana Twoja grabież, tym więcej [pobożności|E] i [prestiżu|E] zdobędziesz"
+ reaving_effect_3:0 "Możesz zdobyć cechę [GetTrait('viking').GetName( GetNullCharacter )]"
+ agot_go_on_reaving_decision_tooltip:0 "Ogłoszona zostanie wielka [grabież|E]."
+ agot_go_on_reaving_decision_confirm:0 "Zielonogródzi będą się bać Żelaznych Ludzi!"

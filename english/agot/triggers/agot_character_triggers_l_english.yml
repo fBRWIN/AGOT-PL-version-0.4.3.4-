@@ -1,0 +1,5 @@
+﻿l_english:
+
+ NOT_CHARACTER_ARE_IS_INCAPABLE: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] nie jest niezdolny"
+ IS_NOT_A_HEIR_TO_A_TITLE:0 "Nie jest #bold dziedzicem tytułu#!"
+ PLACE_IN_LINE_OF_SUCCESSION:0 "Miejsce w linii sukcesji jest #bold nie#! mniejsze lub równe 2"

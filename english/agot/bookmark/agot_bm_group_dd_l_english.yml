@@ -1,0 +1,27 @@
+﻿l_english:
+ agot_bm_group_8277:0 "277 r. n. e."
+ agot_bm_8277:0 "Sprzeciw wobec Duskendale"
+ agot_bm_8277_desc:0 "Kiedyś obiecujące panowanie Króla Aerysa II Targaryena znalazło się w niebezpiecznej sytuacji: przez wiele lat krążyły plotki i intrygi wokół Króla i jego Handa, a między dwoma dawnymi przyjaciółmi powstała szeroka szczelina. Teraz Lord Denys Darklyn wykorzystał tę różnicę na swoją korzyść, przyciągając Króla, by ten przyjechał do Duskendale — tylko po to, by zostać wziętym jako zakładnik.\n\nGry o władzę między Lordem Tywinem Lannisterem a Królem pozwoliły Darklynom zdobyć przewagę nad Żelaznym Tronem, jakiej nie miało żadne inne Domostwo... #bold Jednakże ambitne marzenia często prowadzą do pochopnych decyzji, a los legendarnego Domu Darklyn wisi na włosku.#!"
+
+ bookmark_277_tywin_lannister:0 "Lord Tywin"
+ bookmark_277_tywin_lannister_desc:0 "[Concept( 'story_content_tywin_lannister_277', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_tywin_lannister_277', '$bm_story_content_available_copy|q$' )|E]\nDumny Lord Tywin pełnił funkcję Handa Króla przez piętnaście lat — dłużej niż żyły jego własne dzieci. Uznawany za jednego z najlepszych, którzy kiedykolwiek pełnili tę funkcję, wielu szepcze, że to on naprawdę zasiada na tronie, ratując królestwo przed coraz bardziej nieprzewidywalnym kaprysem Króla. Ich relacje się pogarszają, a Tywin spędza coraz więcej czasu, próbując uspokoić swojego dawnego przyjaciela przed rosnącą paranoją.\n\n#bold Aerys zignorował radę swojego Handa i postanowił samodzielnie zająć się sprawą House Darklyn, a Tywin znów musi posprzątać po Królu.#!"
+
+ bookmark_277_cersei_lannister:0 "Cersei"
+ bookmark_277_jaime_lannister:0 "Jaime"
+
+ bookmark_277_denys_darklyn:0 "Lord Denys"
+ bookmark_277_denys_darklyn_desc:0 "[Concept( 'story_content_denys_darklyn_277', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_denys_darklyn_277', '$bm_story_content_available_copy|q$' )|E]\nHouse Darklyn jest słynny z dostarczania więcej przysięgłych mieczy do Kingsguard niż jakikolwiek inny Dom, wielokrotnie udowadniając swoją wierność Koronie. Ale Denys Darklyn to człowiek dążący do skrajności — niektórzy mówią, że robi to, by pomóc ludziom w swoim mieście, inni, że pod wpływem rady jego żony z Myr. Tak czy inaczej, teraz staje w obliczu armii pod bramami swojego miasta prowadzonej przez straszliwego Handa Króla, Króla, którego trzyma w niewoli.\n\n#bold Czy sława House Darklyn zamieni się w infamię w okamgnieniu, czy też Lord Denys uda się wykorzystać bezpieczeństwo Króla dla większego dobrobytu swojego ludu?#!"
+
+ bookmark_277_lady_serala:0 "Lady Serala"
+ bookmark_277_jon_hollard:0 "Ser Jon"
+
+ bookmark_277_aerys_targaryen:0 "Król Aerys II"
+ bookmark_277_aerys_targaryen_desc:0 "[Concept( 'story_content_aerys_targaryen_277', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_aerys_targaryen_277', '$bm_story_content_available_copy|q$' )|E]\nAerys II, kiedyś uznawany za czarującego i sumiennego członka swojej dynastii, teraz jest dręczony plotkami i szeptami. Często przeskakuje z jednego planu na drugi, mówi się, że coraz bardziej wchodzi w konflikt ze swoim Handem — i niegdyś najbliższym przyjacielem — Tywinem Lannisterem.\n\n#bold Próba Króla, by pokazać swoją wolę i umiejętności w zajmowaniu się sprawą Darklynów z Duskendale, zakończyła się fiaskiem, ale czy cała nadzieja została zmarnowana, gdy siedzi uwięziony przez własnego wasala?#!"
+
+ bookmark_277_barristan_selmy:0 "Barristan 'Odważny'"
+
+ bookmark_277_rhaegar_targaryen:0 "Książę Rhaegar"
+ bookmark_277_rhaegar_targaryen_desc:0 "[Concept( 'story_content_rhaegar_targaryen_277', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_rhaegar_targaryen_277', '$bm_story_content_available_copy|q$' )|E]\nKsiążę Dragonstone, Rhaegar jest znany jako poważny i cichy człowiek, ale jeden z wielką inteligencją i stabilnością — szczególnie w porównaniu z nieprzewidywalną naturą swojego ojca. Nadal nieżonaty, wiele domów, wielkich i małych, ma nadzieję przyciągnąć młodego dziedzica swoimi córkami, chociaż zarówno on, jak i jego ojciec, mają surowe kryteria do takiego małżeństwa.\n\n#bold W obliczu niedawnego konfliktu w Duskendale, czy Rhaegar zobaczy, jak jego czas na Żelaznym Tronie zaczyna się szybciej niż się spodziewał?#!"
+
+ bookmark_277_elia_martell:0 "Księżniczka Elia"
+ bookmark_277_arthur_dayne:0 "Arthur Dayne"

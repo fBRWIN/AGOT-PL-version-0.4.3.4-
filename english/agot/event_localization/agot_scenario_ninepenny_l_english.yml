@@ -1,0 +1,459 @@
+﻿l_english:
+ # Intialisation
+
+################################
+# Dziewięciopenni Królowie
+# 0001 - 0099
+# autor: Badger
+################################
+ agot_ninepenny.0001.t:0 "Banda Dziewięciu"
+ agot_ninepenny.0001.desc:0 "„Każdy z nas wytnie sobie własne królestwo,” ogłasza [adarys.GetName] pod wielkim Drzewem Koron w Spornych Ziemiach. Moje dziedzictwo będzie ciężko zdobyte — przejęcie kontroli nad Złotą Kompanią nie było przecież łatwym wyczynem. Teraz, przede mną klęczy dziewięciu najbardziej nikczemnych banitów Essos... Tylko ktoś znany jako [ROOT.Char.GetNickname] mógł zdobyć takie poparcie.\n\nZ [saan.GetNickname], [old_mother.GetFirstNameNicknamed], [butcher.GetNickname], [bad_apple.GetNickname], [nine_eyes.GetNickname], [ebon_prince.GetNickname] i [lashare.GetNickname] u mego boku... Żelazny Tron będzie mój. Ale [ROOT.Char.Custom('BlackfyreRebellions')|l] będzie wymagać ostrożnych działań, bo moje kolejne kroki na pewno wywołają fale, które dotrą aż do małej rady Siedmiu Królestw. #bold Muszę się pospieszyć, zanim moi wrogowie przyniosą wojnę do mnie.#!"
+ agot_ninepenny.0001.a:0 "Osadzimy Srebrnotongiego w Tyrosh."
+ agot_ninepenny.0001.b:0 "Nie mam na to czasu. Zdobywamy Stopnie, a potem ruszamy na Westeros!"
+ agot_ninepenny.0001.b.alt:0 "Stara Matka przejmie Stopnie."
+ agot_ninepenny.0001.c:0 "Pirat chce Lys? Niech je dostanie!"
+ agot_ninepenny.0001.d:0 "Lashare zajmie Myr."
+ agot_ninepenny.0001.e:0 "Nine Eyes otrzyma Pentos."
+ agot_ninepenny.0001.f:0 "Nadszedł czas, by rościć sobie prawo do mojego dziedzictwa!"
+ agot_ninepenny.0001.g:0 "Mam już tego dość."
+
+ #Wydarzenie rekurencyjne
+ agot_ninepenny.0002.t:0 "$agot_ninepenny.0001.t$"
+ agot_ninepenny.0002.desc.tyrosh:0 "Z Tyrosh w zdolnych rękach mojego sojusznika [adarys.GetNameNicknamed], Banda Dziewięciu staje się coraz silniejsza. W moich oczach to cenny łup: [daemon.GetFirstNameNicknamed] kiedyś nazywał Tyrosh swoim domem, a wsparcie Blackfyre'ów nie będzie trudne do zdobycia przy nowym tyranie — erm, archonie.\n\nFortuna sprzyja odważnym, a ja muszę wykonać kolejny ruch czym prędzej. Panowie Westeros bez wątpienia już słyszeli plotki o moim zagrożeniu."
+ agot_ninepenny.0002.desc.lys:0 "Ziemie piratów dla pirackiego króla: Nikt nie nadaje się lepiej do rządzenia pięknym Lys niż [saan.GetNameNicknamed]. Bogactwo tego miasta również bardzo wesprze moją sprawę — a któż może oprzeć się wizycie w Ogrodzie Perfumowanym, by ulżyć stresowi wojny.\n\nAle czas nagli, i muszę szybko podjąć kolejne działania. Wieści o wyczynach Bandy Dziewięciu na pewno już dotarły do Westeros."
+ agot_ninepenny.0002.desc.pentos:0 "Podbicie Pentos dla mojego sojusznika [nine_eyes.GetNameNicknamed] będzie wielkim atutem dla Bandy Dziewięciu: cenny port bezpośrednio naprzeciw Królewskiej Przystani — i mojego dziedzictwa. Miasto okazało się tak podatne, jak głosiły opowieści.\n\nTchórzliwe serce nigdy nie zdobyło pięknej damy, a moja nagroda jest znacznie większa niż jakaś dama. Muszę działać szybko, korzystając z tego rozpędu w drodze do mojego królestwa."
+ agot_ninepenny.0002.desc.myr:0 "Myr to wspaniały łup dla [lashare.GetNameNicknamed], a jego rządy wzmocnią Bandę Dziewięciu: Choć sprawy sztuki i nauki niewiele mnie obchodzą, Morze Myrth zapewnia strategiczny przyczółek w drodze do Westeros.\n\nNasza potęga rośnie, ale rośnie też nasze niebezpieczeństwo. Siedem Królestw może w każdej chwili rzucić przeciwko nam swoją wspólną potęgę."
+ agot_ninepenny.0002.desc.stepstones:0 "Z Bandą Dziewięciu dzierżącą teraz Stopnie, jestem w zasięgu uderzenia w Żelazny Tron — potężna pozycja, lecz trudna do utrzymania. Moi wrogowie na pewno zauważą rosnącą armię Blackfyre'ów, więc muszę być przygotowany na atak w każdej chwili, jeśli sam nie ruszę na Siedem Królestw.\n\nMoje dziedzictwo jest tak blisko, że niemal je czuję... Metaliczny posmak krwi i żelaza... Moje przeznaczenie, sen Czarnego Smoka, czeka."
+ agot_ninepenny.0002.desc:0 "Po przedwczesnej śmierci [claimant.GetName] jest niewiele powodów, by kontynuować wojnę dla zmarłego [claimant.GetWomanMan]. Skierujemy naszą uwagę na ważniejsze sprawy.\n\nJak w ogóle tu trafiliśmy? Wszyscy się rozglądamy, każdy z Dziewięciu równie zdziwiony. No cóż, może pora na małą wojnę?"
+
+ agot_ninepenny.0003.t:0 "$agot_ninepenny.0001.t$"
+ agot_ninepenny.0003.desc:0 "#bold Żelazny Tron jest teraz mój!#!\n\nLata po tym, jak mój dziadek został odtrącony przez samozwańczego króla, Daerona Fałszywego, Blackfyre wreszcie zasiada sprawiedliwie na tronie Siedmiu Królestw. Jednak w moim królestwie są tacy, którzy będą wątpić w moją legitymację; wypada, abym zrobił wszystko, co w mojej mocy, by zacisnąć uścisk na szyi Westeros.\n\nGdybym pojął za żonę Targaryenkę, nikt nie wątpiłby w rodowód naszych dzieci. Istnienie męża jest problemem... ale nie takim, którego nie da się pokonać."
+ agot_ninepenny.0003.a:0 "Wezmę nową żonę."
+ agot_ninepenny.0003.b:0 "Podoba mi się ta jedna."
+ agot_ninepenny.0003.c:0 "Sam wybiorę sobie żonę!"
+
+ agot_ninepenny.0004.t:0 "$agot_ninepenny.0001.t$"
+ agot_ninepenny.0004.desc:0 "W Essos zbieranina piratów i najemników znana jako Banda Dziewięciu odnosi sukcesy w coraz bardziej niepokojącym tempie... [councillor.GetName] mówi mi, że ten [maelys.GetTitledFirstNameNicknamedRegnal], jak sam siebie nazywa, może okazać się większym zagrożeniem, niż początkowo sądzono — ośmielony sukcesami odniesionymi przez niego i jego dwór pełen wyniesionych rzezimieszków i najemników."
+ agot_ninepenny.0004.a:0 "Najlepszy będzie prewencyjny atak."
+ agot_ninepenny.0004.a.tt:0 "Wezwiesz chorągwie przeciwko pretendentowi Blackfyre i jego sojusznikom."
+ agot_ninepenny.0004.a.summerhall:0 "Porzucisz swoje plany wobec Summerhall."
+ agot_ninepenny.0004.b:0 "Ci Dziewięciopenni Królowie mnie nie obchodzą."
+
+ agot_ninepenny.0005.t:0 "Szturm"
+ agot_ninepenny.0005.desc:0 "[messenger.GetName] przychodzi do mnie z niefortunnymi wieściami: [king.Custom('InsultAdjective')] [king.GetName] zaczyna gromadzić [king.GetHerHis] siły... Musimy uderzyć teraz, by moje roszczenie nie przepadło w historii!"
+ agot_ninepenny.0005.a:0 "#bold Na wojnę!#!"
+
+ agot_ninepenny.0008.t:0 "Je­leń i Po­two­r"
+ agot_ninepenny.0008.desc:0 "Środek bitwy to miejsce, w którym czuję się #bold żywy#!. W przeciwieństwie do każdego nieszczęsnego młokosa, który akurat stanie mi na drodze. Jedno machnięcie mieczem przecina wroga na pół... cóż, prawie czysto, gdyby nie #bold krew#!.\n\nPrzede mną, w małym prześwicie między awangardą a tyłem, dostrzegam go: [baratheon.GetFullNameNicknamed], jeleń na jego sztandarze wyraźnie zdradza Dom [baratheon.GetHouse.GetName]. Taki przeciwnik będzie dla mnie łatwym łupem, a Targaryeńscy uzurpatorzy będą wściekli, jeśli zabiję takiego jelenia.\n\n[location.GetName] będzie końcem [baratheon.GetFirstNamePossessiveNoTooltip]."
+ agot_ninepenny.0008.a:0 "Przygotuj się, jeleniu."
+
+
+ agot_ninepenny.0009.t:0 "Potwór i Jeleń"
+ agot_ninepenny.0009.desc:0 "Przypływy i odpływy bitwy są niczym burza — trzask mieczy i tarcz przypomina grzmoty. Ludzie wokół mnie padają na ziemię, ich los przypieczętowany ostrzem.\n\nPrzede mną widzę żołnierza przeciętego na pół, krew i wnętrzności tryskają na boki, odsłaniając jego oprawcę: oblicze jak z piekieł, [maelys.GetFullNameNicknamed]. Wyraźnie mnie dostrzega po drugiej stronie małego prześwitu i rzuca się we wściekłym pędzie w moją stronę.\n\nUnoszę mój [baratheon.Custom('SignatureWeaponNameOrType')] i modlę się, by Wojownik dał mi siłę."
+ agot_ninepenny.0009.a:0 "[ROOT.Char.GetHouse.GetMotto]."
+
+ agot_ninepenny.0013.t:0 "Rycerz zboża"
+ agot_ninepenny.0013.desc:0 "Moja ręka w zbroi cofa się z czerwonej mgły, która kiedyś była twarzą tego człowieka. Odrzucam rycerza w barwach zboża i napełniam płuca siarką szalejącej bitwy. Niech przyjdzie następny, który spróbuje zabić prawowitego króla.\n\nSłyszę ryk, a przede mną rozmazuje się stal, tnąca ludzi noszących mój herb. W końcu, mogę mieć #bold godnego przeciwnika#!."
+ agot_ninepenny.0013.a:0 "Ten rycerz zboża zostanie wymłócony..."
+
+ agot_ninepenny.0014.t:0 "Pretendent"
+ agot_ninepenny.0014.desc:0 "Nie zyskuje się przydomka [selmy.GetNickname] — nadanego przez samego księcia — bez zasług. Moje panowanie na polu bitwy jest niezrównane, toruję sobie krwawy szlak przez żołnierzy pretendenta niczym kosa tnąca dojrzałe kłosy.\n\nPrzede mną widzę mojego wroga, mającego przydomek godny mojego: [maelys.GetNickname]. Nadszedł czas, aby żyć zgodnie z legendą... Czas #bold zabić pomyłkę bogów#!."
+ agot_ninepenny.0014.a:0 "Niech Wojownik da mi siłę."
+
+ agot_ninepenny.0020.t:0 "Narzekacze się zbierają"
+ agot_ninepenny.0020.desc:0 "Ledwie zasiadłem na Żelaznym Tronie, a [spokesperson.GetFirstNameNicknamed] podchodzi, chciwość błyszczy w [spokesperson.GetHerHis] oku.\n\n„Teraz, gdy masz swoje cenne królestwo, Wasza Miłości,” mówi [spokesperson.GetFirstNameNoTooltip], niemal szydząc, „czy dotrzymasz obietnicy, by pomóc każdemu z nas wyciąć własne królestwa?”"
+ agot_ninepenny.0020.a:0 "Chyba rzeczywiście to obiecałem..."
+ agot_ninepenny.0020.b:0 "Spadajcie wszyscy."
+
+ agot_ninepenny.0022.t:0 "$agot_ninepenny.0001.t$"
+ agot_ninepenny.0022.desc:0 "Wojna o Żelazny Tron może się skończyła, ale Banda Dziewięciu ma przed sobą jeszcze wiele zwycięstw. Ledwie schowamy miecze do pochew, a nasi wrogowie już ruszą przeciwko nam.\n\n[ninepenny_king.GetFirstNameNicknamed] zbliża się z pragnieniem zdobycia własnego królestwa — a mając za sobą potęgę Siedmiu Królestw, zamierzam mu je dać."
+
+ agot_ninepenny.0023.t:0 "Banda Królów"
+ agot_ninepenny.0023.loner:0 "Kurz po ostatnim podboju opadł, a ja stoję sam przed #bold moim#! Żelaznym Tronem: prawdziwy Król Andalów, Rhoynarów i Pierwszych Ludzi!\n\nChoć reszta Bandy Dziewięciu przepadła, teraz staję przed ostatecznym testem... muszę rządzić tym, co podbiliśmy. #weak Choć reszta mojej zbieraniny to już tylko duchy...#!"
+ agot_ninepenny.0023.desc:0 "Kurz po ostatnim podboju opadł, a Banda Dziewięciu zebrała się ponownie przed #bold moim#! Żelaznym Tronem. [ninepenny_king.GetFirstNameNicknamed] wznosi toast za [ROOT.Char.GetFullNameNicknamedRegnal], prawdziwego Króla Andalów, Rhoynarów i Pierwszych Ludzi!\n\nWojny zostały wygrane, nasze królestwa podbite... Teraz nadchodzi koniec naszej zbieraniny; #bold teraz musimy rządzić.#!"
+ agot_ninepenny.0023.a:0 "Niech rządzimy długo!"
+
+ agot_ninepenny.0024.t:0 "$agot_ninepenny.0001.t$, Rozpad"
+ agot_ninepenny.0024.desc:0 "Nieudana próba osadzenia [claimant.GetFirstNameNicknamed] sprawia, że nasza zbieranina Bandy Dziewięciu staje na rozdrożu... Lecieliśmy na skrzydłach zwycięstwa; żądło porażki nas przytłoczyło.\n\nZamiast bezmyślnie ruszać w kolejną wojnę, decydujemy się wrócić do własnych krain, zadowoleni z własnych zwycięstw."
+ agot_ninepenny.0024.a:0 "Rozchodzimy się."
+
+ agot_ninepenny.0030.prefix:0 "Nagradzanie lojalności:"
+
+ agot_ninepenny.0030.t:0 "$agot_ninepenny.0030.prefix$ Stara Matka"
+ agot_ninepenny.0030.desc:0 "Teraz, gdy kontroluję Siedem Królestw, powinienem nagrodzić lojalność moich zwolenników. Przez grube i cienkie walki piracka królowa [old_mother.GetNameNicknamed] pozostawała niezłomna w poparciu mojej kampanii. Dzięki temu zaangażowaniu będzie lojalnym wasalem jako władczyni Stopni."
+ agot_ninepenny.0030.a:0 "Tak, Stara Matka dostanie swoje roszczenie."
+ agot_ninepenny.0030.b:0 "Nie, całkiem lubię te skaliste wyspy."
+
+ agot_ninepenny.0031.t:0 "Moje własne królestwo"
+ agot_ninepenny.0031.desc:0 "Nasza zbieranina Bandy Dziewięciu zakończyła największy podbój, osadzając [maelys.GetFullNameNicknamedRegnal] na Żelaznym Tronie — zgodnie z #bold jego#! prawem urodzenia. Posłaniec wzywa mnie do sali tronowej Czerwonej Twierdzy, gdzie [maelys.GetFirstNameNoTooltip] wita mnie serdecznie, co jest wyraźną zmianą w jego zwykłym zachowaniu.\n\n„[ROOT.Char.GetFirstNameNicknamed], służyłeś mi wiernie w naszych wojnach,” mówi, z odrobiną czegoś, co może być uśmiechem na jego zniekształconej twarzy. „Za tę lojalność przyznam ci Królestwo Stopni.”"
+ agot_ninepenny.0031.a:0 "To dla mnie zaszczyt, Wasza Miłość."
+ agot_ninepenny.0031.a.tt:0 "Nawet jego zdeformowana druga głowa wydaje się uśmiechać. Co za widok!"
+
+ agot_ninepenny.0032.t:0 "$agot_ninepenny.0030.prefix$ Zgniłe Jabłko"
+ agot_ninepenny.0032.desc:0 "Teraz, gdy kontroluję Siedem Królestw, powinienem nagrodzić lojalność moich zwolenników. Dom [bad_apple.GetHouse.GetName] ma głębokie korzenie w Reach, a [bad_apple.GetFullNameNicknamed] byłby doskonałym — uległym — Lordem Paramountem.  Może powinienem dać Zgniłemu Jabłku kontrolę nad Reach?"
+ agot_ninepenny.0032.a:0 "Tak, będzie wspierał moje rządy."
+ agot_ninepenny.0032.b:0 "Nie, wolę pozostawić to bez zmian."
+
+ agot_ninepenny.0033.t:0 "$agot_ninepenny.0031.t$"
+ agot_ninepenny.0033.desc:0 "Nasza zbieranina Bandy Dziewięciu zakończyła największy podbój, osadzając [maelys.GetFullNameNicknamedRegnal] na Żelaznym Tronie — zgodnie z #bold jego#! prawem urodzenia. Posłaniec wzywa mnie do sali tronowej Czerwonej Twierdzy, gdzie [maelys.GetFirstNameNoTooltip] wita mnie serdecznie, co jest wyraźną zmianą w jego zwykłym zachowaniu.\n\n„[ROOT.Char.GetFirstNameNicknamed], służyłeś mi wiernie w naszych wojnach,” mówi, z odrobiną czegoś, co może być uśmiechem na jego zniekształconej twarzy. „Za tę lojalność przyznam ci Królestwo Reach.”"
+ agot_ninepenny.0033.a:0 "$agot_ninepenny.0031.a$"
+ agot_ninepenny.0033.a.tt:0 "Przysięgasz, że na chwilę widzisz, jak jego zdeformowana druga głowa się uśmiecha..."
+
+ agot_ninepenny.0034.t:0 "$agot_ninepenny.0030.prefix$ Ebonowy Książę"
+ agot_ninepenny.0034.desc:0 "Teraz, gdy kontroluję Siedem Królestw, powinienem nagrodzić lojalność moich zwolenników. Choć Wyspy Letnie są poza moim zasięgiem, może zadowolę Ebonowego Księcia potężnym siedliskiem na Smoczej Skale?"
+ agot_ninepenny.0034.a:0 "Jego rządy tylko wzmocnią moje własne."
+ agot_ninepenny.0034.b:0 "Nie, Smocza Skała nie jest odpowiednia."
+
+ agot_ninepenny.0035.t:0 "$agot_ninepenny.0031.t$"
+ agot_ninepenny.0035.desc:0 "Nasza zbieranina Bandy Dziewięciu zakończyła największy podbój, osadzając [maelys.GetFullNameNicknamedRegnal] na Żelaznym Tronie — zgodnie z #bold jego#! prawem urodzenia. Posłaniec wzywa mnie do sali tronowej Czerwonej Twierdzy, gdzie  [maelys.GetFirstNameNoTooltip] wita mnie serdecznie, co jest wyraźną zmianą w jego zwykłym zachowaniu.\n\n„[ROOT.Char.GetFirstNameNicknamed], służyłeś mi wiernie w naszych wojnach,” mówi, z odrobiną czegoś, co może być uśmiechem na jego zniekształconej twarzy. „Choć  chciałbym ci zaoferować Wyspy Letnie, mam nadzieję, że Smocza Skała zadowoli twoją lojalność.”"
+ agot_ninepenny.0035.a:0 "$agot_ninepenny.0031.a$"
+ agot_ninepenny.0035.a.tt:0 "Nigdy wcześniej nie widziałeś, żeby jego zdeformowana druga głowa wykonała jakikolwiek ruch, a jednak jej spojrzenie wbija się w ciebie. Obserwuje. Czeka."
+
+ agot_ninepenny.0036.t:0 "$agot_ninepenny.0030.prefix$ Rzeźnik"
+ agot_ninepenny.0036.desc:0 "Teraz, gdy kontroluję Siedem Królestw, powinienem nagrodzić lojalność moich zwolenników. Sporne Ziemie są niesławne, podobnie jak mój zwolennik [butcher.GetFirstNameNicknamed]... i odległe od mojego nowego tronu. Może powinienem oddać mu Sporne Ziemie, wiedząc, że będzie mnie nadal wspierał lojalnością?"
+ agot_ninepenny.0036.a:0 "Dobre miejsce dla Rzeźnika."
+ agot_ninepenny.0036.b:0 "Nie, mam inne plany dla tych ziem."
+
+ agot_ninepenny.0037.t:0 "$agot_ninepenny.0031.t$"
+ agot_ninepenny.0037.desc:0 "Nasza zbieranina Bandy Dziewięciu zakończyła największy podbój, osadzając [maelys.GetFullNameNicknamedRegnal] na Żelaznym Tronie — zgodnie z #bold jego#! prawem urodzenia. Posłaniec wzywa mnie do sali tronowej Czerwonej Twierdzy, gdzie [maelys.GetFirstNameNoTooltip] wita mnie serdecznie, co jest wyraźną zmianą w jego zwykłym zachowaniu.\n\n„[ROOT.Char.GetFullNameNicknamed], służyłeś mi wiernie w naszych wojnach,” mówi, z odrobiną czegoś, co może być uśmiechem na jego zniekształconej twarzy. „Za tę lojalność przyznam ci rządy nad Królestwem Spornych Ziem.”"
+ agot_ninepenny.0037.a:0 "$agot_ninepenny.0031.a$"
+ agot_ninepenny.0037.a.tt:0 "Czy jego zdeformowana druga głowa też się uśmiecha? Jimhaerys wpatruje się w twoje oczy — i w twoją duszę."
+
+ agot_ninepenny.0040.t:0 "Nienarodzony pretendent"
+ agot_ninepenny.0040.desc:0 "Wygląda na to, że moja nowa żona [wife.GetFullName] nosi w tym spuchniętym brzuchu bastarda z czerwonym smokiem. To może w przyszłości przysporzyć mi kłopotów. Moja pierwsza myśl to chwycić za nóż i wypruć go, ale maester [maester.GetFirstName] mówi mi, że to może zabić moją nową żonę. Sugeruje herbatkę, która rozwiąże problem za mnie..."
+ agot_ninepenny.0040.a:0 "Napije się tej szalonej księżycowej herbatki."
+ agot_ninepenny.0040.a.success.tt:0 "[wife.GetFirstName] wypiła księżycową herbatkę"
+ agot_ninepenny.0040.b:0 "Jestem [ROOT.Char.GetFirstNameNicknamedNoTooltip]! Nie boję się dziecka."
+
+ agot_ninepenny.0041.t:0 "$agot_ninepenny.0040.t$"
+ agot_ninepenny.0041.desc:0 " Maester [maester.GetName] przychodzi do mnie z poważnym wyrazem twarzy. Z pewnością [maester.GetSheHe] wie, co rośnie we mnie — i jakie zagrożenie takie dziecko stanowiłoby dla nowego króla.\n\n„Wasza Miłość, król polecił mi przygotować pewne... lekarstwo,” mamrocze [maester.GetFirstNameNoTooltip], a [maester.GetHerHis] słowa brzmią pusto i boleśnie. „Zostawię tutaj herbatkę i poczekam na zewnątrz. Proszę, to dla waszego dobra...”\n\nGdy [maester.GetSheHe] opuszcza moją komnatę, nie mogę powstrzymać myśli o [helaena.GetFullName] i wyborze, którego dokonała, gdy stanęła przed utratą swojego potomstwa... Okno w pobliżu jest uchylone, a żelazne kolce suchej fosy wokół Twierdzy Maegora oferują mi uwolnienie z tego więzienia."
+ agot_ninepenny.0041.a:0 " Wypiję księżycową herbatkę, dla własnego bezpieczeństwa."
+ agot_ninepenny.0041.a.success.tt:0 " [wife.GetFirstName] wypiła księżycową herbatkę"
+ agot_ninepenny.0041.b:0 " To życie nie jest warte przeżycia."
+
+ agot_ninepenny.0042.t:0 "$agot_ninepenny.0040.t$"
+ agot_ninepenny.0042.desc:0 " Maester [maester.GetName] wpada do mojej sypialni z wyrazem wyczerpania, [maester.GetHerHis] oczy pełne strachu — a może smutku?\n\n„Wasza Miłość, ogromnie mi... przykro...” Już wiem, że wieści są poważne, ale następne słowa [maester.GetHerHis] ranią mnie i zawstydzają, nawet moje okrutne serce: Moja żona, [wife.GetFirstName], rzuciła się z okna, zamiast wypić księżycową herbatkę, by zakończyć ciążę. Żelazne kolce suchej fosy wokół Twierdzy Maegora uwolniły ją z mojej służby."
+ agot_ninepenny.0042.a:0 " Więcej krwi rodu [wife.GetHouse.GetName] na moich rękach."
+ agot_ninepenny.0042.b:0 " #bold Ty#! na to pozwoliłeś, maesterze!"
+
+ agot_ninepenny.0050.t:0 " Wspomnienia o Reyne"
+ agot_ninepenny.0050.desc:0 " Ser [robb.GetFullNameNicknamed] był jednym z członków szlachetnej kompanii bohaterów Daemona Blackfyre’a. Jeden z najwspanialszych rycerzy swoich czasów, zginął dzielnie, wspierając roszczenia Czarnego Smoka.\n\nTeraz na wschodzie wschodzi nowy smok: [maelys.GetFullNameNicknamed]. Choć moja pierwsza myśl była, by trzymać się z dala i ocenić, jak [throne.GetFullNameNicknamedRegnal] poradzi sobie z wojną... pokusa, by przenieść spuściznę [robb.GetFirstNamePossessive] do obecnego konfliktu, jest kusząca..."
+ agot_ninepenny.0050.a:0 " Za Czarnego Smoka!"
+ agot_ninepenny.0050.b:0 " Te myśli są głupie."
+
+ agot_ninepenny.0060.t:0 " Zwoje Saana"
+ agot_ninepenny.0060.desc:0 " [saan.GetTitledFirstName] przyniósł mi dar — starożytne valyriańskie zwoje, które podobno zdobył podczas rajdu na Volantis. Język mojej dawnej ojczyzny jest mi dobrze znany, a sekrety zawarte na tych pergaminach są intrygujące.\n\nOpowiadają, jak obudzić smoki — i jaką cenę trzeba za to zapłacić. Jeśli odzyskam Westeros, ostatni żyjący smok bez wątpienia ugruntuje moją legitymację. Jednak cena jest wysoka: ofiara z #bold królewskiej krwi#!."
+ agot_ninepenny.0060.a:0 " Królewska krew płynie w żyłach mojego syna..."
+ agot_ninepenny.0060.a.tt:0 " Poświęcisz [maenar.GetName]"
+ agot_ninepenny.0060.b:0 " Te zwoje to może tylko tania błyskotka."
+
+  agot_ninepenny.0061.t:0 " Stos"
+ agot_ninepenny.0061.desc:0 " Moi ludzie zbudowali stos, układając wśród suchej podpałki kamienne jaja, które nosiłem ze sobą od dzieciństwa. Daję znak, a mój syn zostaje wyprowadzony z pawilonu. Panikuje, gdy widzi, co go czeka, strach i zrozumienie zalewają jego twarz.\n\n Ale nie ma się czego bać, odrodzi się pośród dymu i ognia w postaci najpotężniejszego drapieżnika. Zamieni ciało w łuski, a Ojciec Smoków odzyska swój tron."
+ agot_ninepenny.0061.a:0 " Twoja ofiara jest godna!"
+ agot_ninepenny.0061.a.tt:0 " Obudź smoki..."
+
+ agot_ninepenny.0062.t:0 " Zgaszone marzenie o smokach"
+ agot_ninepenny.0062.desc:0 " Krzyki... przeszywające i przenikliwe, potem cisza. Zapach, jak mięsa i skwarków pozostawionych zbyt długo na zbyt gorącym ruszcie. A po tym, jak ostatnie żarzące się węgle wygasły, kamienne jaja pozostały niezmienione. Ofiara mojego syna... na nic."
+ agot_ninepenny.0062.rage:0 " Gdy to do mnie dociera, czuję, jak wzbiera we mnie niekontrolowany gniew. Fala złości zalewa mnie, moje oczy ciemnieją. Tylko przez chwilę rozpoznaję uczucie mojej zniekształconej pięści rozbijającej nieobudzone jaja smoków... Potem znów cisza.\n\n Odłamki roztrzaskanych kamiennych jaj tną moje dłonie, a czerwona krew smoka spływa jasno po moich przedramionach."
+ agot_ninepenny.0062.sad:0 " Gdy to do mnie dociera, czuję... otępienie. Podchodzę do gniazda sadzy, podnosząc kamienne jaja z chłodną obojętnością. Ciszę chwili przerywa łoskot fal za mną, przyciągając mnie do wody.\n\n Te jaja są jedynie symbolem dawnej wielkości mojego rodu — ale prawdziwa siła płynie z krwi smoka w moich żyłach. Z lekkim ruchem rzucam jaja do morza."
+ agot_ninepenny.0062.a:0 " #bold Ja#! zdobędę Żelazny Tron."
+
+ agot_ninepenny.0063.t:0 " Syn za słońce"
+ agot_ninepenny.0063.desc:0 " Przenikliwe krzyki [maenar.GetFirstName] rozbrzmiewają w nocy, dźwięk bólu dziecka, gdy płomienie liżą jego ciało. Prawie się waham, ale myśl o odrodzeniu smoka podtrzymuje mnie. Płomienie rosną, zapach palonego ciała wypełnia powietrze, a krzyki przechodzą w ciszę.\n\n Przez chwilę boję się najgorszego, ale gdy cisza staje się nieznośna, głośny trzask rozbrzmiewa w nocy i przez cały świat.\n\n Na moich oczach jedno smocze jajo pęka, a mała, łuskowata główka wyłania się."
+ agot_ninepenny.0063.a:0 " Smoki powróciły!"
+
+ agot_ninepenny.0064.t:0 " Czarny Smok Wstaje!"
+ agot_ninepenny.0064.desc:0 " Wieść rozchodzi się jak ogień po Siedmiu Królestwach i dalej — smoki powróciły!\n\n Mówią, że [maelys.GetName] odprawił bluźnierczy rytuał z dawnych valyriańskich zwojów, poświęcając własnego syna w desperackiej próbie obudzenia ostatniego ze smoków. Ku przerażeniu Westeros i uciesze Band of Nine, rytuał się powiódł!\n\n Czarny Smok teraz wstaje na wschodzie, a Targaryenowie stają twarzą w twarz z tym, co kiedyś sami panowali: potęgą smoczego lorda."
+ agot_ninepenny.0064.a.maelys_positive:0 " Niesamowity obrót wydarzeń!"
+ agot_ninepenny.0064.a.maelys_negative:0 " Świat drży na wieść o tej strasznej nowinie!"
+
+ agot_ninepenny.0065.t:0 " Czarny Smok Wstaje!"
+ agot_ninepenny.0065.desc:0 " Wieść rozchodzi się jak ogień po Siedmiu Królestwach i dalej — smoki powróciły!\n\n Mówią, że [maelys.GetName] odprawił bluźnierczy rytuał z dawnych valyriańskich zwojów, poświęcając własnego syna w desperackiej próbie obudzenia ostatniego ze smoków i rytuał się powiódł!\n\n Wszystkie moje przygotowania i całe moje badania — a to Blackfyre przywrócił smoki.\n\n Życie za życie, czy to naprawdę cena, którą musiałbym zapłacić?"
+ agot_ninepenny.0065.a:0 " Robimy to, co musimy"
+ agot_ninepenny.0065.b:0 " Nie, nie zniosę tego"
+
+ agot_ninepenny.shatter_band_oathbreaker_tooltip:0 " Złamanie przysięgi spowoduje rozpad sojuszy Band of Nine"
+ agot_ninepenny.shatter_band_loss_tooltip:0 " Ta przegrana spowoduje rozpad sojuszy Band of Nine"
+
+ agot_ninepenny.1000.t:0 " Dziedzictwo Smoka"
+ agot_ninepenny.1000.desc:0 " Mój buntowniczy pierworodny [duncan.GetFirstNameNicknamed], którego pieśniarze słusznie nazywają „Księciem Ważek”, przyniósł wieści o wyjątkowej wronie z Smoczej Skały: Moja wnuczka [rhaella.GetFirstName] jest w ciąży z moim pierwszym prawnukiem!\n\n Choć ona i jej brat [aerys.GetFirstName] pobrali się ze sobą według obyczajów [ROOT.Char.GetHouse.GetName] — za namową swoich rodziców, którzy sprzeciwili się mojej woli w ten sam sposób — przynajmniej krew smoka pozostaje silna, a nasza linia będzie bezpieczna aż do czwartego pokolenia!\n\n Sądzę, że należy zorganizować wspaniałe święto. Takie, które zgromadzi każdego członka mojego upartego i niepokornego rodu we wspólnym celu. Może wielką ucztę w dawnej siedzibie mojego ojca Maekara w Summerhall?"
+ agot_ninepenny.1000.a:0 " #bold Ród smoka#! zbierze się na świętowanie!"
+ agot_ninepenny.1000.b:0 " Nie, nie Summerhall. Pamięć o moim ojcu mnie boli."
+
+ agot_ninepenny.1002.t:0 " Popiół na języku"
+ agot_ninepenny.1002.desc:0 " Znajduję się zgarbiony i obolały, przeglądając niekończące się petycje i ledwie ukryte groźby od lordów i rycerzy jęczących o swoich starożytnych prawach, które rzekomo zostały naruszone. Ludzie tak aroganccy, że wolą deptać prosty lud dla rozrywki, niż rządzić nim z mądrością, jak robił to imiennik mojego następcy.\n\n Jeśli srebrne języki i stalowe miecze nie ugną ich upartych kolan, może ogień smoka ukorzy ich serca. Przeszukuję każdy skrawek smoczej wiedzy, jaki kiedykolwiek zebrałem; desperacko interpretując bełkot maestrów, mądrych kobiet i uczonych z Cytadeli po Asshai, ale odpowiedź mi umyka!\n\n #WF Dzikie ognie...#! To słowo wślizguje się do moich myśli niczym [aerion.GetFirstNameNicknamed] odwiedzający mnie w środku nocy. Piromanci z Gildii Alchemików wiedzą o tej substancji więcej niż ktokolwiek inny. I chociaż mój brat był szalony i okrutny, a jego śmierć #italic wydawała się#! bezsensowna, rozumiał prostą prawdę: smoki rodzą się z #bold ognia i krwi#!."
+ agot_ninepenny.1002.a:0 " Wezwij Wielkiego Maestra. Mamy wiele do omówienia."
+
+
+ agot_ninepenny.1003.t:0 " Letni Pałac"
+ agot_ninepenny.1003.desc.rhae_dead:0 " Ród smoka się zbiera! Serce mi się raduje, widząc naszą rodzinę razem po raz kolejny.\n\n Żadne z nich nie rozumie chwały, jaka czeka Dom [ROOT.Char.GetHouse.GetName]... Zanim dzień się skończy, nasza potęga zostanie przywrócona, a symbol naszej dynastii znów zaryczy do życia!\n\n Przygotowania zostały zakończone, a ci, którzy są mi wierni, są już na miejscu. Dzięki sile #bold smoków#! wszyscy lordowie Siedmiu Królestw uklękną... ale najpierw ucztujemy!"
+ agot_ninepenny.1003.desc.egg:0 " Ród smoka się zbiera! Widzę moich zbłąkanych dzieci, wnuki, a nawet kilku kuzynów. Serce mi się raduje, widząc, jak nasza rodzina otacza [rhaella.GetFirstName] i [aerys.GetFirstName] gratulacjami, a [jae.GetFirstName] promienieje dumą z powodu swoich dzieci.\n\n Żadne z nich nie rozumie chwały, jaka czeka Dom [ROOT.Char.GetHouse.GetName] tego dnia z powodu poświęceń, jakie złożyłem... z powodu poświęceń, które jestem jeszcze gotów złożyć! Zanim dzień się skończy, nasza potęga zostanie przywrócona, a symbol naszej dynastii znów zaryczy do życia!\n\n Przygotowania zostały zakończone, a ci, którzy są mi wierni, są już na miejscu. Koniec z nieposłuszeństwem, koniec z wymówkami. Moja rodzina #bold wreszcie#! zrozumie, że mam rację, a wtedy... wszyscy lordowie Siedmiu Królestw uklękną... ale najpierw ucztujemy!"
+ agot_ninepenny.1003.desc.jae:0 " Ród smoka się zbiera! Serce mi się raduje, widząc, jak nasza rodzina otacza [rhaella.GetFirstName] i [aerys.GetFirstName] gratulacjami, choć nie mogę pozbyć się natarczywego smutku z powodu nieobecności mojego ojca.\n\n Żadne z nich nie rozumie chwały, jaka czeka Dom [ROOT.Char.GetHouse.GetName] tego dnia z powodu poświęceń, jakie on złożył... z powodu poświęceń, które jestem jeszcze gotów złożyć, aby uczcić jego dziedzictwo! Zanim dzień się skończy, nasza potęga zostanie przywrócona, a symbol naszej dynastii znów zaryczy do życia!\n\n Przygotowania zostały zakończone, a ci, którzy są mi wierni, są już na miejscu. Dzięki sile #bold smoków#! wszyscy lordowie Siedmiu Królestw uklękną... ale najpierw ucztujemy!"
+ agot_ninepenny.1003.desc.aerys:0 " Ród smoka się zbiera! Serce mi się raduje, widząc, jak nasza rodzina otacza moją miłość, [rhaella.GetFirstName], gratulacjami, choć nie mogę pozbyć się natarczywego smutku z powodu nieobecności mojego [ROOT.Char.Custom2('RelationToMeShort', egg)] [egg.GetFirstName] oraz mojego [ROOT.Char.Custom2('RelationToMeShort', jae)] [jae.GetFirstName].\n\n Żaden z gości nie rozumie chwały, jaka czeka Dom [ROOT.Char.GetHouse.GetName] tego dnia z powodu poświęceń, jakie złożył [egg.GetFirstNameNoTooltip]... z powodu poświęceń, które jestem jeszcze gotów złożyć, aby uczcić jego dziedzictwo! Zanim dzień się skończy, nasza potęga zostanie przywrócona, a symbol naszej dynastii znów zaryczy do życia!\n\n Przygotowania zostały zakończone, a ci, którzy są mi wierni, są już na miejscu. Dzięki sile #bold smoków#! wszyscy lordowie Siedmiu Królestw uklękną... ale najpierw ucztujemy!"
+ agot_ninepenny.1003.desc.fallback:0 " Ród smoka się zbiera! Serce mi się raduje, widząc, jak nasza rodzina otacza [rhaella.GetFirstNameOrMe] gratulacjami, choć nie mogę pozbyć się natarczywego smutku z powodu nieobecności mojego [ROOT.Char.Custom2('RelationToMeShort', egg)] [egg.GetFirstName].\n\n Żaden z gości nie rozumie chwały, jaka czeka Dom [ROOT.Char.GetHouse.GetName] tego dnia z powodu poświęceń, jakie złożył [egg.GetFirstNameNoTooltip]... z powodu poświęceń, które jestem jeszcze gotów złożyć, aby uczcić jego dziedzictwo! Zanim dzień się skończy, nasza potęga zostanie przywrócona, a symbol naszej dynastii znów zaryczy do życia!\n\n Przygotowania zostały zakończone, a ci, którzy są mi wierni, są już na miejscu. Dzięki sile #bold smoków#! wszyscy lordowie Siedmiu Królestw uklękną... ale najpierw ucztujemy!"
+ agot_ninepenny.1003.a:0 " Moi bliscy! Witajcie w Summerhall!"
+ invited_to_summerhall:0 " [attendee.GetNameNicknamed] wyrusza do Summerhall"
+ going_to_summerhall:0 " [attendee.GetNameNicknamed] przybył do Summerhall"
+
+ agot_ninepenny.1004.t:0 " $agot_ninepenny.1003.t$: Piromancja"
+ agot_ninepenny.1004.desc:0 " Podczas przerwy w uroczystościach wymykam się, aby zorganizować kilka szczegółów nadchodzącego przedsięwzięcia z [pyromancer.GetName]. Zanim zdążę podejść do [pyromancer.GetHerHim], [beseecher.GetName] zatrzymuje mnie, oczy szeroko otwarte ze strachu, mówiąc szeptem pełnym bólu: „Wasza Łasko, proszę! To, co planujesz — to czarnoksięstwo! Nie, gorzej — to #bold krwawa magia#!!”\n\n Odrzucam obawy [beseecher.GetHerHis] w taki sam sposób, w jaki moja rodzina zawsze odrzucała moje; bez namysłu. #S Ja#! jestem królem teraz i tylko #S ja#! mogę zarządzić poświęcenie, które musi być dokonane.\n\n Odnajduję [pyromancer.GetFirstNameNoTooltip], a [pyromancer.GetSheHe] rozwiewa wszelkie wątpliwości, zapewniając mnie o doświadczeniu swojej gildii i ogłaszając, że smoki powrócą, a Dom [ROOT.Char.GetHouse.GetName] odzyska swoją chwałę i potęgę."
+ agot_ninepenny.1004.a:0 " Tylko #S ja#! wiem, co należy zrobić."
+ agot_ninepenny.1004.b:0 " [beseecher.GetFirstNameNoTooltip] ma rację, byłem ślepy."
+
+ agot_ninepenny.1005.t:0 " $agot_ninepenny.1003.t$: Ceremonia"
+ agot_ninepenny.1005.desc:0 " Goście gromadzą się pośród gorączkowych szeptów w wielkiej sali, wyłożonej mężczyznami w szorstkich szatach, których kapturami oświetlają chorobliwie zielone migoczące płomienie ich pochodni.\n\n Cała uwaga skupia się na ogromnym palenisku na środku sali, w którym leży siedem jaj na łożu z niepalącego się węgla; wśród nich moje towarzyszące od kołyski. Błyszczą się szmaragdową glazurą od mikstury płynnego smoczego płomienia, którą piromanci rozsmarowali na ich powierzchni: #WF dzikie ognie!#!\n\n Ostatnim składnikiem rytuału jest ofiara..."
+ agot_ninepenny.1005.blood:0 " Królewska krew powinna wystarczyć..."
+ agot_ninepenny.1005.self:0 " Nie mogę tego wymagać od nikogo innego"
+ agot_ninepenny.1005.rhaella:0 " To jest przeznaczenie Rhaelli"
+ agot_ninepenny.1005.duncan:0 " Mój [ROOT.Char.Custom2('RelationToMeShort', duncan_alive)]... tak mi przykro"
+ agot_ninepenny.1005.a:0 " Smoki obudzą się z kamienia!"
+
+
+ #reuse for sacrifice event? \n\n Samotny głos, mój [ROOT.Char.Custom2('RelationToMeShort', protester)] [protester.GetName], woła: "[protester.Custom2('RelationToMeShort', ROOT.Char)|U], to jest szaleństwo!" Rozglądam się po sali, widząc twarze mojej rodziny i świadcząc o ich przerażonych wyrazach. Oni #S wciąż#! nie rozumieją! Ale teraz nie czas na zrozumienie. Teraz jest czas na posłuszeństwo — i ofiarę."
+ # agot_ninepenny.1005.egg:0 " Całe życie czekałem, aby spotkać mojego brata z kołyski, i razem #bold zmienimy#! Siedem Królestw na lepsze. Moje prawnuczę nadchodzi — ale także mój brat..."
+ # agot_ninepenny.1005.fallback:0 " Całe życie miałem nadzieję zobaczyć powrót #bold smoków#! i to, jak możemy zmienić Siedem Królestw na lepsze. Nadchodzi dziecko rodu [ROOT.Char.GetHouse.GetName] — ale także nasze smoki..."
+
+ agot_ninepenny.1006.t:0 " $agot_ninepenny.1003.t$: Płomienie Szaleństwa"
+ agot_ninepenny.1006.egg_main:0 " #bold Moja rodzina płonie!#! Belki pękają, a kamienie wyginają się pod niewyobrażalnym żarem rytualnego ognia, który wymknął się spod kontroli! Wokół mnie pałac pochłania moje #italic zadufanie#! — połykając moją rodzinę jednego po drugim, gdy krzyczą spod połamanych belek i roztopionego kamienia. Dym nie pozwala mi przestać się dławić moimi łzami...\n\n"
+ agot_ninepenny.1006.main_fallback:0 " #bold Moja rodzina płonie!#! Belki pękają, a kamienie wyginają się pod niewyobrażalnym żarem rytualnego ognia, który wymknął się spod kontroli! Wokół mnie pałac pochłania płomienie — połykając moją rodzinę jednego po drugim, gdy krzyczą spod połamanych belek i roztopionego kamienia. Dym nie pozwala mi przestać się dławić moimi łzami...\n\n"
+ agot_ninepenny.1006.dunc_egg:0 " Postać odsuwa gruzy przede mną. Przez żar i dym dostrzegam tylko pobrudzony sadzą biały płaszcz. [saviour.GetFirstNameNicknamed], ranny, ale wciąż walczący, aby pomóc innym, biegnie do mnie, gdzie był wierny przez te wszystkie lata. Pozostaje tylko jeden trudny wybór, aby zakończyć naszą przyjaźń."
+ agot_ninepenny.1006.fallback:0 " Postać odsuwa gruzy przede mną. Przez żar i dym dostrzegam tylko pobrudzony sadzą biały płaszcz. [saviour.GetFirstNameNicknamed], ranny, ale wciąż walczący, aby pomóc innym, biegnie do mnie. Pośród chaosu i katastrofy mogę tylko wykrzyknąć jedno ostatnie polecenie."
+ agot_ninepenny.1006.a:0 " Ratuj Rhaellę, moją [ROOT.Char.Custom2('RelationToMeShort', rhaella)]!"
+ agot_ninepenny.1006.b:0 " Zabierz Duncana stąd!"
+ agot_ninepenny.1006.c:0 " Proszę, zabierz mnie stąd!"
+ agot_ninepenny.1006.d:0 " Moje dziecko... Proszę, muszę się stąd wydostać!"
+
+ agot_ninepenny.1007.t:0 " $agot_ninepenny.1003.t$: Pośród Soli i Dymu"
+ agot_ninepenny.1007.desc:0 " #bold Ród smoka spłonął żywcem.#! Takie pieśni będą śpiewać bardowie. Czy ktoś, kto je usłyszy, zapłacze za nami? Ile razy musimy zawieść, zanim nauczymy się lekcji? Mój [ROOT.Char.Custom2('RelationToMeShort', egg)] powinien był wiedzieć lepiej. Czego nauczyliśmy się od [aerion.GetFirstNameNicknamed]? Czego nauczymy się z Summerhall? To wszystko było tak #S bezsensowne!#! [ROOT.Char.Custom2('RelationToMeShort', egg)|U], dlaczego...?\n\n Przynajmniej [rhaegar.GetFirstName] przetrwał zniszczenie. Maesterowie mówią, że stres wywołał poród u [rhaella.GetFirstNamePossessiveOrMy]. Cokolwiek innego z tego wyniknie, wiemy, że sukcesja jest zabezpieczona... ale który król chce otrzymać koronę w ten sposób? Które dziecko chce żegnać rodzinę, którą kochało, nad zwęglonymi szczątkami skąpanymi w popiołach?"
+ agot_ninepenny.1007.a:0 " Jakie okropieństwa popełniliśmy?"
+ agot_ninepenny.1007.a.tt:0 " Mój [ROOT.Char.Custom2('RelationToMeShort', rhaegar)] [rhaegar.GetName] zostanie zabrany na dwór."
+
+ agot_ninepenny.1008.t:0 " $agot_ninepenny.1003.t$: Uścisk Tragedii"
+ agot_ninepenny.1008.desc:0 " [saviour.GetFirstNameNicknamed] porywa nas i biegnie na obrzeża Summerhall. Wraca z powrotem w dym i płomienie, zanim zdążymy wydusić słowo podziękowania. Chwile dłużą się, gdy służący krzyczą i skuleni odsuwają się od zrujnowanego pałacu — ale biały płaszcz [saviour.GetFirstNamePossessive] nigdy nie wyłania się z wszechpochłaniającego pożaru.\n\n Spośród wszystkich synów [egg.GetFirstNameNicknamedPossessiveRegnal] tylko ja uniknąłem rozliczenia Domu [ROOT.Char.GetHouse.GetName]. To jest #bold druzgocący#! cios dla królestwa, mojej rodziny i mojego serca. Jedyne, co mogę zrobić, to mocno trzymać moją ukochaną [jenny.GetFirstName] i iść naprzód z roszczeniem, które chętnie bym porzucił dla miłości."
+ agot_ninepenny.1008.a:0 " Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_ruler'))] uratował mnie z jakiegoś powodu..."
+
+
+ agot_ninepenny.1009.t:0 " $agot_ninepenny.1003.t$: Tragedia Mojego Własnego Autorstwa"
+ agot_ninepenny.1009.desc:0 " [saviour.GetFirstName] wyprowadza mnie z dymiących ruin wielkiej sali. [saviour.GetHerHis|U] twarz wykrzywia się w niedowierzaniu, potem w rozpaczy, a w końcu w czystej #bold pogardzie#!.\n\n Więdnę pod spojrzeniem [saviour.GetHerHis], nawet gdy łzy — wciąż płynące — palą moje policzki. Słowa nie są potrzebne między rycerzem a [saviour.GetHerHis] giermkiem. Bez rozkazów, [saviour.GetSheHe] odwraca się i biegnie z powrotem w kierunku płonących zgliszcz pałacu."
+ agot_ninepenny.1009.a:0 " [saviour.GetSheHe|U] może jeszcze kogoś uratować..."
+ agot_ninepenny.1009.b:0 " [saviour.GetFirstNameNicknamedNoTooltip], rozkazuję ci: Zostań przy swoim królu!"
+
+ agot_ninepenny.1010.t:0 " $agot_ninepenny.1003.t$: Co Pozostaje?"
+ agot_ninepenny.1010.desc:0 " Wspomnienie Summerhall będzie mnie prześladować do końca życia. Oczy innych świadków są równie puste. Nie ma radości ani śmiechu wśród tych, którzy przeżyli. Ledwie pada słowo, gdy próbujemy zrozumieć to, co widzieliśmy. Wiem, że nigdy nie zapomnę gorąca tego ognia. Spodziewam się, że przez pewien czas będę śnił w strachu o nim, i wątpię, by kiedykolwiek opuściły mnie umierające krzyki mojej rodziny...\n\n Ale żyjący muszą iść dalej. Nawet jeśli Summerhall leży w ruinie, Dom [ROOT.Char.GetHouse.GetName] musi powstać z popiołów, aby rządzić. Utrata smoczych jaj to kolejny cios dla naszej dynastii — ale jeśli ich pokusa doprowadziła do tej tragedii, być może najlepiej, że zostały stracone."
+ agot_ninepenny.1010.a:0 " #bold Ogień i krew...#!"
+
+ agot_ninepenny.1011.t:0 " Uczta w Summerhall"
+ agot_ninepenny.1011.desc:0 " Uczta to triumf! Wspaniałe święto naszego rodu i wielkiej przyszłości, która nas czeka.\n\n Najważniejsze, że [rhaella.GetFirstName] urodziła piękne dziecko imieniem [rhaegar.GetFirstName].\n\n [rhaegar.GetSheHe|U] pewnego dnia będzie dziedzicem Siedmiu Królestw i — jeśli bogowie pozwolą — zasiądzie na Żelaznym Tronie, aby rządzić nimi przez wiele chwalebnych lat mądrze i sprawiedliwie. To wydarzenie, które Dom Smoka będzie długo pamiętał."
+ agot_ninepenny.1011.a:0 " Świętujemy jednym sercem!"
+
+ agot_ninepenny.1012.t:0 "$agot_ninepenny.1003.t$: Ryk Smoka!"
+ agot_ninepenny.1012.desc:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. W końcu jedno z jaj zaczyna się poruszać, a wyraźny dźwięk pękającej skorupy rozbrzmiewa w milczącej sali. Jedno z jaj się wykluło!\n\nWielka sala wypełnia się dźwiękiem płaczu nowo narodzonego smoka, a powietrze przesycone jest zapachem dymu i siarki. Goście są pełni podziwu, a ja widzę mieszankę strachu i zachwytu w ich oczach, gdy są świadkami odrodzenia smoków.\n\n[dragon_first.GetName] jest teraz mały, ale [dragon_first.Custom('GetDragonSheHe')] wyrośnie na potężną bestię. Moc smoków powróciła do Domu [ROOT.Char.GetHouse.GetName], a królestwo wkrótce pozna potęgę smoczych lordów raz jeszcze!"
+ agot_ninepenny.1012.desc_three:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. W końcu jedno z jaj zaczyna się poruszać, a wyraźny dźwięk pękającej skorupy rozbrzmiewa w milczącej sali. A potem drugie zaczyna drżeć, a potem trzecie...\n\nTrzy głowy smoka dla Domu [ROOT.Char.GetHouse.GetName]. Wielka sala wypełnia się dźwiękiem płaczu nowo narodzonych smoków, a powietrze przesycone jest zapachem dymu i siarki. Goście są pełni podziwu, a ja widzę mieszankę strachu i zachwytu w ich oczach, gdy są świadkami odrodzenia smoków.\n\nSmoki są teraz małe, ale wyrosną na potężne bestie. Czarny smok może wschodzić na wschodzie, ale będziemy gotowi."
+ agot_ninepenny.1012.desc_many:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. W końcu jedno z jaj zaczyna się poruszać, a wyraźny dźwięk pękającej skorupy rozbrzmiewa w milczącej sali. A potem drugie zaczyna drżeć...\n\nWielka sala wypełnia się dźwiękiem płaczu nowo narodzonych smoków, a powietrze przesycone jest zapachem dymu i siarki. Goście są pełni podziwu, a ja widzę mieszankę strachu i zachwytu w ich oczach, gdy są świadkami odrodzenia smoków.\n\nSmoki są teraz małe, ale wyrosną na potężne bestie. Moc smoków powróciła do Domu [ROOT.Char.GetHouse.GetName], a królestwo wkrótce pozna potęgę smoczych lordów raz jeszcze!"
+ agot_ninepenny.1012.a:0 "Dzięki temu wszystko jest możliwe!"
+ agot_ninepenny.1012.b:0 "Mam nadzieję, że okażą się warte swojej ceny..."
+ agot_ninepenny.1012.tt_hatched:0 "[this_egg.GetName] się wykluło"
+ agot_ninepenny.1012.tt_not_hatched:0 "[this_egg.GetName] zostało zniszczone"
+
+ agot_ninepenny.1013.t:0 "Targaryenowie znów w siodle!"
+ agot_ninepenny.1013.desc:0 "Królestwo drży od wieści z Summerhall. Smoki powróciły! Pod przewodnictwem piromantów, [egg_hatcher.GetHouse.GetName] odrodził moc, która wstrząsnęła światem, a królestwo wkrótce pozna potęgę smoczych lordów raz jeszcze!\n\nSmoki są teraz małe, ale wyrosną na potężne bestie. Dzięki mocy smoków, Dom [egg_hatcher.GetHouse.GetName] umocni swoje panowanie nad Siedmioma Królestwami."
+ agot_ninepenny.1013.a.hatcher_positive:0 "Cóż za czas, by żyć!"
+ agot_ninepenny.1013.a.hatcher_negative:0 "Świat już nigdy nie będzie taki sam..."
+
+ agot_ninepenny.1014.t:0 "Smoki Odrodzone"
+ agot_ninepenny.1014.desc_dragons_no_sacrifice_rhaegar:0 "Dzięki pomyślnym narodzinom zarówno dziecka [rhaegar.GetFirstName], jak i powrotowi smoków na świat, przyszłość Domu [ROOT.Char.GetHouse.GetName] nigdy nie wyglądała jaśniej! Nowa era potęgi i chwały z pewnością nas czeka, którą pewnego dnia poprowadzi przyszły dziedzic [rhaegar.GetFirstNameNoTooltip], dosiadając potężnych smoków, które wkrótce będą nasze do rozkazywania.\n\nTo wydarzenie, które Dom Smoka — i świat — zapamiętają na długo."
+ agot_ninepenny.1014.desc_dragons_no_sacrifice:0 "Dzięki powrotowi smoków na świat, przyszłość Domu [ROOT.Char.GetHouse.GetName] nigdy nie wyglądała jaśniej! Nowa era potęgi i chwały z pewnością nas czeka.\n\nTo wydarzenie, które Dom Smoka — i świat — zapamiętają na długo."
+ agot_ninepenny.1014.desc_dragons_sacrifice_rhaegar:0 "Smoki zostały przywrócone Targaryenom, kosztem życia [sacrifice.GetTitledFirstNamePossessive]. Czy to naprawdę było tego warte?\n\nPomimo tragedii, [rhaella.GetFirstName] urodziła piękne dziecko o imieniu [rhaegar.GetFirstName].\n\n[rhaegar.GetSheHe|U] pewnego dnia zostanie dziedzicem Siedmiu Królestw i — bogowie pozwolą — zasiądzie na Żelaznym Tronie, by rządzić nimi przez wiele chwalebnych lat z mądrością, sprawiedliwością i smoczym towarzyszem, który go ochroni. To wydarzenie, które Dom Smoka zapamięta na długo."
+ agot_ninepenny.1014.desc_dragons_sacrifice:0 "Smoki zostały przywrócone Targaryenom, kosztem życia [sacrifice.GetNamePossessive]. Czy to naprawdę było tego warte?"
+ agot_ninepenny.1014.a:0 "Świętujemy jednym sercem!"
+ agot_ninepenny.1014.b:0 "Na pamiątkę [sacrifice.GetFirstNameNoTooltip]"
+
+ agot_ninepenny.1015.t:0 "Zniweczone Smocze Marzenia"
+ agot_ninepenny.1015.desc_dragons_no_sacrifice_rhaegar:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. Czekam niecierpliwie na jakikolwiek znak wyklucia. I czekam. I czekam.\n\nDo następnego ranka, żar wygasł, nie pozostawiając smoków, jaj ani nadziei.\n\nCóż, może jednego smoka, chociaż nie narodził się ze stosu. W nocy [rhaella.GetFirstName] urodziła piękne dziecko o imieniu [rhaegar.GetFirstName]. Jeśli mam być pozbawiony smoków, przynajmniej mogę być zadowolony, wiedząc, że przyszłość mojego domu jest bezpieczna."
+ agot_ninepenny.1015.desc_dragons_no_sacrifice:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. Czekam niecierpliwie na jakikolwiek znak wyklucia. I czekam. I czekam.\n\nDo następnego ranka, żar wygasł, nie pozostawiając smoków, jaj ani nadziei."
+ agot_ninepenny.1015.desc_dragons_sacrifice_rhaegar:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. Czekam niecierpliwie na jakikolwiek znak wyklucia. I czekam. I czekam.\n\nDo następnego ranka, żar wygasł, nie pozostawiając smoków, jaj ani nadziei.\n\nCóż, może jednego smoka, chociaż nie narodził się ze stosu. W nocy [rhaella.GetFirstName] urodziła piękne dziecko o imieniu [rhaegar.GetFirstName]. Jeśli mam być pozbawiony smoków, przynajmniej mogę być zadowolony, wiedząc, że przyszłość mojego domu jest bezpieczna."
+ agot_ninepenny.1015.desc_dragons_sacrifice:0 "Płomienie stosu wznoszą się coraz wyżej, a widownia patrzy z lękiem i napięciem. Czekam niecierpliwie na jakikolwiek znak wyklucia. I czekam. I czekam.\n\nDo następnego ranka, żar wygasł, nie pozostawiając smoków, jaj ani nadziei."
+ agot_ninepenny.1015.a:0 "Życie [sacrifice.GetFirstNamePossessiveNoTooltip], na nic?"
+ agot_ninepenny.1015.b:0 "Tak to bywa..."
+
+ agot_ninepenny.1020.t:0 "Tragedia Przed Summerhall"
+ agot_ninepenny.1020.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', egg)] [egg.GetNameNicknamedRegnal] wydał swój ostatni oddech na Żelaznym Tronie. Teraz ciężar rządów spoczywa na moich barkach, a pusta korona, która jest tego symbolem, spocznie na mojej głowie.\n\nOkazuje się, że przed śmiercią [egg.GetHerHis], [egg.GetSheHe] zobowiązał się do wielkiej uroczystości Domu [ROOT.Char.GetHouse.GetName] w naszym pałacu wypoczynkowym Summerhall, z okazji nadchodzącego porodu mojej [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('rhaella') )] [ROOT.Char.Custom2('RelationToMe', rhaella)] [rhaella.GetNamePossessive].\n\nByć może powinienem uhonorować jego dziedzictwo, kontynuując uroczystości?"
+ agot_ninepenny.1020.a:0 "Uhonorujemy [egg.GetTitledFirstNameRegnal] tą celebracją!"
+ agot_ninepenny.1020.a.tt:0 "Ponownie zobowiązujesz się do uczty w Summerhall."
+ agot_ninepenny.1020.b:0 "Świętowanie umiera wraz z [egg.GetHerHim]."
+ agot_ninepenny.1020.b.tt:0 "Uczta w Summerhall zostanie odwołana."
+
+ agot_ninepenny.1021.t:0 "$agot_ninepenny.1020.t$"
+ agot_ninepenny.1021.desc:0 "Gdy zajmuję się sprawami królestwa w moim gabinecie, mój [ROOT.Char.Custom2('RelationToMe', consoler)] [consoler.GetName] podchodzi z wielkim smutkiem, aby powiedzieć, że moja [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('rhaella') )] [ROOT.Char.Custom2('RelationToMe', rhaella)] [rhaella.GetName] odeszła.\n\nWygląda na to, że Summerhall nie będzie tak radosną uroczystością, jak sobie wyobrażałem, ale wciąż są powody, by Dom Smoka się zebrał..."
+ agot_ninepenny.1021.a:0 "Musimy trzymać się razem."
+ agot_ninepenny.1021.b:0 "Nie z tak świeżą śmiercią [rhaella.GetNamePossessive]..."
+ agot_ninepenny.1021.b.tt:0 "Twoja podróż do Summerhall zostanie odwołana."
+
+ agot_ninepenny.1022.t:0 "Przerwane"
+ agot_ninepenny.1022.desc:0 "Z zagrożeniem ze strony [opponent.GetFullName], to może nie być idealny czas na organizowanie uroczystości w Summerhall. Jeśli jednak zostanie odwołana, wszystkie nasze przygotowania pójdą na marne..."
+ agot_ninepenny.1022.a:0 "Musimy kontynuować."
+ agot_ninepenny.1022.b:0 "Wojna ma pierwszeństwo."
+ agot_ninepenny.1022.b.tt:0 "Twoja podróż do Summerhall zostanie odwołana."
+
+ agot_ninepenny.1023.t:0 "Tragedia w Summerhall"
+ agot_ninepenny.1023.desc:0 "Przybył kruk z najbardziej zdumiewającymi wieściami z Summerhall. Jeśli wiadomość można uznać za prawdziwą, potworny pożar pochłonął cały pałac wraz z wieloma członkami rodziny [king.GetFullNameNicknamedPossessiveRegnal]!\n\nZwoj nie wspomina o sprawcy, ani nie wymienia żadnych spiskowców. Czy mamy wierzyć, że to był zwykły wypadek, który doprowadził do takiej tragedii? A może wola bogów? Niektórzy z pewnością zakwestionują zdolność [king.GetHouse.GetName] do rządzenia, ale być może ich wątpliwości pozostaną jedynie niezadowolonymi pomrukami, jak zawsze."
+ agot_ninepenny.1023.a:0 "'Ogień i Krew', rzeczywiście..."
+
+ agot_ninepenny.1024.t:0 "Zaproszenie"
+ agot_ninepenny.1024.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('king'))], [king.GetTitledFirstName], zaprosił nas wszystkich na uroczystość z okazji narodzin nowego pokolenia Targaryenów w Summerhall! Zjednoczenie Domu Smoka brzmi niezwykle radośnie."
+ agot_ninepenny.1024.a:0 "Cóż za zabawa!"
+
+ agot_ninepenny.1100.t:0 "$agot_ninepenny.1003.t$"
+ agot_ninepenny.1100.desc:0 "Dom Smoka się zbiera! [summerhall_leader.GetName] zaprosił wielu z nas do pałacu Summerhall na wielką ucztę z okazji ciąży [rhaella.GetFirstName] i chwały dynastii [summerhall_leader.GetHouse.GetName].\n\nKorona z pewnością nie pożałuje wydatków, a wszyscy ważni goście tam będą. To może być zgromadzenie, którego żaden gość nigdy nie zapomni!"
+ agot_ninepenny.1100.desc_no_rhae:0 "Dom Smoka się zbiera! [summerhall_leader.GetName] zaprosił wielu z nas do pałacu Summerhall na wielką ucztę z okazji chwały dynastii [summerhall_leader.GetHouse.GetName].\n\nKorona z pewnością nie pożałuje wydatków, a wszyscy ważni goście tam będą. To może być zgromadzenie, którego żaden gość nigdy nie zapomni!"
+ agot_ninepenny.1100.a:0 "Uwielbiam dobrą ucztę!"
+
+ agot_ninepenny.1101.t:0 "O nie"
+ agot_ninepenny.1101.desc:0 "#S To szaleństwo!#! [summerhall_leader.GetName] próbuje jakiegoś plugawionego rytuału na smoczym jaju z użyciem #bold dzikiego ognia i ofiary z krwi#!! Większość uczestników sparaliżowana jest niezdecydowaniem — a nawet nieliczni, którzy potrafią zaprotestować, nie są w stanie powstrzymać tego występku.\n\nAle piromanci stracili kontrolę nad ogniem rytualnym, a płomienie wylewają się na wielką salę! Pożoga rozprzestrzenia się bez litości po podłodze, ścianach i dachu... pożerając wszystko na swojej drodze i uwięziając nas wszystkich w paszczy smoka..."
+ agot_ninepenny.1101.a:0 "Nie tak miało być!"
+
+################################
+# Reyne Rebellion
+# 2000 - 2999
+# by Badger
+################################
+
+ agot_ninepenny.2000.t:0 "Papierowy Lew"
+ agot_ninepenny.2000.desc:0 "[tytos.GetTitledFirstName], słaby i nieudolny, od lat pozwalał swoim wasalom pożyczać bez obawy o konsekwencje. Moje własne długi wobec niego są liczne, ale byłbym głupcem, gdybym je spłacił... A ja głupcem nie jestem; jestem #bold lwem#!.\n\nJego syn [tywin.GetFirstName], jednak, prezentuje się znacznie groźniej. To przebiegły człowiek, a do tego bezwzględny — w przeciwieństwie do bezużytecznego ojca.\n\nGdyby tylko [tion.GetName] nie zginął... Wtedy moja [ROOT.Char.Custom2('RelationToMe', ellyn)] [ellyn.GetFirstName] byłaby Panią Skały, a mój siostrzeniec dziedzicem. A ten dług byłby nieistotny.\n\nMówi się, że Lannister zawsze spłaca swoje długi, krwią, jeśli nie złotem. Może powinienem zadowolić [tytos.GetNickname], aby uniknąć gniewu jego syna..."
+ agot_ninepenny.2000.a:0 "Nie dostanie ode mnie ani grosza."
+ agot_ninepenny.2000.b:0 "Uklęknę #italic tak#! nisko... na razie."
+
+ agot_ninepenny.2001.t:0 "Śmieszny Lew"
+ agot_ninepenny.2001.desc:0 "Mój wasal, [roger.GetTitledFirstName], nie chce spłacić swoich długów wobec Domu [ROOT.Char.GetHouse.GetName]... A mój [ROOT.Char.Custom2('RelationToMe', tywin)] [tywin.GetFirstName] jest #bold wściekły#!!\n\n„Zapominasz o naszej pozycji, ojcze,” syczy [tywin.GetFirstNameNoTooltip]. „Jeśli Lannister nie żąda spłaty długów, wrogowie będą nas uważać za słabych, albo gorzej.”\n\nChciałbym, żeby nie był tak pełen wyrzutów... Żeby mnie szanował... Żeby #italic ktokolwiek#! mnie szanował... „Z pewnością [roger.GetFirstNameNoTooltip] zapłaci z czasem. [tywin.GetFirstNameNoTooltip], twój temperament przesłania ci osąd—” Zanim kończę zdanie, [tywin.GetFirstNameNoTooltip] wymierza mi policzek.\n\nJeśli nie pociągnę [roger.GetTitledFirstNameNoTooltip] do odpowiedzialności, inni wasale, jak [tarbeck.GetTitledFirstName], to zauważą. Nie mam co do tego wątpliwości, ale jak mam zmusić upartych ludzi, by mnie szanowali?"
+ agot_ninepenny.2001.a:0 "To #italic za dużo#!. Muszę zaakceptować słowo [roger.GetTitledFirstNamePossessiveNoTooltip]."
+ agot_ninepenny.2001.b:0 "M-m-mogę... #bold zażądać#! spłaty."
+ agot_ninepenny.2001.b.tt:0 "Wyślesz kruki do Castamere i Tarbeck Hall."
+
+ agot_ninepenny.2002.t:0 "Prośba Lwa"
+ agot_ninepenny.2002.desc.tytos:0 "[lion_lord.GetFirstNameNicknamed] wysłał list, żądając spłaty wszystkich zaległych pożyczek i wysłania zakładnika do Casterly Rock. To nie do pomyślenia, że ktoś tak słaby jak Bezzębny Lew mógłby zrobić coś takiego... Z pewnością jego syn maczał w tym palce.\n\nMoja [ROOT.Char.Custom2('RelationToMe', reyne)] [reyne.GetName] drwi. „To błaganie to bzdura — pusta groźba od pustego człowieka,” mówi [reyne.GetSheHe]. Choć nie mogę się oprzeć myśli, że może sam zdołałbym przemówić [lion_lord.GetFirstNameNoTooltip] do rozsądku, gdybym udał się na Skałę."
+ agot_ninepenny.2002.desc:0 "[lion_lord.GetFirstNameNicknamed] wysłał list, żądając spłaty wszystkich zaległych pożyczek i wysłania zakładnika do Casterly Rock. [lion_lord.GetFirstNameNoTooltip] prezentuje się groźnie. To przebiegły człowiek, a do tego bezwzględny — w przeciwieństwie do bezużytecznego ojca.\n\nMoja [ROOT.Char.Custom2('RelationToMe', reyne)] [reyne.GetName] drwi. „To błaganie to bzdura — ten lwiak nie ma pazurów,” mówi [reyne.GetSheHe]. Choć nie mogę się oprzeć myśli, że może sam zdołałbym przemówić [lion_lord.GetFirstNameNoTooltip] do rozsądku, gdybym udał się na Skałę."
+ agot_ninepenny.2002.a:0 "Wezmę sprawy w swoje ręce."
+ agot_ninepenny.2002.a.tt:0 "Udasz się do Casterly Rock i zmusisz [lion_lord.GetTitledFirstName], by przemówił do rozsądku."
+ agot_ninepenny.2002.b:0 "Spalić ten list."
+ agot_ninepenny.2002.b.tt:0 "[reyne.GetLadyLord] ma rację, lew nie ma zębów."
+ agot_ninepenny.2002.c:0 "Chyba mogę mu zapłacić..."
+
+ agot_ninepenny.2004.t:0 "Tarbeck w Kajdanach"
+ agot_ninepenny.2004.desc:0 "Mój powrót na dwór spotyka się dziś z złowrogą ciszą — wymuszonym milczeniem dławiącym powietrze w sali. Mój [ROOT.Char.Custom2('RelationToMe', lion_son)] [lion_son.GetName] stoi przede mną złowieszczo, a ja już wiem, że nie spodoba mi się to, co ma do powiedzenia...\n\n„Ojcze, Skała ma niespodziewanego gościa,” każde słowo [lion_son.GetFirstNamePossessiveNoTooltip] jest przemyślane, „ale obawiam się, że [tarbeck.GetTitledFirstName] znalazł się w naszych lochach.”\n\nZnaczenie jest od razu jasne, ale zanim zdążę odpowiedzieć, do sali wpada posłaniec z wieściami... [ellyn.GetTitledFirstName] porwała mojego [ROOT.Char.Custom2('RelationToMe', kidnapped_lannister)] [kidnapped_lannister.GetName] w odwecie, a także [lannisport_1.GetName] i [lannisport_2.GetName] z Lannisportu!"
+ agot_ninepenny.2004.a:0 "Muszę uwolnić [tarbeck.GetTitledFirstName] i przywrócić jedność moim ziemiom!"
+ agot_ninepenny.2004.b:0 "Jeśli [ellyn.GetNameNoTooltip] grozi mojej dumie, [ellyn.GetSheHe] za to zapłaci."
+
+ agot_ninepenny.2005.t:0 "Tarbeck w Kajdanach"
+ agot_ninepenny.2005.desc:0 "[tarbeck.Custom('InsultAdjective')] [tarbeck.GetFullName] popełnił poważny błąd, przyjeżdżając do mojej sali i próbując wywinąć się z długów. Może spodziewał się, że będę jak mój ojciec... Ten głupiec teraz leży w moich lochach, czekając na wyrok.\n\nW odwecie jego żona [ellyn.GetFullName] porwała mojego [ROOT.Char.Custom2('RelationToMe', kidnapped_lannister)] [kidnapped_lannister.GetName] i dwóch nieistotnych mężczyzn z Lannisportu, [lannisport_1.GetName] i [lannisport_2.GetName] — to #bold jawny#! akt buntu wobec ich prawowitego seniora. Jest tylko jedna odpowiedź na taką zdradę."
+ agot_ninepenny.2005.a:0 "Stracić Lorda [tarbeck.GetHouse.GetName] i zebrać ludzi."
+
+
+ agot_ninepenny.2006.t:0 "Lew, Rozbrojony"
+ agot_ninepenny.2006.desc:0 "Moja wizyta na Skale nie poszła zgodnie z planem — przywitano mnie nie chlebem i solą, lecz tym, że [lion_son.GetName] zakuł mnie w kajdany i wrzucił do lochu.\n\nMoja żona [ellyn.GetFullName] działała szybko, by zapewnić mi uwolnienie, chwytając własnych zakładników... Najważniejsze, [tytos.GetNamePossessive] [tytos.Custom2('RelationToMe', kidnapped_lannister)] [kidnapped_lannister.GetName]!\n\nWygląda na to, że syn lwa przekroczył swoje uprawnienia, a chłodniejsza głowa jego ojca zwyciężyła. Zostałem uwolniony, a wszystkie moje długi umorzone!"
+ agot_ninepenny.2006.a:0 "Dzięki bogom, że [lion_son.GetNameNoTooltip] nie postawił na swoim."
+
+ agot_ninepenny.2007.t:0 "Lew Buntownik"
+ agot_ninepenny.2007.desc:0 "Dotarła do mnie wieść, że małżonek mojej drogiej siostry, [tarbeck.GetTitledFirstName], został #italic uwięziony i zamordowany#!, gdy szukał audiencji u [lion_lord.GetTitledFirstName] w Casterly Rock. Co gorsza, mówi się, że mój szwagier został posiekany na trzy części przez swojego oprawcę.\n\nTakie działanie to jawne pogwałcenie praw bogów i ludzi, i nie mam wyboru, jak tylko wznieść sztandar lwa do buntu! #bold Reyne’owie nie ukłonią się przed żadnym pysznym lordem!#!"
+ agot_ninepenny.2007.a:0 "Zbierzmy nasze siły!"
+
+ agot_ninepenny.2008.t:0 "Lew Tyran"
+ agot_ninepenny.2008.desc:0 "[tarbeck.GetTitledFirstName], mój [ROOT.Char.Custom2('RelationToMe', tarbeck)], został #italic uwięziony i zamordowany#!, gdy szukał audiencji u [lion_lord.GetTitledFirstName] w Casterly Rock. Co gorsza, dotarła wiadomość, że został posiekany na trzy części przez swojego oprawcę.\n\nTakie działanie to jawne pogwałcenie praw bogów i ludzi, i nie mam wyboru, jak tylko wznieść nasze chorągwie do buntu! #bold Żaden lew nie rozszarpie swojego wasala bez odpowiedzi!#!"
+ agot_ninepenny.2008.a:0 "Zbierzmy nasze siły!"
+
+ agot_ninepenny.2009.t:0 "Moje Ponure Potomstwo"
+ agot_ninepenny.2009.desc:0 "[lion_son.GetName] nie jest człowiekiem bezczynności i obawiam się, że bierze sprawy w swoje ręce. Dochodzą mnie wieści, że zaczął mobilizować wojska Lannisterów, przygotowując się do wojny przeciwko moim własnym wasalom.\n\nWysłał swojego [lion_son.Custom2('RelationToMe', brother)] [brother.GetName] z podjazdami, aby rozpocząć zbieranie sił. Sytuacja wymknęła się spod mojej kontroli... [lion_son.GetNameNoTooltip] mówi, że wszyscy zdrajcy muszą odpowiedzieć odpowiednio... #bold Lwie pazury są ostrzone.#!"
+ agot_ninepenny.2009.a:0 "Może być wojna..."
+
+ agot_ninepenny.2010.t:0 "Cena na Polu Walki"
+ agot_ninepenny.2010.desc:0 "[reyne.GetFullName] i [tarbeck.GetFullName] zignorowali moją wielkoduszną ofertę uregulowania wszelkich zaległych długów wobec mojego domu — i tym samym zostali uznani za #bold zdrajców#!.\n\nMój [ROOT.Char.Custom2('RelationToMe', brother)] [brother.GetFirstName] rozpoczął zbieranie wojsk i wyruszymy na tych głupców, aby pokazać im, co znaczy brak szacunku wobec Domu [ROOT.Char.GetHouse.GetName]. Jeśli nasi wasale nie chcą się ukłonić lwowi, zostaną zmuszeni mieczem."
+ agot_ninepenny.2010.a:0 "#bold [ROOT.Char.GetHouse.GetMotto]#!"
+
+ agot_ninepenny.2011.t:0 "Pomruk, Teraz Ryk"
+ agot_ninepenny.2011.desc:0 "Więc doszło do #bold tego#!...\n\n[lion_lord.Custom('InsultAdjective')|l] [lion_lord.GetLadyLord|U] [lion_lord.GetHouse.GetName] chce, by jego wasale wiły się jak ofiary — albo pokornie kroczyły jak psy. Cóż, ja nie jestem żadnym Clegane’em! Z [tarbeck.GetTitledFirstName] u boku możemy jeszcze mieć w sobie ducha walki.\n\nPomruk z Casterly Rock stał się gromowy, ale Lannisterowie nie są jedynymi lwami, które potrafią #bold ryknąć#!!"
+ agot_ninepenny.2011.a:0 "Nasz bunt zaczyna się teraz!"
+
+ agot_ninepenny.2012.t:0 "Pomruk, Teraz Ryk"
+ agot_ninepenny.2012.desc:0 "Więc doszło do #bold tego#!...\n\n[lion_lord.Custom('InsultAdjective')|l] [lion_lord.GetLadyLord|U] [lion_lord.GetHouse.GetName] chce, by jego wasale wiły się jak ofiary — albo pokornie kroczyły jak psy. Cóż, ja nie jestem żadnym Clegane’em! Z [reyne.GetTitledFirstName] u boku możemy jeszcze mieć w sobie ducha walki.\n\nPomruk z Casterly Rock stał się gromowy, ale ryk przeraża tylko tego [ROOT.Char.GetLadyLord], kto nie wie, jak #bold zabić lwa#!."
+ agot_ninepenny.2012.a:0 "Nasz bunt zaczyna się teraz!"
+
+ agot_ninepenny.2013.t:0 "Lew u Bram"
+ agot_ninepenny.2013.desc.ellyn:0 "Złoty lew na obitym materiale otacza naszą salę... [tywin.GetFirstNameNicknamed] [tywin.GetDynastyHouseName] nadchodzi.\n\nChoć wynik wydaje się nieunikniony, nie mogę powstrzymać się od oporu. „Nie jesteście jedynymi lwami na zachodzie, serze. Moi bracia nadchodzą, a ich pazury są równie długie i ostre jak twoje!”"
+ agot_ninepenny.2013.desc:0 "Złoty lew na obitym materiale otacza naszą salę... [tywin.GetFirstNameNicknamed] [tywin.GetDynastyHouseName] nadchodzi.\n\nSiły Lannisterów z pewnością nas zagłodzą, jeśli armia Reyne’ów nie przełamie oblężenia."
+ agot_ninepenny.2013.a:0 "Będziemy trzymać się dzielnie."
+ agot_ninepenny.2013.a.tt:0 "Przygotowujesz się do oblężenia."
+ agot_ninepenny.2013.b:0 "To beznadziejne..."
+ agot_ninepenny.2013.b.tt:0 "Opuścisz swoje chorągwie i zgodzisz się na żądania [tywin.GetDynastyHouseName]."
+
+ agot_ninepenny.2014.t:0 "Zdobycie Tarbeck Hall"
+ agot_ninepenny.2014.desc.ellyn:0 "[taunter.GetFirstName] wychodzi na rozmowy z [location.GetNameNoTier]. „Nie jesteście jedynymi lwami na zachodzie, serze. Moi bracia nadchodzą, a ich pazury są równie długie i ostre jak twoje,” twierdzi [taunter.GetSheHe] z wyniosłością.\n\nTylko głupiec nie widziałby śmiertelnego zagrożenia, w jakim [taunter.GetSheHe] się znajduje — nie interesuje mnie prosta kapitulacja. Chcę zgasić wszelkie przelotne myśli o buncie w Westerlandach, #bold na zawsze#!."
+ agot_ninepenny.2014.desc:0 "[tarbeck.GetFirstName] trzyma zamek przeciwko moim przytłaczającym siłom, pozostając stanowczym i nieugiętym mimo malejących szans na zwycięstwo.\n\nTylko głupiec nie widziałby śmiertelnego zagrożenia, w jakim [tarbeck.GetSheHe] się znajduje — nie interesuje mnie prosta kapitulacja. Chcę zgasić wszelkie przelotne myśli o buncie w Westerlandach, #bold na zawsze#!."
+ agot_ninepenny.2014.a:0 "Nie chcę, żeby ten zamek został zdobyty — chcę, żeby został zrównany z ziemią."
+ agot_ninepenny.2014.a.tt:0 "Zostaną podjęte drastyczne działania."
+ agot_ninepenny.2014.b:0 "Ich chorągwie w końcu opadną."
+ agot_ninepenny.2014.b.tt:0 "Będziesz kontynuować oblężenie w normalnym trybie."
+
+ agot_ninepenny.2015.t:0 "Cena na Polu Walki"
+ agot_ninepenny.2015.desc.ellyn:0 "Zamek został zniszczony i zrujnowany. Ziemia zrównana i spalona. Gleba, #bold posolona#!.\n\n[taunter.GetFirstName] został zmiażdżony pod kamieniami blanków, za którymi się ukrywał..."
+ agot_ninepenny.2015.desc:0 "Zamek został zniszczony i zrujnowany. Ziemia zrównana i spalona. Gleba, #bold posolona#!.\n\n[tarbeck.GetFirstName] został zmiażdżony pod kamieniami blanków, za którymi się ukrywał..."
+ agot_ninepenny.2015.a:0 "Niech wasale się strzegą."
+ agot_ninepenny.2015.a.tt:0 "Wszyscy obecni w Tarbeck Hall zostali zabici."
+
+ agot_ninepenny.2016.t:0 "Rozbiórka Tarbeck Hall"
+ agot_ninepenny.2016.desc:0 "[taunter.GetName] odważnie odmówił poddania zamku [location.GetName] [tywin.Custom('InsultAdjective')] [tywin.GetName] [tywin.GetHouse.GetName], a ten łajdak odpowiedział, burząc naszą starożytną warownię — mordując wszystkich mieszkańców, w jawnej sprzeczności z wszelkimi prawami rycerskości i wojny."
+ agot_ninepenny.2016.a:0 "Lannisterowie za to zapłacą..."
+
+ agot_ninepenny.2017.t:0 "Rozbiórka Tarbeck Hall"
+ agot_ninepenny.2017.desc:0 "Dotarła do mnie wieść, że [tywin.GetFirstNameNicknamed] zniszczył Tarbeck Hall, sprowadzając zamek na głowy jego mieszkańców — zabijając wszystkich, którzy schronili się za jego murami!"
+ agot_ninepenny.2017.a:0 "#italic [tywin.GetFirstNameNoTooltip]...#!"
+
+ agot_ninepenny.2018.t:0 "[tarbeck.GetLadyLord|U] [tarbeck.GetHouse.GetNameNoTooltip] Poddał Się"
+ agot_ninepenny.2018.desc:0 "Docierają do mnie wieści z pola bitwy: [tarbeck.GetFullNameNicknamed] w końcu zmądrzał i zdecydował się spłacić długi wobec Domu Lannisterów.\n\n#bold Rozlew krwi#! został dziś uniknięty."
+ agot_ninepenny.2018.a:0 "[tywin.GetFirstNameNoTooltip]..."
+
+ agot_ninepenny.2019.t:0 "Lew u Bram"
+ agot_ninepenny.2019.desc:0 "To było tylko kwestią czasu, zanim [tywin.GetFirstNameNicknamed] pojawił się pod [location.GetName]... Ryk lwa mógł być potężny, ale teraz przekonamy się, jak ostre są jego pazury.\n\nPrzyszłość Domu [reyne.GetHouse.GetName] sprowadza się do tego. Moja rola w kształtowaniu tej przyszłości może być naszym #bold zgubieniem#!."
+ agot_ninepenny.2019.a:0 "Niech [tywin.GetHerHim] spróbuje mnie zmusić do pokłonu..."
+
+ agot_ninepenny.2020.t:0 "Zdobycie Castamere"
+ agot_ninepenny.2020.desc.reyne:0 "Mówi się, że w stadzie może być tylko jeden dominujący lew, czasem wymagający zabicia konkurenta, aby zabezpieczyć swoją pozycję. [reyne.GetFirstNameNicknamed] wita mnie przed tunelami Castamere, ale widzę, że [reyne.GetSheHe] nie ma ochoty na rozmowy.\n\n„Mój dobry [ROOT.Char.GetLadyLord],” szydzi [reyne.GetSheHe], wyraźnie przekonany, że wytrzyma oblężenie głęboko w kopalniach pod ziemią. „Obawiam się, że przybyłeś tu na próżno. Chyba że, oczywiście, chciałbyś mi się pokłonić...” Ta arogancja — i dziecinność — sprawiają, że widzę #bold czerwień#!.\n\nOdwracam się na pięcie i wracam do linii oblężniczych Lannisterów, ale moja decyzja już zapadła... Nie chcę po prostu kapitulacji. Chcę ich wszystkich #bold martwych#!!"
+ agot_ninepenny.2020.desc:0 "Mówi się, że w stadzie może być tylko jeden dominujący lew, czasem wymagający zabicia młodych, aby zabezpieczyć swoją pozycję. Przed tunelami Castamere wita mnie nie [reyne.GetFirstNameNicknamed], lecz jego [reyne.Custom2('RelationToMeShort', defender)] [defender.GetName]. [defender.GetSheHe|U] przybył negocjować w nieobecności swojego [reyne.GetLadyLord].\n\n[defender.GetFirstNameNoTooltip] wydaje się przekonany, że [defender.GetSheHe] wytrzyma oblężenie głęboko w kopalniach pod ziemią. Choć jestem rozczarowany, że nie mam mojego rywala w zamku, wiem, że muszę dać przykład jego rodzinie — i #bold jego siedzibie#!."
+ agot_ninepenny.2020.a:0 "Ukryją się w kopalniach? Zginą w kopalniach."
+ agot_ninepenny.2020.a.tt:0 "Zalejesz tunele, zmieniając kopalnie w ruiny i zabijając wszystkich w środku."
+ agot_ninepenny.2020.b:0 "Zdobędziemy zamek przez oblężenie."
+ agot_ninepenny.2020.b.tt:0 "Będziesz kontynuować oblężenie jak zwykle."
+
+ agot_ninepenny.2030.t:0 "Kaprysy Ojca"
+ agot_ninepenny.2030.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', tytos)] [tytos.GetFirstName] był słabym człowiekiem, który pozwalał lordom Westerlandów szaleć nad dziedzictwem tego wielkiego domu. Teraz, gdy [tytos.GetHerHim] nie ma już na drodze, mogę przejąć pieczę nad potężnym Domem [ROOT.Char.GetHouse.GetName].\n\nTeraz lordowie [reyne.GetHouse.GetName] i [tarbeck.GetHouse.GetName] zobaczą, że ten Lew ma pazury, dłuższe i ostrzejsze niż te jego ojca."
+ agot_ninepenny.2030.a:0 "[ROOT.Char.GetHouse.GetMotto]"
+
+ agot_ninepenny.2031.t:0 "Lew Musi Walczyć"
+ agot_ninepenny.2031.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', tytos_heir)] [tytos_heir.GetFirstName] podchodzi do mnie z ogniem w oczach... Wygląda na to, że moja decyzja o wycofaniu się z wojny nie została dobrze przyjęta.\n\n„Co powiedzieliby lordowie Westerlandów o swoim seniorze, gdyby wiedzieli, że [ROOT.Char.GetSheHe] jest jedynie kociakiem!” krzyczy [tytos_heir.GetFirstNameNoTooltip], a jego słowa tną mnie jak naostrzone sztylety. Być może powinienem przemyśleć swoje stanowisko..."
+ agot_ninepenny.2031.a:0 "Dołączę do walki!"
+ agot_ninepenny.2031.b:0 "Nie, moje stanowisko pozostaje niezmienne."
+
+ agot_ninepenny.2032.t:0 "Lekcje z Wojny"
+ agot_ninepenny.2032.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', tytos_heir)] [tytos_heir.GetNameNoTooltip] nauczył się wiele w trudnych czasach na wojnie. Teraz, gdy wróciliśmy, jego ponury nastrój zdaje się tylko zaostrzać, a cierpliwość wobec nieposłusznych wasali zniknęła.\n\nMoje obawy się potwierdzają, gdy [tytos_heir.GetSheHe] podchodzi do mnie w sprawie pogarszającej się sytuacji z moimi niesfornymi wasalami, [reyne.GetFullName] i [tarbeck.GetFullName]. Są winni Domowi [ROOT.Char.GetHouse.GetName] tyle złota, że mogłoby wypełnić wszystkie skarbce Skały, a nawet więcej, a ja pozwalałem im być w spokoju, by utrzymać wątły pokój. Teraz [tytos_heir.GetNameNoTooltip] ma inne pomysły..."
+ agot_ninepenny.2032.a:0 "Nie mogę kontrolować ich losów."
+ agot_ninepenny.2032.b:0 "Tylko lochy powstrzymają takie ambicje."
+
+ agot_ninepenny.2033.t:0 "Otoczony Tchórzami"
+ agot_ninepenny.2033.desc.ellyn:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', messenger)] [messenger.GetName] ukrywał się dniami i nocami od Tarbeck Hall, aby poinformować mnie, że bezkręgowy [tarbeck.GetName] ugiął się pod żądaniami Skały, pozostawiając mnie politycznie odizolowaną."
+ agot_ninepenny.2033.desc:0 "Powiedziano mi, że bezkręgowy [tarbeck.GetName] ugiął się pod żądaniami Skały, pozostawiając mnie politycznie odizolowaną."
+ agot_ninepenny.2033.a:0 "Walka się tu nie kończy."
+ agot_ninepenny.2033.b:0 "Nie mam innego wyboru..."
+
+ agot_ninepenny.2050.t:0 "Panowanie Castamere"
+ agot_ninepenny.2050.desc:0 "#bold Wojna została wygrana.#! Ostatnie ciosy padły, a Dom [ROOT.Char.GetHouse.GetName] stoi samotnie jako panujący lew Westerlandów.\n\nGdy przygotowuję się do wysłania pierwszych edyktów do moich nowych wasali, gość wchodzi na mój dwór. Po jego postawie widzę, że to bard — harfista, jak się wydaje, sądząc po lutni przy boku. „Mój [ROOT.Char.GetLadyLord], jestem [singer.GetNameNicknamed] i przybyłem, aby uczcić twoje zwycięstwo w wojnie pieśnią,” mówi, a ja skinieniem zapraszam go, by zaczął... #indent_newline:6 \n\n#italic I tak przemówił, i tak przemówił,\n  o Panowaniu Castamere,\nA teraz kraina kłania się jego wezwaniu,\n  a cały zachód słyszy.\nTak, teraz kraina kłania się jego wezwaniu,\n  i każda dusza musi słyszeć.#! #!\n\nBard głęboko się kłania po zakończeniu swojej pieśni."
+ agot_ninepenny.2050.a:0 "Niech to będzie śpiewane w salach wszystkich moich wrogów."
+
+ agot_ninepenny.2051.t:0 "Deszcze Castamere"
+ agot_ninepenny.2051.desc:0 "#bold Wojna została wygrana.#! Ostatnie ciosy padły, a Dom [ROOT.Char.GetHouse.GetName] pozostaje niekwestionowanym panem Westerlandów.\n\nGdy przygotowuję się do powrotu do codziennych obowiązków władzy, gość wchodzi na mój dwór. Po jego postawie widzę, że to bard — harfista, jak się wydaje, sądząc po lutni przy boku. „Mój [ROOT.Char.GetLadyLord], jestem [singer.GetNameNicknamed] i przybyłem, aby uczcić twoje zwycięstwo w wojnie pieśnią,” mówi, a ja skinieniem zapraszam go, by zaczął... #indent_newline:6 \n\n#italic I tak przemówił, i tak przemówił,\n  ten lord z Castamere,\nAle teraz deszcze płaczą nad jego salą,\n  z nikim, kto by słyszał.\nTak, teraz deszcze płaczą nad jego salą,\n  i nie ma duszy, by słyszała.#! #!\n\nBard głęboko się kłania po zakończeniu swojej pieśni."
+
+ agot_ninepenny.9102.t:0 "Smocze Widma"
+ agot_ninepenny.9102.desc:0 "Minęło kilka miesięcy od tragedii w Summerhall i zaczęły napływać doniesienia o widzeniach smoków w całym Westeros. Początkowo odrzucano to jako szaleństwo, ale liczba świadków jest zbyt wielka, by to zignorować. Wygląda na to, że pomimo śmierci w Summerhall, [aegon.GetTitledFirstName] ostatecznie zdołał przywrócić smoki."
+ agot_ninepenny.9102.a:0 "Smoki znów przemierzają krainy..."
+
+ agot_ruinized_summerhall_effect_desc:0 "Summerhall zostaje zredukowane do ruin"
+ dragon_has_hatched_tt:0 "[dragon.GetName] się wykluł"
+ all_eggs_destroyed_tt:0 "Wszystkie smocze jaja biorące udział w rytuale zostały zniszczone"
+ abandon_hatching_tt:0 "@warning_icon! #X Jeśli porzucisz próbę wyklucia, nie będziesz mógł rozpocząć nowej aktywności klucia przez 10 lat#!"

@@ -1,0 +1,28 @@
+﻿l_english:
+
+ goldeneye_nickname_tt:0 " Dla Westeros, Jamesie?"
+
+ agot_heterochromia_customizer.1000.t:0 " Menu dostosowywania heterochromii oczu"
+ agot_heterochromia_customizer.1000.desc:0 " Witaj w #bold Menu dostosowywania heterochromii oczu#!! Prosimy o uważne przeczytanie, abyś mógł wybrać kolor, jaki chcesz, aby miało drugie oko twojej postaci. \n\n Skorzystaj z menu, aby wybrać kolor heterochromii oka, który chcesz. Możesz użyć postaci po prawej stronie, aby zobaczyć, jak dany kolor będzie wyglądał."
+ agot_heterochromia_customizer.1000.a:0 " Wybierz kolor heterochromii oka."
+ agot_heterochromia_customizer.1000.b:0 " Gotowe. Zagrajmy teraz!"
+ agot_heterochromia_customizer.1001.a:0 " Wybrałem i potwierdzam mój wybór."
+ agot_heterochromia_customizer.1000.c:0 " Po namyśle, jednak nie chcę heterochromii #N wcale#!"
+ agot_heterochromia_customizer.1000.c_tt:0 "@warning_icon! #warning Utracisz wszystkie wybrane kolory heterochromii oka#!"
+
+ heterochromia_green1_tt:0 " Wybrano #P Zielony1#! jako kolor heterochromii"
+ heterochromia_green2_tt:0 " Wybrano #P Zielony2#! jako kolor heterochromii"
+ heterochromia_blue1_tt:0 " Wybrano #P Niebieski1#! jako kolor heterochromii"
+ heterochromia_blue2_tt:0 " Wybrano #P Niebieski2#! jako kolor heterochromii"
+ heterochromia_black1_tt:0 " Wybrano #P Czarny1#! jako kolor heterochromii"
+ heterochromia_black2_tt:0 " Wybrano #P Czarny2#! jako kolor heterochromii"
+ heterochromia_brown1_tt:0 " Wybrano #P Brązowy1#! jako kolor heterochromii"
+ heterochromia_brown2_tt:0 " Wybrano #P Brązowy2#! jako kolor heterochromii"
+ heterochromia_brown3_tt:0 " Wybrano #P Brązowy3#! jako kolor heterochromii"
+ heterochromia_grey_tt:0 " Wybrano #P Szary#! jako kolor heterochromii"
+ heterochromia_purple1_tt:0 " Wybrano #P Fioletowy1#! jako kolor heterochromii"
+ heterochromia_purple2_tt:0 " Wybrano #P Fioletowy2#! jako kolor heterochromii"
+ heterochromia_purple3_tt:0 " Wybrano #P Fioletowy3#! jako kolor heterochromii"
+ heterochromia_purple4_tt:0 " Wybrano #P Fioletowy4#! jako kolor heterochromii"
+ heterochromia_red_tt:0 " Wybrano #P Czerwony#! jako kolor heterochromii"
+ heterochromia_gold_tt:0 " Wybrano #P Złoty#! jako kolor heterochromii"

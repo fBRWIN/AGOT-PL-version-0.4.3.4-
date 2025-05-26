@@ -1,0 +1,23 @@
+﻿l_english:
+ # Ujawnij prawdziwe pochodzenie kogoś innego
+ agot_expose_true_parentage_decision:0 "Ujawnij Prawdziwe Pochodzenie"
+ agot_expose_true_parentage_decision_tooltip:0 "Ujawnisz prawdę o pochodzeniu pretendenta."
+ agot_expose_true_parentage_decision_tooltip.jon:0 "Ujawnisz, co naprawdę wydarzyło się w Wieży Radości."
+ agot_expose_true_parentage_decision_desc.jon:0 "Pamiętam zbyt wyraźnie obietnice złożone wśród zimowych róż... a teraz przede mną stoi dziecko, którego całe życie opiera się na kłamstwie. To nie fair, że dziecko Lyanny żyje i umiera, nigdy nie poznając prawdy."
+ agot_expose_true_parentage_decision_desc.man:0 "To, co wiem, nie daje mi spokoju. Wierzyć, że jesteś tak nisko, a jednocześnie pochodzić z tak wysokiego rodu. Przede mną stoi dziecko, którego całe życie opiera się na kłamstwie. Teraz dziecko stało się dorosłym mężczyzną. To nie fair, że żyje i umiera, nigdy nie poznając prawdy."
+ agot_expose_true_parentage_decision_desc.woman:0 "To, co wiem, nie daje mi spokoju. Wierzyć, że jesteś tak nisko, a jednocześnie pochodzić z tak wysokiego rodu. Przede mną stoi dziecko, którego całe życie opiera się na kłamstwie. Teraz dziecko stało się dorosłą kobietą. To nie fair, że żyje i umiera, nigdy nie poznając prawdy."
+ agot_expose_true_parentage_decision_requirement_yes:0 "Znasz tajemniczego królewskiego bękarta, który jest dorosły i nie powiedziałeś mu o tym wcześniej."
+ agot_expose_true_parentage_decision_confirm:0 "Prawda musi zostać ujawniona!"
+
+ # Ujawnij moje prawdziwe pochodzenie
+ agot_expose_my_true_parentage_decision:0 "Ujawnij Moje Prawdziwe Pochodzenie"
+ agot_expose_my_true_parentage_decision_tooltip:0 "Ujawnisz prawdę o swoim pochodzeniu."
+ agot_expose_my_true_parentage_decision_desc:0 "To, co wiem, nie daje mi spokoju. Wierzyć, że byłem tak niski, a pochodziłem z tak wysokiego rodu. Moje całe życie oparte było na kłamstwie. Już nie. Teraz, gdy mam własne ziemie i szacunek, prawda zostanie ujawniona. Jestem z królewskiego rodu, a świat się o tym dowie!"
+ agot_expose_my_true_parentage_decision_confirm:0 "Prawda musi zostać ujawniona!"
+
+ # Złożenie roszczenia do Żelaznego Tronu
+ agot_royal_bastard_claim_decision:0 "Złóż Roszczenie do Żelaznego Tronu"
+ agot_royal_bastard_claim_decision_tooltip:0 "Złożysz roszczenie do swojego dziedzictwa z powodu swojego królewskiego pochodzenia."
+ agot_royal_bastard_claim_decision_desc.forswore:0 "Pomimo mojego nieczystego pochodzenia, wspiąłem się wysoko w uznaniu Westeros. Choć publicznie zadeklarowałem brak zamiaru, rzeczywistość jest taka, że królewska krew płynąca w moich żyłach daje mi niezaprzeczalne roszczenie do Siedmiu Królestw. Oczywiście, biorąc pod uwagę moje wcześniejsze działania, taka deklaracja splamiłaby moją honor, nie wspominając o tym, że takie wyzwanie do tronu postawiłoby mnie na ścieżce wojny, z której nie mogę zawrócić."
+ agot_royal_bastard_claim_decision_desc:0 "Pomimo mojego nieczystego pochodzenia, wspiąłem się wysoko w uznaniu Westeros. Królewska krew płynąca w moich żyłach daje mi prawo do roszczenia do Siedmiu Królestw, jeśli tylko tego zechcę. Oczywiście, takie jawne wyzwanie dla tronu postawiłoby mnie na ścieżce wojny, z której nie mogę zawrócić, gdy już ją rozpocznę."
+ agot_royal_bastard_claim_decision_confirm:0 "Muszę rościć sobie prawo do mojego dziedzictwa!"

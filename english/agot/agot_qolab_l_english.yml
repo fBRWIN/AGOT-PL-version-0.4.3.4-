@@ -1,0 +1,26 @@
+﻿l_english:
+ named_me_queen_of_love_and_beauty_opinion:0 "Nazwana Królową Miłości i Urody"
+
+ queen_of_love_and_beauty_modifier:0 "Królowa Miłości i Urody"
+ pursuing_queen_of_love_and_beauty_modifier:0 "Kandydatka na Królową Miłości i Urody"
+
+ artifact_crown_of_qolab_name:0 "Wieniec Miłości i Urody"
+ artifact_crown_of_qolab_desc:0 "Pożądany wieniec wręczony [owner.GetFullName] przez [contest_winner.GetFullName] na Turnieju w [owner.MakeScope.Var('tourney_location').Province.GetCounty.GetName], gdzie została ukoronowana Królową Miłości i Urody."
+
+#trinkets
+ agot_artifact_trinket_of_qolab:0 "Pozłacany Wieniec Miłości i Urody"
+ agot_artifact_trinket_of_qolab_desc:0 "Pożądany wieniec wręczony [owner.GetFullName] przez [old_contest_winner.GetFullName] na Turnieju w [owner.MakeScope.Var('old_tourney_location').Province.GetCounty.GetName], gdzie została ukoronowana Królową Miłości i Urody.  Został zachowany pod cienką warstwą bitego złota i wypolerowany, by wzbudzać podziw lub niezadowolenie u wszystkich, którzy pamiętają ten pamiętny turniej."
+
+#Contest loc
+ contest_events_qolab_winner:0 "Zwycięstwo daje mi przywilej mianowania Królową Miłości i Urody na Turnieju w [province.GetCounty.GetName]. Prawie każda szlachetna dama siedzi w oczekiwaniu, ale tłum domagający się, by ta czy inna została nazwana, zdradza prawdę o stawce. Powinienem podjąć rozsądną decyzję... ale co jeśli zamierzam wzniecić płomienie w świecie?"
+ contest_events_qolab_not_winner:0 "\n\n[contest_winner.GetName] złożył pożądany wieniec na kolanach [chosen_qolab.GetName], koronując ją Królową Miłości i Urody..."
+
+ agot_contest_events.9000.t:0 "Królowa Miłości i Urody"
+ agot_contest_events.9000.desc:0 "Kogo wybiorę?"
+
+ contest_events.qolab.beloved:0 "Nie ma damy bardziej godnej niż moja ukochana [beloved.GetFirstName]"
+ contest_events.qolab.honor_host:0 "Uhonorowanie naszej gospodyni, mianując [honored.GetName], może być użyteczne..."
+ contest_events.qolab.someone_else:0 "Mam na myśli inną..."
+ contest_events.qolab.selection:0 "Ona jest najbardziej zasługującą"
+ contest_events.qolab.pursue_selection:0 "Kobieta, którą podziwiam ponad wszystkie inne"
+ contest_events.qolab.self:0 "Nie ma damy bardziej godnej niż ja"

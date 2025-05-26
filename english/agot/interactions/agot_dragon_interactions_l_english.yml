@@ -1,0 +1,157 @@
+﻿l_english:
+
+ # Oswajanie
+ tame_dragon_interaction:0 "Oswajaj Smoka"
+ tame_dragon_interaction_desc:0 "Będziesz próbował oswoić [recipient.GetNameNoTooltip]"
+ tame_dragon_interaction_desc_warning:0 "Będziesz próbował oswoić [recipient.GetNameNoTooltip].\n\n@warning_icon! #warning Oswajanie smoka przed związaniem z nim więzią jest niezwykle ryzykowne.#!"
+ tame_dragon_no_active_bond_schemes:0 "Nie posiadasz [GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme|e]"
+ tame_dragon_notification:0 "Próba Oswojenia Smoka"
+ tame_dragon_interaction_tt1:0 "Możesz oswoić [recipient.GetName], ale możesz zostać ranny lub zginąć."
+ tame_dragon_interaction_tt2:0 "#warning Oswajanie smoka przed związaniem z nim więzią jest niezwykle ryzykowne.#!"
+
+ # Związanie
+ bond_with_dragon_interaction:0 "Zwiąż się ze Smokiem"
+ bond_with_dragon_interaction_desc:0 "Będziesz próbował związać się z [recipient.GetNameNoTooltip]."
+ bond_dragon_notification:0 "Związywanie się ze [recipient.GetNameNoTooltip]"
+ deepen_bond_with_dragon_interaction:0 "Zacieśnij Więź"
+ deepen_bond_with_dragon_interaction_desc:0 "Będziesz próbował pogłębić więź z [recipient.GetNameNoTooltip]."
+ deepen_bond_dragon_notification:0 "Zacieśnianie więzi z [recipient.GetNameNoTooltip]"
+ blow_dragon_horn_interaction:0 "Ponownie Zwiąż Smoka"
+ blow_dragon_horn_interaction_desc:0 "[recipient.GetNamePossessiveNoTooltip] więź osłabła. Będziesz próbował wzmocnić tę więź za pomocą rogu smoka."
+ must_equip_dragon_horn:0 "Posiada wyposażony róg smoka"
+ binding_is_unstable:0 "Siła więzi z tym smokiem osłabła"
+ visit_dragonpit_with_child_interaction:0 "Odwiedź Smoczą Jamę Razem"
+ visit_dragonpit_with_child_interaction_desc:0 "Odwiedzasz smoczą jamę z [recipient.GetNameNoTooltip]."
+ visit_dragonpit_interaction_tt:0 "[recipient.GetName] może związać się lub oswoić smoka w twoich smoczych jamach."
+
+ dragon_beyond_the_wall:0 "Smoki nie będą przekraczać Muru"
+
+ # Zabijanie Smoka
+ slay_dragon_interaction:0 "Zabij Smoka"
+ slay_dragon_interaction_desc:0 "Będziesz próbował zabić [recipient.GetNameNicknamed].\n\n@warning_icon! #warning Próba zabicia smoka jest niezwykle niebezpieczna#!"
+ slay_dragon_notification:0 "Próba Zabicia Smoka"
+ slay_dragon_interaction.found_cave:0 "Znajdujesz legowisko [recipient.GetNamePossessiveNoTooltip]"
+ slay_dragon_interaction.found_by_dragon:0 "[recipient.GetNameNoTooltip] znajduje cię"
+ slay_dragon_interaction.cannot_find_cave:0 "Nie możesz znaleźć [recipient.GetNameNoTooltip]"
+ ds_cooldown_desc:0 "Niedawno walczyłeś z smokiem lub próbowałeś go zabić"
+ dragon_is_in_combat:0 "Smok jest zaangażowany w walkę."
+ dragon_is_in_dragonpit:0 "Smok jest zamknięty w smoczej jamie."
+
+ # Intrygi
+ bond_with_dragon_scheme:0 "Zwiąż się z Tym Smokiem"
+ bond_with_dragon_scheme_action:0 "Zwiąż się"
+ bond_with_dragon_scheme_desc:0 "Możesz próbować związać się z tym smokiem"
+ bond_with_dragon_scheme_desc_general:0 "Postać może próbować pogłębić więź z tym smokiem"
+ deepen_bond_with_dragon_scheme:0 "Zacieśnij Więź ze Smokiem"
+ deepen_bond_with_dragon_scheme_action:0 "Zacieśnij Więź"
+ deepen_bond_with_dragon_scheme_desc:0 "Możesz próbować pogłębić więź z twoim smokiem"
+ deepen_bond_with_dragon_scheme_desc_general:0 "Postać może próbować pogłębić więź z twoim smokiem"
+
+ # Szanse sukcesu
+ SCHEME_DRAGON_BASE:0 "Podstawowe: #V $VALUE|0=$#!"
+ SCHEME_DRAGON_BONDED_BASE:0 "Podstawowe dla związanego smoka: #V $VALUE|0=$#!"
+ SCHEME_DRAGON_UNBONDED_BASE:0 "Podstawowe dla niezwiązanego smoka: #V $VALUE|0=$#!"
+ SCHEME_BOND_DRAGON_THEIR_OPINION:0 "Opinia [target.GetTitledFirstNamePossessive] o tobie: $VALUE|+0=-+$"
+ SCHEME_BOND_BOTH_TRAIT:0 "Masz podobną osobowość: $VALUE|+0=-+$"
+ SCHEME_BOND_OWNER_DILIGENT:0 "Jesteś [GetTrait('diligent').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+ SCHEME_BOND_OWNER_LAZY:0 "Jesteś [GetTrait('lazy').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+ DRAGON_AGE:0 "[target.GetTitledFirstNamePossessive] wiek: #N -[target.GetAge]#!"
+ SCHEME_BOND_DRAGON_DREAD:0 "Twoja przerażająca obecność: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_GRAVITAS:0 "Twoja osobista charyzma: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_DRACONIC_DREAD:0 "[target.GetFirstNamePossessive] [draconic_dread|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_TEMPERAMENT:0 "[target.GetFirstNamePossessive] [temperament|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DRAGON_TAMING_CHANCE:0 "[target.GetFirstNamePossessive] [taming_chance|E]: $VALUE|+0=-+$"
+ BOND_DRAGON_SUCCESS_DESC:0 "Zwiążesz się z tym [dragon|E]"
+ DEEPEN_BOND_DRAGON_SUCCESS_DESC:0 "Zwiększysz doświadczenie swojej więzi z [GetTrait('dragonrider').GetName(GetNullCharacter)]"
+ SCHEME_BOND_VALYRIAN_BLOOD:0 "Masz Smoczą Krew: $VALUE|+0=-+$"
+ SCHEME_BOND_DYNASTY_LEGACY:0 "[GetDynastyPerk( 'dragonrider_dynasty_legacy_2' ).GetName]: $VALUE|+0=-+$"
+ SCHEME_EX_DRAGONRIDER:0 "Już związałeś się z jednym [dragon|E]: $VALUE|+0=-+$"
+ SCHEME_BOND_DESTINED_RIDER:0 "Czujesz przeznaczoną więź: $VALUE|+0=-+$"
+ bonded_with_me:0 "Związany ze mną"
+ failed_to_bond_with_me:0 "Nie udało się związać ze mną"
+
+ # Jaja / wylęganie
+ select_egg_for_hatching:0 "Wybierz Jajo Smoka do Wylęgania"
+ select_egg_for_hatching_desc:0 "Wybierz, które z twoich jaj smoka spróbujesz wylęgnąć"
+ selected_egg_for_hatching_notification_title:0 "Wybrane Jajo do Wylęgania"
+ selected_egg_for_hatching_notification_desc:0 "Wybrałeś [target.GetName] do wylęgania."
+ cradle_egg:0 "Kołysz Jajo Smoka"
+ cradle_egg_desc:0 "Kołysz swoje jajo smoka"
+ started_cradling_egg_notification:0 "Kołyszesz Jajo Smoka"
+ started_cradling_egg_notification_title:0 "Kołyszesz Jajo Smoka"
+ started_cradling_egg_notification_desc:0 "Kołyszesz [target.GetName]."
+ give_egg:0 "Podaj Jajo Smoka"
+ give_egg_desc:0 "Podaj jajo smoka [recipient.GetName]"
+ gave_egg_for_cradling_notification:0 "Podano Jajo Dziecku"
+ gave_egg_for_cradling_notification_title:0 "Podano Jajo Smoka [recipient.GetFirstName]"
+ gave_egg_for_cradling_notification_desc:0 "Podano [target.GetName] do [recipient.GetFirstName]."
+ received_egg_for_cradling_notification_title:0 "Otrzymano Jajo Smoka od [actor.GetTitledFirstName]"
+ received_egg_for_cradling_notification_desc:0 "Otrzymałeś jajo [target.GetName] od [actor.GetFirstName]! Teraz kołyszesz to jajo."
+ taught_dragonlore_title:0 "Nauczono Wiedzy o Smokach"
+ taught_dragonlore_desc:0 "Nauczyłeś [recipient.GetName] wiedzy o smokach."
+ taught_dragonlore_received_desc:0 "Zostałeś nauczony wiedzy o smokach przez [actor.GetFirstName]."
+ has_no_dragons:0 "[actor.GetFirstName] nie posiada oswojonego ani związanego smoka"
+
+ # Kampania terroru
+ agot_instruct_to_conduct_terror_campaign:0 "Przeprowadź Kampanię Terroru"
+ agot_instruct_to_conduct_terror_campaign_desc:0 "Rozkaż [recipient.GetName] użyć [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] do przeprowadzenia Kampanii Terroru.\n$conduct_terror_campaign_tooltip$"
+
+ agot_stop_conducting_terror_campaign:0 "Zakończ Kampanię Terroru"
+ agot_stop_conducting_terror_campaign_desc:0 "Rozkaż [recipient.GetName] zakończyć [recipient.GetHerHis] Kampanię Terroru"
+
+ agot_refusing_stop_conducting_terror_campaign_tt:0 "[recipient.GetFirstName] już odmówił(a) zakończenia [recipient.GetHerHis] Kampanii Terroru"
+
+ agot_dragon.imprisoned_on_terror_campaign.t:0 "Kampania Terroru Zakończona!"
+ agot_dragon.imprisoned_on_terror_campaign.desc:0 "[ROOT.Char.GetFirstName] został(a) uwięziony(a) i nie będzie już palić ziem twoich wrogów."
+
+ # Nauka wiedzy o smokach
+ agot_teach_dragonlore:0 "Naucz Wiedzy o Smokach"
+ agot_teach_dragonlore_desc:0 "Z pomocą twojego [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], nauczysz [recipient.GetName] wiedzy o smokach, niezbędnej do oswajania smoków"
+ scheme_taught_dragonlore:0 "Nauczono Wiedzy o Smokach: $VALUE|+0=-+$"
+ scheme_dragonkeeper:0 "Główny Strażnik Smoków: $VALUE|+0=-+$"
+ scheme_pitted_dragon:0 "Zamknięty w [dragonpit|e]: $VALUE|+0=-+$"
+ scheme_wild_dragon:0 "[wild_dragon|E]: $VALUE|+0=-+$"
+ agot_teach_dragonlore_increased_dragonlore_preview_tt:0 "[recipient.GetName] zwiększy [recipient.GetHerHis] wiedzę o smokach o #P [TopScope.GetValue('hdk_aptitude')]#!"
+ agot_teach_dragonlore_increased_dragonlore_interface_tt:0 "[recipient.GetName] zwiększył(a) [recipient.GetHerHis] wiedzę o smokach o #P [TopScope.GetValue('hdk_aptitude')]#!"
+
+ agot_send_to_dragonpit:0 "AI Wyślij do Smoczej Jamy"
+ agot_send_to_dragonpit_desc:0 "AI wyśle [recipient.GetName] do [recipient.GetHerHis] [dragonpit|E]"
+
+ agot_remove_from_dragonpit:0 "AI usuń ze Smoczej Jamy"
+ agot_remove_from_dragonpit_desc:0 "AI usunie [recipient.GetName] z [recipient.GetHerHis] [dragonpit|E]"
+
+ agot_grant_dragonpit_permission:0 "Przyznaj Dostęp do Smoczej Jamy"
+ agot_grant_dragonpit_permission_desc:0 "Przyznaj [recipient.GetName] dostęp do twojej [dragonpit|e], oraz wszelkich [dragons_plural|e] w niej zamkniętych. Uczyni to [recipient.GetNameNoTooltip] [authorized_tamer|e] tej smoczej jamy."
+ agot_grant_dragonpit_permission_effect_tt:0 "[recipient.GetName] stanie się [authorized_tamer|e] w [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+
+ agot_ban_from_dragonpit:0 "Zablokuj Dostęp do Smoczej Jamy"
+ agot_ban_from_dragonpit_desc:0 "[recipient.GetName] obecnie ma dostęp do twojej [dragonpit|e] z powodu twoich przepisów dotyczących smoczych jam. Ta akcja usunie ich dostęp do określonej smoczej jamy."
+ agot_banned_from_dragonpit_permission_effect_tt:0 "[recipient.GetName] zostanie zbanowany(a) z [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+ agot_banned_from_dragonpit_interface_tt:0 "[recipient.GetName] został(a) zbanowany(a) z dostępu do twojej [dragonpit|e] w [dragon_pit_location.GetNameNoTier]."
+
+ agot_reverse_dragonpit_ban:0 "Znieś Zakaz Dostępu do Smoczej Jamy"
+ agot_reverse_dragonpit_ban_desc:0 "[recipient.GetName] jest obecnie zbanowany(a) z [dragonpit|e] w twoim [domain|e], ta akcja zniesie ten zakaz."
+ agot_reversed_ban_from_dragonpit_interface_tt:0 "Zakaz dostępu [recipient.GetFirstNamePossessive] do twojej [dragonpit|e] został zniesiony."
+ agot_ban_lifted_from_dragonpit_effect_tt:0 "Zakaz [recipient.GetFirstNamePossessive] dostępu do [target.GetNameNoTier] [dragonpit|e] został zniesiony."
+
+ agot_request_dragonpit_permission:0 "Poproś o Dostęp do Smoczej Jamy"
+ agot_request_dragonpit_permission_desc:0 "Możesz poprosić o dostęp do [recipient.GetShortUINamePossessive] [dragonpit|e]."
+ agot_request_dragonpit_permission_effect_tt:0 "[actor.GetShortUIName] stanie się [authorized_tamer|e] w [dragon_pit_location.GetNameNoTier] [dragonpit|e]."
+
+ agot_dragonpit_access_gained:0 "Dostęp do Smoczej Jamy Przyznany"
+ agot_dragonpit_access_gained_interface_tt:0 "[actor.GetShortUIName] uczynił cię [authorized_tamer|E] w [actor.GetHerHis] [dragonpit|E]!"
+ agot_dragonpit_access_denied:0 "Dostęp do Smoczej Jamy Odrzucony"
+ agot_dragonpit_access_denied_interface_tt:0 "[recipient.GetShortUIName] odmówił ci dostępu do [recipient.GetHerHis] [dragonpit|E]!"
+ agot_request_dragonpit_permission_ai_modifier_i_am_blood_of_the_dragon:0 "Rozumie znaczenie swoich smoków"
+
+ agot_send_egg_to_pit:0 "Wyślij Jajo do Smoczej Jamy"
+ agot_send_egg_to_pit_desc:0 "Wyślij jedno z twoich jaj smoka do [dragonpit|e] do wylęgania"
+ agot_send_all_eggs_to_pit:0 "Wyślij Wszystkie Jaja do Smoczej Jamy"
+ agot_send_all_eggs_to_pit_desc:0 "Wyślij wszystkie nieużywane jaja smoka do [dragonpit|e] do wylęgania"
+
+ agot_retrieve_egg_from_pit:0 "Pobierz Jajo ze Smoczej Jamy"
+ agot_retrieve_egg_from_pit_desc:0 "Pobierz jajo przechowywane w jednej z twoich [dragonpits|e]"
+
+ rename_dragon_interaction:0 "Zmień Nazwę Smoka"
+ rename_dragon_interaction_desc:0 "Zmień nazwę [recipient.GetName]"
+ renaming_dragon_you_are_house_head_tt:0 "Przynajmniej jedno z tych:\n$EFFECT_LIST_BULLET$Jesteś towarzyszem tego smoka\n$EFFECT_LIST_BULLET$Jesteś głową rodu towarzysza lub jeźdźca tego smoka"

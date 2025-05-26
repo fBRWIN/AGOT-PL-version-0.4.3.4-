@@ -1,0 +1,10 @@
+﻿l_english:
+ at_buyer_not_enough_gold_for_artifact_price_tooltip: "Płaci #high [gold_i][SCOPE.ScriptValue('at_scope_buyer_current_gold_value')|0]#! dla [seller.GetShortUINameNoTooltip] #weak (pełna cena [gold_i][SCOPE.ScriptValue('at_scope_artifact_price_value')|0] przekracza budżet krótkoterminowy)#!"
+
+ at_msg_artifact_bought: "Kupiono artefakt"
+ at_msg_artifact_sold: "Sprzedano artefakt"
+
+ at_artifact_cannot_equip_or_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może wyposażyć ani skorzystać z [artifact.GetName]#!"
+ at_artifact_cannot_equip_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może wyposażyć [artifact.GetName]#!"
+ at_artifact_cannot_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] nie może skorzystać z [artifact.GetName]#!"
+ at_artifact_unwanted_or_cursed_tt: "@warning_icon! #X Artefakt niechciany lub przeklęty#!"

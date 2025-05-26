@@ -1,0 +1,40 @@
+﻿l_english:
+ silent_sister_title_localization:0 "Milcząca Siostra"
+ silent_sister_title_holder:0 "[CHARACTER.Custom('SilentSisterCheck')]"
+ SilentSisterTitle:0 "Milcząca Siostra"
+ SilentMotherTitle:0 "Milcząca Matka"
+
+ agot_silent_sisters.sent_to_silent_sisters:0 "[sister_candidate.GetFirstNameOrMe|U] zostanie wysłana, aby dołączyć do Milczących Sióstr."
+
+ agot_silent_sisters.0003.t:0 "Milczące Dziecko?"
+ agot_silent_sisters.0003.desc.volunteering:0 "[sister_candidate.GetName] nigdy nie była trudnym ani szczególnie głośnym dzieckiem. Dlatego aż podskakuję, gdy słyszę ciche pukanie do drzwi mojej pracowni. Jej twarz pojawia się w uchylonych drzwiach, gdy powoli wchodzi do środka. \"Ja... mam prośbę.\" — mówi cichym głosem, bawiąc się dłońmi. Rzadko zabiera głos, więc to niespodzianka. \"Co się stało, dziecko?\" — pytam, delikatnie zachęcając.\n\n\"Chcę dołączyć do Milczących Sióstr.\" — mówi, patrząc mi prosto w oczy z niespodziewaną determinacją. \"Chcę złożyć śluby i poświęcić swoje życie cichej służbie Siedmiu.\" Jestem zaskoczony tą prośbą. Milczące Siostry? Dla [sister_candidate.GetFirstName], mojej własnej córki? To może i szlachetna droga, ale tak skrajne życie... Nawet jeśli tego pragnie, czy to jest życie, którego chcę dla niej?"
+ agot_silent_sisters.0003.desc.suggesting:0 "[sister_candidate.GetName] nigdy nie była trudnym ani szczególnie głośnym dzieckiem, a dziś było to wyjątkowo widoczne. Podobno modliła się w septonie, gdy nagle wpadł tam koń, który uciekł ze stajni! Czy to ze strachu, czy z pobożności, [sister_candidate.GetFirstName] jako jedyna nie zareagowała wcale!\n\nJakże to... inne dziecko. Zastanawiam się, czy życie szlacheckiej damy naprawdę jest dla niej najlepsze. Czy będzie potrafiła prowadzić dwór, zarządzać domem, wychowywać dzieci? Choć sam siebie zaskakuję tą myślą, zastanawiam się, czy nie powinna może dołączyć do Milczących Sióstr? Wydaje się idealną kandydatką i być może tam wiodłaby lepsze życie. Ale czy potrafiłbym wysłać własną córkę? Żyją tak skrajnie... czy to jest życie, którego dla niej chcę?"
+ agot_silent_sisters.0003.a:0 "Tak, Siostry dobrze jej posłużą."
+ agot_silent_sisters.0003.b:0 "Nonsens, żadne moje dziecko nie poślubi Obcego!"
+
+ agot_silent_sisters.0004.t:0 "Przystań dla Wdów"
+ agot_silent_sisters.0004.desc:0 "W ciszy mojej komnaty siedzę przy migoczącym świetle świecy, rozważając ścieżkę, która mnie czeka. Mój mąż... już go nie ma. Zamek wydaje się pusty, jego kamienne ściany zimniejsze niż kiedykolwiek, odbijające pustkę w moim wnętrzu.\n\nSłyszałam szepty wśród kobiet na dworze, subtelne sugestie, że może nadszedł czas, aby rozważyć życie wśród Milczących Sióstr. Złożyć śluby w służbie Obcemu, bogu śmierci. Na zawsze okryta szarością, z twarzą zakrytą oprócz oczu, złożyłabym śluby milczenia i czystości, poświęcając życie przygotowywaniu zmarłych na życie pozagrobowe.\n\nMoja sukcesja jest zabezpieczona, a może moje obowiązki się skończyły? Nie mogę zaprzeczyć urokowi takiego oderwania się od codziennych politycznych spraw. Ale czy naprawdę potrafię wyrzec się wszystkich ziemskich przywiązań i przyjąć ciszę?"
+ agot_silent_sisters.0004.a:0 "Napiszę do [silent_sisterhood_holder.GetTitledFirstName], wyrażając moje zamiary."
+ agot_silent_sisters.0004.b:0 "Nie, poradzę sobie z tym."
+
+ agot_silent_sisters.0005.t:0 "Pożądanie Żony Obcego"
+ agot_silent_sisters.0005.desc:0 "Krzątam się przed pogrzebem [dead_relative.GetFirstName], gdy widzę, jak służący wnoszą skrzynię do septu, gdzie ciało ma być przygotowane do ceremonii. Za nimi podąża mała grupa Milczących Sióstr, z głowami pochylonymi w modlitwie. Coś w sposobie, w jaki jedna z nich się porusza... przyciąga moje spojrzenie w sposób najbardziej nieprzyzwoity. Nieświadomie zaczynam za nimi podążać.\n\nGdy kładą ciało [dead_relative.GetFirstNamePossessive] na kamiennej płycie i zaczynają swoje ponure prace, nagle wyrywam się z zadumy — widok krwi mojej krwi spływającej po stole wystarczyłby, by otrzeźwić każdego. A jednak właśnie wtedy jej oczy spotykają się z moimi ponad zwłokami. Czy to... czy to odwzajemniony błysk? Choć to niemożliwe, jestem tego pewien. Ona jest #S zainteresowana#!\n\nZanim zdążę cokolwiek zrobić, jedna z bardziej czujnych — i zdecydowanie mniej atrakcyjnych — sióstr gestem wyprasza mnie z septu. Ku mojemu wstydowi, nie mogę przestać o niej myśleć przez resztę pogrzebu. Odejść mają rankiem... a ja wiem, gdzie mieszka... czy odważę się?"
+ agot_silent_sisters.0005.a:0 "Och tak, odważę się. Zdecydowanie się odważę."
+ agot_silent_sisters.0005.a.flavor:0 "Odwiedzisz pokój [attractive_silent_sister.GetFirstNamePossessive], zanim odejdzie..."
+ agot_silent_sisters.0005.b:0 "Nigdy nie zhańbiłbym Siedmiu w ten sposób!"
+ agot_silent_sisters.0005.b.flavor:0 "Po namyśle, przyprawienie Obcemu rogów wydaje się złym pomysłem."
+
+ agot_silent_sisters.0006.t:0 "Rozplątana Rozkosz"
+ agot_silent_sisters.0006.desc:0 "[attractive_silent_sister.GetFirstName], jak później się dowiedziałem, szybko otworzyła drzwi, a ani jedno słowo nie padło, zanim zostałem wciągnięty do środka, potem do jej łóżka, potem w jej objęcia. Rozwijając jej ciało z więzów, pomyślałem, że Obcy ma naprawdę wiele szczęścia. Ona jednak z pewnością tak nie myślała, a cicha cielesna przyjemność, której doświadczyliśmy, była wszystkim, tylko nie święta.\n\nGdy skończyliśmy z ostatnim cichym westchnieniem, leżałem obok najbardziej odkrytej kobiety, jaką kiedykolwiek widziałem. Rozmawialiśmy, jej głos był słodki dla moich uszu, a ona wyraźnie miała wiele do powiedzenia po tak długim ślubie milczenia. Choć tej przyjemności nie sposób zaprzeczyć, to jednak bluźnierstwo najwyższego rzędu. Co więc powinienem teraz zrobić?"
+ agot_silent_sisters.0006.a:0 "Jesteśmy sobie przeznaczeni! Jakoś..."
+ agot_silent_sisters.0006.b:0 "Kto lepiej dochowa tego sekretu, jeśli nie ona?"
+ agot_silent_sisters.0006.c:0 "To był wyraźny błąd."
+ agot_silent_sisters.0006.c.flavor:0 "[attractive_silent_sister.GetFirstName] nie będzie zadowolona po złamaniu ślubów dla ciebie."
+
+ agot_silent_sisters.0007.t:0 "Prawdziwa Mroczna Siostra"
+ agot_silent_sisters.0007.desc.deviant:0 "To była piękna uroczystość upamiętniająca [dead_relative.GetNamePossessive] i wszystkie [dead_relative.GetHerHis] dokonania. Pogrzebany w myślach o sensie życia i śmierci, znalazłem się w septonie długo po zakończeniu ceremonii. Tak nieruchomy musiałem być, że Milcząca Siostra [defiler.GetFirstName] nie była świadoma mojej obecności, gdy podeszła do ciała.\n\nNa początku myślałem, że wykonuje ostatnie przygotowania zwłok, ale gdy zaczęła się rozbierać, zrozumiałem, że... o... o Bogowie!"
+ agot_silent_sisters.0007.desc.cannibal:0 "To była piękna uroczystość upamiętniająca [dead_relative.GetNamePossessive] i wszystkie [dead_relative.GetHerHis] dokonania. Pogrzebany w myślach o sensie życia i śmierci, znalazłem się w septonie długo po zakończeniu ceremonii. Tak nieruchomy musiałem być, że Milcząca Siostra [defiler.GetFirstName] nie była świadoma mojej obecności, gdy podeszła do ciała.\n\nNa początku myślałem, że wykonuje ostatnie przygotowania zwłok, ale zamiast tego pochyliła się i wgryzła w świeże ciało [dead_relative.GetFirstNamePossessiveNoTooltip]!"
+ agot_silent_sisters.0007.a:0 "Straże! Aresztować tę obrzydliwą kobietę!"
+ agot_silent_sisters.0007.b:0 "Może uda mi się to wykorzystać..."
+ agot_silent_sisters.0007.c:0 "Właściwie... to wygląda całkiem zabawnie!"
+ agot_silent_sisters.0007.d:0 "Ja pierwszy, ja pierwszy!"

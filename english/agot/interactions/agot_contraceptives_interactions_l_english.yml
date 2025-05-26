@@ -1,0 +1,7 @@
+﻿l_english:
+ #interakcje kontroli urodzeń
+ force_contraceptives_interaction:0 "Wymuś Antykoncepcję"
+ force_contraceptives_interaction_desc:0 "Zmień, by [recipient.GetFirstNameNoTooltip] brał(a) środki antykoncepcyjne"
+ remove_contraceptives_interaction:0 "Zatrzymaj Antykoncepcję"
+ remove_contraceptives_interaction_desc:0 "Zmień, by [recipient.GetFirstNameNoTooltip] przestał(a) brać środki antykoncepcyjne"
+

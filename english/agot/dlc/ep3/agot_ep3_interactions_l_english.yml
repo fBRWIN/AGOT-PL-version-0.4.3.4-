@@ -1,0 +1,2 @@
+﻿l_english:
+ PURCHASE_LAND_IMPORTANT_LAND_REASON: "Ta ziemia jest zbyt ważna dla [recipient.GetNameNoTooltip], aby ją oddać: $VALUE|+=0$"

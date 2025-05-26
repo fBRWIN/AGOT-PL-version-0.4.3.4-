@@ -1,0 +1,95 @@
+﻿l_english:
+ become_paramours_interaction:0 "Zostań Kochankami"
+ become_paramours_interaction_desc:0 "Oficjalnie weź [recipient.GetShortUINameNoTooltip] jako swojego kochanka."
+
+ mark_as_captive_interaction:0 "Oznacz jako Więźnia"
+ mark_as_captive_interaction_desc:0 "Oznacz jako więźnia, aby zerwać wszystkie małżeństwa i konkubinaty, a także dodać ich do twojego dworu podczas Wojny o Wyzwolenie Więźniów."
+
+ unmark_as_captive_interaction:0 "Usuń oznaczenie jako Więzień"
+ unmark_as_captive_interaction_desc:0 "Usuń oznaczenie jako więzień, aby zerwać wszystkie małżeństwa i konkubinaty, a także dodać ich do twojego dworu podczas Wojny o Wyzwolenie Więźniów."
+
+ mark_for_freedom_interaction:0 "Oznacz dla Wolności"
+ mark_for_freedom_interaction_desc:0 "Oznacz do uwolnienia z więzienia. Umożliwi to ogłoszenie 'Wojny o Wyzwolenie Więźniów' przeciwko ich strażnikowi."
+
+ unmark_for_freedom_interaction:0 "Usuń oznaczenie dla Wolności"
+ unmark_for_freedom_interaction_desc:0 "Usuń oznaczenie do uwolnienia z więzienia podczas Wojny o Wyzwolenie Więźniów."
+
+ marked_release_from_prison.title:0 "Więzień Uwolniony"
+ marked_release_from_prison.desc:0 "Więzień, którego oznaczyłeś do uwolnienia, [marked.GetTitledFirstName], został uwolniony."
+
+ impart_values_interaction:0 "Przekaż Wartości"
+ impart_values_interaction_desc:0 "Spróbuj przekazać [recipient.GetShortUINameNoTooltip] lekcję życia."
+
+ legitimize_bastard_liege_interaction:0 "Poproś o Legitymizację Bękarta"
+ legitimize_bastard_liege_interaction_extra_icon:0 "$hook_extra_icon$"
+ legitimize_bastard_liege_interaction_desc:0 "Poproś panującego monarchę o legitymizację twojego bękarta."
+ recipient_secondary_legitimize_bastard_liege_interaction:0 "Bękart"
+
+ agot_goad_interaction:0 "Pobudzaj"
+ agot_goad_interaction_desc:0 "Spróbujesz prowokować tę osobę, jeśli się uda, staną się mniej racjonalni i bardziej skłonni do szukania walki. Uważaj, by nie być celem ich gniewu..."
+
+ goad.success_title:0 "Prowokacja Udana"
+ goad.failure_title:0 "Prowokacja Nieudana..."
+
+ recall_wanderer_interaction:0 "Przywróć Wędrowca"
+ recall_wanderer_interaction_desc:0 "Przywróć zbłąkanego członka swojego rodu do domu"
+
+ demand_trial_by_combat_interaction:0 "Zażądaj Próby Ognia"
+ demand_trial_by_combat_interaction_desc:0 "Zażądaj próby ognia, by udowodnić swoją niewinność przed bogami i ludźmi."
+ demand_trial_by_combat_duel:0 "Oboje dostaniecie szansę wybrania mistrzów, którzy będą walczyć w waszym imieniu, by udowodnić lub obalić [actor.GetHerHis] winę."
+
+ sent_to_silent_sisterhood_interaction:0 "Wyślij do Cichej Siostry"
+ sent_to_silent_sisterhood_interaction_desc:0 "Wyślij [recipient.GetShortUINameNoTooltip] do złożenia przysięgi milczenia i dołączenia do siostrzeństwa."
+
+ reveal_royal_bastardry_interaction:0 "Ujawnij Królewski Bękart"
+ reveal_royal_bastardry_interaction_desc:0 "Zastanów się, czy ujawnić pochodzenie [recipient.GetShortUINameNoTooltip]."
+
+ set_signature_weapon_interaction:0 "Ustaw Broń Sygnatury"
+ set_signature_weapon_interaction_desc:0 "Ustaw swoją domyślną broń do animacji portretów"
+ set_signature_weapon_swordshield_person:0 "Miecz i Tarcza"
+ set_signature_weapon_maceshield_person:0 "Młot i Tarcza"
+ set_signature_weapon_spearshield_person:0 "Włócznia i Tarcza"
+ set_signature_weapon_sword_person:0 "Miecz"
+ set_signature_weapon_axe_person:0 "Topór"
+ set_signature_weapon_spear_person:0 "Włócznia"
+ set_signature_weapon_mace_person:0 "Młot"
+ set_signature_weapon_hammer_person:0 "Młot"
+
+ agot_char_interaction.0200.opening:1 "[actor.Custom2('AppropriateGreeting', recipient )]"
+ agot_char_interaction.0200.desc:0 "Niniejszym zmuszam cię, byś wysłał(a) [secondary_recipient.GetName] do mojego dworu, by był(a) pod opieką [secondary_actor.GetName]."
+ agot_char_interaction.0200.a:0 "Rozumiem."
+ agot_char_interaction.0200.tt:0 "[actor.GetName] użył(a) swojego haka na tobie."
+
+ EXECUTION_DRAGON_FED:0 "Nakarmić Smoka"
+ EXECUTION_DRAGON_BURN:0 "Spalić Smoka Smokiem"
+ EXECUTION_DRAGON_STOMPED:0 "Smocze Stąpanie"
+ EXECUTION_DRAGON_DROPPED:0 "Zrzucić ze Smoka"
+ EXECUTION_MOON_DOOR:0 "Wysłać przez Drzwi Księżyca"
+ EXECUTION_BLASPHEMOUS_SACRIFICE:0 "Poświęcenie w Ciemnym Rytuale"
+ EXECUTION_PRISONER_IMPROVE_QUALITY:0 "Ponieważ twoja [faith|e] ma [doctrine|E], w którym egzekucje więźniów zwiększają jakość artefaktów"
+
+ agot_laamp_legitimist_prestige_or_patron_warning:0 "#warning Aby przyjąć ten [task_contract|E] [recipient.GetShortUIName] musi być twoim [contact_list_contact|E], lub twój [prestige_level|E] musi wynosić przynajmniej [GetPrestigeLevelName('(int32)4')]#!"
+ agot_request_legitimist_support_tt:0 "Będziesz mógł negocjować do #color_yellow 1800 złota#! i #color_yellow 3000 elitarnych żołnierzy#!, w zamian za znaczne płatności na rzecz [recipient.GetShortUIName] po później."
+
+ agot_sacrifice_child_to_others:0 "Poświęć Dziecko dla Innych"
+ agot_sacrifice_child_to_others_desc:0 "Poświęć [recipient.GetShortUINameNoTooltip] dla Innych."
+
+ agot_send_food_to_dragon_religious:0 "Wyślij Jedzenie do Smoka"
+ agot_send_food_to_dragon_religious_desc:0 "Smoki są boskie, dlatego wysłanie hołdu do [recipient.GetShortUINameNoTooltip] jest konieczne."
+ agot_send_food_to_dragon_religious_dragon_belongs_to_someone:0 "[recipient.GetShortUINameNoTooltip] należy do kogoś!"
+ agot_send_food_to_dragon_religious_tt:0 "Spróbujesz wysłać jedzenie do [recipient.GetShortUINameNoTooltip]. Mogą wystąpić następujące wyniki:\n$EFFECT_LIST_BULLET$#N Możesz zostać ranny lub zabity#! przez [recipient.GetShortUINameNoTooltip]!\n$EFFECT_LIST_BULLET$Zyskasz #P [EmptyScope.ScriptValue('minor_piety_value')|0]#! pobożności.\n$EFFECT_LIST_BULLET$Zyskasz #P [EmptyScope.ScriptValue('major_piety_value')|0]#! pobożności."
+
+ agot_send_for_faceless_interaction:0 "Wyślij po Beztwarzych"
+ agot_send_for_faceless_interaction_desc:0 "Beztwarze z Braavos pozbędą się twojego problemu... za cenę."
+ required_intrigue_faceless.tt:0 "Ty lub twój [spymaster|E] musicie mieć [intrigue|E] na poziomie co najmniej [intrigue_i] 20"
+ faceless_payed_child_price.tt:0 "Beztwarze jeszcze nie przyjęli [artifact|E] od ciebie"
+
+ action_agot_faceless_interaction:0 "Możesz skonsultować się z Beztwarzym na temat [recipient.GetShortUINameNoTooltip]"
+ action_agot_faceless_interaction_label:0 "Wyślij po Beztwarzego"
+ action_agot_faceless_interaction_desc:0 "Masz plan morderstwa na [recipient.GetShortUIName]. \n\n#help Beztwarze z Braavos mogą załatwić twój problem, jeśli ich cena zostanie spełniona. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+ action_agot_faceless_interaction_click:0 "#I Kliknij, aby otworzyć okno interakcji.\n#!"
+ action_agot_faceless_interaction_combined_label:0 "Skonsultuj się z Beztwarzym na temat [recipient.GetUIName]."
+ action_agot_faceless_interaction_combined_description:0 "Skonsultuj się z Beztwarzym na temat [recipient.GetUIName]."
+ action_agot_faceless_interaction_combined_group_label:0 "Wyślij po Beztwarzym"
+ action_agot_faceless_interaction_combined_group_name:0 "Wyślij po Beztwarzym"
+ action_agot_faceless_interaction_combined_group_description:0 "Masz plan morderstwa na [recipient.GetShortUIName] i twoja [intrigue|E] jest większa niż 19. \n\n#help Beztwarze z Braavos mogą załatwić twój problem, jeśli ich cena zostanie spełniona. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"

@@ -1,0 +1,84 @@
+﻿ ###########
+ #RYCERSTWO#
+ ###########
+
+ GET_AGOT_SQUIRE:0 "Otrzymuje [TARGET_CHARACTER.GetShortUIName] jako #V [giermek|e]#!"
+ I_GET_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] staje się twoim #V [giermkiem|e]#!"
+ I_GOT_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] został twoim #V [giermkiem|e]#!"
+ THEY_GET_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] staje się #V [giermkiem|e]# [CHARACTER.GetShortUINamePossessive]"
+ THEY_GOT_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] został #V [giermkiem|e]# [CHARACTER.GetShortUIName]"
+ LOSE_AGOT_SQUIRE:0 "Traci [TARGET_CHARACTER.GetShortUIName] jako swojego #V [giermka|e]#!"
+ I_LOSE_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już twoim #V [giermkiem|e]#!"
+ THEY_LOSE_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już #V [giermkiem|e]# [CHARACTER.GetShortUIName]!"
+
+ GET_AGOT_KNIGHT:0 "Otrzymuje [TARGET_CHARACTER.GetShortUIName] jako #V [rytiera|e]#!"
+ I_GET_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] staje się twoim #V [rytirem|e]#!"
+ I_GOT_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] został twoim #V [rytirem|e]#!"
+ THEY_GET_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] staje się #V [rytirem|e]# [CHARACTER.GetShortUINamePossessive]"
+ THEY_GOT_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] został #V [rytirem|e]# [CHARACTER.GetShortUIName]"
+ LOSE_AGOT_KNIGHT:0 "Traci [TARGET_CHARACTER.GetShortUIName] jako swojego #V [rytiera|e]#!"
+ I_LOSE_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już twoim #V [rytirem|e]#!"
+ THEY_LOSE_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już #V [rytirem|e]# [CHARACTER.GetShortUIName]!"
+
+#Kochankowie
+ GET_PARAMOUR:0 "Otrzymuje [TARGET_CHARACTER.GetShortUIName] jako Kochanka"
+ I_GET_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] staje się twoim Kochankiem"
+ I_GOT_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] został twoim Kochankiem"
+ THEY_GET_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] staje się Kochankiem [CHARACTER.GetShortUINamePossessive]"
+ THEY_GOT_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] został Kochankiem [CHARACTER.GetShortUIName]"
+ LOSE_PARAMOUR:0 "Traci [TARGET_CHARACTER.GetShortUIName] jako swojego Kochanka"
+ I_LOSE_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już twoim Kochankiem"
+ THEY_LOSE_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] nie jest już Kochankiem [CHARACTER.GetShortUIName]"
+
+#Perki stylu życia
+ SPYNETWORK_MASSES_DESCRIPTION:1 "Podwaja liczbę szpiegów, których można zwerbować bez kary"
+ I_SPYNETWORK_MASSES_DESCRIPTION:2 "Możesz zwerbować dwukrotnie więcej szpiegów bez kary"
+ THEY_SPYNETWORK_MASSES_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] może zwerbować dwukrotnie więcej szpiegów bez kary"
+
+ SPYNETWORK_INSTRUCTED_DESCRIPTION:1 "Zwiększa prawdopodobieństwo, że szpiedzy odkryją sekrety lub intrygi"
+ I_SPYNETWORK_INSTRUCTED_DESCRIPTION:2 "Twoi szpiedzy są bardziej skłonni do odkrywania sekretów lub intryg"
+ THEY_SPYNETWORK_INSTRUCTED_DESCRIPTION:1 "Szpiedzy [CHARACTER.GetShortUINamePossessive|U] są bardziej skłonni do odkrywania sekretów lub intryg"
+
+ SPYNETWORK_CONVINCING_DESCRIPTION:1 "Postacie są zazwyczaj bardziej skłonne szpiegować dla ciebie"
+ I_SPYNETWORK_CONVINCING_DESCRIPTION:2 "Postacie są zazwyczaj bardziej skłonne szpiegować dla ciebie"
+ THEY_SPYNETWORK_CONVINCING_DESCRIPTION:1 "Postacie są zazwyczaj bardziej skłonne szpiegować dla [CHARACTER.GetShortUIName|U]"
+
+ SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Przyciągnięte postacie są bardziej skłonne szpiegować dla ciebie"
+ I_SPYNETWORK_CHARISMATIC_DESCRIPTION:2 "Przyciągnięte postacie są bardziej skłonne szpiegować dla ciebie"
+ THEY_SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Przyciągnięte postacie są bardziej skłonne szpiegować dla [CHARACTER.GetShortUIName|U]"
+
+ SPYNETWORK_BIRDS_DESCRIPTION:1 "Możesz zatrudniać dzieci starsze niż 8 lat jako szpiegów"
+ I_SPYNETWORK_BIRDS_DESCRIPTION:2 "Możesz zatrudniać dzieci starsze niż 8 lat jako szpiegów"
+ THEY_SPYNETWORK_BIRDS_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] może zatrudniać dzieci starsze niż 8 lat jako szpiegów"
+
+ SPYNETWORK_INNOCENT_DESCRIPTION:1 "Zwiększa prawdopodobieństwo, że dzieci szpiegów odkryją sekrety lub intrygi"
+ I_SPYNETWORK_INNOCENT_DESCRIPTION:2 "Dzieci szpiegujące dla ciebie mają większą szansę odkryć sekrety lub intrygi"
+ THEY_SPYNETWORK_INNOCENT_DESCRIPTION:1 "Dzieci szpiegujące dla [CHARACTER.GetShortUIName|U] mają większą szansę odkryć sekrety lub intrygi"
+
+ SPYNETWORK_OMERTA_DESCRIPTION:1 "Twoi szpiedzy są znacznie mniej skłonni do zdrady i ujawnienia twojego nazwiska, jeśli zostaną złapani"
+ I_SPYNETWORK_OMERTA_DESCRIPTION:2 "Twoi szpiedzy są znacznie mniej skłonni do zdrady i ujawnienia twojego nazwiska, jeśli zostaną złapani"
+ THEY_SPYNETWORK_OMERTA_DESCRIPTION:1 "Szpiedzy [CHARACTER.GetShortUIName|U] są znacznie mniej skłonni zdradzić i ujawnić swojego pracodawcę, jeśli zostaną złapani"
+
+ SPYNETWORK_SLEEPER_DESCRIPTION:1 "Twoi szpiedzy są bardziej skłonni dołączyć do twoich wrogich intryg jako agenci"
+ I_SPYNETWORK_SLEEPER_DESCRIPTION:2 "Twoi szpiedzy są bardziej skłonni dołączyć do twoich wrogich intryg jako agenci"
+ THEY_SPYNETWORK_SLEEPER_DESCRIPTION:1 "Szpiedzy [CHARACTER.GetShortUIName|U] są bardziej skłonni dołączyć do wrogich intryg jako agenci"
+
+ CHANGE_TITLE_HOLDER_INCLUDE_VASSALS_EFFECT_GLOBAL_PAST:0 "[CHARACTER.GetShortUIName|U] zdobył [TARGET_TITLE.GetName|V] wraz z jego wasalami"
+
+ ADD_TITLE_LAW_EFFECT:0 "Dodano prawo [LAW.GetName|V]"
+ ADD_TITLE_LAW_PAST_EFFECT:0 "Dodano prawo [LAW.GetName|V]"
+
+ STOP_CRADLING_EGG:0 "[ARTIFACT.GetName] nie będzie już kołysane"
+
+ I_ENTERED_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTERED_DREAD_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ ENTERED_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ I_ENTER_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ THEY_ENTER_DREAD_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+ ENTERS_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Wyzwanie Grozy przeciwko [TARGET_CHARACTER.GetShortUIName]"
+
+# Prawowity Dom
+ agot_set_legitimate_house_effect:0 "[HOUSE.GetName] jest teraz [agot_legitimate_house|E] [TITLE_REF.GetName]"
+ agot_add_new_house_progress_positive_effect:0 "[CURRENT_HOUSE.GetName] zdobywa postęp w zostaniu [agot_legitimate_house|E] [TITLE_REF.GetName]"
+ agot_add_new_house_progress_negative_effect:0 "[CURRENT_HOUSE.GetName] traci postęp w zostaniu [agot_legitimate_house|E] [TITLE_REF.GetName]"
+ agot_add_new_house_progress_zero_effect:0 "Postęp [CURRENT_HOUSE.GetName] w zostaniu [agot_legitimate_house|E] [TITLE_REF.GetName] pozostaje bez zmian"

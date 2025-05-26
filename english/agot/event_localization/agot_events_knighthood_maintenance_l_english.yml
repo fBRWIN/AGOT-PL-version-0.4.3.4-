@@ -1,0 +1,74 @@
+﻿l_english:
+
+ agot_knighthood_maintenance.0005.t:0 "Nieszczęście mojego giermka"
+ agot_knighthood_maintenance.0005.desc:0 "[my_squire.GetName] niestety rozwinął przypadłość, która uniemożliwia [my_squire.GetHerHim] zostanie rycerzem. W związku z tym nie mogę dłużej trzymać [my_squire.GetHerHim] jako mojego giermka..."
+ agot_knighthood_maintenance.0005.a:0 "To rozdzierające serce!"
+ agot_knighthood_maintenance.0005.a.tt:0 "Ponieważ twój giermek posiada cechę dyskwalifikującą go z rycerstwa, [my_squire.GetSheHe] nie może być już twoim giermkiem."
+
+ agot_knighthood_maintenance.0006.t:0 "Moje nieszczęście"
+ agot_knighthood_maintenance.0006.desc:0 "Niestety nabawiłem się przypadłości, która uniemożliwia mi w przyszłości zostanie rycerzem. W związku z tym nie mogę już być giermkiem [my_knight.GetName]..."
+ agot_knighthood_maintenance.0006.a:0 "To rozdzierające serce!"
+ agot_knighthood_maintenance.0006.a.tt:0 "Ponieważ masz cechę dyskwalifikującą cię z rycerstwa, nie możesz być już giermkiem."
+
+ agot_knighthood_maintenance.0008.t:0 "Koniec rycerskiego nauczania"
+ agot_knighthood_maintenance.0008.desc:0 "Z powodu ciągłych napięć społecznych moje nauczanie giermka, [my_squire.GetName], musi zostać zakończone."
+ agot_knighthood_maintenance.0008.a:0 "Rozczarowujące"
+ agot_knighthood_maintenance.0008.a.tt:0 "Ponieważ ty i twój giermek popadliście w konflikt, [my_squire.GetSheHe] nie może być już twoim giermkiem."
+
+ agot_knighthood_maintenance.0009.t:0 "Koniec rycerskiego nauczania"
+ agot_knighthood_maintenance.0009.desc:0 "Z powodu ciągłych napięć społecznych nie mogę już być giermkiem [my_knight.GetName]."
+ agot_knighthood_maintenance.0009.a:0 "Do diabła!"
+ agot_knighthood_maintenance.0009.a.tt:0 "Ponieważ ty i twój rycerz popadliście w konflikt, nie możesz być już jego giermkiem."
+
+ agot_knighthood_maintenance.0010.t:0 "Śmierć mojego rycerza"
+ agot_knighthood_maintenance.0010.desc:0 "Mój mentor i rycerz, [dead_knight.GetName], nie żyje!\n\nTo oznacza, że jestem teraz #V giermkiem bez rycerza#!. Bez rycerza moja droga do rycerstwa została wstrzymana. Jeśli będę mieć szczęście, inny rycerz może mnie przyjąć na swojego giermka. Jednak jeśli wkrótce nie znajdę nowego rycerza, może to oznaczać #N koniec#! mojej drogi do rycerstwa."
+ agot_knighthood_maintenance.0010.a:0 "To przykre, ale muszę opłakiwać stratę."
+ agot_knighthood_maintenance.0010.a.tt:0 "#P Zachowasz#! #V cechę giermka oraz dotychczasowy postęp#!. Jeśli inny rycerz okaże zainteresowanie, będziesz mógł kontynuować naukę jako #V jego giermek#!."
+ agot_knighthood_maintenance.0010.b:0 "To przykre, ale muszę znaleźć nowego rycerza."
+ agot_knighthood_maintenance.0010.b.tt:0 "Okoliczni rycerze dowiedzą się o twojej sytuacji i mogą zaoferować ci giermkostwo."
+
+ agot_knighthood_maintenance.0011.t:0 "Nietypowa prośba"
+ agot_knighthood_maintenance.0011.desc:0 "[knightless_squire.GetName] zwrócił się do mnie z nietypową prośbą. [knightless_squire.GetHerHis] rycerz zmarł, pozostawiając [knightless_squire.GetHerHim] bez kogoś, kto mógłby go w przyszłości pasować na rycerza! [knightless_squire.GetSheHe] obawia się, że spędzi całe życie jako giermek, dlatego błaga mnie, bym przyjął [knightless_squire.GetHerHim] jako własnego giermka."
+ agot_knighthood_maintenance.0011.a:0 "Dobrze, zrobię to."
+ agot_knighthood_maintenance.0011.b:0 "Nie, nie chcę giermka."
+ agot_knighthood_maintenance.0011.b.tt:0 "#N Nie#! przyjmiesz [knightless_squire.GetNameNoTooltip] na swojego giermka."
+
+
+ agot_knighthood_maintenance.0012.t:0 "Przyrzeczenie na łożu śmierci"
+ agot_knighthood_maintenance.0012.desc:0 "Mój rycerz, [dead_knight.GetName], wezwał mnie do siebie. [dead_knight.GetSheHe] leży na łożu śmierci i zostało mu już niewiele czasu. W pobliżu stoi kilka innych osób, wszyscy w zadumie.\n\nZ trudem łapiąc oddech, [dead_knight.GetNameNoTooltip] ogłasza mnie #V rycerzem!#! Radość szybko ustępuje żalowi i smutkowi, gdy słyszę od sługi, że [dead_knight.GetSheHe] nie przeżyje już nawet godziny."
+ agot_knighthood_maintenance.0012.a:0 "Zostałem mianowany rycerzem!"
+ agot_knighthood_maintenance.0012.a.tt:0 "Zostałeś mianowany rycerzem!"
+
+ agot_knighthood_maintenance.0300.t:0 "Refleksja nad statusem giermka"
+ agot_knighthood_maintenance.0300.desc:0 "Minęło już trochę czasu od śmierci mojego rycerza. Przez ten okres nie udało mi się znaleźć nowego rycerza, aby kontynuować naukę. Choć to rozczarowujące, muszę przyjąć do wiadomości gorzką prawdę, że nie mogę podążać tą ścieżką samotnie."
+ agot_knighthood_maintenance.0300.a:0 "Czas zrzec się statusu giermka."
+ agot_knighthood_maintenance.0300.a.tt:0 "Rezygnujesz z bycia giermkiem, ale w przyszłości nadal możesz nim zostać."
+ agot_knighthood_maintenance.0300.b:0 "Może czas po prostu kupić sobie rycerstwo..."
+ agot_knighthood_maintenance.0300.b.tt:0 "Kupisz swoje rycerstwo."
+ agot_knighthood_maintenance.0300.c:0 "Wygląda na to, że nigdy nie zostanę rycerzem, ale za bardzo lubię bycie giermkiem, by zrezygnować."
+ agot_knighthood_maintenance.0300.c.tt:0 "Pozostaniesz giermkiem na czas nieokreślony."
+
+ agot_knighthood_maintenance.0400.t:0 "Słabe wyniki"
+ agot_knighthood_maintenance.0400.desc:0 "Moja słaba postawa jako giermka w ostatnich latach nie umknęła niczyjej uwadze. Niestety, wygląda na to, że w końcu mnie to dogoniło! Zostałem poinformowany, że nie mogę już pełnić roli giermka z tego powodu."
+ agot_knighthood_maintenance.0400.a:0 "To niefortunne."
+
+ agot_knighthood_maintenance.0500.t:0 "Bardzo ważny giermek"
+ agot_knighthood_maintenance.0500.desc:0 "Po odziedziczeniu mojego tytułu jasne stało się, że nie mogę dłużej pozostawać giermkiem. By sprostać wymaganiom presji społecznej, powinienem jak najszybciej zadbać o uzyskanie tytułu rycerza."
+ agot_knighthood_maintenance.0500.a:0 "Rozkażę mojemu rycerzowi, aby mnie pasował!"
+ agot_knighthood_maintenance.0500.b:0 "Rozkażę wasalowi, by mnie pasował."
+ agot_knighthood_maintenance.0500.c:0 "Rozkażę [ROOT.Char.Custom('KingsguardName')], by mnie pasował."
+ agot_knighthood_maintenance.0500.d:0 "Rozkażę rycerzowi z mojego dworu, by mnie pasował."
+ agot_knighthood_maintenance.0500.e:0 "Kupię sobie rycerstwo!"
+ agot_knighthood_maintenance.0500.f:0 "Właściwie, nie będę już dążyć do rycerstwa."
+
+ agot_knighthood_maintenance.0501.opening:0 "Do mojego lojalnego poddanego,"
+ agot_knighthood_maintenance.0501.desc:0 "Po odziedziczeniu tytułu jasne jest, że nie mogę już pozostać giermkiem. By sprostać oczekiwaniom społecznym, pokornie proszę o niezwłoczne nadanie mi rycerstwa!"
+ agot_knighthood_maintenance.0501.a:0 "Dobrze..."
+
+ agot_knighthood_maintenance.0550.t:0 "Powrót giermka do domu"
+ agot_knighthood_maintenance.0550.desc:0 "Wezwałem moje dziecko, [cancelled_squire_child.GetUIName], spod opieki [childs_knight.GetUINamePossessive].\n\nTym samym nadszedł czas, aby [cancelled_squire_child.GetUIName] przestał być giermkiem."
+ agot_knighthood_maintenance.0550.a:0 "Na razie przestanie być giermkiem."
+
+ agot_knighthood_maintenance.0551.opening:0 "Do rycerza mojego dziecka,"
+ agot_knighthood_maintenance.0551.desc:0 "Ze względu na sprawy bliskie mojemu rodowi muszę sprowadzić [cancelled_squire_child.GetName] z powrotem do dworu, kończąc tym samym twoją opiekę rycerską nad nim."
+ agot_knighthood_maintenance.0551.a:0 "To godne ubolewania."

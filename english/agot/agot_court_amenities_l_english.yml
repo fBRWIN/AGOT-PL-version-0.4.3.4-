@@ -1,0 +1,27 @@
+﻿l_english:
+ agot_dragonpit_amenities:0 "Udogodnienia w Smoczym Gnieździe"
+ agot_dragonpit_amenities_default:1 "Minimalne finansowanie Smoczego Gniazda"
+ agot_dragonpit_amenities_small:0 "Podstawowe finansowanie Smoczego Gniazda"
+ agot_dragonpit_amenities_middling:0 "Umiarkowane finansowanie Smoczego Gniazda"
+ agot_dragonpit_amenities_spacious:0 "Wysokie finansowanie Smoczego Gniazda"
+ agot_dragonpit_amenities_grand:0 "Wielkie finansowanie Smoczego Gniazda"
+
+ agot_dragonpit_amenities_default_desc:0 "Absolutne minimum funduszy dla [dragonpits|E], zarezerwowane na absolutne minimum potrzeb."
+ agot_dragonpit_amenities_small_desc:0 "Podstawowe finansowanie jest przydzielane [dragonpit|E] i jego [dragonkeepers|E], wystarczające na proste naprawy i konserwację."
+ agot_dragonpit_amenities_middling_desc:0 "Umiarkowany poziom finansowania jest przeznaczony na [dragonpit|E] i jego [dragonkeepers|E], z odpowiednią ilością pokarmu i stymulacji dla trzymanych smoków."
+ agot_dragonpit_amenities_spacious_desc:0 "Porównywalne do najlepszych smoczych wież starej Valyrii, to [dragonpit|E] jest dobrze finansowane i utrzymywane, a szum aktywności stanowi widok dla dworu i dumę królestwa."
+ agot_dragonpit_amenities_grand_desc:0 "[dragonpit|E] funkcjonuje już nie tylko jako miejsce przechowywania smoków. Istnieją całe biblioteki wiedzy o smokach i rozległa sieć logistyki wspierająca życie bestii wewnątrz."
+
+ agot_dragonpit_amenities_default_owner:0 "Główni Strażnicy Smoków zwykle pojawiają się z fatalnym [aptitude|e]."
+ agot_dragonpit_amenities_small_owner:0 "Główni Strażnicy Smoków zwykle pojawiają się ze słabym [aptitude|e]."
+ agot_dragonpit_amenities_middling_owner:0 "Główni Strażnicy Smoków zwykle pojawiają się ze średnim [aptitude|e]."
+ agot_dragonpit_amenities_spacious_owner:0 "Główni Strażnicy Smoków zwykle pojawiają się z dobrym [aptitude|e]."
+ agot_dragonpit_amenities_grand_owner:0 "Główni Strażnicy Smoków zwykle pojawiają się z doskonałym [aptitude|e]."
+ agot_dragonpit_amenities_increase_tt:0 "Twoje [court_amenities|e] Smoczego Gniazda wzrosną o poziom"
+ agot_dragonpit_amenities_decrease_tt:0 "Twoje [court_amenities|e] Smoczego Gniazda spadną o poziom"
+ agot_dragonpit_amenities_level_set_to_three_tt:0 "Twoje [court_amenities|e] Smoczego Gniazda zostaną ustawione na $agot_dragonpit_amenities_middling$"
+ # Unusused - For Testing
+ agot_dragonpit_amenities_small_inspirations:0 "TEST MAŁE - Zakończona jakość [inspiration|E] ma małą szansę na poprawę"
+ agot_dragonpit_amenities_middling_inspirations:0 "TEST ŚREDNIE - Zakończona jakość [inspiration|E] ma szansę na poprawę"
+ agot_dragonpit_amenities_spacious_inspirations:0 "TEST PRZESTRONNE - Zakończona jakość [inspiration|E] ma całkiem dobrą szansę na poprawę"
+ agot_dragonpit_amenities_grand_inspirations:0 "TEST WIELKIE - Zakończona jakość [inspiration|E] ma dobrą szansę na poprawę"

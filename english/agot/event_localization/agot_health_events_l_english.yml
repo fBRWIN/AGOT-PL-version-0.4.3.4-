@@ -1,0 +1,30 @@
+﻿l_english:
+ health.3101.m:0 " Sprowadź maestera! Natychmiast!"
+ health.3101.m.tt:1 " Skontaktujemy się z Cytadelą, by przysłano nam [GetCourtPositionType('maester_court_position').GetName()]"
+ health.3101.m_sick_physician:0 " Potrzebuję nowego maestera!"
+ maester_level_up_chance_effect.t:0 " Wiedza maestera rośnie"
+
+ health.6002.desc_dragon:0 " Ten pomysł nie jest mi obcy. Ostatnio miewam coraz mroczniejsze myśli i musiało to zostać zauważone. Gdy podchodzę do [helping_dragon.GetFirstName], coś w mojej postawie musi wzbudzać złe odczucia."
+ health.6001.dragon:0 " W moim ostatnim czynie jako jeździec wykorzystam [helping_dragon.GetName]."
+
+ # Loss of Sight events
+ agot_health_events.1000.t:0 " Zamglone widzenie"
+ agot_health_events.1000.desc:0 " Przewracając kolejne strony tomu, litery zaczynają się rozmazywać i tańczyć przed moimi oczami. Ogarnia mnie panika, gdy wyraźne dotąd słowa zmieniają się w nieczytelne kształty. \n\n Mrugam mocno, mając nadzieję, że to tylko chwilowe. Jednak panika narasta, gdy litery dalej wymykają mi się z pola widzenia, pogrążając się w coraz większej nieczytelności..."
+ agot_health_events.1000.a:0 " Co się dzieje z moim wzrokiem?"
+
+ agot_health_events.1001.t:0 " Półślepy"
+ agot_health_events.1001.desc:0 " Serce mi bije, gdy ciemność zaczyna wpełzać na obrzeża mojego lewego oka, rozlewając się jak atrament na mokrym papierze z każdym kolejnym dniem. Choć wzrok w prawym oku jest słabszy, wciąż jeszcze coś widzę, lecz lewe oko coraz bardziej ulega uporczywej mgle.\n\n Pocieram je nerwowo, ale na nic się to zdaje. Zamazanie się nasila i wkrótce całkowicie tracę widzenie w lewym oku.\n\n Jestem ślepy na jedno oko, połowa mojego świata skryta teraz w ciemności. Strach ściska mnie za gardło, gdy próbuję pogodzić się z tą nagłą, przerażającą zmianą."
+ agot_health_events.1001.a:0 " Jak poradzę sobie w tej nowej, rozbitej rzeczywistości?"
+
+ agot_health_events.1002.t:0 " Ślepota ze starości"
+ agot_health_events.1002.desc:0 " Odkąd straciłem połowę wzroku, nauczyłem się polegać bardziej na tym, co mi pozostało, nawet jeśli jest ono słabe, i znajdować nowe sposoby na przystosowanie się. Lęk jednak nigdy mnie nie opuszcza, gdy mój ostatni wzrok z każdym dniem coraz bardziej się zaciera. \n\n Pewnego ranka budzę się i odkrywam, że całkowicie straciłem widzenie w prawym oku! Panika narasta, bo nagle cały mój świat pogrążył się w absolutnej ciemności.\n\n Jestem ślepy.\n\n Serce mi bije jak oszalałe, ale teraz muszę stawić czoła nowemu, jeszcze trudniejszemu wyzwaniu: nauczyć się żyć bez wzroku. Ogarnia mnie strach, ale muszę znaleźć w sobie siłę, by ponownie się przystosować."
+ agot_health_events.1002.a:0 " Wiek odebrał mi jeszcze więcej."
+
+ agot_health_events.1003.t:0 " Ślepota ze starości"
+ agot_health_events.1003.desc:0 " Serce bije mi coraz szybciej, a zimny pot pojawia się na czole. Każda próba skupienia wzroku sprawia, że świat staje się coraz bardziej zamazany. Pocieram oczy, ale to nic nie daje. Żywe kolory pokoju zaczynają zanikać, ustępując miejsca szarości, a cienie zakradają się na obrzeża mojego widzenia.\n\n Dociera do mnie straszliwa prawda — tracę wzrok.\n\n Strach ściska mnie coraz mocniej, gdy próbuję rozeznać się w otoczeniu. To już niepodważalny fakt; wiek zaczyna odbierać mi wzrok, a ciemność powoli pochłania mnie w nieuniknioną otchłań."
+ agot_health_events.1003.a:0 " Wygląda na to, że wrogiem człowieka jest czas."
+
+ agot_health_events.1004.t:0 " Niepokój o wzrok"
+ agot_health_events.1004.desc:0 " Kolejne dni spędzam we mgle, mój świat zredukowany do cieni i niewyraźnych kształtów. Każdy dzień wydaje się trwać wieczność, a zmysły wyostrzają się, by zrekompensować utracony wzrok.\n\n Lecz pewnego ranka budzę się i mrugam w promienie słońca wpadające przez okno. Pokój nagle się wyostrza, a szczegóły krystalizują przed moimi oczami. Ogarnia mnie ogromna ulga, gdy dostrzegam znajome otoczenie.\n\n Wzrok powrócił, równie nagle, jak zniknął, pozostawiając mnie z nowym docenieniem daru widzenia."
+ agot_health_events.1004.a:0 " Świat to wspaniała karuzela barw."
+

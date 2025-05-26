@@ -1,0 +1,45 @@
+﻿l_english:
+ agot_bm_group_8239:0 "239 A.C."
+ agot_bm_8239:0 "Burza Śmiechu"
+ agot_bm_8239_desc:0 "Lord Lyonel Baratheon z Stormlands, człowiek zarówno szanowany, jak i budzący strach, zdobył przydomek ‘Burza Śmiechu’ za swoją gwałtowną, ale nieprzewidywalną naturę. Wysoka postać w Siedmiu Królestwach, jego córki zaręczyny z Księciem Duncanem Targaryenem miały połączyć dwa wielkie Domy. Jednak w akcie, który wstrząsnął królestwem, Książę Duncan porzucił to małżeństwo na rzecz miłości do dziewczyny z niskiego rodu, Jenny z Oldstones.\n\nDla Baratheonów to nie tylko zerwane zaręczyny — to straszliwa zniewaga, która splamiła honor ich Domu. Teraz Burza Śmiechu szaleje. Więzi, które kiedyś łączyły królestwo, zaczynają się rwać, a wiatr buntu wzbija się w Stormlands. Z ranioną dumą i gniewem w sercu, Lord Lyonel musi zdecydować, czy zgiąć się, czy zniszczyć pokój w królestwie, stawiając się przeciwko samemu Żelaznemu Tronowi.\n\nPytanie zawisło nad królestwem niczym cień: #bold Jak daleko Burza Śmiechu pójdzie, aby przywrócić honor swojemu Domowi?#!"
+
+ bookmark_239_lyonel_baratheon:0 "Lord Lyonel"
+ bookmark_239_lyonel_baratheon_desc:0 "[Concept( 'story_content_lyonel_baratheon_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_lyonel_baratheon_239', '$bm_story_content_available_copy|q$' )|E]\nNie od czasów Argilaca ‘Arroganta’ Storm King nie rządził Stormlands — aż do teraz. Kiedyś najbardziej niezłomny z wielkich domów, Dom Baratheon zerwał więzi z Żelaznym Tronem, napędzany straszną zniewagą, którą Książę Duncan zadał córce Lyonela. Tak zwany dziedzic porzucił ją dla innej, a do tego niskiego rodu.\n\n#bold Czy Lyonel będzie miał swoją zemstę, niezależnie od ceny?#!"
+
+ bookmark_239_ormund_baratheon:0 "Ormund"
+ bookmark_239_cassandra_baratheon:0 "Cassandra"
+
+ bookmark_239_aegon_targaryen:0 "Król Aegon V"
+ bookmark_239_aegon_targaryen_desc:0 "[Concept( 'story_content_aegon_v_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_aegon_v_239', '$bm_story_content_available_copy|q$' )|E]\nAegon ‘Fortunny,’ kochany przez mały lud, jest uznawany przez wielu za jednego z najwybitniejszych królów, którzy kiedykolwiek zasiadali na Żelaznym Tronie. Jednak przez lekkomyślne działania jego dzieci, królestwo balansuje na krawędzi rozpadu. Od czasów Zdobywcy żaden władca nie objął władzy nad Stormlands, ale teraz Storm’s End jest domem nowego Storm Kinga. Ostrożne sojusze zawarte przez Aegona i jego królową leżą w gruzach, a oni muszą starać się ponownie zjednoczyć królestwo.\n\n#bold Czy Król, który był jajkiem, powstrzyma pęknięcie samego królestwa?#!"
+
+ bookmark_239_duncan_targaryen:0 "Książę Duncan"
+ bookmark_239_duncan_tall:0 "Lord Komandor Duncan"
+
+ bookmark_239_garlan_tyrell:0 "Lord Garlan"
+ bookmark_239_garlan_tyrell_desc:0 "[Concept( 'story_content_garlan_tyrell_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_garlan_tyrell_239', '$bm_story_content_available_copy|q$' )|E]\nDom Tyrell zawdzięcza wiele Domowi Targaryen i zawsze był lojalny. Jednak gdy krążą plotki, że Książę Jaehaerys spędza nienaturalnie dużo czasu ze swoją siostrą, Księżniczką Shaerą, szeptano, że mogą zerwać swoje zaręczyny z Lady Celia Tully i Lordem Luthor Tyrell, by pójść śladami swojego starszego brata, Księcia Duncana, który porzucił swoje zaręczyny dla miłości. Ta niepokojąca możliwość nadwyrężyła starożytne więzi między dwoma domami, a Lord Garlan musi przejść przez tę skomplikowaną sytuację z ostrożnością.\n\n#bold Jak Garlan utrzyma swój Dom silnym, gdy jego nasiona wydają się zasiane w chaosie?#!"
+
+ bookmark_239_luthor_tyrell:0 "Luthor"
+ bookmark_239_gormon_tyrell:0 "Gormon"
+
+ bookmark_239_runceford_redwyne:0 "Lord Runceford"
+ bookmark_239_runceford_redwyne_desc:0 "[Concept( 'story_content_runceford_redwyne_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_runceford_redwyne_239', '$bm_story_content_available_copy|q$' )|E]\nDom Redwyne — choć nie tak wybitny jak Baratheonowie, Tyrellowie czy Tully — może odegrać istotną rolę w nadchodzącym konflikcie. Z Oleną Redwyne zaręczoną z Księciem Daeronem Targaryenem, każdy zamach w rodzinie Targaryenów może wciągnąć Dom Redwyne do walki. Plotki o możliwych zerwanych zaręczynach i zmieniających się sojuszach mogą mieć dalekosiężne konsekwencje, a Dom Redwyne musi być gotowy na możliwy kryzys.\n\n#bold Czy Dom Redwyne wykorzysta tę okazję, by podnieść swoją pozycję, czy pozostanie na uboczu?#!"
+
+ bookmark_239_denys_redwyne:0 "Denys"
+ bookmark_239_olenna_redwyne:0 "Olenna"
+
+ bookmark_239_bloodraven:0 "Lord Komandor Brynden"
+ bookmark_239_bloodraven_desc:0 "[Concept( 'story_content_bloodraven_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_bloodraven_239', '$bm_story_content_available_copy|q$' )|E]\nOd sal władzy po lodowe pustkowia, Brynden Rivers — niesławny ‘Bloodraven’ — przeszedł wiele dróg. Mistrz sekretów, ręka królów, a teraz miecz w ciemności. Wybrany Lord Komandorem Nocnej Straży, znajduje się daleko od intryg dworskich, ale cienie, które kiedyś go nękały, nigdy nie są zbyt daleko. Tutaj, na końcu świata, gdzie zimny wiatr kąsa i mężczyźni są wystawiani na próbę, Bloodraven musi zjednoczyć Strażników, by stawić czoła zagrożeniom zarówno wewnątrz, jak i poza Mur.\n\n#bold Czy Brynden znajdzie odkupienie, czy też cień jego przeszłości znowu go pochłonie?#!"
+
+ bookmark_239_aemon:0 "Maester Aemon"
+ bookmark_239_jon_karstark:0 "First Ranger Jon"
+
+ bookmark_239_bittersteel:0 "Kapitan-General Aegor"
+ bookmark_239_bittersteel_desc:0 "[Concept( 'story_content_bittersteel_239', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_bittersteel_239', '$bm_story_content_available_copy|q$' )|E]\nNapędzany ogniem i furia, Aegor Rivers — znany jako ‘Bittersteel’ — zyskał sławę poza Siedmioma Królestwami. Kiedyś nieślubny syn dworu, teraz dzielny Komandor Złotej Kompanii, prowadzi armię wygnańców i najemników z jednym jedynym celem: widzieć Blackfyre na Żelaznym Tronie. W jego ręce miecz królów, słynny Blackfyre, a w sercu płonąca nienawiść do tych, którzy skrzywdzili jego rodzinę.\n\n#bold Czy Bittersteel przywróci Blackfyre do chwały, czy też dziedzictwo smoków pozostanie rozbite?#!"
+
+ bookmark_239_daemon:0 "Daemon"
+ bookmark_239_maelys:0 "Maelys ‘Monstrous’"
+
+ #bookmark_239_steffon_tully:0 "Steffon Tully"
+ #bookmark_239_steffon_tully_desc:0 "Dom Tully znajduje się w niepewnych czasach, z zmieniającymi się sojuszami i nadchodzącymi zagrożeniami. Krążą plotki, że Książę Jaehaerys staje się nadzwyczaj bliski swojej siostrze, Księżniczce Shaerze. Szeptano, że mogą zerwać swoje zaręczyny z Lady Celia Tully i Lordem Luthor Tyrell, idąc śladami swojego starszego brata, Księcia Duncana, który porzucił swoje zaręczyny z miłości. Ten potencjalny skandal mógłby zakłócić obecne sojusze, a Dom Tully musi ostrożnie rozważyć swoją pozycję w obliczu tych nadchodzących niepewności.\n\n#bold Czy Dom Tully pozostanie neutralny, czy też zostanie wciągnięty w konflikt?#!"
+
+ #bookmark_239_celia_tully:0 "Celia Tully"

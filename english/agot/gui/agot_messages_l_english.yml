@@ -1,0 +1,2 @@
+﻿l_english:
+ msg_reclaim_war_invalidated_message:1 "Wojna [war.GetName] została zakończona: [defender.GetShortUIName] już nie [Select_CString( defender.IsLocalPlayer, 'kontroluje', 'kontrolują') ] żadnej ziemi należącej do Nocnej Straży de jure."

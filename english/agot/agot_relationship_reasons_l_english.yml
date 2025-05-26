@@ -1,0 +1,45 @@
+﻿l_english:
+
+ #Powody najlepszych przyjaciół
+ best_friend_kingsguard:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] zostali braciami broni podczas służby w [CHARACTER.Custom('KingsguardName')]."
+
+ #Powody przyjaźni
+ friend_served_as_pages_together:0 "[TARGET_CHARACTER.GetShortUIName|U] i [CHARACTER.GetShortUIName] służyli razem jako giermkowie w młodości."
+ friend_served_as_pages_together_corresponding:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] służyli razem jako giermkowie w młodości."
+
+ friend_squired_together:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] służyli razem jako giermkowie."
+ friend_squired_together_corresponding:0 "$friend_squired_together$"
+
+ friend_campaigned_together:0 "[TARGET_CHARACTER.GetShortUIName|U] i [CHARACTER.GetShortUIName] odkryli, że więzy krwi są mocne, służąc razem na wyprawie wojennej."
+ friend_campaigned_together_corresponding:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] odkryli, że więzy krwi są mocne, służąc razem na wyprawie wojennej."
+
+ friend_bloodrider:0 "[CHARACTER.GetShortUIName|U] i [TARGET_CHARACTER.GetShortUIName] zostali braćmi broni po przysiędze krwi."
+
+ #Powody miłości
+ lover_widowed_brothel:0 "Po śmierci kochanka/kochanki [CHARACTER.GetShortUINamePossessive] [CHARACTER.GetSheHe] znalazł/a pocieszenie w ramionach [TARGET_CHARACTER.GetShortUIName], poduszki-[TARGET_CHARACTER.Custom('GirlBoy')] z [PROVINCE.GetName]."
+ lover_widowed_brothel_corresponding:0 "Po śmierci kochanka/kochanki [CHARACTER.GetShortUINamePossessive] [CHARACTER.GetSheHe] znalazł/a pocieszenie w ramionach [TARGET_CHARACTER.GetShortUIName], poduszki-[TARGET_CHARACTER.Custom('GirlBoy')] z [PROVINCE.GetName]."
+
+ #Powody urazy
+ grudge_maidenvault_desc:0 "[CHARACTER.GetShortUIName|U] rozwinął/a urazę do [TARGET_CHARACTER.GetShortUIName] po spędzeniu wielu lat zamkniętym w Maidenvault."
+ grudge_maidenvault_desc_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] rozwinął/a urazę do [CHARACTER.GetShortUIName] po spędzeniu wielu lat zamkniętym w Maidenvault."
+
+ #Powody rywalizacji
+ rival_broke_important_betrothal:0 "[CHARACTER.GetShortUIName|U] zerwał/a zaręczyny, które miały kluczowe znaczenie dla pozycji [TARGET_CHARACTER.GetShortUINamePossessive]."
+ rival_broke_important_betrothal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] zerwał/a zaręczyny, które miały kluczowe znaczenie dla pozycji [CHARACTER.GetShortUINamePossessive]."
+ rival_forced_betrothal:0 "[CHARACTER.GetShortUIName|U] został/a zmuszony/a do niechcianych zaręczyn z [TARGET_CHARACTER.GetShortUIName]."
+ rival_forced_betrothal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] został/a zmuszony/a do niechcianych zaręczyn z [CHARACTER.GetShortUIName]."
+ rival_forced_marriage:0 "[CHARACTER.GetShortUIName|U] zmusił/a [TARGET_CHARACTER.GetShortUIName] do małżeństwa wbrew [TARGET_CHARACTER.GetHerHis] woli."
+ rival_forced_marriage_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] zmusił/a [CHARACTER.GetShortUIName] do małżeństwa wbrew [CHARACTER.GetHerHis] woli."
+ rival_stole_prized_heirloom:0 "[TARGET_CHARACTER.GetShortUIName|U] ukradł/a cenny artefakt [CHARACTER.GetShortUINamePossessive]."
+ rival_stole_prized_heirloom_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive] przysiągł/a pomścić [CHARACTER.GetShortUIName|U] za kradzież ich cennego artefaktu."
+ rival_made_ride_dragon_piggyback:0 "[CHARACTER.GetShortUIName|U] zmusił/a [TARGET_CHARACTER.GetShortUIName] do jazdy na świni, mimo że [TARGET_CHARACTER.GetSheHe] obiecano smoka."
+ rival_made_ride_dragon_piggyback_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] nie przyjął/a z radością bycia zmuszonym/a do jazdy na świni przez [CHARACTER.GetShortUIName]."
+ rival_stole_horn:0 "[TARGET_CHARACTER.GetShortUIName] ukradł/a [CHARACTER.GetShortUINamePossessive|U] róg podczas próby oswojenia smoka."
+ stole_dragon:0 "[TARGET_CHARACTER.GetShortUIName] użył/a smoczego rogu, by ukraść smoka od [CHARACTER.GetShortUIName|U]."
+ stole_dragons:0 "[TARGET_CHARACTER.GetShortUIName] użył/a smoczego rogu, by ukraść smoki od [CHARACTER.GetShortUIName|U]."
+ steal_dragon_attempt:0 "[TARGET_CHARACTER.GetShortUIName|U] próbował/a ukraść smoka od [CHARACTER.GetShortUIName|U] za pomocą smoczego rogu."
+ rival_twin_given_egg:0 "[TARGET_CHARACTER.GetShortUIName|U] otrzymał/a jajko przy narodzinach, a [CHARACTER.GetShortUIName|U] nie."
+ rival_has_my_legitimate_house_title:0 "[TARGET_CHARACTER.GetShortUIName|U] był/a wściekły/a, że [CHARACTER.GetShortUIName] zdobył/a tytuł, który należy do [agot_legitimate_house|E]."
+ rival_has_my_legitimate_house_title_corresponding:0 "[CHARACTER.GetShortUIName|U] był/a wściekły/a, że [TARGET_CHARACTER.GetShortUIName] zdobył/a tytuł, który należy do [agot_legitimate_house|E]."
+
+

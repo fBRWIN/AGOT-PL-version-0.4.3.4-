@@ -1,0 +1,27 @@
+﻿l_english:
+ agot_septon_events.0001.t:0 "Potencjalny Septon"
+ agot_septon_events.0001.desc:0 "Mój syn wykazuje oznaki, że dobrze sprawdziłby się w służbie wierze PLACEHOLDER"
+ agot_septon_events.0001.a:0 "Dobrze służyłby Siedmiu"
+ agot_septon_events.0001.b:0 "Mój syn nie zostanie septonem"
+
+ agot_septon_events.0002.t:0 "Odmowa Septonatu"
+ agot_septon_events.0002.desc:0 "Twój syn odrzucił bycie septonem PLACEHOLDER"
+ agot_septon_events.0002.a:0 "w porządku"
+
+ agot_septon_events.0003.t:0 "Droga Septonatu"
+ agot_septon_events.0003.desc:0 "Twój syn został przyjęty jako septon PLACEHOLDER"
+ agot_septon_events.0003.a:0 "Żegnaj, mój synu!"
+
+ agot_septon_events.0004.t:0 "Śluby Septonatu"
+ agot_septon_events.0004.desc:0 "Twój syn musi wybrać patrona spośród Siedmiu, a jego wybór będzie również odbiciem ciebie. Zauważasz, że spogląda na ciebie, szukając znaku, kogo powinien wybrać PLACEHOLDER"
+ agot_septon_events.0004.a:0 "Ojciec"
+ agot_septon_events.0004.b:0 "Matka"
+ agot_septon_events.0004.c:0 "Wojownik"
+ agot_septon_events.0004.d:0 "Kowal"
+ agot_septon_events.0004.e:0 "Dziewica"
+ agot_septon_events.0004.f:0 "Starucha"
+ agot_septon_events.0004.g:0 "Obcy"
+
+ agot_septon_events.0005.t:0 "Septon"
+ agot_septon_events.0005.desc:0 "Twój syn jest teraz członkiem wiary PLACEHOLDER"
+ agot_septon_events.0005.a:0 "Chwała Siedmiu!"

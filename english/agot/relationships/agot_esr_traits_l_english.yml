@@ -1,0 +1,20 @@
+﻿l_english:
+ trait_esr_social_standing_neutral:0 "Postać społeczna"
+ trait_esr_social_standing_good:0 "Dobrze powiązany"
+ trait_esr_social_standing_bad:0 "Społeczny parias"
+ trait_esr_social_standing_mixed:0 "Mieszane przyjęcie"
+ trait_track_esr_well_connected:0 "Połączenia społeczne"
+ trait_track_esr_well_connected_desc:0 "Jak misterny gobelin w wielkiej sali zamku, szlachetne serce tworzy niezliczone połączenia, ozdabiając podróż życia bogactwem i radością."
+ trait_track_esr_popular_among_peers:0 "Popularność wśród rówieśników"
+ trait_track_esr_popular_among_peers_desc:0 "Gdy hałas popularności wasala odbija się echem w salach, czujny pan nie zwraca uwagi tylko na głośne pochwały, ale także na ciche zastrzeżenia."
+ trait_track_esr_friends_in_high_places:0 "Przyjaciele na wysokich stanowiskach"
+ trait_track_esr_friends_in_high_places_desc:0 "U boku wyniosłych przyjaciół, człowiek znajduje swoje własne szczęście, bo w salach władzy i wpływów drzwi do jeszcze nieodkrytych możliwości szeroko się otwierają."
+ trait_track_esr_social_pariah:0 "Obmowy od rywali"
+ trait_track_esr_social_pariah_desc:0 "Z jadowitych języków potężnych przeciwników obmowy zatruwają serca i szpecą reputację, rzucając cienie, które utrzymują się długo po tym, jak słońce zgaśnie na obronie prawdy."
+ trait_esr_social_standing_neutral_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] życie jest dotknięte na więcej niż jeden sposób przez przyjaciół i wrogów, których [ROOT.Char.GetSheHe] zdobył."
+ trait_esr_social_standing_good_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] dobrze ugruntowany krąg społeczny sprawia, że [ROOT.Char.GetHerHis] przedsięwzięcia w dyplomacji i intrygach są mniej uciążliwe."
+ trait_esr_social_standing_bad_desc:0 "Historie opowiadane przez licznych potężnych wrogów [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] malują niekorzystny obraz [ROOT.Char.GetHerHis]. Niezależnie od ich prawdziwości, trudno nie bać się kogoś, kto ośmiela się rozgniewać panujące moce."
+ trait_esr_social_standing_mixed_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] imię oznacza różne rzeczy dla różnych ludzi. Im więcej pyta się o [ROOT.Char.GetHerHim], tym bardziej niejasne staje się, jaką postacią jest [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]."
+
+ TRAIT_FLAG_DESC_esr_increased_swing_relation:0 "Zwiększ wahania [scales_of_power|E] z [relations|E] poprzez podniesienie poziomu #bold Popularności wśród Rówieśników#! [trait_level_track|E] #weak (10% na poziom)#!"
+

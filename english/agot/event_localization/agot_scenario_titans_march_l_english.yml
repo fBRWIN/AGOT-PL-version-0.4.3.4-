@@ -1,0 +1,87 @@
+﻿l_english:
+ agot_titans_march.0001.t:0 "Bękart zrodzony"
+ agot_titans_march.0001.desc:0 "Jak to możliwe? [daena.GetFirstName], moja siostra, moja krew, sprowadziła na świat bękarta, owoc swoich grzechów, gdy ostatnim razem uciekła z Wieży Dziewicy. Nadała dziecku imię [daemon.GetFirstName], ale odmawia ujawnienia ojca.\n\nModliłem się o siłę, o mądrość, która poprowadzi mnie w tej ciemnej godzinie, ale moje modlitwy zdają się pozostawać bez odpowiedzi. Sama egzystencja tego dziecka wydaje się szyderstwem z czystości, której tak desperacko szukałem. Jak mogę pozostać Błogosławionym Królem, skoro moja własna krew uległa takiej słabości?\n\nMuszę być silny. Bo to dziecko to tylko jedna z wielu prób, jakie Siedmiu stawia przede mną. Może bogowie uznali, że czas wystawić mnie na kolejną próbę. Muszę znaleźć sposób, by odkupić nas wszystkich z tej hańby."
+ agot_titans_march.0001.a:0 "Muszę pościć w pokucie."
+ agot_titans_march.0001.b:0 "Niech Siedmiu nam obojgu wybaczy."
+ agot_titans_march.0001.c:0 "Może Wieża Dziewicy nie jest rozwiązaniem..."
+
+ agot_titans_march.0100.t:0 "Rada Zbiera Się"
+ agot_titans_march.0100.desc:0 "[ROOT.Char.GetFirstNameNicknamed] wydał ostatnie tchnienie. Król nie żyje, a Żelazny Tron stoi pusty. Z mocy prawa powinien przejść na [daena.GetFirstName], najstarsze żyjące dziecko [egg3.GetTitledFirstNameRegnal]. Jednak [daena.GetFirstNameNoTooltip] jest dzika i nieokiełznana, a to może czynić ją nieodpowiednią do rządzenia. Jej siostry mogłyby być bardziej wyważonym wyborem: [rhaena.GetFirstName] jest słodka i pobożna, a [elaena.GetFirstName] bystra i praktyczna.\n\nJednak dziewczęta spędziły większość życia w Wieży Dziewicy i możliwe, że żadna z nich nie byłaby skuteczną królową. Jeśli ich roszczenia zostaną odrzucone, następny w kolejce jest [viserys.GetFirstName], który udowodnił, że jest zdolnym Namiestnikiem, zarządzającym królestwem podczas panowania trzech królów.\n\nKto wstąpi na pusty tron?"
+ agot_titans_march.0100.a:0 "[daena.GetFirstNameNoTooltip]"
+ agot_titans_march.0100.a.flavor:0 "[daena.GetFirstNameNoTooltip] jest prawowitą dziedziczką; nie możemy ryzykować kolejnej wojny sukcesyjnej, jeśli zostanie odrzucona."
+ agot_titans_march.0100.b:0 "[rhaena.GetFirstNameNoTooltip]"
+ agot_titans_march.0100.b.flavor:0 "[rhaena.GetFirstNameNoTooltip] to pobożna kobieta, która podtrzyma dziedzictwo swojego brata. [daena.GetFirstNameNoTooltip] musi zostać wydziedziczona za swoje przewinienia."
+ agot_titans_march.0100.c:0 "[elaena.GetFirstNameNoTooltip]"
+ agot_titans_march.0100.c.flavor:0 "[elaena.GetFirstNameNoTooltip] jest sprytna i praktyczna, a także najbardziej odpowiednia z dziewcząt do rządzenia. Niech [daena.GetFirstNameNoTooltip] zostanie wydziedziczona za swoją dzikość, a [rhaena.GetFirstNameNoTooltip] może przyjąć śluby, których pragnie."
+ agot_titans_march.0100.d:0 "[viserys.GetFirstNameNoTooltip]"
+ agot_titans_march.0100.d.flavor:0 "Dziewczęta spędziły zbyt długo w izolacji w Wieży Dziewicy; żadna z nich nie nadaje się na królową. Niech [viserys.GetFirstNameNoTooltip] obejmie tron."
+
+ agot_titans_march.0301.t:0 "Ucieczka!"
+ agot_titans_march.0301.desc:0 "Moja siostra [daena.GetFirstName] ponownie uciekła z Wieży Dziewicy — tym razem zniknęła wraz ze swoim synem, [daemon.GetFirstName]. Nikt nie wie, dokąd się udała, nie zostawiła po sobie żadnego śladu. Obawiam się, że tym razem może już nie wrócić. Hańba jej czynów plami nasz ród, a ja jestem bezsilny, by ją powstrzymać.\n\nIle razy muszę znosić to szaleństwo? Ludzie szepczą o jej buncie, a moja cierpliwość się wyczerpuje. A jednak serce boli na myśl o niej, zagubionej gdzieś na świecie z dzieckiem, które może bardzo dobrze nosić jej buntowniczą krew. Ucieczka mojej siostry to przekleństwo, które nas oboje prześladuje, i zastanawiam się, czy kiedykolwiek jeszcze ją zobaczę."
+ agot_titans_march.0301.a:0 "Zastanawiam się, jaki los czeka [daena.GetHerHim]..."
+ agot_titans_march.0301.b:0 "Muszę pościć w pokucie."
+ agot_titans_march.0301.c:0 "Niech Matka okaże jej miłosierdzie."
+
+ agot_titans_march.0302.t:0 "Nowy Początek"
+ agot_titans_march.0302.desc:0 "Jestem wreszcie wolna. Wieża Dziewicy, to pozłacane więzienie, nie może mnie już dłużej zatrzymać. Wzięłam mojego syna, [daemon.GetFirstName], i uciekłam z jej murów. Nigdy więcej nie będę podlegać kaprysom brata, który nazywa siebie 'Błogosławionym', nigdy więcej nie będę skuta oczekiwaniami życia, którego sama nie wybrałam.\n\nDotarłam do [GetTitleByKey('k_braavos').GetName], krainy wolności i możliwości, aby zacząć budować nowe życie dla siebie."
+ agot_titans_march.0302.a:0 "Moje życie należy do mnie."
+
+ agot_titans_march.0401.t:0 "Spełnione Marzenie"
+ agot_titans_march.0401.desc:0 "Po tylu latach moja wizja wreszcie stała się rzeczywistością: wielka septa na Wzgórzu Visenyi została ukończona!\n\n[high_septon.GetTitleAsName] ogłosił, że będzie nosić moje imię — #V Sept Baelora#!.\n\nNigdy nie wyobrażałem sobie, że moje imię stanie się tak mocno splecione z samym sercem naszej wiary. To nie jest zwykłe miejsce kultu; to pomnik wszystkiego, co starałem się uosabiać: oddania, pobożności i niezachwianej miłości do Siedmiu, która prowadziła mnie przez każdą próbę.\n\nA jednak, stojąc tutaj, nie mogę powstrzymać się od refleksji nad swoją drogą — niezliczonymi chwilami, gdy starałem się żyć tak, jak chcieli tego bogowie, i wieloma razami, gdy zawiodłem. Czy naprawdę zdołam dorosnąć do tego imienia, do ogromnych oczekiwań związanych z tym świętym miejscem? Czy z czasem stanę się człowiekiem godnym takiego dziedzictwa?"
+ agot_titans_march.0401.a:0 "Niech Siedmiu nas prowadzi."
+
+ agot_titans_march.0402.t:0 "Sen Utraconego Króla"
+ agot_titans_march.0402.desc:0 "Wielka septa na Wzgórzu Visenyi jest wreszcie ukończona. To widok, który zapiera dech w piersiach: marmurowa kopuła lśni w słońcu, a siedem kryształowych wież wznosi się wysoko ku niebu, połyskując boską łaską.\n\n[high_septon.GetTitleAsName] ogłosił, że będzie nosić imię swojego pierwotnego patrona — Septa [baelor.GetFirstName]. To godny hołd dla króla, który pragnął jedynie łaski bogów, a który niestety nie dożył tego dnia. Jego wizja, jego sen, stały się rzeczywistością, ale nie ma go już, by cieszyć się jej chwałą.\n\nStojąc przed nią, nie mogę nie myśleć o Baelorze — człowieku, jakim był, i władcy, jakim pragnął się stać. Jego czystość, niezachwiana wiara i głębokie oddanie Siedmiu — cechy, które zarówno go wyniosły, jak i, w oczach wielu, doprowadziły do jego upadku."
+ agot_titans_march.0402.a:0 "Niech Siedmiu nas prowadzi."
+ agot_titans_march.0402.b:0 "Był głupcem."
+
+ agot_titans_march.1000.t:0 "Książę Pentos"
+ agot_titans_march.1000.desc:0 "Wygląda na to, że nasza duma została złamana. Klęska w Trzeciej Wojnie Braavos-Pentos zmusiła nas do szukania nowej okazji, by odzyskać siły. Zwróciliśmy oczy na Stopnie, zbiór wysp gotowych do podboju. Jednak pomimo naszych wysiłków kampania zakończyła się porażką i zostaliśmy zmuszeni do odwrotu.\n\nTeraz [GetTitleByKey('k_braavos').GetNameNoTier], zawsze czujne, dostrzegło nasz odwrót jako oznakę słabości. Uderzają teraz, z inwazją zrodzoną z tej samej dumy, którą kiedyś sami mieliśmy. Nasi wrogowie rozzuchwaleni naszym potknięciem, a my zostajemy z konsekwencjami własnej pychy."
+ agot_titans_march.1000.a:0 "Musimy to przetrwać."
+
+ agot_titans_march.2000.t:0 "Lord Morza z Braavos"
+ agot_titans_march.2000.desc:0 "Po naszym triumfie w Trzeciej Wojnie Braavos-Pentos wiedzieliśmy, że musimy wzmocnić nasze siły. Rozbudowaliśmy armię, przygotowując się na to, co może nadejść. Tymczasem [GetTitleByKey('k_pentos').GetNameNoTier], pragnąc umocnić swoją potęgę, zwróciło oczy ku Stopniom, próbując zdobyć przyczółek na tych kluczowych wyspach.\n\nJednak ich ambicja zawiodła. Kampania okazała się klęską, a ich odwrót ze Stopni jest teraz rażącym znakiem słabości. Nadszedł moment, by uderzyć — to okazja, na którą czekaliśmy, i nie pozwolimy jej przejść."
+ agot_titans_march.2000.a:0 "Jeszcze raz zwyciężymy."
+
+ agot_titans_march.3000.t:0 "Pani Andalów"
+ agot_titans_march.3000.desc:0 "Mój ojciec spędził swoje ostatnie lata, marząc o przywróceniu starożytnego andalskiego królestwa, wizji, którą realizował z niezłomną determinacją. Jednak zanim zdołał ją urzeczywistnić, śmierć odebrała mu życie, pozostawiając tę ambicję niespełnioną. Nie pozwolę jednak, by jego marzenie umarło wraz z nim. Dokończę to, co zaczął.\n\nWojna między [GetTitleByKey('k_braavos').GetNameNoTier] a [GetTitleByKey('k_pentos').GetNameNoTier] szaleje, konflikt, który już zmienił równowagę sił w regionie. To może być idealna okazja, by przejąć inicjatywę i rozszerzyć nasze wpływy. Jeśli zadziałam mądrze, możemy wykorzystać ten chaos, by zdobyć władzę, której mój ojciec pragnął przywrócić."
+ agot_titans_march.3000.a:0 "Do boju!"
+ agot_titans_march.3000.b:0 "Na razie poczekam."
+
+ agot_titans_march.4000.t:0 "Lord Morza na Wygnaniu"
+ agot_titans_march.4000.desc:0 "Byłem kiedyś Lordem Morza [GetTitleByKey('k_braavos').GetNameNoTier], pewny swojego stanowiska i obdarzony zaufaniem ludu. Lecz w cieniu kiełkowała zdrada. [sealord.GetTitledFirstName] — mój admirał floty, któremu ufałem bezgranicznie — uderzył, gdy najmniej się tego spodziewałem. Zimna stal zdrady poprowadziła go do zamachu stanu, który mnie obalił, a jego własna ambicja wyniosła go na tron Lorda Morza. Miasto, które niegdyś nazywałem domem, jest teraz pod jego władzą.\n\nUciekłem z niczym poza własnym życiem i trzema jajami smoczymi, niegdyś sprzedanymi Braavos. Jaja mogą nieść obietnicę potęgi, ale na razie są kruchym przypomnieniem tego, co straciłem.\n\nŚwiat jest okrutny, a Braavos nie ma już dla mnie miejsca. Ale nie pozwolę, by o mnie zapomniano."
+ agot_titans_march.4000.a:0 "Znajdę sposób, by znów powstać."
+
+ agot_titans_march.4001.t:0 "Cena Jaj..."
+ agot_titans_march.4001.desc:0 "Te trzy jaja smocze — moje jedyne pozostałe skarby — są symbolem zarówno nadziei, jak i ruiny. W nieodpowiednich rękach mogą być niszczycielską siłą, ale są też potężnym atutem negocjacyjnym. [prince.GetFullName], zawsze chętny do zdobycia przewagi, zapewne chętnie za nie zapłaci, czy to złotem, czy obietnicami władzy. Tym lepiej, jeśli Pentos będzie w stanie wykorzystać te jaja w swoich wojnach przeciwko Braavos."
+ agot_titans_march.4001.a:0 "Złoto może mi kupić wszystko, czego potrzebuję."
+ agot_titans_march.4001.tooltip:0 "#bold Jeśli zaakceptowane:#!"
+ agot_titans_march.4001.eggs_gone:0 "#bold Chwila, gdzie się podziały jaja...?#!"
+ agot_titans_march.4001.alliance:0 "Zostanie zawarty sojusz negocjowany"
+ agot_titans_march.4001.b:0 "Tak naprawdę potrzebuję wsparcia militarnego."
+ agot_titans_march.4001.c:0 "Poproszę o tytuł."
+ agot_titans_march.4001.d:0 "One są bezcenne."
+
+ agot_titans_march.4002.t:0 "Oferta... Jaj!"
+ agot_titans_march.4002.desc:0 "Były Lord Morza Braavos, teraz cień dawnego siebie, napisał do mnie z ciekawą propozycją. Oferuje sprzedaż trzech jaj smoczych — rzadkich i potężnych skarbów, które mogą odmienić los każdego konfliktu. Wiem, że nie należy ufać człowiekowi, który niegdyś trzymał w rękach władzę Braavos, ale okazja zdobycia tak rzadkiego daru nie może zostać zignorowana. Jaki jest jego prawdziwy cel? Może to szansa, by uderzyć w serce Braavos, a może po prostu sposób, by zdobyć przewagę."
+ agot_titans_march.4002.a:0 "Muszę je mieć."
+ agot_titans_march.4002.b:0 "Może przyjąłby zamiast tego złoto."
+ agot_titans_march.4002.tooltip:0 "#bold Jeśli zaakceptowane:#!"
+ agot_titans_march.4002.c:0 "Może przyjąłby wsparcie militarne."
+ agot_titans_march.4002.d:0 "Może zaoferuję mu tytuł."
+ agot_titans_march.4002.e:0 "Nie potrzebuję bezużytecznych bibelotów."
+
+ agot_titans_march.4003.t:0 "Kontroferta"
+ agot_titans_march.4003.desc:0 "Książę nie był tak chętny, jak się spodziewałem. Odrzucił moją początkową cenę, zamiast tego przesyłając kontrofertę, którą muszę dokładnie rozważyć. Uważa, że te jaja są warte mniej, niż ja sądzę, a może po prostu próbuje wykorzystać moją sytuację. Mimo to nie jest to oferta, którą można odrzucić od razu. Jaja pozostają potężnym atutem negocjacyjnym i muszę zdecydować, czy jego warunki są do przyjęcia."
+ agot_titans_march.4003.a:0 "Przypuszczam, że wystarczy."
+ agot_titans_march.4003.b:0 "To nie jest to, czego chciałem."
+
+ agot_titans_march.4002_accepted.title:0 "Oferta zaakceptowana!"
+ agot_titans_march.4002_accepted.desc:0 "[prince.GetTitledFirstName] zaakceptował twoją cenę za jaja smocze"
+
+ agot_titans_march.4002_refused.title:0 "Oferta odrzucona!"
+ agot_titans_march.4002_refused.desc:0 "[prince.GetTitledFirstName] nie jest zainteresowany twoimi jajami smoczymi"
+
+ agot_titans_march.5000.t:0 "Tytan Upada"
+ agot_titans_march.5000.desc:0 "Wojna powitała nas w domu po naszym strategicznym odwrocie ze Stopni, zaaranżowanym przez nikogo innego jak największą cierń w boku Pentos, Lorda Morza Braavos. To był, jeśli w ogóle, głupi błąd. Nasi doświadczeni weterani, zahartowani podczas pobytu na południu, ruszyli, by powstrzymać ich najazd na nasze ziemie. Tam, gdzie spodziewali się znaleźć jedynie wyczerpanych rekrutów, którzy ledwo rzucą się na ich ostrza, wyniszczonych latami zmagań z piratami i podobnymi, twardo stanęli ludzie Księcia.\n\nMyśleli, że jesteśmy słabi, ale utrzymaliśmy pozycje i wypchnęliśmy tak zwanych samozwańczych „wyzwolicieli” z Andalos. Teraz, gdy kurz opadł, raz jeszcze stoimy jako niekwestionowany hegemon tego regionu."
+ agot_titans_march.5000.a:0 "Andalos jest nasze!"

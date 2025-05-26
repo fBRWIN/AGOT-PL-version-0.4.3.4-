@@ -1,0 +1,29 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_mother_religion:0 "Dzieci Matki"
+ the_mother_religion_adj:0 "Matka"
+ the_mother_religion_adherent:0 "Dziecko"
+ the_mother_religion_adherent_plural:0 "Dzieci"
+ the_mother_religion_desc:0 "Dzieci Matki są liczne i obecnie rozsiane po wielu krainach. Wszystkich łączy przekonanie, że są dziećmi Matki Rhoyne — bogini, która zrodziła nie tylko ich, ale całe stworzenie."
+
+ ### Wiary ###
+ # Matka Rhoyne
+ mother_rhoyne:0 "Dzieci Matki Rhoyne"
+ mother_rhoyne_adj:0 "Matka Rhoyne"
+ mother_rhoyne_adherent:0 "Dziecko"
+ mother_rhoyne_adherent_plural:0 "Dzieci"
+ mother_rhoyne_desc:0 "Religia Rhoynarów, podobnie jak cała ich cywilizacja, skupiona jest wokół rzeki Rhoyne. Rzeka jest główną boginią, Matką wszystkich innych bóstw i ludów, i to do niej zwracają się Rhoynarowie."
+
+ # Sieroty
+ mother_orphan:0 "Sieroty Matki Rhoyne"
+ mother_orphan_adj:0 "Sieroty"
+ mother_orphan_adherent:0 "Sierota"
+ mother_orphan_adherent_plural:0 "Sieroty"
+ mother_orphan_desc:0 "Utrata ojczyzny oznaczała dla Rhoynarów także utratę ich bogini — Matki Rhoyne. To ukształtowało ich kult w nieopisany sposób. Matka nie jest już obecna ani związana z dziećmi; teraz są sierotami, a pamięć o Matce jest tym, co ich podtrzymuje."
+
+ # Matka Lata
+ mother_summer:0 "Dzieci Matki Lata"
+ mother_summer_adj:0 "Matka Lata"
+ mother_summer_adherent:0 "Dziecko"
+ mother_summer_adherent_plural:0 "Dzieci"
+ mother_summer_desc:0 "Choć Matka Rhoyne jest źródłem wszystkiego, po utracie jej życiodajnych wód jej dzieci zwróciły się ku czci jej innych dzieci, a zwłaszcza Bogów Lata."

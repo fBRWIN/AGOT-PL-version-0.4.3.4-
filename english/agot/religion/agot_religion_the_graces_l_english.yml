@@ -1,0 +1,22 @@
+﻿l_english:
+ ### RELIGIA ###
+ the_graces_religion:0 "Łaski Ghisu"
+ the_graces_religion_adj:0 "Łaski"
+ the_graces_religion_adherent:0 "Łaskawy"
+ the_graces_religion_adherent_plural:0 "Łaskawi"
+ the_graces_religion_desc:0 "Na długo przed powstaniem Valyrii i jej Wolnego Holdingu to Ghis i jego bogowie budowali imperium poprzez dyscyplinę i krew. Nawet po upadku Imperium i utracie własnego języka, bogowie Ghisu przetrwali, a nawet doczekali końca swych znienawidzonych wrogów."
+
+ ### Wiary ###
+ # Ogólna wiara Ghisu
+ sc_harpy:0 "Potomkowie Harpii"
+ sc_harpy_adj:0 "Harpia"
+ sc_harpy_adherent:0 "Łaskawy"
+ sc_harpy_adherent_plural:0 "Łaskawi"
+ sc_harpy_desc:0 "Od czasów Grazdana Wielkiego to Harpia czuwała i chroniła Imperium oraz Ghiscari. Nawet po upadku Imperium i samego Ghisu, Harpia nadal góruje nad swoim ludem."
+
+ # Wiara Nieskalanych
+ sc_spear:0 "Potomkowie Pani Włóczni"
+ sc_spear_adj:0 "Pani Włóczni"
+ sc_spear_adherent:0 "Włócznik"
+ sc_spear_adherent_plural:0 "Włócznicy"
+ sc_spear_desc:0 "Jedna z pomniejszych bogiń Ghisu, Pani Włóczni, została w dużej mierze przyjęta przez Nieskalanych i inne zawodowe formacje wojskowe na terenach dawnego Imperium. Jest ich patronką i opiekunką; nawet gdy wszystko inne jest stracone i odebrane, ona nadal przy nich będzie."

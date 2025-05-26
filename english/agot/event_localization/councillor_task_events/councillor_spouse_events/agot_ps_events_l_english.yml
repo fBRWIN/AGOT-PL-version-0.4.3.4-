@@ -1,0 +1,261 @@
+﻿l_english:
+ #Copied from spouse events, modified for personal steward
+
+ #DIPLOMACY
+ councillor_personal_steward_diplomacy.1001.desc:0 "Reputacja Rodzinna"
+ councillor_personal_steward_diplomacy.1004.desc:0 "Szkolenie Dyplomatyczne"
+ councillor_personal_steward_diplomacy.1004.desc_diplo_councillor:0 "Nauczane przez [councillor.GetTitleAsName]"
+ councillor_personal_steward_diplomacy.1005.desc:0 "Praktyka Dyplomatyczna"
+ councillor_personal_steward_diplomacy.1006.desc:0 "Dzięki ciężkiej pracy [councillor.GetTitledFirstNamePossessive], [councillor.GetSheHe] stał się lepszy w rozmawianiu z ludźmi."
+
+ councillor_personal_steward_diplomacy.2002.t:1 "Osobisty Stewar: Budowanie Więzi"
+ councillor_personal_steward_diplomacy.2002.desc:0 "\"Kultywowanie relacji między przyszłymi władcami to obowiązek, którego nie powinniśmy zaniedbywać,\" mówi [councillor.GetTitledFirstName].\n\n"Niektórzy z twoich bardziej wpływowych wasali mają dzieci, które, jestem pewien, [child_heir.GetTitledFirstName] mógłby skorzystać z ich znajomości.""
+ councillor_personal_steward_diplomacy.2002.a:0 "[vassal_heir_1.GetTitledFirstNameNoTooltip] wydaje się być [vassal_heir_1.Custom('WomanManGirlBoy')] o dobrej reputacji."
+ councillor_personal_steward_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] prawdopodobnie będzie dobrym wpływem!"
+ councillor_personal_steward_diplomacy.2002.c:0 "Słyszałem dobre rzeczy o [vassal_heir_3.GetTitledFirstNameNoTooltip]."
+ councillor_personal_steward_diplomacy.2002.d:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] poradzi sobie sam."
+
+ councillor_personal_steward_diplomacy.2003.t:1 "Osobisty Stewar: Szansa na Pokój"
+ councillor_personal_steward_diplomacy.2003.desc:0 "Gdy tylko widzę mojego [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] po drugiej stronie [ROOT.Char.GetFaith.HouseOfWorship], zaczynam się odwracać, ale ku mojemu zaskoczeniu [councillor.GetTitledFirstName] macha [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] w naszą stronę.\n\n"[rival.GetSheHe|U] zgodził się spotkać z tobą na neutralnym gruncie. To nieszczęście, że dwie [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] [ROOT.Char.Custom2('WomenMenPeople', SCOPE.sC('rival'))] jak ty walczą. Czy nie sądzisz, że czas to naprawić?""
+ councillor_personal_steward_diplomacy.2003.a:0 "Masz rację..."
+ councillor_personal_steward_diplomacy.2003.b:0 "Zamierzam poprawić [rival.GetHerHis] twarz!"
+ councillor_personal_steward_diplomacy.2003.c:0 "Nazywasz [rival.GetHerHim] [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]?! Pozwól, że ujawnię prawdziwą postać [rival.GetHerHis]..."
+
+#INTRIGUE
+ councillor_personal_steward_intrigue.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] i [spymaster.GetCouncilTitle] Współpracują"
+
+ councillor_personal_steward_intrigue.0002.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Demaskuje Spisek"
+
+ councillor_personal_steward_intrigue.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Odkrywa Tajemnicę"
+
+ councillor_personal_steward_intrigue.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Pomaga w Spisku"
+
+ councillor_personal_steward_intrigue.0005.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Manipuluje Podmiotem"
+
+ councillor_personal_steward_intrigue.0006.message:0 "Utracona Naiwność"
+
+ councillor_personal_steward_intrigue.0007.message:0 "Złośliwa Praktyka"
+
+ councillor_personal_steward_intrigue.1001.t:1 "Osobisty Stewar: Nie Ufaj Nikomu"
+ councillor_personal_steward_intrigue.1001.desc:0 "\"Musisz uważać, z kim się otaczasz.\" Wyraz w oczach mojego [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] jest śmiertelnie poważny. \"Odkryłem, że nawet teraz, gdy mówimy, [spymaster.GetTitledFirstName] spiskuje przeciwko tobie!\"\n\nCzy to naprawdę możliwe? Mój własny [spymaster.GetCouncilTitle]?!"
+ councillor_personal_steward_intrigue.1001.a:0 "Zostałem oszukany!"
+
+ councillor_personal_steward_intrigue.1002.t:1 "Osobisty Stewar: Plotki i Spekulacje"
+ councillor_personal_steward_intrigue.1002.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] w sposób, w jaki [councillor.GetSheHe] to robi, gdy ma coś do podzielenia się. \"Wiesz te plotki o [target.GetTitledFirstName], że [target.GetSheHe] ukrywa coś strasznego?\" Podchodzę bliżej, gdy [councillor.GetSheHe] obniża głos. \"Wszystko to jest prawdą. Wszystko, czego potrzebujemy, to dowody.\""
+ councillor_personal_steward_intrigue.1002.a:0 "Czas na trochę szpiegostwa, mój [councillor.Custom('LoverPetName')]!"
+ councillor_personal_steward_intrigue.1002.b:0 "Muszę odkryć, co to jest!"
+ councillor_personal_steward_intrigue.1002.c:0 "Chowam moje sekrety lepiej niż [target.GetFirstNameNoTooltip]."
+
+ councillor_personal_steward_intrigue.1003.t:1 "Osobisty Stewar: Odkryte"
+ councillor_personal_steward_intrigue.1003.desc:0 "Po tym, jak [councillor.GetSheHe] zbliża się do mnie, widzę, że [councillor.GetTitledFirstName] odkrył kolejny sekret na dworze.\n\n\"[agent.GetTitledFirstName] bierze udział w spisku,\" mówi [councillor.GetSheHe]. \"[agent.GetSheHe|U] jeszcze nie wie, że wiem, ale sugeruję, żebyś zaoferował [agent.GetHerHim] amnestię, w zamian za absolutną lojalność...\""
+ councillor_personal_steward_intrigue.1003.a:0 "Uczyń [agent.GetHerHim] świadomym, jak wiele jest na szali."
+ councillor_personal_steward_intrigue.1003.b:0 "Użyj [agent.GetHerHim], aby znaleźć prawdziwego mistrza spisku!"
+ councillor_personal_steward_intrigue.1003.c:0 "Śledź każdy ruch [agent.GetHerHis] i chroń mnie przed niebezpieczeństwem!"
+
+ councillor_personal_steward_intrigue.1004.t:1 "Osobisty Stewar: Badanie Opozycji"
+ councillor_personal_steward_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] był utrapieniem, głośno popierając [faction.GetName]. Na szczęście wydaje się, że mam przewagę.\n\nMój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] odkrył dobrze strzeżony sekret [secret_holder.GetHerHis], mówi mi [councillor.GetSheHe] z chytrym uśmiechem.\n\n\"Myślałem, że możesz to uznać za interesujące, mój drogi...\""
+ councillor_personal_steward_intrigue.1004.a:0 "Trochę szantażu utrzyma [secret_holder.GetHerHim] w ryzach."
+ councillor_personal_steward_intrigue.1004.b:0 "To skandaliczne! Królestwo musi się o tym dowiedzieć!"
+ councillor_personal_steward_intrigue.1004.c:0 "Czasami najlepiej jest poczekać z ujawnieniem wygrywającej ręki."
+ councillor_personal_steward_intrigue.1004.c.tt:1 "Nie ujawniasz jeszcze sekretu [secret_holder.GetFirstNamePossessiveNoTooltip]"
+
+ councillor_personal_steward_intrigue.1005.t:1 "Osobisty Stewar: Dziel i Podbijaj"
+ councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] aktywnie wspierał [leader.GetTitledFirstName] i [leader.GetHerHis] [faction.GetName]. Jednak mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ma plan, by to zmienić.\n\n\"Uwierz mi, rzeczy, które mógłbym powiedzieć [faction_member.GetTitledFirstName], sprawią, że [faction_member.GetHerHim] natychmiast wyrzeknie się [leader.GetFirstNameNoTooltip].\""
+ councillor_personal_steward_intrigue.1005.a:0 "Upewnij się, że [faction_member.GetFirstNameNoTooltip] nigdy więcej nie poprze [leader.GetFirstNameNoTooltip]!"
+ councillor_personal_steward_intrigue.1005.b:0 "Czy mógłbyś sprawić, by #EMP ja#! wyglądałbym na lepszą opcję?"
+
+ councillor_personal_steward_intrigue.1006.t:1 "Osobisty Stewar: Odpowiedni Reprezentant"
+ councillor_personal_steward_intrigue.1006.desc:0 "Będąc dobrze świadomym moich planów w sprawie [target.GetTitledFirstName], mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] przyszedł do mnie z propozycją.\n\n\"Mam przyjaciół na dworze [court_owner.GetTitledFirstNamePossessive]. Mogę poprosić ich, by gościli [plant.GetTitledFirstName] przez jakiś czas. Z małym tokenem lojalności i całym wsparciem, które mogę zaoferować, [plant.GetTitledFirstName] zrobi cuda w twoim imieniu...\""
+ councillor_personal_steward_intrigue.1006.a:0 "Brilliantny pomysł, mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+ councillor_personal_steward_intrigue.1006.b:0 "Myślę, że potrzebujemy tutaj [plant.GetFirstNameNoTooltip]."
+
+#MARTIAL
+ councillor_personal_steward_martial.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Inspirował Rekrutację"
+
+ councillor_personal_steward_martial.0002.message:0 "Pomoc w Organizacji Armii"
+
+ councillor_personal_steward_martial.0003.message:1 "Inspirujący [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U]"
+
+ councillor_personal_steward_martial.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Zachęca do Rycerskości"
+
+ councillor_personal_steward_martial.0005.message:0 "Wsparcie w Negocjacjach z Najemnikami"
+
+ councillor_personal_steward_martial.0006.message:0 "Troszczenie się o Mnie"
+
+ councillor_personal_steward_martial.0007.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Pielęgnowanie Ran"
+
+ councillor_personal_steward_martial.0008.message:0 "Imponująca Obecność"
+
+ councillor_personal_steward_martial.0009.message:0 "Praktyka Walki"
+
+ councillor_personal_steward_martial.1001.t:1 "Osobisty Stewar: Dzień Turnieju"
+ councillor_personal_steward_martial.1001.desc:2 "Słońce świeci, a chłopi kręcą się po turnieju zorganizowanym przez mojego [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. Wszyscy moi $knight_culture_player_plural_no_tooltip_lowercase$ wiwatują, gdy [councillor.GetTitledFirstName] ogłasza turniej na ich cześć, a ja w końcu mogę po prostu usiąść i oglądać.\n\nJednak nie zamierzam spędzić całego dnia turniejowego przywiązany do tronu!"
+ councillor_personal_steward_martial.1001.a:2 "Ja też wiwatuję dla moich $knight_culture_player_plural_no_tooltip_lowercase$!"
+ councillor_personal_steward_martial.1001.commanders:2 "Każdy $knight_culture_player_no_tooltip_lowercase$"
+ councillor_personal_steward_martial.1001.b:0 "To doskonała okazja, by dać [child.GetFirstNameNoTooltip] kilka wskazówek!"
+ councillor_personal_steward_martial.1001.b.education_tt:0 "Rozwijam martialne wykształcenie [child.GetFirstNamePossessiveNoTooltip]"
+ councillor_personal_steward_martial.1001.c:0 "Ten dzień jest w #EMP naszej#! honorze, moja droga!"
+
+ councillor_personal_steward_martial.1002.t:1 "Osobisty Stewar: Działanie w Moim Imieniu"
+ councillor_personal_steward_martial.1002.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] spędza znaczną część czasu podróżując po królestwie z [councillor.GetHerHis] strażą honorową. Istnieje wiele spraw, które [councillor.GetSheHe] może załatwić w moim imieniu, a wojskowa obecność, którą [councillor.GetTitledFirstName] przynosi ze sobą, jest wyraźnym przypomnieniem o moim prawie do rządzenia."
+ councillor_personal_steward_martial.1002.a:0 "Mój [councillor.GetTitleAsNameNoTooltip] i ja stoimy gotowi do obrony królestwa!"
+ councillor_personal_steward_martial.1002.b:0 "Upewnij się, że ludzie odpowiednio się kłaniają, moja droga."
+ councillor_personal_steward_martial.1002.c:0 "Wszyscy powinni zarówno się mnie bać, jak i wielbić u moich stóp, [councillor.GetFirstNameNoTooltip]!"
+
+ councillor_personal_steward_martial.1003.t:1 "Osobisty Stewar: Kwestia Honorowa"
+ councillor_personal_steward_martial.1003.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. To konflikt między [attacker_vassal.GetTitledFirstName] a [defender_vassal.GetTitledFirstName], który [councillor.GetSheHe] chce omówić.\n\n\"Ich walka jest bez honoru, i przynosi hańbę twojemu królestwu. Pozwól, że się nimi zajmę. Wiem, że mogę wymusić na nich pokój.\""
+ councillor_personal_steward_martial.1003.a:0 "Załatw to, cokolwiek to będzie kosztować."
+ councillor_personal_steward_martial.1003.b:0 "Nie, chcę zobaczyć, kto wygra!"
+ councillor_personal_steward_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] i [defender_vassal.GetFirstNameNoTooltip] kontynuują swoją wojnę"
+ councillor_personal_steward_martial.1003.c:0 "Och, ufam, że to potrafisz, moja droga."
+ councillor_personal_steward_martial.1003.c.unlock_tt:0 "Ta opcja jest dostępna dzięki strategicznej genialności [councillor.GetFirstNamePossessiveNoTooltip]"
+
+ councillor_personal_steward_martial.1004.t:1 "Osobisty Stewar: Straż"
+ councillor_personal_steward_martial.1004.desc:0 "Jestem trochę zdezorientowany, dlaczego mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] chce mi przedstawić \"wielki prezent\" na dziedzińcu. Jednak wkrótce rozumiem, gdy [councillor.GetTitledFirstName] rozkazuje grupie żołnierzy ustawić się w szeregu. \"Kompletny regiment, podniesiony z moich własnych ziem, gotowy, by ci służyć.\"\n\nTo #EMP naprawdę#! wielki prezent!"
+ councillor_personal_steward_martial.1004.a:0 "Więcej żołnierzy, by wzmocnić armię!"
+ councillor_personal_steward_martial.1004.b:0 "Będą służyć jako moja osobista straż."
+
+ councillor_personal_steward_martial.1005.t:1 "Osobisty Stewar: Zostawiając Wrażenie"
+ councillor_personal_steward_martial.1005.desc:0 "[vassal.GetTitledFirstName] przyjeżdża do [capital.GetNameNoTier] złożyć mi hołd. Jednak [councillor.GetTitledFirstName] sugeruje, że pokaz siły wojskowej może zapewnić stałą lojalność.\n\n\"Widok twojej przytłaczającej siły sprawi, że każdy zastanowi się dwa razy, zanim pomyśli o zdradzie,\" zauważa mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]."
+ councillor_personal_steward_martial.1005.a:0 "Tak, [vassal.GetFirstNameNoTooltip] zobaczy żołnierzy wszędzie, gdzie [vassal.GetSheHe] się obróci!"
+ councillor_personal_steward_martial.1005.a.tt:1 "[vassal.GetFirstNameNoTooltip] staje się bardziej podatny na [dread|E]"
+ councillor_personal_steward_martial.1005.b:0 "Zwykła parada powinna wystarczyć."
+
+#LEARNING
+ #Różne powiadomienia religijne/kulturowe
+ councillor_personal_steward_learning.1001.religion.t:1 "Osobisty Stewar Mediator z [councillor.GetFaith.GetAdjectiveNoTooltip] Wasalem"
+ councillor_personal_steward_learning.1001.culture.t:1 "Osobisty Stewar Mediator z [councillor.GetCulture.GetNameNoTooltip]"
+
+ councillor_personal_steward_learning.1002.religion.t:1 "Osobisty Stewar Mediator z [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
+ councillor_personal_steward_learning.1002.culture.t:1 "Osobisty Stewar Mediator z [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
+
+ #Powiadomienia dla tej samej religii/kultury
+ councillor_personal_steward_learning.1003.religion.desc:1 "Osobisty Stewar Mediator z [councillor.GetFaith.GetAdjectiveNoTooltip] Poddanymi"
+ councillor_personal_steward_learning.1003.culture.desc:1 "Osobisty Stewar Mediator z [councillor.GetCulture.GetNameNoTooltip] Poddanymi"
+ councillor_personal_steward_learning.1301.t:1 "Osobisty Stewar: Wpływa na Konwersję Religijną"
+ councillor_personal_steward_learning.1302.t:1 "Osobisty Stewar: Wpływa na Konwersję Kulturową"
+ councillor_personal_steward_learning.1303.desc:0 "Osobisty Stewar jest Patronem Teologów"
+
+ #Ogólne powiadomienia o nauce
+ councillor_personal_steward_learning.1601.desc:1 "Osobisty Stewar Pomaga Ci w Studiach [ROOT.Char.Custom('LifestyleFocus')|U]"
+ councillor_personal_steward_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')] Kwitnie Pod Opieką Osobistego Stewarda"
+ councillor_personal_steward_learning.1603.root_guardian.t:0 "Podopieczny Docenia Opiekę Osobistego Stewarda"
+ councillor_personal_steward_learning.1603.personal_steward_guardian.t:0 "Podopieczny Osobistego Stewarda Docenia [councillor.GetHerHis|U] Opiekę"
+ councillor_personal_steward_learning.1603.other_guardian.t:0 "Podopieczny na Dworze Docenia Opiekę Osobistego Stewarda"
+
+ agot_add_patronage_personal_steward_education_points_effect.t:0 "Dziecko Korzysta z Opieki Osobistego Stewarda"
+ agot_add_patronage_personal_steward_education_points_effect.desc:1 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], ma większą szansę na otrzymanie dobrej [education|E] dzięki opiece [councillor.GetTitledFirstNamePossessive]."
+ add_patronage_personal_steward_education_points_child_effect.desc:0 "Mój [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], ma większą szansę na otrzymanie dobrej [education|E] dzięki opiece [councillor.GetTitledFirstNamePossessive]."
+
+ #Wydarzenia
+ councillor_personal_steward_learning.2601.t:1 "Osobisty Stewar: Dalsza Edukacja"
+ councillor_personal_steward_learning.2601.not_scholarly.desc:0 "\"Nie zaszkodziłoby ci trochę poczytać książkę od czasu do czasu,\" mówi mi mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], studiujący [councillor.GetTitledFirstName], oferując swoją pomoc, jeśli potrzebuję wsparcia."
+ councillor_personal_steward_learning.2601.scholarly.desc:0 "Za każdym razem, gdy mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] widzi mnie pochylonego nad tomem, [councillor.GetSheHe] staje się wyraźnie podekscytowany.\n\n\"Czy chciałbyś trochę pomocy w nauce? Kogoś do wymiany pomysłów, albo może nowe tomy? Niedawno zdobyłem wolumin z doskonałą analizą [ROOT.Char.Custom('education_conversation_subject')]!\""
+ councillor_personal_steward_learning.2601.a:0 "Tak, doceniam twoje wskazówki."
+ councillor_personal_steward_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip] potrzebuje twojej pomocy bardziej niż ja."
+ councillor_personal_steward_learning.2601.c:0 "Powinieneś nauczyć [tutoring_student_2.GetTitledFirstNameNoTooltip] zamiast tego."
+ councillor_personal_steward_learning.2601.d:0 "Powinieneś skupić się na swoich własnych studiach."
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] zrozumienie [THIS.Char.Custom('education_focus')] znacznie wzrasta"
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] zrozumienie [THIS.Char.Custom('education_focus')] wzrasta"
+
+
+ councillor_personal_steward_learning.2001.faith.t:1 "Osobisty Stewar: [councillor.GetFaith.GetAdjectiveNoTooltip] Dysydenci"
+ councillor_personal_steward_learning.2001.culture.t:1 "Osobisty Stewar: [councillor.GetCulture.GetNameNoTooltip] Dysydenci"
+ councillor_personal_steward_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] i [faction_leader.GetHerHis] towarzysze"
+ councillor_personal_steward_learning.2001.faith.desc:0 "[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_personal_steward_learning.2001.culture.desc:0 "[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_personal_steward_learning.2001.middle.desc:0 "spiskowcy w [different_culture_or_faith_faction.GetName] nigdy nie dają mi spokoju!"
+ councillor_personal_steward_learning.2001.independence_faction.desc:0 "Powinni być lojalnymi poddanymi, ale wiem, że knują, by się obrócić przeciwko mnie."
+ councillor_personal_steward_learning.2001.liberty_faction.desc:0 "Starają się podważyć moją władzę na każdym kroku."
+ councillor_personal_steward_learning.2001.claimant_faction.desc:0 "Ci niegodni złodzieje chcą zająć ziemię, która słusznie należy do mnie."
+ councillor_personal_steward_learning.2001.end.desc:0 "\n\nNa szczęście, jako \"jeden z nich\", mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] ma pewien wpływ na nich. [councillor.GetSheHe|U] zaoferował mediację i chce wiedzieć, jak postępować."
+ councillor_personal_steward_learning.2001.a.faith:0 "Uspokój członków [councillor.GetFaith.GetAdjectiveNoTooltip] frakcji."
+ councillor_personal_steward_learning.2001.a.culture:0 "Uspokój członków [councillor.GetCulture.GetNameNoTooltip] frakcji."
+ councillor_personal_steward_learning.2001.a.faction_members_faith:0 "Każdy członek [councillor.GetFaith.GetAdjective] frakcji [different_culture_or_faith_faction.GetName]"
+ councillor_personal_steward_learning.2001.a.faction_members_culture:0 "Każdy członek [councillor.GetCulture.GetName] frakcji [different_culture_or_faith_faction.GetName]"
+ councillor_personal_steward_learning.2001.b:0 "Spraw, by [faction_member_1.GetTitledFirstNameNoTooltip] opuścił frakcję."
+ councillor_personal_steward_learning.2001.c:0 "Przekonaj [faction_member_2.GetTitledFirstNameNoTooltip] do pozostania lojalnym wobec mnie."
+
+ councillor_personal_steward_learning.2301.t:1 "Osobisty Stewar: Wyższa Władza"
+ councillor_personal_steward_learning.2301.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] stał się znaną postacią w świecie religijnym. [councillor.GetHerHis|U] patronat nad [councillor.GetFaith.GetAdjectiveNoTooltip] uczonymi, [councillor.GetFaith.HouseOfWorshipPlural] oraz zakonami przyciągnął uwagę [religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself].\n\nWdzięczność [religious_head.GetTitleAsNamePossessiveNoTooltip] wiąże się z potężnymi korzyściami. Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] zaoferował skontaktowanie się z [religious_head.GetHerHim] w moim imieniu."
+ councillor_personal_steward_learning.2301.a:0 "Czy możesz nawiązać wprowadzenie?"
+ councillor_personal_steward_learning.2301.a.success:0 "Zaprzyjaźniłem się z [religious_head.GetTitledFirstName]."
+ councillor_personal_steward_learning.2301.b:0 "Co [religious_head.GetSheHe] może dla nas zrobić w zamian?"
+ councillor_personal_steward_learning.2301.c:0 "To moja szansa na powrót do świętej społeczności!"
+ councillor_personal_steward_learning.2301.d:0 "Powiedz [religious_head.GetHerHim] — wszystko, co robimy, robimy dla [councillor.GetFaith.HighGodName]."
+
+ councillor_personal_steward_learning.2602.t:1 "Osobisty Stewar: Poszerzanie Horyzontów"
+ councillor_personal_steward_learning.2602.not_root.desc:0 "Chociaż mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] na pewno wie coś o [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] uważa, że nadszedł czas, by [student.GetHerHim] poszerzył swoje horyzonty.\n\n\"Mogę zdobyć nowe tomy, przygotować kilka zadań, pouczyć [student.GetHerHim] trochę. Który przedmiot najbardziej przysłuży się [student.GetFirstNameNoTooltip]?\""
+ councillor_personal_steward_learning.2602.root.desc:0 "\"Chociaż wiesz coś o [student.Custom('highest_skill_noun')], [student.GetTitleTierName] [student.GetPrimaryTitle.GetNameNoTierNoTooltip] powinien posiadać szeroką gamę umiejętności,\" mówi mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n\"Mogę zdobyć nowe tomy, przygotować kilka zadań, pouczyć cię trochę. Jaki przedmiot najbardziej cię interesuje?\""
+ councillor_personal_steward_learning.2602.a:0 "Dyplomacja."
+ councillor_personal_steward_learning.2602.b:0 "Teoria wojskowa."
+ councillor_personal_steward_learning.2602.c:0 "Gospodarka królestwa."
+ councillor_personal_steward_learning.2602.d:0 "Zarządzanie siecią szpiegowską."
+ councillor_personal_steward_learning.2602.e:0 "Teologia."
+
+ councillor_personal_steward_learning.1304.desc:0 "Osobisty Stewar jest Patronem [religious_vassal.GetTitledFirstNameNoTooltip]"
+ councillor_personal_steward_learning.1305.desc:0 "Pobożność Osobistego Stewarda Imponuje [religious_head.GetTitleAsNameNoTooltip]"
+
+
+ councillor_personal_steward_learning.2603.t:1 "Osobisty Stewar: Do Wykonania Zadania"
+ councillor_personal_steward_learning.2603.desc:0 "Niektórzy z moich doradców uważają, że praca należy im się z tytułu krwi lub wpływów — jak bardzo się mylą! Oczekuję wyników, ale często jestem rozczarowany.\n\nPo długim dniu narzekam na [councillor.GetFirstName], kiedy [councillor.GetSheHe] przerywa mi. \"Pozwól, że coś z tym zrobię, [ROOT.Char.GetWifeHusband]. Kilka lekcji może wyostrzyć ich intelekt.\""
+ councillor_personal_steward_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] mógłby skorzystać z nauczyciela."
+ councillor_personal_steward_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] skorzystałby z twojej pomocy."
+ councillor_personal_steward_learning.2603.c:0 "Daj kilka lekcji mojemu [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."
+ councillor_personal_steward_learning.2603.d:0 "Może masz jakieś rady dla [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
+ councillor_personal_steward_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] potrzebuje pomocy."
+ councillor_personal_steward_learning.2603.f:0 "Zostań tutaj ze mną..."
+
+#STEWARDSHIP
+ councillor_personal_steward_stewardship.1001.desc:0 "Utrzymanie Armii"
+ councillor_personal_steward_stewardship.1002.desc:0 "Pilność Pracowników"
+ councillor_personal_steward_stewardship.1003.desc:0 "Negocjacje Budowlane"
+ councillor_personal_steward_stewardship.1004.desc:0 "Oszczędności Domowe"
+ councillor_personal_steward_stewardship.1005.desc:0 "Nienaganna Gospodarka"
+ councillor_personal_steward_stewardship.1006.desc:0 "Dobrze Zorganizowany Dwór"
+ councillor_personal_steward_stewardship_1006_every_courtier:0 "Każdy Dworzanin"
+ councillor_personal_steward_stewardship.1007.desc:0 "Wygodne Życie"
+ councillor_personal_steward_stewardship.1008.desc:0 "Zdrowy Dwór"
+ councillor_personal_steward_stewardship.1009.desc:0 "Negocjacje Rozwoju"
+ councillor_personal_steward_stewardship.1010.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Rozwiązuje Dług Dworzany"
+ councillor_personal_steward_stewardship.1011.desc.guilds:0 "Zwycięstwo nad Gildiami"
+ councillor_personal_steward_stewardship.1011.desc.serfs:0 "Uspokojenie Chłopów"
+ councillor_personal_steward_stewardship.1011.desc.corruption:0 "Kontrola Poborców Podatków"
+
+ councillor_personal_steward_stewardship.2001.t:1 "Osobisty Stewar: Zapytanie o Inwestycję"
+ councillor_personal_steward_stewardship.2001.desc:0 "Dzięki starannej administracji finansami mojego domu przez [councillor.GetTitledFirstNamePossessive], na koniec tego sezonu mamy więcej złota niż się spodziewano.\n\n\"Jak powinniśmy to najlepiej wykorzystać, [ROOT.Char.GetWifeHusband]?\""
+ councillor_personal_steward_stewardship.2001.a:0 "Zorganizuj wspaniałą kolację, aby wszystkich ucieszyć!"
+ councillor_personal_steward_stewardship_2001_every_powerful_vassal:0 "Każdy Potężny Wasal"
+ councillor_personal_steward_stewardship.2001.b:0 "Zainwestuj pieniądze w lokalnym obszarze."
+ councillor_personal_steward_stewardship.2001.c:0 "Jeśli jest coś, co pieniądze mogą kupić, to oczy i uszy!"
+ councillor_personal_steward_stewardship.2001.d:0 "Zaoszczędźmy to na teraz."
+
+ councillor_personal_steward_stewardship.2002.t:1 "Osobisty Stewar: Błyszcząca Okazja"
+ councillor_personal_steward_stewardship.2002.desc:0 "\"Moja [ROOT.Char.GetLadyLord].\" [courtier_lender.GetTitledFirstName] podchodzi do mnie i uśmiecha się [courtier_lender.Custom('quirk_pos_adverb')]. \"Zostałem poproszony przez [councillor.GetTitledFirstName], który w swojej mądrości zasugerował nam układ. Skoro ty potrzebujesz pomocy finansowej, a ja społecznej...\""
+ councillor_personal_steward_stewardship.2002.a:0 "Obiecuję, że ci się odwdzięczę."
+ councillor_personal_steward_stewardship.2002.money_loan_tooltip:0 "Pożyczę [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! złota od [courtier_lender.GetFirstNameNoTooltip]."
+ councillor_personal_steward_stewardship.2002.b:0 "Dlaczego nie przekażesz tego na rzecz [ROOT.Char.GetFaith.HouseOfWorship]?"
+ councillor_personal_steward_stewardship.2002.c:0 "Powinieneś przekazać to biednym."
+ councillor_personal_steward_stewardship.2002.d:0 "Z radością przyjmę ten hołd!"
+
+ councillor_personal_steward_stewardship.2003.t:1 "Osobisty Stewar: Okazja do Handlu"
+ councillor_personal_steward_stewardship.2003.desc:0 "[councillor.GetTitledFirstName] podchodzi do mnie z trzema zwójkami pergaminu w [councillor.GetHerHis] rękach.\n\n\"Moja [ROOT.Char.GetLadyLord], przygotowałem propozycje handlowe dla sąsiednich władców. Jestem pewien, że uda się zawrzeć umowę, która będzie korzystna dla obu stron!\""
+ councillor_personal_steward_stewardship.2003.a:0 "[ruler_1.GetTitledFirstNameNoTooltip] wydaje się rozsądny."
+ councillor_personal_steward_stewardship.2003.b:0 "Zawrzyj umowę z [ruler_2.GetTitledFirstNameNoTooltip]."
+ councillor_personal_steward_stewardship.2003.c:0 "Zrób interesy z [ruler_3.GetTitledFirstNameNoTooltip]."
+ councillor_personal_steward_stewardship.2003.d_greedy:0 "Żaden z nich nie zbliży się do mojego złota!"
+ councillor_personal_steward_stewardship.2003.d_arrogant:0 "Żaden z nich nie jest godny zawarcia umowy ze #EMP mną#!"
+ councillor_personal_steward_stewardship.2003.d:0 "Żaden z nich nie oferuje wystarczająco kuszącej okazji..."
+
+ councillor_personal_steward_stewardship.2004.t:1 "Osobisty Stewar: Pomocna Dłoń"
+ councillor_personal_steward_stewardship.2004.desc:0 "\"Twój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('on_my_hook'))], [on_my_hook.GetTitledFirstName], ostatnio znalazł się w kłopotach.\"\n\n[councillor.GetTitledFirstName] uśmiecha się [councillor.Custom('quirk_pos_adverb')] i kontynuuje, \"Zadbałem o to, by sytuacja sama się rozwiązała i wspomniałem o tobie jako benefaktorze.\""
+ councillor_personal_steward_stewardship.2004.a:0 "Doskonale wykonana praca!"
+ councillor_personal_steward_stewardship.2004.b:0 "Dobry uczynek nie potrzebuje zapłaty."
+
+ councillor_personal_steward_stewardship.2005.t:1 "Osobisty Stewar: Inwestycje w [county_to_boost.GetNameNoTierNoTooltip]"
+ councillor_personal_steward_stewardship.2005.desc:1 "\"Mój [ROOT.Char.GetLadyLord|U]. Zauważyłem rzadką okazję do inwestycji w [county_to_boost.GetName].\"\n\nMój [councillor.Custom('WifeHusband')] [councillor.GetFirstName] przygotował szczegóły inwestycji, a rzeczywiście wygląda na to, że umowa może przynieść wielkie korzyści [county_to_boost.GetNameNoTierNoTooltip], jeśli się uda."
+ councillor_personal_steward_stewardship.2005.a:0 "To ryzyko warte podjęcia!"
+ councillor_personal_steward_stewardship.2005.a_1:0 "Umowa przynosi duży zysk dla [county_to_boost.GetNameNoTierNoTooltip]"
+ councillor_personal_steward_stewardship.2005.a_2:0 "Umowa upada"
+ councillor_personal_steward_stewardship.2005.b:0 "Pozwól ludziom z [county_to_boost.GetNameNoTierNoTooltip] zająć się tą okazją."
+ councillor_personal_steward_stewardship.2005.c:0 "Ta rozmowa o lokalnych sprawach jest poniżej mnie!"

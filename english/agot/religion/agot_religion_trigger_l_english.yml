@@ -1,0 +1,2 @@
+﻿l_english:
+ CANNOT_HAVE_THEOCRACY_AND_TEMPORAL_HEAD:0 "Wiara nie może posiadać zarówno tradycji duchowego przywódcy [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName], jak i doktryny [GetFaithDoctrine('doctrine_temporal_head').GetBaseName] Głowy Wiary."

@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ gain_piety_tooltip:0 "我的虔诚不会被忽视"
+ wounds_turn_to_cripple_tooltip:0 "你的伤口完全恢复了，但你变得[GetTrait('crippled').GetName( GetNullCharacter )]"
+ weirwood_fertility_bonus_modifier:0 "鱼梁木生育赐福"
+ weirwood_minor_health_bonus_modifier:0 "鱼梁木健康赐福"
+ weirwood_medium_health_bonus_modifier:0 "鱼梁木健康赐福"
+ agot_weirwood_events.0001.t:0 "心树"
+ agot_weirwood_events.0001.desc:0 "抛开信仰不谈，世界上很少有地方能与神木林的宁静和超凡的孤独相媲美，但是神木林不仅仅可以漫步其中、放松身心的花园——旧神在此有掌控的力量。\n\n当我走近心树，心中想的是……"
+ agot_weirwood_events.0001.a:0 "……诸神的赐福。"
+ agot_weirwood_events.0001.b:0 "……健康的身体。"
+ agot_weirwood_events.0001.c:0 "……平静的心灵。"
+ agot_weirwood_events.0001.d:0 "……神圣的指引。"
+ weirwood_stress_modifier:0 "鱼梁木的平和"

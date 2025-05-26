@@ -1,0 +1,38 @@
+﻿l_english:
+
+ # Wasal rozpatruje petycję, podejmuje decyzję
+ # Tytuł najwyższy (Paramount Title)
+ petition_liege.0101.t.title_paramount:0 "$petition_liege_header$ Główny Pretendent"
+ petition_liege.0101.t.legitimate_house_boost:0 "$petition_liege_header$ Wsparcie dla Prawowitego Domu"
+
+ # Opis
+ petition_liege.0101.desc.title_paramount:0 "Z szacunkiem, Wasza Mość, [petition_paramount.GetName] należy się mi z prawem!" \n\n"Rządzisz potężnym [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], mój [petition_liege.GetLadyLord], czyż nie możesz mi przyznać prawa do panowania nad pojedynczym królestwem, które szczerze roszczę sobie? Powinieneś rozumieć, jak ważne są roszczenia dla ziem, które posiadamy.""
+ petition_liege.0101.desc.legitimate_house_boost:0 "Jak dobrze wiesz, Wasza Mość, moje panowanie nad [petition_legitimate_house_boost_title.GetName] jest... kwestionowane ze względu na naszą krótszą historię."\n\n"Dla dobra nas obojga, proszę o wsparcie roszczeń mojego domu jako [agot_legitimate_house|E] i pomoc w zduszeniu niepokojów, które wynikły z tej niepewności w królestwie."
+
+ # Akceptacja
+ petition_liege.0101.accept.title_paramount:0 "Bardzo dobrze, [petition_paramount.GetTierAsNameNoTooltip|l] jest twój."
+ petition_liege.0101.accept.legitimate_house_boost:0 "Będę wspierać dom [petition_vassal.GetHouse.GetName] w tej sprawie."
+
+ # Przekupstwo złotem
+ petition_liege.0101.bribe_gold.title_paramount:0 "Co ci za to, [petition_vassal.GetFirstNameNoTooltip]?"
+ petition_liege.0101.bribe_gold.legitimate_house_boost:0 "Może gdybym zobaczył dowód tej korzyści?"
+
+ # Przekupstwo przysługą
+ petition_liege.0101.bribe_favor.title_paramount:0 "Nie zapomnę szybko długu, który mi jesteś winien."
+ petition_liege.0101.bribe_favor.legitimate_house_boost:0 "Wsparcie na twoich ziemiach to wsparcie na moich."
+
+ # Przekupstwo frakcjami
+ petition_liege.0101.bribe_factions.title_paramount:0 "Za ten tytuł chcę twojej nieustającej lojalności."
+ petition_liege.0101.bribe_factions.legitimate_house_boost:0 "Jeśli się zwiążesz ze mną, ja również."
+
+ # Przekupstwo kontraktem
+ petition_liege.0101.bribe_contract.title_paramount:0 "Te ziemie wymagają większych świadczeń."
+ petition_liege.0101.bribe_contract.legitimate_house_boost:0 "W zamian będę wymagać więcej od ciebie."
+
+ # Odmowa
+ petition_liege.0101.refusal.title_paramount:0 "Ja również roszczę sobie prawa do [petition_paramount.GetNameNoTierNoTooltip]."
+ petition_liege.0101.refusal.legitimate_house_boost:0 "Nie mogę naruszyć tradycji w tej sprawie."
+
+ # Wasal przyznaje petycję
+ petition_liege.0201.desc.title_paramount:0 "\n\nZ szacunkiem przedstawiam moje prawowite roszczenie do [petition_liege.GetHerHis] [petition_paramount.GetName], dostarczając obszerne dokumenty, które to potwierdzają, i oczekuję odpowiedzi [petition_liege.GetTitleAsNamePossessiveNoTooltip]."
+ petition_liege.0201.desc.legitimate_house_boost:0 "\n\nBez wahania przedstawiam argumenty mojego domu, że jest [agot_legitimate_house|E] [petition_legitimate_house_boost_title.GetNameNoTier], wymieniając liczne sprawiedliwe wyroki, które wydaliśmy, i jak przestrzegaliśmy praw na ziemiach [petition_liege.GetHerHis]."

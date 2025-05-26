@@ -1,0 +1,443 @@
+﻿l_english:
+  # Shared loc
+ #########
+ agot_bastard_event.reveal_tt:0 "Powiesz [reveal_scope.GetName] prawdę o [reveal_scope.GetHerHis] pochodzeniu."
+ agot_bastard_event.reveal_warning:0 "@warning_icon! #warning Może to mieć poważne konsekwencje dla ciebie i całego królestwa.#!"
+ agot_bastard_event.reveal_warning_letter:0 "Wyślesz listy do każdego zakątka Westeros.\n@warning_icon!#warning Może to mieć poważne konsekwencje dla ciebie i całego królestwa.#!"
+ agot_bastard_event.realm_ruler_react_wait:0 "Pozostaje zobaczyć, jak zareaguje królestwo i [ruler_scope.GetFirstNameOrMe]..."
+ agot_bastard_event.host_response_choice:0 "To [reveal_employer.GetName] odpowie na twoje żądanie."
+ agot_bastard_event.personal_response_choice:0 "To [reveal_scope.GetName] odpowie na twoje żądanie."
+ agot_bastard_event.demand_reject_harsh:0 "To oburzające żądanie! To oznacza wojnę!"
+ agot_bastard_event.demand_reject_light:0 "To kara za sam fakt urodzenia. Nie będę tego tolerować."
+ agot_bastard_event.demand_reject_flavor:0 "Odrzucisz żądanie [ruler_scope.GetNamePossessive]."
+ agot_bastard_event.demand_reject_tt:0 "@warning_icon! #warning To nieodwracalnie popchnie cię na ścieżkę wojny z Żelaznym Tronem.#!"
+ agot_bastard_event.demand_accept_harsh:0 "Choć to mnie boli, zaakceptuję to w imię pokoju."
+ agot_bastard_event.demand_accept_light:0 "Zaakceptuję względną łaskę [ruler_scope.GetNamePossessive]."
+ agot_bastard_event.demand_accept_flavor:0 "Zaakceptujesz żądanie [ruler_scope.GetNamePossessive]."
+ agot_bastard_event.unjust_warning_tt:0 "Królestwo może nie przychylnie patrzeć na żądania uznane za niesprawiedliwe."
+ agot_bastard_event.no_demand_acknowledge:0 "To z pewnością ulga."
+
+ # Parent tells child
+ agot_bastard_event.0901.t:0 "Wątpliwości co do pochodzenia"
+ agot_bastard_event.0901.desc:0 "Za każdym razem, gdy patrzę na [reveal_scope.GetFirstName], nie mogę przestać myśleć o prawdzie o [reveal_scope.GetHerHis] krwi, a także o niebezpieczeństwach, jakie ta prawda niesie. Choć pragnę, by [reveal_scope.GetHerHim] żył długo i beztrosko, muszę też przyznać, że całe życie [reveal_scope.GetHerHis] zbudowane jest na kłamstwie. Nie jest fair wobec [reveal_scope.GetHerHim], by [reveal_scope.GetSheHe] miał żyć i umrzeć nie znając prawdy o swoim królewskim pochodzeniu. Nie mogę dłużej być autorem tej niesprawiedliwości."
+ agot_bastard_event.0901.desc.jon:0 "Za każdym razem, gdy patrzę na [reveal_scope.GetFirstName], przypominam sobie dane obietnice i dawne zagrożenia, ale widzę też dziecko, którego całe życie opiera się na kłamstwie. „Obiecaj mi, Ned...”\n\nNie. To niesprawiedliwe, by [reveal_scope.GetHerHim] miał żyć i umrzeć nie znając prawdy. Kochałem moją siostrę, i kocham jej dziecko jak własne. Nie chciałaby, by [reveal_scope.GetHerHim] dorastał nieświadomy swojego pochodzenia. Choć to mnie boli — i może zaboleć także królestwo — nie mogę dłużej być autorem tej niesprawiedliwości."
+ agot_bastard_event.0901.a:0 "[reveal_scope.GetFirstNameNoTooltip], muszę ci powiedzieć... twoi prawdziwi rodzice to..."
+ agot_bastard_event.0901.a.jon:0 "[reveal_scope.GetFirstNameNoTooltip], nadszedł czas na prawdę. Nie jestem twoim ojcem..."
+ agot_bastard_event.0901.b:0 "Nie, to jeszcze nie ten czas."
+ agot_bastard_event.0901.b.jon:0 "A jednak muszę. Moje poczucie winy nie może przeważyć nad daną obietnicą."
+
+ # Child responds to 'parent'
+ agot_bastard_event.0902.t:0 "Szokująca prawda"
+ agot_bastard_event.0902.desc.jon:0 "Ojciec prosi mnie o wspólną przejażdżkę poza zamek, prowadząc nas do dębowego gaju, gdzie zsiadamy i siadamy. Nigdy nie widziałem go tak spiętego — ledwo potrafi spojrzeć mi w oczy.\n\nZaczyna opowiadać o turnieju w Harrenhal, o swojej siostrze i o rebelii Roberta sprzed lat. Zastanawiam się, dlaczego opowiada mi historię, którą znam od dawna, lecz gdy pojawiają się nowe szczegóły, nie mogę uwierzyć, dokąd to zmierza.\n\n„Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost. [ROOT.Char.GetFirstNameNoTooltip], okłamywałem cię. Nie jestem twoim ojcem. Twoim prawdziwym ojcem był [real_father.GetName], a urodziłeś się w łożu zimowych róż mojej siostry, Lyanny Stark. Przysiągłem dochować tej tajemnicy, ale nie mogłem dalej żyć w kłamstwie. Obawiam się, że tylko wymieniłem jeden ciężar na jeszcze większy, ale przynajmniej możesz sam zdecydować, co z tą prawdą zrobić.”\n\nLiście dębów szeleszczą na wietrze. Chcę odrzucić tę rewelację, krzyczeć w wiatr, że to nieprawda, ale w głębi serca wiem, że to prawda. Pytanie tylko — co z nią zrobić?"
+ agot_bastard_event.0902.desc.father:0 "Ojciec prosi mnie o przejażdżkę poza zamek, zabierając mnie do gaju głęboko w lesie. „Żeby nikt nie podsłuchał” — mówi poważnie.\n\nZsiadamy z koni i siadamy. Nigdy nie widziałem go tak spiętego — ledwo potrafi spojrzeć mi w oczy. „Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost. [ROOT.Char.GetFirstNameNoTooltip], twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłem dochować tej tajemnicy, ale nie mogłem dłużej jej ukrywać. Obawiam się, że tylko zamieniłem jeden ciężar na cięższy, ale przynajmniej możesz sam zdecydować, co z tą prawdą zrobić.”\n\nLiście szeleszczą na wietrze. Chcę odrzucić tę rewelację, krzyczeć w niebo, że to nieprawda, ale w głębi serca wiem, że to prawda. Prędzej czy później, będę musiał zdecydować, co z nią zrobić."
+ agot_bastard_event.0902.desc.mother:0 "Matka prosi mnie do salonu, bierze za rękę i odprawia służbę. Nigdy nie widziałem jej tak spiętej — ledwo potrafi spojrzeć mi w oczy.\n\n„Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost. [ROOT.Char.GetFirstNameNoTooltip], twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłam dochować tej tajemnicy, ale nie mogłam dłużej jej ukrywać. Obawiam się, że tylko zamieniłam jeden ciężar na cięższy, ale przynajmniej możesz sam zdecydować, co z tą prawdą zrobić.”\n\nChcę odrzucić tę rewelację, krzyczeć w niebo, że to nieprawda, ale w głębi serca wiem, że to prawda. Teraz, albo w przyszłości, będę musiał zdecydować, co z tym zrobić."
+ agot_bastard_event.0902.a:0 "Nie będę tego ukrywać. Cały świat musi się dowiedzieć."
+ agot_bastard_event.0902.b:0 "To zbyt wiele! Muszę to przemyśleć."
+ agot_bastard_event.0902.b.flavor:0 "Jeśli zechcesz, będziesz mógł ujawnić prawdę samodzielnie później."
+
+
+# Non-parent tells child
+ agot_bastard_event.0903.t:0 "Pytania o pochodzenie"
+ agot_bastard_event.0903.desc:0 " Za każdym razem, gdy myślę o [reveal_scope.GetFirstName], nie mogę przestać pamiętać prawdy o [reveal_scope.GetHerHis] krwi, a także niebezpieczeństw, jakie niesie ta prawda. Choć pragnę, by [reveal_scope.GetHerHim] żył długo i beztrosko, muszę również przyznać, że całe [reveal_scope.GetHerHis] życie zbudowane jest na kłamstwie. To nie jest fair wobec [reveal_scope.GetHerHim], by [reveal_scope.GetSheHe] miał umrzeć, nie znając nigdy prawdy o swoim królewskim pochodzeniu. Nie mogę być autorem tej niesprawiedliwości dłużej."
+ agot_bastard_event.0903.desc.jon:0 " Dobrze pamiętam obietnice złożone Lady Lyannie i przysięgi dane Starkom jeszcze przed rebelią. Być może to nie moja decyzja, ale nie mogę przestać myśleć o dziecku, którego całe życie oparto na kłamstwie.\n\n Nie. To nie jest fair wobec [reveal_scope.GetHerHim], by [reveal_scope.GetSheHe] miał umrzeć, nie znając nigdy prawdy. Choć wielu uzna to za niesprawiedliwe, muszę ujawnić prawdę. Choć mnie to boli, a królestwo może zaboleć jeszcze bardziej, nie mogę być autorem tej niesprawiedliwości dłużej."
+ agot_bastard_event.0903.a:0 " Wyślę kruka bezpośrednio do [reveal_scope.GetFirstNameNoTooltip]."
+ agot_bastard_event.0903.b:0 " Całe królestwo musi poznać prawdę!"
+ agot_bastard_event.0903.c:0 " Nie. Prawda musi jeszcze pozostać ukryta."
+
+ # Non-parent writes to child
+ agot_bastard_event.0904.t:0 "Szokująca prawda"
+ agot_bastard_event.0904.desc:0 " Otwieram list z pieczęcią rodu [sharer.GetHouse.GetBaseName] bez ceremonii, ale gdy czytam jego treść, moje oczy rozszerzają się ze zdziwienia.\n\n „Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost.” [sharer.GetName] zaczyna po zwyczajowych grzecznościach. „[ROOT.Char.GetFirstName], okłamywano cię. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłem dochować tej tajemnicy, ale nie mogłem dłużej żyć w kłamstwie. Obawiam się, że jedynie zamieniłem jeden ciężar na jeszcze większy, ale przynajmniej sam możesz zdecydować, co zrobić z tą prawdą.”\n\n Upuszczam pergamin na ziemię w szoku. Chcę odrzucić to objawienie, krzyczeć, że to nieprawda, ale w głębi serca wiem, że to prawda. Pytanie tylko, co z tym zrobić."
+ agot_bastard_event.0904.desc.blind:0 " Proszę [courtier.GetFirstName], by przeczytał mi list z pieczęcią rodu [sharer.GetHouse.GetBaseName], ale mogę tego pożałować, gdyż słysząc słowa na stronie, moje ślepe oczy szeroko się otwierają ze zdziwienia.\n\n „Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost.” [courtier.GetFirstNameNoTooltip] zaczyna czytać słowa [sharer.GetNamePossessive] po zwyczajowych grzecznościach. „[ROOT.Char.GetFirstName], okłamywano cię. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłem dochować tej tajemnicy, ale nie mogłem dłużej żyć w kłamstwie. Obawiam się, że jedynie zamieniłem jeden ciężar na jeszcze większy, ale przynajmniej sam możesz zdecydować, co zrobić z tą prawdą.”\n\n „P-panie [ROOT.Char.GetLadyLord], ja... nie wiem, co powiedzieć!” – wykrzykuje [courtier.GetFirstNameNoTooltip], a ja trwam w szoku. Chcę odrzucić to objawienie, krzyczeć, że to nieprawda, ale w głębi serca wiem, że to prawda. Pytanie tylko, co z tym zrobić."
+ agot_bastard_event.0904.a:0 " Nie będę się ukrywać. Cały świat musi się dowiedzieć."
+ agot_bastard_event.0904.b:0 " Muszę powiedzieć ojcu! A może... [father.GetFirstNameNoTooltip]."
+ agot_bastard_event.0904.b.flavor:0 " Podejmiecie decyzję wspólnie."
+ agot_bastard_event.0904.c:0 " To wszystko za dużo! Potrzebuję czasu do namysłu."
+ agot_bastard_event.0904.c.flavor:0 " Jeśli zechcesz, będziesz mógł ujawnić prawdę później."
+ agot_bastard_event.0904.d:0 " Nie ujawnię tego. Muszę dać znać [sharer.GetFirstNameNoTooltip]."
+ agot_bastard_event.0904.d.flavor:0 " Napiszesz, prosząc [sharer.GetFirstName], by zachował twój sekret."
+
+
+  # Parent tells child who already knows
+ agot_bastard_event.0905.t:0 "Tajemnica... znana?"
+ agot_bastard_event.0905.desc:0 " Przygotowałem się na jedną z najtrudniejszych rozmów w moim życiu. Ćwiczyłem słowa, które miałem wypowiedzieć, spojrzenie, które miałem rzucić. Upewniłem się, że miejsce jest dyskretne i że nikt nas nie podsłucha.\n\n Jednak gdy zaczynam snuć opowieść, [reveal_scope.GetFirstName] unosi dłoń, by mnie zatrzymać. „[ROOT.Char.GetFirstName]” – zaczyna, zwracając się do mnie po imieniu – „Wiem. Wiem już od jakiegoś czasu. Jeszcze nikomu tego nie powiedziałem, ale... wiem.” – mówi z westchnieniem.\n\n Taka tajemnica dręczyła mnie przez tak długi czas, a [reveal_scope.GetSheHe] już to wiedział/a?!"
+ agot_bastard_event.0905.desc.actually_parent:0 " Przygotowałem się na jedną z najtrudniejszych rozmów w moim życiu. Ćwiczyłem słowa, które miałem wypowiedzieć, spojrzenie, które miałem rzucić. Upewniłem się, że miejsce jest dyskretne i że nikt nas nie podsłucha.\n\n Jednak gdy zaczynam snuć opowieść, [reveal_scope.GetFirstName] unosi dłoń, by mnie zatrzymać. „Dziękuję” – zaczyna – „Dziękuję, że mi to mówisz, ale... ja już wiem. Wiem od jakiegoś czasu. Jeszcze nikomu tego nie powiedziałem, ale... wiem.” – mówi z westchnieniem.\n\n Taka tajemnica dręczyła mnie przez tak długi czas, a [reveal_scope.GetSheHe] już to wiedział/a?!"
+ agot_bastard_event.0905.a:0 " Dam ci ziemię, byś rządził/a w moim imieniu jako moje dziecko."
+ agot_bastard_event.0905.a.flavor:0 " [reveal_scope.GetFirstName] może zdecydować się ujawnić prawdę później..."
+ agot_bastard_event.0905.b:0 " Musimy powiedzieć o tym królestwu!"
+ agot_bastard_event.0905.c:0 " Skoro już wiesz, to musisz udać się na Mur – to jedyne bezpieczne miejsce dla ciebie."
+ agot_bastard_event.0905.d:0 " Wystarczy, że ty to wiesz. Co z tym zrobisz – zależy od ciebie."
+
+ # Parent responds to child keeping secret
+ agot_bastard_event.0906.t:0 "Ukryte dziedzictwo"
+ agot_bastard_event.0906.desc.open:0 " Widzę udrękę na twarzy [reveal_scope.GetFirstNamePossessive], gdy kończę moją opowieść. Po długiej ciszy, [reveal_scope.GetSheHe] w końcu odpowiada. „To niczego nie zmienia” – mówi stanowczo. „Pozostanę tym, kim byłem/am zawsze. Jestem po prostu [reveal_scope.GetNameNoTooltip].”\n\n Jestem zaskoczony/a tą pewnością siebie,"
+ agot_bastard_event.0906.desc.fake:0 " i w pewien sposób poruszony/a, że [reveal_scope.GetSheHe] nadal uważa mnie za [reveal_scope.GetHerHis] rodzica, i "
+ agot_bastard_event.0906.desc.close:0 " jednak... zagrożenie nadal istnieje.\n\n Poza praktycznymi rozważaniami, nie mogę przestać się zastanawiać, czy to nie jest mechanizm obronny i czy [reveal_scope.GetSheHe] nie byłby/byłaby lepiej z tym, gdyby prawda ujrzała światło dzienne."
+ agot_bastard_event.0906.a:0 " Dam ci ziemię, mimo wszystko, byś rządził/a w moim imieniu jako moje dziecko."
+ agot_bastard_event.0906.a.flavor:0 " [reveal_scope.GetFirstName] może zdecydować się ujawnić prawdę później..."
+ agot_bastard_event.0906.b:0 " #bold Musimy #!powiedzieć o tym królestwu!"
+ agot_bastard_event.0906.c:0 " Musisz wiedzieć, że Mur to jedyne bezpieczne miejsce dla ciebie."
+ agot_bastard_event.0906.d:0 " Wystarczy, że ty to wiesz. Co z tym zrobisz – zależy od ciebie."
+
+ # Non-parent writes to child but they knew already
+ agot_bastard_event.0907.t:0 "Mój sekret jest znany"
+ agot_bastard_event.0907.desc:0 " Otwieram list z pieczęcią rodu [sharer.GetHouse.GetBaseName] bez ceremonii, ale gdy czytam jego treść, moje oczy rozszerzają się ze zdziwienia.\n\n „Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost.” [sharer.GetName] zaczyna po zwyczajowych grzecznościach. „[ROOT.Char.GetFirstName], okłamywano cię. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłem dochować tej tajemnicy, ale nie mogłem dłużej żyć w kłamstwie.” Dalej pisze przeprosiny i daje wskazówki, ale nie kończę czytać. Wypuszczam westchnienie. A więc ktoś jeszcze wie.\n\n Szybko spalę pergamin w pobliskim brasierze, rozmyślając nad tym, co teraz zrobić. Jak poradzić sobie ze świadomością, że ktoś inny zna mój sekret?"
+ agot_bastard_event.0907.desc.blind:0 " Proszę [courtier.GetFirstName], by przeczytał mi list z pieczęcią rodu [sharer.GetHouse.GetBaseName], ale mogę tego pożałować, gdyż słysząc słowa na stronie, moje ślepe oczy szeroko się otwierają ze zdziwienia.\n\n „Nie ma łatwego sposobu, by to powiedzieć, więc powiem to wprost.” [courtier.GetFirstNameNoTooltip] zaczyna czytać słowa [sharer.GetNamePossessive] po zwyczajowych grzecznościach. „[ROOT.Char.GetFirstName], okłamywano cię. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przysiągłem dochować tej tajemnicy, ale–” Podnoszę rękę, przerywając [courtier.GetFirstNameNoTooltip], zanim skończy.\n\n „P-panie [ROOT.Char.GetLadyLord], ty... ty już to wiedziałeś/aś!” – wykrzykuje [courtier.GetSheHe], a ja tylko wzdycham. Wygląda na to, że teraz wiedzą już dwie osoby. Muszę zdecydować, jak sobie z tym poradzić."
+ agot_bastard_event.0907.a:0 " To wymyka się spod kontroli. Jeśli świat ma się dowiedzieć, powiem mu to sam/a."
+ agot_bastard_event.0907.b:0 " Muszę omówić te wydarzenia z [father.GetFirstNameNoTooltip]."
+ agot_bastard_event.0907.b.flavor:0 " Podejmiecie decyzję wspólnie."
+ agot_bastard_event.0907.c:0 " To dalekie od ideału... Potrzebuję czasu do namysłu."
+ agot_bastard_event.0907.c.flavor:0 " Będziesz mógł/mogła ujawnić prawdę później, jeśli zechcesz, ale [sharer.GetName] może podjąć decyzję samodzielnie..."
+ agot_bastard_event.0907.d:0 " Odpiszę [sharer.GetFirstNameNoTooltip], prosząc o zachowanie sekretu."
+
+ # Non-parent receives letter asking them to keep secret
+ agot_bastard_event.0908.t:0 "Prośba o dyskrecję"
+ agot_bastard_event.0908.desc:0 " Minęło już sporo czasu, odkąd wysłałem list do [reveal_scope.GetFirstName], i choć każdego dnia pytałem, czy nadeszła odpowiedź lub wiadomość ogłoszona światu, wciąż nie było żadnych wieści.\n\n W końcu, po tygodniach oczekiwania, paź oznajmia mi, że nadeszła odpowiedź. Nie jest to jednak ta, której się spodziewałem.\n „Drogi/a [ROOT.Char.GetFullName],\nDziękuję za list, w którym dzielisz się tym, co wiesz” – zaczyna [reveal_scope.GetSheHe] w sposób zawoalowany, zapewne na wypadek, gdyby wiadomość została przechwycona. „Choć dziękuję za twoją szczerość, pokornie proszę, byś zachował/a tę informację dla siebie. To do mnie należy decyzja, kiedy – i czy w ogóle – te fakty ujrzą światło dzienne. Proszę o poszanowanie mojej prywatności.”\n\n [reveal_scope.GetName] dokonał/a wyboru – przynajmniej na razie. Teraz ja muszę zdecydować, czy go uszanuję."
+ agot_bastard_event.0908.a:0 " Nie, królestwo #bold musi #!się dowiedzieć!"
+ agot_bastard_event.0908.b:0 " Uszanuję wolę [reveal_scope.GetHerHis]."
+
+ # Non-parent does not receive letter
+ agot_bastard_event.0909.t:0 "Brak odpowiedzi na rewelacje"
+ agot_bastard_event.0909.desc:0 " Minęło już sporo czasu, odkąd wysłałem list do [reveal_scope.GetFirstName], i choć każdego dnia pytałem, czy nadeszła odpowiedź lub wiadomość ogłoszona światu, wciąż nie było żadnych wieści.\n\n W końcu, po miesiącach oczekiwania i wysłaniu drugiego listu dla pewności, muszę zaakceptować fakt, że [reveal_scope.GetFirstNameNoTooltip] nie raczył/a odpowiedzieć. Czy to przez własne intrygi, czy po prostu ze strachu – teraz muszę zdecydować, czy ujawnię to, co wiem, niezależnie od wszystkiego."
+ agot_bastard_event.0909.a:0 " Królestwo #bold musi #!się dowiedzieć!"
+ agot_bastard_event.0909.b:0 " To decyzja [reveal_scope.GetHerHis], co z tym zrobić."
+
+ # Parent responds to letter at request of child
+ agot_bastard_event.0910.t:0 "Rozmowa o pochodzeniu"
+ agot_bastard_event.0910.desc:0 " „Ojcze... [ROOT.Char.GetFirstName]” – zaczyna [reveal_scope.GetFirstName] – „Dostałem/am list od [sharer.GetFullName]. Twierdzi, że jestem dzieckiem [real_mother.GetName] i [real_father.GetName]. Potrzebuję twojej rady. Co powinniśmy zrobić?” – mówi, wyglądając na całkowicie zagubionego/ą.\n\n Taka tajemnica dręczyła mnie przez tak długi czas, a teraz [sharer.GetFirstNameNoTooltip] po prostu powiedział/a o niej [reveal_scope.GetFirstNameNoTooltip]? Tak czy inaczej, musimy się teraz zmierzyć z konsekwencjami tej wiedzy."
+ agot_bastard_event.0910.a:0 " Musisz napisać list do [sharer.GetLadyLord] [sharer.GetFirstNameNoTooltip], prosząc o dyskrecję."
+ agot_bastard_event.0910.a.flavor:0 " Pomożesz [reveal_scope.GetFirstNameNoTooltip] napisać prośbę do [sharer.GetFirstNameNoTooltip] o milczenie."
+ agot_bastard_event.0910.b:0 " Musimy ujawnić to królestwu, bez względu na konsekwencje."
+ agot_bastard_event.0910.c:0 " Mur to teraz jedyne bezpieczne miejsce dla ciebie."
+
+ # Catelyn confronts Ned about secret
+ agot_bastard_event.0911.t:0 "Kłamstwa w małżeństwie"
+ agot_bastard_event.0911.desc:0 " Wiedziałem, że ten dzień nadejdzie od momentu, w którym obiecałem to Lyannie, ale i tak boli, gdy słyszę te słowa. „Kłamca!” – krzyczy moja ukochana Cat, a ja mogę tylko spuścić głowę ze wstydu. „Tyle warte to twoje honorowe imię, Eddardzie Starku! Honorem darzysz wszystkich poza własną żoną! Miałam być twoją powiernicą, Nedzie!” – krzyczy, po czym jej głos cichnie. „Nie...” – śmieje się gorzko – „Nie, najwyraźniej jesteś bardziej honorowy w przysięgach wobec mnie, niż myślał cały świat.” Jej słuszny gniew powoli wygasa, a ja nie mam nic do powiedzenia.\n\n Patrzy na mnie, a w jej oczach zbierają się łzy. „Rodzina, Obowiązek, Honor”. Wypowiada to jak mantrę. „Wiem, dlaczego to zrobiłeś, Ned. Część mnie czuje ulgę. Ale do cholery, ja też jestem twoją rodziną! Powinieneś mi powiedzieć. To nie było w porządku. To, co myślał świat o nas. O tobie. Co ja myślałam o [secret_target.GetHerHim].” Spuszcza wzrok, teraz sama pełna wstydu. „To nie było w porządku.” – powtarza w końcu."
+ agot_bastard_event.0911.a:0 "„Przepraszam, Cat...”"
+
+ # Employer tells child
+ agot_bastard_event.0912.t:0 "Pytania o pochodzenie"
+ agot_bastard_event.0912.desc:0 " Za każdym razem, gdy patrzę na [reveal_scope.GetFirstName], myślę o prawdzie kryjącej się w [reveal_scope.GetHerHis] krwi, a także o niebezpieczeństwach, jakie niesie ta prawda. To całkiem możliwe, że [reveal_scope.GetSheHe] przeżyje długie i beztroskie życie, nigdy nie dowiedziawszy się, że całe [reveal_scope.GetHerHis] życie zbudowane jest na kłamstwie. Czy to sprawiedliwe wobec [reveal_scope.GetHerHim], by [reveal_scope.GetSheHe] żył i umarł, nie znając nigdy prawdy o [reveal_scope.GetHerHis] królewskim pochodzeniu? Może powinienem/powinnam powiedzieć [reveal_scope.GetHerHim] prawdę. Poza tym, mogłoby to przynieść pewne korzyści..."
+ agot_bastard_event.0912.a:0 "[reveal_scope.GetFirstNameNoTooltip], twoimi prawdziwymi rodzicami są..."
+ agot_bastard_event.0912.b:0 " Nie, to jeszcze nie jest czas na takie wyznanie."
+
+ # Child responds to employer
+ agot_bastard_event.0913.t:0 "Szokująca prawda"
+ agot_bastard_event.0913.desc:0 " [employer.GetFullName] prosi mnie, bym odwiedził/a [employer.GetHerHim] w gabinecie późną nocą, i choć już wcześniej rozmawialiśmy kilka razy, nadal się denerwuję, otwierając drzwi. [employer.GetSheHe|U] wygląda dziwnie niezręcznie, gdy wchodzę, ale nic nie przygotowuje mnie na to, co mówi.\n\n „[ROOT.Char.GetFirstName], czas, byś poznał/a prawdę. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Przez jakiś czas ten sekret był przed tobą ukrywany, ale gdy się o nim dowiedziałem/am, uznałem/am, że masz prawo wiedzieć.”\n\n Chcę odrzucić to objawienie, wykrzyczeć światu, że to nieprawda, ale w głębi serca wiem, że to prawda. Pytanie tylko, co z tym zrobić."
+ agot_bastard_event.0913.a:0 " Nie będę się ukrywać. Cały świat musi się dowiedzieć."
+ agot_bastard_event.0913.b:0 " To wszystko za dużo! Potrzebuję czasu do namysłu."
+ agot_bastard_event.0913.b.flavor:0 " Jeśli zechcesz, będziesz mógł/mogła ujawnić prawdę później."
+
+ # Employer tells child who already knows
+ agot_bastard_event.0914.t:0 "Prawda... już znana?"
+ agot_bastard_event.0914.desc:0 " Proszę, by [reveal_scope.GetFirstName] dołączył/a do mnie w moim gabinecie późną nocą, i choć już wcześniej rozmawialiśmy kilka razy, nadal jestem nieco spięty/a, zapraszając [reveal_scope.GetHerHim] do środka.\n\n Upewniłem/am się, że nikt nas nie podsłucha, zanim zacząłem/am mówić, lecz gdy zaczynam snuć swoją opowieść, [reveal_scope.GetFirstNameNoTooltip] unosi dłoń, by mnie zatrzymać. „[ROOT.Char.GetFirstNameNoTooltip]” – zaczyna, zwracając się do mnie po imieniu – „Wiem. Wiem już od jakiegoś czasu. Jeszcze tego nie ujawniłem/am, ale... wiem.” – mówi z westchnieniem."
+ agot_bastard_event.0914.a:0 " Dam ci ziemię mimo wszystko, na znak naszego pokrewieństwa."
+ agot_bastard_event.0914.a.flavor:0 " [reveal_scope.GetFirstName] może zdecydować się ujawnić prawdę w późniejszym czasie..."
+ agot_bastard_event.0914.b:0 " Zatem musimy powiedzieć o tym królestwu!"
+ agot_bastard_event.0914.c:0 " Wiesz więc, że Mur to jedyne bezpieczne miejsce dla ciebie."
+ agot_bastard_event.0914.d:0 " Wystarczy, że ty to wiesz. Co z tym zrobisz – zależy od ciebie."
+
+ # Employer notified of child revealing
+ agot_bastard_event.0915.t:0 "Ujawniona prawda"
+ agot_bastard_event.0915.desc:0 " [reveal_scope.GetName] długo milczy. Widzę, jak przez [reveal_scope.GetHerHis] twarz przemykają myśli. Zmieszanie. Radość. Strach. „A więc...” – wzdycha w końcu [reveal_scope.GetSheHe], lecz nadal wpatruje się w podłogę.\n\n Wpatruję się w [reveal_scope.GetHerHis] twarz, jakby to trwało wieczność, aż wreszcie [reveal_scope.GetSheHe] zwraca się do mnie: „To wszystko zmieni, prawda?”.\n\n Zatem trzeba było podjąć działania. [reveal_scope.GetFirstNameNoTooltip] podjął/podjęła decyzję. Królestwo ma się dowiedzieć – i ponieść tego konsekwencje."
+
+ # Employer notified child doesn't want to share
+ agot_bastard_event.0916.t:0 "Prośba od niższego stanu"
+ agot_bastard_event.0916.desc:0 " [reveal_scope.GetName] długo milczy. Widzę, jak przez [reveal_scope.GetHerHis] twarz przemykają myśli. Zmieszanie. Radość. Strach. „A więc...” – wzdycha w końcu [reveal_scope.GetSheHe], lecz nadal wpatruje się w podłogę.\n\n Wpatruję się w [reveal_scope.GetHerHis] twarz, jakby to trwało wieczność, aż wreszcie [reveal_scope.GetSheHe] zwraca się do mnie: „To nic nie zmienia. Jestem po prostu [reveal_scope.GetNameNoTooltip], niezależnie od mego pochodzenia.”\n\n Badam [reveal_scope.GetHerHis] twarz – [reveal_scope.GetSheHe] wydaje się przekonany/a o słuszności swojej decyzji. Fascynujące. Nadal jednak jestem gospodarzem i znam ten sekret. Gdybym chciał/a, mógłbym/mogłabym zdecydować, jak zareagujemy."
+ agot_bastard_event.0916.a:0 " Dam ci ziemię mimo wszystko, na znak naszego pokrewieństwa."
+ agot_bastard_event.0916.a.flavor:0 " [reveal_scope.GetFirstName] może zdecydować się ujawnić prawdę w późniejszym czasie..."
+ agot_bastard_event.0916.b:0 " Nie, musimy powiedzieć o tym królestwu!"
+ agot_bastard_event.0916.c:0 " Mur to jedyne bezpieczne miejsce dla ciebie. Wyruszysz jutro."
+ agot_bastard_event.0916.d:0 " Wystarczy, że ty to wiesz. Co z tym zrobisz – zależy od ciebie."
+
+ # Location-sharer tells child
+ agot_bastard_event.0917.t:0 "Pytania o pochodzenie"
+ agot_bastard_event.0917.desc:0 " Prawdę mówiąc, nieczęsto rozmyślam o pochodzeniu [reveal_scope.GetFirstNamePossessive]. Ale teraz, gdy oboje przebywamy w [ROOT.Char.GetCurrentLocation.GetCounty.GetName], widząc [reveal_scope.GetHerHim] na własne oczy, nie mogę przestać o tym myśleć.\n\n Twarz [reveal_scope.GetHerHis|U] tak bardzo przypomina ich. Czy to sprawiedliwe wobec [reveal_scope.GetHerHim], by [reveal_scope.GetSheHe] żył i umarł, nie znając nigdy prawdy o swoim królewskim pochodzeniu? Może powinienem/powinnam powiedzieć [reveal_scope.GetHerHim] prawdę. Poza tym, mogłoby to przynieść pewne korzyści..."
+ agot_bastard_event.0917.a:0 "[reveal_scope.GetFirstName], musimy porozmawiać."
+ agot_bastard_event.0917.a_tt:0 " Ujawniasz [reveal_scope.GetName] prawdę o [reveal_scope.GetHerHis] dziedzictwie. Jako gość, nie będziesz mieć wpływu na to, jak [reveal_scope.GetFirstNamePossessiveNoTooltip] wykorzysta te informacje."
+ agot_bastard_event.0917.b:0 " Nie, to nie jest jeszcze właściwy moment."
+
+ # Child responds to sharer at location
+ agot_bastard_event.0918.t:0 "Szokująca prawda"
+ agot_bastard_event.0918.desc:0 " [sharer.GetFullName], obecnie odwiedzający/a [ROOT.Char.GetCurrentLocation.GetCounty.GetName], dyskretnie zaprasza mnie na spacer późnym wieczorem. Nie widząc powodów do odmowy, przyjmuję [sharer.GetHerHis] zaproszenie.\n\n Gdy widzę, jak [sharer.GetHerHim] nadchodzi, coś w [sharer.GetHerHis] postawie budzi mój niepokój. [sharer.GetSheHe|U] wygląda na napiętego/ą, ale staje przy mnie bez wahania. Przez chwilę rozmawiamy o błahostkach, lecz gdy oddalamy się od zamku, [sharer.GetSheHe] poważnieje.\n\n „[ROOT.Char.GetFirstName], czas, byś poznał/a prawdę. Twoimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]. Nie wiem, ilu ludzi o tym wie, ale gdy cię zobaczyłem/am, poczułem/am potrzebę, by się tym podzielić.”\n\n Chcę odrzucić to objawienie, krzyczeć w niebo, że to nieprawda – ale w głębi serca wiem, że to prawda. Pytanie tylko, co z tym zrobić."
+ agot_bastard_event.0918.a:0 " Nie będę się ukrywać. Cały świat musi się dowiedzieć."
+ agot_bastard_event.0918.b:0 " To wszystko za dużo! Potrzebuję czasu do namysłu."
+ agot_bastard_event.0918.b.flavor:0 " Będziesz mógł/mogła ujawnić prawdę później, jeśli zechcesz."
+
+ # Location-sharer tells child who already knows
+ agot_bastard_event.0919.t:0 "Prawda... już znana?"
+ agot_bastard_event.0919.desc:0 " Proszę, by [reveal_scope.GetFirstName] dołączył/a do mnie na spacer tego wieczoru. Choć nie spodziewam się wielkiego szoku, wciąż jestem nieco spięty/a, widząc [reveal_scope.GetHerHim] czekającego/ą na mnie.\n\n Spoglądam przez ramię, by upewnić się, że nikt nas nie podsłucha, zanim zacznę mówić – ale gdy zaczynam snuć opowieść, [reveal_scope.GetFirstNameNoTooltip] unosi dłoń, by mnie zatrzymać. „[ROOT.Char.GetFirstName]” – zaczyna – „Wiem. Wiem już od jakiegoś czasu. Jeszcze tego nie ujawniłem/am, ale... wiem.” – mówi z westchnieniem. „Z własnych powodów proszę cię, byś zatrzymał/a ten sekret dla siebie.”"
+ agot_bastard_event.0919.a:0 " To nie wystarczy! Muszę powiedzieć królestwu."
+ agot_bastard_event.0919.a.flavor:0 " Wymykasz się, by wysłać listy do każdego dworu w Westeros.\n@warning_icon!#warning Może to mieć poważne konsekwencje dla ciebie i królestwa.#!"
+ agot_bastard_event.0919.b:0 " Wystarczy, że ty to wiesz. Co z tym zrobisz – zależy od ciebie."
+
+ # Landed JS finds out through learned courtier
+ agot_bastard_event.0920.t:0 "Szokująca prawda"
+ agot_bastard_event.0920.desc:0 " Pracuję później niż zwykle, gdy do drzwi mojego gabinetu rozlega się ciche pukanie. „Wejść” – mówię krótko, spodziewając się służki, ale do środka wchodzi [learned_person.GetFirstName]. „Wybacz, mój/a [ROOT.Char.GetLadyLord|U], ja... chciałem/am znaleźć cię w chwili, gdy nikt nam nie będzie przeszkadzał.” – mówi nerwowo [learned_person.GetSheHe|U], a ja odkładam pióro, by skupić się na [learned_person.GetHerHim].\n\n Z westchnieniem [learned_person.GetSheHe] zaczyna: „W trakcie moich badań natrafiłem/am na fakty... które mają dość poważne konsekwencje – dla ciebie... i dla królestwa.” – kontynuuje, a ja, słuchając historii, milknę w osłupieniu – cokolwiek wcześniej pisałem/am, całkowicie znika z myśli. [learned_person.GetNameNoTooltip] mówi, że nieznane dotąd dokumenty wskazują, iż moimi prawdziwymi rodzicami są [real_mother.GetName] i [real_father.GetName]!\n\n Nie chcę w to wierzyć, a jednak – gdy [learned_person.GetFirstNameNoTooltip] przedstawia dowody – muszę przyjąć, że to prawda."
+ agot_bastard_event.0920.a:0 " Jeśli to prawda, muszę powiedzieć o tym królestwu."
+ agot_bastard_event.0920.b:0 " Nie chcę tego. Ta wiedza musi pozostać tajemnicą."
+
+ ######### Post reveal events below
+
+ # Realm receives letter
+ agot_bastard_event.0951.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0951.first_person:0 " Piszę do wszystkich lordów Westeros, by ujawnić prawdę, która zbyt długo była skrywana. Wbrew temu, co mogliście sądzić, urodziłem/am się z związku [real_mother.GetName] i [real_father.GetName]. Proszę Ciebie, jak i resztę królestwa, byście uznali tę nową rzeczywistość i wynikające z niej konsekwencje."
+ agot_bastard_event.0951.third_person:0 " Piszę do wszystkich lordów Westeros, by ujawnić prawdę, która zbyt długo była skrywana. Wbrew temu, co mogliście sądzić, [reveal_scope.GetName] urodził/a się z związku [real_mother.GetName] i [real_father.GetName]. Proszę Ciebie, jak i resztę królestwa, byście uznali tę nową rzeczywistość i wynikające z niej konsekwencje."
+ agot_bastard_event.0951.a:0 " Cóż, to z pewnością interesujące."
+ agot_bastard_event.0951.b:0 " Nie mogę uwierzyć, że to ujawnili!"
+
+ # Parent responds to child revealing after telling
+ agot_bastard_event.0952.t:0 "Ujawniona prawda"
+ agot_bastard_event.0952.desc:0 " [reveal_scope.GetName] długo milczy. Widzę, jak przez [reveal_scope.GetHerHis] twarz przemykają emocje – zmieszanie, radość, strach. „A więc...” – wzdycha w końcu [reveal_scope.GetSheHe], nie podnosząc wzroku znad podłogi.\n\n Wpatruję się w [reveal_scope.GetHerHis] twarz, jakby minął cały dzień, nim [reveal_scope.GetSheHe] zwraca się do mnie i mówi: „To wszystko zmieni, prawda?”.\n\n Były uściski, były łzy. Rodzina z pewnością była zszokowana. Ale [reveal_scope.GetFirstNameNoTooltip] podjął/podjęła decyzję. Królestwo ma się dowiedzieć."
+ agot_bastard_event.0952.desc.jon:0 " [reveal_scope.GetName] długo milczy. Widzę, jak przez [reveal_scope.GetHerHis] twarz przemykają emocje – zmieszanie, radość, strach. „Lyanna...” – wzdycha w końcu [reveal_scope.GetSheHe], nie podnosząc wzroku znad podłogi.\n\n Wpatruję się w [reveal_scope.GetHerHis] twarz, jakby minął cały dzień, nim [reveal_scope.GetSheHe] zwraca się do mnie i mówi: „To wszystko zmieni, prawda?”.\n\n Były uściski, były łzy. Rodzina z pewnością była zszokowana. Ale [reveal_scope.GetFirstNameNoTooltip] podjął/podjęła decyzję. Królestwo ma się dowiedzieć."
+
+ # Parent responds to child revealing after being told
+ agot_bastard_event.0953.t:0 "Ujawniona prawda"
+ agot_bastard_event.0953.desc:0 " [reveal_scope.GetName] długo milczy po przekazaniu mi listu od [sharer.GetFullName]. Zawiera on prawdę. Że [reveal_scope.GetFirstNameNoTooltip] urodził/a się z [real_mother.GetName] i [real_father.GetName]. Tak długo skrywałem/am ten sekret, że ostatecznie to nie ja go ujawniłem/am.\n\n Były uściski, były łzy. Rodzina z pewnością była zszokowana. Ale [reveal_scope.GetFirstNameNoTooltip] podjął/podjęła decyzję. Królestwo ma się dowiedzieć."
+
+ # Parent responds to sharer revealing without telling
+ agot_bastard_event.0954.t:0 "Ujawniona prawda"
+ agot_bastard_event.0954.desc:0 " [reveal_scope.GetName] długo milczy po przekazaniu mi listu od [sharer.GetFullName]. Zawiera on prawdę. Że [reveal_scope.GetFirstNameNoTooltip] urodził/a się z [real_mother.GetName] i [real_father.GetName]. Co gorsza, kopie wysłano do całego królestwa!\n\n Tak długo trzymałem/am ten sekret w tajemnicy, że ostatecznie to nie ja go ujawniłem/am.\n\n Były uściski, były łzy. To powinna być decyzja [reveal_scope.GetHerHis], lecz [sharer.GetFirstNameNoTooltip] odebrał/a nam tę możliwość. Niezależnie od tego – stało się. Choć nie była to decyzja ani moja, ani [reveal_scope.GetFirstNamePossessiveNoTooltip], królestwo ma się dowiedzieć."
+
+ # Sharer is told that child is revealing based on their response
+ agot_bastard_event.0955.t:0 "Ujawniona prawda"
+ agot_bastard_event.0955.desc:0 " Minęło już trochę czasu, odkąd wysłałem list do [reveal_scope.GetFirstName], i choć każdego dnia pytałem, czy nadeszła odpowiedź lub obwieszczenie do królestwa, nadal nie otrzymałem żadnych wieści.\n\n Wreszcie, po tygodniach oczekiwania, paź oznajmia, że otrzymałem odpowiedź.\n\n „Drogi/a [ROOT.Char.GetFullNameNoTooltip],” – zaczyna [reveal_scope.GetSheHe] – „Dziękuję ci za twoją szczerość i piszę, by uprzedzić, że w najbliższych dniach zamierzam wysłać listy do królestwa ujawniające to, co mi przekazałeś/aś.”\n\n Wygląda na to, że [reveal_scope.GetNameNoTooltip] podjął/podjęła decyzję, a ja czuję, jak spada ze mnie ciężar."
+ agot_bastard_event.0955.a:0 " Teraz zobaczymy, jak zareagują oni oraz [ruler_scope.GetFirstNameOrMe]..."
+
+ # Child reacts to non-consensual sharing
+ agot_bastard_event.0956.t:0 "Ujawniona prawda"
+ agot_bastard_event.0956.desc:0 " Po otrzymaniu listu od [revealer.GetFirstNamePossessive] moje życie podzieliło się na dwa etapy – przed tym i po tym. Milczę, nie potrafiąc przetworzyć, że to, co leży przede mną, jest teraz znane całemu królestwu. Mówi on prawdę. Że urodziłem/am się z [real_mother.GetName] i [real_father.GetName]. Co gorsza, kopie wysłano do całego królestwa!\n\n Tak długo trzymałem/am ten sekret przy sobie, a jednak to nie ja miałem/am możliwość go ujawnić.\n\n To powinna być moja decyzja – lecz [sharer.GetFirstNameNoTooltip] mi ją odebrał/a. Niezależnie od tego – stało się. Choć nie było to moim życzeniem, królestwo ma się dowiedzieć."
+ agot_bastard_event.0956.a:0 " Teraz zobaczymy, jak zareagują oni oraz [ruler_scope.GetFirstName]..."
+
+ # Child reacts to non-consensual sharing AND they didn't know
+ agot_bastard_event.0957.t:0 "Ujawniona prawda"
+ agot_bastard_event.0957.desc:0 " Patrzę na swoje dłonie i czuję, jak moje życie rozpada się na kawałki. Brakuje mi tchu, obraz zamazuje się przed oczami – ledwie utrzymuję świadomość tego, co przede mną. Moje życie właśnie się podzieliło – na przedtem i potem.\n\n List mówi prawdę. Urodziłem/am się z [real_mother.GetName] i [real_father.GetName]. Co gorsza, kopie wysłano do całego królestwa!\n\n Moje całe życie było kłamstwem. Powinienem/am był/a zostać poinformowany/a! To nie było w porządku!"
+ agot_bastard_event.0957.a:0 " Teraz zobaczymy, jak zareagują oni oraz [ruler_scope.GetFirstName]..."
+
+ # Revealer is alerted
+ agot_bastard_event.0958.t:0 "Ujawniona prawda"
+ agot_bastard_event.0958.desc.bastard:0 " Kruki zostały wysłane. Wiadomości dostarczone. Prawda ujawniona.\n\n Choć wielu przeklnie mnie za wyjawienie tak wielkiej tajemnicy – lepszej lub gorszej – prawda ujrzała światło dzienne. Może odegram jeszcze ważną rolę w nadchodzących dniach. Może wszystko to pójdzie w zapomnienie. Tak czy inaczej, moje prawdziwe pochodzenie zostało uznane przez wszystkich – na dobre lub złe."
+ agot_bastard_event.0958.desc.host:0 " Kruki zostały wysłane. Wiadomości dostarczone. Prawda ujawniona.\n\n Choć wielu przeklnie mnie za wyjawienie tak wielkiej tajemnicy – lepszej lub gorszej – prawda ujrzała światło dzienne. Może odegram jeszcze ważną rolę w nadchodzących dniach. Może wszystko to pójdzie w zapomnienie. Tak czy inaczej, prawdziwe pochodzenie [reveal_scope.GetFirstNamePossessive] zostało uznane przez wszystkich – na dobre lub złe."
+ agot_bastard_event.0958.desc.else:0 " Kruki zostały wysłane. Wiadomości dostarczone. Prawda ujawniona.\n\n Choć wielu przeklnie mnie za wyjawienie tak wielkiej tajemnicy – lepszej lub gorszej – prawda ujrzała światło dzienne. Może odegram jeszcze ważną rolę w nadchodzących dniach. Może to już koniec mojej roli. Tak czy inaczej, prawdziwe pochodzenie [reveal_scope.GetFirstNamePossessive] zostało uznane przez wszystkich – na dobre lub złe."
+
+
+ # King is alerted
+ agot_bastard_event.0959.t:0 "Bękart królewskiej krwi"
+ agot_bastard_event.0959.desc_opening:0 " Siedzę na Żelaznym Tronie, otoczony/a dworem, rozstrzygając błahą sprawę pomiędzy pomniejszymi lordami, gdy nagle [courtier.GetFullName] wpada do sali z okrzykiem „Wasza Miłość!”.\n\n „Cóż to za bezczelne wtargnięcie?!”"
+ agot_bastard_event.0959.desc_opening_wrathful:0 " – krzyczę, a dwór odwraca się w stronę zdyszanego [courtier.GetFirstNameNoTooltip]. [courtier.GetSheHe|U] szybko podchodzi przed tron i klęka.\n\n"
+ agot_bastard_event.0959.desc_opening_not_wrathful:0 " – krzyczy [council.GetName], gdy dwór odwraca się w stronę zdyszanego [courtier.GetFirstNameNoTooltip]. [courtier.GetSheHe|U] szybko podchodzi przed tron i klęka.\n\n"
+ agot_bastard_event.0959.desc_opening_end:0 "„Wybaczcie mi to zakłócenie, Wasza Miłość, ale musicie natychmiast to przeczytać!” – mówi [courtier.GetSheHe], wręczając pergamin opieczętowany pieczęcią rodu [revealer.GetHouse.GetBaseName].\n\n"
+ agot_bastard_event.0959.desc.landed:0 " Gdy Wielki Maester odczytuje list, nie potrafię ukryć zaskoczenia. Twierdzi on, że [reveal_scope.GetFullName] jest w istocie [reveal_scope.Custom('GetDaughterSon')] [real_father.GetFullName] i [real_mother.GetFullName]! Co więcej – wygląda na to, że list został wysłany do całego królestwa!"
+ agot_bastard_event.0959.desc.courtier:0 " Gdy Wielki Maester odczytuje list, nie potrafię ukryć zaskoczenia. Twierdzi on, że [reveal_scope.GetName], obecnie przebywający/a na dworze [reveal_employer.GetFullName], jest w istocie [reveal_scope.Custom('GetDaughterSon')] [real_father.GetFullName] i [real_mother.GetFullName]! Co więcej – wygląda na to, że list został wysłany do całego królestwa!"
+ agot_bastard_event.0959.desc.ned_revealer:0 " Gdy Wielki Maester odczytuje list, nie potrafię ukryć zaskoczenia. Twierdzi on, że [reveal_scope.GetName], obecnie przebywający/a na dworze [reveal_employer.GetFullName], jest w istocie [reveal_scope.Custom('GetDaughterSon')] [real_father.GetFullName] i [real_mother.GetFullName]! Co więcej – wygląda na to, że list został wysłany do całego królestwa!\n\n „To jeszcze nie wszystko, Wasza Miłość” – mówi [courtier.GetFirstNameNoTooltip], jakby jakiekolwiek inne wieści mogły temu dorównać, i wręcza drugi pergamin. „Ten adresowany jest specjalnie do Was.”"
+ agot_bastard_event.0959.desc.robert:0 " Gdy Wielki Maester odczytuje list, nie potrafię ukryć zaskoczenia. Twierdzi on, że [reveal_scope.GetName], obecnie przebywający/a na dworze [reveal_employer.GetFullName], jest w istocie [reveal_scope.Custom('GetDaughterSon')] [real_father.GetFullName] i [real_mother.GetFullName]! Co więcej – wygląda na to, że list został wysłany do całego królestwa!\n\n „To jeszcze nie wszystko, Wasza Miłość” – mówi [courtier.GetFirstNameNoTooltip], jakby jakiekolwiek inne wieści mogły temu dorównać, i wręcza drugi pergamin. „To list od lorda Eddarda Starka.”"
+ agot_bastard_event.0959.desc.king_revealer:0 " Kruki zostały wysłane, królestwo powiadomione – i zgodnie z przewidywaniami, to właśnie ta sprawa staje się pierwszym punktem obrad, gdy rano zasiadam na Żelaznym Tronie. Choć to ja ujawniłem/am, że [reveal_scope.GetName] jest dzieckiem [real_father.GetFullName] i [real_mother.GetFullName], wszystkie spojrzenia skierowane są na mnie. \n\n Pytanie tylko – jaką wydam decyzję?"
+ agot_bastard_event.0959.robert:0 " No to dawaj!"
+ agot_bastard_event.0959.a:0 " Muszę odpowiedzieć temu pretendentowi siłą!"
+ agot_bastard_event.0959.a.flavor:0 " Odpowiesz surowo na tę sprawę."
+ agot_bastard_event.0959.b:0 " Muszę odpowiedzieć, ale nie należy działać pochopnie."
+ agot_bastard_event.0959.b.flavor:0 " Odpowiesz łagodnie na tę sprawę."
+ agot_bastard_event.0959.c:0 " To bez znaczenia. Nie będę się tym zajmować."
+ agot_bastard_event.0959.c.flavor:0 " Nie zareagujesz na ten rozwój wydarzeń."
+
+ # Robert gets Eddards letter
+ agot_bastard_event.0960.t:0 "Błaganie przyjaciela"
+ agot_bastard_event.0960.desc.ned_revealer:0 " Serce mi zamiera, gdy otrzymuję drugi list. Drżącymi palcami rozrywam pieczęć rodu Starków. „Najstarszy przyjacielu,” – zaczyna się list, a w gardle już czuję ścisk.\n\n „Znam cię lepiej niż ktokolwiek inny i wiem, jaką złość, żal i poczucie zdrady wzbudziła w tobie ta wiadomość. Przepraszam cię za to z całego serca. Od dawna pragnąłem ci to powiedzieć, ale nie mogłem żyć w kłamstwie dłużej.” Moje pięści zaciskają się, gdy czytam dalej, próbując – na próżno – nie zdradzić emocji na oczach dworu.\n\n „Mimo tego wszystkiego, mam nadzieję, że wciąż mogę uważać cię za przyjaciela. Może już na to nie zasługuję, ale dla miłości, jaką darzę ciebie i dziecko mojej siostry, muszę spróbować. Znam cię, Robercie, i wiem, jak wielka potrafi być twoja furia. Oboje kochaliśmy Lyannę – i w jej imię proszę cię o łaskę. To nie kolejny smok – to ostatni ślad po kobiecie, którą obaj kochaliśmy. Dla jej pamięci – okaż dziecku łaskę.\n Zawsze twój, Eddard Stark.”\n\n Odpędzam niemal napływające do oczu łzy i widzę czekający w napięciu dwór. Wszyscy czekają na moją odpowiedź."
+ agot_bastard_event.0960.desc:0 " Serce mi zamiera, gdy otrzymuję drugi list. Drżącymi palcami rozrywam pieczęć rodu Starków. „Najstarszy przyjacielu,” – zaczyna się list, a w gardle już czuję ścisk.\n\n „Znam cię lepiej niż ktokolwiek inny i wiem, jaką złość, żal i poczucie zdrady wzbudziła w tobie ta wiadomość. Przepraszam cię za to z całego serca. Od dawna pragnąłem ci to powiedzieć, ale okoliczności wymknęły się spod kontroli.” Moje pięści zaciskają się, gdy czytam dalej, próbując – na próżno – nie zdradzić emocji na oczach dworu.\n\n „Mimo tego wszystkiego, mam nadzieję, że wciąż mogę uważać cię za przyjaciela. Może już na to nie zasługuję, ale dla miłości, jaką darzę ciebie i dziecko mojej siostry, muszę spróbować. Znam cię, Robercie, i wiem, jak wielka potrafi być twoja furia. Oboje kochaliśmy Lyannę – i w jej imię proszę cię o łaskę. To nie kolejny smok – to ostatni ślad po kobiecie, którą obaj kochaliśmy. Dla jej pamięci – okaż dziecku łaskę.\n Zawsze twój, Eddard Stark.”\n\n Odpędzam niemal napływające do oczu łzy i widzę czekający w napięciu dwór. Wszyscy czekają na moją odpowiedź."
+ agot_bastard_event.0960.a:0 " Żaden człowiek nie doznał takiej zdrady!"
+ agot_bastard_event.0960.b.son:0 " Moja furia jest wielka, ale nie splamię się krwią syna Lyanny."
+ agot_bastard_event.0960.b.daughter:0 " Moja furia jest wielka, ale nie splamię się krwią córki Lyanny."
+ agot_bastard_event.0960.c:0 " To było tak dawno temu... Nie skrzywdzę tych, których kocham."
+ agot_bastard_event.0960.c.flavor:0 " Nie zareagujesz na ten rozwój wydarzeń."
+
+ # King responds harshly
+ agot_bastard_event.0961.t:0 "Surowa odpowiedź"
+ agot_bastard_event.0961.desc:0 " Podnoszę wzrok znad pergaminu, który mi wręczono, i widzę przed sobą morze wyczekujących twarzy. Czekają, by zobaczyć, jak zareaguję – jaką wydam decyzję. Tak otwarte roszczenie do tronu wymaga odpowiedzi – nawet od najbardziej umiarkowanego władcy. A ja takim nie jestem.\n\n Jak więc powinienem odpowiedzieć na to wyzwanie?"
+ agot_bastard_event.0961.a:0 " Niech ich głowy spoczną na palach!"
+ agot_bastard_event.0961.a.flavor:0 " Zażądasz głów [reveal_scope.GetFirstName] i [reveal_employer.GetFirstNamePossessive]!"
+ agot_bastard_event.0961.b:0 " Zażądam głowy [reveal_scope.GetHerHis]!"
+ agot_bastard_event.0961.c.nw:0 " Dołączy do Nocnej Straży! Tylko wtedy wolno mu żyć!"
+ agot_bastard_event.0961.c.ss:0 " Musi wstąpić do Siostrzeństwa! Tylko wtedy wolno jej żyć!"
+ agot_bastard_event.0961.d:0 " Jedynym bezpiecznym miejscem dla tej krwi są moje lochy!"
+
+ # King responds moderately
+ agot_bastard_event.0962.t:0 "Umiarkowana odpowiedź"
+ agot_bastard_event.0962.desc:0 " Podnoszę wzrok znad pergaminu, który mi wręczono, i widzę przed sobą morze wyczekujących twarzy. Czekają, by zobaczyć, jak zareaguję – jaką wydam decyzję. Choć takie roszczenie bez wątpienia stanowi zagrożenie, [reveal_scope.GetName] nie działał/a jeszcze przeciwko mnie – nie zasługuje więc na karę, jakby to zrobił/a. Jak więc powinienem zareagować?"
+ agot_bastard_event.0962.a.nw:0 " Pozwolę mu dożyć swoich dni na Murze."
+ agot_bastard_event.0962.a.ss:0 " Pozwolę jej dołączyć do Cichych Sióstr."
+ agot_bastard_event.0962.b:0 " [reveal_scope.GetSheHe|U] musi zostać aresztowany/a."
+ agot_bastard_event.0962.c:0 " [reveal_scope.GetName] może dołączyć do dworu, by zająć należne miejsce."
+ agot_bastard_event.0962.d:0 " [reveal_scope.GetName] musi publicznie wyrzec się praw – to wystarczy."
+
+ # King is of same dynasty
+ agot_bastard_event.0963.t:0 "Nowy/a [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]?"
+ agot_bastard_event.0963.desc.jon:0 " Siedzę na tronie, sprawując władzę jak zawsze, gdy dociera do mnie niezwykła wiadomość opieczętowana herbem rodu [revealer.GetHouse.GetBaseName]. Czytając ją, szeroko otwieram oczy ze zdumienia.\n\n Okazuje się, że [reveal_scope.GetFullName] również posiada krew rodu [reveal_scope.GetDynasty.GetBaseName] – tak jak ja! Zrodzony/a ze związku [real_father.GetFullName] i [real_mother.GetFullName] w czasie Wojny Uzurpatora, [reveal_scope.GetSheHe] uznany/a zostaje za potomka królewskiego.\n\n Podnoszę wzrok znad pergaminu i widzę morze wyczekujących twarzy. Czekają, by zobaczyć, jak zareaguję na tę rodzinną rewelację. Choć taki roszczeniowy list niewątpliwie stanowi zagrożenie, [reveal_scope.GetNameNoTooltip] nie działał/a przeciwko mnie – i w końcu to moja krew, choć z nieprawego łoża. Jak więc mam odpowiedzieć?"
+ agot_bastard_event.0963.desc.my_son:0 " Siedzę na tronie, sprawując władzę jak zawsze, gdy dociera do mnie szokująca wiadomość opieczętowana herbem rodu [revealer.GetHouse.GetBaseName]. Czytając ją, szeroko otwieram oczy, a szczęka niemal opada mi do podłogi.\n\n Okazuje się, że [reveal_scope.GetFullName] jest w istocie moim własnym dzieckiem! Zrodzony/a z mojego związku z [real_mother.GetFullName], [reveal_scope.GetSheHe] uznany/a zostaje przez całe królestwo za potomka królewskiego.\n\n Podnoszę wzrok znad pergaminu i widzę morze wyczekujących twarzy. Choć pojawienie się nieznanego syna niewątpliwie stanowi zagrożenie, [reveal_scope.GetNameNoTooltip] nie działał przeciwko mnie. Jak więc powinienem odpowiedzieć?"
+ agot_bastard_event.0963.desc.my_daughter:0 " Siedzę na tronie, sprawując władzę jak zawsze, gdy dociera do mnie szokująca wiadomość opieczętowana herbem rodu [revealer.GetHouse.GetBaseName]. Czytając ją, szeroko otwieram oczy, a szczęka niemal opada mi do podłogi.\n\n Okazuje się, że [reveal_scope.GetFullName] jest w istocie moim własnym dzieckiem! Zrodzona z mojego związku z [real_mother.GetFullName], [reveal_scope.GetSheHe] uznana zostaje przez całe królestwo za potomkinię królewską.\n\n Podnoszę wzrok znad pergaminu i widzę morze wyczekujących twarzy. Choć pojawienie się nieznanej córki niewątpliwie stanowi zagrożenie, [reveal_scope.GetNameNoTooltip] nie działała przeciwko mnie – a do tego jest kobietą. Jak więc mam odpowiedzieć?"
+ agot_bastard_event.0963.desc:0 " Siedzę na tronie, sprawując władzę jak zawsze, gdy dociera do mnie niezwykła wiadomość opieczętowana herbem rodu [revealer.GetHouse.GetBaseName]. Czytając ją, szeroko otwieram oczy ze zdumienia.\n\n Okazuje się, że [reveal_scope.GetFullName] również posiada krew rodu [reveal_scope.GetDynasty.GetBaseName] – tak jak ja! Zrodzony/a ze związku [real_father.GetFullName] i [real_mother.GetFullName], [reveal_scope.GetSheHe] uznany/a zostaje za potomka królewskiego.\n\n Podnoszę wzrok znad pergaminu i widzę morze wyczekujących twarzy. Czekają, by zobaczyć, jak zareaguję na tę rodzinną rewelację. Choć taki roszczeniowy list niewątpliwie stanowi zagrożenie, [reveal_scope.GetNameNoTooltip] nie działał/a przeciwko mnie – i w końcu to moja krew, choć z nieprawego łoża. Jak więc mam odpowiedzieć?"
+ agot_bastard_event.0963.a.nw:0 " Niech dożyje swych dni na Murze."
+ agot_bastard_event.0963.a.ss:0 " Niech dołączy do Cichych Sióstr."
+ agot_bastard_event.0963.b:0 " [reveal_scope.GetSheHe|U] musi zostać aresztowany/a."
+ agot_bastard_event.0963.c:0 " [reveal_scope.GetNameNoTooltip] może dołączyć do dworu – to nowy etap życia."
+ agot_bastard_event.0963.c.flavor:0 " Możesz przyznać mu/jej dodatkowe zaszczyty, jeśli wyrazi zgodę."
+ agot_bastard_event.0963.d:0 " [reveal_scope.GetNameNoTooltip] musi wyrzec się roszczeń – to wystarczy."
+
+ # Employer responds to king execute all demands
+ agot_bastard_event.0970.t_execution_both:0 "Tyraniczne żądanie"
+ agot_bastard_event.0970.t_execution_bastard:0 "Śmiertelne żądanie"
+ agot_bastard_event.0970.t_send_to_order:0 "Surowe żądanie"
+ agot_bastard_event.0970.t_imprison:0 "Ponure żądanie"
+ agot_bastard_event.0970.t_bring_to_court:0 "Żądanie opieki"
+ agot_bastard_event.0970.t_give_up_claims:0 "Jasne żądanie"
+ agot_bastard_event.0970.t_nothing:0 "Brak wiadomości to dobra wiadomość?"
+
+ agot_bastard_event.0970.desc_execution_both:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] nie pozostawiają miejsca na błędną interpretację. [ruler_scope.GetSheHe|U] domaga się nie tylko głowy [reveal_scope.GetFirstNamePossessive], ale również mojej!\n\n To niewiarygodne żądanie odbiło się echem po całym królestwie jako dowód tyranii [ruler_scope.GetTitledFirstNamePossessiveNoTooltip], a mimo to – to królewski dekret. Nie mogę chyba zgodzić się na coś takiego... a jednak, jeśli odmówię – królestwo może spłynąć krwią.\n\n Co wybiorę – dwie głowy, czy tysiące?"
+ agot_bastard_event.0970.desc_execution_bastard:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] nie pozostawiają miejsca na błędną interpretację. [ruler_scope.GetSheHe|U] domaga się głowy [reveal_scope.GetFirstNamePossessive], mającej zostać niezwłocznie ściętą w imieniu Korony.\n\n To bezlitosne żądanie odbiło się echem po całym królestwie i wstrząsnęło wieloma, a mimo to – to królewski dekret. Czy mam się na to zgodzić? A jeśli nie – czy czeka nas wojna?\n\n Co wybiorę – jedną głowę, czy tysiące?"
+ agot_bastard_event.0970.desc_send_to_nw:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne: [ruler_scope.GetSheHe|U] domaga się, by [reveal_scope.GetFirstName] został wysłany na Mur, by tam dożył swych dni wśród mrozu i cieni.\n\n To żądanie odbiło się echem po całym królestwie, jego surowość poruszyła wielu – ale mimo to, ma ono rangę królewskiego dekretu. Czy mam się na nie zgodzić? A jeśli nie – czy czeka nas rozlew krwi?\n\n Co wybiorę – jedno życie, czy tysiące?"
+ agot_bastard_event.0970.desc_send_to_ss:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne: [ruler_scope.GetSheHe|U] domaga się, by [reveal_scope.GetFirstName] została wysłana do Cichych Sióstr, by w służbie bogom dożyła swych dni.\n\n To żądanie odbiło się echem po całym królestwie, jego surowość poruszyła wielu – ale mimo to, ma ono rangę królewskiego dekretu. Czy mam się na nie zgodzić? A jeśli nie – czy czeka nas rozlew krwi?\n\n Co wybiorę – jedno życie, czy tysiące?"
+ agot_bastard_event.0970.desc_imprison:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne: [ruler_scope.GetSheHe|U] domaga się, by [reveal_scope.GetFirstName] został/a zamknięty/a w lochach [ruler_scope.GetHerHis], by tam dożył/a swoich dni, dopóki władca nie zdecyduje inaczej.\n\n To żądanie odbiło się echem po całym królestwie i ma wagę królewskiego dekretu. Czy mam się na nie zgodzić? A jeśli nie – czy czeka nas wojna?\n\n Co wybiorę – jedno uwięzienie, czy tysiące ofiar?"
+ agot_bastard_event.0970.desc_bring_to_court:0 " Nadszedł list z herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne: [ruler_scope.GetSheHe|U] domaga się, by [reveal_scope.GetFirstName] został/a przeniesiony/a z mojej warowni na dwór królewski, by tam – pod bezpośrednim nadzorem – dożył/a swych dni jako dworzanin/ka.\n\n Żądanie to odbiło się echem po całym królestwie i ma rangę dekretu. Czy mam się zgodzić? A jeśli nie – czy nadejdzie wojna?\n\n Co wybiorę – jednego dworzanina, czy pokój?"
+ agot_bastard_event.0970.desc_give_up_claims:0 " Nadszedł list z herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jasne: w swej łasce, [ruler_scope.GetSheHe] domaga się, by [reveal_scope.GetFirstName] publicznie i oficjalnie wyrzekł/a się wszelkich roszczeń wynikających z ujawnionego pochodzenia.\n\n To żądanie zostało rozesłane po całym królestwie i wielu uznaje je za sprawiedliwą odpowiedź na ostatnie wydarzenia. A jednak – wyrzeczenie się roszczeń może być plamą na honorze, jeśli los miałby kiedyś odmienić się na korzyść.\n\n Co wybiorę – dumę czy pokój?"
+ agot_bastard_event.0970.desc_nothing:0 " Przez dnie i noce zamartwiałem/am się i głowiłem/am, co zrobi [ruler_scope.GetName] w odpowiedzi na te rewelacje, lecz minęły już tygodnie odkąd prawda o pochodzeniu [reveal_scope.GetNamePossessive] ujrzała światło dzienne. [ruler_scope.GetSheHe] musiał/a już o tym słyszeć, prawda?\n\n Muszę dojść do wniosku, że [ruler_scope.GetTitledFirstNameNoTooltip] po prostu postanowił/a nie zajmować się tą sprawą. Być może uznał/a ją za nieistotną – a może po prostu nie obchodzi go to. Tak czy inaczej, nie widać żadnych żądań ze strony Królewskiej Przystani."
+
+
+ # Landed bastard responds to king demand
+ agot_bastard_event.0971.t_execution_bastard:0 "$agot_bastard_event.0970.t_execution_bastard$"
+ agot_bastard_event.0971.t_send_to_order:0 "$agot_bastard_event.0970.t_send_to_order$"
+ agot_bastard_event.0971.t_imprison:0 "$agot_bastard_event.0970.t_imprison$"
+ agot_bastard_event.0971.t_bring_to_court:0 "$agot_bastard_event.0970.t_bring_to_court$"
+ agot_bastard_event.0971.t_give_up_claims:0 "$agot_bastard_event.0970.t_give_up_claims$"
+ agot_bastard_event.0971.t_nothing:0 "$agot_bastard_event.0970.t_nothing$"
+
+ agot_bastard_event.0971.desc_execution_bastard:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] nie pozostawiają miejsca na wątpliwości. [ruler_scope.GetSheHe|U] domaga się mojej głowy – natychmiast, w imieniu Korony.\n\n To surowe żądanie odbiło się echem po całym królestwie, a jego brutalność wstrząsnęła wieloma. A jednak to królewski dekret. Czy mogę się na to zgodzić? Czy mam oddać własne życie? A jeśli odmówię – królestwo może spłynąć krwią.\n\n Co zatem wybrać – moje życie, czy życie tysięcy?"
+ agot_bastard_event.0971.desc_send_to_nw:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne – [ruler_scope.GetSheHe|U] domaga się, bym dołączył do Nocnej Straży i spędził resztę dni w mroźnej północy.\n\n To żądanie odbiło się echem po całym królestwie, wielu zaniepokoiła jego surowość. Ale to królewski dekret. Czy mam się na nie zgodzić? A jeśli nie – królestwo może spłynąć krwią.\n\n Co zatem wybrać – moje życie, czy życie tysięcy?"
+ agot_bastard_event.0971.desc_send_to_ss:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jednoznaczne – [ruler_scope.GetSheHe|U] domaga się, bym został/a oddany/a Cichym Siostrom, by do końca życia służyć w odosobnieniu.\n\n To żądanie odbiło się echem po całym królestwie, wielu zaniepokoiła jego surowość. Ale to królewski dekret. Czy mam się na nie zgodzić? A jeśli nie – królestwo może spłynąć krwią.\n\n Co zatem wybrać – moje życie, czy życie tysięcy?"
+ agot_bastard_event.0971.desc_imprison:0 " Czarne skrzydła niosą czarne wieści – list opieczętowany herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jasne – [ruler_scope.GetSheHe|U] domaga się, bym poddał/a się uwięzieniu w lochach [ruler_scope.GetHerHis], aż do czasu, gdy [ruler_scope.GetSheHe] wyda inną decyzję.\n\n To żądanie rozeszło się szeroko po królestwie i ma moc królewskiego dekretu. Czy mam się na nie zgodzić? A jeśli nie – królestwo może spłynąć krwią.\n\n Co zatem wybrać – moją wolność, czy pokój?"
+ agot_bastard_event.0971.desc_bring_to_court:0 " Nadszedł list z herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] są jasne – [ruler_scope.GetSheHe|U] domaga się, bym zrzekł/a się ziem i tytułów i dołączył/a do jego/jej dworu jako zwykły/a dworzanin/ka.\n\n Żądanie to rozeszło się po całym królestwie. Choć mnie oszczędza, jestem ziemianinem/ziemianką, a takie rozporządzenie wzbudza kontrowersje. Czy mam się na nie zgodzić? A jeśli nie – królestwo może spłynąć krwią.\n\n Co zatem wybrać – moje ziemie, czy pokój?"
+ agot_bastard_event.0971.desc_give_up_claims:0 " Nadszedł list z herbem rodu [ruler_scope.GetHouse.GetBaseName]. Słowa [ruler_scope.GetName] nie pozostawiają wątpliwości – [ruler_scope.GetSheHe] żąda, w swej łasce, abym publicznie i prawnie zrzekł/a się wszelkich roszczeń wynikających z mojego ujawnionego dziedzictwa.\n\n Żądanie to rozesłano po całym królestwie i wielu uważa je za rozsądną reakcję na ostatnie wydarzenia. A jednak – wyrzeczenie się praw, które los mógłby mi kiedyś przywrócić, to plama na honorze.\n\n Co zatem wybrać – dumę, czy pokój?"
+ agot_bastard_event.0971.desc_nothing:0 " Przez dnie i noce dręczyłem/am się, co [ruler_scope.GetName] uczyni w odpowiedzi na ostatnie rewelacje. Minęły jednak tygodnie od ujawnienia prawdy o moim pochodzeniu – a wieści z Królewskiej Przystani wciąż brak. [ruler_scope.GetSheHe] z pewnością musiał/a już to usłyszeć, prawda?\n\n Jestem zmuszony/a przyjąć, że [ruler_scope.GetName] po prostu postanowił/a pozostawić tę sprawę bez echa. Może uznał/a to za niewarte uwagi. Może po prostu nie obchodzi go to. Tak czy inaczej – nie będzie żadnych żądań."
+ agot_bastard_event.0971.nw_army_for_claim:0 "Ludzie Dowódcy"
+
+ # Realm receives alert of execute both demand
+ agot_bastard_event.0980.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0980.desc:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] oraz [reveal_employer.GetName] – poprzez zaniechanie stawienia się przed tronem w sprawie pochodzenia [reveal_scope.GetFirstNamePossessiveNoTooltip] – uznani zostają za zdrajców królestwa i skazani na śmierć.\n\n Każdy, kto udzieli [reveal_scope.GetHerHim] pomocy, podzieli ten sam los."
+ agot_bastard_event.0980.a:0 " Cóż za okrutne żądanie!"
+
+ # Realm receives alert of execute demand
+ agot_bastard_event.0981.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0981.desc:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] – przez odmowę stawienia się przed tronem celem wyjaśnienia [reveal_scope.GetHerHis] pochodzenia – uznany/a zostaje za zdrajcę królestwa i skazany/a na śmierć.\n\n Każdy, kto udzieli [reveal_scope.GetHerHim] pomocy, podzieli ten sam los."
+ agot_bastard_event.0981.desc_resolved:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] – przez samą groźbę wynikającą z jego/jej pojawienia się – uznany/a zostaje za zdrajcę królestwa i skazany/a na śmierć.\n\n Niech los [reveal_scope.GetHerHis] będzie ostrzeżeniem dla wszystkich, którzy zagroziliby bezpieczeństwu mojego królestwa."
+ agot_bastard_event.0981.a:0 " Cóż za surowy wyrok!"
+
+ # Realm receives alert of NW / SS demand
+ agot_bastard_event.0982.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0982.desc.male:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] został wysłany na Mur i dołączył do Nocnej Straży, jako że jego dziedzictwo stanowi zagrożenie dla królestwa."
+ agot_bastard_event.0982.desc.female:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] została oddana Cichym Siostrom, jako że jej dziedzictwo stanowi zagrożenie dla królestwa."
+ agot_bastard_event.0982.desc_pending:0 " Każdy lord i każda dama, którzy pomogą [reveal_scope.GetHerHim] w ucieczce przed tym wyrokiem, zostaną uznani za zdrajców królestwa i potraktowani odpowiednio."
+ agot_bastard_event.0982.desc_resolved:0 " Dwór dziękuje [reveal_scope.GetHerHim] za [reveal_scope.GetHerHis] służbę i ma nadzieję, że również w nowym miejscu będzie godnie wypełniać swój obowiązek."
+ agot_bastard_event.0982.a:0 " Ukarać za samo urodzenie? To nie brzmi sprawiedliwie."
+
+ # Realm receives alert of imprison demand
+ agot_bastard_event.0983.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0983.desc:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] został/a wezwany/a do uwięzienia aż do czasu, gdy jego/jej dziedzictwo nie zostanie uznane za nieszkodliwe wobec królestwa. Każdy, kto pomoże [reveal_scope.GetHerHim] w ucieczce, zostanie uznany za zdrajcę i potraktowany odpowiednio."
+ agot_bastard_event.0983.desc_resolved:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] został/a uwięziony/a aż do czasu, gdy sąd uzna, że jego/jej dziedzictwo nie stanowi zagrożenia dla królestwa. Każdy, kto będzie spiskował, by pomóc [reveal_scope.GetHerHim] w ucieczce, zostanie uznany za zdrajcę i potraktowany odpowiednio."
+ agot_bastard_event.0983.a:0 " Uwięzienie za samo pochodzenie? To nie brzmi sprawiedliwie."
+
+ # Realm receives alert of hostage demand
+ agot_bastard_event.0984.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0984.desc:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] został/a wezwany/a na dwór i pozostaje pod opieką Łaski [ruler_scope.GetHerHis|U] do czasu, aż jego/jej dziedzictwo nie zostanie uznane za nieszkodliwe dla królestwa. Każdy, kto pomoże [reveal_scope.GetHerHim] w uniknięciu tego wezwania, zostanie uznany za zdrajcę i potraktowany odpowiednio."
+ agot_bastard_event.0984.a.courtier:0 " Wygląda na sprawiedliwą decyzję."
+ agot_bastard_event.0984.a.landed:0 " Odebrać ziemie za pochodzenie? Surowe."
+
+ # Realm receives alert of claims demand
+ agot_bastard_event.0985.opening:0 "Do [ROOT.Char.GetFullNameNoTooltip],"
+ agot_bastard_event.0985.desc:0 " Niech wszem i wobec będzie wiadome, że [reveal_scope.GetName] został/a wezwany/a do złożenia publicznego i prawnie wiążącego oświadczenia o wyrzeczeniu się wszelkich roszczeń do tronu i związanych z nim tytułów."
+ agot_bastard_event.0985.desc_pending:0 " Każdy lord lub dama, którzy pomogą [reveal_scope.GetHerHim] uniknąć lub obejść to żądanie, zostaną uznani za zdrajców królestwa i potraktowani odpowiednio."
+ agot_bastard_event.0985.desc_resolved:0 " To zagrożenie zostanie zażegnane bez rozlewu krwi – oto moja łaska i wola. Oświadczenie powinno dotrzeć do waszych gołębniki w najbliższych dniach i oczekuję, że wszyscy uznają je za prawdę."
+ agot_bastard_event.0985.a:0 " Wygląda na sprawiedliwą decyzję."
+
+ # Pre-war marriage search
+ agot_bastard_event.0990.t:0 "Sojusze przez łoże"
+ agot_bastard_event.0990.desc.landed:0 " Od dawna domy Westeros zawierają małżeństwa dla przymierzy w czasach kryzysu. Jako niezamężny pretendent do tytułu [ruler_scope.GetPrimaryTitle.GetName], jestem obecnie wyjątkowo atrakcyjną partią dla tych, którzy pragną powiązań z rodziną królewską.\n\n Przewidując burzliwą ścieżkę, na którą wkroczyłem/am, wysłałem/am subtelne sygnały do ambitniejszych rodów królestwa, poszukując potencjalnych ofert małżeńskich. W obliczu nadchodzących niebezpieczeństw i korzyści z przymierza, być może przyjęcie jednej z nich będzie najlepszym wyborem."
+ agot_bastard_event.0990.desc.landed_singular:0 " Od dawna domy Westeros zawierają małżeństwa dla przymierzy w czasach kryzysu. Jako niezamężny pretendent do tytułu [ruler_scope.GetPrimaryTitle.GetName], jestem obecnie wyjątkowo atrakcyjną partią dla tych, którzy pragną powiązań z rodziną królewską.\n\n Jedną z takich ofert złożył mi ród [potential_spouse_1.GetHouse.GetBaseName], obiecując pomoc w nadchodzącej wojnie. W obliczu niebezpieczeństw i szansy na przymierze, może właśnie ta propozycja jest najlepsza."
+ agot_bastard_event.0990.desc.courtier:0 " Od dawna domy Westeros zawierają małżeństwa dla przymierzy w czasach kryzysu. Jako niezamężny pretendent do tytułu [ruler_scope.GetPrimaryTitle.GetName], [reveal_scope.GetName] stanowi obecnie wyjątkowo atrakcyjną partię dla tych, którzy pragną powiązań z przyszłym władcą.\n\n Przewidując burzliwą ścieżkę, na którą wkroczyliśmy, wysłałem/am subtelne sygnały do ambitniejszych rodów królestwa, poszukując potencjalnych ofert małżeńskich. Może przyjęcie jednej z nich będzie najlepszym wyborem."
+ agot_bastard_event.0990.desc.courtier_singular:0 " Od dawna domy Westeros zawierają małżeństwa dla przymierzy w czasach kryzysu. Jako niezamężny pretendent do tytułu [ruler_scope.GetPrimaryTitle.GetName], [reveal_scope.GetName] stanowi obecnie wyjątkowo atrakcyjną partię dla tych, którzy pragną powiązań z przyszłym władcą.\n\n Jedną z takich ofert złożył ród [potential_spouse_1.GetHouse.GetBaseName], obiecując pomoc w nadchodzącej wojnie. Może właśnie ta propozycja jest najlepsza."
+ agot_bastard_event.0990.a:0 " Pojmę za małżonka/małżonkę [potential_spouse_1.GetName]!"
+ agot_bastard_event.0990.b:0 " Pojmę za małżonka/małżonkę [potential_spouse_2.GetName]!"
+ agot_bastard_event.0990.c:0 " Pojmę za małżonka/małżonkę [potential_spouse_3.GetName]!"
+ agot_bastard_event.0990.d:0 " Nie poślubię żadnego karierowicza!"
+ agot_bastard_event.0990.a.they:0 " [reveal_scope.GetSheHe|U] poślubi [potential_spouse_1.GetName]!"
+ agot_bastard_event.0990.b.they:0 " [reveal_scope.GetSheHe|U] poślubi [potential_spouse_2.GetName]!"
+ agot_bastard_event.0990.c.they:0 " [reveal_scope.GetSheHe|U] poślubi [potential_spouse_3.GetName]!"
+ agot_bastard_event.0990.d.they:0 " [reveal_scope.GetSheHe|U] nie poślubi żadnego karierowicza!"
+
+ # Rebel war declaration alert
+ agot_bastard_event.0992.t:0 "Przekroczona linia"
+ agot_bastard_event.0992.desc:0 " A więc do tego doszło.\n\n Minęło zbyt wiele czasu, by twierdzić, że nie otrzymałem wezwania od [ruler_scope.GetFirstNamePossessive], i aby zmobilizować potrzebne siły, wysłałem kruki wzywające chorągwie na wojnę. Linia została przekroczona, los został rzucony, a kiedy to się skończy, zwycięży albo [reveal_scope.GetHouse.GetBaseName], albo [ruler_scope.GetHouse.GetBaseName].\n\n Spoglądam na zgromadzone sztandary – tylu zebrało się, by przeciwstawić się niesprawiedliwym żądaniom tyrana, jakim jest [ruler_scope.GetName]."
+ agot_bastard_event.0992.desc.same:0 " A więc do tego doszło.\n\n Minęło zbyt wiele czasu, by twierdzić, że nie otrzymałem wezwania od [ruler_scope.GetFirstNamePossessive], i aby zmobilizować potrzebne siły, wysłałem kruki wzywające chorągwie na wojnę. Linia została przekroczona, los został rzucony, a o tym, która gałąź rodu [ruler_scope.GetHouse.GetBaseName] jest prawowita, rozstrzygnie krew.\n\n Spoglądam na zgromadzone sztandary – tylu zebrało się, by przeciwstawić się niesprawiedliwym żądaniom tyrana, jakim jest [ruler_scope.GetNameNoTooltip]."
+ agot_bastard_event.0992.desc.ned:0 " A więc do tego doszło.\n\n Minęło zbyt wiele czasu, by twierdzić, że nie otrzymałem wezwania od [ruler_scope.GetFirstNamePossessive], i aby zmobilizować potrzebne siły, wysłałem kruki wzywające chorągwie na wojnę. Linia została przekroczona, los został rzucony, a kiedy to się skończy, zwycięży albo [reveal_scope.GetHouse.GetBaseName], albo [ruler_scope.GetHouse.GetBaseName].\n\n Spoglądam na zgromadzone sztandary – i choć serce boli mnie na myśl o marszu przeciw dawnemu przyjacielowi, wiem, że jestem to winien Lyannie i [reveal_scope.GetFirstName]. Dla litości – zarówno mojej, jak i całego królestwa – pragnę, by ta wojna była szybka."
+ agot_bastard_event.0992.a:0 " Razem wyruszamy po sprawiedliwość!"
+
+ # Ruler war declaration alert
+ agot_bastard_event.0993.t:0 "Żądania Odrzucone"
+ agot_bastard_event.0993.desc:0 " A więc do tego doszło.\n\n Bastard [reveal_scope.GetName] odrzucił/a moje żądania i ogłosił/a zamiar objęcia władzy nad [ruler_scope.GetPrimaryTitle.GetName], wzywając sojuszników, by wsparli jego/jej roszczenia. Jakie obietnice musiał/a złożyć, by zgromadzić taką siłę – pozostaje tajemnicą. Ale linia została przekroczona, los został rzucony – i albo ród [reveal_scope.GetHouse.GetBaseName], albo [ruler_scope.GetHouse.GetBaseName] zatriumfuje, gdy to się skończy.\n\n Spoglądam na sztandary zebrane przede mną – tylu zebrało się, by bronić moich słusznych rządów."
+ agot_bastard_event.0993.desc.same:0 " A więc do tego doszło.\n\n Bastard [reveal_scope.GetName] odrzucił/a moje żądania i ogłosił/a zamiar objęcia władzy nad [ruler_scope.GetPrimaryTitle.GetName], wzywając sojuszników, by wsparli jego/jej roszczenia. Jakie obietnice musiał/a złożyć, by zgromadzić taką siłę – pozostaje tajemnicą. Ale linia została przekroczona, los został rzucony – i to, czy prawowitym będzie [reveal_scope.GetHouse.GetBaseName], czy uzurpator – rozstrzygnie się w bitwie.\n\n Spoglądam na sztandary zebrane przede mną – tylu zebrało się, by bronić moich słusznych rządów."
+ agot_bastard_event.0993.desc.robert:0 " Ostatnie tygodnie wstrząsnęły mną do głębi – ale nic nie poraża mnie bardziej niż obecna chwila.\n\n Mój dawny przyjaciel, Eddard Stark, uznał moje żądania za niesprawiedliwe i uniósł sztandary, by osadzić [reveal_scope.GetName] na tronie [ruler_scope.GetPrimaryTitle.GetName]. Wezwał licznych wasali i sojuszników, twierdząc, że moje działania nie różnią się od szaleństwa Króla Obłąkanego, którego obaj obaliliśmy.\n\n Cokolwiek kiedyś nas łączyło – przepadło. Linia została przekroczona, los został rzucony – i albo Stark, albo Baratheon zatriumfuje.\n\n Zmiażdżę buntowników, zmiażdżę Starków i zmiażdżę tego smoczego bękarta – tak samo jak jego ojca i dziadka!"
+ agot_bastard_event.0993.a:0 " Zniszczę tych uzurpatorskich buntowników!"
+
+ # Ruler wins war
+ agot_bastard_event.0994.t:0 "Przywrócony Porządek"
+ agot_bastard_event.0994.desc:0 " Bunt bękarta został zdławiony.\n\n [claimant.GetName] i jego/jej zdradzieccy sojusznicy trafili do moich lochów. Historycy będą się spierać, czy to wszystko mogło zostać uniknięte, czy też tajemnica była skazana na ujawnienie – ale wynik jest jasny.\n\n Ród [ROOT.Char.GetHouse.GetBaseName] wciąż panuje – a ja wciąż króluję!"
+ agot_bastard_event.0994.a:0 " Wreszcie nastał pokój."
+
+ # Bastard wins war
+ agot_bastard_event.0995.t:0 "Objawienie Prawa Krwi"
+ agot_bastard_event.0995.desc:0 " Przechodzę przez ogromne wrota sali tronowej – Żelazny Tron dominuje nad całym pomieszczeniem, górując nad dworem zebranym po obu stronach. Czuję, że mnie wzywa – i odpowiadam zdecydowanym krokiem.\n\n Każdy kolejny krok sprawia, że kolejni ludzie klękają, uznając mnie za swojego władcę. Choć jeszcze niedawno wielu mogło kwestionować moje prawo – dziś nikt nie śmie.\n\n Wstępując po stopniach tronu, czuję, jak brzemię nieprawego urodzenia spływa ze mnie. Gdy docieram na szczyt – odwracam się i unoszę miecz ku górze, ogłaszając nową erę!"
+ agot_bastard_event.0995.a.king:0 " „Jestem [ROOT.Char.GetFirstNameNoTooltip] z rodu [father_house.GetBaseNameNoTooltip] – i jestem waszym Królem!”"
+ agot_bastard_event.0995.b.king:0 " „Jestem [ROOT.Char.GetFirstNameNoTooltip] z rodu [mother_house.GetBaseNameNoTooltip] – i jestem waszym Królem!”"
+ agot_bastard_event.0995.a.queen:0 " „Jestem [ROOT.Char.GetFirstNameNoTooltip] z rodu [father_house.GetBaseNameNoTooltip] – i jestem waszą Królową!”"
+ agot_bastard_event.0995.b.queen:0 " „Jestem [ROOT.Char.GetFirstNameNoTooltip] z rodu [mother_house.GetBaseNameNoTooltip] – i jestem waszą Królową!”"
+ agot_bastard_event.0995.flavor:0 " Niech twoje panowanie będzie długie i pomyślne!"
+
+ # Helped bastard win war
+ agot_bastard_event.0996.t:0 "Nowy Świt"
+ agot_bastard_event.0996.desc:0 " Patrzę, jak [claimant.GetFirstName] wchodzi do sali tronowej – korona lśni na jego/jej skroniach. Pewnym wzrokiem obejmuje nową rzeczywistość, a z każdym krokiem kolejni – również ja – klękają przed nowym władcą.\n\n Część mnie wciąż nie dowierza, że to się dzieje naprawdę – przecież jeszcze niedawno [claimant.GetSheHe] nie znał/a prawdy o swoim pochodzeniu. A jednak – to dzięki ścieżce, którą razem obraliśmy – świta nowy dzień w [claimant.GetPrimaryTitle.GetName]."
+ agot_bastard_event.0996.a:0 " Zastanawiam się, co [claimant.GetSheHe] teraz czuje..."
+ agot_bastard_event.0996.b:0 " Niech żyje [claimant.GetNameNoTooltip]!"
+
+ # Ruler notified of double execute acceptance
+ agot_bastard_event.1001.t:0 "Żądania Przyjęte"
+ agot_bastard_event.1001.desc.jon:0 " Patrzę, jak przed tron prowadzony jest [reveal_scope.GetFirstName] i Eddard. Tchórz nawet nie patrzy mi w oczy, gdy staje obok tego podłego smoczego bękarta.\n\n „Za ukrywanie Targaryena, znanego zagrożenia dla królestwa...” – wyrok i oskarżenia są czytane, ale już ich nie słyszę. W głowie dudni mi krew, wściekłość gotuje się we mnie – skóra aż drży od żaru. Nie zauważam, że wstałem – dopiero w połowie zejścia z tronu uświadamiam sobie, co robię.\n\n Nie czekając na zakończenie wyroku, chwytam miecz jednego z Gwardzistów i jednym ciosem odrąbuję głowę Eddardowi Starkowi – ostrze kruszy kamień pod jego ciałem. [reveal_scope.GetFirstNameNoTooltip] krzyczy z przerażenia – lecz i to ucinam w pół zdania, drugiem ciosem. Krew i odłamki marmuru wirują w powietrzu w krwawej symfonii.\n\n Stoję pośród krwi – smocza krew znów plami podłogę sali. Patrząc w martwe oczy dawnego przyjaciela, nie czuję ulgi. Wściekłość nie mija. Lyanny nadal tu nie ma. Spojrzenia moich dworzan przypominają te z dworu Szalonego Króla – i pytam siebie: jak do tego doszło?"
+ agot_bastard_event.1001.desc:0 " Patrzę, jak [reveal_scope.GetFirstName] i [reveal_employer.GetFirstName] stają przed moim tronem i całym dworem. Mój Sędzia zaczyna czytać zarzuty – a ja zastanawiam się, czemu w ogóle zgodzili się na to, co ich czeka.\n\n „Za ukrywanie znanego zagrożenia dla królestwa i fałszywe roszczenia do tronu...” – słowa rozbrzmiewają w sali, ale ja nie mogę się skupić. Czy słuszne jest zgładzenie dwojga ludzi bez czynu? Co teraz czują? Zanim zdążę odpowiedzieć sobie na te pytania – wyrok zapada. Kat podchodzi i jednym ruchem ścina głowę jednego, potem drugiego. Moje wątpliwości pozostaną moje – a królestwo odpowie, jak zechce."
+ agot_bastard_event.1001.a:0 " Tak czy inaczej – sprawa została zamknięta."
+
+ # Ruler notified of execute acceptance
+ agot_bastard_event.1002.t:0 "Żądania Przyjęte"
+ agot_bastard_event.1002.desc.jon:0 " Patrzę, jak [reveal_scope.GetFirstName] w kajdanach staje przede mną. Podły smoczy bękart patrzy mi prosto w oczy – a może raczej przez nie. Teraz, znając prawdę, nie mogę pojąć, jak nie dostrzegałem wcześniej rysów Rhaegara w jego/jej twarzy.\n\n „Za zbrodnie polegające na ogłoszeniu fałszywych roszczeń do tronu...” – wyrok i oskarżenia są czytane, ale już ich nie słyszę. Krew dudni mi w skroniach, gniew sięga zenitu, całe ciało płonie. Zdaję sobie sprawę, że wstałem, dopiero gdy jestem już w połowie drogi z tronu.\n\n Nie czekając na zakończenie wyroku, chwytam miecz jednego z Gwardzistów i jednym ciosem odrąbuję głowę bękarta – ostrze roztrzaskuje kamień pod jego/jej ciałem. Dwór krzyczy z przerażenia, ale ja nie słyszę nic poza biciem własnego serca.\n\n Stoję pośród krwi – krew Targaryena znów plami marmur sali tronowej. Patrzę w martwe oczy [reveal_scope.GetFirstNamePossessiveNoTooltip] i nie znajduję ulgi. Wściekłość nie gaśnie. Lyanny tu nie ma. Spojrzenia dworzan są te same, co widziałem na dworze Szalonego Króla. Jak do tego doszło?"
+ agot_bastard_event.1002.desc:0 " Patrzę, jak [reveal_scope.GetFirstName] zostaje przyprowadzony/a w kajdanach. Mój Sędzia zaczyna czytać zarzuty – i zastanawiam się, czemu [reveal_scope.GetSheHe] się na to zgodził/a, wiedząc, co się wydarzy.\n\n „Za zbrodnie polegające na ogłoszeniu fałszywych roszczeń do tronu...” – słowa lecą dalej, ale nie potrafię się skupić. Czy to właściwe, by egzekwować bękarta bez czynu zdrady? Co musi teraz czuć? Nim zdążę znaleźć odpowiedź – wyrok zapada. Kat podchodzi i jednym ciosem ścina głowę [reveal_scope.GetFullName]. Mam swoje wątpliwości, lecz królestwo oceni to samo."
+ agot_bastard_event.1002.a:0 " Tak czy inaczej – sprawa została zamknięta."
+
+ # Ruler notified of NW / SS acceptance
+ agot_bastard_event.1003.t:0 "Żądania Przyjęte"
+ agot_bastard_event.1003.desc.male:0 " Czarne skrzydła niosą dziś nie grozę, lecz wieść o pokoju. Ledwie opuściłem komnaty, gdy poinformowano mnie o kruku z Czarnego Zamku. [reveal_scope.GetFullName] stawił się zgodnie z instrukcjami i złożył przysięgę Nocnej Straży. Co najważniejsze – nie będzie posiadać ziem, ani płodzić dzieci.\n\n Oddycham z ulgą, że ta niespodziewana sprawa zakończyła się bez rozlewu krwi. Na północy nie sprawi kłopotów. Królestwo może spać spokojnie, [reveal_scope.GetFirstName] nie musi się mnie lękać, a ja mogę rządzić bez tego ciernia w boku."
+ agot_bastard_event.1003.desc.female:0 " Czarne skrzydła niosą dziś nie grozę, lecz wieść o pokoju. Ledwie opuściłem komnaty, gdy poinformowano mnie o kruku z matczynego przytułku w Starym Mieście. [reveal_scope.GetFullName] stawiła się zgodnie z instrukcjami i złożyła śluby milczenia oraz służby jako Cicha Siostra. Co najważniejsze – nie wyjdzie za mąż.\n\n Oddycham z ulgą, że ta niespodziewana sprawa zakończyła się bez rozlewu krwi. W objęciach Siostrzeństwa nie sprawi kłopotów. Królestwo może spać spokojnie, [reveal_scope.GetFirstName] nie musi się mnie lękać, a ja mogę rządzić bez tego ciernia w boku."
+ agot_bastard_event.1003.a:0 " A więc sprawa załatwiona."
+
+ # Ruler notified of imprison acceptance
+ agot_bastard_event.1004.t:0 "Żądania Przyjęte"
+ agot_bastard_event.1004.desc.jon:0 " Patrzę, jak [reveal_scope.GetFirstName] zostaje przyprowadzony/a w kajdanach i rzucony/a na zimny marmur sali tronowej. Smoczy bękart patrzy mi prosto w oczy. Teraz, znając prawdę, nie mogę pojąć, jak nie dostrzegałem wcześniej rysów Rhaegara.\n\n „Za zbrodnie polegające na ogłoszeniu fałszywych roszczeń do tronu...” – słowa giną w dudnieniu serca. Te oczy… wyglądają jak oczy Lyanny. Przez lata nie mogłem sobie przypomnieć jej twarzy – a teraz po raz pierwszy od dekady widzę jej spojrzenie. Milknie wyrok, a ja tylko słyszę ciszę.\n\n Bez słowa z mej strony straże odprowadzają [reveal_scope.GetHerHim] do lochów. Wstając, [reveal_scope.GetSheHe] przypomina mi raz jeszcze: oczy Lyanny, lecz postawa… Targaryen. Co dalej – zależy już ode mnie."
+ agot_bastard_event.1004.desc:0 " Patrzę, jak [reveal_scope.GetFirstName] zostaje przyprowadzony/a w kajdanach i rzucony/a na zimny marmur sali tronowej. Mój Sędzia zaczyna czytać zarzuty – i zastanawiam się, czemu [reveal_scope.GetSheHe] się na to zgodził/a.\n\n „Za zbrodnie polegające na ogłoszeniu fałszywych roszczeń do tronu...” – nie słyszę słów. Patrzę w [reveal_scope.GetHerHis] oczy. Czy to strach? Pokój? A może większy plan? Milknie wyrok – straże bez słowa odprowadzają [reveal_scope.GetHerHim] do lochów. W głowie mam już tylko jedno: co dalej zrobię z [reveal_scope.GetHerHim]?"
+ agot_bastard_event.1004.a:0 " Przynajmniej wiem, co [reveal_scope.GetSheHe] teraz robi."
+
+ # Ruler notified of hostage acceptance
+ agot_bastard_event.1005.t:0 "Żądania Przyjęte"
+ agot_bastard_event.1005.desc.jon:0 " Patrzę, jak [reveal_scope.GetFirstName] zostaje przyprowadzony/a przed oblicze dworu i klęka na zimnym marmurze sali tronowej, a ja spoglądam z góry. Dziecko Lyanny i mojego wroga Rhaegara wypowiada przysięgę idealnie, słowo po słowie. A ja, znając już prawdę, zastanawiam się, jak mogłem nie widzieć wcześniej rysów Rhaegara.\n\n „– przysięgam wierność tobie i twoim dziedzicom jako prawowitym władcom [ROOT.Char.GetPrimaryTitle.GetName].” Gdy [reveal_scope.GetSheHe] kończy przysięgę i wstaje, ogarnia mnie zaskoczenie. Te oczy – to oczy Lyanny. Przez lata nie pamiętałem jej twarzy – teraz wraca obraz.\n\n Bez słowa [reveal_scope.GetSheHe] wstępuje w szeregi dworzan. Oczy Lyanny… a postawa Targaryena. Co zrobię z [reveal_scope.GetHerHim] – to zależy ode mnie."
+ agot_bastard_event.1005.desc:0 " Patrzę, jak [reveal_scope.GetFirstName] zostaje przyprowadzony/a przed oblicze dworu i klęka na zimnym marmurze sali tronowej, a ja spoglądam z góry.\n\n „– przysięgam wierność i lojalność tobie i twoim dziedzicom jako prawowitym władcom [ROOT.Char.GetPrimaryTitle.GetName].” Gdy przysięga dobiega końca, a [reveal_scope.GetSheHe] wstaje, wpatruję się w [reveal_scope.GetHerHis] oczy – szukając motywacji. Czy to tchórzostwo? Pokój? A może ukryty plan? Cisza. Przysięga zakończona.\n\n Bez słowa [reveal_scope.GetSheHe] wstępuje w szeregi dworzan. Co dalej zrobię z [reveal_scope.GetHerHim] – to zależy ode mnie."
+ agot_bastard_event.1005.a:0 " Uhonorować? Zignorować? Wykorzystać?"
+ agot_bastard_event.1005.b:0 "[reveal_scope.GetFirstNameNoTooltip] to znakomity wojownik – może zaproponować miejsce w Gwardii Królewskiej?"
+ agot_bastard_event.1005.c:0 " Do lochu z nim/nią!"
+ agot_bastard_event.1005.d:0 " Powitam go/ją jako prawdziwego członka rodu [reveal_scope.GetHouse.GetBaseName]"
+
+ # Realm notified of claims forswear acceptance
+ agot_bastard_event.1006.opening:0 "Do wszystkich lordów i dam Westeros,"
+ agot_bastard_event.1006.desc:0 " Ja, [reveal_scope.GetFullName], przysięgam przed Starymi Bogami i Nowymi – wyrzekam się wszelkich roszczeń do [ruler_scope.GetPrimaryTitle.GetName] i związanych z nim tytułów. Moje urodzenie jest faktem, ale nie zmienia mojego miejsca ani praw – i nigdy nie twierdziłem/am inaczej. [ruler_scope.GetFullName] jest jedynym prawowitym władcą – ja jestem tylko jego/jej lojalnym poddanym."
+ agot_bastard_event.1006.a:0 " A więc pokój."

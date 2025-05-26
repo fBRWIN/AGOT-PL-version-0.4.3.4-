@@ -1,0 +1,154 @@
+﻿l_english:
+ # by Eskarina
+ FAITH_PATRON_HEADING:0 "Wybierz Aspekt Patrona"
+ PATRON_WINDOW_SHOW_EFFECTS:0 "Pokaż Efekty"
+ FAITH_PATRON:0 "Aspekty Patrona"
+ CHOOSE_PATRON_TOOLTIP:0 "Wybierz Aspekt"
+ select_patron_confirm_text_1:0 "Uczyń "
+ select_patron_confirm_text_2:0 " twoim aspektem patrona?"
+ patron_select_confirm:0 "To jest mój patron!"
+
+ action_pick_patron:0 "Wybierz Aspekt Patrona"
+ action_pick_patron_label:0 "$action_pick_patron$"
+ action_pick_patron_desc:0 "Jako wyznawca religii z patronami, możesz wybrać konkretnego boga na swojego patrona."
+ action_pick_patron_click:0 "#I Kliknij, aby zobaczyć potencjalnych patronów#!"
+
+ #Wiara Siedmiu
+ patron_god_the_father:0 "Ojciec"
+ patron_god_desc_the_father:0 "Ojciec, lub Ojciec z Góry, rządzi osądzaniem, często wzywany przez wiernych do wydawania sprawiedliwości i mądrości. Jest wysoko ceniony przez większość, a niektórzy widzą w nim 'przywódcę' Siedmiu."
+
+ patron_god_the_mother:0 "Matka"
+ patron_god_desc_the_mother:0 "Matka, lub Matka z Góry, jest miłująca i opiekuńcza, często wzywana do ochrony ukochanych osób. Jest także związana z płodnością i rolami macierzyństwa."
+
+ patron_god_the_warrior:0 "Wojownik"
+ patron_god_desc_the_warrior:0 "Wojownik chroni wiernych swoją świętą bronią. Wzbudza odwagę, zapewnia zwycięstwo i chroni żołnierzy w gorącej bitwie, często wzywany przez żołnierzy, rycerzy i generałów."
+
+ patron_god_the_smith:0 "Kowal"
+ patron_god_desc_the_smith:0 "Kowal, z jego świętym młotem, jest naprawiaczem zepsutych rzeczy, który stawia świat ludzi na nogi. Wraz z Wojownikiem, często modlono się o siłę i ochronę, jak również o pomoc w rzemiośle i handlu."
+
+ patron_god_the_maiden:0 "Dziewica"
+ patron_god_desc_the_maiden:0 "Dziewica, piękna i niewinna, jest patronką młodych kobiet, często modlono się do niej, by dała im odwagę i chroniła ich niewinność, lub by wyprosiła przebaczenie za czyny nieczystości kobiet."
+
+ patron_god_the_crone:0 "Starucha"
+ patron_god_desc_the_crone:0 "Starucha, z jej świętą lampą, prowadzi wiernych swoją mądrością. Dzięki jej naukom, wierni są podnoszeni i wspierani."
+
+ patron_god_the_stranger:0 "Obcy"
+ patron_god_desc_the_stranger:0 "Obcy — ani mężczyzna, ani kobieta, a jednocześnie oboje; wyrzutek, wędrowiec z dalekich krajów, mniej i więcej niż człowiek — jest nieznany i niepoznawalny. Jego twarz to śmierć, jego ręka prowadzi dusze do innego świata."
+
+ #Faith of the Seven Extras
+ patron_god_drownedgod:0 "Utopiony Bóg"
+ patron_god_desc_drownedgod:0 "Utopiony Bóg to tradycyjny bóg Ironborn, a jako jeden z Ośmiu Aspektów, jest uważany za Aspekt Morza i jego strachu."
+
+ patron_god_baelor:0 "Baelor Błogosławiony"
+ patron_god_desc_baelor:0 "Król-Septon, często postrzegany jako zwykły śmiertelnik, jest postrzegany przez tę wiarę niemal w ten sam sposób co Siedem Aspektów."
+
+ patron_god_qarlon:0 "Qarlon Wielki"
+ patron_god_desc_qarlon:0 "Ostatni Król Wszystkich Andalsów, i ostatnia szansa na andalskie królestwo w Essos, stał się postacią mityczną: awatarem Siedmiu, który opowiada o zrujnowanej przeszłości."
+
+ patron_god_weirwood:0 "Weirwoody"
+ patron_god_desc_weirwood:0 "Weirwoody od dawna były uważane za święte przez tych, którzy wyznają Starych Bogów, ale dla tych z Wiary Starej i Nowej, są oknami, przez które Siedmiu-który-jest-Jednym obserwował wczesnych ludzi."
+
+ #Wolne Miasta
+ patron_god_moon_pale_maiden:0 "Księżycowa Blada Panna"
+ patron_god_desc_moon_pale_maiden:0 "Bogini Księżyca, którą niektórzy uważają za zniekształconą wersję bogini z Dalekiego Wschodu, Panny-Uformowanej-Z-Lumi. Bez względu na to, jej wyznawcy często proszą o ochronę na morzach, licząc, że jej światło poprowadzi ich do domu."
+
+ patron_god_lion_of_night:0 "Lew Nocy"
+ patron_god_desc_lion_of_night:0 "Lew Nocy był bogiem z Dalekiego Wschodu, który, jak mówiono, przyniósł Długą Noc, by ukarać ludzi za Krwawą Zdradę. Jest postrzegany jako ciemniejszy bóg, ale nie zły."
+
+ patron_god_father_of_waters:0 "Ojciec Wód"
+ patron_god_desc_father_of_waters:0 "Ojciec Wód jest bogiem mórz. Jest czczony przez żeglarzy w nadziei na spokojne wody."
+
+ patron_god_merling_king:0 "Król Merlingów"
+ patron_god_desc_merling_king:0 "Król Merlingów żyje pod falami i mówi się, że pomaga ludziom w zamian za okazjonalną żonę."
+
+ patron_god_the_pattern:0 "Twórca Wzorów"
+ patron_god_desc_the_pattern:0 "Nie bóg, ale raczej prorok, który, przez wielkie cierpienie, odkrył, że życie jest wielkim wzorem, który należy przejść, aby osiągnąć środek rzeczywistości."
+
+ patron_god_semosh_and_selloso:0 "Semosh i Selloso"
+ patron_god_desc_semosh_and_selloso:0 "Brodzy bogowie — zjednoczeni, a jednak oddzieleni, wschód i zachód, wschód słońca i zachód słońca — Semosh i Selloso pchają i ciągną świat między sobą."
+
+ patron_god_trios:0 "Trios"
+ patron_god_desc_trios:0 "Bóg Trójgłowy, Trios, mówi się, że podzielił się na trzy. Każda twarz ucieleśnia inną emocję: Radość, Złość i Zamieszanie."
+
+ patron_god_drunken_god:0 "Pijany Bóg"
+ patron_god_desc_drunken_god:0 "Pijany Bóg jest często lekceważony, ale jego wyznawcy są jednymi z najbardziej oddanych."
+
+ patron_god_weeping_lady:0 "Płacząca Pani"
+ patron_god_desc_weeping_lady:0 "Płacząca Pani jest głównym bóstwem Lys i ozdabia ich monety. Płacze za złymi i radosnymi i wszystkimi pomiędzy."
+
+ patron_god_pantera:0 "Pantera"
+ patron_god_desc_pantera:0 "Pantera to sześciobrzucha kotka-bogini, której kult koncentruje się w Lys."
+
+ patron_god_yyndros:0 "Yyndros"
+ patron_god_desc_yyndros:0 "Yyndros Z Zmierzchu to mężczyzna za dnia, kobieta w nocy. Ich wyznawcy mogą zmieniać się między mężczyzną a kobietą podczas aktu miłości."
+
+ patron_god_bakkalon:0 "Bakkalon"
+ patron_god_desc_bakkalon:0 "Blady Dzieciak, Bakkalon Miecz, to bóg śmierci, którego miecz wisi nad nami wszystkimi."
+
+ patron_god_saagael:0 "Saagael"
+ patron_god_desc_saagael:0 "Dawca Bólu, Saagael, jest celem jednej z bardziej ekstremalnych sekt Wolnych Miast."
+
+ patron_god_aquan:0 "Aquan Czerwony Byk"
+ patron_god_desc_aquan:0 "Aquan Czerwony Byk to bóg wojny i walki, czczony przez wielu wojowników i najemników Wolnych Miast."
+
+ patron_god_hooded_wayfarer:0 "Zasłonięty Wędrowiec"
+ patron_god_desc_hooded_wayfarer:0 "Czczony przez biednych i opustoszałych, Zasłonięty Wędrowiec chodzi między nami, niewidoczny i nie zauważony."
+
+ patron_god_silent_god:0 "Cisza Boga"
+ patron_god_desc_silent_god:0 "Cisza Boga nie mówi do swoich wyznawców, ale pozwala im znaleźć prawdę mimo wszystko."
+
+ patron_god_gelenei:0 "Gelenei"
+ patron_god_desc_gelenei:0 "Gelenei to bóstwo natury, zazwyczaj reprezentowane przez drzewo z srebrnymi liśćmi."
+
+ #Yi Ti
+ patron_god_pearl_emperor:0 "Perłowy Cesarz"
+ patron_god_desc_pearl_emperor:0 "Pierwszy z sukcesorów Boga-na-Ziemi, Perłowy Cesarz jest pamiętany za swoją wielką mądrość i wielkie postępy w wiedzy osiągnięte podczas jego panowania."
+
+ patron_god_jade_emperor:0 "Jadeitowy Cesarz"
+ patron_god_desc_jade_emperor:0 "Drugi Sukcesor, Jadeitowy Cesarz, mówi się, że przywiódł wiele obcych ziem i ludów do Wielkiego Imperium Świtu, nie mieczem, ale słowem."
+
+ patron_god_tourmaline_emperor:0 "Turmalinowy Cesarz"
+ patron_god_desc_tourmaline_emperor:0 "Turmalinowy Cesarz, Trzeci Sukcesor, był nieustannie czujnym obrońcą Jeweled Court. Mówi się, że za pomocą każdej broni — miecza, łuku czy włóczni — był najgroźniejszym zagrożeniem."
+
+ patron_god_onyx_emperor:0 " Onyksowy Cesarz"
+ patron_god_desc_onyx_emperor:0 "Czwarty Sukcesor, Onyksowy Cesarz, bronił imperium przed licznymi zagrożeniami, od hord zewnętrznych po rebelie wewnętrzne. Prowadził armie do zwycięstwa w każdej wyprawie."
+
+ patron_god_topaz_emperor:0 "Topazowy Cesarz"
+ patron_god_desc_topaz_emperor:0 "Topazowy Cesarz zbierał owoce pracy swojego poprzednika i ponownie wprowadził porządek i cywilizację w całym Wielkim Imperium Świtu jako Piąty Sukcesor."
+
+ patron_god_opal_emperor:0 "Opalowy Cesarz"
+ patron_god_desc_opal_emperor:0 "Szósty Sukcesor, Opalowy Cesarz, zbudował wielkie dzieła w całym imperium — cuda, które stoją do dziś lub zostały stracone przez czas."
+
+ patron_god_amethyst_empress:0 "Ametystowa Cesarzowa"
+ patron_god_desc_amethyst_empress:0 "Ostatni i Siódmy Sukcesor, Ametystowa Cesarzowa nie zostawiła trwałego dziedzictwa, ale teraz jest postrzegana jako zbawicielka Jeweled Court i symbol nadziei na to, co może być."
+
+ #Wyspy Lata
+ patron_god_itaya:0 "Itaya"
+ patron_god_desc_itaya:0 "Itaya jest Główną Boginią Wysp Lata i Boginią Płodności. Jest Matką Lata."
+
+ patron_god_qunda:0 "Qunda"
+ patron_god_desc_qunda:0 "Qunda jest Bogiem Witalności na Wyspach Lata."
+
+ patron_god_tolaq:0 "Tolaq"
+ patron_god_desc_tolaq:0 "Tolaq jest Bogiem Bogactwa na Wyspach Lata."
+
+ patron_god_dhosu:0 "Dhosu"
+ patron_god_desc_dhosu:0 "Dhosu jest Bogiem Tego, Co Będzie i bratem Qhubara na Wyspach Lata."
+
+ patron_god_qhubar:0 "Qhubar"
+ patron_god_desc_qhubar:0 "Qhubar jest Boginią Wiedzy i siostrą Dhosu na Wyspach Lata."
+
+ patron_god_chatana:0 "Chatana"
+ patron_god_desc_chatana:0 "Chatana jest Boginią Łuku i Wojny, chroniącą Wyspy Lata przed wszelkimi zagrożeniami, zwłaszcza przed niewolnikami."
+
+ patron_god_hulabhar:0 "Hulabhar"
+ patron_god_desc_hulabhar:0 "Hulabhar jest Bogiem Oszustów na Wyspach Lata."
+
+ patron_god_xholthar:0 "Xholthar"
+ patron_god_desc_xholthar:0 "Xholthar jest Bogiem Śmierci i Nocy, oraz ostatnim obrońcą Wysp Lata."
+
+ patron_god_anayana:0 "Anayana"
+ patron_god_desc_anayana:0 "Anayana jest Boginią Wód i Żeglarzy. Łodzie łabędzie są dedykowane na jej cześć."
+
+ patron_god_qoanasa:0 "Qoanasa"
+ patron_god_desc_qoanasa:0 "Qoanasa jest Boginią Tajemniczej Drogi, a jej wyznawcy byliby nazywani czarownicami w Siedmiu Królestwach."

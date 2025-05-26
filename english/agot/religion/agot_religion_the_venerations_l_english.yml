@@ -1,0 +1,22 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_venerations_religion:0 "Wielbienia Iba"
+ the_venerations_religion_adj:0 "Wielbienia"
+ the_venerations_religion_adherent:0 "Czciciel"
+ the_venerations_religion_adherent_plural:0 "Czciciele"
+ the_venerations_religion_desc:0 "Religia Ibbenów jest dziwna i zamknięta, często przybierając formę Wielbienia ich przywódców lub natury, szczególnie morza."
+
+### Faiths ###
+#God-King of Ib
+ ib_ven_god_king:0 "Wielbienie Boga-Króla"
+ ib_ven_god_king_adj:0 "Bóg-Król Iba"
+ ib_ven_god_king_adherent:0 "Wasal"
+ ib_ven_god_king_adherent_plural:0 "Wasale"
+ ib_ven_god_king_desc:0 "Bóg-Król Iba powrócił i ponownie prowadzi Ibbenów właściwymi drogami, by opanować świat."
+
+#The Sound
+ ib_ven_sound:0 "Wielbienie Dźwięku"
+ ib_ven_sound_adj:0 "Dźwięk"
+ ib_ven_sound_adherent:0 "Czciciel"
+ ib_ven_sound_adherent_plural:0 "Czciciele"
+ ib_ven_sound_desc:0 "Ibbenowie to dziwny lud, który niegdyś czcił Boga-Króla, a teraz nadają znaczenie wierzeniu, które nazywają Dźwiękiem. Dźwięk to naturalna harmonizacja świata i wszystkiego, co go tworzy, od fal na brzegu po wiatry na górach."

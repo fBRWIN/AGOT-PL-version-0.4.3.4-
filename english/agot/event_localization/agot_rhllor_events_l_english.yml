@@ -1,0 +1,133 @@
+﻿l_english:
+ # Szukanie uzdrowienia przez interakcję z Czerwonym Kapłanem — wydarzenie
+ agot_rhllor.0001.t:0 "Ostatnia nadzieja"
+ agot_rhllor.0001.multiple.desc:0 "Ból mnie pochłania. Moje ciało zawodzi, rozrywane i osłabione przez rany, które nie chcą się zagoić, oraz chorobę, która toczy mnie od środka. Próbowałem już wszystkiego, każdej nadziei, lecz sił ubywa mi z każdym dniem.\n\nPozostała mi tylko jedna droga, ostatnia szansa, nim wszystko przepadnie. Czerwony kapłan mówi o ogniu, o oczyszczającym świetle, które potrafi wypalić cierpienie. [red_priest.GetHerHis|U] słowa są odważne, [red_priest.GetHerHis] wiara niewzruszona. [red_priest.GetSheHe|U] twierdzi, że płomienie uleczą to, czego śmiertelne dłonie nie zdołają naprawić.\n\nNie wiem, czy wierzę w boga [red_priest.GetHerHis], ale wiem, że nie zniosę tego dłużej."
+ agot_rhllor.0001.wound.desc:0 "Rana jątrzy się, czerwona i spuchnięta, nie chcąc się zamknąć bez względu na leczenie. Każdy ruch przynosi nową falę bólu, przypominając mi o mojej słabości.\n\nNie zostało mi wiele możliwości. Czerwony kapłan twierdzi, że [red_priest.GetHerHis] ogień zdziała to, czego nie dokonała stal ani maści. [red_priest.GetSheHe|U] mówi, że płomień wypala słabość, może zasklepić ciało i wypalić zgniliznę.\n\nMoże [red_priest.GetSheHe] ma rację. Może [red_priest.GetSheHe] jest szalony. Ale jeśli nic nie zrobię, nie dożyję odpowiedzi."
+ agot_rhllor.0001.disease.desc:0 "Czuję, jak opuszczają mnie siły, kradzione przez niewidzialne ręce. Każdy oddech to walka, każdy dzień cięższy od poprzedniego. Choroba nie ustępuje mimo lekarstw, nie przejmuje się moją wolą.\n\nCzerwony kapłan mówi o ogniu, o oczyszczającej mocy, która potrafi wypalić chorobę. [red_priest.GetSheHe|U] przysięga, że płomienie nie kłamią i nie ustępują. Jeśli [red_priest.GetSheHe] ma rację, to to jest moja ostatnia szansa.\n\nJeśli [red_priest.GetSheHe] się myli, nie będę miał czasu tego żałować."
+ agot_rhllor.0001.deadly_curse.desc:0 "Z każdym dniem czuję, jak coraz bardziej odchodzę. To nie jest rana, która się zagoi, ani choroba, która minie. To coś głębszego, okrutnego i nieustępliwego.\n\nSą tacy, którzy mówią, że takie dolegliwości są nie do odwrócenia, że to po prostu los, brzemię, którego nie da się zrzucić. Ale czerwony kapłan nie wierzy w los. [red_priest.GetSheHe|U] wierzy w ogień. [red_priest.GetSheHe|U] twierdzi, że nawet najgorsze klątwy można wypalić.\n\nMoże to szaleństwo. Może to moja jedyna nadzieja."
+ agot_rhllor.0001.a:0 "Jeśli ogień może mnie ocalić, niechaj płonie."
+ agot_rhllor.0001.b:0 "Zmieniam zdanie."
+
+ # Czerwony kapłan rozważa
+ agot_rhllor.0002.t:0 "Płomienie sądem"
+ agot_rhllor.0002.desc:0 "[patient.GetTitledFirstName] zbliża się, [patient.GetHerHis] kroki są ciężkie od cierpienia. Widzę, jak to odcisnęło piętno na [patient.GetHerHis] ciele — rany, które nie chcą się zagoić, choroby, które odbierają siły, cień śmierci, który się zbliża. [patient.GetSheHe|U] nie przychodzi do mnie jako wierzący, lecz jako zdesperowana [Select_CString(patient.IsFemale,'kobieta','mężczyzna')] szukająca zbawienia tam, gdzie nie ma już innych nadziei.\n\nOgień oczyszcza. Ogień leczy. Ale ogień nie jest łagodny. Pan Światła nie daje darów za darmo — zawsze jest jakaś cena. Pytanie brzmi, czy [patient.GetTitledFirstNameNoTooltip] jest godzien Jego łaski… czy też to [red_priest.GetSheHe] spłonie podczas próby."
+ agot_rhllor.0002.a:0 "Światło R'hllora cię oczyści."
+ agot_rhllor.0002.b:0 "Jeśli chcesz wejść w ogień, musisz najpierw przyjąć jego prawdę."
+ agot_rhllor.0002.b.tt:0 "Proszę [patient.GetTitledFirstName], by przeszedł na twoją wiarę"
+ agot_rhllor.0002.c:0 "Płomienie nie są dla ciebie."
+
+ # Czerwony kapłan pomaga mi
+ agot_rhllor.0003.title:0 "Modlitwa w ogniu"
+ agot_rhllor.0003.desc:0 "Czerwony kapłan rozpoczyna [red_priest.GetHerHis] rytuał, mamrocząc święte słowa, gdy płomienie wznoszą się coraz wyżej, rzucając drgające cienie na komnatę. Żar narasta, napierając na moją skórę — to nie tylko ciepło, lecz coś głębszego, coś żywego.\n\n[red_priest.GetSheHe|U] mówi o świetle R'hllora, o mocy ognia, by oczyszczać i przywracać. Ale ogień nie uzdrawia wszystkiego naraz. Muszę wybrać, którą dolegliwość powierzę łasce boga [red_priest.GetHerHis]."
+ agot_rhllor.0003.a:0 "Błagam, ulecz moje rany!" #wounded_1 wounded_2 wounded_3 maimed
+ agot_rhllor.0003.b:0 "Jestem zmęczony — daj mi siłę!" #ill
+ agot_rhllor.0003.c:0 "Wypal tę przeklętą chorobę!" #great_pox
+ agot_rhllor.0003.d:0 "Usuń tę chorobę, nim się rozwinie!" #early_great_pox
+ agot_rhllor.0003.e:0 "Usuń tę chorobę, nim się rozwinie!" #lovers_pox
+ agot_rhllor.0003.f:0 "Nie chcę marnieć — uratuj mnie!" #leper
+ agot_rhllor.0003.g:0 "Wzmocnij moje ciało, odegnaj słabość!" #infirm
+ agot_rhllor.0003.h:0 "Ból w moich stawach jest nie do zniesienia!" #gout_ridden
+ agot_rhllor.0003.i:0 "Pozwól mi oddychać bez trudu!" #consumption
+ agot_rhllor.0003.j:0 "Wypal ten rosnący cień ze mnie!" #cancer
+ agot_rhllor.0003.k:0 "Uchroń mnie przed gorączką!" #typhus
+ agot_rhllor.0003.l:0 "Pozwól przetrwać tę plagę!" #bubonic_plague
+ agot_rhllor.0003.m:0 "Oczyść moją skórę, spraw, bym znów był cały!" #smallpox
+ agot_rhllor.0003.n:0 "Wypędź tę klątwę z mojego ciała!" #measles
+ agot_rhllor.0003.o:0 "Uśmierz ból w moim brzuchu, błagam!" #dysentery
+ agot_rhllor.0003.p:0 "Powstrzymaj tę klątwę, uwolnij mnie!" #ergotism
+ agot_rhllor.0003.q:0 "Potrzebuję powietrza! Pozwól mi znów oddychać!" #wheezing
+ agot_rhllor.0003.r:0 "Wypal ten narastający kamień!" #greyscale
+ agot_rhllor.0003.s:0 "Ocal mnie, nim choroba się rozwinie!" #spring_sickness
+ agot_rhllor.0003.t:0 "Ucisz moje dreszcze, obdarz mnie ciepłem!" #shivers
+ agot_rhllor.0003.u:0 "Chcę znów chodzić!" #crippled
+
+
+ # Czerwony kapłan pomaga mi, jeśli się nawrócę
+ agot_rhllor.0004.t:0 "Cena zbawienia"
+ agot_rhllor.0004.desc:0 "Czerwony kapłan nie zaczyna [red_priest.GetHerHis] rytuału. Zamiast tego patrzy na mnie z niezachwianą pewnością, jego głos jest stanowczy, gdy przemawia.\n\n#EMP \"Ogień może oczyścić. Ogień może uleczyć. Ale dlaczego R'hllor miałby obdarzyć swymi darami kogoś, kto nie kroczy w jego świetle?\" #!\n\n[red_priest.GetSheHe|U] nie pomoże mi — jeszcze nie. Dopóki nie wyrzeknę się starych bogów, dawnych zwyczajów i nie przysięgnę przed obliczem Pana Światła. Moje cierpienie może się skończyć, ale tylko jeśli uklęknę przed [red_priest.GetHerHis] płomieniem."
+ agot_rhllor.0004.a:0 "Przysięgam! Tylko mnie uzdrów!"
+ agot_rhllor.0004.b:0 "Nie, to nie jest tego warte."
+
+ # Czerwony kapłan nie chce mi pomóc
+ agot_rhllor.0005.t:0 "Porzucony przez Płomień"
+ agot_rhllor.0005.desc:0 "Czerwony kapłan spogląda na mnie, [red_priest.GetHerHis] wyraz twarzy jest nieczytelny. Czekam, aż [red_priest.GetHerHim] zacznie rytuał, aż szepnie modlitwy, poczuję narastające ciepło płomieni — ale nic takiego się nie dzieje.\n\n#EMP \"Pan Światła daje swe błogosławieństwa komu chce. Nie zostałeś wybrany.\" #!\n\n[red_priest.GetHerHis|U] słowa są ostateczne, ton niewzruszony. [red_priest.GetSheHe|U] nie uzdrowi mnie. Czy to wina zwątpienia, pogardy czy czegoś poza moim zrozumieniem — nie wiem. Ale [red_priest.GetSheHe] mnie odrzucił, zostawiając mnie w cierpieniu jak wcześniej."
+ agot_rhllor.0005.a:0 "Niech tak będzie."
+ agot_rhllor.0005.b:0 "Wrzucić tego heretyka do lochów!"
+
+ # Senior odmówił nawrócenia się
+ agot_rhllor.0006.t:0 "Głupota szaleńca"
+ agot_rhllor.0006.desc:0 "Głupiec odwraca się od światła, trzymając się swoich fałszywych bogów, swej pustej wiary. [patient.GetSheHe|U] woli cierpieć niż uklęknąć przed prawdą płomienia.\n\nWidziałem już [Select_CString(patient.IsFemale,'kobiety','mężczyzn')] takich jak [patient.GetHerHim] — dumnych, upartych, ślepych na wolę R'hllora. Niektórzy trwają w swej niedoli, więdnąc jak dogasające żagwie. Innych ogień pochłania całkowicie, ciało poddaje się pod ciężarem własnego uporu.\n\nMiłosierdzie R'hllora zostało ofiarowane i odrzucone. Teraz tylko płomienie znają los, jaki czeka [patient.GetHerHim]."
+ agot_rhllor.0006.a:0 "Niech będzie. [patient.GetSheHe|U] dokonał [patient.GetHerHis] wyboru."
+ agot_rhllor.0006.b:0 "[patient.GetSheHe|U] pożałuje tej decyzji."
+
+ # Pełny sukces / Częściowy sukces / Porażka
+ agot_rhllor.0007.t.success:0 "Łaska ognia"
+ agot_rhllor.0007.t.failure:0 "Sąd ognia"
+
+ agot_rhllor.0007.patient.fail.desc:0 "Płomienie ryczały, kapłan intonował modlitwy, ale nic się nie zmieniło. Czułem ciepło, ciężar oczekiwań, lecz moje ciało pozostało takie samo — chore, słabe. Czy to sąd R'hllora, czy porażka kapłana?"
+ agot_rhllor.0007.patient.crit_fail.desc:0 "Ból, jakiego nigdy nie zaznałem, przeszył mnie na wskroś. Ogień, który miał leczyć, zamiast tego rozszarpał moje ciało, zostawiając mnie roztrzęsionego i złamanego. Wyraz twarzy czerwonego kapłana się nie zmienił, jakby [red_priest.GetSheHe] przewidział ten los. Czy R'hllor naprawdę mnie porzucił?"
+ agot_rhllor.0007.patient.succ.desc:0 "Ogień muskał moją skórę, ale zamiast bólu poczułem ciepło — głębokie, wszechogarniające, lecz nie okrutne. Powoli mój ból ustępował, siły wracały. Byłem wciąż sobą, ale już cały. Czerwony kapłan patrzył w milczeniu, jego wzrok nie do odczytania."
+ agot_rhllor.0007.patient.crit_succ.desc:0 "To było coś więcej niż uzdrowienie. Ogień przepłynął przeze mnie, napełniając kończyny nową siłą, wyostrzając zmysły. Czułem się lżejszy, silniejszy, jakby przywrócono mi coś więcej niż tylko ciało. Kapłan przyglądał mi się, jego usta szeptały nieme modlitwy."
+ agot_rhllor.0007.red_priest.fail.desc:0 "Płomienie wzniosły się wysoko, ale światło nie odpowiedziało. Czułem żar, szeptałem modlitwy, lecz ciało przede mną pozostało niezmienione. Czy ta dusza była niegodna, czy źle odczytałem wolę ognia?"
+ agot_rhllor.0007.red_priest.crit_fail.desc:0 "Ostrzeżenie. Kara. Płomienie rozszalały się za bardzo i zanim zdołałem je powstrzymać, zobaczyłem, jak palący ból pochłania ciało. Rytuał zawiódł, a co więcej — ogień pochłonął zamiast oczyścić. R'hllor przemówił, a jego sąd był okrutny."
+ agot_rhllor.0007.red_priest.succ.desc:0 "Ogień odpowiedział. Powoli dolegliwość znikła, rany się zasklepiły, cierpienie ustąpiło. To nie było zwykłe leczenie — to była wola Pana Światła, a dziś [patient.GetSheHe] raczył okazać łaskę."
+ agot_rhllor.0007.red_priest.crit_succ.desc:0 "Patrzyłem, jak płomienie robią coś więcej niż leczą — przemieniają. Siła, która napełniła to ciało, była czymś więcej niż zwykłym zdrowiem, była boska. R'hllor pobłogosławił go ponad zwykłe wyzdrowienie. Być może ten naprawdę został wybrany."
+
+ agot_rhllor.0007.patient.fail.outro_desc:0 "\n\nOgień gaśnie, a ja pozostaję taki, jaki byłem. Słaby. Złamany. Cokolwiek czerwony kapłan chciał wywołać, nie nadeszło. Może płomienie nie odpowiadają wszystkim, którzy je wzywają."
+ agot_rhllor.0007.patient.crit_fail.outro_desc:0 "\n\nBól przeszył mnie jak żar. To nie było leczenie — to była zguba. Zachwiałem się, dysząc, moje ciało słabsze niż przedtem. Czy rozgniewałem boga [red_priest.GetHerHis], czy może [red_priest.GetSheHe]?"
+ agot_rhllor.0007.patient.succ.outro_desc:0 "\n\nPłomienie ustępują, oddycham swobodniej. Ból zniknął, choroba ustąpiła. Znów jestem cały. Kapłan kiwa głową, jakby to było oczywiste."
+ agot_rhllor.0007.patient.crit_succ.outro_desc:0 "\n\nSiła przepływa przeze mnie, większa niż kiedykolwiek. Ogień nie tylko mnie uleczył — uczynił mnie kimś więcej. Czerwony kapłan patrzy, w jego oczach płonie coś głębszego niż wiara."
+ agot_rhllor.0007.red_priest.fail.outro_desc:0 "\n\nŻar wygasł, a dolegliwość pozostała. Ogień był niemy. Ta dusza nie została wybrana — a może ja nie byłem godny przywołać jego światła."
+ agot_rhllor.0007.red_priest.crit_fail.outro_desc:0 "\n\nPłomienie nie oczyściły. Pochłonęły. Patrzę, jak ciało drży, ślad ognia wypalony w ciele. R'hllor odwrócił się od nich — lub, co gorsza, ich potępił."
+ agot_rhllor.0007.red_priest.succ.outro_desc:0 "\n\nPan Światła odpowiedział. Dolegliwość zniknęła, łaska ognia została udzielona. Dziś płomień uleczył."
+ agot_rhllor.0007.red_priest.crit_succ.outro_desc:0 "\n\nTo nie było zwykłe leczenie. Ręka R'hllora ich dotknęła, przetapiając ich w swoim ogniu. Są nie tylko zdrowi — są czymś większym."
+
+ agot_rhllor.0007.patient.succ_wounds.outro_desc:0 "\n\nBól minął. Moje ciało, kiedyś rozcięte i rozorane, teraz jest zamknięte, pozostało tylko wspomnienie rany. Ogień naprawił to, czego nie dokonała stal."
+ agot_rhllor.0007.patient.succ_disease.outro_desc:0 "\n\nBiorę głęboki oddech i po raz pierwszy od tygodni moje ciało nie stawia oporu. Choroba zniknęła, jej uścisk został przerwany. Jestem znów cały."
+ agot_rhllor.0007.patient.succ_curse.outro_desc:0 "\n\nCiężar, który nosiłem tak długo, stał się lżejszy. Moje kończyny nie drżą, oddech nie urywa się. Może nigdy nie będę taki jak dawniej, ale dziś kroczę w świetle."
+ agot_rhllor.0007.patient.crit_succ_wounds.outro_desc:0 "\n\nNie tylko rany się zamknęły, lecz moje ciało jest silniejsze, szybsze — jakby zostało przetopione i zahartowane w ogniu. Czymkolwiek byłem wcześniej, teraz jestem czymś więcej."
+ agot_rhllor.0007.patient.crit_succ_disease.outro_desc:0 "\n\nOgień zrobił więcej niż tylko wypalił chorobę — obudził coś we mnie. Kończyny nie bolą, umysł nie jest zamglony. Czuję się żywy, jakby choroba wysysała ze mnie siły przez lata, a dopiero teraz jestem tym, kim miałem być."
+ agot_rhllor.0007.patient.crit_succ_curse.outro_desc:0 "\n\nWstaję, czując się nie tylko uzdrowiony, lecz kompletny, jak dawno już nie byłem. Oddech równy, ciało pewne. Ogień nie tylko mnie wyleczył — obdarzył mnie nową siłą."
+ agot_rhllor.0007.patient.fail_wounds.outro_desc:0 "\n\nPłomienie przygasły, lecz moje rany pozostały. Nie czuję różnicy, oprócz ciepła na skórze. Modlitwy kapłana pozostały bez odpowiedzi."
+ agot_rhllor.0007.patient.fail_disease.outro_desc:0 "\n\nCzekam, oddech wstrzymany w napięciu. Ale choroba mnie nie opuszcza. Kończyny wciąż ciężkie, ciało słabe. Ogień nie odpowiedział."
+ agot_rhllor.0007.patient.fail_curse.outro_desc:0 "\n\nMoje kończyny drżą, stoję tak samo słaby jak przedtem. Ciężar, którego chciałem się pozbyć, wciąż mnie trzyma. Może nawet ogień nie jest w stanie wypalić tej klątwy."
+ agot_rhllor.0007.patient.crit_fail_wounds.outro_desc:0 "\n\nPalący ból przeszywa moje ciało. Chwieję się, dysząc, gdy ogień liże skórę — nie, by leczyć, lecz by ranić. Rytuał nie uzdrowił mnie — pozostawił mnie bardziej złamanym niż przedtem."
+ agot_rhllor.0007.patient.crit_fail_disease.outro_desc:0 "\n\nGorąco rozlewa się po moich żyłach, lecz nie czuję ulgi. Wizja ciemnieje, ciało drży gwałtownie. Ogień mnie zawiódł. Nie — zdradził."
+ agot_rhllor.0007.patient.crit_fail_curse.outro_desc:0 "\n\nSerce ściska mi się, kończyny sztywnieją. To nie było błogosławieństwo. Płomienie naznaczyły mnie, zostawiając w gorszym stanie niż przedtem. Może kapłan się mylił. A może R'hllor uznał mnie za niegodnego."
+
+ agot_rhllor.0007.red_priest.succ_wounds.outro_desc:0 "\n\nRany się zamykają, ciało się zrasta. Ogień wykonał swoje dzieło, zamykając ciało jak stal. Taka była wola Pana Światła."
+ agot_rhllor.0007.red_priest.succ_disease.outro_desc:0 "\n\nPatrzę, jak choroba ich opuszcza, jak oddech się uspokaja, wraca kolor. Ogień odpowiedział. Dolegliwość znikła."
+ agot_rhllor.0007.red_priest.succ_curse.outro_desc:0 "\n\nNie wszystkie ciężary można zdjąć, ale dziś ogień złagodził jeden z nich. Stają pewniejsi niż przedtem. To nie cud, ale wystarczy."
+ agot_rhllor.0007.red_priest.crit_succ_wounds.outro_desc:0 "\n\nTo nie było zwykłe leczenie. Ogień ich wzmocnił, przetopił jak stal w kuźni. Są nie tylko cali — są czymś większym."
+ agot_rhllor.0007.red_priest.crit_succ_disease.outro_desc:0 "\n\nWidziałem wielu, którzy wyzdrowieli, ale to jest inne. Dolegliwość nie tylko została wypalona — ciało odnowione, otrzymało więcej niż miało wcześniej."
+ agot_rhllor.0007.red_priest.crit_succ_curse.outro_desc:0 "\n\nR'hllor dał więcej niż łaskę — przetopił tego człowieka w swym ogniu. Powstaje silniejszy niż był. Ogień go wybrał."
+ agot_rhllor.0007.red_priest.fail_wounds.outro_desc:0 "\n\nOgień był niemy. Rany pozostały. Czy to próba, czy sąd — nie wiem."
+ agot_rhllor.0007.red_priest.fail_disease.outro_desc:0 "\n\nChoroba trwa, nieporuszona płomieniami. Nie każdy, kto szuka zbawienia, je znajdzie."
+ agot_rhllor.0007.red_priest.fail_curse.outro_desc:0 "\n\nCiężar pozostał. Może nawet ogień nie wypali tego losu."
+ agot_rhllor.0007.red_priest.crit_fail_wounds.outro_desc:0 "\n\nPłomienie nie uleczyły. Pochłonęły. Widzę przypaloną skórę, ból na ich twarzy. Ogień dziś nie odpowiedział łaską."
+ agot_rhllor.0007.red_priest.crit_fail_disease.outro_desc:0 "\n\nDrżą, ciało szarpane agonią. Ogień nie wypalił choroby — tylko ją pogorszył."
+ agot_rhllor.0007.red_priest.crit_fail_curse.outro_desc:0 "\n\nOkrutny sąd. Dolegliwość nie znika — pogłębia się, jakby ogień jeszcze bardziej ich przeklął."
+
+ agot_rhllor.0007.a.patient.success:0 "Ogień mnie uleczył. Jestem ci wdzięczny."
+ agot_rhllor.0007.a.patient.crit_success:0 "Czuję się silniejszy niż kiedykolwiek. To nie było zwykłe uzdrowienie."
+ agot_rhllor.0007.a.patient.failure:0 "Płomienie nie zadziałały. Może to była tylko złudna nadzieja."
+ agot_rhllor.0007.a.patient.crit_failure:0 "Obiecałeś uzdrowienie, a ogień przyniósł mi tylko ból!"
+ agot_rhllor.0007.a.red_priest.success:0 "Pan Światła okazał ci dziś łaskę. Wykorzystaj to mądrze."
+ agot_rhllor.0007.a.red_priest.crit_success:0 "Ogień nie tylko cię uleczył — przetopił cię. Jesteś teraz silniejszy niż wcześniej."
+ agot_rhllor.0007.a.red_priest.failure:0 "Nie każdy, kto szuka światła, je znajdzie. Może to próba, nie wyrok."
+ agot_rhllor.0007.a.red_priest.crit_failure:0 "Płomienie nie okazały łaski... Przemówiły, a ich wola jest ostateczna."
+ agot_rhllor.0007.b:0 "Ogień mnie ocalił… Widzę teraz jego prawdę. Będę kroczyć w świetle R'hllora."
+ agot_rhllor.0007.c:0 "To nie było leczenie — to była tortura! Straże, schwytać tego fałszywego kapłana!"
+
+ # Czerwony kapłan oferuje pomoc
+ agot_rhllor.0008.t:0 "Szept ognia"
+ agot_rhllor.0008.desc:0 "[red_priest.GetTitledFirstName], czerwony kapłan, wychodzi naprzód, [red_priest.GetHerHis] szaty przesuwają się niczym migoczące żarzące się węgle. [red_priest.GetHerHis|U] spojrzenie zatrzymuje się na mnie — bez strachu, bez czci, lecz z pewnością.\n\n#EMP „Jesteś dotknięty klątwą,” #! mówi [red_priest.GetSheHe], [red_priest.GetHerHis] głos spokojny, lecz stanowczy.#EMP „Może jeszcze tego nie czujesz. Może ignorujesz znaki. Ale ogień widzi to, czego nie dostrzega oko. Pan Światła przysłał mnie do ciebie z jakiegoś powodu.” #!\n\nNie szukałem [red_priest.GetHerHim], a jednak oto [red_priest.GetSheHe] stoi przede mną, oferując to, czego inni nie mogli."
+ agot_rhllor.0008.a:0 "Jeśli możesz mi pomóc, zrób to."
+ agot_rhllor.0008.b:0 "Nie potrzebuję twojego ognia."
+
+ # Czerwony kapłan oferuje pomoc, jeśli się nawrócę
+ agot_rhllor.0009.t:0 "Układ w ogniu"
+ agot_rhllor.0009.desc:0 "[red_priest.GetTitledFirstName], czerwony kapłan, wychodzi naprzód, [red_priest.GetHerHis] szaty falują niczym żar na wietrze. [red_priest.GetHerHis|U] oczy płoną przekonaniem, gdy [red_priest.GetSheHe] przemawia.\n\n#EMP „Jesteś chory, czy tego chcesz czy nie. Ogień odsłania to, co ciało ukrywa. Ale R’hllor nie daje [red_priest.GetHerHis] darów za darmo. Jeśli pragniesz uzdrowienia, musisz najpierw kroczyć w jego świetle.” #!\n\n[red_priest.GetSheHe|U] oferuje zbawienie — ale za cenę. Aby przyjąć uzdrowienie, muszę wyrzec się starych bogów i przyjąć Pana Światła."
+ agot_rhllor.0009.a:0 "Będę kroczyć przez ogień, jeśli to da mi zbawienie."
+ agot_rhllor.0009.b:0 "Nie ukłonię się twojemu bogu."
+ agot_rhllor.0009.c:0 "Ten heretyk żeruje na słabych — pojmać [red_priest.GetHerHim]!"

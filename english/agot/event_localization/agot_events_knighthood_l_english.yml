@@ -1,0 +1,128 @@
+﻿l_english:
+
+ #########################
+ ## Zdarzenia rycerskie ##
+ #########################
+
+ # Wędrowny rycerz chce wziąć twojego dziedzica na giermka
+ agot_knighthood.0016.t:0 "Wędrowny Rycerz"
+ agot_knighthood.0016.desc:0 "Od kilku nocy w moich komnatach nocuje wędrowny rycerz. Wygląda na to, że mój syn, [potential_child_squire.GetName], bardzo się z nim zaprzyjaźnił. Również rycerz zdążył polubić mojego syna. Chłopiec zafascynował się opowieściami o rycerskich przygodach i honorze, które usłyszał z jego ust.\n\nW ostatni dzień swojego pobytu na moim dworze, rycerz oferuje, że zostanie tu na dłużej, jeśli pozwolę mojemu synowi zostać jego giermkiem.\n\nCzłowiek wydaje się być uczciwy, a mój syn byłby przeszczęśliwy. Muszę to przemyśleć."
+ agot_knighthood.0016.a:0 "Tak, zostań i weź go na giermka!"
+ agot_knighthood.0016.a.tt:0 "[hedge_knight.GetName] dołączy do twojego dworu i weźmie twojego syna na swojego [squire|e]."
+ agot_knighthood.0016.b:0 "Nie, nie jesteś odpowiednim rycerzem."
+ agot_knighthood.0016.b.tt:0 "[hedge_knight.GetName] opuści twój dwór."
+
+ # Wędrowny rycerz chce pasować twojego młodszego syna
+ agot_knighthood.0700.t:0 "Wędrowny Rycerz i Zapasowy Syn"
+ agot_knighthood.0700.desc:0 "Rycerz z gościńca imieniem [hedge_knight.GetName] niedawno odwiedził mój dwór. Z urodzenia [hedge_knight.GetCulture.GetName], przemierza krainy w poszukiwaniu służby u możnego pana. Niewiele o nim wiem, poza tym, że ponoć pochodzi z pomniejszego westerlandzkiego rodu szlacheckiego i oczywiście jest rycerzem.\n\nNie zwracałem na niego większej uwagi i sądziłem, że wkrótce ruszy w dalszą drogę. Jednakże przyszedł do mnie z propozycją, bym pozwolił mu pasować na rycerza mojego syna, [potential_child_knight.GetName], w zamian za możliwość pozostania na moim dworze tak długo, jak zechce!"
+ agot_knighthood.0700.a:0 "Myślę, że możemy się na to zgodzić."
+ agot_knighthood.0700.b:0 "Nie, nie zgodzę się na to."
+
+ # Wędrowny rycerz chce pasować ciebie
+ agot_knighthood.0701.t:0 "Wędrowny Rycerz i Pan"
+ agot_knighthood.0701.desc:0 "Rycerz z gościńca imieniem [hedge_knight.GetName] niedawno odwiedził mój dwór. Z urodzenia [hedge_knight.GetCulture.GetName], podróżuje przez krainy z nieznanych powodów.\n\nChociaż nie zwracałem na niego uwagi, wydaje się, że on zwrócił ją na mnie. Do moich sług trafiła dziś rano niechlujnie napisana notka z propozycją pasowania mnie na rycerza — podpisana własnoręcznie przez [hedge_knight.GetFirstNamePossessive]. Za odpowiednią opłatą mogę otrzymać pasowanie."
+ agot_knighthood.0701.a:0 "Przyjmuję tę propozycję."
+ agot_knighthood.0701.b:0 "Nie, nie zgodzę się na to."
+
+ #####################
+ # Rycerstwo dynastii #
+ #####################
+
+ #0017-19
+ agot_knighthood.0017.t:0 "Rycerskie więzy krwi"
+ agot_knighthood.0017.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_squire'))], [potential_squire.GetName], nie został jeszcze giermkiem. Może jeśli zaproponuję mu giermkostwo, wzmocnimy nasze więzi?"
+ agot_knighthood.0017.a:0 "Tak, zaproponuj mu zostanie giermkiem."
+ agot_knighthood.0017.a.tt:0 "Proponujesz, by [potential_squire.GetName] został twoim [squire|e]"
+ agot_knighthood.0017.b:0 "Nie, to strata czasu."
+ agot_knighthood.0017.b.tt:0 "Nie proponujesz [potential_squire.GetName] zostania giermkiem."
+
+ agot_knighthood.0018.opening:0 "Do [potential_knight_for_child.GetName],"
+ agot_knighthood.0018.desc:0 "Zauważyłem, że nie jesteś jeszcze giermkiem! Jeśli chcesz to zmienić, musisz znaleźć odpowiedniego rycerza...\n\nNa szczęście los związał nas więzami krwi! Jeśli chcesz, przyjmę cię na swojego giermka, a kiedy zasłużysz, sam cię pasuję."
+ agot_knighthood.0018.a:0 "Przyjmuję z radością!"
+ agot_knighthood.0018.b:0 "Wybacz, ale nie."
+ agot_knighthood.0018.b_toast:0 "[potential_squire.GetName] Odpowiada"
+ agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetName] odrzucił twoją propozycję."
+
+ agot_knighthood.0019.opening:0 "Do [knight_offerer.GetName],"
+ agot_knighthood.0019.desc:0 "Przyjmuję twoją propozycję zostania twoim giermkiem. Ta sama krew płynie w naszych żyłach, więc powinniśmy wzmacniać te więzi!"
+ agot_knighthood.0019.a:0 "Wspaniale!"
+
+ ##############################
+ # Powiadomienia o giermkostwie #
+ ##############################
+
+ agot_knighthood.became_a_squire_toast.t:0 "Giermkostwo"
+ agot_knighthood.became_a_squire_toast.tt:0 "Zostałem giermkiem [my_knight.GetName]"
+
+ agot_knighthood.0300.t:0 "Postępy Giermka"
+ agot_knighthood.0300.desc:0 "Mój giermek, [my_squire.GetName], udowodnił swoją wartość! [my_squire.GetSheHe|U] zrobił ogromne postępy i uważam, że nadszedł czas, bym go pasował na rycerza."
+ agot_knighthood.0300.a:0 "Pasuję [my_squire.GetHerHim] na rycerza."
+ agot_knighthood.0300.a.tt:0 "[my_squire.GetName] zostanie pasowany!"
+
+ agot_knighthood.0320.t:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))|U] Został Rycerzem!"
+ agot_knighthood.0320.desc_same_house:0 "Dotarły do mnie wieści, że mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))], [my_relation.GetTitledFirstName], został pasowany na rycerza! [my_relation.GetSheHe|U] przyniósł wielką dumę rodowi [ROOT.GetCharacter.GetHouse.GetName]."
+ agot_knighthood.0320.desc_not_same_house:0 "Dotarły do mnie wieści, że mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))], [my_relation.GetTitledFirstName], został pasowany na rycerza! [my_relation.GetSheHe|U] napawa nas wszystkich dumą."
+ agot_knighthood.0320.a:0 "Dobrze dla [my_relation.GetHerHim]!"
+
+
+ ##################
+ # Toast Tooltips #
+ ##################
+
+ agot_knighthood.increase_progtoknighthood_toast.tt:0 "Twój postęp w stronę pasowania na rycerza wzrasta."
+ agot_knighthood.decrease_progtoknighthood_toast.tt:0 "Twój postęp w stronę pasowania na rycerza maleje."
+
+ agot_knighthood.0021.a_toast:0 "Giermkostwo Przyznane"
+ agot_knighthood.0021.a_toast.tt:0 "Zostałeś giermkiem [potential_knight.GetNamePossessive]."
+ agot_knighthood.0021.b_toast:0 "[nearby_knight.GetName] Odpowiada"
+ agot_knighthood.0021.b_toast.tt:0 "[nearby_knight.GetName] odrzucił twoją prośbę."
+
+ ##Używane w interakcji Giermek (przez menu postaci)
+ agot_knighthood_squire_offer_accept_toast:0 "Oferta Giermkostwa Przyjęta"
+ agot_knighthood_squire_offer_accept_toast.tt:0 "Zyskałeś giermka!"
+ agot_knighthood_squire_offer_reject_toast:0 "Oferta Giermkostwa Odrzucona"
+ agot_knighthood_squire_offer_reject_toast.tt:0 "Twoja oferta giermkostwa została #N odrzucona#!"
+
+ agot_knighthood_offer_rejected_toast:0 "Oferta Rycerstwa Odrzucona"
+ agot_knighthood_offer_rejected_toast.tt:0 "Twoja oferta pasowania na rycerza została #N odrzucona#!"
+
+ #Używane poza interakcją 'przyznaj rycerstwo'
+ agot_knighthood_made_a_knight_generic_toast:0 "Pasowałeś Kogoś na Rycerza!"
+ agot_knighthood_made_a_knight_generic_toast.tt:0 "Pasowałeś kogoś na rycerza"
+
+ #################################
+ ## Zdarzenie Pasowania na Polu Bitwy ##
+ #################################
+
+ agot_knighthood.0601.t:0 "Rycerstwo na Polu Bitwy"
+ agot_knighthood.0601.desc:0 "Po bitwie w [battle_province.GetName] jeden z moich sług przedstawia mi listę żołnierzy, którzy wykazali się niezwykłą odwagą. Na liście szczególnie wyróżnia się [soldier_to_be_knighted.GetNamePossessive].\n\nMój sługa sugeruje, bym dokonał pasowania na rycerza w pośpiechu, wśród zgliszczy bitwy — taki gest miałby podnieść morale wśród naszych szeregów."
+ agot_knighthood.0601.a:0 "Tak, pasuję [soldier_to_be_knighted.GetFirstName] na rycerza."
+ agot_knighthood.0601.a.tt:0 "Pasujesz [soldier_to_be_knighted.GetName] na rycerza."
+ agot_knighthood.0601.b:0 "Nie, nie będę go pasować."
+
+ agot_knighthood.0602.t:0 "Rycerstwo na Polu Bitwy"
+ agot_knighthood.0602.desc:0 "Po bitwie w [battle_province.GetName] kilku ludzi, w tym ja, zostało wezwanych przez dowódcę, [side_commander.GetName].\n\n[side_commander.GetSheHe] poinformował nas, że jest pod wrażeniem naszej odwagi na polu bitwy i że zostaniemy pasowani na rycerzy za nasze czyny!"
+ agot_knighthood.0602.a:0 "Jestem teraz rycerzem!"
+ agot_knighthood.0602.a.tt:0 "Zostałeś pasowany na rycerza!"
+
+######################################
+## Wydarzenia Specjalnego Przydziału Giermka ##
+######################################
+
+agot_knighthood.0800.t:0 "Rycerze z Naszych Dzieci"
+agot_knighthood.0800.desc:0 "Moje dziecko, [squire.GetName], osiągnęło już wiek odpowiedni do giermkostwa. Może mógłbym nakazać członkowi mojej Gwardii Królewskiej, by uczynił z niego swojego giermka? Uważam, że [knight.GetName] byłby dobrym kandydatem."
+agot_knighthood.0800.a:0 "Tak!"
+agot_knighthood.0800.b:0 "Nie!"
+
+agot_knighthood.0801.t:0 "Rycerze z Naszych Dzieci"
+agot_knighthood.0801.desc:0 "Moje dziecko, [squire.GetName], osiągnęło już wiek odpowiedni do giermkostwa. Może mógłbym nakazać wasalowi z mojego państwa, by uczynił z niego swojego giermka? Uważam, że [knight.GetName] byłby dobrym kandydatem."
+agot_knighthood.0801.a:0 "Tak!"
+agot_knighthood.0801.b:0 "Nie!"
+
+agot_knighthood.0802.opening:0 "Do mojego wiernego wasala,"
+agot_knighthood.0802.desc:0 "Nakazuję ci przyjąć [squire.GetName] na swojego giermka! Mam nadzieję, że nauczysz [squire.GetName], co to znaczy być rycerzem!"
+agot_knighthood.0802.a:0 "Otrzymałem rozkaz."
+
+##KLUCZE LOKALIZACYJNE DO PASOWANIA
+
+contest_winner_ceremony_knighthood_tt:0 "Został pasowany przez [host.GetShortUIName|U]"

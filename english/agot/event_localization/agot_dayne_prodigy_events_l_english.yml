@@ -1,0 +1,163 @@
+﻿l_english:
+ # Parent will have choice of either trying to make their son brave, or have them train with a sword
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0002.t:0 "Śmiały Gwiezdny Miecz"
+ agot_dayne_prodigy.0002.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] przez ostatnie dwa lata nie robił niemal nic poza studiowaniem sztuki wojennej i ćwiczeniem walki mieczem — nadszedł czas, by naprawdę go czegoś nauczyć.\n\nBy stać się Mieczem Poranka, trzeba być gotowym stawić czoła nawet najbardziej przerażającym przeciwnikom — i w tym celu mam przed sobą dwie drogi nauczania: zaszczepić odwagę w [prodigy.GetFirstNameNoTooltip] przez niebezpieczne ćwiczenia w turnieju, albo zapewnić [prodigy.GetHerHim] dalszy bezpośredni trening orężny."
+ agot_dayne_prodigy.0002.a:0 "Na koń!"
+ agot_dayne_prodigy.0002.a.tt:0 "Spróbujesz uczynić [prodigy.GetFirstNameNoTooltip] bardziej odważn[ym|ą]"
+ agot_dayne_prodigy.0002.b:0 "Chwyć za miecz!"
+ agot_dayne_prodigy.0002.b.tt:0 "[prodigy.GetFirstNameNoTooltip] będzie kontynuować [prodigy.GetHerHis] trening orężny"
+ agot_dayne_prodigy.0002.gainedprowess1:0 "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] wzrasta o [prowess_i] 1"
+ agot_dayne_prodigy.0002.gainedprowess2:0 "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] wzrasta o [prowess_i] 2"
+ agot_dayne_prodigy.0002.gainedprowess3:0 "[prodigy.GetFirstNamePossessiveNoTooltip] [prowess|E] wzrasta o [prowess_i] 3"
+ agot_dayne_prodigy.0002.gainednoprowess:0 "[prodigy.GetFirstNameNoTooltip] nie zyskał[a] żadnego [prowess|E]"
+ agot_dayne_prodigy.0002.gainedtraitbrave:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('brave').GetName( prodigy )]"
+ agot_dayne_prodigy.0002.gainedtraitcraven:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('craven').GetName( prodigy )]"
+
+ # Parent will have option to push their child for prowess training, or to make them just
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0003.t:0 "Sprawiedliwość i stal"
+ agot_dayne_prodigy.0003.desc:0 "Trening [prodigy.GetFirstNamePossessive] przebiega dobrze, lecz rycerskość to nie tylko machanie mieczem i szarże na wrogów. Trzeba również nieść sprawiedliwość swego seniora tym, którzy na nią zasługują. A sprawiedliwość to rzecz ciężka — i nie bez wyzwań.\n\nStoję więc na rozdrożu, zawieszony między dwoma lekcjami, których mój [ROOT.Char.Custom2('RelationToMe', prodigy)] wciąż musi się nauczyć... Wkrótce ma się odbyć proces, dający szansę, by na własne oczy zobaczyć sprawiedliwość. Uczestnictwo w nim zajmie jednak czas, który można by przeznaczyć na dalszy trening bronią, więc muszę wybrać:\n\nCo znaczy więcej dla Miecza Poranka — sprawiedliwość czy #bold [prodigy.GetHerHis] miecz?"
+ agot_dayne_prodigy.0003.a:0 "[prodigy.GetSheHe|U] pozna ciężar sprawiedliwości."
+ agot_dayne_prodigy.0003.a.tt:0 "Spróbujesz uczynić [prodigy.GetFirstNameNoTooltip] bardziej sprawiedliw[ym|ą]"
+ agot_dayne_prodigy.0003.b:0 "[prodigy.GetSheHe|U] pozostanie przy ciężarze miecza."
+ agot_dayne_prodigy.0003.b.tt:0 "[prodigy.GetFirstNameNoTooltip] będzie kontynuować [prodigy.GetHerHis] trening orężny"
+ agot_dayne_prodigy.0003.gainedtraitjust:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('just').GetName( prodigy )]"
+ agot_dayne_prodigy.0003.gainedtraitcallous:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('callous').GetName( prodigy )]"
+
+
+ # Parent will have the option of having them train harder, or trying to make them compassionate
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0004.t:0 "Życzliwa dłoń"
+ agot_dayne_prodigy.0004.desc:0 "To, co odróżnia Miecz Poranka od zwykłych rycerzy z pomniejszych rodów, to nie tylko niezrównane opanowanie miecza, ale też szlachetność ducha, którą każdy z nich wykazywał we wszystkim, co czynił. Prawdziwie wielki rycerz okazuje łaskę — nawet jeśli jest to trudniejszy wybór.\n\nNiektórzy rodzą się z dobrocią w sercu, inni muszą się jej nauczyć. Wiem, że [prodigy.GetFirstName] nie może rozwijać się tylko w walce, ale także w cnotach miłosierdzia i współczucia. Aby to osiągnąć, muszę pokazać [prodigy.GetHerHim] życie innych i wartość, jaką ono niesie. Zajmie to czas, który mógłby zostać poświęcony treningowi, lecz może okazać się o wiele cenniejsze w przyszłości. Nadal jednak muszę wybrać:\n\nMiecz czy serce?"
+ agot_dayne_prodigy.0004.desc_nocomp:0 "To, co odróżnia Miecz Poranka od zwykłych rycerzy z pomniejszych rodów, to nie tylko niezrównane opanowanie miecza, ale też szlachetność ducha, którą każdy z nich wykazywał we wszystkim, co czynił. Prawdziwie wielki rycerz okazuje łaskę — nawet jeśli jest to trudniejszy wybór.\n\nNiektórzy rodzą się z dobrocią w sercu, inni muszą się jej nauczyć. Obawiam się, że nie zostało już czasu, by przekazać tę lekcję, więc wszystko, co mogę zrobić, to nauczyć ich wartości stali."
+ agot_dayne_prodigy.0004.a:0 "Najpierw wychowamy serce, a dopiero potem ramiona."
+ agot_dayne_prodigy.0004.a.tt:0 "Spróbujesz uczynić [prodigy.GetFirstNameNoTooltip] bardziej współczując[ym|ą]"
+ agot_dayne_prodigy.0004.b:0 "Miecz pocieszy bardziej niż dobre serce."
+ agot_dayne_prodigy.0004.b.tt:0 "[prodigy.GetFirstNameNoTooltip] będzie kontynuować [prodigy.GetHerHis] trening orężny"
+ agot_dayne_prodigy.0004.gainedtraitcompassionate:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('compassionate').GetName( prodigy )]"
+ agot_dayne_prodigy.0004.gainedtraitsadistic:0 "[prodigy.GetFirstNameNoTooltip] zyskał[a] cechę [trait|E] [GetTrait('sadistic').GetName( prodigy )]"
+
+ # Parent will have the option of trying to make them a blademaster with a bunch of XP or giving up, may result in death if they choose the former
+ # Scopes are: prodigy
+ agot_dayne_prodigy.0005.t:0 "Próba o świcie"
+ agot_dayne_prodigy.0005.desc:0 "[prodigy.GetFirstName] trenował[a] całe życie na ten dzień — dzień, w którym albo udowodni swoje mistrzostwo w walce, albo na zawsze utraci szansę sięgnięcia po [dawn.GetName]. By stać się Mieczem Poranka, trzeba być ponad wszystko mistrzem ostrza, może nawet największym w Westeros lub poza nim.\n\nTylko niezrównany rycerz może dzierżyć [dawn.GetNameNoTooltip], a czas próby właśnie nadszedł. [prodigy.GetFirstNameNoTooltip] musi stoczyć pojedynek z dorosłym rycerzem — i nie tylko zwyciężyć, ale też wykazać się nadzwyczajnymi umiejętnościami. Jeśli [prodigy.GetSheHe] tego dokona, nikt nie będzie mógł wątpić w [prodigy.GetHerHis] kunszt. To niebezpieczna próba i może zakończyć się nawet śmiercią [prodigy.GetFirstNamePossessiveNoTooltip].\n\nCzy jestem gotów zaryzykować?"
+ agot_dayne_prodigy.0005.a:0 "Prawdziwy rycerz ryzykuje śmierć — rozpocznijmy próbę."
+ agot_dayne_prodigy.0005.a.tt:0 "[prodigy.GetFirstNameNoTooltip] podejmie śmiertelnie niebezpieczną próbę umiejętności"
+ agot_dayne_prodigy.0005.b:0 "Nie mogę ryzykować [prodigy.GetHerHim] — przerywamy!"
+ agot_dayne_prodigy.0005.b.tt:0 "[prodigy.GetFirstNameNoTooltip] porzuci nadzieję na zostanie Mieczem Poranka"
+
+ agot_dayne_prodigy.0006.t:0 "Noc oczekiwania"
+ agot_dayne_prodigy.0006.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] nadal ćwiczy na dziedzińcu, choć księżyc wysoko na niebie, a do świtu jeszcze daleko. Jutro [prodigy.GetSheHe] zostanie ocenion[ym|ą], i [prodigy.GetSheHe] obawia się, że nie sprosta oczekiwaniom.\n\nJedyne, co możemy teraz zrobić, to czekać na świt."
+ agot_dayne_prodigy.0006.a:0 "Czas sądu jest bliski."
+ agot_dayne_prodigy.0006.a.tt:0 "[prodigy.GetFirstNameNoTooltip] zostanie ocenion[ym|ą] pod kątem godności"
+
+ # See if the prodigy is worthy of being SOTM
+ agot_dayne_prodigy.0007.t:0 "Wschodzące Słońce"
+ #Description if dynasty head is not their parent
+ agot_dayne_prodigy.0007.desc.non_parent:0 "Ostatnio dochodzą mnie słuchy — szepty o cudownym dziecku z naszego rodu, ponoć biegłym w walce i szlachetnym sercem. Mówi się, że [prodigy.GetSheHe] to przyszłość naszego rodu, a może i więcej — przeznaczony, by zostać Mieczem Poranka.\n\nCokolwiek okaże się prawdą, ostateczny sąd spoczywa także na mnie: czy [prodigy.GetFullNameNicknamed] jest gotow[ym|ą], by stać się Mieczem Poranka?"
+ agot_dayne_prodigy.0007.desc:0 "Nadszedł dzień sądu, a cały nasz ród zebrał się, by być świadkami. Słyszałem relacje lordów i dam wysokiego i niskiego rodu, prostego ludu i rycerzy. Opowieści o odwadze, szlachetności i umiejętnościach. Choć ich czyny nie zostały jeszcze spisane, nie każdy, kto dzierżył [dawn.GetName], był znany światu, gdy po raz pierwszy uniósł to pradawne ostrze. Jest jeszcze czas na sławę.\n\nŚwiatło poranka rozlewa się po komnacie, padając na mlecznobiałe ostrze [dawn.GetNameNoTooltip] w mojej dłoni, rozświetlając jego powierzchnię i wywołując dreszcze. Czas nadszedł, nie ma już więcej do wysłuchania, lecz wiele do rozważenia.\n\nOstateczny sąd spoczywa również na mnie: czy mój [ROOT.Char.Custom2('RelationToMe', prodigy)] zasługuje na to, by stać się legendarnym Mieczem Poranka? Czy mogę zaufać, że przyniesie światło światu tak pełnemu mroku?"
+ agot_dayne_prodigy.0007.a:0 "[prodigy.GetSheHe|U] jest godn[ym|ą]!"
+ agot_dayne_prodigy.0007.a.tt:0 "[prodigy.GetFirstNameNoTooltip] zostanie Mieczem Poranka"
+ agot_dayne_prodigy.0007.b:0 "[prodigy.GetFirstNameNoTooltip] okazał[a] się niegodn[ym|ą]."
+ agot_dayne_prodigy.0007.b.tt:0 "[prodigy.GetFirstNameNoTooltip] nie zostanie Mieczem Poranka"
+ agot_dayne_prodigy.0007.c:0 "[prodigy.GetFirstNameNoTooltip] może i jest godn[ym|ą], ale nie przekażę mu/jej [dawn.GetNameNoTooltip]."
+ agot_dayne_prodigy.0007.c.tt:0 "[prodigy.GetFirstNameNoTooltip] nie zostanie Mieczem Poranka"
+
+ # Prodigy may be worthy, but there is a SOTM already
+ agot_dayne_prodigy.0008.t:0 "Oczekująca gwiazda"
+ agot_dayne_prodigy.0008.desc:0 "[prodigy.GetFirstName] trenował[a] ciężko i dobrze, i udowodnił[a], że zasługuje na noszenie [dawn.GetName] oraz tytułu z nim związanego. Choć miecz naszego rodu znajduje się już w rękach innego, wiemy, że nowa gwiazda czeka, by przejąć ten płaszcz, gdy ten upadnie. [prodigy.GetFirstNameNoTooltip] jest rozczarowan[ym|ą] — i słusznie — lecz jego/jej czas nadejdzie."
+ agot_dayne_prodigy.0008.a:0 "Cierpliwość to trudna lekcja."
+ agot_dayne_prodigy.0008.a.tt:0 "[prodigy.GetFirstNameNoTooltip] nie może jeszcze zostać Mieczem Poranka"
+
+ # Events for if Prodigy's parent is dead
+
+ # Prodigy will have choice of either trying to be brave, or training with a sword
+ agot_dayne_prodigy.0009.t:0 "Śmiały Gwiezdny Miecz"
+ agot_dayne_prodigy.0009.desc:0 "Spędziłem ostatnie dwa lata niemal wyłącznie studiując sztukę wojenną i trenując z moim mieczem — teraz nadszedł czas, by udowodnić moją odwagę! Aby zostać Mieczem Poranka, trzeba być gotowym stawić czoła nawet najstraszliwszym przeciwnikom. Mam dwie drogi, które mogą mnie przygotować: ćwiczenie turniejowe, które wystawi moją odwagę na próbę, albo skupienie się na lekcjach walki mieczem."
+ agot_dayne_prodigy.0009.a:0 "Przyprowadźcie mi konia!"
+ agot_dayne_prodigy.0009.a.tt:0 "Spróbujesz udowodnić swoją odwagę"
+ agot_dayne_prodigy.0009.b:0 "[dawn.GetNameNoTooltip] wymaga rycerza doskonałego."
+ agot_dayne_prodigy.0009.b.tt:0 "Będziesz trenować walkę mieczem"
+ agot_dayne_prodigy.0009.gainedprowess1:0 "Twoje [prowess|E] wzrasta o [prowess_i] 1"
+ agot_dayne_prodigy.0009.gainedprowess2:0 "Twoje [prowess|E] wzrasta o [prowess_i] 2"
+ agot_dayne_prodigy.0009.gainedprowess3:0 "Twoje [prowess|E] wzrasta o [prowess_i] 3"
+ agot_dayne_prodigy.0009.gainednoprowess:0 "Nie zyskałeś/-aś żadnego [prowess|E]"
+ agot_dayne_prodigy.0009.gainedtraitbrave:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('brave').GetName( ROOT.Char )]"
+ agot_dayne_prodigy.0009.gainedtraitcraven:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('craven').GetName( ROOT.Char )]"
+
+ # Prodigy will have choice of either trying to be just, or training with a sword
+ agot_dayne_prodigy.0010.t:0 "Honor i stal"
+ agot_dayne_prodigy.0010.desc:0 "Wkrótce odbędzie się proces lokalnego przestępcy; wszystkie opowieści głoszą, że rycerze są honorowymi wykonawcami sprawiedliwości swoich seniorów, a jeśli chcę udowodnić, że jestem godzien [dawn.GetName], muszę również do tego dążyć. W tym procesie widzę szansę, by ujrzeć sprawiedliwość na własne oczy — lub przynajmniej zobaczyć, jak jej brak zawodzi. To jednak czas, który mógłbym poświęcić treningowi.\n\nCo ma większą wartość: honor czy umiejętność?"
+ agot_dayne_prodigy.0010.a:0 "Wybieram honor."
+ agot_dayne_prodigy.0010.a.tt:0 "Spróbujesz nauczyć się sprawiedliwości, choć możesz stać się bardziej bezwzględn[ym|ą], niż byś chciał[a]"
+ agot_dayne_prodigy.0010.b:0 "Wybieram umiejętność."
+ agot_dayne_prodigy.0010.b.tt:0 "Poświęcisz ten czas na trening z mieczem"
+ agot_dayne_prodigy.0010.gainedtraitjust:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('just').GetName( ROOT.Char )]"
+ agot_dayne_prodigy.0010.gainedtraitcallous:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('callous').GetName( ROOT.Char )]"
+
+ # Prodigy will have choice of either trying to be compassionate, or training with a sword
+ agot_dayne_prodigy.0011.t:0 "Czułe serce"
+ agot_dayne_prodigy.0011.desc:0 "Opowieści wspominają o rycerzach ratujących damy z wież i chroniących prosty lud przed wyzyskiem. By stać się takim rycerzem, muszę udowodnić, że noszę w duszy tę samą dobroć.\n\nCzy powinienem spędzić czas pośród ludu, ucząc się i okazując współczucie? Czy też skupić się na doskonaleniu umiejętności walki?"
+ agot_dayne_prodigy.0011.a:0 "Pójdę wśród ludzi."
+ agot_dayne_prodigy.0011.a.tt:0 "Spróbujesz okazać współczucie, choć może się okazać, że efekt będzie odwrotny"
+ agot_dayne_prodigy.0011.b:0 "Skupię się na mieczu."
+ agot_dayne_prodigy.0011.b.tt:0 "Będziesz kontynuować trening z mieczem"
+ agot_dayne_prodigy.0011.gainedtraitcompassionate:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('compassionate').GetName( ROOT.Char )]"
+ agot_dayne_prodigy.0011.gainedtraitsadistic:0 "Zyskałeś/-aś cechę [trait|E] [GetTrait('sadistic').GetName( ROOT.Char )]"
+
+ # Prodigy may try to become a blademaster with a bunch of xp, or give up on the dream of being SOTM, may result in death at the trials
+ agot_dayne_prodigy.0012.t:0 "Próba o świcie"
+ agot_dayne_prodigy.0012.desc:0 "Na dziedzińcu szkoleniowym czeka samotny rycerz, otulony fioletowym światłem świtu odbijającym się od lśniącej zbroi. Członkowie mojego rodu zgromadzili się tu, by być świadkami tej próby i ocenić moją wartość. Mam zmierzyć się z dorosłym rycerzem w pojedynku — nie z tępymi mieczami, lecz ze stali ostrzonej. Pojedynek nie ma zakończyć się śmiercią, lecz niejedna gwiazda spadła już podczas tej próby. Biorę głęboki oddech, polerując ostrze swojego miecza. Nadal mogę się wycofać, chroniąc swoje życie i porzucając marzenie o dzierżeniu [dawn.GetName] w imieniu mojego rodu.\n\nCzy stanę do próby? Czy ucieknę od wszystkich moich nadziei?"
+ agot_dayne_prodigy.0012.a:0 "Stawię czoła wyzwaniu."
+ agot_dayne_prodigy.0012.a.tt:0 "Spróbujesz udowodnić, że jesteś mistrzem miecza — choć to ryzykowne"
+ agot_dayne_prodigy.0012.b:0 "Zapomnę o marzeniu, zachowam życie."
+ agot_dayne_prodigy.0012.b.tt:0 "Rezygnujesz z zostania Mieczem Poranka"
+
+ # Prodigy finds out if they're worthy or not to be SOTM
+ agot_dayne_prodigy.0013.t:0 "Wschodząca Gwiazda"
+ agot_dayne_prodigy.0013.desc.intro:0 "Stoję w salach siedziby rodu Dayne, a Świt spoczywa na ścianie. Dziś dowiem się, czy zasłużyłem na miano Miecza Poranka.\n\n"
+ agot_dayne_prodigy.0013.desc.worthynothousehead:0 "Z uśmiechem na twarzy [dayne_dynasty_head.GetFullName], głowa rodu Dayne, wzywa mnie, bym wystąpił i sięgnął po [dawn.GetName] z jego miejsca spoczynku. Z drżącymi dłońmi sięgam po miecz, który zapisał się w historii mojego rodu, podczas gdy moja rodzina wiwatuje moje imię. Historia patrzy teraz na mnie — muszę dowieść, że jestem godzien jej spojrzenia."
+ agot_dayne_prodigy.0013.desc.unworthynothousehead:0 "Ze smutnym grymasem [dayne_dynasty_head.GetFullName], głowa rodu Dayne, zabrania mi choćby dotknąć [dawn.GetName], nie mówiąc o dzierżeniu go w imieniu mojego rodu. Nie jestem godzien noszenia tego ostrza, a moje marzenia o zostaniu Mieczem Poranka legły w prochu."
+ agot_dayne_prodigy.0013.desc.worthyhousehead:0 "Jako głowa mojego rodu to do mnie należy ocena, czy rycerz dowiódł, że zasługuje na [dawn.GetName]. Bez próżności mogę rzec, że nikt nie wątpi w moją godność — udowodniłem swą szlachetność i umiejętności wiele razy. Dziś stanę jako Miecz Poranka i wyryję swe imię w historii Westeros!"
+ agot_dayne_prodigy.0013.desc.unworthyhousehead:0 "Jako głowa rodu Dayne to do mnie należy decyzja, czy którykolwiek z rycerzy zasługuje na prawo do [dawn.GetName] i tytuł Miecza Poranka. Spoglądam na ostrze w jego świętym miejscu i każda cząstka mnie pragnie je chwycić, ogłosić się Mieczem Poranka i zaznać chwały tego miana.\n\nLecz znam prawdę: nie zasłużyłem na to ostrze, ani tytuł, który się z nim wiąże. Sięgnięcie po nie teraz byłoby hańbą dla mnie i dla mego rodu. [dawn.GetNameNoTooltip] musi pozostać na swoim miejscu, czekając na godniejsze dłonie."
+ agot_dayne_prodigy.0013.a:0 "Jestem Mieczem Poranka!"
+ agot_dayne_prodigy.0013.a.tt:0 "Zostajesz Mieczem Poranka i będziesz dzierżyć [dawn.GetNameNoTooltip]"
+ agot_dayne_prodigy.0013.b:0 "Zawiodłem mój ród."
+ agot_dayne_prodigy.0013.b.tt:0 "Nigdy nie zostaniesz Mieczem Poranka"
+
+ # Prodigy may be worthy, but there is a SOTM already
+ agot_dayne_prodigy.0014.t:0 "Oczekująca Gwiazda"
+ agot_dayne_prodigy.0014.desc:0 "Choć wszyscy przyznają, że jestem godzien tytułu Miecza Poranka, ktoś już go nosi. Być może kiedyś nadejdzie mój czas, a może nie był mi on nigdy pisany. Tak czy inaczej, muszę teraz skupić się na innych ścieżkach."
+ agot_dayne_prodigy.0014.a:0 "Być może pewnego dnia."
+ agot_dayne_prodigy.0014.a.tt:0 "Miecz Poranka już istnieje"
+
+ # Prodigy has stolen Dawn
+ agot_dayne_prodigy.0015.t:0 "Złodziej w mroku"
+ agot_dayne_prodigy.0015.desc:0 "[prodigy.GetFirstName], po tym jak odmówiono mu/jej zaszczytu zostania Mieczem Poranka, ukradł[a] [dawn.GetName] z miejsca jego spoczynku. Jeśli nie zareagujemy szybko, [prodigy.GetSheHe] może uciec — nie pozostaje mi nic innego, jak próbować sprowadzić [prodigy.GetHerHim] w kajdanach, by sprawiedliwości stało się zadość.\n\nChoć miałem nadzieję, że to [prodigy.GetSheHe] zostanie nowym Mieczem Poranka, wybrał[a] noc."
+ agot_dayne_prodigy.0015.a:0 "Sprowadźcie go/ją do mnie w żelaznej klatce!"
+ agot_dayne_prodigy.0015.a.tt:0 "Spróbujesz uwięzić [prodigy.GetFirstNameNoTooltip], choć [prodigy.GetSheHe] może uciec"
+
+ # Notify Dayne parents their child has become SOTM
+ agot_dayne_prodigy.0016.t:0 "Nowy świt"
+ agot_dayne_prodigy.0016.desc:0 "Dotarła do mnie wieść, że mój [ROOT.Char.Custom2('RelationToMe', prodigy)] [prodigy.GetFirstName] w końcu spełnił[a] swe długo pielęgnowane marzenie i został[a] Mieczem Poranka — rycerzem, z którego cały ród Dayne może być dumny."
+ agot_dayne_prodigy.0016.a:0 "Za nowo wschodzącą Gwiazdę!"
+ agot_dayne_prodigy.0016.a.tt:0 "Wychowałeś/-aś Miecz Poranka"
+
+ # Prodigy died before story cycle completion
+ agot_dayne_prodigy.0017.t:0 "Zgasła Gwiazda"
+ agot_dayne_prodigy.0017.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', prodigy)] i wszystkie moje wielkie nadzieje odchodzą wraz z [prodigy.GetHerHim]. [prodigy.GetSheHe|U] miał[a] w sobie tyle obietnicy, lecz jego/jej światło zgasło niczym najjaśniejsza i najkrótsza z iskier. Bogowie uczynili nas istotami zdolnymi do miłości — i to sprawia, że strata boli tym bardziej. Musimy jednak iść dalej... aż znów zaświeci jakaś gwiazda."
+ agot_dayne_prodigy.0017.a:0 "Żegnaj, moje dziecko."
+ agot_dayne_prodigy.0017.a.tt:0 "Opłakujesz swoją stratę"
+
+ # Prodigy failed early with parent/grandparent
+ agot_dayne_prodigy.0018.t:0 "Zmarnowana Gwiazda"
+ agot_dayne_prodigy.0018.desc:0 "Po ostatniej porażce w próbie charakteru i zdolności stało się dla wszystkich w naszym rodzie jasne, że [prodigy.GetFirstName] nigdy nie zostanie Mieczem Poranka.\n\nMoże to moja wina, że zmarnowałem/-am jego/jej potencjał i nie nauczyłem/-am [prodigy.GetHerHim] cnót rycerskich. A może już od początku kryło się w [prodigy.GetHerHim] jakieś ukryte zepsucie, a ja po prostu miałem/-am zbyt wielkie nadzieje. Tak czy inaczej, musimy zamknąć ten rozdział i znaleźć inną drogę, by [prodigy.GetSheHe] mógł/mogła udowodnić swoją wartość."
+ agot_dayne_prodigy.0018.a:0 "Zawiodłem/-am cię."
+ agot_dayne_prodigy.0018.a.tt:0 "[prodigy.GetFirstNameNoTooltip] nigdy nie zostanie Mieczem Poranka"
+
+ # Prodigy failed early without parent/grandparent
+ agot_dayne_Prodigy.0019.t:0 "Zgaszona Nadzieja"
+ agot_dayne_prodigy.0019.desc:0 "Po moim ostatnim występie w próbie umiejętności i charakteru jako rycerza, udowodniłem sobie i innym, że nie jestem godzien w oczach bogów ani ludzi. Wiem już, że nigdy nie zostanę Mieczem Poranka, i powinienem porzucić to bezsensowne marzenie.\n\nChoć nie będę największym z rycerzy, wciąż mogę służyć rodowi Dayne na wiele sposobów."
+ agot_dayne_prodigy.0019.a:0 "Znajdę inną drogę, by być użyteczn[ym|ą]."
+ agot_dayne_prodigy.0019.a.tt:0 "Nigdy nie zostaniesz Mieczem Poranka"

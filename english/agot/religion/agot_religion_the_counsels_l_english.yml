@@ -1,0 +1,15 @@
+﻿l_english:
+### RELIGIA ###
+ the_counsels_religion:0 "Rady Doshi"
+ the_counsels_religion_adj:0 "Rady"
+ the_counsels_religion_adherent:0 "Drogikh"
+ the_counsels_religion_adherent_plural:0 "Drogikhowie"
+ the_counsels_religion_desc:0 "Dothracy od dawna wierzą w liczne bóstwa, w tym Słońce i jego boginię-żonę, Księżyc. Jednak to Czarownica Doshi zjednoczyła Dothraków w wierze, tak jak jej syn zjednoczył ich w Khalasarze."
+
+### Wiary ###
+#Wielki Ogier
+ dothraki_faith:0 "Khalasar Wielkiego Ogiera"
+ dothraki_faith_adj:0 "Wielki Ogier"
+ dothraki_faith_adherent:0 "Drogikh"
+ dothraki_faith_adherent_plural:0 "Drogikhowie"
+ dothraki_faith_desc:0 "Religia i wierzenia Dothraków w dużej mierze wywodzą się z ich pradawnych tradycji oraz nauk czarownicy-królowej Doshi, matki pierwszego wielkiego Khala. Większość świata naturalnego jest reprezentowana przez liczne bóstwa: Słońce i jego żonę, Księżyc; samą ziemię; a przede wszystkim Wielkiego Ogiera. Choć uznają bogów innych krain i ludów, nie są oni czczeni. Zamiast tego, mają zostać złamani i ściągnięci do Vaes Dothrak, by stać się pokonanymi świadkami wielkości Dothraków i ich bogów."

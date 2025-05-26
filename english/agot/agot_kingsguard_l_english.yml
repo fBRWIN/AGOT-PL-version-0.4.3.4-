@@ -1,0 +1,75 @@
+﻿l_english:
+ kingsguard_lord_commander_flavor: "Lord Dowódca"
+ kingsguard_lord_commander_flavors: "Lord Dowódca"
+ kingsguard_lord_commander: "Lord Dowódca Kingsguard"
+ kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
+ kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
+
+ queensguard_lord_commander_name:0 "Lord Dowódca Queensguard"
+
+
+ KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
+
+#GUI
+ kingsguard: "Kingsguard"
+ kingsguard_possessive: "Kingsguarda"
+ kingsguard_1: "Kingsguard" # $KINGSGUARD$
+ kingsguard_2: "Kingsguard"
+ kingsguard_3: "Kingsguard"
+ kingsguard_4: "Kingsguard"
+ kingsguard_5: "Kingsguard"
+ kingsguard_6: "Kingsguard"
+ kingsguard_1_possessive: "$kingsguard_possessive$"
+ kingsguard_2_possessive: "$kingsguard_possessive$"
+ kingsguard_3_possessive: "$kingsguard_possessive$"
+ kingsguard_4_possessive: "$kingsguard_possessive$"
+ kingsguard_5_possessive: "$kingsguard_possessive$"
+ kingsguard_6_possessive: "$kingsguard_possessive$"
+
+ KINGSGUARD_CLICK_TO_HIRE:0 "Wejdź w interakcję z postaciami \naby mianować [ActiveCouncilTask.GetPositionName|E]"
+
+ KINGSGUARD_TAB_BUTTON_TEXT:0 "Twój [GetPlayer.Custom('KingsguardName')]"
+
+ #Nazewnictwo
+ kingsguard_name:0 "Kingsguard"
+ queensguard_name:0 "Queensguard"
+
+ # Modyfikatory
+ kingsguard_lord_commander_modifier:0 "Lord Dowódca wasala"
+ kingsguard_modifier:0 "Kingsguard wasala"
+
+ training_for_kingsguard:0 "Trening do Kingsguard"
+ training_for_kingsguard_desc:0 "Ta postać szkoli się, by dołączyć do Kingsguard."
+
+ kingsguard_oathbreaker:0 "Zdrajca Przysięgi Kingsguard"
+ kingsguard_oathbreaker_desc:0 "Ta postać splamiła swoją świętą przysięgę i porzuciła Kingsguard."
+
+ kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
+ task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Chroniony członek dynastii')] otrzymuje [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]"
+
+ valid_kingsguard_bodyguard_court: "Nie ma niechronionych członków twojej dynastii na tym dworze."
+
+ kingsguard_bodyguard: "Gwardzista"
+ kingsguard_bodyguard_desc: "Ta postać jest chroniona przez członka Kingsguard"
+
+ kingsguard_bodyguard_1: "Strażnik członka dynastii"
+ kingsguard_bodyguard_2: "$kingsguard_bodyguard_1$"
+ kingsguard_bodyguard_3: "$kingsguard_bodyguard_1$"
+ kingsguard_bodyguard_4: "$kingsguard_bodyguard_1$"
+ kingsguard_bodyguard_5: "$kingsguard_bodyguard_1$"
+ kingsguard_bodyguard_6: "$kingsguard_bodyguard_1$"
+
+ kingsguard_lord_commander_default: "Ochrona"
+ kingsguard_default_1: "Ochrona"
+ kingsguard_default_2: "Ochrona"
+ kingsguard_default_3: "Ochrona"
+ kingsguard_default_4: "Ochrona"
+ kingsguard_default_5: "Ochrona"
+ kingsguard_default_6: "Ochrona"
+
+ task_protection_modifier:1 "Ochrona Kingsguard"
+
+ you_agot_kingsguard_can_fire:0 "Kingsguardzi mogą być zwolnieni lub przeniesieni, jeśli spełnione są określone wymagania."
+ you_dont_agot_kingsguard_can_fire:0 "Kingsguard służy dożywotnio, chyba że zerwiesz z tą tradycją."
+ you_agot_kingsguard_fire_requirements:0 "MIEJSCEHOLDER"
+ you_dont_agot_kingsguard_fire_requirements:0 "MIEJSCEHOLDER nie spełnia wymagań"

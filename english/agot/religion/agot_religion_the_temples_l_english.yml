@@ -1,0 +1,15 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_temples_religion:0 "Świątynie Letnich Bogów"
+ the_temples_religion_adj:0 "Świątynie"
+ the_temples_religion_adherent:0 "Wyznawca"
+ the_temples_religion_adherent_plural:0 "Wyznawcy"
+ the_temples_religion_desc:0 "Ludy Letnich Wysp czczą niezliczoną liczbę bogów i bogiń, którzy w większości odzwierciedlają tropikalne warunki ich ojczyzny. Letni Bogowie to bóstwa ciepła i miłości, a ich ludzie są głęboko oddani tej wierze."
+
+### Faiths ###
+#Summer Gods
+ summer_gods_pan:0 "Świątynie Lata i Miłości"
+ summer_gods_pan_adj:0 "Letni Bogowie"
+ summer_gods_pan_adherent:0 "Wyznawca"
+ summer_gods_pan_adherent_plural:0 "Wyznawcy"
+ summer_gods_pan_desc:0 "Wiara Letnich Wysp koncentruje się wokół wielkiego pantheonu bóstw, często związanych z latem, miłością i namiętnością. Te bóstwa czuwają nad ludem wysp, nadając zasady, które zapewniają, że wojny są traktowane jako święte wyzwania, niewolnicy są odpędzani, a miłość jest okazywana wszystkim."

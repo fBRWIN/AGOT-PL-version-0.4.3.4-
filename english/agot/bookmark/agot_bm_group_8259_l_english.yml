@@ -1,0 +1,31 @@
+﻿l_english:
+ agot_bm_group_8259:0 "258 A.C."
+ agot_bm_8259:0 "Królowie Dziewięciu Pensów"
+ agot_bm_8259_desc:0 "Wschodzi kolejny pretendent Blackfyre na wschodzie, gdy nowy, przerażający generał dowodzi Złotą Kompanią, mając na celu zdobycie Żelaznego Tronu.\n\nMaelys 'Monstrualny' żyje zgodnie ze swoją nazwą, a rosnący sojusz piratów, banitów i wygnańców złożył mu hołd. Samozwańcza Banda Dziewięciu może jeszcze przysporzyć kłopotów lordom i damom Westeros.\n\nJednak Król Aegon V Targaryen ma w domu zagrożenia równe tym zagranicznym. Obrońca małego ludu, jego liczne reformy wywołały niepokój wśród władców Siedmiu Królestw, a odrzucenie zaręczyn przez jego dzieci popsuło resztki poparcia, które niegdyś posiadał. A zamieszki na zachodzie wzbierają, ryzyko buntu ze strony przebiegłego Lorda Rogera Reyne jest w niepewności.\n\n#bold Nadzieja dla króla spoczywa w starożytnych tekstach Asshai, które obiecują odrodzenie smoków, wprowadzając nową erę dobrobytu. Ale gdy wokół niego rośnie inferno, ryzykuje pochłonięcie go całkowicie.#!"
+
+ bookmark_259_maelys_blackfyre:0 "Król Maelys I"
+ bookmark_259_maelys_blackfyre_desc:0 "[Concept( 'story_content_maelys_blackfyre_259', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_maelys_blackfyre_259', '$bm_story_content_available_copy|q$' )|E]\nKrew bękarta płynie w żyłach Maelysa 'Monstrualnego', obrzydliwie silnego wojownika i dzikiego przywódcy. Aby przejąć kontrolę nad Złotą Kompanią, zabił wojennego konia jednym uderzeniem i oderwał głowę swojemu kuzynowi Daemonowi. Teraz, otoczony przez niebezpiecznych zwolenników, może mieć siłę, by spełnić przeznaczenie Czarnego Smoka.\n\n#bold Brutalna siła może wygrać bitwy, ale czy Maelys ma spryt i taktykę, by zdobyć Siedem Królestw?#!"
+
+ bookmark_259_aegon_targaryen:0 "Król Aegon V"
+ bookmark_259_aegon_targaryen_desc:0 "[Concept( 'story_content_aegon_targaryen_259', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_aegon_targaryen_259', '$bm_story_content_available_copy|q$' )|E]\nCzwarty syn czwartego syna, Aegon 'Mało Prawdopodobny' nie wydawał się przeznaczony do zasiadania na Żelaznym Tronie. Jednak los jest kapryśną damą, a przystojny Egg rządzi Siedmioma Królestwami z wprawą przez dwadzieścia pięć lat — poprawiając życie małych ludzi, rozwiązując zerwane zaręczyny i kończąc powstania zarówno małe, jak i wielkie.\n\n#bold Na krawędzi kolejnego buntu, gdy armia Blackfyre zbiera się pod potężnym Maelysem 'Monstrualnym', Aegon jest pochłonięty swoim marzeniem o przywróceniu smoków, ale czy marzenie to stanie się jego zgubą?#!"
+
+ bookmark_259_betha_blackwood:0 "Królowa Betha"
+ bookmark_259_duncan_targaryen:0 "Książę Duncan"
+
+ bookmark_259_jaehaerys_targaryen:0 "Książę Jaehaerys"
+ bookmark_259_jaehaerys_targaryen_desc:0 "Książę Dragonstone jest uważany za słabego przez wielu, prawdopodobnie z powodu jego słabego zdrowia, ale jego determinacja w chwilach próby pozostaje niezachwiana. Tak było w przypadku jego miłości do siostry, Księżniczki Shaery. Kiedy ich starszy brat, Książę Duncan 'Mały', porzucił własne dziedzictwo, by wziąć za żonę zwykłą dziewczynę, Jaehaerys zauważył to — i potajemnie ożenił się i skonsumował tradycyjny związek Targaryenów z Shaerą.\n\n#bold Gdy na wschodzie rodzi się bunt, jak młody książę przejmie swoje przeznaczenie i poprowadzi przyszłość Domu Targaryen?#!"
+
+ bookmark_259_shaera_targaryen:0 "Księżniczka Shaera"
+ bookmark_259_aerys_targaryen:0 "Książę Aerys"
+
+ bookmark_259_tytos_lannister:0 "Lord Tytos"
+ bookmark_259_tytos_lannister_desc:0 "[Concept( 'story_content_tytos_lannister_259', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_tytos_lannister_259', '$bm_story_content_available_copy|q$' )|E]\nTytos 'Bezlitośny Lew' nigdy nie był silną osobowością, a zbyt łatwo ufał. Kiedyś znany jako 'Śmiejący się Lew' z powodu swojej wesołej natury, Tytos stracił wiele zapału po śmierci swojej żony, Lady Jeyne Marbrand, a jego niesforni wasale szybko wykorzystali tego ufnego liege.\n\n#bold Czy nowy lew wyjdzie z zębami z siedziby Castamere, czy Tytos znajdzie wolę — i sposób — by przywrócić porządek w Westerlandach? Czy może jego potomstwo podejmie działania na rzecz Domu Lannister?#!"
+
+ bookmark_259_tywin_lannister:0 "Ser Tywin"
+ bookmark_259_kevan_lannister:0 "Kevan"
+
+ bookmark_259_roger_reyne:0 "Lord Roger"
+ bookmark_259_roger_reyne_desc:0 "[Concept( 'story_content_roger_reyne_259', '$bm_story_content_available_icon|q$' )|E] [Concept( 'story_content_roger_reyne_259', '$bm_story_content_available_copy|q$' )|E]\nRoger 'Czerwony Lew' spędził dużo czasu w Casterly Rock podczas krótkotrwałego małżeństwa swojej siostry, Ellyn, i dziedzica Skały, Tiona Lannistera. Jednak po śmierci Tiona podczas Czwartego Buntu Blackfyre, wrócił do kopalni Castamere, by zaplanować przyszłość swojej rodziny.\n\n#bold Pazury lwa są ostre, ale czy wystarczająco długie, by sięgnąć niemal nieosiągalnej siedziby Domu Lannister?#!"
+
+ bookmark_259_walderan_tarbeck:0 "Lord Walderan"
+ bookmark_259_ellyn_reyne:0 "Lady Ellyn Reyne"

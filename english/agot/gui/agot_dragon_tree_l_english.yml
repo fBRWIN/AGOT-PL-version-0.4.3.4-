@@ -1,0 +1,51 @@
+﻿l_english:
+ ###### Title
+ AGOT_TITLE_DRAGON_TREE:0 "[GetPlayer.MakeScope.Var('dragon_tree_being_shown').Var('dragon_tree_founder').Char.GetFirstNamePossessive|U]\nDescendants"
+
+ ###### Info
+ AGOT_TITLE_DRAGON_TREE:0 "[GetPlayer.MakeScope.Var('dragon_tree_being_shown').Var('dragon_tree_founder').Char.GetFirstNamePossessive|U]\nPotomkowie"
+
+ ###### Info
+ dragon_tree_members:0 "[GetPlayer.MakeScope.Var('total_dragon_tree_members').GetValue|0] Wszystkie Smoki"
+ dragon_tree_living:0 "[GetPlayer.MakeScope.Var('total_dragon_tree_alive').GetValue|0] Żyjące Smoki"
+
+ list_dragon_tree_members:0 "[Scope.ScriptValue('list_dragon_tree_members_count')|0] Całe Smoki"
+ list_dragon_tree_alive:0 "[SelectLocalization(GreaterThan_CFixedPoint(Scope.ScriptValue('list_dragon_tree_alive_count'), '(CFixedPoint)0'), 'list_dragon_tree_living', 'list_dragon_tree_null_living')]"
+ list_dragon_tree_living:0 "[Scope.ScriptValue('list_dragon_tree_alive_count')|0] Żywe Smoki"
+ list_dragon_tree_null_living:0 "Wyginięta Linia"
+
+ agot_dragon_birth_date:0 "$DRAGON_YEAR_BIRTH$ $DRAGON_ERA_BIRTH$"
+ agot_dragon_death_date:0 "$DRAGON_YEAR_DEATH$ $DRAGON_ERA_DEATH$"
+
+ dragon_tree_count:0 "#D Drzewa: [GetPlayer.MakeScope.Var('total_dragon_trees').GetValue|0]#!"
+ dragon_tree_parents:0 "#D Rodzice: [GetPlayer.MakeScope.Var('total_dragon_tree_parents').GetValue|0]#!"
+
+ ###### Buttons
+ DRAGON_TREE_TT:0 "#T Zobacz Potomków\n#!Zobacz wszystkich bezpośrednich potomków [dragon|E;l] [Character.GetShortUINameNoTooltip] oraz przodków, od których [Character.LocalPlayerString( 'ty', 'oni' )] pochodzą, [Character.LocalPlayerString( 'jeśli chcesz powspominać...', 'którzy są nam znani...' )]"
+ DRAGON_TREE_PAN:0 "Pan do Babci"
+ DRAGON_TREE_SELF_PAN:0 "Pan do Mojego Smoka"
+
+ ###### Names
+ AGOT_NAME_DRAGON_TREE:0 "[Scope.GetCharacter.GetFirstNameNicknamedNoTooltip]"
+
+ ###### Events
+ agot_dragon_tree.0001.t:0 "Znane $game_concept_dragon_family_trees$"
+ agot_dragon_tree.0001.desc:0 "Mój panie, zebrałem tutaj listę wszystkich znanych [dragon_matriarchs|E] na świecie, od których wszystkie inne [dragons_plural|E] pochodzą:"
+
+ ###### Game Concepts
+ game_concept_dragon_matriarch:0 "Matriarcha Smoka"
+ game_concept_dragon_matriarchs:0 "Matriarchy Smoków"
+ game_concept_dragon_matriarch_desc:0 "$game_concept_dragon_matriarchs$ to znane założycielki [dragon_family_trees|E]. Jako takie, zbiorowo są odpowiedzialne za wszystkie inne smoki na świecie.\n\nJeśli smoczy jajo zostaje złożone bez znanej babci, matka tego jajka staje się $game_concept_dragon_matriarch$ i zostaje zarejestrowane nowe $game_concept_dragon_family_tree$ dla matki i jej dziecka."
+
+ game_concept_dragon_family_tree:0 "Drzewo Rodziny Smoków"
+ game_concept_dragon_family_trees:0 "Drzewa Rodziny Smoków"
+ game_concept_dragon_family_tree_desc:0 "$game_concept_dragon_family_trees$ to zarejestrowane linie [dragons_plural|E]. Jako takie zawierają i wyświetlają wszystkie smoki, które pochodzą od [dragon_matriarchs|E], które założyły swoje odpowiednie drzewo.\n\nKiedy wylęga się smocze jajo, a matka już należy do drzewa, jajko zostaje dodane do istniejącego drzewa. Jeśli smocze jajo jest złożone, a jego matka nie należy do drzewa, jajko zostaje dodane do nowo utworzonego drzewa, w którym matka staje się $game_concept_dragon_matriarch$."
+
+ ###### Date Replacements
+ # ERA
+ DRAGON_ERA_BIRTH:0 "[Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]"
+ DRAGON_ERA_DEATH:0 "[Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]"
+
+ # YEAR
+ DRAGON_YEAR_BIRTH:0 "[Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ) , Max_int32( Select_int32( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), Subtract_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ) , Scope.GetCharacter.GetBirthDate.GetYear ) , '(int32)1' ))))]"
+ DRAGON_YEAR_DEATH:0 "[Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000'), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ) , Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ) , Max_int32( Select_int32( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ), Subtract_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ) , Scope.GetCharacter.GetDeathDate.GetYear ) , '(int32)1' ))))]"

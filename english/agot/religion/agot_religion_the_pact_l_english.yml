@@ -1,0 +1,151 @@
+﻿l_english:
+### THE RELIGION ###
+ the_pact_religion:0 "Pakt z Wyspy Twarzy"
+ the_pact_religion_adj:0 "Pakt"
+ the_pact_religion_adherent:0 "Wyznawca Paktu"
+ the_pact_religion_adherent_plural:0 "Wyznawcy Paktu"
+ the_pact_religion_desc:0 "Pakt z Wyspy Twarzy to traktat, który zakończył konflikt między Pierwszymi Ludźmi a Dziećmi Lasu. To on przyniósł pokój Westeros i zapoczątkował wśród ludzi kult Starych Bogów. Pakt przetrwał do dziś i będzie trwał tak długo, jak długo w żyłach ludzkości płynie krew Pierwszych Ludzi."
+
+### Faiths ###
+#Northern Old Gods
+ old_gods_wnw:0 "Starzy Bogowie Zimy i Lasu"
+ old_gods_wnw_adj:0 "Starzy Bogowie"
+ old_gods_wnw_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_wnw_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_wnw_desc:0 "Przyjęty po Pakcie, kult Starych Bogów przetrwał na Północy dłużej niż w jakiejkolwiek innej części Siedmiu Królestw. Jest to kult prosty, znacznie bardziej osobisty niż wiara w Siedmiu — ma niewiele przykazań i żadnych świętych pism. Sposób oddawania czci bogom jest sprawą indywidualną. Kluczowe zasady to świętość czardrzew, nietykalność prawa gościnności oraz świętość przysiąg składanych przed sercem drzewa."
+
+#River Old Gods
+ old_gods_rnh:0 "Starzy Bogowie Rzek i Wzgórz"
+ old_gods_rnh_adj:0 "Rzeczni Starzy Bogowie"
+ old_gods_rnh_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_rnh_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_rnh_desc:0 "Poza Północą, największym bastionem kultu Starych Bogów są Dorzecze. Nawet przed odrodzeniem, gdy ludzie z Północy osiedlali się tu, kluczowe rody zachowały ten kult. Ich praktyki różnią się od północnych sąsiadów, łącząc się z Wiarą w Siedmiu na południu. Oprócz świętości czardrzew i prawa gościnności, przyjęli oni również rycerstwo — jednak przysięgi składane są nie w septach, a przed sercem drzewa."
+
+#Vale Old Gods
+ old_gods_mnv:0 "Starzy Bogowie Księżyca i Doliny"
+ old_gods_mnv_adj:0 "Starzy Bogowie Doliny"
+ old_gods_mnv_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_mnv_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_mnv_desc:0 "Choć Dolina i Góry Księżycowe były pierwszym miejscem podboju przez Andalów i pierwszym ośrodkiem Wiary w Siedmiu w Westeros, to nadal istnieją dawne i silne więzi z Pierwszymi Ludźmi i ich wierzeniami. W związku z tym region ten przeżywa odrodzenie kultu Starych Bogów, zachowując przy tym wiele dawnych tradycji i praw, które znali jako Wierni."
+
+#Western Old Gods
+ old_gods_rng:0 "Starzy Bogowie Skały i Złota"
+ old_gods_rng_adj:0 "Starzy Bogowie Zachodu"
+ old_gods_rng_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_rng_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_rng_desc:0 "Zachodnie Krainy od dawna są miejscem świętym dla kultu Starych Bogów. To tutaj Corlos okazał litość lwiątkom i został nagrodzony przez Starych Bogów. Kult ten odradza się w regionie, przyjmując niektóre cechy Wiary w Siedmiu, jak rycerstwo, a jednocześnie zachowując podstawowe zasady Paktu."
+
+#Reach Old Gods
+ old_gods_fng:0 "Starzy Bogowie Pola i Gaju"
+ old_gods_fng_adj:0 "Starzy Bogowie Reach"
+ old_gods_fng_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_fng_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_fng_desc:0 "Reach było przez większość swojej historii siedzibą Wiary w Siedmiu, jednak wciąż utrzymuje więzi ze Starymi Bogami. Przetrwały opowieści o Garthcie Zielonej Ręce, Żyjącym Tronie Dębowego Siedziska, Zmiennoskórych znad Czerwonego Jeziora i innych. Więzi te zostały w pełni przyjęte wraz z powrotem do kultu Starych Bogów, choć wpływ Wiary nadal jest widoczny w niektórych zasadach i tradycjach praktykowanych w Reach."
+
+#Storm Old Gods
+ old_gods_snw:0 "Starzy Bogowie Burzy i Fali"
+ old_gods_snw_adj:0 "Starzy Bogowie Burzy"
+ old_gods_snw_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_snw_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_snw_desc:0 "Krainy Burzy od dawna utrzymują więzi z Dziećmi Lasu, słynnie sprzymierzając się w walce przeciwko Świętemu Bractwu. Więzi te doprowadziły do odrodzenia kultu Starych Bogów w regionie, przy jednoczesnym zachowaniu niektórych tradycji przyjętych przez lud prosty i możnych za czasów Wiary."
+
+#Dorne Old Gods
+ old_gods_dns:0 "Starzy Bogowie Wydmy i Piasku"
+ old_gods_dns_adj:0 "Starzy Bogowie Dorne"
+ old_gods_dns_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_dns_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_dns_desc:0 "Dorne to miejsce, gdzie Dzieci dokonały swych największych czynów z pomocą Starych Bogów. Choć Andale zdominowali większość nizin, więzi ze Starymi Bogami przetrwały. Obecnie kult Starych Bogów powrócił, łącząc w sobie elementy zarówno Wiary, jak i Matki."
+
+#Crownlands Old Gods
+ old_gods_sns:0 "Starzy Bogowie Dymu i Soli"
+ old_gods_sns_adj:0 "Starzy Bogowie Korony"
+ old_gods_sns_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_sns_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_sns_desc:0 "Zatoka Czarnej Wody i jej wyspy od dawna są bastionem Starych Bogów na południu Westeros — zwłaszcza Przylądek Kraka i jego mieszkańcy. Stało się to podłożem do powszechnego kultu Starych Bogów, w którym obecne są również elementy Wiary i kultury osiadłych tu Valyriańczyków."
+
+
+#Wildling Old Gods
+ old_gods_btw_fnf:0 "Starzy Bogowie Mrozu i Lasu"
+ old_gods_btw_fnf_adj:0 "Starzy Bogowie Dzikich"
+ old_gods_btw_fnf_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_fnf_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_fnf_desc:0 "Tylko poza Murem, w Prawdziwej Północy, można naprawdę rozmawiać i czuć obecność Starych Bogów. Na południe od Muru ziemia stała się zbyt uprawiana, zbyt wylesiona, zbyt cywilizowana, by naprawdę usłyszeć szepty Starych Bogów."
+
+ old_gods_btw_fnf_old:0 "Prymitywni Starzy Bogowie Mrozu i Lasu"
+ old_gods_btw_fnf_old_adj:0 "Prymitywni Starzy Bogowie Dzikich"
+ old_gods_btw_fnf_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_fnf_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Frozen Old Gods
+ old_gods_btw_sni:0 "Starzy Bogowie Śniegu i Lodu"
+ old_gods_btw_sni_adj:0 "Zlodowaciali Starzy Bogowie"
+ old_gods_btw_sni_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_sni_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_sni_desc:0 "Kult Starych Bogów jest silny w zamarzniętych ostępach za Murem. Jednak ich wyznawcy nie nasłuchują bogów w szmerach strumieni czy szelestach liści, lecz w trzaskach lodu i opadach śniegu. Zamarznięte ziemie są zimne i opuszczone, a ludzie są kształtowani przez to surowe środowisko, podobnie jak ich wiara."
+
+ old_gods_btw_sni_old:0 "Prymitywni Starzy Bogowie Śniegu i Lodu"
+ old_gods_btw_sni_old_adj:0 "Prymitywni Zlodowaciali Starzy Bogowie"
+ old_gods_btw_sni_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_sni_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Moon Old Gods
+ old_gods_btw_mns:0 "Starzy Bogowie Gór i Kamienia"
+ old_gods_btw_mns_adj:0 "Starzy Bogowie Księżyca"
+ old_gods_btw_mns_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_mns_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_mns_desc:0 "Ci, którzy odmówili porzucenia Starych Bogów i zgięcia kolan przed andalskimi królami z rodu Arryn, uciekli w dzikie ostępy Gór Księżycowych. Pomimo utraty niemal wszystkiego, zachowali swój kult i przysięgi. Ich nienawiść do mieszkańców nizin sprawiła, że ich wiara stała się brutalna."
+
+ old_gods_btw_mns_old:0 "Prymitywni Starzy Bogowie Gór i Kamienia"
+ old_gods_btw_mns_old_adj:0 "Prymitywni Starzy Bogowie Księżyca"
+ old_gods_btw_mns_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_mns_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Magnar Old Gods
+ old_gods_btw_pnv:0 "Starzy Bogowie Szczytów i Dolin"
+ old_gods_btw_pnv_adj:0 "Starzy Bogowie Magnara"
+ old_gods_btw_pnv_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_pnv_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_pnv_desc:0 "Thennowie twierdzą, że są jedynymi prawdziwymi Pierwszymi Ludźmi, i że tylko oni zachowują Pakt oraz prawidłowo czczą Starych Bogów. [Glossary('Magnar', 'MAGNAR_GLOSS')] jest postrzegany jako stojący obok Starych Bogów — tyle że zrodzony z ciała, podczas gdy inni są z kamienia, gałęzi i rzeki."
+
+ old_gods_btw_pnv_old:0 "Prymitywni Starzy Bogowie Szczytów i Dolin"
+ old_gods_btw_pnv_old_adj:0 "Prymitywni Starzy Bogowie Magnara"
+ old_gods_btw_pnv_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_pnv_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Cave Old Gods
+ old_gods_btw_dnc:0 "Starzy Bogowie Ciemności i Jaskiń"
+ old_gods_btw_dnc_adj:0 "Starzy Bogowie Jaskiń"
+ old_gods_btw_dnc_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_dnc_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_dnc_desc:0 "Ci, którzy żyją pod ziemią, w jaskiniach i tunelach Gór Zębów Mrozu, nadal czczą Starych Bogów, mimo tego, co sądzą inni. Ich kult jest jednak znacznie mroczniejszy niż ten na powierzchni; kanibalizm — zarówno wobec zmarłych, jak i żywych — jest tu dozwolony."
+
+ old_gods_btw_dnc_old:0 "Prymitywni Starzy Bogowie Ciemności i Jaskiń"
+ old_gods_btw_dnc_old_adj:0 "Prymitywni Starzy Bogowie Jaskiń"
+ old_gods_btw_dnc_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_dnc_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Shore Old Gods
+ old_gods_btw_sas:0 "Starzy Bogowie Morza i Muszli"
+ old_gods_btw_sas_adj:0 "Nadmorscy Starzy Bogowie"
+ old_gods_btw_sas_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_sas_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_sas_desc:0 "Na wybrzeżach za Murem kult Starych Bogów naturalnie zwrócił się ku morzu, przyjmując wiele dzikich i pierwotnych aspektów, które kiedyś charakteryzowały tę wiarę."
+
+ old_gods_btw_sas_old:0 "Prymitywni Starzy Bogowie Morza i Muszli"
+ old_gods_btw_sas_old_adj:0 "Prymitywni Nadmorscy Starzy Bogowie"
+ old_gods_btw_sas_old_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_sas_old_adherent_plural:0 "Wyznawcy Starych Bogów"
+
+#Burned Old Gods
+ old_gods_btw_valyrian:0 "Starzy Bogowie Spalonych"
+ old_gods_btw_valyrian_adj:0 "Spaleni Starzy Bogowie"
+ old_gods_btw_valyrian_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_btw_valyrian_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_btw_valyrian_desc:0 "Niektóre plemiona wierzą, że Stari Bogowie czasem przyjmują cielesną postać i chodzą pośród ludzi. Spaleni Ludzie czczą ognistą wiedźmę, która podobno włada żywym płomieniem — prawdopodobnie smokiem — w Górach Księżycowych."
+
+#Children's Old Gods
+ old_gods_children:0 "Starzy Bogowie Pieśni"
+ old_gods_children_adj:0 "Prawdziwi Starzy Bogowie"
+ old_gods_children_adherent:0 "Wyznawca Starych Bogów"
+ old_gods_children_adherent_plural:0 "Wyznawcy Starych Bogów"
+ old_gods_children_desc:0 "Ludzie nazwali ich Dziećmi Lasu, Olbrzymy mówią o [Glossary('woh dak nag gram', 'CHILDREN_FOREST_GLOSS')], lecz oni sami nazywają się 'Tymi, Którzy Śpiewają Pieśń Ziemi'. To właśnie z tej pieśni wywodzi się prawdziwe zrozumienie i kult Starych Bogów — Zimy i Lasu, Rzek i Wzgórz, Księżyca i Doliny, Skały i Złota, Pola i Gaju, Burzy i Fali, Wydmy i Piasku, Dymu i Soli, Mrozu i Lasu, Śniegu i Lodu, Gór i Kamienia, Szczytów i Dolin, Ciemności i Jaskiń, Morza i Muszli."

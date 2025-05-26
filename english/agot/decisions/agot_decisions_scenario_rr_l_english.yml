@@ -1,0 +1,16 @@
+﻿l_english:
+ agot_scenario_rr_ha_initialization_decision:0 "Następstwa Harrenhal"
+ agot_scenario_rr_ha_initialization_decision_desc:0 "Panowanie mojego ojca, króla Aerysa II, stało się koszmarem dla lordów i dam Westeros — i dla całego ludu Siedmiu Królestw. Jego nieprzewidywalne wybuchy, napędzane paranoją i obsesją na punkcie ognia, stanowią zagrożenie dla królestwa i mojego rodu. Jego tyrania doprowadziła ród Targaryenów na skraj upadku i musi zostać powstrzymana..."
+ agot_scenario_rr_ha_initialization_decision_tooltip:0 "Wyślesz kruki do ważnych rodów królestwa, które pozostają lojalne wobec korony, i poprosisz je o zwołanie rady wojennej."
+ agot_scenario_rr_ha_initialization_decision_requirement:0 "Szalony Król zasiada na Żelaznym Tronie."
+ agot_scenario_rr_ha_initialization_decision_confirm:0 "Niech kruki polecą!"
+
+ agot_scenario_rr_ha_tell_the_king_decision:0 "Poinformuj Króla o Zdradzie Rhaegara"
+ agot_scenario_rr_ha_tell_the_king_decision_desc:0 "Książę koronny może myśleć, że jest przebiegły, próbując obalić ojca i sięgnąć po tron przed swoim czasem. Ale król Aerys II wciąż ma lojalnych wasali, w tym mnie. Muszę natychmiast wysłać wieści do króla, potępiając ten nikczemny spisek."
+ agot_scenario_rr_ha_tell_the_king_decision_tooltip:0 "Wyślesz kruka do Królewskiej Przystani, aby ujawnić próbę przewrotu Rhaegara."
+ agot_scenario_rr_ha_tell_the_king_decision_confirm:0 "Za honor i obowiązek!"
+
+ agot_scenario_rr_false_banner_decision:0 "Pod Fałszywym Sztandarem"
+ agot_scenario_rr_false_banner_decision_desc:0 "Podczas gdy król Aerys II prowadzi wojnę przeciwko zbuntowanemu lordowi Robertowi Baratheonowi, ja pozostałem neutralny. Mój stary przyjaciel Aerys z pewnością podejrzewa, że wesprę go, maszerując z armią na pomoc — zwłaszcza że trzyma mojego złotowłosego syna Jaimego jako zakładnika i przysięgłego tarczownika. Ale niestety, Szalony Król pogrążył Siedem Królestw w chaosie, pozostawiając sobie tylko Czerwoną Twierdzę jako ostatnią ostoję. Gdybym maszerował na Królewską Przystań pod sztandarem wsparcia, mógłbym łatwo splądrować miasto i zakończyć panowanie szaleńca."
+ agot_scenario_rr_false_banner_decision_tooltip:0 "Takie oszustwo niesie wielkie ryzyko, ale możesz wystawić swoją przebiegłość na próbę dla dobra królestwa — lub dla dobra #bold własnego dziedzictwa#!."
+ agot_scenario_rr_false_banner_decision_confirm:0 "Rozpocznij przygotowania!"

@@ -1,0 +1,448 @@
+﻿l_english:
+
+
+ ##Aging types
+ gene_age: "Typ starzenia (widoczny tylko u starszych postaci)"
+ old_1: "Starość 1"
+ old_2: "Starość 2"
+ old_3: "Starość 3"
+ old_4: "Starość 4"
+ old_beauty_1: "Piękno starzenia"
+ no_aging: "Bez starzenia"
+
+ ##bust types
+ bust_clothes: "Ubiór na biust"
+ bust_clothes_light: "Lekki ubiór na biust"
+ bust_default: "Domyślny biust"
+ bust_shape_1_half: "Kształt biustu 1 pół"
+ bust_shape_1_full: "Kształt biustu 1 pełny"
+ bust_shape_2_half: "Kształt biustu 2 pół"
+ bust_shape_2_full: "Kształt biustu 2 pełny"
+ bust_shape_3_half: "Kształt biustu 3 pół"
+ bust_shape_3_full: "Kształt biustu 3 pełny"
+ bust_shape_4_half: "Kształt biustu 4 pół"
+ bust_shape_4_full: "Kształt biustu 4 pełny"
+
+ ##body hair types
+ gene_body_hair: "Owłosienie ciała (widoczne tylko u mężczyzn)"
+ body_hair_sparse: "Rzadkie"
+ body_hair_avg: "Średnie"
+ body_hair_dense: "Gęste"
+ body_hair_sparse_low_stubble: "Rzadkie, niski zarost"
+ body_hair_avg_low_stubble: "Średnie, niski zarost"
+ body_hair_dense_low_stubble: "Gęste, niski zarost"
+##Wrinkles types
+ expression_brow_wrinkles: "Zmarszczki na czole (widoczne tylko u starszych postaci)"
+ brow_wrinkles_01: "Zmarszczki na czole 1"
+ brow_wrinkles_02: "Zmarszczki na czole 2"
+ brow_wrinkles_03: "Zmarszczki na czole 3"
+ brow_wrinkles_04: "Zmarszczki na czole 4"
+
+###Body types
+ body_shape_average_clothed: "Kształt ciała w ubraniu"
+ #Modified in vanilla
+ #gene_bs_body_shape: "Kształt ciała"
+ body_shape_average: "Średni"
+ body_shape_apple_half: "Jabłko pół"
+ body_shape_apple_full: "Jabłko pełne"
+ body_shape_hourglass_half: "Klepsydra pół"
+ body_shape_hourglass_full: "Klepsydra pełna"
+ body_shape_pear_half: "Gruszka pół"
+ body_shape_pear_full: "Gruszka pełna"
+ body_shape_rectangle_half: "Prostokąt pół"
+ body_shape_rectangle_full: "Prostokąt pełny"
+ body_shape_triangle_half: "Trójkąt pół"
+ body_shape_triangle_full: "Trójkąt pełny"
+
+###Ears
+ gene_bs_ear_lobe: "Małżowina uszna"
+ vanilla_ear_lobe: "Małżowina uszna klasyczna"
+ ear_lobe_fused: "Złączona małżowina uszna"
+ ear_lobe_detached: "Oderwana małżowina uszna"
+
+###Eyes
+ gene_bs_eye_height_inside: "Wysokość oczu od wewnątrz"
+ vanilla_eye_height_inside: "Wysokość oczu od wewnątrz klasyczna"
+ eye_height_inside_neg: "Wysokość oczu od wewnątrz negatywna"
+ eye_height_inside_pos: "Wysokość oczu od wewnątrz pozytywna"
+
+ gene_bs_eye_height_outisde: "Wysokość oczu od zewnątrz"
+ vanilla_eye_height_outisde: "Wysokość oczu od zewnątrz klasyczna"
+ eye_height_outisde_neg: "Wysokość oczu od zewnątrz negatywna"
+ eye_height_outisde_pos: "Wysokość oczu od zewnątrz pozytywna"
+
+ gene_eye_shut_bottom: "Dolna część zamknięcia oka"
+ vanilla_eye_shut_bottom: "Dolna część zamknięcia oka klasyczna"
+ eye_shut_bottom: "Dolna część zamknięcia oka"
+
+ gene_eye_shut_top: "Górna część zamknięcia oka"
+ vanilla_eye_shut_top: "Górna część zamknięcia oka klasyczna"
+ eye_shut_top: "Górna część zamknięcia oka"
+
+ gene_eye_size: "Rozmiar oka"
+ vanilla_eye_size: "Rozmiar oka klasyczny"
+ eye_size: "Rozmiar oka"
+
+###Nose
+ gene_bs_nose_central_width: "Szerokość centralna nosa"
+ vanilla_nose_central_width: "Szerokość centralna nosa klasyczna"
+ nose_central_width_neg: "Szerokość centralna nosa negatywna"
+ nose_central_width_pos: "Szerokość centralna nosa pozytywna"
+
+ gene_bs_nose_septum_width: "Szerokość przegrody nosa"
+ vanilla_nose_septum_width: "Szerokość przegrody nosa klasyczna"
+ nose_septum_width_neg: "Szerokość przegrody nosa negatywna"
+ nose_septum_width_pos: "Szerokość przegrody nosa pozytywna"
+
+ ##complexions
+ complexion_beauty_1: "Cera piękna"
+ complexion_ugly_1: "Cera brzydka"
+ complexion_no_face: "Brak twarzy (niewykorzystane)"
+ complexion_8: "Typ cery 8"
+ complexion_9: "Typ cery 9"
+ complexion_10: "Typ cery 10"
+ complexion_11: "Typ cery 11"
+ complexion_12: "Typ cery 12"
+ complexion_13: "Typ cery 13"
+ complexion_14: "Typ cery 14"
+ complexion_15: "Typ cery 15"
+ complexion_16: "Typ cery 16"
+ complexion_17: "Typ cery 17"
+ complexion_18: "Typ cery 18"
+ complexion_19: "Typ cery 19"
+ complexion_20: "Typ cery 20"
+ complexion_21: "Typ cery 21"
+ complexion_22: "Typ cery 22"
+ complexion_23: "Typ cery 23"
+ complexion_24: "Typ cery 24"
+ complexion_25: "Typ cery 25"
+ complexion_26: "Typ cery 26"
+ complexion_27: "Typ cery 27"
+ complexion_28: "Typ cery 28"
+ complexion_29: "Typ cery 29"
+ complexion_30: "Typ cery 30"
+ complexion_31: "Typ cery 31"
+ complexion_32: "Typ cery 32"
+ complexion_33: "Typ cery 33"
+ complexion_34: "Typ cery 34"
+ complexion_35: "Typ cery 35"
+ complexion_36: "Typ cery 36"
+ complexion_37: "Typ cery 37"
+ complexion_38: "Typ cery 38"
+ complexion_39: "Typ cery 39"
+ complexion_40: "Typ cery 40"
+ complexion_41: "Typ cery 41"
+ complexion_42: "Typ cery 42"
+ complexion_43: "Typ cery 43"
+ complexion_44: "Typ cery 44"
+ complexion_45: "Typ cery 45"
+ complexion_46: "Typ cery 46"
+ complexion_47: "Typ cery 47"
+ complexion_48: "Typ cery 48"
+ complexion_49: "Typ cery 49"
+ complexion_50: "Typ cery 50"
+ complexion_1af: "Cera Afrykańska 1"
+ complexion_2af: "Cera Afrykańska 2"
+ complexion_3af: "Cera Afrykańska 3"
+ complexion_4af: "Cera Afrykańska 4"
+ complexion_5af: "Cera Afrykańska 5"
+ complexion_6af: "Cera Afrykańska 6"
+ complexion_7af: "Cera Afrykańska 7"
+ complexion_11a: "Cera Azjatycka 11"
+ complexion_12a: "Cera Azjatycka 12"
+ complexion_13a: "Cera Azjatycka 13"
+ complexion_14a: "Cera Azjatycka 14"
+ complexion_15a: "Cera Azjatycka 15"
+ complexion_16a: "Cera Azjatycka 16"
+
+ complexion_29a: "Cera Azjatycka 29"
+ complexion_30a: "Cera Azjatycka 30"
+ complexion_31a: "Cera Azjatycka 31"
+ complexion_32a: "Cera Azjatycka 32"
+ complexion_33a: "Cera Azjatycka 33"
+ complexion_34a: "Cera Azjatycka 34"
+ complexion_35a: "Cera Azjatycka 35"
+ complexion_36a: "Cera Azjatycka 36"
+ complexion_37a: "Cera Azjatycka 37"
+
+
+ complexion_1in: "Cera Indyjska 1"
+ complexion_2in: "Cera Indyjska 2"
+ complexion_3in: "Cera Indyjska 3"
+ complexion_4in: "Cera Indyjska 4"
+ complexion_5in: "Cera Indyjska 5"
+ complexion_6in: "Cera Indyjska 6"
+ complexion_7in: "Cera Indyjska 7"
+ complexion_8in: "Cera Indyjska 8"
+ complexion_9in: "Cera Indyjska 9"
+ complexion_10in: "Cera Indyjska 10"
+ complexion_11in: "Cera Indyjska 11"
+ complexion_12in: "Cera Indyjska 12"
+ complexion_13in: "Cera Indyjska 13"
+ complexion_14in: "Cera Indyjska 14"
+
+
+ ##expression_eye_wrinkles
+ expression_eye_wrinkles: "Zmarszczki oczu"
+ eye_wrinkles_01: "Zmarszczki oczu 1"
+ eye_wrinkles_02: "Zmarszczki oczu 2"
+ eye_wrinkles_03: "Zmarszczki oczu 3"
+
+##expression_forehead_wrinkles
+ expression_forehead_wrinkles: "Zmarszczki na czole"
+ forehead_wrinkles_01: "Zmarszczki na czole 1"
+ forehead_wrinkles_02: "Zmarszczki na czole 2"
+ forehead_wrinkles_03: "Zmarszczki na czole 3"
+
+##expression_other
+ expression_other: "Inne zmarszczki"
+ cheek_wrinkles_left_01: "Zmarszczki na lewym policzku 1"
+ cheek_wrinkles_right_01: "Zmarszczki na prawym policzku 1"
+ cheek_wrinkles_both_01: "Zmarszczki na obu policzkach 1"
+ nose_wrinkles_01: "Zmarszczki na nosie 1"
+
+
+
+##hair
+ gene_hair_type: "Typ włosów"
+ hair_straight: "Proste włosy"
+ hair_wavy: "Falowane włosy"
+ hair_curly: "Kręcone włosy"
+ hair_afro: "Włosy afro"
+ hair_straight_thin_beard: "Proste włosy, cienki zarost"
+
+
+##Face
+ gene_forehead_inner_brow_width: "Szerokość wewnętrzna brwi (przestarzałe)"
+ vanilla_inner_brow_width: "Szerokość wewnętrzna brwi klasyczna"
+ inner_brow_width: "Szerokość wewnętrzna brwi"
+
+
+##Mouth
+ gene_bs_mouth_lower_lip_profile: "Profil dolnej wargi"
+ vanilla_lower_lip_profile: "Profil dolnej wargi klasyczny"
+ lower_lip_profile: "Profil dolnej wargi"
+
+##Hair aging types
+
+ hair_aging: "Typ starzenia się włosów"
+ vanilla_hair_aging: "Klasyczne starzenie się włosów"
+ late_hair_aging: "Późne starzenie się włosów"
+ no_hair_aging: "Brak starzenia się włosów"
+
+
+##Fantasy Ear Blenshapes
+
+ gene_bs_ears_fantasy: "Fantasy Shape uszu"
+ vanilla_ears_fantasy: "Klasyczne uszy"
+ ears_fantasy: "Fantasy uszy"
+
+
+##Blend shape Eyebrow Straight
+
+ gene_bs_eyebrow_straight: "Blend Shape Proste brwi"
+ vanilla_eyebrow_straight: "Proste brwi klasyczne"
+ eyebrow_straight: "Proste brwi"
+
+##Blend shape Head Asymmetry
+
+ gene_bs_head_asymmetry_1: "Asymetria głowy"
+ vanilla_head_asymmetry_1: "Asymetria głowy klasyczna"
+ head_asymmetry_1: "Asymetria głowy 1"
+ head_asymmetry_2: "Asymetria głowy 2"
+ head_asymmetry_3: "Asymetria głowy 3"
+ head_asymmetry_4: "Asymetria głowy 4"
+ head_asymmetry_5: "Asymetria głowy 5"
+ head_asymmetry_6: "Asymetria głowy 6"
+ head_asymmetry_7: "Asymetria głowy 7"
+ head_asymmetry_8: "Asymetria głowy 8"
+ head_asymmetry_9: "Asymetria głowy 9"
+ head_asymmetry_10: "Asymetria głowy 10"
+
+
+##Blend shape Head Lower Height
+
+ gene_bs_head_lower_height: "Niższa wysokość głowy"
+ vanilla_head_lower_height: "Niższa wysokość głowy klasyczna"
+ head_lower_height_max: "Maksymalna niższa wysokość głowy"
+ head_lower_height_min: "Minimalna niższa wysokość głowy"
+
+##Head Shape Archetypes
+
+ gene_bs_head_shape: "Kształt głowy"
+ vanilla_head_round_shape: "Okrągły kształt głowy klasyczny"
+ head_round_shape: "Okrągły kształt głowy"
+ head_archetype_shape_01: "Archetyp głowy 01"
+ head_archetype_shape_02: "Archetyp głowy 02"
+ head_archetype_shape_03: "Archetyp głowy 03"
+ head_archetype_shape_04: "Archetyp głowy 04"
+ head_archetype_shape_05: "Archetyp głowy 05"
+ head_archetype_shape_06: "Archetyp głowy 06"
+ head_archetype_shape_07: "Archetyp głowy 07"
+ head_archetype_shape_08: "Archetyp głowy 08"
+ head_archetype_shape_09: "Archetyp głowy 09"
+ head_archetype_shape_10: "Archetyp głowy 10"
+
+##Blend shape Nose Septum Height
+
+ gene_bs_nose_septum_height: "Wysokość przegrody nosa"
+ vanilla_nose_septum_height: "Wysokość przegrody nosa klasyczna"
+ nose_septum_height: "Wysokość przegrody nosa"
+
+##Blend shape Eye fold Overhaul
+
+ eye_fold_shape_neg: "Zwinięcie oka 01"
+ eye_fold_shape_pos: "Zwinięcie oka 02"
+ eye_fold_shape_neg_02: "Zwinięcie oka 03"
+#  vanilla_eye_fold_2: "Vanilla Eye fold 2"
+#  eye_fold_2: "Eye fold 2"
+
+
+##Blend shape Eye fold 2
+
+##Blend shape Eye Outer Width
+
+ gene_bs_eye_outer_width: "Szerokość zewnętrzna oka"
+ vanilla_eye_outer_width: "Klasyczna szerokość zewnętrzna oka"
+ eye_outer_width: "Szerokość zewnętrzna oka"
+
+##Blend shape Nose Flared Nostril
+
+ gene_bs_nose_flared_nostril: "Rozszerzona dziurka nosa"
+ vanilla_nose_flared_nostril: "Klasyczna rozszerzona dziurka nosa"
+ nose_flared_nostril: "Rozszerzona dziurka nosa"
+
+##Blend shape Nose Swollen
+
+ gene_bs_nose_swollen: "Opuchnięty nos"
+ vanilla_nose_swollen: "Klasyczny opuchnięty nos"
+ nose_swollen: "Opuchnięty nos"
+
+##Blend shape Mouth Center Curve
+
+ gene_bs_mouth_center_curve: "Krzywizna środka ust"
+ vanilla_mouth_center_curve: "Klasyczna krzywizna środka ust"
+ mouth_center_curve_max: "Maksymalna krzywizna środka ust"
+ mouth_center_curve_min: "Minimalna krzywizna środka ust"
+
+##Blend shape Mouth Glamour Lips
+
+ gene_bs_mouth_glamour_lips: "Usta glamour"
+ vanilla_mouth_glamour_lips: "Klasyczne usta glamour"
+ mouth_glamour_lips: "Usta glamour"
+
+##Blend shape Mouth Lower Lip Forward
+
+ gene_bs_mouth_lower_lip_forward: "Wysunięta dolna warga"
+ vanilla_lower_lip_forward: "Klasyczna wysunięta dolna warga"
+ mouth_lower_lip_forward: "Wysunięta dolna warga"
+
+##Blend shape Mouth Upper Lip Forward
+
+ gene_bs_mouth_upper_lip_forward: "Wysunięta górna warga"
+ vanilla_upper_lip_forward: "Klasyczna wysunięta górna warga"
+ mouth_upper_lip_forward: "Wysunięta górna warga"
+
+##Blend shape Face Upper Eyelid Definition
+
+ face_detail_eye_upper_lid_def: "Definicja górnej powieki oka"
+ vanilla_upper_lid_def: "Klasyczna definicja górnej powieki oka"
+ upper_lid_def: "Definicja górnej powieki oka 1"
+ upper_lid_def_2: "Definicja górnej powieki oka 2"
+
+##Blend shape Face Upper Eyelid Definition
+ #Modified in vanilla
+ #eye_socket_color_01: "Typ ciemniejszego oczodołu 1"
+ #eye_socket_color_02: "Typ ciemniejszego oczodołu 2"
+ #eye_socket_color_03: "Typ ciemniejszego oczodołu 3"
+
+##Eyebrow Inner Width New
+
+ gene_eyebrow_inner_width: "Szerokość wewnętrzna brwi"
+ eyebrow_inner_width_max: "Maksymalna szerokość wewnętrzna brwi"
+ vanilla_eyebrow_inner_width: "Klasyczna szerokość wewnętrzna brwi"
+ eyebrow_inner_width_min: "Minimalna szerokość wewnętrzna brwi"
+
+##Blend shape Lower Lid Size
+
+ gene_bs_eye_lower_lid_size: "Wielkość dolnej powieki oka"
+ vanilla_eye_lower_lid_size: "Klasyczna wielkość dolnej powieki oka"
+ eye_lower_lid_size: "Wielkość dolnej powieki oka"
+
+##Blend shape Eye Shape
+
+ gene_bs_eye_shape: "Kształt oka"
+ vanilla_eye_shape: "Klasyczny kształt oka"
+ eye_shape_01: "Kształt oka 01 - Migdałowy"
+ eye_shape_02: "Kształt oka 02 - Opadający"
+ eye_shape_03: "Kształt oka 03 - Mniejszy migdał"
+ eye_shape_04: "Kształt oka 04 - Migdałowy wariant"
+
+ ##Blend shape Nasolabial Rotation
+
+ gene_bs_nasolabial_rotation: "Rotacja nosowo-wargowa"
+ vanilla_nasolabial_rotation: "Klasyczna rotacja nosowo-wargowa"
+ nasolabial_rotation: "Rotacja nosowo-wargowa"
+
+##Eye Saturation
+
+ gene_eye_color_saturation: "Nasycenie koloru oczu"
+ vanilla_eye_saturation: "Klasyczne nasycenie koloru oczu"
+ eye_color_saturation: "Nasycenie koloru oczu"
+
+##Face Decals
+ gene_face_dacals: "Decal twarzy"
+ no_face_dacal: "Brak decal"
+ face_dacal_01: "Decal 01"
+ face_dacal_02: "Decal 02"
+ face_dacal_03: "Decal 03"
+ face_dacal_04: "Decal 04"
+ face_dacal_05: "Decal 05"
+ face_dacal_06: "Decal 06"
+ face_dacal_07: "Decal 07"
+ face_dacal_08: "Decal 08"
+ face_dacal_09: "Decal 09"
+ face_dacal_10: "Decal 10"
+
+ #Vanilla Additions
+
+ eye_upper_lid_size_pos: "Wielkość górnej powieki oka pozytywna 1"
+ eye_upper_lid_size_pos_02: "Wielkość górnej powieki oka pozytywna 2"
+ eye_upper_lid_size_neg: "Wielkość górnej powieki oka negatywna 1"
+
+ chin_def_02: "Wąska broda"
+
+ nose_ridge_def_02: "Średnia"
+
+ #Nose Profile Renames
+ #Modified in vanilla
+ #nose_profile_neg: "Prosty 01"
+ nose_profile_pos: "Dziób 01"
+ #Modified in vanilla
+ #nose_profile_hawk: "Jastrząb 01"
+ nose_profile_hawk_pos: "Jastrząb 02"
+ nose_profile_aquiline_01: "Aquiline 01"
+ nose_profile_aquiline_02: "Aquiline 02"
+ nose_profile_brody_01: "Brody 01"
+
+ #Nose Tip Def
+ nose_tip_def: "Definicja czubka nosa"
+ nose_tip_def_02: "Definicja czubka nosa 02"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

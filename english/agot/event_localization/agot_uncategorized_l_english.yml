@@ -1,0 +1,109 @@
+﻿l_english:
+ agot_ha_attending_list:0 "Obecny na radzie wojennej Rhaegara"
+ agot_ha_know_about_plot_list:0 "Wie o spisku Rhaegara"
+ agot_ha_loyalist_list:0 "Lojalny wobec Aerysa II"
+ agot_ha_neutral_list:0 "Niezaangażowany w spisek"
+ agot_ha_rebel_list:0 "Gotów do przyłączenia się do spisku Rhaegara"
+ septon_interaction.1bnegative:0 "PLACEHOLDER zganić go"
+ septon_interaction.1bdisinheritance:0 "PLACEHOLDER wydziedziczyć go"
+ seduce_outcome.paramour:0 "Zostań moim kochankiem!"
+ pregnancy.2001.father_is_paramour:0 "Mimo mojej cierpliwości, wydaje się, że mój księżycowy cykl znów się opóźnia, i nie mogę już dłużej ignorować charakterystycznego poruszenia płodu.\n\nWygląda na to, że noszę dziecko [real_father.GetFirstName], mojego oddanego kochanka!"
+ pregnancy.2001.paramour:0 "Co za urocza mała niespodzianka!"
+ pregnancy.2002.father_is_paramour:0 "Mój księżycowy cykl znów się opóźnia, i nie mogę już dłużej ignorować charakterystycznego poruszenia płodu.\n\nWygląda na to, że noszę dziecko [real_father.GetFirstName], mojego oddanego kochanka!\n\nKiedy przekazuję tę nowinę mojemu mężowi, [spouse.GetFirstName], wydaje się nieco zdezorientowany. „Ale przecież ledwo się dotykaliśmy,” mówi, licząc na palcach i próbując obliczyć, ile księżyców minęło od czasu, gdy ostatnio dzieliliśmy łoże.\n\nPo chwili jednak zaskoczenie mija, a jego usta układają się w idealnie okrągłe „o”. „Ochh! Po [real_father.GetFirstName]?” pyta. [spouse.GetFirstName] śmieje się, kiedy kiwam głową, uśmiechając się od ucha do ucha, wyraźnie rozbawiony. „Nie myślałem, że go na to stać!”"
+ pregnancy.2002.paramour:0 "To raczej #italic mnie#! było na to stać..."
+ birth.2001.desc.mother.paramour:0 "Po wielu godzinach porodu z ulgą słyszę płacz dziecka. Wyciągam ręce, sięgając do maestera, gdy zawija dziecko w becik. „Dajcie mi je!” proszę, podekscytowana spotkaniem z moim dzieckiem. „Pozwólcie mi je zobaczyć!”\n\nBiorę noworodka w ramiona i wpatruję się w jego twarz, a podobieństwo do [real_father.GetFirstName] jest już niezaprzeczalne. Jeśli wcześniej były jakiekolwiek wątpliwości, teraz na pewno zniknęły.\n\nMiłość, którą dzielę z [real_father.GetFirstName], jest teraz ucieleśniona w naszym dziecku. Jakie mamy szczęście!"
+ birth.2001.desc.mother.paramour.twins:0 "Po wielu godzinach porodu z ulgą słyszę płacz noworodka — ale mój trud się nie kończy, bo niedługo potem rodzę kolejne dziecko, równie głośne jak pierwsze! Wyciągam ręce, sięgając do położnych, gdy zawijają dzieci w beciki. „Dajcie mi je!” proszę, podekscytowana spotkaniem z nimi. „Pozwólcie mi je zobaczyć!”\n\nPołożne podają mi dzieci przy łóżku, a ja wpatruję się w nie przez wieczność; jeśli wcześniej były jakiekolwiek wątpliwości, teraz na pewno zniknęły, bo podobieństwo do [real_father.GetFirstName] jest już niezaprzeczalne!\n\nMiłość, którą dzielę z [real_father.GetFirstName], jest teraz ucieleśniona podwójnie w naszych bliźniętach. Jakie mamy szczęście!"
+ birth.2001.desc.father.paramour:0 "Czuję się potężniejszy niż jakikolwiek lord, książę czy nawet król, bo moją koroną jest radość; korona, której niewielu królów dostępuje — moja ukochana kochanka, [mother.GetFirstName], urodziła!\n\nCzy jest coś, czego ona #italic nie#! potrafi?"
+ birth.2001.desc.father.paramour.twins:0 "Czuję się potężniejszy niż jakikolwiek lord, książę czy nawet król, bo moją koroną jest radość; korona, której niewielu królów dostępuje — moja ukochana kochanka, [mother.GetFirstName], urodziła nie jedno, a #italic dwoje#! naszych dzieci!\n\nCzy jest coś, czego ona #italic nie#! potrafi?"
+ birth.2001.b.paramour:0 "Za miłość, która zostawia po sobie dziedzictwo!"
+ the_golden_company_name: "Złota Kompania"
+ targaryen_host: "Zastęp Targaryenów"
+ blackfyre_dynamic_revolt_army:0 "Zastęp Blackfyre’ów"
+
+
+ ###################
+ ## EYE GEM STUFF ##
+ ###################
+
+ remove_eye_gem_decision:0 "Usuń klejnot z oka"
+ remove_eye_decision_tooltip:1 "Możesz zdecydować się rozstać z klejnotem w oczodole i wrócić do noszenia opaski na oku."
+ remove_eye_gem_decision_effect:0 "Twój klejnot w oku zostanie #N usunięty#!, a ty znów będziesz używać opaski na oku."
+ remove_eye_gem_decision_confirm:0 "Może nadszedł czas, by zmienić mój wygląd..."
+ remove_facemask.0003.a:0 "Chciałbym wrócić do noszenia opaski na oku..."
+ buy_facemask.0001.f:0 "Nieważne..."
+ eyereplace.0005.desc:0 "Patrzę w lustro i pytam siebie...\n\n„Czy nadszedł czas, by usunąć ten klejnot, który mam zamiast oka?”\n\nRozważam powrót do opaski na oku jako mojego wyglądu."
+
+ # Buy GEM STUFF
+
+ agot_buy_eye_gem_decision:0 "Zastąp oko klejnotem"
+ replace_eye_desc:0 "Wezwij swojego rzemieślnika, by przyniósł różne klejnoty z zamiarem użycia jednego w miejsce straconego oka."
+ agot_buy_eye_gem_decision_confirm:0 "Wybierz klejnot"
+ agot_buy_eye_gem_decision_next_stop_button:0 "Przynieście mi najpiękniejsze klejnoty!"
+ #COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "Choose a type of [artifact|E]"
+ replace_eye_decision_tooltip:1 "Za sumę [gold|E][gold_i] możesz kupić rzadki klejnot od kupca, aby użyć go w miejscu straconego oka."
+
+ # Displays the name of the gems on the new decision interface
+
+ replace_eye_gem_option_red:0 "Rubin"
+ replace_eye_gem_option_saphire:0 "Szafir"
+ replace_eye_gem_option_white:0 "Diament"
+ replace_eye_gem_option_blue:0 "Opal"
+ replace_eye_gem_option_green:0 "Szmaragd"
+ replace_eye_gem_option_black:0 "Obsydian"
+ replace_eye_gem_option_yellow:0 "Cytryn"
+ replace_eye_gem_option_orange:0 "Spessartyt"
+ replace_eye_gem_option_purple:0 "Ametyst"
+
+ # Flavor for when you hover over the options
+
+ has_eyegem_red_tooltip:0 "#BOLD;COLOR:{0.48,0.05,0.09} Rubin#! z Wysp Letnich! To będzie dobre."
+ has_eyegem_saphire_tooltip:0 "#BOLD;COLOR:{0.63,0.51,0.93} Szafir#! z Wyspy Tarth, bez wątpienia!"
+ has_eyegem_white_tooltip:0 "#BOLD;COLOR:{0.93,0.93,0.93} Diament#!? Biorę go!"
+ has_eyegem_blue_tooltip:0 "#BOLD;COLOR:{0.0,0.0,0.74} Opal#!, jego niebieski kolor przypomina mi ocean."
+ has_eyegem_green_tooltip:0 "#BOLD;COLOR:{0.12,0.3,0.18} Szmaragd#!, jest naprawdę hipnotyzujący..."
+ has_eyegem_black_tooltip:0 "#BOLD;COLOR:{0.3,0.3,0.3} Obsydian#!, czyli szkło smocze, jak mówią moi ludzie. Czarny jak noc."
+ has_eyegem_yellow_tooltip:0 "#BOLD;COLOR:{0.89,0.84,0.10} Cytryn#!, jego żółty blask przypomina mi słońce."
+ has_eyegem_orange_tooltip:0 "#BOLD;COLOR:{1.00,0.44,0.00} Spessartyt#!, jego bursztynowa poświata przypomina mi ogień."
+ has_eyegem_purple_tooltip:0 "#BOLD;COLOR:{0.35,0.00,0.45} Ametyst#!, jego purpura przypomina mi oczy dawnych Valyrian."
+
+ ############################
+ ## OUTDATED EYE GEM STUFF ##
+ ############################
+
+#  trait_one_eyed_saphire:0 "Jednooki"
+#  trait_one_eyed_red:0 "Jednooki"
+#  trait_one_eyed_black:0 "Jednooki"
+#  trait_one_eyed_white:0 "Jednooki"
+#  trait_one_eyed_yellow:0 "Jednooki"
+#  trait_one_eyed_orange:0 "Jednooki"
+#  trait_one_eyed_purple:0 "Jednooki"
+#  trait_one_eyed_blue:0 "Jednooki"
+#  trait_one_eyed_green:0 "Jednooki"
+
+ eyereplace.0001.t:0 "Nowy wygląd"
+#  eyereplace.0001.desc:0 "Przywołuję mojego rzemieślnika i każę mu przynieść skrzynię z jego najpiękniejszymi klejnotami. Czas pozbyć się tej okropnej opaski na oku na rzecz czegoś... bardziej interesującego.\n\n „Mój [ROOT.Char.GetLadyLord|U], który klejnot będzie dla ciebie najlepszy?” pyta, pokazując mi skrzynię pełną lśniących klejnotów:"
+#  eyereplace.0011.desc:0 "Mój rzemieślnik ponownie wykłada wszystkie swoje klejnoty.\n\n „Mój [ROOT.Char.GetLadyLord|U], który klejnot będzie dla ciebie najlepszy?” pyta, pokazując mi skrzynię pełną lśniących klejnotów:"
+
+#  eyereplace.0001.a:0 "Myślę, że #BOLD;COLOR:{0.63,0.51,0.93} szafir#!, #BOLD;COLOR:{0.48,0.05,0.09} rubin#! lub #BOLD;COLOR:{0.93,0.93,0.93} diament#! będą odpowiednie..."
+#  eyereplace.0001.b:0 "#BOLD;COLOR:{0.0,0.0,0.74} Opal#!, #BOLD;COLOR:{0.3,0.3,0.3} obsydian#! lub #BOLD;COLOR:{0.12,0.3,0.18} szmaragd #! będą mi pasować..."
+#  eyereplace.0001.c:0 "Albo #BOLD;COLOR:{0.89,0.84,0.10} cytryn#!, #BOLD;COLOR:{1.00,0.44,0.00} spessartyt#!, albo #BOLD;COLOR:{0.35,0.00,0.45} ametyst#! będą mi najlepiej odpowiadać..."
+#  eyereplace.0001.d:0 "Zmieniłem zdanie, ten wygląd nie jest dla mnie..."
+#  eyereplace.0001.e:0 "Nie wiem... Pokaż mi inne klejnoty..."
+
+#  eyereplace.0002.a:0 "Wezmę #BOLD;COLOR:{0.63,0.51,0.93} szafir#!."
+#  eyereplace.0002.b:0 "Ten #BOLD;COLOR:{0.48,0.05,0.09} rubin#! będzie odpowiedni."
+#  eyereplace.0002.c:0 "#BOLD;COLOR:{0.93,0.93,0.93} Diament#!? Biorę go!"
+#  eyereplace.0002.desc:0 "Mój rzemieślnik kładzie na stole trzy klejnoty.\n\nPierwszy to #BOLD;COLOR:{0.63,0.51,0.93} szafir#!, prosty, ale uderzający.\n\nNastępny to #BOLD;COLOR:{0.48,0.05,0.09} rubin#!, jego kolor jest czerwony jak krew.\n\nNa koniec kładzie przede mną #BOLD;COLOR:{0.93,0.93,0.93} diament#!, który iskrzy białym światłem, nieco przypominającym światło gwiazd."
+
+#  eyereplace.0003.a:0 "#BOLD;COLOR:{0.0,0.0,0.74} Opal#! będzie mi najlepiej pasować. "
+#  eyereplace.0003.b:0 "Ciemny kawałek #BOLD;COLOR:{0.3,0.3,0.3} obsydianu#! spełni moje potrzeby."
+#  eyereplace.0003.c:0 "Ten #BOLD;COLOR:{0.12,0.3,0.18} szmaragd#! jest naprawdę hipnotyzujący..."
+#  eyereplace.0003.desc:0 "Mój rzemieślnik kładzie na stole trzy klejnoty.\n\nPierwszy to #BOLD;COLOR:{0.0,0.0,0.74} opal#!, jego niebieski kolor przypomina mi ocean.\n\nNastępny to kawałek #BOLD;COLOR:{0.3,0.3,0.3} obsydianu#!, czyli szkła smoczego, jak mówią moi ludzie. Czarny jak noc.\n\nNa koniec kładzie przede mną #BOLD;COLOR:{0.12,0.3,0.18} szmaragd#!, którego zieleń przypomina mi zielone wzgórza."
+
+#  eyereplace.0004.a:0 "#BOLD;COLOR:{0.89,0.84,0.10} Cytryn#!? Co za unikalny kolor!"
+#  eyereplace.0004.b:0 "Myślę, że ten kawałek #BOLD;COLOR:{1.00,0.44,0.00} spessartyty#! pasuje do mojego wyglądu."
+#  eyereplace.0004.c:0 "Kawałek #BOLD;COLOR:{0.35,0.00,0.45} ametystu#! pasuje do mojego valyriańskiego dziedzictwa."
+#  eyereplace.0004.desc:0 "Mój rzemieślnik kładzie na stole trzy klejnoty.\n\nPierwszy to #BOLD;COLOR:{0.89,0.84,0.10} cytryn#!, jego żółty blask przypomina mi słońce.\n\nNastępny to #BOLD;COLOR:{1.00,0.44,0.00} spessartyt#!, jego bursztynowa poświata przypomina mi ogień.\n\nNa koniec kładzie przede mną #BOLD;COLOR:{0.35,0.00,0.45} ametyst#!, którego purpura przypomina mi uderzające oczy, które mają wszyscy Valyrianie."
+
+#  replace_eye_decision:0 "Zamień opaskę na oku na klejnot"
+#  replace_eye_decision_confirm:0 "Przynieście mi najpiękniejsze klejnoty!"

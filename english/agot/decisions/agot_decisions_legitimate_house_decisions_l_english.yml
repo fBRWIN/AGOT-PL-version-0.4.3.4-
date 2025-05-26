@@ -1,0 +1,78 @@
+﻿l_english:
+ # Decyzje związane z Tytułami
+ # Ogólne
+ agot_become_legitimate_house_decision_generic:0 "Stać się Legitymacją Domu"
+ agot_become_legitimate_house_decision_desc_generic:0 "Po trzymaniu tytułu w swoim domu przez pokolenia, Dom [ROOT.Char.GetHouse.GetNameNoTooltip] w końcu stał się [agot_legitimate_house|E] regionu. Jesteś teraz prawdziwym władcą tych ziem w oczach ludzi, a twoi potomkowie będą trzymać te ziemie na zawsze!"
+ agot_become_legitimate_house_decision_generic_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetName] trzyma nasze tytuły przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] naszego regionu."
+ agot_become_legitimate_house_decision_generic_effect:0 "Staniesz się [agot_legitimate_house|E] regionu."
+ agot_become_legitimate_house_decision_has_doesnt_have_own_decision_trigger:0 "Nie ma dedykowanej decyzji [decision|E] aby stać się [agot_legitimate_house|E]"
+ agot_become_legitimate_house_decision_generic_confirm:0 "Jesteśmy Prawdziwymi Władcami!"
+
+ # Wyzwalacze
+ agot_become_legitimate_house_decision_100_percent_trigger:0 "Ma 100% postępu w kierunku stania się [agot_legitimate_house|E]"
+
+ # Północ
+ agot_become_legitimate_house_decision_north:0 "Stać się Legitymacją Domu Północy"
+ agot_become_legitimate_house_decision_desc_north:0 "Po trzymaniu wielkich ziem Północy przez pokolenia, Dom [GetTitleByKey('e_the_north').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Północy. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od Szyi do Muru, Północ jest nasza na zawsze!"
+ agot_become_legitimate_house_decision_north_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Północy przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Północy."
+ agot_become_legitimate_house_decision_north_confirm:0 "Jesteśmy Prawdziwymi Królami Zimy!"
+
+ # Dolina
+ agot_become_legitimate_house_decision_vale:0 "Stać się Legitymacją Domu Doliny"
+ agot_become_legitimate_house_decision_desc_vale:0 "Po trzymaniu gór Doliny przez pokolenia, Dom [GetTitleByKey('e_the_vale').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Doliny. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od Krwawej Bramy do Palców, Dolina jest nasza na zawsze!"
+ agot_become_legitimate_house_decision_vale_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Doliny przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Doliny."
+ agot_become_legitimate_house_decision_vale_confirm:0 "Te Góry Są Nasze!"
+
+ # Nadbrzeże
+ agot_become_legitimate_house_decision_riverlands:0 "Stać się Legitymacją Domu Nadbrzeża"
+ agot_become_legitimate_house_decision_desc_riverlands:0 "Po trzymaniu urodzajnych pól i wód Nadbrzeża przez pokolenia, Dom [GetTitleByKey('e_the_riverlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Nadbrzeża. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od Bliźniaków do Skrzyżowań, Nadbrzeże jest nasze na zawsze!"
+ agot_become_legitimate_house_decision_riverlands_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Nadbrzeża przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Nadbrzeża."
+ agot_become_legitimate_house_decision_riverlands_confirm:0 "Nasze Rzeki, Nasze Ziemie!"
+
+ # Zachodnie Krainy
+ agot_become_legitimate_house_decision_westerlands:0 "Stać się Legitymacją Domu Zachodnich Krain"
+ agot_become_legitimate_house_decision_desc_westerlands:0 "Po trzymaniu wzgórz Zachodnich Krain przez pokolenia, Dom [GetTitleByKey('e_the_westerlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Zachodnich Krain. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od szczytu Casterly Rock po głębiny Deep Den, bogactwo Zachodnich Krain jest nasze na zawsze!"
+ agot_become_legitimate_house_decision_westerlands_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Zachodnich Krain przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Zachodnich Krain."
+ agot_become_legitimate_house_decision_westerlands_confirm:0 "Złote Ziemie, Złoty Dom!"
+
+ # Wyspy Żelazne
+ agot_become_legitimate_house_decision_iron_islands:0 "Stać się Legitymacją Domu Wysp Żelaznych"
+ agot_become_legitimate_house_decision_desc_iron_islands:0 "Po trzymaniu skalistych brzegów Wysp Żelaznych przez pokolenia, Dom [GetTitleByKey('e_the_iron_islands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Wysp Żelaznych. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; cały świat będzie się bał, gdy nasze sztandary przekroczą ich brzegi!"
+ agot_become_legitimate_house_decision_iron_islands_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Wysp Żelaznych przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Wysp Żelaznych."
+ agot_become_legitimate_house_decision_iron_islands_confirm:0 "Jesteśmy Prawdziwymi Żelaznymi!"
+
+ # Reach
+ agot_become_legitimate_house_decision_reach:0 "Stać się Legitymacją Domu Reach"
+ agot_become_legitimate_house_decision_desc_reach:0 "Po trzymaniu pól Reach przez pokolenia, Dom [GetTitleByKey('e_the_reach').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Reach. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od małych Czterech Tarczy do wielkiego Goldengrove, wszystko rośnie pod naszą ochroną!"
+ agot_become_legitimate_house_decision_reach_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Reach przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Reach."
+ agot_become_legitimate_house_decision_reach_confirm:0 "Nasza Moc Rośnie!"
+
+ # Stormlands
+ agot_become_legitimate_house_decision_stormlands:0 "Stać się Legitymacją Domu Stormlands"
+ agot_become_legitimate_house_decision_desc_stormlands:0 "Po trzymaniu różnych ziem Stormlands przez pokolenia, Dom [GetTitleByKey('e_the_stormlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Stormlands. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od Czerwonej Góry po Czarną Wodę, Stormlands są nasze na zawsze!"
+ agot_become_legitimate_house_decision_stormlands_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Stormlands przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Stormlands."
+ agot_become_legitimate_house_decision_stormlands_confirm:0 "Żaden Storm Nas Nie Złamie!"
+
+ # Dorne
+ agot_become_legitimate_house_decision_dorne:0 "Stać się Legitymacją Domu Dorne"
+ agot_become_legitimate_house_decision_desc_dorne:0 "Po trzymaniu piasków Dorne przez pokolenia, Dom [GetTitleByKey('e_dorne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Dorne. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od pustyń Czerwonych Gór po brzegi Morza Letniego, Dorne jest nasza na zawsze!"
+ agot_become_legitimate_house_decision_dorne_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Dorne przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Dorne."
+ agot_become_legitimate_house_decision_dorne_confirm:0 "Piaski Są Nasze!"
+
+ # Królestwa Korony
+ agot_become_legitimate_house_decision_crownlands:0 "Stać się Legitymacją Domu Królestw Korony"
+ agot_become_legitimate_house_decision_desc_crownlands:0 "Po trzymaniu ziem Królestw Korony przez pokolenia, Dom [GetTitleByKey('k_the_crownlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Królestw Korony. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest prawdziwym władcą tych ziem w oczach lordów i małej ludności; od Czarnych Wód po Kingswood, Królestwa Korony są nasze na zawsze!"
+ agot_become_legitimate_house_decision_crownlands_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Królestw Korony przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Królestw Korony."
+ agot_become_legitimate_house_decision_crownlands_confirm:0 "Nasza Krew Zasługuje na Królowanie Czarną Wodą!"
+
+ # Żelazny Tron
+ agot_become_legitimate_house_decision_iron_throne:0 "Stać się Legitymacją Domu Żelaznego Tronu"
+ agot_become_legitimate_house_decision_desc_iron_throne:0 "Po trzymaniu Żelaznego Tronu przez pokolenia, Dom [GetTitleByKey('k_the_iron_throne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Żelaznego Tronu. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest teraz prawdziwym władcą tych ziem w oczach lordów i małej ludności; Westeros należy do nas na zawsze!"
+ agot_become_legitimate_house_decision_iron_throne_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Żelaznego Tronu przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Żelaznego Tronu."
+ agot_become_legitimate_house_decision_iron_throne_confirm:0 "Westeros Jest Nasze!"
+
+ # Dragonstone
+ agot_become_legitimate_house_decision_dragonstone:0 "Stać się Legitymacją Domu Dragonstone"
+ agot_become_legitimate_house_decision_desc_dragonstone:0 "Po trzymaniu wyspy Dragonstone przez pokolenia, Dom [GetTitleByKey('k_dragonstone').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] w końcu nie jest już uważany za prawdziwego władcę Dragonstone. Dom [ROOT.Char.GetHouse.GetNameNoTooltip] jest teraz prawdziwym władcą tych ziem w oczach lordów i małej ludności; wyspa królestwa należy do nas na zawsze!"
+ agot_become_legitimate_house_decision_dragonstone_tooltip:0 "Jeśli Dom [ROOT.Char.GetHouse.GetNameNoTooltip] trzyma tytuł Dragonstone przez wystarczająco długi czas, będziemy mogli stać się [agot_legitimate_house|E] Dragonstone."
+ agot_become_legitimate_house_decision_dragonstone_confirm:0 "Jesteśmy Domem Smoka!"

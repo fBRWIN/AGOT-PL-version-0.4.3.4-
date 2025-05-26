@@ -1,0 +1,86 @@
+﻿l_english:
+
+ agot_peake_uprising.0001.t:0 "Powstanie Peake'ów"
+ agot_peake_uprising.0001.desc:0 "Czym było istnienie rodu [ROOT.Char.GetHouse.GetName] odkąd fałszywy smok odebrał tron [daemon.GetFirstNameNicknamedPossessive], jeśli nie wstydem i upokorzeniem?\n\nOd tego czasu nasi wrogowie z radością podkopywali nasze ziemie! Ziemie, które trzymaliśmy, odkąd wypędziliśmy mermenów z Manderu.\n\nDość tego! Odzyskamy wszystko, co straciliśmy od czasu wstąpienia na tron [daeron.GetFirstName]a Fałszywie Urodzonego, albo zginiemy w tej próbie! Nie będziemy dłużej cierpieć jako podupadająca dynastia.\n\nJeśli okażemy się godni, być może prawdziwy monarcha, [aenysclaimant.GetTitledFirstName] [aenysclaimant.GetHouse.GetName], powróci zza Wąskiego Morza..."
+ agot_peake_uprising.0001.a:0 "Odzyskamy naszą godność!"
+
+ agot_peake_uprising.0002.t:0 "$agot_peake_uprising.0001.t$"
+ agot_peake_uprising.0002.desc:0 "Po raz czwarty w ciągu ostatnich czterdziestu lat żałośni mieszkańcy Starpike wzniecają bunt przeciwko Żelaznemu Tronowi! Tym razem są bez sojuszników, nie mają nawet Czarnego Smoka, któremu mogliby się zaprzysiąc.\n\nTa drobna rebelia [peake.GetTitledFirstNamePossessive] jest tylko kłopotem; nie sprawi nam trudności. [peake.GetHerHis|U] żądania są nierozsądne, nie oddam Ashford ani innych ziem rodowi, który po raz kolejny udowodnił, że nie można mu powierzyć nawet resztek siły.\n\nPo dzisiejszym dniu Starpike będzie wszystkim, co im zostanie!"
+ agot_peake_uprising.0002.a:0 "Sam ukarzę tych zdrajców!"
+
+ agot_peake_uprising.0003.t:0 "$agot_peake_uprising.0001.t$"
+ agot_peake_uprising.0003.desc:0 "Dziwna okazja... [peake.GetFullName] złamał królewski pokój, wzniecając bunt, który wydaje się skazany na niepowodzenie.\n\n[maekar.GetTitledFirstNameRegnal] nawet nie zwołał swych chorągwi, polegając wyłącznie na ludziach, których może zebrać z [maekar.GetSheHe] i [egg.GetTitledFirstName]. Żelazny Tron może nie prosił o moją pomoc, ale jej nie odrzuci.\n\nW końcu nie zaszkodzi zdobyć przychylność rodu smoka. Zwłaszcza gdy stary, zgaszony i nieobecny [gerold.GetTitledFirstName] zasiada w Casterly Rock."
+ agot_peake_uprising.0003.a:0 "Wyruszamy do Starpike o świcie!"
+
+ agot_peake_uprising.0004.t:0 "$agot_peake_uprising.0001.t$"
+ agot_peake_uprising.0004.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', maekar)], [maekar.GetTitledFirstNameRegnal], zgromadził wojsko, by zdławić żałosny bunt [peake.GetTitledFirstName] na Dornijskich Marchiach. Wygląda na to, że ród [peake.GetHouse.GetName] powstał samotnie, ale to zawsze oni pierwsi podążali w cieniu Czarnego Smoka. Choć [aenysclaimant.GetFirstName] [aenysclaimant.GetHouse.GetName] wciąż przebywa za Wąskim Morzem, musimy być czujni, by to nie było początkiem czwartego buntu.\n\nWyruszam wraz z każdym, kto zechce pomóc tronowi przywrócić pokój i porządek — oby [peake.GetFirstNameNoTooltip] został pokonany bez oporu."
+ agot_peake_uprising.0004.a:0 "Modlę się o mało rozlewu krwi."
+
+ agot_peake_uprising.0005.t:0 "Oblężenie Starpike"
+ agot_peake_uprising.0005.desc:0 "Potężna królewska armia zebrała się pod murami Starpike. Wszyscy nasi żołnierze przygotowują się do oblężenia, a na murach widać jedynie kilkudziesięciu ludzi.\n\n[egg.GetTitledFirstName], jak zawsze współczujący i chcący uniknąć rozlewu krwi, prosił mnie, byśmy utrzymali oblężenie do czasu, aż [peake.GetTitledFirstName] podda się z powodu słabnącej nadziei i niezadowolenia w swoich szeregach. Z drugiej strony [reyne.GetTitledFirstName] pragnie chwały i namawia, bym zaatakował zamek, by nie trzymać tu naszych ludzi przez miesiące, czekając aż garstka wytrzyma.\n\nOba argumenty mają sens, ale który bardziej mnie przekonuje?"
+ agot_peake_uprising.0005.a:0 "Rozpocząć szturm!"
+ agot_peake_uprising.0005.b:0 "Czas jest po naszej stronie, trzymajmy oblężenie."
+
+ agot_peake_uprising.0006.t:0 "$agot_peake_uprising.0005.t$"
+ agot_peake_uprising.0006.desc:0 "Stoję w wielkiej sali Starpike, gdy moi ludzie tłumią ostatnie ogniska oporu Peake'ów. Cokolwiek [peake.GetSheHe] chciał osiągnąć, [peake.GetTitledFirstName] poniósł całkowitą porażkę i teraz musi zapłacić cenę.\n\nJuż wcześniej postanowiono, że ród Peake straci wszystkie ziemie oprócz Starpike, ale to było zanim musieliśmy stoczyć tę głupią wojnę. Wielu przelało krew, może [peake.GetFirstNameNoTooltip] powinien umrzeć za to... Zdrada zdaje się tkwić w krwi Peake'ów, czy nie należy ukarać ich wszystkich za zbrodnie [peake.GetFirstNamePossessiveNoTooltip]?\n\nCo zrobić z rodem [peake.GetHouse.GetName]?"
+ agot_peake_uprising.0006.a:0 "Utrata ziem wystarczy, niech nikt więcej nie ginie."
+ agot_peake_uprising.0006.b:0 "Zrobię z [peake.GetTitledFirstNameNoTooltip] przykład!"
+ agot_peake_uprising.0006.c:0 "Ród Peake nie może już nigdy sprawić nam kłopotu!"
+
+ agot_peake_uprising.0007.t:0 "$agot_peake_uprising.0005.t$"
+ agot_peake_uprising.0007.desc:0 "Armie Korony rozbijają się o mury Starpike, nasza przewaga jest miażdżąca. Tarany biją w bramy niczym bębny, rytmicznie ogłaszając naszą zwycięską ofensywę. Ludzie wspinają się po licznych drabinach oblężniczych, by przeważyć szalę nad #italic żałosną#! garstką broniącą murów [lordpeake.GetFirstNamePossessive].\n\nSam prowadzę jeden z oddziałów — żołnierzom dobrze widzieć króla w pierwszej linii, tam gdzie jest największe niebezpieczeństwo. Chwytam za jedną z drabin i zaczynam się wspinać.\n\nPatrzę w górę i widzę dwóch żołnierzy toczących wielki głaz na skraj blanków; z całych sił popychają go w moją stronę. Jedna myśl przebiega mi przez głowę. #italic To nie jest sposób, by umarł król.#!"
+ agot_peake_uprising.0007.a:0 "#difficulty_hard #italic Argh!#!#!"
+
+ agot_peake_uprising.0008.t:0 "$agot_peake_uprising.0005.t$"
+ agot_peake_uprising.0008.desc:0 "Mój [ROOT.Char.Custom2('RelationToMeShort', maekar)], [maekar.GetTitledFirstNameRegnal], jest #bold martwy!#! A winę ponosi [peake.GetTitledFirstName]; to przez [peake.GetHerHis] bezsensowny bunt! Czwarty w ciągu ostatnich dekad.\n\nZ rozkazu mojego ojca ród Peake został już pozbawiony ziem i wasali, zachowując jedynie zamek Starpike. Teraz to jeden z najsłabszych marcherów. Ale to postanowiono zanim zabili króla...\n\nJak długo jeszcze ten najniższy ród Westeros ma płacić za swoje zbrodnie?"
+ agot_peake_uprising.0008.a:0 "Przelało się już dość krwi."
+ agot_peake_uprising.0008.b:0 "Zażądam głowy [peake.GetTitledFirstNameNoTooltip]!"
+ agot_peake_uprising.0008.c:0 "Cztery razy to o cztery za dużo! Koniec ich rodu!"
+
+ agot_peake_uprising.0009.t:0 "Wielka Rada"
+ agot_peake_uprising.0009.desc:0 "[maekardead.GetNameRegnal] nie żyje. Po śmierci księcia Aeriona Brightflame'a Maekar nie wyznaczył nowego księcia Smoczej Skały i następcy. By zapobiec wojnie o sukcesję zwołano wielką radę, by wybrać nowego monarchę.\n\nPod rozwagę bierze się pięć roszczeń. Te księcia [maegorclaimant.GetName], księżniczki [vaellaclaimant.GetName] oraz ich wuja [eggclaimant.GetTitledFirstName]. Poza tym, potomek Czarnego Smoka pisze z wygnania, mając cień szansy, [aenysclaimant.GetName] pragnie zdobyć tron słowem. Niezadowoleni z wyboru, niektórzy lordowie chcą oddać tron [aemonclaimant.GetName], ale nie wiadomo, czy zdoła zrzec się ślubów...\n\nKogo wybierze rada?"
+ agot_peake_uprising.0009.d:0 "Vaella potrzebuje tylko krótkiej regencji, niech będzie królową!"
+ agot_peake_uprising.0009.c:0 "Maegor jest najbliżej tronu, to musi być on!"
+ agot_peake_uprising.0009.a:0 "Aegon jest już dość dorosły, nie musimy znosić regentów!"
+ agot_peake_uprising.0009.b:0 "Może Aemon zechce zrzec się ślubów..."
+ agot_peake_uprising.0009.e:0 "Czarny Smok ma przekonujące argumenty..."
+
+ agot_peake_uprising.0010.t:0 "Wieczna lojalność"
+ agot_peake_uprising.0010.desc:0 "Teraz, gdy słusznie mianowano mnie królem Andalów, Rhoynarów i Pierwszych Ludzi, rozumiem powagę swej sytuacji. Niewiele rodów wspierało Blackfyre'ów równie gorliwie jak ród [peake.GetHouse.GetName].\n\nDzięki nowej władzy mogę ukształtować królestwo według własnego uznania — także nagradzając lojalnych... [peake.GetFullName] staje przede mną jako głowa swego rodu i nadzieja dla królestwa. Czy ród Peake powinien zostać wynagrodzony za lojalność?"
+ agot_peake_uprising.0010.a:0 "Udowodnili swą lojalność nie raz..."
+ agot_peake_uprising.0010.b:0 "Peake? Kto to właściwie jest?"
+
+
+ agot_peake_uprising.0011.t:0 "Szturm na Starpike"
+ agot_peake_uprising.0011.desc:0 "Królewska armia [maekar.GetTitledFirstNameRegnal] rusza naprzód, szturmując bramy Starpike. Spoglądam w dół na gęsty tłum żołnierzy i widzę dumny sztandar [maekar.GetHouse.GetName] na czele. Król [maekar.GetHerselfHimself] prowadzi atak, podczas gdy moi ludzie rzucają na nich każdy kamień, jaki znajdą. Przesuwając wzrok po wrogich szeregach, słyszę głośny krzyk od strony królewskich linii, a potem okrzyk gdzieś z moich murów.\n\n„Król nie żyje!” — słyszę krzyk przez pole bitwy, a potem widzę, jak zgniecione ciało [maekar.GetTitledFirstNameNoTooltip] jest odciągane od frontu, [maekar.GetHerHis] hełm został zmiażdżony przez przypadkowy kamień.\n\nTeraz bramy padły, Starpike upadło razem z nimi, a my zabiliśmy króla."
+ agot_peake_uprising.0011.a:0 "Pozostaje modlić się o miłosierdzie..."
+
+ agot_peake_uprising.0012.t:0 "$agot_peake_uprising.0011.t$"
+ agot_peake_uprising.0012.desc:0 "Królewska armia [maekar.GetTitledFirstNameRegnal] rusza naprzód, szturmując bramy Starpike. Spoglądam w dół na gęsty tłum żołnierzy i widzę dumny sztandar [maekar.GetHouse.GetName] na czele. Król [maekar.GetHerselfHimself] prowadzi atak, podczas gdy moi ludzie rzucają na nich każdy kamień, jaki znajdą. Z królem na czele, armia szybko przebija się przez nasze bramy, przelewając się przez wyłom w obronie niczym plaga szczurów.\n\nKról wkroczył do Starpike i szybko rozprawia się z moimi zmęczonymi chorągwiami. Przegraliśmy i król pochwyci nas w swoje ręce."
+ agot_peake_uprising.0012.a:0 "Pozostaje modlić się o miłosierdzie..."
+
+ agot_peake_uprising.0013.t:0 "Nagroda za lojalność"
+ agot_peake_uprising.0013.desc:0 "[aenys.GetNameNicknamed] został koronowany na króla. Obawiałem się, że [aenys.GetSheHe] zapomni o długoletniej lojalności mojego rodu wobec [aenys.GetHerHis], lecz już teraz uznał ją za wartą nagrody. Otrzymamy nowe ziemie i znów staniemy się potężni wśród marcherów.\n\nRód Peake będzie prosperować pod czarnym smokiem."
+ agot_peake_uprising.0013.a:0 "Bogowie są łaskawi."
+
+ agot_peake_uprising.0014.t:0 "Uzbrojenie Zdobywcy"
+ agot_peake_uprising.0014.desc:0 "Skoro spełniłem marzenie mego ojca o królewskiej godności, muszę też wyglądać jak król. Są już korony, jest tron, brakuje mi tylko miecza zdobywcy — Blackfyre’a. Mój [ROOT.Char.Custom2('RelationToMeShort', bittersteel )] [bittersteel.GetNameNicknamed] wciąż przebywa za Wąskim Morzem z mieczem, od którego mój ojciec wziął imię.\n\nMoże powinienem posłać po [bittersteel.GetHerHim] i resztę krewnych, by powrócili do Westeros i przynieśli mi Blackfyre’a."
+ agot_peake_uprising.0014.a:0 "Wyślij posłańca natychmiast!"
+ agot_peake_uprising.0014.b:0 "To nie warte zachodu."
+
+ agot_peake_uprising.0015.t:0 "$agot_peake_uprising.0014.t$"
+ agot_peake_uprising.0015.desc:0 "Z Westeros przybył posłaniec. Mój [ROOT.Char.Custom2('RelationToMeShort', aenys )] [aenys.GetNameNicknamedPossessive] plan się powiódł i [aenys.GetSheHe] zasiada na Żelaznym Tronie. Choć zdobył go przez wielką radę, wciąż nosi koronę. Marzenie, które tak długo podzielaliśmy, w końcu się ziściło, a czarny smok rządzi Westeros. [aenys.GetSheHe|U] prosi, abym powrócił do ojczyzny, przynosząc mu Blackfyre’a, by mógł odebrać swój dziedziczny miecz w zamian za koniec mojego wygnania.\n\nCzy powinienem zaufać nowemu królowi?"
+ agot_peake_uprising.0015.a:0 "Moja ambicja została spełniona."
+ agot_peake_uprising.0015.a.tt:0 "Akceptujesz propozycję i wracasz do Westeros."
+ agot_peake_uprising.0015.b:0 "Aenys to tylko marionetka."
+ agot_peake_uprising.0015.b.tt:0 "Odrzucasz tę farsę."
+
+ agot_peake_uprising.0016.t:0 "$agot_peake_uprising.0014.t$"
+ agot_peake_uprising.0016.desc:0 "Bittersteel staje przed Żelaznym Tronem, podnosząc miecz oburącz przede mną. Wydobywa go z pochwy, ukazując valyriańską stal, ciemną jak dym i pokrytą falami zaklęć. Przejąłem klingę moich przodków i umocniłem swą pozycję jako spadkobierca ojca. Mój wuj informuje mnie, że część krewnych została z Złotą Kompanią z powodu urazy, ale to już nieistotne — jestem Królem z Mieczem!"
+ agot_peake_uprising.0016.a:0 "Nadchodzi era Czarnego Smoka!"
+
+ agot_peake_uprising.0017.t:0 "$agot_peake_uprising.0014.t$"
+ agot_peake_uprising.0017.desc:0 "Mój wuj Bittersteel znów zasłużył na swoje imię. Odesłał mojego posłańca, powiadamiając mnie, że nie zamierza wracać do Westeros, ani oddać miecza, który prawnie mi się należy. Odmawia mi Blackfyre’a, a więc odmawia także mojego prawa do tronu, na którym zasiadam. Tak czy inaczej, klinga jest teraz poza moim zasięgiem, razem z moimi krewnymi."
+ agot_peake_uprising.0017.a:0 "Jaka szkoda..."
+
+ royal_host:0 "Królewska armia"

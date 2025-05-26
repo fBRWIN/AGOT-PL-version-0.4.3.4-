@@ -1,0 +1,50 @@
+﻿l_english:
+### RELIGIA ###
+ the_churches_religion:0 "Kościoły Ciemnych Bogów"
+ the_churches_religion_adj:0 "Kościoły"
+ the_churches_religion_adherent:0 "Poszukiwacz"
+ the_churches_religion_adherent_plural:0 "Poszukiwacze"
+ the_churches_religion_desc:0 "Ziemie poza Złotym Imperium są ciemne i straszne, a ich kościoły nie są inne. Bogowie i filozofie tych kościołów są ezoteryczne, mroczne i przerażające."
+
+### Wiary ###
+#Bóg Ryb
+ eldritch_fishgod:0 "Kościół Bogów Ryb"
+ eldritch_fishgod_adj:0 "Bogowie Ryby"
+ eldritch_fishgod_adherent:0 "Rybolud"
+ eldritch_fishgod_adherent_plural:0 "Ryboludy"
+ eldritch_fishgod_desc:0 "Kościół Bogów Ryb jest dominującą formą kultu na Tysiącu Wysp. Ludzie tam są podobno ryboludźmi, z zieloną skórą, błonami między palcami i ostrymi zębami. Czczą bogów podobnych do przerażających ryb, które według opowieści mieszkają głęboko pod falami, i rozmawiają ze swoimi sługami przez sny."
+
+#Bezkrwiści
+ eldritch_bloodgod:0 "Kościół Bezkrwistych"
+ eldritch_bloodgod_adj:0 "Bezkrwiści"
+ eldritch_bloodgod_adherent:0 "Bezkrwisty człowiek"
+ eldritch_bloodgod_adherent_plural:0 "Bezkrwiści ludzie"
+ eldritch_bloodgod_desc:0 "Kult Bezkrwistych Ludzi poza Pięcioma Fortami skupia się na Bezkrwistym, potwornym bóstwie uwięzionym głęboko pod ich ziemiami. Pomimo swojej niewoli, przemawia ono do swoich wyznawców przez sny. Pewnego dnia, mają nadzieję, uwolnią go."
+
+#Żółty Znak
+ eldritch_yellow:0 "Kościół Żółtego Znaku"
+ eldritch_yellow_adj:0 "Żółty Znak"
+ eldritch_yellow_adherent:0 "Podpisujący"
+ eldritch_yellow_adherent_plural:0 "Podpisujący"
+ eldritch_yellow_desc:0 "Kolejny z Ciemnych Bogów, uwięziony głęboko pod ziemią. Mówi się, że jest wielkim obserwatorem całej historii, zna wszystko i bywa nazywany Królem w Carcosie. Mroczne i straszliwe czyny są dokonywane w jego imieniu, a żółty znak skrywa jego prawdziwe imię przed każdym oprócz jego wyznawców, skazując każdego, kto na niego spojrzy."
+
+#Nieznane Sny
+ eldritch_deep_dreams:0 "Kościół Nieznanych Snów"
+ eldritch_deep_dreams_adj:0 "Nieznane Sny"
+ eldritch_deep_dreams_adherent:0 "Enochianin"
+ eldritch_deep_dreams_adherent_plural:0 "Enochianie"
+ eldritch_deep_dreams_desc:0 "Głęboko poniżej, w starożytnej i cyklopowej mieście, umarły bóg śni. Te sny dotykają jego wyznawców i prowadzą ich do zerwania łańcuchów i więzów moralności i zdrowego rozsądku — tak twierdzi Kościół Nieznanych Snów."
+
+#Gwiezdna Mądrość
+ eldritch_starry_wisdom:0 "Kościół Gwiezdnej Mądrości"
+ eldritch_starry_wisdom_adj:0 "Gwiezdna Mądrość"
+ eldritch_starry_wisdom_adherent:0 "Poszukiwacz"
+ eldritch_starry_wisdom_adherent_plural:0 "Poszukiwacze"
+ eldritch_starry_wisdom_desc:0 "Cesarz Bloodstone był założycielem Kościoła Gwiezdnej Mądrości, ale kościół wkrótce go przerósł. Dziś można go znaleźć niemal w całym znanym świecie, choć ci, którzy podążają za jego naukami, są tajemniczy i wybiórczy. To, co wiadomo, to to, że czczą wielki kawałek oleistego czarnego kamienia, podobnego do tego z Yeen, Kamienia Żaby, Asshai, a nawet Seastone Chair. Kamień ten miał ujawnić prawdziwą naturę rzeczywistości i wielkie kosmiczne zasady, które łamią umysły wielu ludzi."
+
+#Wielcy Starzy
+ eldritch_leng:0 "Kościół Wielkich Starych"
+ eldritch_leng_adj:0 "Wielcy Starzy"
+ eldritch_leng_adherent:0 "Śniący"
+ eldritch_leng_adherent_plural:0 "Śniący"
+ eldritch_leng_desc:0 "Bogowie to nie niematerialne aspekty czy obce koncepcje; nie, Wielcy Starzy leżą poniżej samej wyspy. Było to znane innym, ponieważ gdy Złote Imperium, przeklęte imię, przyszło, zamknęli oni wejścia do bogów. Teraz, radośnie, Bogini-Imperator otworzyła je ponownie, przywracając połączenie między Wielkimi Starymi a ludem Lengii!"

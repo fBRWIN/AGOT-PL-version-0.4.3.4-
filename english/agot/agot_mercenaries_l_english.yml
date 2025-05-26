@@ -1,0 +1,83 @@
+﻿l_english:
+# Koroniarze
+ mercenary_company_company_of_the_blackwater:0 "Kompanie Czarnej Wody"
+
+# Północni
+ mercenary_company_wolf_pack:0 "Wilcza Ferajna"
+ mercenary_company_wolf_pack_article:0 "the "
+ mercenary_company_winter_sons:0 "Synowie Zimy"
+ mercenary_company_company_of_the_grim:0 "Kompanie Ponurych"
+ mercenary_company_wandering_wolves:0 "Wędrowne Wilki"
+ mercenary_company_wandering_wolves_article:0 "the"
+ mercenary_company_extra_mouths:0 "Dodatkowe Usta"
+ mercenary_company_extra_mouths_article:0 "the "
+
+# Błotni
+ mercenary_company_frog_spears:0 "Żabie Włócznie"
+ mercenary_company_lizard_lions:0 "Jaszczuro-lwy"
+ mercenary_company_fever_sails:0 "Żagiel Gorączki"
+ mercenary_company_marsh_men:0 "Bagienne Dzieci"
+ mercenary_company_soggy_boots:0 "Przemoczone Buty"
+ mercenary_company_soggy_boots_article:0 "the "
+
+# Dolinianie
+ mercenary_company_company_of_the_moon:0 "Kompanie Księżyca"
+
+# Zachodni
+ mercenary_company_company_of_the_lion:0 "Kompanie Lwa"
+ mercenary_company_yellow_coats:0 "Żółte Płaszcze"
+ mercenary_company_gilded_men:0 "Pozłacani"
+ mercenary_company_company_of_the_boar:0 "Kompanie Dzika"
+ mercenary_company_pudding_kings:0 "Królowie Puddingu"
+
+# Reach
+ mercenary_company_company_of_the_thorn:0 "Kompanie Cierni"
+ mercenary_company_brown_thumbs:0 "Brązowe Kciuki"
+ mercenary_company_mander_sails:0 "Żagle Mandery"
+ mercenary_company_company_of_the_bloody_blade:0 "Kompanie Krwawego Ostrza"
+ mercenary_company_company_of_the_apple:0 "Kompanie Jabłka"
+
+# Tarcze
+ mercenary_company_misty_shields:0 "Mgielne Tarcze"
+ mercenary_company_grey_oars:0 "Szare Wiosła"
+ mercenary_company_lonely_men:0 "Samotni"
+ mercenary_company_rusted_helms:0 "Zardzewiałe Hełmy"
+ mercenary_company_iron_feet:0 "Żelazne Stopy"
+
+# Rzeczniacy
+ mercenary_company_fools_men:0 "Głupcy"
+ mercenary_company_fishermen:0 "Rybacy"
+ mercenary_company_fishermen_article:0 "the "
+ mercenary_company_blue_company:0 "Błękitna Kompania"
+ mercenary_company_toll_collectors:0 "Poborcy Tłuczy"
+ mercenary_company_boat_hooks:0 "Hakowcy"
+
+# Burzowcy
+ mercenary_company_stormbreakers:0 "Burzołamy"
+ mercenary_company_stormbreakers_article:0 "the "
+ mercenary_company_bastards_hands:0 "Ręce Bękartów"
+ mercenary_company_shipbreakers:0 "Łamacze Statków"
+ mercenary_company_galladons_men:0 "Lud Galladona"
+ mercenary_company_rain_company:0 "Deszczowa Kompania"
+
+# Marchijczycy
+ mercenary_company_vulture_hunters:0 "Łowcy Sępów"
+ mercenary_company_red_runners:0 "Czerwone Biegi"
+ mercenary_company_black_company:0 "Czarna Kompania"
+ mercenary_company_company_of_the_hunt:0 "Kompanie Polowania"
+ mercenary_company_march_watch:0 "Straż Marchii"
+
+# Kamienni Dornijczycy
+ mercenary_company_hand_takers:0 "Ręce Złodziei"
+ mercenary_company_red_raptors:0 "Czerwone Jastrzębie"
+ mercenary_company_company_of_the_vulture:0 "Kompanie Sępa"
+ mercenary_company_carrion_pickers:0 "Padlinożercy"
+ mercenary_company_tendon_biters:0 "Kąsacze Ścięgien"
+
+# Żelaznorodni
+ mercenary_company_thrall_takers:0 "Zbieracze Niewolników"
+ mercenary_company_red_reavers:0 "Czerwoni Nażecy"
+ mercenary_company_lorons_legion:0 "Legion Lorona"
+ mercenary_company_company_of_the_cruel:0 "Kompania Okrutnych"
+ mercenary_company_black_blooded_pirates:0 "Czarnokrwiści Piraci"
+ mercenary_company_drowned_gods_vengeance:0 "Zemsta Utopionego Boga"

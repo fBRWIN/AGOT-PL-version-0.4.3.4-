@@ -1,0 +1,16 @@
+﻿l_english:
+ regrow_oakenseat_decision:0 "Odtworzyć Dąb na Tronie"
+ regrow_oakenseat_decision_tooltip:0 "Zawołaj doświadczonego ogrodnika, aby odtworzył Dąb na Tronie."
+ regrow_oakenseat_decision_desc:0 "Dąb na Tronie, żyjący tron zasadzony przez Gartha Zieloną Ręką, został zniszczony przez dornijskiego króla podczas panowania Króla Gartha X Ogrodnika i jest już tylko legendą.\n\nChoć to nie małe wyzwanie, odtworzenie Dębu na Tronie  przyniosłoby mojemu Domowi wielką sławę, autorytet i wpływy w Reach — i w całych Siedmiu Królestwach."
+ regrow_oakenseat_decision_confirm:0 "Posadź nasiono"
+ regrow_oakenseat_excellent_aptitude:0 "Twój $court_gardener_court_position$ potrzebuje zdolności #V Doskonały#!"
+ agot_major_decisions_events.1001.t:0 "Odtworzony Dąb na Tronie"
+ agot_major_decisions_events.1001.desc:0 "Legenda mówi, że [greenhand.GetFullNameNicknamed] wyrzeźbił oryginalny żyjący Dąb na Tronie swoją własną zieloną ręką, a królowie [greenhand.GetHouse.GetName] rządzili z tego właśnie tronu przez pokolenia.\n\nJego zniszczenie wyrwało korzeń — i serce — z Highgarden.\n\nW końcu, po dziesięcioleciach starannego wzrostu, przycinania i rozmnażania, niegdyś dumny Dąb na Tronie został odtworzony. Blisko i daleko wszyscy poznają chwałę Domu [ROOT.Char.GetHouse.GetName] za nasz słynny tron. Może nawet będę mógł twierdzić, że jestem prawdziwym następcą samego Gartha Zielonej Ręki..."
+ agot_major_decisions_events.1001.a:0 "Legenda przywrócona!"
+
+ reveal_identity_decision:0 "Odkryj Tożsamość"
+ reveal_identity_decision_tooltip:0 "Odkryj swoją tożsamość światu."
+ reveal_identity_decision_desc:0 "Ukrywałem tę tajemnicę przez jakiś czas, może nadszedł czas, by ujawnić ją światu?"
+ reveal_identity_decision_confirm:0 "Odkryj prawdę!"
+ knight_of_the_laughing_tree_effect:0 "Zostaniesz ujawniony jako #Bold Knight of the Laughing Tree#!"
+ generic_secret_identity_tooltip:0 "Zostaniesz ujawniony jako swoją prawdziwą tożsamość."

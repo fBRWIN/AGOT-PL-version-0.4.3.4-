@@ -1,0 +1,63 @@
+﻿l_english:
+ agot_nights_watch.0004.t:0 "Wyłom!"
+ agot_nights_watch.0004.desc:0 "Dziś dzień nie zaczął się normalnie. Posterunki na Murze skrzypiały, drzewa w pobliżu szumiały i trzęsły się — #N coś jest nie tak.#!\n\nPodczas gdy wszyscy czarni bracia się niepokoili, jeden zwiadowca przebiegł przez tłum wprost do mnie. #bold „Mur jest przebijany!”#! – krzyknął.\n\nPatrząc na zewnątrz, poza Murem, można dostrzec ruchliwe, podstępne poruszenia drzew. Plotki często mówiły o Dzikich i olbrzymach, dotąd uznawane za pijackie brednie i gadanie tchórzy… aż do teraz…\n\nDzicy przedostają się przez wyłom niczym karaluchy z zgniłego worka zboża wystawionego na światło, a od tego widoku żołądek przewraca mi się jeszcze bardziej. #bold Przez tysiące lat Mur nie zawiódł, nie możemy pozwolić, by nasza Straż była tą, która zawiedzie.#!"
+ agot_nights_watch.0004.a:0 "Przetrwaliśmy gorsze rzeczy!"
+
+ agot_nights_watch.0024.t:0 "Nocna Straż Przywrócona"
+ agot_nights_watch.0024.desc:0 "Od czasu ich zniszczenia nasze mury i ludzie byli narażeni na niebezpieczeństwo ze strony dzikusów i innych bezbożnych stworzeń czających się na dalekiej północy.\n\nTeraz gdy Straż została odnowiona, możemy być pewni, że nasze granice są bezpieczne, a nasz lud chroniony przed wszelkim zagrożeniem z północy."
+ agot_nights_watch.0024.a:0 "Porządek został przywrócony."
+ agot_nights_watch.0024.b:0 "Dar Brandona także zostanie zwrócony."
+ agot_nights_watch.0024.c:0 "Straż powinna odzyskać pełnię chwały!"
+
+ agot_nights_watch.0025.t:0 "Nocna Straż Rozwiązana"
+ agot_nights_watch.0025.desc:0 "Nasz lud był zbyt długo zagrożony przez Nocną Straż i ich Mur!\n\nPo przejęciu kontroli nad Murem nadszedł czas, aby w końcu położyć kres czarnemu bractwu i dać naszemu ludowi wolność i pokój, których był pozbawiony przez tysiące lat."
+ agot_nights_watch.0025.a:0 "To będzie brzmieć przez wieki…"
+
+ agot_nights_watch.0026.t:0 "Nowa Ręka Dotyka Światła"
+ agot_nights_watch.0026.desc:0 "Minęło zaledwie kilka dni od końca służby mojego poprzednika, kilka dni na rozważania…\n\nCzy moi bracia w dowództwie rzeczywiście pełnili służbę z pełnym zaangażowaniem? Czy wykazali się umiejętnością i rozsądkiem? A może ich zapał osłabł, a zdolności zanikły? Choć niektórzy cieszyli się ważnymi pozycjami, wielu młodszych ludzi wykazało wielki potencjał i inteligencję.\n\nJako Lord Dowódca moim obowiązkiem jest zapewnić, że Straż pozostanie w zdolnych rękach, nawet jeśli oznacza to zmiany."
+ agot_nights_watch.0026.a:0 "Moi dowódcy wykazali się dużymi kompetencjami."
+ agot_nights_watch.0026.b:0 "Moi dowódcy pozostawiają wiele do życzenia."
+
+ agot_nights_watch.2001.t:0 "Pragnienie dołączenia do Nocnej Straży"
+ agot_nights_watch.2001.desc:0 "Moje dziecko, [child.GetFirstName], zawsze było dziwakiem — bez szans na dziedziczenie, chyba że przez tragiczny przypadek, i zawsze mruczące o zgrajach i grumkinach za Murem.\n\nNie dziwi mnie więc, gdy [child.GetSheHe] przychodzi do mnie [child.Custom('quirk_pos_pp')]. „Mój [ROOT.Char.GetLadyLord], podjąłem decyzję” — mówi [child.GetSheHe], z odwagą, jakiej nigdy wcześniej u niego nie widziałem. „Zamierzam dołączyć do Nocnej Straży. #bold Chcę przywdziać czerń.#!”"
+ agot_nights_watch.2001.a:0 "Idź i służ z honorem."
+ agot_nights_watch.2001.b:0 "Mam wobec ciebie inne plany."
+
+ agot_nights_watch.2002.t:0 "Pragnienie dołączenia do Nocnej Straży"
+ agot_nights_watch.2002.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sibling') )], [sibling.GetFirstName], wchodzi do mojego solaru z energią bijącą od [sibling.Custom('quirk_pos_adverb')] wokół siebie. [sibling.GetSheHe|U] [sibling.Custom('quirk_pos_present')] i podchodzi do mnie [sibling.Custom('quirk_pos_adverb')].\n\n„Mój [sibling.Custom2('RelationToMe', ROOT.Char )], podjąłem decyzję” — mówi [sibling.GetSheHe], słowa buchają z jego ust niczym ogień smoka. „Zamierzam dołączyć do Nocnej Straży. #bold Chcę przywdziać czerń.#!”"
+ agot_nights_watch.2002.a:0 "Idź i służ z honorem."
+ agot_nights_watch.2002.b:0 "Mam wobec ciebie inne plany."
+
+ agot_nights_watch.2003.t:0 "Czas na młodych"
+ agot_nights_watch.2003.desc:0 "Gdy moje włosy siwieją, a stawy bolą, zastanawiam się, czy najlepsze lata oddałem już służbie tej ziemi i czy nie byłoby lepiej oddać ją młodszemu [heir.GetWomanMan].\n\nMój [heir.Custom('DaughterSon')] [heir.GetName] to młody [heir.GetLadyLord] w kwiecie wieku, który mógłby wiele zdziałać dla [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. A doświadczenie, które zdobędzie, będzie bezcenne w przyszłych bitwach, które czekają ród [ROOT.Char.GetHouse.GetName]. Instytucja mężczyzn z [nightswatch.GetName] to starożytny i szanowany zakon, wysoko ceniony przez [ROOT.Char.GetCulture.GetCollectiveNoun], a nie jest całkiem niespotykane, by starszy lord zrzekł się ziem i tytułów dla dobra królestwa i swych posiadłości..."
+ agot_nights_watch.2003.a:0 "Nadszedł czas, by [heir.GetName] przejął stery."
+ agot_nights_watch.2003.a.tt:0 "Abdykujesz na rzecz [heir.GetName]"
+ agot_nights_watch.2003.b:0 "W tych starych kościach wciąż tli się życie!"
+
+
+ agot_nights_watch.2004.t:0 "Stabilność mojego rodu"
+ agot_nights_watch.2004.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] jest powodem do wstydu dla dynastii [ROOT.Char.GetDynasty.GetNameNoTooltip]. Jeśli [craven_heir.GetSheHe] odziedziczy [primary_title.GetNameNoTier], oznaczać to będzie katastrofę dla naszego domu. Władza nad tym rodem o wiele lepiej służyłaby w rękach [good_heir.GetFirstName].\n\nTo na mnie spoczywa obowiązek ochrony naszej przyszłości przed pewnym upadkiem. Usunięcie słabego ogniwa z łańcucha dziedziczenia jest trudne, ale istnieją opcje. Jeśli zabiorę [craven_heir.GetHerHim] na polowanie, mogę dać [craven_heir.GetHerHim] wybór. [craven_heir.GetSheHe|U] może udać się na północ do Muru i wyrzec się wszelkich tytułów albo spotka [craven_heir.GetHerHim] nieszczęśliwy, nieunikniony wypadek."
+ agot_nights_watch.2004.a:0 "Zabiorę [craven_heir.GetHerHim] na przejażdżkę i przedstawię ultimatum."
+ agot_nights_watch.2004.a.tt:0 "[craven_heir.GetNameNoTooltip] zostanie zmuszony do wyboru między Strażą a życiem."
+ agot_nights_watch.2004.b:0 "[craven_heir.GetSheHe|U] to [ROOT.Char.GetDynasty.GetName], na dobre i na złe."
+
+ agot_nights_watch.2005.t:0 "Podróż na północ"
+ agot_nights_watch.2005.desc:0 "Mój [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] ugiął się pod moimi żądaniami. Zamiast zostać stratowanym przez rumaka lub utonąć w rowie, [craven_heir.GetSheHe] rozpocznie trudną podróż na Północ. Nazajutrz [craven_heir.GetSheHe] pożegna się z domem i oznajmi wszystkim, że podjął trudną decyzję o poświęceniu prawa do dziedziczenia, aby służyć królestwu. Nie weźmie żony, nie będzie posiadać ziem, nie spłodzi dzieci i nie splami tego wielkiego domu własną słabością.\n\n[good_heir.GetName] przejmie stery rodu [ROOT.Char.GetDynasty.GetName] i zapewni, że nasza krew pozostanie silna i potężna, podczas gdy [craven_heir.GetFirstNameNoTooltip] zniknie w śnieżnych annałach Straży na Murze. Może [craven_heir.GetSheHe] okryje się honorem i siłą, których nie zdołał zgromadzić w [ROOT.Char.GetCapitalLocation.GetName]."
+ agot_nights_watch.2005.a:0 "Dla wyższego dobra."
+ agot_nights_watch.2005.a.tt:0 "[craven_heir.GetNameNoTooltip] wyruszy na północ."
+
+ agot_nights_watch.2006.t:0 "W noc"
+ agot_nights_watch.2006.desc:0 "Kiedy [craven_heir.GetFirstName] został poinformowany, co się stanie, jeśli nie zniknie z [ROOT.Char.GetCapitalLocation.GetName], [craven_heir.GetSheHe] pobladł i jąkał się, zgadzając się na moje warunki.\n\nNastępnego ranka, gdy kazałem przywołać [craven_heir.GetHerHim], nigdzie nie można było go znaleźć, a jego pokój został splądrowany. [ROOT.Char.GetCapitalLocation.GetName] postawiono na głowie, by znaleźć [craven_heir.GetName], ale wynik poszukiwań był rozczarowujący. Pospólstwo mówi o postaci jadącej w środku nocy na rumaku zbyt wspaniałym jak na posłańca.\n\nTylko [ROOT.Char.GetFaith.HighGodNameAlternate] wie, dokąd dotarł teraz [craven_heir.GetName]. Choć rozwiązuje to mój obecny problem, może wrócić, by kąsać mnie po piętach w przyszłości..."
+ agot_nights_watch.2006.a:0 "Jak [craven_heir.GetSheHe] mógł uciec?!"
+
+ agot_nights_watch.2007.t:0 "Popiół tchórza"
+ agot_nights_watch.2007.desc:0 "[craven_heir.GetName] zaciska zęby, gdy fala mojego groźby spływa po jego twarzy. „Prawo do rządzenia w [ROOT.Char.GetCapitalLocation.GetName] należy się mnie, z urodzenia. Nie odbierzesz mi go”, mówi z ogniem w głosie, jakiego nigdy u niego nie widziałem. Może jest we mnie cząstka tego dziecka.\n\nWidać, że [craven_heir.GetName] nie odda swojego roszczenia do mojego miejsca. Muszę teraz zdecydować, czy mój [ROOT.Char.Custom2('RelationToMe', craven_heir)] rzeczywiście dorósł do tej roli, czy ten płomień to tylko ogień aktora podsycany strachem. Czy [craven_heir.GetSheHe] nadal będzie zgubą rodu [ROOT.Char.GetDynasty.GetName]?"
+ agot_nights_watch.2007.a:0 "Moje ultimatum nie było pustą groźbą, [craven_heir.Custom('GirlBoy')]."
+ agot_nights_watch.2007.a.success:1 "[craven_heir.GetFirstNameNoTooltip] ginie"
+ agot_nights_watch.2007.a.failure:1 "[craven_heir.GetFirstNameNoTooltip] przeżywa próbę morderstwa"
+ agot_nights_watch.2007.b:0 "[craven_heir.Custom('GirlBoy')] zyskuje odwagę?! Może [craven_heir.GetSheHe] nie będzie zgubą rodu [ROOT.Char.GetDynasty.GetNameNoTooltip]."
+
+ agot_nights_watch.9901.t:0 "Nowy Lord Dowódca na Murze"
+ agot_nights_watch.9901.desc:0 "„Kruk przyniósł wieści z [new_holder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], mój panie.” Posłaniec skłania się i wręcza mi list do przeczytania.\n\nPo niedawnym odejściu [previous_holder.GetTitledFirstName] Przysięgli Bracia Nocnej Straży wybrali [new_holder.GetFirstNameNoTooltip] z rodu [new_holder.GetHouse.GetBaseName] na nowego dowódcę."
+ agot_nights_watch.9901.stark:0 "Nadchodzi zima."
+ agot_nights_watch.9901.a:0 "I teraz jego warta dobiegła końca."

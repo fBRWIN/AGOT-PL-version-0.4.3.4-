@@ -1,0 +1,116 @@
+﻿l_english:
+ agot_dragonkeepers.0001.t:0 "Zakon Smoczych Strażników Założony"
+ agot_dragonkeepers.0001.desc:0 "Wraz z ukończeniem [dragonpit|E] nadszedł czas, aby powołać zakon wiernych strażników przysięgłych do ochrony smoków, które pewnego dnia zostaną tu ulokowane. Ci strażnicy, #bold smoczy strażnicy#!, będą nie tylko chronić moje smoki, ale też zadbają o zachowanie pradawnych tradycji i wiedzy o opiece nad smokami.\n\nDowodzenie moimi [dragonkeepers|E] nie będzie zadaniem łatwym. Na szczęście mam już kandydata, który może poprowadzić ten zakon: [head_dragonkeeper.GetName]."
+ agot_dragonkeepers.0001.a:0 "Znakomicie!"
+
+ agot_dragonkeepers.0002.t:0 "Nowy Główny Smoczy Strażnik Mianowany"
+ agot_dragonkeepers.0002.desc:0 "Zakon Smoczych Strażników mianował nowego przywódcę tego znamienitego zgromadzenia, aby mi służył.\n\nPo dopełnieniu pradawnych tradycji starej Valyrii, wybrano [head_dragonkeeper.GetName] na przywódcę [dragonkeepers|E]. Niech [head_dragonkeeper.GetSheHe] dobrze mi służy."
+ agot_dragonkeepers.0002.a:0 "Znakomicie!"
+
+ ####################
+ ### MISC EVENTS ####
+ ####################
+
+ agot_dragonkeepers.0100.t:0 "Smoczy Strażnicy"
+ agot_dragonkeepers.0100.desc:0 "Po zakończonej odbudowie [dragonpit|E] musimy ponownie powołać #bold Zakon Smoczych Strażników#! do jego obsady. Ci zasłużeni strażnicy będą chronić i opiekować się smokami, które pewnego dnia tu zamieszkają, a także czuwać nad przetrwaniem pradawnych tradycji i wiedzy o smoczej opiece.\n\nNa szczęście pojawiło się kilka opcji, kto może poprowadzić [dragonkeepers|E]."
+ agot_dragonkeepers.0100.a:0 "[head_dragonkeeper.GetName] to dobry wybór!"
+ agot_dragonkeepers.0100.a.tt:0 "Zakon Smoczych Strażników zostanie powołany z [head_dragonkeeper.GetName] jako przywódcą."
+ agot_dragonkeepers.0100.b:0 "Samodzielnie wybiorę dowódcę."
+ agot_dragonkeepers.0100.b.tt:0 "Zakon Smoczych Strażników zostanie utworzony, ale będziesz musiał(a) ręcznie mianować przywódcę."
+ agot_dragonkeepers.0101.t:0 "Powrót Smoczych Strażników"
+ agot_dragonkeepers.0101.desc:0 "Po raz pierwszy od wielu lat Dragonmont znów strzeżony jest przez zakon smoczych strażników. [head_dragonkeeper.GetName] został wyznaczony na ich przywódcę."
+ agot_dragonkeepers.0101.a:0 "Oby [head_dragonkeeper.GetSheHe] dobrze nam służył(a)."
+
+ #####################
+ ### FLAVOR EVENTS ###
+ #####################
+
+ agot_dragonkeepers.0300.t:0 "Smoczy Strażnicy Proszą o Dodatkowe Środki"
+ agot_dragonkeepers.0300.desc:0 "[head_dragonkeeper.GetName] donosi, że obecny miesięczny budżet uniemożliwia smoczym strażnikom zakup odpowiedniego wyposażenia dla szkolenia nowych rekrutów.\n\n„Proszę, mój [ROOT.Char.GetLadyLord], skarbiec zakonu nie jest w stanie zapewnić nam wszystkiego, czego potrzeba, by przyjąć świeżych rekrutów. Bez odpowiedniego sprzętu i treningu nie będziemy w stanie właściwie opiekować się twoimi smokami. W tym tygodniu już trzech naszych ludzi zostało rannych i musiało trafić do maesterów.”\n\n„Może warto rozważyć zwiększenie budżetu lub, jeśli łaska, mój [ROOT.Char.GetLadyLord]...” [head_dragonkeeper.GetSheHe] wyciąga zwój ze swych szat. „Mam też listę sprzętu, jeśli wolisz sam(a) zaopatrzyć strażników.”"
+ agot_dragonkeepers.0300.a:0 "Zwiększę fundusze na smoczych strażników."
+ agot_dragonkeepers.0300.b:0 "Sam(a) kupię sprzęt."
+ agot_dragonkeepers.0300.c:0 "Niech radzą sobie z tym, co mają."
+
+ agot_dragonkeepers.0301.t:0 "Smoczy Strażnicy Słyszą Pomruki Głodu"
+ agot_dragonkeepers.0301.desc:0 "[head_dragonkeeper.GetName] donosi, że zapasy żywności w twojej smoczej jamie są na wyczerpaniu. Zbliżają się do racjonowania jedzenia.\n\n„Mój [ROOT.Char.GetLadyLord], żyjemy, by służyć twoim smokom. Najlepsze zwierzęta na paszę, #italic oczywiście#!, przypadają w pierwszej kolejności twoim pupilom. Zdrowy apetyt smoka może jednak poważnie nadszarpnąć nasz miesięczny budżet.”\n\n[head_dragonkeeper.GetHerHis|U] wzrok wędruje ku ziemi z wyrazem wstydu. „Potrzebujemy pomocy w zdobyciu większych zapasów, inaczej będziemy zmuszeni do ścisłego racjonowania żywności.”"
+ agot_dragonkeepers.0301.b:0 "Natychmiast sprowadzić więcej jedzenia."
+
+ agot_dragonkeepers.0302.t:0 "Smoczy Strażnicy ponoszą Straty"
+ agot_dragonkeepers.0302.desc:0 "[head_dragonkeeper.GetName] donosi, że [dead_dragonkeeper.GetName] został zabity! Co więcej, [head_dragonkeeper.GetSheHe] twierdzi, że powodem była zbyt skromna fundacja zakonu i temu można było zapobiec.\n\n„Jakoś wiążemy koniec z końcem, lecz nie wszystkie problemy da się szybko rozwiązać, mój [ROOT.Char.GetLadyLord|U]. Obecne środki nie pozwalają nam na zatrudnienie odpowiedniej liczby ludzi. Zabezpieczenia [dragon.GetName] już od tygodni wymagały konserwacji, ale nasze prace są opóźnione. Pracujemy na podwójnych zmianach, by uniknąć kolejnych #italic niefortunnych wypadków#!...” [head_dragonkeeper.GetSheHe] wzdycha ciężko.\n\n„Zrobiliśmy, co mogliśmy, mój [ROOT.Char.GetLadyLord|U]. Nawet [dragon.GetNameNoTooltip] zdawał się darzyć [dead_dragonkeeper.GetHerHim] sympatią, ale ostatecznie nie zostawił żadnych szczątków do pochowania.”"
+ agot_dragonkeepers.0302.a:0 "To żenujące!"
+
+
+ agot_dragonkeepers.0303.t:0 "Ranny w Zakonie"
+ agot_dragonkeepers.0303.desc:0 "[head_dragonkeeper.GetName] donosi, że [injured_dragonkeeper.GetName] został ranny z powodu niewystarczającego finansowania zakonu.\n\n„Szkolenie ludzi do okiełznania #italic ognia ubranego w ciało#! nie jest łatwe!” [head_dragonkeeper.GetNameNoTooltip] podkreśla, że smoczy strażnicy noszą czarne zbroje, które wymagają specjalnego treningu i różnią się od innych pancerzy.\n\n„Smoki bardzo powoli przyzwyczajają się do mniej doświadczonych strażników. Nasza więź tworzy się powoli, a zaufanie smoka nie jest łatwo zdobyć. Więcej środków na szkolenia może uchronić twój zakon przed niebezpieczeństwem.”"
+ agot_dragonkeepers.0303.a:0 "To żenujące!"
+
+ agot_dragonkeepers.0304.t:0 "Włamywacz Schwytany w Smoczej Jamie"
+ agot_dragonkeepers.0304.desc:0 "[head_dragonkeeper.GetName] donosi, że intruz próbujący zakraść się do smoczej jamy został schwytany. Strażnicy pobili go, ale poza tym został pojmany bez większych obrażeń.\n\nWłamywacz został #italic lekko przesłuchany#! i twierdzi, że dostał się tu za zakładem po zbyt wielu kuflach piwa. Przedstawia się jako [thief.GetName] i przysięga na [thief.GetFaith.HighGodName], że nigdy więcej tego nie zrobi.\n\n„Choć [dragon.GetName] ma dobrą intuicję, zawsze możemy zapytać, czy [dragon.Custom('GetDragonSheHe')] uważa, że to szpieg.” – śmieje się [head_dragonkeeper.GetNameNoTooltip]."
+ agot_dragonkeepers.0304.a:0 "Dobra robota."
+ agot_dragonkeepers.0304.b:0 "Nakarmić intruza smokiem."
+
+ agot_dragonkeepers.0305.t:0 "Przezwisko dla Mojego Smoka"
+ agot_dragonkeepers.0305.desc:0 "[head_dragonkeeper.GetName] donosi, że smoczy strażnicy tak dobrze poznali [dragon.GetName], że nadali mu przezwisko.\n\n„Zaczęliśmy nazywać [dragon.Custom('GetDragonHerHim')] #italic [dragon.GetNickname]#!, mój [ROOT.Char.GetLadyLord|U]. To godne miano dla tak wspaniałego stworzenia.”"
+ agot_dragonkeepers.0305.a:0 "Naprawdę?"
+ agot_dragonkeepers.0305.a.tt:0 "[dragon.GetName|V] otrzymał/a przydomek [nickname|E] „[dragon.GetNickname|V]”"
+ agot_dragonkeepers.0305.b:0 "To #emp mój#! smok i będziesz nazywać [dragon.Custom('GetDragonHerHim')] jego właściwym imieniem."
+ agot_dragonkeepers.0305.b.tt:0 "[dragon.GetName|V] nie otrzyma przydomku [nickname|E] „[dragon.GetNickname|V]”"
+
+ agot_dragonkeepers.0306.t:0 "Młody Gość Znaleziony w Smoczej Jamie"
+ agot_dragonkeepers.0306.desc:0 "[head_dragonkeeper.GetName] donosi, że [child.GetName] zakradł się do smoczej jamy!\n\n[child.GetSheHe|U] został odnaleziony cały i zdrowy, bez żadnych incydentów, ale wykazywał #italic więcej niż zdrową#! ciekawość względem smoków. Wielu strażników rozpieszczało dziecko, odpowiadając na [child.GetHerHis] pytania.\n\nZakon już wprowadził zmiany w zabezpieczeniach, by żadni #italic ambitni młodzi smoczy jeźdźcy#! nie mogli więcej dostać się do środka, ale młody [child.GetNameNoTooltip] wydaje się być jeszcze bardziej zafascynowany tym doświadczeniem."
+ agot_dragonkeepers.0306.a:0 "Oby to była tylko faza."
+
+ agot_dragonkeepers.0307.t:0 "Smoczy Strażnicy Odprowadzają Niespodziewanego Gościa"
+ agot_dragonkeepers.0307.desc:0 "[head_dragonkeeper.GetName] donosi, że [child.GetName] zakradł się do smoczej jamy!\n\n[child.GetSheHe|U] został odnaleziony cały i zdrowy, choć skulony w schowku ze łzami na policzkach. Strażnikom udało się go uspokoić, lecz [child.GetName] wyraził poważny lęk przed smokami.\n\nSmoczy strażnicy musieli odprowadzić dziecko z powrotem do mojego zamku."
+ agot_dragonkeepers.0307.a:0 "Oby to była tylko faza."
+
+ agot_dragonkeepers.0308.t:0 "Nowe Jajo w Mojej Smoczej Jamie"
+ agot_dragonkeepers.0308.desc:0 "Przywódca mojego #bold Zakonu Smoczych Strażników#!, [head_dragonkeeper.GetName], donosi, że jedno jajo zostało bezpiecznie wydobyte z komnaty, w której przebywał [dragon_parent.GetName].\n\n[head_dragonkeeper.GetNameNoTooltip] prowadzi małą procesję sześciu smoczych strażników w tradycyjnych czarnych zbrojach. [head_dragonkeeper.GetSheHe|U] staje z boku, gdy dwaj mężczyźni niosący ozdobny kadzielnik stawiają go u mych stóp.\n\n„Znaleźliśmy je o świcie, mój [ROOT.Char.GetLadyLord|U]. Piękne jajo, świadectwo wspaniałości [dragon_parent.GetNameNoTooltip]!”"
+ agot_dragonkeepers.0308.a:0 "Naprawdę?"
+ agot_dragonkeepers.0308.a_tt:0 "[dragon_parent.GetName] zniosła jedno jajo."
+
+ agot_dragonkeepers.0309.t:0 "Nowi Smoczy Strażnicy Rozwijają Się w Służbie"
+ agot_dragonkeepers.0309.desc:0 "[head_dragonkeeper.GetName] donosi, że nowo zatrudnieni rekruci czynią ogromne postępy dzięki twojemu wsparciu finansowemu.\n\nRekruci są dobrze opłacani i wyjątkowo przeszkoleni. Ich valyriański idzie szybciej niż planowano, a podłogi nigdy nie były czystsze. Morale jest wysokie, gdy nowi strażnicy ćwiczą na dziedzińcu."
+ agot_dragonkeepers.0309.a:0 "Wspaniale!"
+
+ agot_dragonkeepers.0310.t:0 "Smoczy Strażnicy Badają Głębsze Tajemnice"
+ agot_dragonkeepers.0310.desc:0 "[head_dragonkeeper.GetName] donosi, że kilku smoczych strażników prowadzi wspólne badania, aby lepiej zrozumieć smoki.\n\n„Dokonaliśmy kilku interesujących obserwacji dotyczących luk w naszej wiedzy o opiece nad smokami, które przepadły podczas #italic Zagłady#! starej Valyrii. Te odkrycia mogą pomóc lepiej dbać o [dragon.GetName] przez całe [dragon.Custom('GetDragonHerHis')] życie, jak i uczynić z niego straszliwsze widowisko dla tych, którzy staną na twojej drodze.”"
+ agot_dragonkeepers.0310.a:0 "Interesujące..."
+
+ agot_dragonkeepers.0311.t:0 "Oslabione Łańcuchy w Smoczej Jamie"
+ agot_dragonkeepers.0311.desc:0 "[head_dragonkeeper.GetName] donosi, że kilka łańcuchów do wiązania smoków w jamie jest słabych i złej jakości. Ich budżet nie wystarcza na wymianę.\n\nOryginalne łańcuchy zostały wykonane przez najtańszego wykonawcę w celu zaoszczędzenia środków zakonu."
+ agot_dragonkeepers.0311.b:0 "Sam(a) zapłacę za nowe łańcuchy."
+
+ agot_dragonkeepers.0312.t:0 "Smoczy Strażnicy Odrzuceni przez Lokalnych Dostawców"
+ agot_dragonkeepers.0312.desc:0 "[head_dragonkeeper.GetName] donosi, że kilka majątków rolnych #italic odmawia#! spełnienia wymagań smoczej jamy. Twierdzą, że rekompensata nie odpowiada ilości żywności, jakiej się od nich oczekuje, a budżet strażników nie pokryje wzrostu cen.\n\n„Bez zawarcia umowy, zapasy mogą się skurczyć, mój [ROOT.Char.GetLadyLord|U].” [head_dragonkeeper.GetSheHe] prosi, składając ręce w błagalnym geście.\n\n„Może jeśli wesprzesz tę inicjatywę lub wyślesz kogoś ze swojej #italic władzy#! do negocjacji w naszym imieniu?”"
+ agot_dragonkeepers.0312.b:0 "Sam(a) sprowadzę zapasy żywności hurtowo."
+ agot_dragonkeepers.0312.d:0 "Wyślij swojego zarządcę, by zawarł umowę."
+
+ agot_dragonkeepers.0314.t:0 "Choroba w Smoczej Jamie"
+ agot_dragonkeepers.0314.desc:0 "[head_dragonkeeper.GetName] donosi, że smok [dragon.GetName] zachorował.\n\nNiski budżet w połączeniu ze złymi warunkami spowodował u [dragon.GetNamePossessiveNoTooltip] apatię i zaburzenia.\n\n„Nawet wielki ogień czasem przygasa...” – zamyśla się [head_dragonkeeper.GetSheHe]."
+
+ agot_dragonkeepers.0315.t:0 "Wizyta [child_with_egg.GetFirstNamePossessiveNoTooltip]"
+ agot_dragonkeepers.0315.desc:0 "Słyszę ciche pukanie do drzwi i widzę, jak mój [ROOT.Char.Custom2('RelationToMeShort', child_with_egg)] [child_with_egg.GetFirstName] nieśmiało wchodzi do komnaty, niosąc swoje smocze jajo. W jego oczach pojawiają się łzy, gdy przesuwa palcami po metalicznych łuskach. „Nie czuję ciepła i ono się nie wykluwa...”\n\n[child_with_egg.GetSheHe] patrzy na mnie, po policzku spływa mu łza. „Możesz mi pomóc?”"
+ agot_dragonkeepers.0315.a:0 "Wybiorę ci inne jajo."
+ agot_dragonkeepers.0315.a_tt:0 "Wybierzesz, które jajo podarować [child_with_egg.GetNameNoTooltip]"
+ agot_dragonkeepers.0315.b:0 "Daj mu jeszcze trochę czasu, dziecko."
+ agot_dragonkeepers.0315.c:0 "Jeśli chcesz dosiąść smoka, musisz go sobie zdobyć."
+ agot_dragonkeepers.0315.c_tt:0 "Wybierzesz smoka z jamy, z którym [child_with_egg.GetNameNoTooltip] spróbuje się związać"
+ agot_dragonkeepers.0315.d:0 "Nie mam czasu na twoje jęki."
+ agot_dragonkeepers.0315.d_tt:0 "[child_with_egg.GetNameNoTooltip] może poszukać innych rozwiązań swoich problemów..."
+
+ agot_dragonkeepers.0316.t:0 "Nowe Jajo dla [child_with_egg.GetNameNoTooltip]"
+ agot_dragonkeepers.0316.desc:0 "Wybierz nowe jajo dla [child_with_egg.GetNameNoTooltip] i zabierz stare do przechowania."
+ agot_dragonkeepers.0316.a:0 "To powinno się nadać..."
+ agot_dragonkeepers.0316.b:0 "A może jednak nie, zostawmy to."
+
+ agot_dragonkeepers.0318.t:0 "Gambit [child_with_egg.GetFirstNamePossessiveNoTooltip]"
+ agot_dragonkeepers.0318.desc_child_tamed_dragon:0 "Słyszę odległy ryk, przechodząc obok smoczej jamy. Spieszę tam i widzę, jak [child_with_egg.GetName] stoi obok [childs_dragon.GetName], nowa więź właśnie się narodziła. [child_with_egg.GetHerHis|U] odwaga została nagrodzona."
+ agot_dragonkeepers.0318.desc_child_failed_at_taming_dragon:0 "Echo krzyku rozbrzmiewa w smoczej jamie, a gdy tam wbiegam, widzę strażników odganiających bestię z powrotem do legowiska, a [child_with_egg.GetName] stoi przy ścianie i ciężko oddycha. Najwyraźniej tak bardzo pragnął związać się ze smokiem, że zakradł się do jamy bez nadzoru. Przynajmniej przeżył."
+ agot_dragonkeepers.0318.desc_child_died_while_taming_dragon:0 "Otwieram drzwi do mojej komnaty i widzę dwóch strażników niosących zawinięty kształt w grubym kocu. Rozwijają go, ukazując ciało [child_with_egg.GetName], teraz spalone i zwęglone. Wyjaśniają, że w pośpiechu, by związać się ze smokiem, [child_with_egg.GetSheHe] wszedł do jamy bez nadzoru.\n\nTo zostanie odebrane jako zły omen."
+ agot_dragonkeepers.0318.a:0 "Stało się, nie odwrócimy tego."
+
+ agot_dragonkeepers.0319.t:0 "Smok dla [child_with_egg.GetNameNoTooltip]"
+ agot_dragonkeepers.0319.desc:0 "Wybierz smoka, z którym [child_with_egg.GetNameNoTooltip] spróbuje się związać."
+ agot_dragonkeepers.0319.a:0 "$agot_dragonkeepers.0316.a$"
+ agot_dragonkeepers.0319.b:0 "$agot_dragonkeepers.0316.b$"

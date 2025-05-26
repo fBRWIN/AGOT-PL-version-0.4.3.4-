@@ -1,0 +1,5 @@
+﻿l_english:
+
+ I_HAVE_RELATION_FRIEND_WITH_TARGET:0 "Jesteś przyjacielem [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_RELATION_LOVER_WITH_TARGET:0 "Jesteście kochankami [TARGET_CHARACTER.GetShortUIName]"
+

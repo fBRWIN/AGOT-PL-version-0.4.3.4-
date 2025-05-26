@@ -1,0 +1,83 @@
+﻿l_english:
+# Smoki Smocze
+ hatch_dragon_egg_decision:0 "Wychować Jajo Smoka"
+ hatch_dragon_egg_decision_desc:0 "Spróbuję wychować moje jajo smoka."
+ hatch_dragon_egg_decision_tooltip:0 "Nie ma absolutnie żadnej szansy, żeby to mogło się źle skończyć"
+ hatch_dragon_egg_decision_confirm:0 "To zły pomysł..."
+ spend_time_with_dragon_egg_decision:0 "Spędź Czas z Jajem Smoka"
+ spend_time_with_dragon_egg_decision_desc:0 "Nie wystarczy tylko posiadać jajo smoka, trzeba się z nim związać, aby zapewnić silną więź z smokiem, który się z niego wykluje."
+ spend_time_with_dragon_egg_decision_tooltip:0 "Postanów spędzić czas ze swoim jajem smoka"
+ spend_time_with_dragon_egg_decision_confirm:0 "Spędź czas ze swoim jajem"
+
+ agot_appoint_dragonkeeper_head:0 "Mianować Głównego Smoczego Strażnika"
+ agot_appoint_dragonkeeper_head_desc:0 "Stanowisko Głównego Smoczego Strażnika stało się wolne. Aby utrzymać naszą [dragonpit|e], powinniśmy mianować nowego."
+ agot_appoint_dragonkeeper_head_dragonmount_desc:0 "Stanowisko Głównego Smoczego Strażnika stało się wolne. Aby utrzymać Dragonmont w dobrym stanie i strzeżony, powinniśmy mianować nowego."
+ agot_appoint_dragonkeeper_head_tooltip:0 "Mianuj nowego Głównego Smoczego Strażnika"
+ agot_appoint_dragonkeeper_head_confirm:0 "Mianuj nowego Głównego Smoczego Strażnika"
+ tooltip_employ_dragonkeeper:0 "Nie powinno się obecnie zatrudniać Głównego Smoczego Strażnika."
+ agot_appoint_dragonkeeper_head_effect_tooltip:0 "Nowy Główny Smoczy Strażnik zostanie wyznaczony na podstawie finansowania dla [dragonpit]."
+ agot_restore_dragonstone_dragonkeepers:0 "Przywrócić Smoczych Strażników Dragonstone"
+ agot_restore_dragonstone_dragonkeepers_desc:0 "Po wielu latach nieaktywności, [GetBuilding('agot_dragonmont_01').GetName] ponownie wymaga zakonu [dragonkeepers|e] do jego strzeżenia."
+ agot_restore_dragonmont_dragonkeepers_effect_tooltip:0 "Nowy [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] i zakon smoczych strażników zostaną ustanowione w [GetTitleByKey('c_dragonstone').GetNameNoTier]."
+
+# Kampania terroru
+ conduct_terror_campaign:0 "Prowadzić Kampanię Terroru"
+ conduct_terror_campaign_desc:0 "Jako jeździec wielkiego smoka, to do mnie należy decyzja, jak go wykorzystać w wojnie. Choć ich użycie było historycznie ograniczone do armii wroga, nic nie stoi na przeszkodzie, bym wykorzystał go do zniszczenia ludzkich populacji moich wrogów."
+ conduct_terror_campaign_effect:0 "Rozpoczniesz kampanię terroru smoczego, niszcząc wszystkie prowincje wokół ciebie, gdy jesteś w wojnie.\n\n#X @warning_icon! Tego rodzaju destrukcja wywoła skrajną złość u twoich wrogów i bardziej skrupulatnych sojuszników.#!"
+ conduct_terror_campaign_tooltip:0 "#X @warning_icon! Tego rodzaju destrukcja wywoła skrajną złość u twoich wrogów i bardziej skrupulatnych sojuszników.#!"
+ conduct_terror_campaign_dragon_condition:0 "Twój smok ma przynajmniej 100 [dragon_combat_effectiveness|E]"
+ conduct_terror_campaign_confirm:0 "Spalić ich wszystkich!"
+
+ stop_terror_campaign:0 "Zakończyć Kampanię Terroru"
+ stop_terror_campaign_show_condition:0 "Prowadzisz kampanię terroru"
+ stop_terror_campaign_desc:0 "Obecnie prowadzę kampanię terroru smoczego. Wszystkie armie, które ja lub mój smok posiadamy, będą wykorzystywane jako baza do zniszczenia wokół nich. Choć niewątpliwie skuteczne, takie taktyki są sprzeczne z konwencjami honorowych zasad wojny."
+ stop_terror_campaign_tooltip:0 "Zakończysz swoją kampanię terroru"
+ stop_terror_campaign_confirm:0 "Zatrzymaj zniszczenie"
+
+# Jazda na Smoku
+ ride_dragon_decision:0 "Wsiądź na [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]"
+ ride_dragon_decision_desc:0 "Minęło zbyt wiele czasu, odkąd [ROOT.Var('current_dragon').Char.GetFirstName] i ja po prostu razem lataliśmy. Pragnę poczuć wiatr i wolność otwartego nieba."
+ ride_dragon_decision_tooltip:0 "Wsiądź na swojego smoka"
+ ride_dragon_decision_confirm:0 "Wsiądź na swojego smoka"
+ ride_dragon_effect_tooltip:0 "Stracisz trochę [stress|E] i możesz zwiększyć więź z twoim smokiem."
+
+# Użyj / Nie używaj Smoka
+ use_dragon_decision:0 "Użyj [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] w wojnie"
+ use_dragon_decision_desc:0 "Mam smoka, broń masowego zniszczenia. Nie muszę chodzić po błocie z moimi żołnierzami, mogę po prostu lecieć nad polem bitwy i zrzucić ogień na moich wrogów."
+ use_dragon_decision_tooltip:0 "Możesz ponownie użyć swojego smoka, gdy jesteś w wojnie"
+ use_dragon_decision_confirm:0 "Użyj swojego smoka"
+ use_dragon_decision_effect:0 "Twój [dragon|E] będzie mógł dołączyć do armii, a ty będziesz walczyć z nim"
+ dont_use_dragon_decision:0 "Nie używaj [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] w wojnie"
+ dont_use_dragon_decision_desc:0 "Choć potężny, nie zawsze mądrze jest używać każdego zasobu, który masz. Z powodów bezpieczeństwa, dumy, lub innych powodów, mogę zdecydować się nie używać mojego smoka w wojnie."
+ dont_use_dragon_decision_tooltip:0 "Choć potężny, możesz zdecydować się nie używać swojego smoka w bitwie"
+ dont_use_dragon_decision_confirm:0 "Nie używaj swojego smoka"
+ dont_use_dragon_decision_effect:0 "Twój [dragon|E] nie dołączy do armii, a ty będziesz walczyć bez niego"
+
+# Pokaż Smoki
+ show_me_dragons_decision:0 "Pokaż Smoki"
+ show_me_dragons_decision_desc:0 "Przyprowadź mi listę wszystkich znanych smoków."
+ show_me_dragons_decision_tooltip:0 "Zostanie ci pokazana lista wszystkich żyjących smoków"
+ show_me_dragons_decision_confirm:0 "Pokaż mi!"
+ show_me_dragons_decision_effect_tooltip:0 "Zostanie ci pokazana lista wszystkich żyjących smoków"
+
+# Dom Smoczego Jeźdźca
+ become_dragonrider_house_decision:0 "Stań się Domem Smoczego Jeźdźca"
+ become_dragonrider_house_decision_desc:0 "Niewiele rzeczy w tym świecie jest bardziej prestiżowych niż bycie smoczym jeźdźcem. Często zagrożenie moim bestią wystarcza, by zmusić moich wrogów do klęczenia.\n\nSmok mnie zaakceptował, gorąca krew płynie w moich żyłach. Pozostał tylko jeden krok, aby zapewnić, że moi spadkobiercy będą latać i dominować, jak ja."
+ become_dragonrider_house_decision_living_house_member_count_tt:0 "5 lub więcej żyjących członków twojego [house|E] to smoczy jeźdźcy"
+ become_dragonrider_house_decision_confirm:0 "W stronę nieba!"
+ become_dragonrider_house_decision_tooltip:0 "Potwierdź związek twojego domu z smokami"
+
+# Smocze Nasiona
+ call_for_dragonseeds_decision:0 "Zaproś Smocze Nasiona"
+ call_for_dragonseeds_decision_desc:0 "Możliwość opanowania smoka tkwi w krwi, nie w nazwisku. Może być ktoś, kto ma krew smoka, ale nie nosi nazwy wielkiego domu. Jeśli wezwę, niektórzy odpowiedzą. Ryzyko będzie ogromne, ale nagroda może polegać na wzmocnieniu mojego domu, pod warunkiem, że wszyscy przysięgają swoją lojalność."
+ call_for_dragonseeds_decision_unclaimed_dragons_tt:0 "Przynajmniej jeden [owned_dragon|E] jest w twoich smoczych jamach, który może zostać oswojony"
+ call_for_dragonseeds_decision_local_wild_dragons_tt:0 "Przynajmniej jeden [wild_dragon|E] ma swoją jamę w twoim [domain|E], którą można oswoić"
+ call_for_dragonseeds_decision_confirm:0 "Wyślij herolda"
+ call_for_dragonseeds_decision_tooltip:0 "Smocze Nasiona zostaną wezwane do twojego dworu"
+
+# Pij Wildfire
+ drink_wildfire_decision:0 "Wypij Wildfire"
+ drink_wildfire_decision_desc:0 "Od kiedy Alchemików pierwszy stworzył tę substancję, mówi się, że ma moc przemiany człowieka w smoka."
+ drink_wildfire_decision_confirm:0 "Przynieście mi kielich!"
+ drink_wildfire_decision_tooltip:0 "Stań się smokiem"
+ drink_wildfire_decision_effect:0 "Żaden człowiek nigdy nie przeżył takiej próby, ale może to dlatego, że nie mieli krwi smoka"

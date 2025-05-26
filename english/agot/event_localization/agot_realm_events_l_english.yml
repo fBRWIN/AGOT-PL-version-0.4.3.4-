@@ -1,0 +1,65 @@
+﻿l_english:
+ agot_realm.1001.t:0 "Historyczne roszczenie"
+ agot_realm.1001.desc:0 "[historic_claimant.GetFullName] jest następnym petentem tego dnia. „Mój panie, posiadasz [claim_title.GetName], ale dynastia [dynasty.GetName] władała nim przez wiele pokoleń. Dawne roszczenia są szanowane, a jako potomek tej starożytnej linii byłbym bardzo wdzięczny, gdybyś mógł zwrócić te ziemie mojemu rodowi. W zamian przysięgam być zawsze lojalnym wasalem!”"
+ agot_realm.1001.a:0 "Będziesz dzierżył te ziemie dla mnie."
+ agot_realm.1001.b:0 "Dziś nic nie dostaniesz, ale możesz zasiąść ze mną do stołu."
+ agot_realm.1001.c:0 "Kim ty jesteś, by żądać?! Wrzucić tego włóczęgę do lochu!"
+ agot_realm.1001.d:0 "Niech pomyślę... odmowa!"
+
+############################
+#       The Teats          #
+#       Badger             #
+#       0020               #
+############################
+
+ agot_realm.0020.t:0 "Wzgórki"
+ agot_realm.0020.desc:0 "Jadę przez krainę z moją [lover.Custom('ComplimentAdjective')] [lover.GetName], gdy docieramy głęboko do Dorzecza. Naszą miłosną zabawę przerywa widok dwóch trawiastych wzgórz wyłaniających się na horyzoncie, co wywołuje w nas chichot. \n\nTen skrawek ziemi znany jest powszechnie jako [teats.GetName], ze względu na swoje niezbyt subtelne podobieństwo do kobiecego biustu. Chociaż, przechylając głowę, przypominają ci one parę, którą dobrze znasz.\n\n„Mój [ROOT.Char.GetLadyLord],” przemawia [lover.GetName] [lover.Custom('quirk_pos_adverb')], wyrywając cię z zamyślenia i uśmiechając się. „O czym myślisz?” Udaje ci się powstrzymać wzrok od zjechania ku wzgórzom, gdy w głowie zaczyna kiełkować pomysł..."
+ agot_realm.0020.a:0 "Patrzcie na te wzgórki, możni, i rozpaczać zaczynajcie"
+ agot_realm.0020.a.tt:0 "Wzgórki zostaną przemianowane na Wzgórki [lover.GetFirstNamePossessive]"
+ renamed_teats:0 "Wzgórki [GetGlobalVariable('teats_name').Char.GetFirstNamePossessive]"
+ agot_realm.0020.b:0 "Moje są lepsze"
+ agot_realm.0020.b.tt:0 "Wzgórki zostaną przemianowane na twoje Wzgórki"
+ agot_realm.0020.c:0 "Nic takiego, moja droga."
+
+############################
+#    Thone Rejection       #
+#       Badger             #
+#       0030               #
+############################
+
+ agot_realm.0030.t:0 "Tron odrzuca [ROOT.Char.GetHerHim|U]"
+ agot_realm.0030.desc:0 "Rządzę [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] zasiadając na pokrętnym metalowym potworze, jakim jest Żelazny Tron. Gdyby tylko było coś ciekawszego do roboty niż słuchanie niekończącej się procesji petentów, dworzan i pochlebców domagających się łaski czy zadośćuczynienia. Zaciskam pięści, gdy kolejny pada na kolana i składa swoje uniżone żądanie. Co za strata mojego cennego czasu.\n\nNagle przez moje ramię przebiega biała gorączka bólu i odskakuję. Rękaw mojej tuniki ciemnieje od krwi. Strzęp materiału wciąż tkwi nabity na żelazny kolec, o który rozciąłem ramię.\n\n„Maesterze, wezwać maestera!” rozlega się głos.\n„[ROOT.Char.GetSheHe|U] został ukąszony przez tron!” woła ktoś inny.\n„[ROOT.Char.GetSheHe|U] został odtrącony!”\n#EMP „[ROOT.Char.GetFirstNameNoTooltip] nie jest prawdziwym [ROOT.Char.GetTitleAsNameNoTooltip|l]!”#!"
+ agot_realm.0030.a:0 "To jest znak..."
+ agot_realm.0030.a.tt:0 "Twoi wasale uznają to za zły omen"
+
+############################
+#    Executed Family       #
+#       Sililex            #
+#       0031               #
+############################
+
+ agot_realm.0031.t:0 "Rodzina stracona!"
+ agot_realm.0031.desc:0 "Tragiczna wieść! Mój [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetTitledFirstName], został stracony przez [executioner.GetTitledFirstName]!\n\nBanale słowa na papierze nie oddają bólu w moim sercu. Tak brutalny zamach na moją rodzinę i honor nie może pozostać bez odpowiedzi, nawet jeśli dokonał tego mój suweren. Co powinienem zrobić?"
+ agot_realm.0031.a:0 "Ten fałszywy [executioner.GetTitleAsNameNoTooltip|l] już dłużej nie będzie rządził!"
+ agot_realm.0031.a.f:0 "Piszesz do swoich sojuszników i zaczynasz zbierać siły."
+ agot_realm.0031.b:0 "Zakończę rządy [executioner.GetHerHis], tak czy inaczej..."
+ agot_realm.0031.b.f:0 "Zaczynasz knuć upadek [executioner.GetTitledFirstNameNoTooltip]."
+ agot_realm.0031.c:0 "To nie zostanie wybaczone!"
+ agot_realm.0031.c.f:0 "Zapamiętasz jak rządy [executioner.GetTitledFirstNamePossessiveNoTooltip] cię skrzywdziły."
+ agot_realm.0031.d:0 "Tragiczne czy nie, to było w jego prawie."
+ agot_realm.0031.d.f:0 "Nie sprzeciwisz się rządom [executioner.GetTitledFirstNamePossessiveNoTooltip], pozwalając by śmierć [victim.GetTitledFirstNamePossessiveNoTooltip] została zapomniana."
+
+
+############################
+#     Girlbossing          #
+#       Aithnea            #
+#       0040               #
+############################
+
+ agot_realm.0040.t:0 "Kwestia sukcesji"
+ agot_realm.0040.desc:0 "Kraina opiera się na tradycji i zaufaniu. Na wspólnych zwyczajach naszych ludów i na zaufaniu, jakie te ludy — oraz moi wierni wasale — pokładają we mnie. Z radosnymi narodzinami [new_heir.GetName], prawowitego dziedzica zgodnie z wszelką tradycją, stanąłem na rozdrożu w sprawie sukcesji.\n\n[old_heir.GetName] od dawna zajmuje miejsce w kolejce do dziedziczenia, a zaufanie do mojej decyzji łagodziło niepokoje krainy co do osoby [old_heir.GetHerHim]."
+ agot_realm.0040.capable:0 "[old_heir.GetFirstNameNoTooltip] jest odpowiednim władcą, każdy przeciętny lord by mi to powiedział. [old_heir.GetSheHe|U] bez wątpienia poprowadziłby krainę ku większemu dobrobytowi."
+ agot_realm.0040.friend:0 "A [old_heir.GetFirstNameNoTooltip] zawsze był mi bliski, niczym cień, niemal jak [old_heir.Custom('GetDaughterSon')]. Zaufanie [old_heir.GetHerHis|U] do mnie jest równie ważne!"
+ agot_realm.0040.outro:0 "\n\nJednak przy tak dużej stawce, czy [new_heir.GetFirstNameNoTooltip] nie byłby lepszym dziedzicem?"
+ agot_realm.0040.a:0 "[old_heir.GetNameNoTooltip] pozostanie moim dziedzicem."
+ agot_realm.0040.b:0 "Nie mogę odmówić [new_heir.GetNameNoTooltip] [new_heir.GetHerHis] prawa z urodzenia."

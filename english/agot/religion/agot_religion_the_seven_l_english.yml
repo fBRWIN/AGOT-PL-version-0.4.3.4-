@@ -1,0 +1,75 @@
+﻿l_english:
+ ### THE RELIGION ###
+ the_seven_religion:0 "Wiara Andalów"
+ the_seven_religion_adj:0 "Wiara w Siedmiu"
+ the_seven_religion_adherent:0 "Wierny"
+ the_seven_religion_adherent_plural:0 "Wierni"
+ the_seven_religion_desc:0 "Wiara Andalów to zbiór przekonań opartych na wierze, że istnieje jeden bóg, jedno boskie istnienie, które objawiło się wybranemu ludowi — Andalom — w siedmiu różnych aspektach, by poprowadzić ich ku wielkości."
+
+### Faiths ###
+#Old Faith
+ fots_stars:0 "Wiara Gwiazd"
+ fots_stars_adj:0 "Wiara Gwiazd"
+ fots_stars_adherent:0 "Wierny"
+ fots_stars_adherent_plural:0 "Wierni"
+ fots_stars_desc:0 "To właśnie Andalom i ich królowi, Hugorowi z Wzgórza, objawiła się Siódemka-Jako-Jedno. Nauczyła ich obróbki żelaza, dała im rytuały rycerskie i powierzyła zadanie podboju zachodnich ziem Westeros."
+
+#The FAITH
+ fots_seven:0 "Wiara w Siedmiu"
+ fots_seven_adj:0 "Wiara w Siedmiu"
+ fots_seven_adherent:0 "Wierny"
+ fots_seven_adherent_plural:0 "Wierni"
+ fots_seven_desc:0 "Wiara w Siedmiu to dominująca religia Westeros. Większość ludzi i krain należy do grona Wiernych, a wszyscy królowie Andalów, Rhoynarów i Pierwszych Ludzi, oprócz przynależności, starali się także o koronację z rąk Wielkiego Septona. Wiara opiera się na objawieniach i prawdach zawartych w Siedmiopunktowej Gwieździe i kierowana jest przez Najbardziej Pobożnych oraz Wielkiego Septona."
+
+#Baelor Faith
+ fots_blessed:0 "Wiara Błogosławionego"
+ fots_blessed_adj:0 "Wiara Błogosławionego"
+ fots_blessed_adherent:0 "Wierny"
+ fots_blessed_adherent_plural:0 "Wierni"
+ fots_blessed_desc:0 "Baelor Błogosławiony był najbardziej pobożnym człowiekiem, jaki kiedykolwiek zasiadł na Żelaznym Tronie. To on zlecił budowę Wielkiego Septu jako nowej siedziby Wielkiego Septona i poprowadził królestwo ku najwierniejszym czynom. Ci, którzy kroczą jego śladami, chcą kontynuować jego wielkie dzieła w imię Siódemki."
+
+#Sword Faith
+ fots_sword:0 "Wiara Miecza"
+ fots_sword_adj:0 "Wiara Miecza"
+ fots_sword_adherent:0 "Wierny"
+ fots_sword_adherent_plural:0 "Wierni"
+ fots_sword_desc:0 "Gdy Andale przybyli do Westeros, przynieśli ze sobą ogień i żelazo, miecz i gwiazdę. Od tamtej pory Wierni zostali sprowadzeni na manowce, gdyż Wielki Septon i Najbardziej Pobożni uginają się teraz pod naciskiem polityki i cudzoziemców. Tylko przez Miecz Wiara odzyska łaskę Siódemki."
+
+#Pure Faith
+ fots_pure:0 "Wiara Czystych"
+ fots_pure_adj:0 "Wiara Czystych"
+ fots_pure_adherent:0 "Wierny"
+ fots_pure_adherent_plural:0 "Wierni"
+ fots_pure_desc:0 "Obecność Starych Bogów i Utopionego Boga splugawiła Wiernych. Gdy Ojciec przemówił do Hugora na Wzgórzu, czyż nie powiedział, że ziemie Westeros należą do Andalów i Wiernych? Tylko przez odrzucenie tych herezji i bluźnierstw Wierni mogą osiągnąć to, co Siódemka im przeznaczyła."
+
+#Old and New Faith
+ fots_oldnew:0 "Wiara Starych i Nowych"
+ fots_oldnew_adj:0 "Wiara Starych i Nowych"
+ fots_oldnew_adherent:0 "Wierny"
+ fots_oldnew_adherent_plural:0 "Wierni"
+ fots_oldnew_desc:0 "Na długo przed przybyciem Andalów, byli już tutaj Stari Bogowie i ich czardrzewa. Jednakże Starych i Nowych Bogów nie należy traktować jako przeciwieństw, ani jako oddzielnych bytów. Stari Bogowie byli sposobem, w jaki Siódemka-Jako-Jedno przemawiała do ludzi, zanim się im objawiła — a czardrzewa zawsze były dla nich święte."
+
+#Dorne Faith
+ fots_sands:0 "Wiara Piasków"
+ fots_sands_adj:0 "Wiara Piasków"
+ fots_sands_adherent:0 "Wierny"
+ fots_sands_adherent_plural:0 "Wierni"
+ fots_sands_desc:0 "Dorne od zawsze wyróżniało się w kontaktach z obcymi, a z Wiarą nie jest inaczej. Choć niemal wszyscy Dornijczycy należą do Wiernych, z wyjątkiem Sierot, nigdy nie poddali się zasadom i nakazom Najbardziej Pobożnych ani Wielkiego Septona jak reszta królestw. Czczą Siódemkę, ale nie porzucą swojego sposobu życia tylko dlatego, że septon z Reach tak mówi. Dlatego też Dornijczycy odłączyli się od Najbardziej Pobożnych i podążają za Siódemką-Jako-Jedno na swój własny sposób."
+
+#Axe Faith
+ fots_axe:0 "Wiara Topora"
+ fots_axe_adj:0 "Wiara Topora"
+ fots_axe_adherent:0 "Wierny"
+ fots_axe_adherent_plural:0 "Wierni"
+ fots_axe_desc:0 "Zanim przybyli do wzgórz Andalosu, Andale mieli pochodzić z ziem Topora. Ci, którzy powrócili, przynieśli ze sobą własną wersję Wiary — bliższą pierwotnej, nieskażoną wpływami cudzoziemców."
+
+#Scourged Faith
+ fots_scourged:0 "Wiara Smaganych"
+ fots_scourged_adj:0 "Wiara Smaganych"
+ fots_scourged_adherent:0 "Wierny"
+ fots_scourged_adherent_plural:0 "Wierni"
+ fots_scourged_desc:0 "Gdy Qarlon Wielki był ostatnim królem w Essos, ogłosił, że zjednoczy wszystkich Andalów kontynentu. Niestety jego kampanie zakończyły się w ogniu, lecz ocaleni zaczęli czcić nie tylko Siódemkę-Jako-Jedno, ale i legendę Króla Wszystkich Andalów."
+
+ #High Septon
+ highsepton:0 "Wielki Septon"
+ nick_high_septon:0 "Wielki Septon"

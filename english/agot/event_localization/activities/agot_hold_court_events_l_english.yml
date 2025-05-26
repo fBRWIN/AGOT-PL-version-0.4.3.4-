@@ -1,0 +1,36 @@
+﻿l_english:
+
+ # Gość proponuje podzielić się plotkami z pobliskiego obcego królestwa.
+ agot_hold_court.1001.t:0 "$hold_court_header$ Propozycja Najwyższego Władcy"
+ agot_hold_court.1001.desc:0 "Mój wasal [paramount_petitioner.GetTitledFirstName] zbliża się do mojego tronu i kłania głęboko.\n\n„Witaj, Wasza Mość. [paramount_title.GetName] nie ma obecnego włodarza niezależnego od korony. Chcę się zaoferować, by rządzić tym regionem w Twoim imieniu.”"
+ agot_hold_court.1001.a:0 "Będziesz nadzorować [paramount_title.GetName] w moim imieniu."
+ agot_hold_court.1001.b:0 "Przegrywasz! Nic nie dostaniesz! Dzień dobry, serze!"
+
+ agot_hold_court.1011.t:0 "$hold_court_header$ Krwawe granice"
+ agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] oskarża [defender_vassal.GetName] o nielegalne sprawowanie władzy nad ziemiami i wasalami, którzy powinni lojalnie służyć [aggressor_vassal.GetHerHim]. [vassal_claim.GetName] jest głównym przedmiotem sporu, gdyż twierdzi, że [defender_vassal_vassal.GetName], podlegający [defender_vassal.GetName], zaburzył równowagę w królestwie, a te ziemie i ich dochody powinny należeć do niego.\n\n"
+ agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] twierdzi, że [vassal_claim.GetName], którym włada [defender_vassal.GetName] i który jest mu bezpośrednio podległy, należy do ich terytorium de iure, i jest w najlepszym interesie królestwa, byś zwrócił je w ich ręce.\n\n"
+
+ agot_hold_court.1011.desc_historic_claimant:0 "Dodaje, że [defender_vassal.GetTitledFirstName] nawet nie jest prawowitym władcą [vassal_claim.GetName], gdyż przez wiele lat ród [dynasty.GetName] władał tym terenem w dobrej wierze wobec [aggressor_vassal.GetPrimaryTitle.GetName]. Proponuje więc, by ziemie te zostały przyznane [historic_claimant.GetName], którego rodzina została pozbawiona swoich historycznych posiadłości."
+ agot_hold_court.1011.desc_historic_same:0 "Ród [dynasty.GetName] jest tradycyjnym włodarzem [vassal_claim.GetName], więc [defender_vassal.GetName] ma prawo do tych ziem."
+ agot_hold_court.1011.desc_default:0 "[vassal_claim.GetName] [dynasty.GetName]."
+ agot_hold_court.1011.desc_paramount_titles:0 "Dla utrudnienia sprawy, [defender_vassal_vassal.GetTitledFirstName] posiada tytuły w całym królestwie."
+ agot_hold_court.1011.desc_titles:0 "Dla utrudnienia sprawy, [defender_vassal.GetTitledFirstName] posiada tytuły w całym królestwie."
+
+ agot_hold_court.1011.a.direct:0 "[defender_vassal.GetTitleAsNameNoTooltip] złoży ci hołd."
+ agot_hold_court.1011.a.indirect:0 "[defender_vassal_vassal.GetTitleAsNameNoTooltip] złoży ci hołd."
+ agot_hold_court.1011.b.direct:0 "Królestwo [defender_vassal.GetFirstNamePossessive] rozrosło się zbyt mocno i musi zostać podzielone."
+ agot_hold_court.1011.b.indirect:0 "Królestwo [defender_vassal_vassal.GetFirstNamePossessive] rozrosło się zbyt mocno i musi zostać podzielone."
+
+ agot_hold_court.1011.c:0 "Przejmę te nadmiarowe tytuły dla ciebie!"
+ agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] jest historycznie siedzibą rodu [historic_claimant.GetHouse.GetName], powinna przypaść [historic_claimant.GetFirstName]!"
+
+ ##################################################
+ # Pozbawiona ziemi postać prosi o zwrot ziemi
+ # Badger
+ # 1021 - 29
+ ##################################################
+
+ agot_hold_court.1021.t:0 "[historic_claimant.GetName]"
+ agot_hold_court.1021.desc:0 "Hej kolego, masz [claim_title.GetName], ale ród [dynasty.GetName] władał nią od dawna, a my nie mamy ziemi, może oddasz mi ją uwu"
+
+
